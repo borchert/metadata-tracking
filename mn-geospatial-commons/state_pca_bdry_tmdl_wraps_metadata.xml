@@ -1,0 +1,365 @@
+<metadata xml:lang="en">
+	<idinfo>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+		<descript>
+			<abstract>A polygon feature class used to map the spatial extent of Total Maximum Daily Load (TMDL) projects and Watershed Restoration and Protection Strategy (WRAPS) areas in Minnesota. MPCA water resource staff identified Total Maximum Daily Load (TMDL) and Watershed Restoration and Protection Strategy (WRAPS) project boundaries as a central data element for the agency. A team of staff from the MPCA Watershed Division and the MPCA Information Systems Office worked together to collect and store this data in a central repository and distribute it to MPCA partners as needed. The team designed a geospatial database, developed a user guide, and developed communication and distribution strategies for the database.The resulting geospatial database is maintained by the MPCA Watershed Division and polygons are included in the database for all EPA-approved TMDL/WRAPS projects.
+
+			</abstract>
+			<purpose>This new spatial database will give MPCA staff and external partners the ability to see the spatial extent of Minnesota TMDL/WRAPS projects in a GIS context. The database can also be used in spatial analysis operations with other spatial data layers that map features in the environment such as feedlots, surface water discharge locations, and riparian areas. The availability of this data should help to support collaboration between various organizations involved in water resource management and impaired waters issues in Minnesota.</purpose>
+			<supplinf>Minnesota</supplinf>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>Minnesota Pollution Control Agency</origin>
+				<title>Total Maximum Daily Load (TMDL) and Watershed Restoration and Protection Strategy (WRAPS) Project Boundaries</title>
+				<geoform>vector digital data</geoform>
+				<onlink>http://gisdata.mn.gov/dataset/bdry-tmdl-wraps</onlink>
+				<pubinfo>
+					<publish>Minnesota Pollution Control Agency</publish>
+				</pubinfo>
+			</citeinfo>
+		</citation>
+		<status>
+			<update>As needed</update>
+			<progress>Complete</progress>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-96.606545</westbc>
+				<eastbc>-92.537488</eastbc>
+				<northbc>46.379784</northbc>
+				<southbc>43.493256</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekey>Environment, inlandWaters, TMDL, WRAPS, Impaired Waters, water quality, water quality project boundaries</themekey>
+			</theme>
+			<place>
+				<placekey>Minnesota</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Redistribution Conditions: If you obtain data from the MPCA, it is understood that you and/or your organization have the right to use them for any internal purpose. If you modify them, you should document those changes in a metadata record that should accompany all redistributed data. If you transmit or provide these data in any form to another user, the data should be accompanied by all documentation provided with the original data set including the full metadata record.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Minnesota Pollution Control Agency</cntorg>
+					<cntper>Thomas Pearson</cntper>
+				</cntperp>
+				<cntaddr>
+					<address>520 Lafayette Rd N</address>
+					<city>Saint Paul</city>
+					<state>MN</state>
+					<postal>55155</postal>
+				</cntaddr>
+				<cntvoice>651-757-2644</cntvoice>
+				<cntemail>thomas.pearson@state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3143</envirDesc>
+		<dataLang>
+			<languageCode value="eng" />
+			<countryCode value="USA" />
+		</dataLang>
+		<idCitation>
+			<resTitle>tmdl_wraps_bnds</resTitle>
+			<presForm>
+				<PresFormCd value="005" />
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd value="001" />
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL>222373.9715</westBL>
+					<eastBL>535568.1834</eastBL>
+					<northBL>5136245.5318</northBL>
+					<southBL>4821321.4133</southBL>
+					<exTypeCode>1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL>-96.606545</westBL>
+			<eastBL>-92.537488</eastBL>
+			<northBL>46.379784</northBL>
+			<southBL>43.493256</southBL>
+			<exTypeCode>1</exTypeCode>
+		</geoBox>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="search">
+					<exTypeCode>1</exTypeCode>
+					<westBL>-96.864654</westBL>
+					<eastBL>-91.079944</eastBL>
+					<northBL>47.694373</northBL>
+					<southBL>43.441314</southBL>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<idPurp>A polygon feature class used to map the spatial extent of total maximum daily load (TMDL) projects and watershed restoration and protection strategy (WRAPS) areas in Minnesota, USA.</idPurp>
+		<idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P STYLE="text-indent:20;margin:0 96 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;MPCA water resource staff identified Total Maximum Daily Load (TMDL) and Watershed Restoration and Protection Strategy (WRAPS) project boundaries as a central data element for the agency. A team of staff from the MPCA Watershed Division and the MPCA Information Systems Office worked together to collect and store this data in a central repository and distribute it to MPCA partners as needed. The team designed a geospatial database, developed a user guide, and developed communication and distribution strategies for the database.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="margin:0 96 0 0;"&gt;&lt;SPAN /&gt;&lt;SPAN /&gt;&lt;/P&gt;&lt;P STYLE="margin:0 96 0 0;"&gt;&lt;SPAN /&gt;&lt;/P&gt;&lt;P STYLE="text-indent:20;margin:0 96 0 0;"&gt;&lt;SPAN&gt;The resulting geospatial database is maintained by the MPCA Watershed Division and polygons are included in the database for all EPA-approved TMDL/WRAPS projects. Where possible, polygons are taken from existing published geospatial data layers but new delineations can be included when necessary. Polygon boundaries typically follow hydrologic watershed delineations but in certain cases TMDL/WRAPS projects are defined by administrative boundaries, such as Watershed Districts or Watershed Management Organizations, especially in the Twin Cities Metropolitan Area. New polygons are added to the database using the &#65533;append&#65533; [no_test] command in ArcGIS. Attribute information is added for each polygon including the organization that created the data, creation date, date submitted to MPCA, and a series of identification codes that allow the database to be linked to other MPCA databases. If a new revised polygon is added that replaces an older polygon for the same project, the older version is saved and coded as &#65533;inactive.&#65533;&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="margin:0 96 0 0;"&gt;&lt;SPAN /&gt;&lt;/P&gt;&lt;P STYLE="margin:0 96 0 0;"&gt;&lt;SPAN /&gt;&lt;/P&gt;&lt;P STYLE="text-indent:20;margin:0 96 0 0;"&gt;&lt;SPAN&gt;This new spatial database will give MPCA staff and external partners the ability to see the spatial extent of Minnesota TMDL/WRAPS projects in a GIS context. The database can also be used in spatial analysis operations with other spatial data layers that map features in the environment such as feedlots, surface water discharge locations, and riparian areas. The availability of this data should help to support collaboration between various organizations involved in water resource management and impaired waters issues in Minnesota.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN /&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+		<idCredit>Minnesota Pollution Control Agency (MPCA)
+520 Lafayette Road,
+Saint Paul, Minnesota 55155</idCredit>
+		<themeKeys>
+			<keyword>TMDL, WRAPS, Impaired Waters, MPCA</keyword>
+		</themeKeys>
+		<tpCat>
+			<TopicCatCd value="003" />
+		</tpCat>
+		<tpCat>
+			<TopicCatCd value="007" />
+		</tpCat>
+		<tpCat>
+			<TopicCatCd value="012" />
+		</tpCat>
+	</dataIdInfo>
+	<metainfo>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<mettc>local time</mettc>
+		<metd>20130916</metd>
+		<metextns>
+			<onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+		</metextns>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>MN.IT Services at Minnesota Pollution Control Agency</cntorg>
+					<cntper>David Fawcett</cntper>
+				</cntorgp>
+				<cntpos>GIS Database Administrator</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical</addrtype>
+					<address>520 Lafayette Road</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55155</postal>
+				</cntaddr>
+				<cntvoice>651-757-2350</cntvoice>
+				<cntemail>david.fawcett@state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<mdLang>
+		<languageCode value="eng" />
+		<countryCode value="USA" />
+	</mdLang>
+	<mdChar>
+		<CharSetCd value="005" />
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd value="005" />
+	</mdHrLv>
+	<mdHrLvName>dataset</mdHrLvName>
+	<distinfo>
+		<resdesc>tmdl_wraps_bnds</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.020</transize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+		<distliab>Limitations: Although extensive effort has been made to produce error-free and complete data, all geographic information has limitations due to the scale, resolution, date and interpretation of the original source materials. Users should consult available data documentation (metadata) for this particular data to determine limitations and the precision to which the data depict distance, direction, location or other geographic characteristics. Data may be subject to change without prior notification.
+
+No warranty: Data is provided "as is," without any warranty whatsoever, including but not limited to any warranty as to performance, merchantability or fitness for any particular purpose.
+
+Liability: The entire risk as to the results of the use of this data is assumed by the user. The MPCA is not responsible for any interpretation or conclusions made by those who acquire or use it. The MPCA shall not be liable for any direct, indirect, special, incidental, compensatory or consequential damages or third-party claims resulting from the use of this data, even if the MPCA has been advised of the possibility of such potential loss or damage. In states that do not allow the exclusion or limitation of incidental or consequential damages, this data may not be used. Redistribution conditions: In obtaining this data from the MPCA, it is understood that individuals or organizations have the right to use it for any internal purpose. If data is modified, changes should be documented in a metadata record that should accompany all redistributed data. If data is transmitted or provided in any form to another user, the data should be accompanied by a copy of this disclaimer and all documentation provided with the original data set, including the full metadata record. 
+
+Data delivered on electronic media: If data has been requested from the MPCA on magnetic media, CD or any other physical media, the MPCA will deliver it in the computer-readable format agreed upon with the requestor. The MPCA will reissue data if it is unreadable by correctly adjusted computer input devices or when the media is delivered in a damaged condition. Requests for reissue of this digital data product must be made within 30 days of the date shipped from the MPCA.</distliab>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>MN.IT Services at Minnesota Pollution Control Agency</cntorg>
+					<cntper>David Fawcett</cntper>
+				</cntperp>
+				<cntpos>GIS Database Administrator</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical</addrtype>
+					<address>520 Lafayette Road</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55155</postal>
+				</cntaddr>
+				<cntvoice>651-757-2350</cntvoice>
+				<cntemail>david.fawcett@state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orDesc>002</orDesc>
+					<linkage>file://\\XP-1421791\D$\tmdlStudyAreas.gdb</linkage>
+					<protocol>Local Area Network</protocol>
+				</onLineSrc>
+				<transSize>0.020</transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName>File Geodatabase Feature Class</formatName>
+			</distorFormat>
+		</distributor>
+		<distFormat>
+			<formatName>Shapefile</formatName>
+		</distFormat>
+		<distTranOps>
+			<transSize>0.000</transSize>
+		</distTranOps>
+	</distInfo>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf />
+	</spdoinfo>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode code="26915" value="26915">NAD_1983_UTM_Zone_15N</identCode>
+				<idCodeSpace>EPSG</idCodeSpace>
+				<idVersion>7.11.2</idVersion>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<geometObjs>
+				<geoObjTyp>
+					<GeoObjTypCd value="002" />
+				</geoObjTyp>
+				<geoObjCnt>0</geoObjCnt>
+			</geometObjs>
+			<topLvl>
+				<TopoLevCd value="001" />
+			</topLvl>
+		</VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>tmdl_wraps_bnds</enttypl>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Leng</attrlabl>
+				<attrdef>Length of feature boundary in internal units.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>prj_name</attrlabl>
+				<attrdef>TMDL or WRAPS Project Name</attrdef>
+				<attrdefs>MPCA</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>tmdl_id</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>prj_id</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>prg_int_id</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>prj_doc_id</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>createDate</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>data_org</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>data_descr</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>submitDate</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>status</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>statusDate</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>delta_name</attrlabl>
+			</attr>
+		</detailed>
+		<overview>
+			<eaover>Attribute information for each polygon includes the organization that created the data, creation date, date submitted to MPCA, and a series of identification codes that allow the database to be linked to other MPCA databases.</eaover>
+		</overview>
+	</eainfo>
+	<mdDateSt>20130812</mdDateSt>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>A team of staff from the MPCA Watershed Division and the MPCA Information Systems Office worked together to collect and store this data in a central repository and distribute it to MPCA partners as needed. The team designed a geospatial database, developed a user guide, and developed communication and distribution strategies for the database.The resulting geospatial database is maintained by the MPCA Watershed Division and polygons are included in the database for all EPA-approved TMDL/WRAPS projects.
+
+Where possible, polygons are taken from existing published geospatial data layers but new delineations can be included when necessary. Polygon boundaries typically follow hydrologic watershed delineations but in certain cases TMDL/WRAPS projects are defined by administrative boundaries, such as Watershed Districts or Watershed Management Organizations, especially in the Twin Cities Metropolitan Area. New polygons are added to the database using the "Append" [no_test] command in ArcGIS. Attribute information is added for each polygon including the organization that created the data, creation date, date submitted to MPCA, and a series of identification codes that allow the database to be linked to other MPCA databases. If a new revised polygon is added that replaces an older polygon for the same project, the older version is saved and coded as "Inactive".</procdesc>
+				<srcused>\\XP-1421791\D$\tmdlStudyAreas.gdb</srcused>
+				<procdate>20081222</procdate>
+				<proctime>16230000</proctime>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<mdContact>
+		<rpIndName>Thomas Pearson</rpIndName>
+		<rpOrgName>Minnesota Pollution Control Agency</rpOrgName>
+		<rpPosName>Research Analyst</rpPosName>
+	</mdContact>
+	<mdMaint>
+		<maintFreq>
+			<MaintFreqCd value="009" />
+		</maintFreq>
+	</mdMaint>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>Universal Transverse Mercator</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+				</gridsys>
+				<planci>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+	</spref>
+</metadata>

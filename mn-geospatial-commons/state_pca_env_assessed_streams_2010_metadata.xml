@@ -1,0 +1,360 @@
+<metadata xml:lang="en">
+	<idinfo>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+		<descript>
+			<abstract>These are the streams assessed by MPCA in 2009 for the 2010 reporting cycling to EPA. The streams are a subset and enhancement of the 1:24,000 scale National Hydrography Dataset (NHD). MPCA adds additional streams. Since the assessed streams are a small subset of the NHD streams, only that subset is included in the dataset.</abstract>
+			<purpose>The data set was created as part of the Minnesota Pollution Control Agency's Environmental Data Access System, which allows for public access to surface water monitoring data.</purpose>
+			<supplinf>State of Minnesota</supplinf>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>Minnesota Pollution Control Agency</origin>
+				<pubdate>20120308</pubdate>
+				<title>2010 Stream Assessments</title>
+				<geoform>vector digital data</geoform>
+				<onlink>http://gisdata.mn.gov/dataset/env-assessed-streams-2010</onlink>
+				<pubinfo>
+					<publish>Minnesota Pollution Control Agency</publish>
+				</pubinfo>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20120308</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None Planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-96.833053</westbc>
+				<eastbc>-89.499271</eastbc>
+				<northbc>49.025331</northbc>
+				<southbc>43.435437</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekey>surface water, water chemistry, water quality</themekey>
+			</theme>
+			<place>
+				<placekey>Minnesota</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<browse>
+			<browsen>None available</browsen>
+			<browsed />
+		</browse>
+		<crossref>
+			<citeinfo>
+				<title>Minnesota 2010 Surface Water Quality Assessments - Streams</title>
+			</citeinfo>
+		</crossref>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Minnesota Pollution Control Agency</cntorg>
+					<cntper>Kris Parson</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<address>520 Lafayette Road</address>
+					<city>St Paul</city>
+					<state>MN</state>
+					<postal>55155</postal>
+				</cntaddr>
+				<cntvoice>(651) 757-2639</cntvoice>
+				<cntfax>(651) 282-5446</cntfax>
+				<cntemail>kristofor.parson@state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</envirDesc>
+		<dataLang>
+			<languageCode value="en" />
+			<countryCode value="US" />
+		</dataLang>
+		<idCitation>
+			<resTitle>assessed_2010_streams</resTitle>
+			<presForm>
+				<PresFormCd value="005" />
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd value="001" />
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL>189777.1503</westBL>
+					<eastBL>755900.6462</eastBL>
+					<northBL>5436176.4889</northBL>
+					<southBL>4816310.339</southBL>
+					<exTypeCode>1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL>-97.241921</westBL>
+			<eastBL>-89.499264</eastBL>
+			<northBL>49.078448</northBL>
+			<southBL>43.43543</southBL>
+			<exTypeCode>1</exTypeCode>
+		</geoBox>
+	</dataIdInfo>
+	<metainfo>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<mettc>local time</mettc>
+		<metd>20120308</metd>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Minnesota Pollution Control Agency</cntorg>
+					<cntper>Kris Parson</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<address>520 Lafayette Road North</address>
+					<city>St Paul</city>
+					<state>MN</state>
+					<postal>55155</postal>
+				</cntaddr>
+				<cntvoice>(651) 757-2639</cntvoice>
+				<cntfax>(651) 282-5446</cntfax>
+				<cntemail>kristofor.parson@state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<mdLang>
+		<languageCode value="en" />
+		<countryCode value="US" />
+	</mdLang>
+	<mdStanName>ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer>DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd value="004" />
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd value="005" />
+	</mdHrLv>
+	<mdHrLvName>dataset</mdHrLvName>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>12.423</transize>
+					<formname>Shapefile</formname>
+					<formvern />
+				</digtinfo>
+			</digform>
+		</stdorder>
+		<distliab>NOTICE: The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13). THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by the Minnesota Pollution Control Agnecy for its own internal business purposes. The Minnesota Pollution Control Agency does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, the GIS Data must include a copy of this disclaimer.</distliab>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Minnesota Pollution Control Agency</cntorg>
+					<cntper>Kris Parson</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<address>520 Lafayette Road</address>
+					<city>St Paul</city>
+					<state>MN</state>
+					<postal>55125</postal>
+				</cntaddr>
+				<cntvoice>(651) 757-2639</cntvoice>
+				<cntfax>(651) 282-5446</cntfax>
+				<cntemail>kristofor.parson@state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orDesc>002</orDesc>
+					<linkage>file://\\s-sp07\rdrive\mpca\assessed_2010_streams.shp</linkage>
+					<protocol>Local Area Network</protocol>
+				</onLineSrc>
+				<transSize>21.488</transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName>Shapefile</formatName>
+			</distorFormat>
+		</distributor>
+		<distFormat>
+			<formatName>Shapefile</formatName>
+		</distFormat>
+		<distTranOps>
+			<transSize>0.000</transSize>
+		</distTranOps>
+	</distInfo>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<indspref />
+		<mgmg3obj>line</mgmg3obj>
+		<mgmg3til />
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>String</sdtstype>
+				<ptvctcnt>1769</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode value="26915">NAD_1983_UTM_Zone_15N</identCode>
+				<idCodeSpace>EPSG</idCodeSpace>
+				<idVersion>7.4.1</idVersion>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd value="001" />
+			</topLvl>
+			<geometObjs>
+				<geoObjTyp>
+					<GeoObjTypCd value="001" />
+				</geoObjTyp>
+				<geoObjCnt>1769</geoObjCnt>
+			</geometObjs>
+		</VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>assessed_2010_streams</enttypl>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>AUID</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>REACH_NAME</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>REACH_DESC</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>USE_CLASS</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>MILES</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>AQL</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>AQC</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>AQR</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>DW</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>CLASS7</attrlabl>
+			</attr>
+		</detailed>
+		<overview>
+			<eaover>All streams contained in this shapefile are included in the 2010 surface water quality assessments prepared by the Minnesota Pollution Control Agency.</eaover>
+			<eadetcit>AUID:  Assessment Unit ID constitutes a unique identifer for each stream segement in the dataset. 
+
+REACH_NAME: Name of the waterbody associated with the AUID. 
+
+REACH_DESC: Text description of beginning and end points of the AUID.
+
+USE_CLASS: Use class per MN Rule 7050.0470
+
+MILES: Length of AUID in miles.
+
+AQC: Aquatic Consumption Assessment
+  IF: Insufficient Information for an assessment
+  NA: Not Assessed
+  NS: Not Supporting aquatic consumption use
+
+AQL: Aquatic Life Assessment
+  FS: Fully Supporting aquatic life use
+  IF: Insufficient Information for an assessment
+  NA: Not Assessed
+  NS: Not Supporting aquatic life use
+
+AQR: Aquatic Recreation Assessment
+  FS: Fully Supporting aquatic recreation use
+  IF: Insufficient Information for an assessment
+  NA: Not Assessed
+  NS: Not Supporting aquatic recreation use
+
+DW: Drinking Water Assessment
+  IF: Insufficient Information for an assessment
+  NA: Not Assessed
+  NS: Not Supporting drinking water use
+
+CLASS7: Limited Resource Value Waters Assessment
+  IF: Insufficient Information for an assessment
+  NA: Not Assessed
+  NS: Not Supporting limited resource value waters use</eadetcit>
+		</overview>
+	</eainfo>
+	<mdDateSt>20120308</mdDateSt>
+	<dataqual>
+		<attracc>
+			<attraccr>These data have been approved by US EPA.</attraccr>
+		</attracc>
+		<lineage>
+			<srcinfo>
+				<srcscale>24000</srcscale>
+			</srcinfo>
+		</lineage>
+	</dataqual>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>Universal Transverse Mercator</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+				</gridsys>
+				<planci>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+	</spref>
+</metadata>

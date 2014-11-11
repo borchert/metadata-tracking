@@ -1,0 +1,188 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Minnesota Department of Agriculture</origin>
+				<title>AgroEcoregions</title>
+				<pubinfo>
+					<publish>Minnesota Department of Agriculture</publish>
+				</pubinfo>
+				<pubdate>01012005</pubdate>
+				<onlink>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_mda/agri_agroecoregions.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Minnesota has 39 agroecoregions. Each agroecoregion is associated with a specific combination of soil types, landscape and climatic features, and landuse. Agroecoregions are units having relatively homogeneous climate, soil and landscapes, and land use/land cover. Agroecoregions can be associated with a specific set of soil and water resource concerns, and with a specific set of management practices to minimize the impact of land use activities on soil and water resource quality. (http://www.soils.umn.edu/research/soilandwater_quality.php) </abstract>
+			<purpose>General agricultural resource planning</purpose>
+			<supplinf>Statewide</supplinf>
+		</descript>
+		<spdom>
+			<lboundng>
+				<leftbc Sync="FALSE">189783.560000</leftbc>
+				<rightbc Sync="FALSE">761653.524114</rightbc>
+				<bottombc Sync="FALSE">4816309.330000</bottombc>
+				<topbc Sync="FALSE">5472346.500000</topbc>
+			</lboundng>
+			<bounding>
+				<westbc>-97.5</westbc>
+				<eastbc>-89.0</eastbc>
+				<northbc>49.5</northbc>
+				<southbc>43.0</southbc>
+			</bounding>
+		</spdom>
+		<accconst>None.</accconst>
+		<useconst>By acceptance of this data, the user agrees to include a copy of this metadata record, including the liability disclaimer, whenever the user transmits or provides the GIS Data (or any portion of it) to another user.</useconst>
+		<browse>
+			<browsen>None available</browsen>
+		</browse>
+		<timeperd>
+			<current>Precise currency of the data set is unknown.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>-9999</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None Planned</update>
+		</status>
+		<keywords>
+			<place>
+				<placekey>Minnesota</placekey>
+			</place>
+		</keywords>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Minnesota Department of Agriculture</cntorg>
+					<cntper>Karl Hillstrom</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist, MN.IT</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical</addrtype>
+					<address>625 Robert Street North</address>
+					<city>Saint Paul</city>
+					<state>MN</state>
+					<postal>55155</postal>
+				</cntaddr>
+				<cntvoice>651-201-6087</cntvoice>
+				<cntfax>651-201-6102</cntfax>
+				<cntemail>Karl.Hillstrom@state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>This dataset was originally developed by the University of Minnesota. Questions about its lineage should be addressed to Barbara Weisman or Dr. David Mulla.</procdesc>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>Unknown.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>N/A</vertaccr>
+			</vertacc>
+		</posacc>
+	</dataqual>
+	<spdoinfo>
+		<indspref>Not Applicable</indspref>
+		<direct>vector</direct>
+		<mgmg3obj>polygon</mgmg3obj>
+		<mgmg3til />
+	</spdoinfo>
+	<metainfo>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+		</metextns>
+		<metd>20130822</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Minnesota Department of Agriculture</cntorg>
+					<cntper>Karl Hillstrom</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist, MN.IT</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical</addrtype>
+					<address>625 Robert Street North</address>
+					<city>Saint Paul</city>
+					<state>MN</state>
+					<postal>55155</postal>
+				</cntaddr>
+				<cntvoice>651-201-6087</cntvoice>
+				<cntfax>651-201-6102</cntfax>
+				<cntemail>Karl.Hillstrom@state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<distinfo>
+		<resdesc>agroecoregions</resdesc>
+		<distliab>This data was developed by the Minnesota Department of Agriculture (MDA) for its own internal business purposes. MDA DOES NOT REPRESENT OR WARRANT THAT THE DATA OR DOCUMENTATION ARE ERROR-FREE, COMPLETE, CURRENT, OR ACCURATE. The user accepts the data 'as is', and is responsible for any consequences resulting from its use. The user should consult the data documentation for this particular data to determine its limitations and the precision with which it may depict distance, direction, location, or other geographic features. By accepting this data, the user agrees not to transmit this data or provide access to it or any part of it to another party unless the user shall include with the data a copy of this disclaimer.</distliab>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Minnesota Department of Agriculture</cntorg>
+					<cntper>Karl Hillstrom</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist, MN.IT</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical</addrtype>
+					<address>625 Robert Street North</address>
+					<city>Saint Paul</city>
+					<state>MN</state>
+					<postal>55155</postal>
+				</cntaddr>
+				<cntvoice>651-201-6087</cntvoice>
+				<cntfax>651-201-6102</cntfax>
+				<cntemail>Karl.Hillstrom@state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>dataset</enttypl>
+			</enttyp>
+			<attr>
+				<attrlabl>REG_ID</attrlabl>
+				<attrdef>Unique record code for each region polygon in the data set.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>CODE</attrlabl>
+				<attrdef>Numeric code unique to the name/type of region. This code could be use to create unique multi-part polygons for the dataset.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>NAME</attrlabl>
+				<attrdef>Descriptive text of the region.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>LEGEND</attrlabl>
+				<attrdef>Concatenation of the code and name for a legend.</attrdef>
+			</attr>
+		</detailed>
+	</eainfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>Universal Transverse Mercator</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+				</gridsys>
+				<planci>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+	</spref>
+</metadata>

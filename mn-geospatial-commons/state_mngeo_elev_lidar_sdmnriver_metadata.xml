@@ -1,0 +1,259 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Minnesota Department of Natural Resources</origin>
+				<title>LiDAR Elevation, South Dakota Portion of Minnesota River Basin, 2010</title>
+				<pubinfo>
+					<publish>Minnesota Department of Natural Resources</publish>
+				</pubinfo>
+				<pubdate>2011</pubdate>
+				<onlink>http://www.dnr.state.mn.us/maps/mntopo/index.html</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The Minnesota Department of Natural Resources contracted with Sanborn Map Co., Inc. to provide Light Detection and Ranging (LiDAR) mapping services for the South Dakota portion of the Minnesota River Basin. Utilizing multi-return systems, LiDAR data in the form of 3-dimensional positions of a dense set of mass points was collected for approximately 1,946 square miles.
+
+The vendor delivered the data to the DNR in several formats:
+
+1) One-meter digital elevation model
+2) Edge-of-water breaklines
+3) Classified LAS formatted point cloud data
+
+DNR staff created three additional products: two-foot contours, building outlines and hillshades.
+
+The data are in UTM Zone 14 coordinates.
+
+Note: This metadata record was created at the Minnesota Geospatial Information Office by combining information supplied by Sanborn and the DNR.</abstract>
+			<purpose>This LIDAR operation was designed to provide a high density set of masspoints within the defined areas. The data sets are suitable for the development of contours for use in hydraulic/hydrologic model development, and for assessing environmental impacts.Typical uses for the data set include: FEMA Flood Plain Map Modernization. DFIRM map updates. Watersheds and other hydro studies per FEMA specifications. County Mapping projects which include several uses, in addition to Flood mitigation assessment. Mapping projects that include accuracy verification, reporting and meta data.</purpose>
+			<supplinf>South Dakota portion of the Minnesota River Basin; see map: ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/projects/mn_river_basin_south_dakota/metadata/project_phases.pdf</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>201011</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>November 2-8, 2010</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None Planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-97.4066</westbc>
+				<eastbc>-96.4378</eastbc>
+				<northbc>45.9374</northbc>
+				<southbc>44.4062</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<place>
+				<placekey>Minnesota River Basin, SD, South Dakota, Minnesota River</placekey>
+			</place>
+			<theme>
+				<themekey>elevation, LiDAR, DEM, digital elevation model, contour, topographic, topo, DTM, LAS, breakline</themekey>
+				<themekt>ISO 19115</themekt>
+			</theme>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Any conclusions drawn from analysis of this information are not the responsibility of Sanborn Map Company. Users should be aware that temporal changes may have occurred since this dataset was collected and some parts of this dataset may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations.
+
+MnGeo: See Disclaimer field for complete use conditions.</useconst>
+		<crossref>
+			<citeinfo>
+				<title>A project_boundary shapefile is available at:  ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/projects/mn_river_basin_south_dakota/
+
+For more information about elevation data for Minnesota, see: http://www.mngeo.state.mn.us/chouse/elevation/index.html </title>
+			</citeinfo>
+		</crossref>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Sanborn Map Company, Inc.</cntorg>
+					<cntper>Sean Morgan</cntper>
+				</cntperp>
+				<cntpos>LiDAR Production Manager</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical</addrtype>
+					<address>1935 Jamboree Dr.</address>
+					<address>Suite 100</address>
+					<city>Colorado Springs</city>
+					<state>CO</state>
+					<postal>80920</postal>
+				</cntaddr>
+				<cntvoice>719-264-5513</cntvoice>
+				<cntfax>719-528-5093</cntfax>
+				<cntemail>smorgan@sanborn.com</cntemail>
+				<cntinst>8:00 AM - 5:00 PM MST</cntinst>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<metainfo>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+		</metextns>
+		<metd>20140429</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+					<cntper>Nancy Rader</cntper>
+				</cntperp>
+				<cntpos>GIS Data Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical</addrtype>
+					<address>658 Cedar Street, Room 300</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55155</postal>
+				</cntaddr>
+				<cntvoice>651-201-2489</cntvoice>
+				<cntfax>651-296-6398</cntfax>
+				<cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>SANBORN PROCESSING INFORMATION
+
+Data Collection:
+Using a Leica Light Detection And Ranging (LiDAR) system, 135 flight lines of standard density (1.4 meter ground sample distance) data were collected over areas in South Dakota, (approximately 1,946 square miles). Multiple returns were recorded for each laser pulse along with an intensity value for each return. The data acquisition occurred in 11 missions between November 02, 2010, and November 08, 2010. During the LIDAR campaign, the field crew conducted a GPS field survey to establish final coordinates of the ground base stations for final processing of the base-remote GPS solutions.
+
+Airborne GPS Processing:
+Airborne GPS data was differentially processed and integrated with the post processed IMU data to derive a Smoothed Best Estimate of Trajectory (SBET). The SBET was used to reduce the LiDAR slant range measurements to a raw reflective surface for each flight line. The overlap between flight lines was removed to provide a homogeneous coverage, and the coverage was classified to extract a bare earth digital elevation model (DEM). Airborne GPS is differentially processed using the GrafNAV V7.50 software by Waypoint Consulting of Calgary, Alberta, Canada. The PDOP and distance separation is as follows: The classification and quality control (QC) of LiDAR data is carried out using TerraScan software by Terrasolid Limited of Helinski, Finland.
+
+IMU data Processing:
+IMU data provides information concerning roll, pitch and yaw of collection platform during collection event. IMU information allows the pulse vector to be properly placed in 3D space allowing the distance from the aircraft reference point to be properly positioned on the elevation model surface. The IMU data is processed using the PosPac V4.2 software by Applanix Corporation of Richmond Hill, Ontario, Canada. The reflective surface is derived using the ALS Post Processor software by Leica Geosystems GIS &amp; Mapping Division of Atlanta, Georgia.
+
+LIDAR Point Classification:
+The classification and quality control (QC) of LiDAR data is carried out using TerraScan software by Terrasolid Limited of Helinski, Finland.
+
+DEMs created from Bare Earth (ground only) LiDAR points.
+
+Sanborn's final project report summarizes the methods used to establish the base station coordinate check, perform the LiDAR data collection and post-processing as well as the results of these methods. The report is online here: ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/projects/mn_river_basin_south_dakota/metadata/
+
+
+DNR PROCESSING INFORMATION
+
+Additional products generated by Minnesota DNR staff are in the geodatabase for each of the tiles:
+
+1. Two-foot contours were created by resampling the 1-meter DEM to 3 meters, then smoothing the 3-meter grid using a neighborhood average routine, and then creating contours from this surface using standard ArcGIS processing tools.
+
+2. Building outlines were created by extracting from the LAS files those points with Classification 6 (buildings), then grouping those points within 3 meters of each other into a single cluster and then creating an outline around those points. This was done using standard ArcMap tools.
+
+3. Hillshades were created from the one- and three-meter DEMs using standard ArcMap tools. Azimuth value = 215, Altitude = 45, Z-Factor = 1 
+
+
+NOTE ON COORDINATES:
+- These tiles are wholly in South Dakota and so are in UTM Zone 14.
+- Tiles from the adjoining Minnesota River Acquisition in Minnesota ( http://www.mngeo.state.mn.us/chouse/metadata/lidar_swmn2010.html ) are in UTM Zone 15. This includes all of the tiles that intersect the Minnesota/South Dakota border.
+				</procdesc>
+			</procstep>
+		</lineage>
+		<logic>Individual LAS files' existence verified and reported in qaqcreport.txt files for east_central, north and west_central portions of project area.</logic>
+		<complete>Complete</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>.09 meters RMSE (Root Mean Square Error)</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>Accuracy reported by Sanborn:  .015 meters RMSE (Root Mean Square Error)
+
+Minnesota Dept. of Natural Resources staff independently tested the vertical accuracy and reported a Mean Squared Error of 0.025 meters and a Z-RMSE of 0.159 meters. Their full report is online: ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/projects/mn_river_basin_south_dakota/sd_validation_report.pdf</vertaccr>
+			</vertacc>
+		</posacc>
+	</dataqual>
+	<spdoinfo>
+		<indspref>Not Applicable</indspref>
+		<direct />
+		<mgmg3obj />
+		<mgmg3til />
+	</spdoinfo>
+	<eainfo>
+		<overview>
+			<eaover>Classes: 
+1 - Unclassified (Processed) 
+2 - Bare-Earth Ground 
+4 - Vegetation (low, medium, and high) 
+6 - Buildings, Bridges, and other man-made Structures 
+7 - Noise (Low or High Points) 
+8 - Model Key Point 
+9 - Water 
+10 - Ignored Ground (Breakline Proximity, within 1.4m) 
+
+1 meter cell size - bare earth digital elevation model (DEM).</eaover>
+			<eadetcit>USGS NGP Lidar Guidelines and Base Specification Version 13</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<resdesc>South Dakota portion of Minnesota River Basin LiDAR 2010</resdesc>
+		<distliab>1. The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html 
+
+2. MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab>
+		<stdorder>
+			<ordering>The LiDAR data provided by DNR may be viewed online or downloaded in several ways:
+
+1. MnTOPO website: http://www.dnr.state.mn.us/maps/mntopo/index.html (or click the link below in the Online Linkage field)
+
+- view data online
+- download data in Esri and open formats (tiles for most data formats will be mosaicked together during download)
+- see the help file for details: http://files.dnr.state.mn.us/aboutdnr/gis/mntopo/mntopo_help_document.pdf
+
+2. MnGeo's FTP site
+
+a. Files are in folders divided by area at: ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/projects/mn_river_basin_south_dakota/
+The boundaries for the areas are shown on this map: ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/projects/mn_river_basin_south_dakota/sd_mnriver_lidar_project_area_map.pdf
+Except for the area files (elevation_data.gdb.zip), tiles will not be mosaicked.
+
+b. In the 250k tiles folder: ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/q250k/
+Use the tile_index.pdf maps to locate the tiles you need.
+
+
+For more help with Minnesota's LiDAR data, see http://www.mngeo.state.mn.us/chouse/elevation/lidar.html</ordering>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+					<cntper>Nancy Rader</cntper>
+				</cntperp>
+				<cntpos>GIS Data Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical</addrtype>
+					<address>658 Cedar Street, Room 300</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55155</postal>
+				</cntaddr>
+				<cntvoice>651-201-2489</cntvoice>
+				<cntfax>651-296-6398</cntfax>
+				<cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>Universal Transverse Mercator</gridsysn>
+					<utm>
+						<utmzone>14</utmzone>
+					</utm>
+				</gridsys>
+				<planci>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+	</spref>
+</metadata>
