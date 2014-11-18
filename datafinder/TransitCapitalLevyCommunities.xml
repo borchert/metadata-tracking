@@ -1,0 +1,215 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<title catid="4d5c9c10-c004-4f3e-b7af-9a1dc07cd256">Transit Capital Levy Communities 2013</title>
+				<origin>Metropolitan Council</origin>
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<pubdate>Periodically revised</pubdate>
+				<onlink>ftp://gisftp.metc.state.mn.us/TransitCapitalLevyCommunities.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>NOTE:  As part of the Omnibus Tax Bill which was listed as 2001 Special Session, Chapter 5, the transit taxing district is no longer used for tax assessment purposes.
+
+The Transit Capital Levy Communities dataset includes all the communities in the transit taxing district on 1/1/2001 AND communities that have come to an agreement with the Metropolitan Council to levy in their community for transit capital.  The transit taxing district was the area in which all taxable property was assessed a tax to be used for payment of transit and paratransit services per Minn. Stat. 473.446.  This area was comprised of whole cities, townships and unorganized territories.</abstract>
+			<purpose>To depict the extent of the community where the Metropolitan Council levies for transit capital for general mapping and analysis purposes.</purpose>
+			<supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20140701</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>The transit capital levy communities dataset includes all communities as of the time period of content date above.   Recent additions to the Transit Capital Levy Communities: Lakeville (2009), Forest Lake (2010), Columbus (2010), Maple Plain (2011), Ramsey (2013).  
+
+The city and township boundaries used to create this dataset were derived from the metro wide city and township boundary dataset described at http://www.datafinder.org/metadata/CountiesAndCTUs.htm That dataset is updated on a quarterly basis. This dataset is then recreated quarterly from those boundaries.  The time period of content date is the last update based on a municipality change.</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As Needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-93.697365</westbc>
+				<eastbc>-92.760683</eastbc>
+				<northbc>45.242099</northbc>
+				<southbc>44.687444</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<place>
+				<placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+			</place>
+			<theme>
+				<themekey>transit capital levy communities, transit taxing district, transit system, buses, Metro Transit, administrative boundaries</themekey>
+				<themekt>None</themekt>
+			</theme>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<browse>
+			<browsen>http://www.datafinder.org/metadata/bg/TransitCapitalLevyCommunities.jpg</browsen>
+			<browsed>Sample map of Transit Capital Levy Communities and Transit Taxing District</browsed>
+		</browse>
+		<crossref>
+			<citeinfo>
+				<title>Municipal Boundaries http://www.datafinder.org/metadata/CountiesAndCTUs.htm
+Bus Routes http://www.datafinder.org/metadata/TransitRoutes.htm</title>
+			</citeinfo>
+		</crossref>
+		<native>ArcGIS 9x</native>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Rachel Wiken</cntper>
+				</cntperp>
+				<cntpos>GIS Technician</cntpos>
+				<cntaddr>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1572</cntvoice>
+				<cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>All cities have been verified to be in the transit taxing district or have come to an agreement with the Metropolitan Council to collect a levy for transit capital</attraccr>
+		</attracc>
+		<logic>The dataset is topologically 'clean'.</logic>
+		<complete>Entire seven county geographic area is covered.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Because this dataset is derived directly from the MetroGIS regional municipal boundary layer, it's positional accuracy is identical to that dataset.  http://www.datafinder.org/metadata/CountiesAndCTUs.htm</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>This layer was created by relating a table of municipalities within the Transit Taxing District to the municipal boundary layer.</procdesc>
+			</procstep>
+			<srcinfo>
+				<srcscale />
+			</srcinfo>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>None</indspref>
+		<direct>Vector</direct>
+		<mgmg3obj>polygon</mgmg3obj>
+		<mgmg3til />
+	</spdoinfo>
+	<eainfo>
+		<overview>
+			<eaover>None</eaover>
+			<eadetcit>None</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<resdesc>TransitCapitalLevyCommunities</resdesc>
+		<distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Shapefile</formname>
+					<formvern>ArcGIS 9x</formvern>
+					<transize>0.7 Mb for zip file.</transize>
+				</digtinfo>
+			</digform>
+			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'.  Doing so will tell your browser to download a 'ZIP' file which will contain the following:
+
+- ArcView shape files
+- metadata for the dataset (.htm)
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software.
+
+Additionally, this dataset is available for direct use via one or more map services.  More information about what a web mapping service is can be found at http://www.datafinder.org/services/.  The specific map service and layer name for this dataset can be found by clicking the blue or green boxes under the map service column of the DataFinder Catalog at http://www.datafinder.org/catalog/ .</ordering>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Jon Hoekenga</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1561</cntvoice>
+				<cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metd>20140718</metd>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Rachel Wiken</cntper>
+				</cntperp>
+				<cntpos>GIS Technician</cntpos>
+				<cntaddr>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1572</cntvoice>
+				<cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<Esri>
+		<ModDate>20120106</ModDate>
+		<ModTime>14415200</ModTime>
+		<CreaDate>20130108</CreaDate>
+		<CreaTime>16001100</CreaTime>
+		<SyncOnce>TRUE</SyncOnce>
+		<DataProperties>
+			<itemProps>
+				<itemLocation>
+					<linkage Sync="TRUE">file://\\rafs\Wikenrl\basemaps\data\TransitCapitalLevyCommunities</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</itemLocation>
+			</itemProps>
+			<copyHistory>
+				<copy date="20130108" dest="\\rafs\Wikenrl\basemaps\data\TransitCapitalLevyCommunities" source="L:\Metadata\Layers\TransitCapitalLevyCommunities" time="16001100" />
+			</copyHistory>
+		</DataProperties>
+	</Esri>
+	<mdDateSt Sync="TRUE">20120106</mdDateSt>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>Universal Transverse Mercator</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+				</gridsys>
+				<planci>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+	</spref>
+</metadata>

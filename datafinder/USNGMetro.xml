@@ -1,0 +1,297 @@
+<metadata xml:lang="en">
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<title catid="b6af6cbd-e7a3-49aa-8a6b-9810fbe36847">Twin Cities Metro Area 100m and 1000m US National Grid</title>
+				<origin>Metropolitan Council</origin>
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<pubdate>20080501</pubdate>
+				<onlink>ftp://gisftp.metc.state.mn.us/USNGMetro.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This dataset contains both line and polygon shape files for both 100 meter and 1000 meter US National Grid cells.  The US National Grid is an FGDC map presentation standard (FGDC-STD-011-2001). These datasets were created to match the location reference system used by that standard. The reference system is based on NAD 83 UTM Coordinates and the Military Grid Reference System.
+
+For more information on the USNG visit these helpful resources:
+
+http://www.fgdc.gov/usng - FGDC USNG Site includes links to an executive summary, the standard itself, and other useful references.
+
+http://mississippi.deltastate.edu/ - Delta State University USNG page includes links to statewide USNG downloads, learning materials, and ways to get involved in USNG promotion.
+
+http://www.esri.com/software/arcgis/extensions/usng/index.html - ESRI provides a free extension to ArcMap that facilitates the use of the National Grid.</abstract>
+			<purpose>This dataset was developed to serve as a starting place for developing mapping products that follow FGDC Standard FGDC-STD-011-2001 - www.fgdc.gov/usng
+
+The dataset can also be used as a general purpose grid dataset for a variety of purposes.</purpose>
+			<supplinf>An envelope containing the 7 County area of the Twin Cities.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20080422</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Matches the US National Grid as of the Time Period of Content date above.</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-94.023626</westbc>
+				<eastbc>-92.727779</eastbc>
+				<northbc>45.414520</northbc>
+				<southbc>44.466669</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<place>
+				<placekey>Anoka County, Ramsey County, Hennepin County, Dakota County, Scott County, Carver County, Washington County, Minneapolis, St. Paul</placekey>
+			</place>
+			<theme>
+				<themekey>USNG, United States National Grid, Emergency Response, GRID
+          US National Grid
+USNG</themekey>
+				<themekt />
+			</theme>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Matt McGuire</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<address>390 N Robert St</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101</postal>
+				</cntaddr>
+				<cntvoice />
+				<cntfax />
+				<cntemail>matt.mcguire@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>None available</browsen>
+			<browsed />
+		</browse>
+		<crossref>
+			<citeinfo>
+				<title>http://mississippi.deltastate.edu/ - Delta State University USNG page includes links to statewide USNG downloads.</title>
+			</citeinfo>
+		</crossref>
+		<native>ArcGIS 9x</native>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>This is a calculated dataset.  Attributes supplement the spatial information for labeling and identification purposes. Attribute accuracy has not been measured, but is presumed correct.</attraccr>
+		</attracc>
+		<logic>The dataset is topologically 'clean'.</logic>
+		<complete>Entire seven county geographic area is covered.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>This dataset was calculated mathematically to represent the US National Grid at 100 meter and 1000 meter grid cell sizes. Gridlines are accurate to less than one tenth of a meter.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr />
+			</vertacc>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>Polygon layer attribute schema was taken from a National Grid dataset at 1000 meters covering the state of Minnesota downloaded from Delta State University.
+
+Polygons were constructed with ArcMap. Lines were derived from polygons.</procdesc>
+			</procstep>
+			<srcinfo>
+				<srcscale />
+			</srcinfo>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref />
+		<direct>Vector</direct>
+		<mgmg3obj>polygon shapes</mgmg3obj>
+		<mgmg3til>One layer for entire seven county region.</mgmg3til>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres />
+				<longres />
+				<geogunit />
+			</geograph>
+			<planar>
+				<gridsys>
+					<gridsysn>UTM</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+					<spcs>
+						<spcszone />
+					</spcs>
+					<mgmg4coz />
+					<mgmg4adj />
+				</gridsys>
+				<mapproj>
+					<mapprojn />
+					<mgmg4par />
+					<otherprj />
+				</mapproj>
+				<planci>
+					<plandu>Meters</plandu>
+					<coordrep>
+						<absres />
+						<ordres />
+					</coordrep>
+				</planci>
+			</planar>
+			<geodetic>
+				<ellips>GRS80</ellips>
+				<horizdn>NAD83</horizdn>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<overview>
+			<eaover>This dataset is composed of two polygon shapefiles and two line shapefiles:
+
+USNG_Metro100_a.shp -   100 meter polygon US National Grid covering the 
+Twin Cities Metropolitan Area   
+
+USNG_Metro1000_a.shp -  1000 meter polygon US National Grid covering the 
+Twin Cities Metropolitan Area 
+
+USNG_Metro100_l.shp -   100 meter line US National Grid covering the 
+Twin Cities Metropolitan Area. 
+
+USNG_Metro1000_l.shp -  1000 meter line US National Grid covering the 
+Twin Cities Metropolitan Area 
+
+Definitions for each attribute table follow.  Field lengths and types 
+for all attributes are listed at the bottom.
+
+------------------------------------------------------------------------
+
+Attributes for polygon shapefiles. See FGDC-STD-011-2001 for more 
+explanation of fields and how to use the information in USNG mapping 
+product:
+
+NORTHINGS:  Northings portion of local coordinates of bottom left corner 
+            of grid polygon.
+
+EASTINGS:   Eastings portion of local coordinates of bottom left corner 
+            of grid polygon.
+
+GRID1MIL:   US National Grid Zone designation. 
+
+GRID100K:   US National Grid 100,000 meter Grid Zone designation. 
+
+USNG:       US National Grid code
+
+------------------------------------------------------------------------
+
+Attributes for line shapefiles. See FGDC-STD-011-2001 for more
+explanation of fields and how to use the information in USNG mapping 
+product:
+
+DIMENSION:  Indicates dimension of line measures. 'N' for Northings, 'E' 
+            for Eastings 
+
+GRID1MIL:   US National Grid Zone designation. 
+
+GRID100K:   US National Grid 100,000 meter Grid Zone designation. 
+
+UTM_PRE:    UTM Prefix - used for labeling map 
+
+PRINCE_DIG: Principal Digits - used for labeling map 
+
+UTM_SUF:    UTM Suffix - used for labeling map. 
+
+------------------------------------------------------------------------
+Field types and lengths using ArcGIS 9x terminology
+
+
+    NORTHINGS   Text    10
+    EASTINGS    Text    10
+    GRID1MIL    Text     3
+    GRID100K    Text     2
+    USNG        Text    22</eaover>
+			<eadetcit />
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Mark Kotz</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Database Administrator</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1644</cntvoice>
+				<cntfax>651-602-1674</cntfax>
+				<cntemail>mark.kotz@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>USNGMetro</resdesc>
+		<distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Shapefile</formname>
+					<formvern>ArcGIS 9x</formvern>
+					<transize />
+				</digtinfo>
+			</digform>
+			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'.  Doing so will tell your browser to download a 'ZIP' file which will contain the following:
+
+        - ArcView shape files
+        - metadata for the dataset (.htm)
+        - NOTICE.RTF, an important notice about this dataset that can be read by any word processing software.
+
+
+         
+        Additionally, this dataset is available for direct use via one or more map services.  More information about what a web mapping service is can be found at http://www.datafinder.org/services/.  The specific map service and layer name for this dataset can be found by clicking the blue or green boxes under the map service column of the DataFinder Catalog at http://www.datafinder.org/catalog/ .</ordering>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20080422</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Matt McGuire</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice />
+				<cntfax />
+				<cntemail>matt.mcguire@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+	</metainfo>
+	<mdDateSt Sync="FALSE">20080422</mdDateSt>
+	<Esri><ModDate>20080425</ModDate><ModTime>09201100</ModTime></Esri></metadata>

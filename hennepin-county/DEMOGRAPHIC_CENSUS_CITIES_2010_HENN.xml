@@ -1,0 +1,752 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title catid="7c59cb6b-f599-43c6-900d-dfc007ede7f8">DEMOGRAPHIC_CENSUS_CITIES_2010_HENN</title>
+        <geoform>vector digital data</geoform>
+		<pubdate>2014</pubdate>
+		<onlink>http://gis-stage.hennepin.us/publicgisdata/DEMOGRAPHIC_PACKAGE.zip</onlink>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-93.771976</westbc>
+        <eastbc>-93.176870</eastbc>
+        <northbc>45.247670</northbc>
+        <southbc>44.783366</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>47</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>DEMOGRAPHIC_CENSUS_CITIES_2010_HENN</enttypl>
+        <enttypd>2010 Census county subdivision County-based</enttypd>
+        <enttypds>U.S. Census Bureau</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUSUBNS10</attrlabl>
+        <attrdef>2010 Census county subdivision ANSI code</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>INCITS 446-2008, (GNIS) Identifying Attributes for Named
+                      Physical and Cultural Geographic Features (Except Roads
+                      and Highways) of the United States, Its Territories,
+                      Outlying Areas, and Freely Associated Areas, and the
+                      Waters of the Same to the Limit of the Twelve-Mile
+                      Statutory Zone</codesetn>
+            <codesets>U.S. Geological Survey (USGS)</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEOID10</attrlabl>
+        <attrdef>County subdivision identifier; a concatenation of 2010 Census
+                 state FIPS code, county FIPS code, and county subdivision FIPS
+                 code</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>INCITS.38-200x (R2004), Codes for the Identification of
+                      the States, the District of Columbia, Puerto Rico, and the
+                      Insular Areas of the United States (Formerly FIPS 5-2),
+                      INCITS.31-200x (R2007), Codes for the Identification of
+                      the Counties and Equivalent Areas of the United States,
+                      Puerto Rico, and the Insular Areas of the United States
+                      (Formerly FIPS 6-4), Federal Information Processing Series
+                      Census Codes for Named Populated Places, Primary County
+                      Divisions, and other Locational Entities of the United
+                      States, Puerto Rico, and the Island Areas (Formerly FIPS
+                      55-3)</codesetn>
+            <codesets>U.S. Census Bureau</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME10</attrlabl>
+        <attrdef>2010 Census county subdivision name</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Refer to the online county subdivision gazetteer file at
+                      URL: http://www.census.gov/geo/www/gazetteer/gazette.html</codesetn>
+            <codesets>U.S. Census Bureau</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAMELSAD10</attrlabl>
+        <attrdef>2010 Census name and the translated legal/statistical area
+                 description for county subdivision</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Refer to the online county subdivision gazetteer file at
+                      URL: http://www.census.gov/geo/www/gazetteer/gazette.html
+                      and the legal/statistical area description code for county
+                      subdivision that appears in LSAD10</codesetn>
+            <codesets>U.S. Census Bureau</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LSAD10</attrlabl>
+        <attrdef>2010 Census legal/statistical area description code for county
+                 subdivision</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>00</edomv>
+            <edomvd>Blank</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>20</edomv>
+            <edomvd>barrio</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>21</edomv>
+            <edomvd>borough</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>22</edomv>
+            <edomvd>census county division</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>23</edomv>
+            <edomvd>census subarea</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>24</edomv>
+            <edomvd>census subdistrict</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>25</edomv>
+            <edomvd>city</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>26</edomv>
+            <edomvd>county</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>27</edomv>
+            <edomvd>district</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>28</edomv>
+            <edomvd>District (prefix)</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>29</edomv>
+            <edomvd>precinct</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>30</edomv>
+            <edomvd>Precinct (prefix)</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>31</edomv>
+            <edomvd>gore</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>32</edomv>
+            <edomvd>grant</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>36</edomv>
+            <edomvd>location</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>39</edomv>
+            <edomvd>plantation</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>41</edomv>
+            <edomvd>barrio-pueblo</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>42</edomv>
+            <edomvd>purchase</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>43</edomv>
+            <edomvd>town</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>44</edomv>
+            <edomvd>township</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>45</edomv>
+            <edomvd>Township (prefix)</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>46</edomv>
+            <edomvd>Unorganized Territory (UT)</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>47</edomv>
+            <edomvd>village</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>49</edomv>
+            <edomvd>charter township</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>86</edomv>
+            <edomvd>Reservation</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CLASSFP10</attrlabl>
+        <attrdef>2010 Census Federal Information Processing Standards (FIPS) 55
+                 class code</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>C2</edomv>
+            <edomvd>An active incorporated place that is legally coextensive
+                    with an county subdivision but treated as independent of any
+                    county subdivision</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>C5</edomv>
+            <edomvd>An active incorporated place that is independent of any
+                    county subdivision and serves as a county subdivision
+                    equivalent</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>C7</edomv>
+            <edomvd>An incorporated place that is independent of any county</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>S1</edomv>
+            <edomvd>A nonfunctioning county subdivision that is coextensive with
+                    a census designated place</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>S2</edomv>
+            <edomvd>A statistical county subdivision that is coextensive with a
+                    census designated place</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>S3</edomv>
+            <edomvd>A statistical county subdivision that is coextensive with a
+                    legal American Indian, Alaska Native, or Native Hawaiian
+                    area</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>T1</edomv>
+            <edomvd>An active county subdivision that is not coextensive with an
+                    incorporated place</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>T2</edomv>
+            <edomvd>An active county subdivision that is coextensive with a
+                    census designated place</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>T5</edomv>
+            <edomvd>An active county subdivision that is coextensive with an
+                    incorporated place</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>T9</edomv>
+            <edomvd>An inactive county subdivision</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>Z1</edomv>
+            <edomvd>A nonfunctioning countysubdivision</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>Z2</edomv>
+            <edomvd>A county subdivision that is coextensive with an American
+                    Indian, Alaska Native, or Native Hawaiian area and legally
+                    is independent of any other county subdivision</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>Z3</edomv>
+            <edomvd>A county subdivision defined as an unorganized territory</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>Z5</edomv>
+            <edomvd>A statistical county subdivision</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>Z7</edomv>
+            <edomvd>A county subdivision that is coextensive with a county or
+                    equivalent feature or all or part of an incorporated place
+                    that the Census Bureau recognizes separately</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>Z9</edomv>
+            <edomvd>Area of a county or equivalent, generally in territorial
+                    sea, where no county subdivision exists.</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MTFCC10</attrlabl>
+        <attrdef>MAF/TIGER feature class code</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>G4040</edomv>
+            <edomvd>County Subdivision</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CNECTAFP10</attrlabl>
+        <attrdef>2010 Census combined New England city and town area code</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>700</rdommin>
+            <rdommax>799</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NECTAFP10</attrlabl>
+        <attrdef>2010 Census New England city and town area code</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>70000</rdommin>
+            <rdommax>79999</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NCTADVFP10</attrlabl>
+        <attrdef>2010 Census New England city and town area division code</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>70004</rdommin>
+            <rdommax>79994</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FUNCSTAT10</attrlabl>
+        <attrdef>2010 Census functional status</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>A</edomv>
+            <edomvd>Active government providing primary general-purpose functions</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>B</edomv>
+            <edomvd>Active government that is partially consolidated with
+                    another government but with separate officials providing
+                    primary general-purpose functions</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>Active government consolidated with another government with
+                    a single set of officials</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>Fictitious entity created to fill the Census Bureau
+                    geographic hierarchy</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>G</edomv>
+            <edomvd>Active government that is subordinate to another unit of
+                    government</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>I</edomv>
+            <edomvd>Inactive governmental unit that has the power to provide
+                    primary special-purpose functions</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Nonfunctioning legal entity</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>Statistical entity</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ALAND10</attrlabl>
+        <attrdef>2010 Census land area (square meters)</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0 to 9,999,999,999,999</edomv>
+            <edomvd>Blank</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AWATER10</attrlabl>
+        <attrdef>2010 Census water area (square meters)</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0 to 9,999,999,999,999</edomv>
+            <edomvd>Blank</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>INTPTLAT10</attrlabl>
+        <attrdef>2010 Census latitude of the internal point</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>00</edomv>
+            <edomvd>Blank</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>INTPTLON10</attrlabl>
+        <attrdef>2010 Census longitude of the internal point</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>00</edomv>
+            <edomvd>Blank</edomvd>
+            <edomvds>U.S. Census Bureau</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SUM_LEVEL</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>LOGRECNO</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>COUSUB</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>COUSUBCC</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>PLACE</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>PLACECC</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>TRACT</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>BLKGRP</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>BLOCK</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>CBSAPCI</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>CONG_DIST</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>ST_LEG_UP</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>ST_LEG_LOW</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>VOTE_DIST</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>SCH_DIST</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP_TOTAL</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP1_RACE</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP1_WHT</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP1_BLK</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP1_AMIND</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP1_ASN</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP1_HAWPA</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP1_OTHR</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP2_MORE</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP_HSPLAT</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP_NO_HSP</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POPWHNOHSP</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP_OVR18</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP1_OVR18</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP1_WHT18</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP1_BLK18</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP1_AIN18</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP1_ASN18</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP1_HAW18</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP1_OTH18</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP2MORE18</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POP_HSP18</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POPNOHSP18</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>POPWNOHS18</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>TOT_HU</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>TOT_OCCHU</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>TOT_VACHU</attrlabl>
+        <attrdef />
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover />
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+          <transize>0.220</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>file://Service=sde:sqlserver:echo; Database=HENNEPIN; User=GIS; Version=sde.DEFAULT</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20141110</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,239 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<title catid="af542338-cc29-4fc4-a48b-d53590b1812b">Municipal Water Supply System Status - Twin Cities Metropolitan Area, Minnesota</title>
+				<origin>Metropolitan Council</origin>
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<pubdate>Unpublished material</pubdate>
+				<onlink>ftp://gisftp.metc.state.mn.us/MunicipalWaterSupplies.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This dataset depicts the status and source of community water supplies in the Twin Cities metropolitan area. Communities are categorized as having no public water supplies (only private wells), those who use local water sources for a public water supply system, those who use water from outside their community boundaries as a public water supply, and those who supply themselves as well as other communities. This dataset also defines the source(s) of water supplying the community as groundwater, surface water, or both.</abstract>
+			<purpose>The 2005 Minnesota Legislature directed the Metropolitan Council to "carry out planning activities addressing the water supply needs of the metropolitan area" (Minnesota Statutes, Section 473.1565). Specifically the Council is charged with developing a base of technical information for water supply planning decisions and to prepare a metropolitan area master water supply plan. This dataset supports this charge.</purpose>
+			<supplinf>Twin Cities Seven County Metropolitan Area. This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20140701</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Data is based upon Minnesota Department of Health data, local water supply plans reviewed in 2008, and review of community water utility website in 2011.  Updates to this data since 2011 only reflect minor changes to the municipal boundaries, reflected in the Time Period of Content.</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>Irregular</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-419967.472311</westbc>
+				<eastbc>-521254.699797</eastbc>
+				<northbc>5029009.872338</northbc>
+				<southbc>4924223.791217</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<place>
+				<placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+			</place>
+			<theme>
+				<themekey>Water Supply Planning. Public Water Supply Systems</themekey>
+			</theme>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>By acceptance of this data, the user agrees to include a copy of the metadata record, including the liability disclaimer, whenever the user transmits or provides the GIS data (or any portion of it) to another user.</useconst>
+		<browse>
+			<browsen>None available</browsen>
+			<browsed />
+		</browse>
+		<crossref>
+			<citeinfo>
+				<title>Supporting datasets:
+- Minnesota Department of Health Minnesota Drinking Water Information System
+- Local community water supply plans</title>
+			</citeinfo>
+		</crossref>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.0.1324</native>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Lanya Ross</cntper>
+				</cntperp>
+				<cntpos>Sr. Environmental Scientist, Water Supply Planning</cntpos>
+				<cntaddr>
+					<address>390 Robert St. North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1803</cntvoice>
+				<cntfax>651-602-1130</cntfax>
+				<cntemail>lanya.ross@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>This dataset is accurate as of 2009, based on the most recent available Minnesota Department of Health Minnesota Drinking Water Information System data and information from community water supply plans. The data is relavent at the community or public water supply system scale (multiple communities may be served by a single water supply system). This dataset does not depict small portions of communities, such as individividual neighborhoods, served by suppliers beyond the community boundaries, except when defining the communities' water supply sources. For example, this dataset does not recognize Oak Grove as being served by a municipal system even though a small isolated neighborhood IS served by St. Francis. However, this dataset DOES recognize that Edina uses both groundwater and surface water, although only a small isolated community recieves surface water from MInneapolis.</attraccr>
+		</attracc>
+		<lineage>
+			<procstep>
+				<procdesc>DATE SOURCES:
+
+- 2008 Minnesota Department of Health Minnesota Drinking Water Information System 
+
+- Metropolitan Council Counties and Cities &amp; Townships, Twin Cities Metropolitan Area</procdesc>
+			</procstep>
+			<srcinfo>
+				<srcscale />
+			</srcinfo>
+			<procstep>
+				<procdesc Sync="TRUE">Dataset copied.</procdesc>
+				<srcused Sync="TRUE">N:\EQA\WaterSupply\MAPS_Make_A_Map\MAM_WaterSupply_2Mar09\MAM_WatSUp_Metadata_23Apr09\PWSinfo2009</srcused>
+				<procdate Sync="TRUE">20091208</procdate>
+				<proctime Sync="TRUE">10043000</proctime>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref />
+		<direct>Vector</direct>
+		<mgmg3obj>polygon</mgmg3obj>
+		<mgmg3til />
+	</spdoinfo>
+	<eainfo>
+		<overview>
+			<eaover>CTU_ID - Metropolitan Council community identification number
+
+CTU_NAME - Metropolitan Council name for the community
+
+PWS_ID - Minnesota Department of Health Minnesota Drinking Water Information System public water supplier identification code
+
+SERVE_CODE  - Description of water supply system:
+   1 - The community does not have a municipal supply; private wells supply demand
+   2 - The community owns and operates their own water supply system; a local source is used for the public supply
+   3 - The community owns and operates their own water supply system, as well as supplying water to additional communities; a local source is used for the public supply
+   4 - The community owns and operates their own water supply system, providing most of their own water and purchasing some water retail basis from another community.
+   5 - The community owns and operates their own water supply system, purchasing water on a retail basis from another community
+   6 - The community is served by a municipal system that is owned and operated by another community
+   7 - The community does not currently have a municipal water supply system but is actively planning for one
+
+SWorGW - The source or sources of water supplying demand in the community (includes all sources used, even if only in a small portion of the community):
+   gw - groundwater
+   sw - surface water
+   both - both groundwater and surface water
+
+Descrip_MAM - Text description of the community's water supply status
+
+SourceComm - The community providing source water to the municipal water supply system</eaover>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distliab>NOTICE: The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13). THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by the Metropolitan Council for its own internal business purposes. The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, the GIS Data must include a copy of this disclaimer.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>GRID</formname>
+					<formvern />
+					<transize />
+				</digtinfo>
+			</digform>
+			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'. Doing so will tell your browser to download a 'ZIP' file which will contain the following: 
+
+- ArcView shape files 
+- metadata for the dataset (.htm) 
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software. 
+
+This dataset can also be viewed and downloaded from the MetroGIS DataFinder Cafe at http://www.datafinder.org/cafe/ . The Cafe allows users to subset or clip datasets using an existing feature, such as a city or school district boundary or an ad-hoc, user defined area. 
+
+Additionally, this dataset is available for direct use via one or more map services. More information about what a web mapping service is can be found at http://www.datafinder.org/services/ . The specific map service and layer name for this dataset can be found by clicking the blue or green boxes under the map service column of the DataFinder Catalog at http://www.datafinder.org/catalog/ .</ordering>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Lanya Ross</cntper>
+				</cntperp>
+				<cntpos>Sr. Environmental Scientist</cntpos>
+				<cntaddr>
+					<address>390 Robert St. North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1803</cntvoice>
+				<cntfax>651-602-1130</cntfax>
+				<cntemail>lanya.ross@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metd>20140718</metd>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Lanya Ross</cntper>
+				</cntperp>
+				<cntpos>Sr. Environmental Scientist, Water Supply Planning</cntpos>
+				<cntaddr>
+					<address>390 Robert St. North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>612-602-1803</cntvoice>
+				<cntfax>651-602-1130</cntfax>
+				<cntemail>lanya.ross@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<Esri>
+		<ModDate>20091208</ModDate>
+		<ModTime>12041100</ModTime>
+		<MetaID>{B9A2CCB8-1862-4026-8241-8105EDBC6B61}</MetaID>
+		<CreaDate>20091208</CreaDate>
+		<CreaTime>10043000</CreaTime>
+		<SyncOnce>TRUE</SyncOnce>
+	</Esri>
+	<mdDateSt Sync="TRUE">20091208</mdDateSt>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage Sync="TRUE">file://\\rafs\shared\EQA\WaterSupply\MAPS_Make_A_Map\Metadata\PWSinfo2009</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</onLineSrc>
+			</distorTran>
+		</distributor>
+	</distInfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>Universal Transverse Mercator</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+				</gridsys>
+				<planci>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+	</spref>
+</metadata>

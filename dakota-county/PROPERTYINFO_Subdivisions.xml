@@ -1,0 +1,129 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title catid="3ea5a9a0-6880-4787-8501-c973137b9cc5">Subdivisions</title>
+        <geoform>vector digital data</geoform>
+		<onlink>http://gis.co.dakota.mn.us/websitegisdata/propertyinfo/shp/Subdivisions.zip</onlink>
+		<pubdate>2014</pubdate><origin>Dakota County</origin><pubinfo><publish>Dakota County</publish></pubinfo></citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-93.329706</westbc>
+        <eastbc>-92.732113</eastbc>
+        <northbc>44.923499</northbc>
+        <southbc>44.469961</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>5239</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>MN Dakota Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>44.51666666666667</stdparll>
+            <stdparll>44.91666666666666</stdparll>
+            <longcm>-93.31666666666666</longcm>
+            <latprjo>44.47194444444445</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>100000.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026575186495847457</absres>
+            <ordres>0.000000026575186495847457</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D MN Dakota</horizdn>
+        <ellips>MN Dakota</ellips>
+        <semiaxis>6378421.989</semiaxis>
+        <denflat>298.2572133677353</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Subdivisions</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PLATID</attrlabl>
+        <attrdef>Subdivision Identification Number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PLATNAME</attrlabl>
+        <attrdef>Name of the subdivision</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RECORDEDDA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PLATBOOKPA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_len</attrlabl>
+      </attr>
+    </detailed>
+    <overview />
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <transize>0.000</transize>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20140926</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

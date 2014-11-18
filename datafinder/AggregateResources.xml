@@ -1,0 +1,357 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metropolitan Council</origin>
+				<pubdate>20000509</pubdate>
+				<title catid="710394a4-c047-4d79-b052-3925dd4270b5">Aggregate Resources 1997, 2020 and 2040 for the Twin Cities Metropolitan Area</title>
+				<mgmg1cid>N/A</mgmg1cid>
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<onlink>ftp://gisftp.metc.state.mn.us/AggregateResources.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The Aggregate Resources (sand, gravel and limestone and dolomite) dataset contains three separate shape files for aggregate resources for 1997, 2020 and 2040. Each layer encompasses the seven-county Twin Cities (Minneapolis and St. Paul) Metropolitan Area in Minnesota. The dataset was developed by the Metropolitan Council, a regional governmental organization that deals, in part, with regional issues and long range planning for the Twin Cities area. The data were derived from a map by Meyer, G.N., and Mossler, J.H., 1999, Primary sources of construction aggregate in the seven-county metropolitan area, Minnesota: Minnesota Geological Survey, Miscellaneous Map Series M-102, two plates, scale 1:100,000 that depicts pre-urbanization resources. The data were then modified to reflect depletion by mining and areas that were occupied by urban and rural development in 1997, or are forecasted to urbanize by 2020 and 2040. The data were also modified by removing aggregate deposits that cannot be mined because of such environmental constraints as wetlands, streams, scientific and natural resources areas, open water bodies, and roadways.</abstract>
+			<purpose>To assist local and regional planning efforts for the management of aggregate resources of the Metropolitan Area.</purpose>
+			<supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20000509</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Land Use from ground condition (air photos) as of April 13th &amp; 14th, 1997. 
+
+Regional Growth Strategy, 1996.
+
+Geology from data mapped and captured at 1:24,000 scale in 1981-83 and updated in 1998-99.</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-94.012</westbc>
+				<eastbc>-92.732</eastbc>
+				<northbc>45.415</northbc>
+				<southbc>44.471</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>geology, Aggregate resources, Sand and Gravel, Dolostone</themekey>
+			</theme>
+			<place>
+				<placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Marcel Jouseau</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>Manager EPRM</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1634</postal>
+				</cntaddr>
+				<cntvoice>651.602.1145</cntvoice>
+				<cntfax>651.602.1130</cntfax>
+				<cntemail>marcel.jouseau@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>http://www.datafinder.org/metadata/bg/AggregateResources.jpg</browsen>
+			<browsed>Sample map showing the AggregateResources layer.</browsed>
+		</browse>
+		<native>ArcView Version 3.2, NT platform</native>
+		<crossref>
+			<citeinfo>
+				<title>Aggregate Resources 1997, 2020 and 2040
+Generalized Land Use 1997 for the Twin Cities Metropolitan Area 
+
+Regional Growth Strategy 1996.
+
+Meyer, G.N., and Mossler, J.H., 1999, Primary sources of construction aggregate in the seven-county metropolitan area, Minnesota: Minnesota Geological Survey [Digital dataset, November 1999]. (available from Minnesota Geological Survey)</title>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>During the land use interpretation, digital orthophotos and county parcel data with assessor's land use/type attributes were used. Reverse directories and field checks were used to augment this interpretation. Also, comments and corrections for the 1997 data from the cities and townships (each of which was given a map with the preliminary 1997 data) were used to update the 1997 layer.
+
+The regional Growth Strategy map, 1996, (sometimes called the 2040 Growth Strategy) were developed by Metropolitan Council staff and approved by the Council in December of 1996. The policy areas are the Urban Core, the Urban Area, the Urban Reserve, Rural Growth Centers and Permanent Rural/Agricultural Areas in. In addition there is an illustrative 2020 Metropolitan Urban Service Area (MUSA). The positional accuracy of the dataset has not been tested under the National Standards for Spatial Data Accuracy. The positional accuracy of the dataset is estimated to be + or - 100 meters. The ''Illustrative 2020 MUSA'' category is basically a cartoon. It was put on the growth management map to convey the idea that there will be an interim 2020 MUSA. The actual boundaries have yet to be determined and may look VERY different. The positional accuracy of this category is therefore + or - many miles. 
+
+Bedrock aggregate resources and sand and gravel aggregate resources data were mapped and captured at 1:24,000 scale. The bedrock areas represent significant potential deposits of Prairie du Chien dolostone suitable for crushed aggregate with less than 10 ft of overlying material. The deposits are classified according to thickness and reliability of the mapping. The sand and gravel deposits are classified according to type and quality (based on percent of gravel content), thickness of deposit, amount of overlying material, relationship to water table, and reliability of the mapping.</attraccr>
+		</attracc>
+		<logic>The dataset is topologically 'clean'.</logic>
+		<complete>Entire seven county geographic area is covered. Incompleteness in attribute information is discussed under 'Attribute Accuracy' above.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Estimating the horizontal positional accuracy of this layer is somewhat complicated, because a number of factors must be considered.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr />
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale />
+			</srcinfo>
+			<procstep>
+				<procdesc>DATA SOURCES:
+- 1997 digital orthophoto quarter quads (0.6 meter resolution)
+- 1997 land use delineations 
+- 1996 Regional Growth Strategy
+- The Lawrence Group's road centerline layer.
+- Scientific and Natural Areas (from the Minnesota Dept. of Natural Resources)
+- National Wetland Inventory (seven-county metropolitan area subset)
+- Stream network (from the Minnesota Department of Natural Resources) 
+- Meyer, G.N., and Mossler, J.H., 1999, Primary sources of construction aggregate in the seven-county metropolitan area, Minnesota: Minnesota Geological Survey [Digital dataset, November 1999]. (from Minnesota Geological Survey).
+
+HISTORY OF THE AGGREGATE RESOURCES DATA:
+The Metropolitan Council has conducted analyses of aggregate resources for 1983, 1997, 2020 and 2040. 
+
+Aggregate resources maps were developed from these data for the years 1983, 1997, 2020 and 2040. In addition, reports on aggregates were prepared for the periods of 1983-2010 and 1997-2040.
+
+PROCESSING STEPS FOR THE 1997, 2020 and 2040 AGGREGATE RESOURCES LAYERS:
+The bedrock geology and sand and gravel data were classified as to types, quality (percent of gravel content), thickness of overburden, position relative to the water table, and reliability of the mapping.
+
+The following categories were established:
+
+- Class A: Dolostone (Prairie du Chien ) thickness greater than 30 feet; thickness set at 50 feet for volume computation purpose. 
+- Class B: Dolostone (Prairie du Chien ) thickness between 10 and 30 feet; thickness set at 20 feet for volume computation purpose. 
+- Class C: Dolostone (Prairie du Chien ) thickness less than 10 feet. This class was not used in computing volume of aggregate resources. 
+- Class 1: &lt;20% of bulk natural aggregate retained on #4 sieve, and/or sand and gravel deposit &lt;20 feet thick, and/or overburden &gt;10 feet thick; water table &lt;20 feet deep; subsurface data limited; gravel poor deposits; or deposit &lt; 10 feet with good subsurface data. Class not included in computing volume of aggregate resources. 
+- Class 2: Des Moines Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit &gt;20 feet thick; overburden &lt;10 feet thick; water table is shallow (&lt; 20 feet); good to limited subsurface data. Material poor to moderate quality. Thickness set at 20 feet for computing volume of aggregate resources. 
+- Class 3: Des Moines Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit &gt;20 feet thick; overburden &lt;10 feet thick; water table is shallow (&lt; 20 feet); good to limited subsurface data. Material moderate to good quality. Thickness set at 20 feet for computing volume of aggregate resources. 
+- Class 4: Superior Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit &gt;20 feet thick; overburden &lt;10 feet thick; water table is shallow (&lt; 20 feet); good to limited subsurface data. Material good to excellent quality. Thickness set at 20 feet for computing volume of aggregate resources. 
+- Class 5: Des Moines Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit 10- 40 feet thick; overburden &lt;10 feet thick; water table deeper than 20 feet; good to limited subsurface data. Material poor to moderate quality. Thickness set at 20 feet for computing volume of aggregate resources. 
+- Class 6: Des Moines Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit 10- 40 feet thick; overburden &lt;10 feet thick; water table deeper than 20 feet; good to limited subsurface data. Material moderate to good quality. Thickness set at 20 feet for computing volume of aggregate resources. 
+- Class 7: Superior Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit 10- 40 feet thick; overburden &lt;10 feet thick; water table deeper than 20 feet; good to limited subsurface data. Material good to excellent quality. Thickness set at 20 feet for computing volume of aggregate resources. 
+- Class 8: Existing sand and gravel pits; remaining volume of resources unknown and not used in computing aggregate resources. 
+- Class 9: &gt;20% of bulk natural aggregate retained on #4 sieve; deposit &gt; 40 feet thick; overburden &lt;10 feet thick; water table deeper than 20 feet; good subsurface data. Material poor to moderate quality. Class not used in computing volume of aggregate resources. 
+- Class 10: Des Moines Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit &gt; 40 feet thick; overburden &lt;10 feet thick; water table deeper than 20 feet; good subsurface data. Material moderate to good quality. Thickness set at 40 feet for computing volume of aggregate resources. 
+- Class 11: Superior Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit &gt; 40 feet thick; overburden &lt;10 feet thick; water table deeper than 20 feet; good subsurface data. Material good to excellent quality. Thickness set at 40 feet for computing volume of aggregate resources.
+
+The 1997 land use layer was developed on the base of the 1990 land use dataset. The primary tools used for the 1997 land use interpretation were the 1997 digital orthophotos and county parcel data with assessors attributes indicating various land use type information. 
+
+The following land use categories constituted the urbanized areas and were deemed to encumber aggregate resources when the footprint of these land uses together with a specified buffer area overlaid an aggregate resource deposit. 
+
+- Single-family residential development with a 200-foot buffer
+- Multi-family residential development with a 200-foot buffer
+- Commercial development
+- Industrial development
+- Public and semi-public facilities
+- Public Industrial land
+- Airports
+- Parks and recreation areas
+- Streets and roadways with a 100-foot buffer on each side 
+- Gravel pits and quarries
+
+Such aggregate resource deposit was then removed from the 1997 Aggregate resources map and was not included in the volume computation.
+
+Environmentally sensitive areas with an appropriate buffer were also removed from the original endowment in aggregate resources in the preparation of the 1997 aggregate resources map and in computing the volume of aggregates
+
+- Streams and rivers together with a 200-foot wide buffer on each side 
+- Wetlands 5 acres or more in size together with a 100-foot wide buffer around them
+- Open water bodies together with a 100-foot wide buffer
+- Scientific, natural and wildlife areas owned and managed by the Minnesota Department of Natural Resources.
+
+It should be noted that areas owned by environment or conservation-oriented groups such as Nature Conservancy, Audubon Society, Minnesota Land Trust, Trust For Public Land, or easements held by these organizations were not removed from the areas which could be mined. Specific geographic information on those land holdings or easements was not available.
+
+In addition, for the 2020 aggregate resources layer, modifications of the 1997 aggregate resources available were made by removing aggregate deposits that were within the area identified on the Regional Growth Strategy coverage as the area to urbanize between 1997 and the Illustrative 2020 MUSA.
+
+Similarly, for the 2040 Aggregate Resources layer, deposits that were within the area identified on the Regional Growth Strategy coverage as the area to urbanize beyond the Illustrative 2020 MUSA to the outer edge of the 2040 Urban Reserve were removed.
+
+No attempt was made to simulate aggregate demand and translate that into geographic area from which the resources would be extracted. Therefore the coverages for 2020 and 2040 represent only the impact of encumbrance by the footprint of known 1997 urban uses and environmental constraints augmented by aggregate deposits encumbrance through land development between 1997 and 2020 and between 2020 and 2040.
+
+The analysis was done using ArcView 3.2 software.
+
+Note: Projections of remaining available 2020 and 2040 resources, as reported in the report Aggregate Resources Inventory of the Seven-County Metropolitan Area, Minnesota, 2000, D.L. Southwick, M. Jouseau, G.N. Meyer, J.H. Mossler, and T.E. Wahl reflect cumulative demand under several scenarios.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>None</indspref>
+		<direct>Vector</direct>
+		<mgmg3obj>polygon shapes</mgmg3obj>
+		<mgmg3til>One layer for entire seven county region.</mgmg3til>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres />
+				<longres />
+				<geogunit />
+			</geograph>
+			<planar>
+				<mapproj>
+					<mapprojn />
+					<mgmg4par />
+					<otherprj />
+				</mapproj>
+				<gridsys>
+					<gridsysn>UTM</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+					<spcs>
+						<spcszone />
+					</spcs>
+					<mgmg4coz />
+					<mgmg4adj />
+				</gridsys>
+				<planci>
+					<coordrep>
+						<absres />
+						<ordres />
+					</coordrep>
+					<distbrep>
+						<distres />
+					</distbrep>
+					<plandu>Meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum />
+				<altunits />
+			</altsys>
+			<depthsys>
+				<depthdn />
+				<depthdu />
+			</depthsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<overview>
+			<eaover>dataset contains one attribute (apart from the default attribute  
+e.g. Area = polygons size in square meter).
+  
+See Entity and Attribute Detailed Citation below for more information:
+  
+Agg_class:
+    2 = Des Moines Lobe Sand and Gravel &gt; 20 ft thick, poor to moderate quality
+    3 = Des Moines Lobe Sand and Gravel &gt; 20 ft thick, moderate to good quality                                                          
+    4 = Superior Lobe Sand and Gravel &gt; 20 ft thick, good to excellent quality
+    5 = Des Moines Lobe Sand and Gravel 10-40 ft thick, poor to moderate quality
+    6 = Des Moines Lobe Sand and Gravel 10-40 ft thick, moderate to good quality
+    7 = Superior Lobe Sand and Gravel 10-40 ft thick, good to excellent quality
+   10 = Des Moines Lobe Sand and Gravel &gt; 40 ft thick, moderate to good quality
+   11 = Superior Lobe Sand and Gravel &gt; 40 ft thick, good to excellent quality
+    A = Prairie du Chien Dolostone &gt; 30 ft thick
+    B = Prairie du Chien Dolostone &gt;10 &lt;30 ft thick
+    C = Prairie du Chien Dolostone &lt; 10 ft thick</eaover>
+			<eadetcit>The bedrock geology and sand and gravel data were classified as to types, quality (percent of gravel content), thickness of overburden, position relative to the water table, and reliability of the mapping.
+
+The following categories were established:
+
+- Class A: Dolostone (Prairie du Chien ) thickness greater than 30 feet; thickness set at 50 feet for volume computation purpose. 
+
+- Class B: Dolostone (Prairie du Chien ) thickness between 10 and 30 feet; thickness set at 20 feet for volume computation purpose. 
+
+- Class C: Dolostone (Prairie du Chien ) thickness less than 10 feet. This class was not used in computing volume of aggregate resources. 
+
+- Class 2: Des Moines Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit &gt;20 feet thick; overburden &lt;10 feet thick; water table is shallow (&lt; 20 feet); good to limited subsurface data. Material poor to moderate quality. Thickness set at 20 feet for computing volume of aggregate resources. 
+
+- Class 3: Des Moines Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit &gt;20 feet thick; overburden &lt;10 feet thick; water table is shallow (&lt; 20 feet); good to limited subsurface data. Material moderate to good quality. Thickness set at 20 feet for computing volume of aggregate resources. 
+
+- Class 4: Superior Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit &gt;20 feet thick; overburden &lt;10 feet thick; water table is shallow (&lt; 20 feet); good to limited subsurface data. Material good to excellent quality. Thickness set at 20 feet for computing volume of aggregate resources. 
+
+- Class 5: Des Moines Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit 10- 40 feet thick; overburden &lt;10 feet thick; water table deeper than 20 feet; good to limited subsurface data. Material poor to moderate quality. Thickness set at 20 feet for computing volume of aggregate resources. 
+
+- Class 6: Des Moines Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit 10- 40 feet thick; overburden &lt;10 feet thick; water table deeper than 20 feet; good to limited subsurface data. Material moderate to good quality. Thickness set at 20 feet for computing volume of aggregate resources. 
+
+- Class 7: Superior Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit 10- 40 feet thick; overburden &lt;10 feet thick; water table deeper than 20 feet; good to limited subsurface data. Material good to excellent quality. Thickness set at 20 feet for computing volume of aggregate resources. 
+
+- Class 10: Des Moines Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit &gt; 40 feet thick; overburden &lt;10 feet thick; water table deeper than 20 feet; good subsurface data. Material moderate to good quality. Thickness set at 40 feet for computing volume of aggregate resources. 
+
+- Class 11: Superior Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit &gt; 40 feet thick; overburden &lt;10 feet thick; water table deeper than 20 feet; good subsurface data. Material good to excellent quality. Thickness set at 40 feet for computing volume of aggregate resources</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper />
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>Manager EPRM</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1634</postal>
+				</cntaddr>
+				<cntvoice />
+				<cntfax />
+				<cntemail />
+			</cntinfo>
+		</distrib>
+		<resdesc>AggregateResources</resdesc>
+		<distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ArcView Shape files</formname>
+					<formvern>ArcView: 3x</formvern>
+					<transize>3.6 MB for ZIP file.</transize>
+				</digtinfo>
+			</digform>
+			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'.  Doing so will tell your browser to download a 'ZIP' file which will contain the following:
+
+- ArcView shape files
+- metadata for the dataset (.htm)
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software.
+
+ 
+Additionally, this dataset is available for direct use via one or more map services.  More information about what a web mapping service is can be found at http://www.datafinder.org/services/.  The specific map service and layer name for this dataset can be found by clicking the blue or green boxes under the map service column of the DataFinder Catalog at http://www.datafinder.org/catalog/ .</ordering>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20010315</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper />
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>Manager EPRM</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1634</postal>
+				</cntaddr>
+				<cntvoice />
+				<cntfax>651.602.1130</cntfax>
+				<cntemail />
+			</cntinfo>
+		</metc>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+	</metainfo>
+
+</metadata>

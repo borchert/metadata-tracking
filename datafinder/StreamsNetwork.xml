@@ -1,0 +1,335 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metropolitan Council, DNR, Mn/DOT</origin>
+				<pubdate>Unpublished material</pubdate>
+				<title catid="45936cb8-ff70-4bd5-bdda-41df9ad1a772">Streams Network - Twin Cities Metro Area</title>
+				<mgmg1cid>N/A</mgmg1cid>
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<onlink>ftp://gisftp.metc.state.mn.us/StreamsNetwork.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Layer depicts streams captured from USGS 1:24,000, 7.5 minute quadrangle maps, with perennial vs. intermittent classification, and connectivity through lakes, rivers, and small wetland basins.  Streams are depicted as a single line.   Attributes describe stream type, source of data, and connectivity.  Directionality is accurate for all streams in the database with the exception of 40 short (&lt; 500 m) unverified, unconnected streams.  The layer covers the 89 USGS 7.5 minute quads in the Twin Cities metropolitan area.</abstract>
+			<purpose>To develop a streams layer for the metropolitan area that is topologically connected through lakes and wetlands, allowing stream tracings through such features.</purpose>
+			<supplinf>Includes 89 USGS 7.5 minute quadrangles intersecting the minor watersheds intersecting the Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>1980</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Base information is as current as the publication of its source USGS quadrangle maps.  Additional information varies in currentness, depending on publication dates of WMO and municipal information.</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Irregular</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-94.012</westbc>
+				<eastbc>-92.732</eastbc>
+				<northbc>45.415</northbc>
+				<southbc>44.471</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>streams, rivers, ditches, drainage, storm sewers, hydrography, hydrology, water resources</themekey>
+			</theme>
+			<place>
+				<placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Steve Kloiber</cntper>
+					<cntorg>Metropolitan Council Environmental Services</cntorg>
+				</cntperp>
+				<cntpos>Water Resource Planner</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101</postal>
+				</cntaddr>
+				<cntvoice>651-602-1056</cntvoice>
+				<cntfax>651-602-1130</cntfax>
+				<cntemail>steve.kloiber@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>http://www.datafinder.org/metadata/bg/StreamsNetwork.jpg</browsen>
+			<browsed>Sample map showing the stream_net layer.</browsed>
+		</browse>
+		<native>ArcInfo Version 7x, UNIX platform</native>
+		<crossref>
+			<citeinfo>
+				<title>Mn/DOT Streams, National Wetlands Inventory Lakes and Wetlands, Mn/DNR 24K Streams, Mn/DNR Lakes</title>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>unknown</attraccr>
+		</attracc>
+		<logic>The data are topologically correct and verified.</logic>
+		<complete>The dataset is complete for the 89 USGS 7.5 minute quadrangles.  Note that some additional drainage connections may be available from municipalities.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Positional accuracy for areas derived from 1:24,000 USGS maps cannot be assumed to exceed National Map Accuracy Standards for 1:24,000 scale maps (+/- 40 feet).</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>n/a</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale>24000</srcscale>
+			</srcinfo>
+			<procstep>
+				<procdesc>APRIL 2000
+
+The Streams Network layer was developed by taking the Mn/DOT steams layers from the Mn/DOT Base Maps series (digitized from 1:24,000 USGS quad maps) and connecting stream segments through lakes and wetlands.  
+
+Breaks in stream network continuity and lake drainage were filled using a variety of data sources.  Working in major watershed tiles, DNR lakes and wetlands (of NWI origin) were used to create connector arcs through these features.  Further connections were interpreted by referencing 24k USGS Digital Raster Graphics, and, selectively, by analysis of DOQs produced by the Metropolitan Council.  Subsurface drainage was added using maps and descriptions from numerous Watershed Management Organization reports and municipalities.  To prepare the coverage for further processing, braided streams were removed from the network.  The above named source materials were used to determine primary channels when choosing the appropriate arc to represent the stream.  Finally, the major watersheds were joined together into one metropolitan area wide coverage.  Topology was verified.
+
+Many of the original stream arcs did not coincide with lake shores.  To ensure the presence of a node at every point where a lake connector and stream feature meet, an IDENTITY was performed with the lakes coverage.  Attributes were updated appropriately.
+
+Once the network was determined to be complete, a network TRACE was run to verify connectivity and flag those arcs flowing in the wrong direction.  Corrections were made so that the resulting stream network has all arcs flowing downhill, and connections are true.  The original major watershed extents were clipped to the project area.  This area is represented by a 300 meter buffered set of the 89 24k quads that intersect the minor watersheds intersecting the seven county metropolitan area.  Many arcs remained isolated from the network.  All those over 500 meters long were verified to flow in the right direction.
+
+Tolerance values for the coverage were set as follows:
+Fuzzy:   0.100
+Dangle:   10.000 Verified
+Tic Match:   0.000
+Edit:   10.000 Verified
+Node Snap:   10.000 Verified
+Weed:   1 Verified
+Grain:   10 Verified
+Snap:   3.000 Verified
+
+JULY 2000
+
+DNR reviewed the metro streams product and conducted a comprehensive data quality review and editing process, focused primarily on data completeness issues.  DNR staff used the 7.5 minute Digital Raster Graphics (DRG's) as the principal reference source during the editing process.  DNR 24K Lakes were also used in the editing process.  The work was conducted in ARC/INFO Workstation Version 8.02, using ARCEDIT.
+
+During the course of the work, numerous stream reaches were added and a variety of edits to existing features were made, including: extending streams, moving streams, deleting small spurious features, and snapping to lake polygon boundaries.  DNR staff also tagged those features which are designated trout streams.  Very few streams were actually deleted and redigitized during the process.  Rather, the process was focused on making the data consistent with other portions of the DNR 24K Streams layer with regards to structure, content, and consistency of representation.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>None</indspref>
+		<direct>Vector</direct>
+		<mgmg3obj>arcs, nodes</mgmg3obj>
+		<mgmg3til>One layer for entire area.</mgmg3til>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres />
+				<longres />
+				<geogunit /></geograph>
+			<planar>
+				<mapproj>
+					<mapprojn />
+					<mgmg4par />
+					<otherprj />
+				</mapproj>
+				<gridsys>
+					<gridsysn>UTM</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+					<spcs>
+						<spcszone />
+					</spcs>
+					<mgmg4coz />
+					<mgmg4adj />
+				</gridsys>
+				<planci>
+					<coordrep>
+						<absres />
+						<ordres />
+					</coordrep>
+					<distbrep>
+						<distres />
+					</distbrep>
+					<plandu>Meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum />
+				<altunits />
+			</altsys>
+			<depthsys>
+				<depthdn />
+				<depthdu />
+			</depthsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<overview>
+			<eaover>This dataset depicts water drainage, detailed to the general type of stream.  
+Categories of stream type are described in the Detailed Citation. The streams 
+are coded to record what organization created a particular feature, using what 
+data source.
+ 
+STRM_TYPE:  The classification of stream type.  Possible values include:
+   20 - Stream (perennial)
+   21 - Stream (intermittent)
+   22 - Stream (unknown)
+   40 - Drainage ditch (perennial)
+   41 - Drainage ditch (intermittent)
+   42 - Drainage ditch (undifferentiated)
+   60 - Connector (lake)
+   61 - Connector (wetland)
+   62 - Centerline (river)
+   63 - Connector (river)
+   70 - Road culvert
+   71 - Underground storm sewer
+   72 - Pumped force main
+   73 - Drain tile
+   80 - Interpreted arc connector
+   81 - Arbitrary overland flow connector
+
+STRM_LONG:  Description of stream type.  Possible values include:
+   Stream (perennial)
+   Stream (intermittent)
+   Stream (unknown)
+   Drainage ditch (perennial)
+   Drainage ditch (intermittent)
+   Drainage ditch (undifferentiated)
+   Connector (lake)
+   Connector (wetland)
+   Centerline (river)
+   Connector (river)
+   Road culvert
+   Underground storm sewer
+   Pumped force main
+   Drain tile
+   Interpreted arc connector
+   Arbitrary overland flow connector
+   
+STRM_SOURC: Source of the stream data.  Possible values include:
+    1 - Captured from original digital Mn/DOT basemap
+    2 - Captured from MPCA/EPA stream cover
+    3 - Captured from other MNDOT basemap using split/copy process
+    4 - Integrated from LGU digital source
+   51 - Manually digitized from USGS quad map
+   52 - Digitized on screen from USGS DRGs
+   53 - Digitized on screen from DOQs
+   54 - Manually digitized from LGU drainage map
+   55 - Interpreted from DRGs
+   56 - Interpreted from DOQs
+ 
+TROUT_FLAG: Indicates trout stream
+    0 - Not a trout stream or tributary
+    1 - Designated trout stream
+ 
+STRM_BRK:   Network value assessing connectivity and directionality.
+    0 - Arc break = no
+    1 - Arc break = yes (correct directionality)
+   30 - Arc not used for DEM generation (e.g. aqueducts)
+ 
+PROD_SRC:   Organization adding the feature
+    1 - St. Cloud State University
+    2 - BRW Inc.
+    3 - Metropolitan Council Watershed Mapping Project
+    4 - MN-DNR Waters Watershed Mapping Project
+    5 - MN-DNR MIS
+    6 - MN-DNR Fisheries
+    7 - USGS - Minnesota
+    8 - Mankato State University
+    9 - MN-DOT
+ 
+PROD_PER:   The year that the features was added
+  1996 - pilot phase
+  1998 - phase 1 production
+  1999
+  2000
+  2001</eaover>
+			<eadetcit>None</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Mark Kotz</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Database Administrator</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1644</cntvoice>
+				<cntfax>651-602-1674</cntfax>
+				<cntemail>mark.kotz@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>StreamsNetwork</resdesc>
+		<distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Shapefile</formname>
+					<formvern>ArcView: 3</formvern>
+					<transize>6 Mb for zip file.</transize>
+				</digtinfo>
+			</digform>
+			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'.  Doing so will tell your browser to download a 'ZIP' file which will contain the following:
+
+- ArcView shape files
+- metadata for the dataset (.htm)
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software.
+
+ 
+Additionally, this dataset is available for direct use via one or more map services.  More information about what a web mapping service is can be found at http://www.datafinder.org/services/.  The specific map service and layer name for this dataset can be found by clicking the blue or green boxes under the map service column of the DataFinder Catalog at http://www.datafinder.org/catalog/ .</ordering>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20010126</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Steve Kloiber</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>Water Resource Planner</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1056</cntvoice>
+				<cntfax>651-602-1130</cntfax>
+				<cntemail>steve.kloiber@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+	</metainfo>
+	<Esri><ModDate>20060210</ModDate><ModTime>14595900</ModTime></Esri><mdDateSt Sync="TRUE">20060210</mdDateSt></metadata>

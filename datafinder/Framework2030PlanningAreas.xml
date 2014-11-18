@@ -1,0 +1,261 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metropolitan Council</origin>
+				<pubdate>20110101</pubdate>
+				<title catid="bcc864cb-5249-47fc-aebc-af21857a7b79">2030 Regional Development Framework Geographic Planning Areas</title>
+				<mgmg1cid>N/A</mgmg1cid>
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<onlink>ftp://gisftp.metc.state.mn.us/Framework2030PlanningAreas.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This dataset depicts the various 2030 Framework planning areas shown on the Council's 2030 Regional Growth Strategies map.  This map is part of the Metropolitan Council 2030 Regional Development Framework adopted January 14, 2004 and amended on December 13, 2006.   See http://www.metrocouncil.org/planning/framework/overview.htm for more information (Chapter 3).  Please refer to the actual 2030 Framework Planning Areas map for the details of the 2030 Regional Development Framework growth strategy.  A digital version can be found at http://www.metrocouncil.org/planning/framework/PlanningAreas8X11.jpg
+
+This dataset is intended to supplement the framework document as a planning guide.  For questions about how decisions were made regarding individual communities' geographic planning areas, please contact the Metropolitan Council Regional Framework Development staff, John Kari, 651-602-1548.
+
+See Lineage in Section 2 of this metadata for more information.</abstract>
+			<purpose>This dataset was created to allow the depictions of 2030 Regional Development Framework geographic planning areas.</purpose>
+			<supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20110101</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Planning areas were first defined to analyze land use and development trends and socio-economic characteristics to assist in preparing the Council's 1975 Metropolitan Development Framework.  They have subsequently been used for a wide range of general analysis purposes.  These areas were defined to reflect stages of development of metropolitan area communities.  A major factor in their determination has been the proportion of land developed.  As such, these areas have been periodically adjusted to reflect the continued outward growth of the region. The dataset reflects Metropolitan Council approval on January 14, 2004 and 1 amendment approved on December 13, 2006.  No updates have been made to adjust policy area boundaries to match municipal boundary changes since 2004.</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-94.012</westbc>
+				<eastbc>-92.732</eastbc>
+				<northbc>45.415</northbc>
+				<southbc>44.471</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>planning and development, 2030 Framework Planning Areas, 2030 Framework, regional growth strategy</themekey>
+			</theme>
+			<place>
+				<placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Paul Hanson</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Coordinator - Community Development</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1642</cntvoice>
+				<cntfax>651.602.1674</cntfax>
+				<cntemail>paul.hanson@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>http://www.datafinder.org/metadata/bg/Framework2030PlanningAreas.jpg</browsen>
+			<browsed>Sample map showing the 2030 framework planning areas layer.</browsed>
+		</browse>
+		<native>ArcView 9.3</native>
+		<crossref>
+			<citeinfo>
+				<title /></citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr /></attracc>
+		<logic>The dataset is topologically 'clean'.</logic>
+		<complete>Entire seven county geographic area is covered.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar /></horizpa>
+			<vertacc>
+				<vertaccr /></vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale /></srcinfo>
+			<procstep>
+				<procdesc>Source data used to define the Geographic Planning Areas of the Growth Strategy
+- 2000 Municipal Boundaries
+- 2000 Generalized Land Use
+
+Many boundaries from the Comprehensive Plan Composite data were generalized to portray a more general growth strategy policy. 
+
+The 640 polygons in the approved dataset were dissolved into the 6 Geographic Planning Areas plus a category for the 4 metro communities not under Council jurisdiction (Northfield, New Prague, Hanover and Rockford)
+
+The 6 planning areas are further broken down to either Urban or Rural planning areas.  In the Urban Planning area are the Developing and Developed areas.  In the Rural Planning area are the Rural Center, Agricultural, Diversified Rural and Rural Residential areas.  
+
+Several sliver polygons can be seen on screen at the metro scale but 'disappear' when zoomed in to a closer range.  Slivers are not visible when printed on 36x36 inch map or at other map sizes.
+
+The Regional Growth Strategy (titled 2030 Framework Planning Areas) that was adopted on January 14, 2004 was a map that also included:
+- Regional Natural Resource Areas (including Terrestrial and Wetland Areas) from the Metro DNR in coordination with the Metropolitan Council (Preliminary Regionally Significant Natural Resources Areas)
+- Regional Parks (Regional Recreation Open Space Features)
+- 2 proposed Regional Parks (Metropolitan Council Parks and Recreation staff)
+- Existing, Planned and Proposed Regional and State Trails (Park Operating Agencies) 
+- Transit 2025 Corridor (Transitways on Dedicated Rights-of-Way, 2025 dataset)
+- Principal Arterials (Functional Class Roads and Proposed Functional Class Roads, 2002, Principal Arterials only)
+
+The 2030 Regional Framework Planning Areas was ammended in 2006 to include a new planning area designation for East Bethel.
+
+In January 2007, Lake Elmo's comprehensive Plan was finalized. The data and maps were updated in 2010.
+
+Planning Area Definitions and Strategies for Geographic Planning Areas are available in the 2030 Regional Development Framework document at 
+http://www.metrocouncil.org/planning/framework/overview.htm  (See Chapter 3)</procdesc>
+			</procstep>
+			<procstep><procdesc>Source data used to define the Geographic Planning Areas of the Growth Strategy
+- 2000 Municipal Boundaries
+- 2000 Generalized Land Use
+- Comprehensive Plan Composite data from early in 2002 (communities that had not completed their comprehensive plan review process included Rockford, Minnetonka Beach, Shorewood, Eden Prairie, Jordan, Ham Lake, Linwood Twp., Lake Elmo, St. Mary's Point, New Market and Elko)
+
+Many boundaries from the Comprehensive Plan Composite data were generalized to portray a more general growth strategy policy. 
+
+The 640 polygons in the approved dataset were dissolved into the 6 Geographic Planning Areas plus a category for the 4 metro communities not under Council jurisdiction (Northfield, New Prague, Hanover and Rockford)
+
+The 6 planning areas are further broken down to either Urban or Rural planning areas.  In the Urban Planning area are the Developing and Developed areas.  In the Rural Planning area are the Rural Center, Agricultural, Diversified Rural and Rural Residential areas.  
+
+Several sliver polygons can be seen on screen at the metro scale but 'disappear' when zoomed in to a closer range.  Slivers are not visible when printed on 36x36 inch map or at other map sizes.
+
+
+The Regional Growth Strategy (titled 2030 Framework Planning Areas) that was adopted on January 14, 2004 was a map that also included:
+- Regional Natural Resource Areas (including Terrestrial and Wetland Areas) from the Metro DNR in coordination with the Metropolitan Council (Preliminary Regionally Significant Natural Resources Areas)
+- Regional Parks (Regional Recreation Open Space Features)
+- 2 proposed Regional Parks (Metropolitan Council Parks and Recreation staff)
+- Existing, Planned and Proposed Regional and State Trails (Park Operating Agencies) 
+- Transit 2025 Corridor (Transitways on Dedicated Rights-of-Way, 2025 dataset)
+- Principal Arterials (Functional Class Roads and Proposed Functional Class Roads, 2002, Principal Arterials only)
+
+Planning Area Definitions and Strategies for Geographic Planning Areas are available in the 2030 Regional Development Framework document at 
+http://www.metrocouncil.org/planning/framework/overview.htm  (See Chapter 3)</procdesc><srcused Sync="TRUE">L:\Metadata\Layers\fw_2030_planning_areas</srcused><date Sync="TRUE">20051206</date><time Sync="TRUE">09111500</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">L:\Metadata\Layers\fw_2030_planning_areas</srcused><procdate Sync="TRUE">20110103</procdate><proctime Sync="TRUE">08223500</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>None</indspref>
+		<direct>Vector</direct>
+		<mgmg3obj>Polygon shapes</mgmg3obj>
+		<mgmg3til>One layer for entire seven county region.</mgmg3til>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+			</geograph>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+			<planar><planci><coordrep><absres /><ordres /></coordrep></planci></planar></horizsys>
+		<vertdef>
+			<altsys>
+			</altsys>
+			<depthsys>
+			</depthsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<overview>
+			<eaover>Polygon Attributes:
+
+FWPA_CODE:  A two digit numeric code for the planning area
+
+FWPA_NAME:  The name of the geographic planning area in the 2030 Regional 
+            Development Framework
+
+URB_RURAL:  Urban vs. Rural planning area designation
+
+         FWPA_CODE   PLAN_AREA           URBAN_RURAL
+         ---------   -----------------   -------------------
+            20       Developed Area      Urban Planning Area
+            30       Developing Area     Urban Planning Area
+            40       Rural Center        Rural Planning Area
+            51       Diversified Rural   Rural Planning Area
+            52       Rural Residential   Rural Planning Area
+            53       Agricultural        Rural Planning Area
+            60       Non-Council Area</eaover>
+			<eadetcit>Geographic Planning Area Definitions and Strategies for Geographic Planning Areas are available in the 2030 Regional Development Framework document at 
+http://www.metrocouncil.org/planning/framework/documents.htm   (See Chapter 3)</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Mark Kotz</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Database Administrator</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1644</cntvoice>
+				<cntfax>651.602.1674</cntfax>
+				<cntemail>mark.kotz@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>Framework2030PlanningAreas</resdesc>
+		<distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ArcView Shape Files</formname>
+					<formvern>ArcGIS 9x</formvern>
+					<transize>2 MB for zip file</transize>
+				</digtinfo>
+			</digform>
+			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'. Doing so will tell your browser to download a 'ZIP' file which will contain the following:
+
+- ArcView shape file
+- metadata for the dataset (.htm)
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software.</ordering>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20110101</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Paul Hanson</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Coordinator - Community Development</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1642</cntvoice>
+				<cntfax>651.602.1674</cntfax>
+				<cntemail>paul.hanson@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+	</metainfo>
+	<Esri><ModDate>20110729</ModDate><ModTime>13470400</ModTime><CreaDate>20110103</CreaDate><CreaTime>08223500</CreaTime><SyncOnce>TRUE</SyncOnce><MetaID>{F033CC0E-D0B0-4E28-BF94-F38FA05B8575}</MetaID></Esri><mdDateSt Sync="TRUE">20110729</mdDateSt><distInfo><distributor><distorTran><onLineSrc><linkage Sync="TRUE">file://\\rafs\gis\devel\data_devel\comp_plans\tcma_pa\fw_2030_planning_areas</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc></distorTran></distributor></distInfo></metadata>

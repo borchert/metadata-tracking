@@ -1,0 +1,58 @@
+<metadata><idinfo><citation><citeinfo><origin>U.S. Geological Survey and Metropolitan Council</origin><pubdate>Unpublished material</pubdate><title catid="dfa18dff-d44e-45e0-b79e-cf9eba263424">10 Foot Elevation Contours (Hypsography)</title><mgmg1cid /><pubinfo><publish>Metropolitan Council</publish></pubinfo><onlink>ftp://gisftp.metc.state.mn.us/ElevationContours10ftMetro.zip</onlink></citeinfo></citation><descript><abstract>These elevation contours were extracted from USGS 7.5 minute (1:24,000 scale) hypsography DLG data and converted to an ArcView shapefile.
+
+Digital line graph (DLG) data are digital representations of cartographic information. DLG's of map features are converted to digital form from maps and related sources.  All DLG data distributed by the USGS are DLG - Level 3 (DLG-3), which means the data contain a full range of attribute codes, have full topological structuring, and have passed certain quality-control checks.
+
+Notes:  
+- ''Depth curves'' for lakes are included in this layer.
+- Quad tiles were not edgematched, therefore contours do not necessarily line up across tile boundaries.
+- Some DLG vectors represent more than one elevation (e.g., a cliff).
+- Entire seven county geographic area is covered.</abstract><purpose>These data represent iso-elevation contours of surface terrain.  These data were collected as part of the National Mapping Program.</purpose><supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>19800705</caldate></sngdate></timeinfo><current>USGS produced the DLG map on 07/05/1980.  Further processing was done by the Metropolitan Council and the Minnesota DNR in 1999 to extract and convert the USGS 7.5 minute DLG Hypsography/elevation lines to an ArcInfo line coverage and then an ArcView shapefile.</current></timeperd><status><progress>Complete</progress><update>None Planned</update></status><spdom><bounding><westbc>-94.012</westbc><eastbc>-92.732</eastbc><northbc>45.415</northbc><southbc>44.471</southbc></bounding></spdom><keywords><theme><themekt>None</themekt><themekey>hypsography, elevation, elevations, contours, DLG</themekey></theme><place><placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey></place></keywords><accconst>None</accconst><useconst>Acknowledgement of the U.S. Geological Survey would be appreciated in products derived from these data.
+
+None.</useconst><browse><browsen>http://www.datafinder.org/metadata/bg/ElevationContours10ft.jpg</browsen><browsed>Sample map showing the ElevationContours10ft layer.</browsed></browse><native>ArcView Version 3.x</native><crossref><citeinfo><title>USGS 7.5-Minute Hypsography DLG Data (available from USGS).</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Steve Kloiber</cntper></cntperp><cntpos>Senior Water Resource Planner</cntpos><cntaddr><addrtype> mailing and physical address </addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>Minnesota</state><postal>55101-1805</postal></cntaddr><cntvoice>651-602-1056</cntvoice><cntfax>651-602-1130</cntfax><cntemail>steve.kloiber@metc.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>Elevation attribute accuracy is based on the use of USGS source quadrangles which are compiled to meet NMAS.  NMAS requires at least 90% of well defined points to be within 1/2 contour interval.</attraccr></attracc><logic>The data are topologically 'clean'.</logic><complete>Entire seven county geographic area is covered.</complete><posacc><horizpa><horizpar>This dataset was initially derived from 1:24,000 scale maps.  Thus the horizontal positional accuracy can probably be reasonably estimated based on the characteristics of source materials and processing techniques to be no better than +or- 45-60 feet (14 - 18 meters).</horizpar></horizpa><vertacc><vertaccr>Vertical positional accuracy is based upon the use of USGS source quadrangles which are compiled to meet NMAS.  NMAS vertical accuracy requires that at least 90 percent of well defined points to be within one half contour interval of the correct value.  Comparison to the graphic source is used as control to assess digital positional accuracy.</vertaccr></vertacc></posacc><lineage><srcinfo><srcscale>24000</srcscale></srcinfo><procstep><procdesc>DATA SOURCES:
+-  USGS 7.5-Minute Hypsography DLG Data which included 88 quadrangles which cover the Twin Cities' Metro area.
+
+HISTORY OF THE Hypsography/Elevation Line Data:
+
+Using an ArcInfo AML programming, a hypsography/elevation layer was extracted from the USGS 7.5-Minute Hypsography DLG Data which included 88 quadrangles in the vicinity of Minneapolis/St. Paul.  
+
+The AML was written to process the USGS data using the following steps:
+
+An AML command selected and extracted elevation lines with 10 foot intervals and convert them into a vector format as an ArcInfo line coverage; 
+
+The data were then merged into a single coverage and converted to an ArcView shapefile format.</procdesc></procstep></lineage></dataqual><spdoinfo><indspref>None</indspref><direct>Vector</direct><mgmg3obj>arcs and nodes</mgmg3obj><mgmg3til>One layer for entire region, or individual county tiles.</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>NGVD29</altdatum><altunits>Feet</altunits></altsys><depthsys><depthdn /><depthdu /></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><overview><eaover>Line Attributes:
+ 
+ELEV1: Elevation in feet.
+ 
+ELEV2: Second elevation in feet (where a contour represents more than one 
+       elevation (e.g. a cliff )).
+ 
+ELEV3: Third elevation in feet.
+ 
+ELEV4: Fourth elevation in feet.
+ 
+DLG1:  First DLG code signifying contour type.
+ 
+DLG2:  Second DLG code signifying contour type.
+ 
+DESC1: First text description of DLG contour type.
+ 
+DESC2: Second text description of DLG contour type.</eaover><eadetcit>None</eadetcit></overview></eainfo><distinfo><resdesc>ElevationContours10ft</resdesc><distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab><stdorder><digform><digtinfo><formname>ArcView Shape File</formname><formvern>ArcView 3.2</formvern><transize>ZIP file sizes:  77 MB for metro wide, 4.9 MB for Anoka, 6.7 MB for Carver, 10.9 MB for Dakota, 12.0 MB for Hennepin, 3.5 MB for Ramsey, 7.4 MB for Scott and 10.0 MB for Washington.</transize></digtinfo></digform><ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'.  Doing so will tell your browser to download a 'ZIP' file which will contain the following:
+
+- Shape file
+- metadata for the dataset (.htm)
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software.
+
+
+NOTE:  THIS IS A VERY LARGE FILE AND WILL TAKE CONSIDERABLE TIME TO DOWNLOAD.
+
+To download an individual county, click one of the following links.
+
+ftp://gisftp.metc.state.mn.us/ElevationContours10ftAnoka.zip
+ftp://gisftp.metc.state.mn.us/ElevationContours10ftCarver.zip
+ftp://gisftp.metc.state.mn.us/ElevationContours10ftDakota.zip
+ftp://gisftp.metc.state.mn.us/ElevationContours10ftHennepin.zip
+ftp://gisftp.metc.state.mn.us/ElevationContours10ftRamsey.zip
+ftp://gisftp.metc.state.mn.us/ElevationContours10ftScott.zip
+ftp://gisftp.metc.state.mn.us/ElevationContours10ftWashington.zip
+
+Additionally, this dataset is available for direct use via one or more map services.  More information about what a web mapping service is can be found at http://www.datafinder.org/services/.  The specific map service and layer name for this dataset can be found by clicking the blue or green boxes under the map service column of the DataFinder Catalog at http://www.datafinder.org/catalog/ .</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Jon Hoekenga</cntper></cntperp><cntpos>GIS System Administrator</cntpos><cntaddr><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1561</cntvoice><cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20110926</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Jon Hoekenga</cntper></cntperp><cntpos>GIS System Administrator</cntpos><cntaddr><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1561</cntvoice><cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail></cntinfo></metc></metainfo><Esri><ModDate>20060210</ModDate><ModTime>15472900</ModTime></Esri><mdDateSt Sync="TRUE">20060210</mdDateSt></metadata>

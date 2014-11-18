@@ -1,0 +1,243 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metropolitan Council</origin>
+				<pubdate>Unpublished material</pubdate>
+				<title catid="da0417cb-b7f6-4067-be90-6e9bf23aa54d">Waste Water Treatment Plants</title>
+				<mgmg1cid>N/A</mgmg1cid>
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<onlink>ftp://gisftp.metc.state.mn.us/TreatmentPlants.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This layer contains a point location for each of the waste water treatment plants in the Twin Cities metropolitan area.</abstract>
+			<purpose>Used to show general location of waste water treatment plants</purpose>
+			<supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2002</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>dataset is up-to-date as of August, 2002.</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-94.012</westbc>
+				<eastbc>-92.732</eastbc>
+				<northbc>45.415</northbc>
+				<southbc>44.471</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>waste water treatment plant, waste water, sewage treatment plant, sewage, sewer, sewerage, utilities</themekey>
+			</theme>
+			<place>
+				<placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Tim Leach</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>Environmental Services Division</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1063</cntvoice>
+				<cntfax>651-602-1030</cntfax>
+				<cntemail>tim.leach@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>http://www.datafinder.org/metadata/bg/TreatmentPlants.jpg</browsen>
+			<browsed>Sample map showing the TreatmentPlants layer.</browsed>
+		</browse>
+		<native>ArcGIS 8x</native>
+		<crossref>
+			<citeinfo>
+				<title>Sewer Interceptors, Sewersheds</title>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr />
+		</attracc>
+		<logic>The dataset is topologically 'clean'.</logic>
+		<complete>Entire seven county geographic area is covered.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>The positional accuracy of the dataset has not been tested under the National Standards for Spatial Data Accuracy.  The positional accuracy of the dataset is UNKNOWN.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr />
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale />
+			</srcinfo>
+			<procstep>
+				<procdesc>Derived from plan drawings and located on census street dataset.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>None</indspref>
+		<direct>Point</direct>
+		<mgmg3obj>points</mgmg3obj>
+		<mgmg3til>One layer for entire seven county region.</mgmg3til>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres />
+				<longres />
+				<geogunit /></geograph>
+			<planar>
+				<mapproj>
+					<mapprojn />
+					<mgmg4par />
+					<otherprj />
+				</mapproj>
+				<gridsys>
+					<gridsysn>UTM</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+					<spcs>
+						<spcszone />
+					</spcs>
+					<mgmg4coz />
+					<mgmg4adj />
+				</gridsys>
+				<planci>
+					<coordrep>
+						<absres />
+						<ordres />
+					</coordrep>
+					<distbrep>
+						<distres />
+					</distbrep>
+					<plandu>Meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum>Not applicable</altdatum>
+				<altunits />
+			</altsys>
+			<depthsys>
+				<depthdn>Not applicable</depthdn>
+				<depthdu />
+			</depthsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<overview>
+			<eaover>Point Attributes
+ 
+NAME:     Treatment plant name.
+ 
+ADDRESS:  Treatment plant street address.
+ 
+CITY:     Treatment plant city.
+ 
+ZIP:      Treatment plant zip code.
+
+MAP_CODE: Synergen relate item.</eaover>
+			<eadetcit>None</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Mark Kotz</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Database Administrator</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1644</cntvoice>
+				<cntfax>651-602-1674</cntfax>
+				<cntemail>mark.kotz@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>TreatmentPlants</resdesc>
+		<distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ArcView Shape file</formname>
+					<formvern>ArcGIS 8</formvern>
+					<transize>0.1 meg. for zip file.</transize>
+				</digtinfo>
+			</digform>
+			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'.  Doing so will tell your browser to download a 'ZIP' file which will contain the following:
+
+- ArcView shape files
+- metadata for the dataset (.htm)
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software.
+
+ 
+Additionally, this dataset is available for direct use via one or more map services.  More information about what a web mapping service is can be found at http://www.datafinder.org/services/.  The specific map service and layer name for this dataset can be found by clicking the blue or green boxes under the map service column of the DataFinder Catalog at http://www.datafinder.org/catalog/ .</ordering>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20030324</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Tim Leach</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>Environmental Services Division</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1064</cntvoice>
+				<cntfax>651-602-1030</cntfax>
+				<cntemail>tim.leach@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+	</metainfo>
+	<Esri><ModDate>20060210</ModDate><ModTime>14244600</ModTime></Esri><mdDateSt Sync="TRUE">20060210</mdDateSt></metadata>

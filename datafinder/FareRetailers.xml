@@ -1,0 +1,178 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metropolitan Council - Metro Transit</origin>
+				<pubdate>Periodically revised</pubdate>
+				<title catid="42bf5960-a6d6-47b8-b457-7e6590e88794">Metro Transit Fare Retailer Locations</title>
+				<mgmg1cid>N/A</mgmg1cid>
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<onlink>ftp://gisftp.metc.state.mn.us/FareRetailers.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This dataset shows locations of Metro Transit fare retailers</abstract>
+			<supplinf>Twin Cities metropolitan area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, and Sherburne  in Minnesota.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20140523</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>Irregular</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-94.012</westbc>
+				<eastbc>-92.732</eastbc>
+				<northbc>45.415</northbc>
+				<southbc>44.471</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Landmarks</themekey>
+			</theme>
+			<place>
+				<placekey>Minneapolis, Saint Paul, Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>By acceptance of this data, the user agrees to include a copy of this metadata record, including the liability disclaimer, whenever the user transmits or provides this data to another user.
+
+We recommend that other interested parties download this dataset from the Data Finder web site (www.datafinder.org) to ensure that the most current data is obtained.</useconst>
+		<browse>
+			<browsen>None available</browsen>
+			<browsed />
+		</browse>
+		<native>ASCII</native>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council - Metro Transit</cntorg>
+					<cntper>Rachel Dungca</cntper>
+				</cntperp>
+				<cntpos>Sales Operations Specialist</cntpos>
+				<cntaddr>
+					<address>560 6th Ave N</address>
+					<city>Minneapolis</city>
+					<state>MN</state>
+					<postal>55411</postal>
+				</cntaddr>
+				<cntvoice>612.349.7536</cntvoice>
+				<cntemail>rachel.dungca@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Attributes are assumed to be accurate on the effective date.</attraccr>
+		</attracc>
+		<complete>Data is complete.</complete>
+		<lineage>
+			<procstep>
+				<procdesc>This layer is maintained by Rachel Dungca</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>None</indspref>
+		<direct>vector</direct>
+		<mgmg3obj>point&gt;</mgmg3obj>
+		<mgmg3til />
+	</spdoinfo>
+	<eainfo>
+		<overview>
+			<eaover>Name     -  Name of fare retailer
+Location -  Text description of location
+City     -  Name of city
+Zipcode  -  Zipcode of the location</eaover>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ASCII</formname>
+					<formvern />
+					<transize />
+				</digtinfo>
+			</digform>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Jon Hoekenga</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntfax>651-602-1674</cntfax>
+				<cntemail>jon.hoekenga@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metd>20140523</metd>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council - Metro Transit</cntorg>
+					<cntper>Rachel Dungca</cntper>
+				</cntperp>
+				<cntpos>Sales Operations Specialist</cntpos>
+				<cntaddr>
+					<address>560 6th Ave N</address>
+					<city>Minneapolis</city>
+					<state>MN</state>
+					<postal>55411</postal>
+				</cntaddr>
+				<cntvoice>612.349.7536</cntvoice>
+				<cntemail>rachel.dungca@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<Esri>
+		<ModDate>20111205</ModDate>
+		<ModTime>15392600</ModTime>
+	</Esri>
+	<mdDateSt Sync="TRUE">20111205</mdDateSt>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>Universal Transverse Mercator</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+				</gridsys>
+				<planci>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+	</spref>
+</metadata>

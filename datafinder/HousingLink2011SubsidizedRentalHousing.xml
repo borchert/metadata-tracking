@@ -1,0 +1,171 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>HousingLink</origin>
+				<title catid="389b5139-7b77-4d7f-b885-99dcb50db77c">2011 Subsidized Rental Housing in the Twin Cities</title>
+				<pubinfo>
+					<publish>HousingLink</publish>
+				</pubinfo>
+				<pubdate>20121211</pubdate>
+				<onlink>ftp://gisftp.metc.state.mn.us/HousingLink2011SubsidizedRentalHousing.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This data, compiled from various sources such as MN Housing (MHFA), HUD, the USDA, the Federal Home Loan Bank of Des Moines, and various local government and nonprofit sources, details total units per Census Tract of publicly-funded rental housing affordable to 80% area median income (AMI) or below. Coverage is the seven county Twin Cities Metro area. Note: Housing Choice Vouchers (aka Section 8), a tenant-based subsidy that allows renters to use vouchers in the private market, is not included in this dataset.</abstract>
+			<supplinf>Twin Cities Seven County Metro</supplinf>
+			<purpose>To study subsidized housing supply in the Twin Ctiies.</purpose>
+		</descript>
+		<timeperd>
+			<current>Data is updated with respect to first finance close of properties/developments within the set.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>20111231</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Annually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-94.012497</westbc>
+				<eastbc>-92.731890</eastbc>
+				<northbc>45.414798</northbc>
+				<southbc>44.471149</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<place>
+				<placekey>"Twin Cities" "Metro" "7-County"</placekey>
+			</place>
+			<theme>
+				<themekey>housing rental subsidized</themekey>
+			</theme>
+		</keywords>
+		<accconst>None</accconst>
+		<crossref>
+			<citeinfo>
+				<title>Individual property information related to units in this data set is publicly available at http://www.housinglink.org/streams/</title>
+			</citeinfo>
+		</crossref>
+		<useconst>None</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>HousingLink</cntorg>
+					<cntper>Dan Hylton</cntper>
+				</cntperp>
+				<cntpos>Research Manager</cntpos>
+				<cntaddr>
+					<address>275 Market Street</address>
+					<address>Suite 509</address>
+					<city>Minneapolis</city>
+					<state>MN</state>
+					<postal>55405</postal>
+				</cntaddr>
+				<cntvoice>(612) 522-2500</cntvoice>
+				<cntemail>dhylton@housinglink.org</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres>0.000001</latres>
+				<longres>0.000001</longres>
+				<geogunit>Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<metainfo>
+		<metd>20121211</metd>
+		<metstdn>2011 Subsidized Rental Housing in the Twin Cities</metstdn>
+		<metstdv>2011</metstdv>
+		<metextns>
+			<onlink>ftp://gisftp.metc.state.mn.us/HousingLink2011SubsidizedRentalHousing.zip</onlink>
+		</metextns>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>HousingLink</cntorg>
+					<cntper>Dan Hylton</cntper>
+				</cntperp>
+				<cntpos>Research Manager</cntpos>
+				<cntaddr>
+					<address>275 Market Street</address>
+					<address>Suite 509</address>
+					<city>Minneapolis</city>
+					<state>MN</state>
+					<postal>55405</postal>
+				</cntaddr>
+				<cntvoice>(612) 522-2500</cntvoice>
+				<cntemail>dhylton@housinglink.org</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<distinfo>
+		<resdesc>2011 Subsidized Rental Housing in the Twin Cities</resdesc>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>HousingLink</cntorg>
+					<cntper>Dan Hylton</cntper>
+				</cntperp>
+				<cntpos>Research Manager</cntpos>
+				<cntaddr>
+					<address>275 Market Street</address>
+					<address>Suite 509</address>
+					<city>Minneapolis</city>
+					<state>MN</state>
+					<postal>55405</postal>
+				</cntaddr>
+				<cntvoice>(612) 522-2500</cntvoice>
+				<cntemail>dhylton@housinglink.org</cntemail>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>2011_Subsidized_Rental_Housing_Twin_Cities</enttypl>
+			</enttyp>
+			<attr>
+				<attrlabl>GEOID10</attrlabl>
+				<attrdef>11-Digit FIPS Code for 2010 US Census Tracts</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Sum_Units</attrlabl>
+				<attrdef>Sum total of subsidized housing units in the tract</attrdef>
+			</attr>
+		</detailed>
+		<overview>
+			<eaover>The polygon shapefile consists of merely two variables:
+- GEOID10: (11 digit FIPS Code for 2010 US Census Tracts)
+- Sum_Units: Sum total of subsidized rental housing units in the tract.</eaover>
+		</overview>
+	</eainfo>
+	<dataqual>
+		<logic>Community verification on subsidized units.</logic>
+		<complete>All known subsidized units with a first finance close prior to Jan 1, 2012</complete>
+		<attracc>
+			<attraccr>Aggregated point data is address-level accurate.</attraccr>
+		</attracc>
+		<lineage>
+			<procstep>
+				<procdesc>Our organization reaches out to primary funders of affordable housing in MN. We then reach out to dozens of local organizations &amp; agencies to see if any units were missed. After that, we address-match results and process point data to arrive at a sum total for Census Tracts.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+		<spdoinfo>
+		<direct>Vector</direct>
+		<indspref />
+		<mgmg3obj>polygon</mgmg3obj>
+		<mgmg3til />
+	</spdoinfo>
+</metadata>

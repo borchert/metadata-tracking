@@ -1,0 +1,68 @@
+<metadata><idinfo><citation><citeinfo><origin>U.S. Census Bureau</origin><title catid="31b897d0-3c65-4311-ac8d-04470116abb5">Local Origin-Destination Employment Statistics - Workplace Area Characteristics</title><pubinfo><publish>Metropolitan Council</publish></pubinfo><pubdate>20131108</pubdate><onlink>ftp://gisftp.metc.state.mn.us/CensusWorkplaceAreaCharacteristics.zip</onlink></citeinfo></citation><descript><abstract>Local Origin-Destination Employment Statistics - Workplace Area Characteristics provides local approximation of employment levels and characteristics.  This dataset is an administrative records data mining product of U.S. Census Bureau.  The Bureau obtains incumbent worker characteristics and home locations from Social Security Administration. Worksite locations, employment counts, quarterly wage totals and other worksite characteristics are obtained from Unemployment Insurance payroll data maintained by State employment security agencies. 
+
+U.S. Census Bureau geocodes most worksite locations. Geocoded locations are then "fuzzed" or randomly moved from true locations in order to obscure the identity of individual employers and worksites. Those worksites that cannot be geocoded are assigned probable locations through a Bayesian imputation process. Finally, the resulting employment distributions are summarized to Census blocks. Local Origin-Destination Employment Statistics serves as a reasonable approximation of local employment distributions and journey-to-work patterns.</abstract><purpose>Local Origin-Destination Employment Statistics - Workplace Area Characteristics provides local approximation of employment levels and characteristics. </purpose><supplinf>19 counties: 7 counties of the Twin Cities metro area and 12 counties adjacent and surrounding the metro area.</supplinf></descript><timeperd><current>Year corresponding to employment statistics.</current><timeinfo><sngdate><caldate>2011</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>Annually</update></status><spdom><bounding><westbc>-94.63</westbc><eastbc>-92.13</eastbc><northbc>45.73</northbc><southbc>44.19</southbc></bounding></spdom><keywords><theme><themekey>Employment, industries, jobs, commuting, Census blocks</themekey></theme></keywords><accconst>None</accconst><useconst>None</useconst><crossref><citeinfo><title>This dataset contains Excel spreadsheets indexed by Census block IDs. This data can be joined with a SHP or layer of TIGER 2010 Census blocks.</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Todd Graham</cntper></cntperp><cntpos>Research Manager</cntpos><cntaddr><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1322</cntvoice><cntemail>todd.graham@metc.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><eainfo><overview><eaover>Local Origin-Destination Employment Statistics serves as a reasonable approximation of local employment distributions and journey-to-work patterns.
+
+The data republished here are Workplace Area Characteristics for all jobs known to State Unemployment Insurance systems.  U.S. Census Bureau's Local Origin-Destination Employment Statistics program also produces: (1) Residence Area Characteristics, counting workers at their home locations; and (2) Origin-Destination flows, quantifying numbers of working commuting between homes locations and workplace locations.
+
+
+Attributes for table: 
+
+The following appear as labels or headings in tables compiled by Metropolitan Council: 
+
+GEOCODE= Census-provided 15-digit code identifying the County FIPS code and TIGER 2010 Tract and Block identifier;
+TOTAL= All jobs total for the block;
+AGE1= Jobs held by workers ages 15 to 29;
+AGE2= Jobs held by workers ages 30 to 54;
+AGE3= Jobs held by workers age 55 and older;
+EARN1= Jobs held by workers who earned less than $15,000 (Low wages may be due to low-wage rates, part-time status, partial-year tenure, or any combination of these factors.)
+EARN2= Jobs held by workers who earned $15,000 to $39,999;
+EARN3= Jobs held by workers who earned $40,000 or more;
+IND11= Jobs in NAICS industry 11;
+IND21= Jobs in NAICS industry 21;
+IND22= Jobs in NAICS industry 22;
+IND23= Jobs in NAICS industry 23;
+IND31= Jobs in NAICS industries 31-33;
+IND42= Jobs in NAICS industries 42-43;
+IND44= Jobs in NAICS industries 44-45;
+IND48= Jobs in NAICS industries 48-49;
+IND51= Jobs in NAICS industry 51;
+IND52= Jobs in NAICS industry 52;
+IND53= Jobs in NAICS industry 53;
+IND54= Jobs in NAICS industry 54;
+IND55= Jobs in NAICS industry 55;
+IND56= Jobs in NAICS industry 56;
+IND61= Jobs in NAICS industry 61;
+IND62= Jobs in NAICS industry 62;
+IND71= Jobs in NAICS industry 71;
+IND72= Jobs in NAICS industry 72;
+IND81= Jobs in NAICS industry 81;
+IND92= Jobs in NAICS industry 92;
+CREATEDATE= Date on which data was compiled by U.S. Census Bureau;
+YEAR= Year of the employment statistic;
+DATASOURCE= Identifier of LODES product;
+RETAIL= Jobs in NAICS industries 44-45 + 90% of jobs in NAICS 72;
+NONRETAIL= Calculation of total jobs less retail jobs less agriculture industry jobs;
+ALAND10= Land area in sq meters of the Census block from Census TIGER 2010;
+AWATER10= Water area in sq meters of the Census block from Census TIGER 2010;
+INTPTLAT10= Census-provided latitude of the Census block;
+INTPTLON10= Census-provided longitude of the Census block;
+TAZ2012= Metropolitan Council-assigned Transportation Analysis Zone ID (post-Census 2010);
+TAZ2000= Metropolitan Council-assigned Transportation Analysis Zone ID (post-Census 2000);
+COUNTY= FIPS code for state and county;
+SUBFP= FIPS code for minor civil division; 
+SUBNS= GNIS code for minor civil division;
+NAME= Name label for minor civil division;
+</eaover></overview></eainfo><dataqual><logic>Census-provided documentation is at http://lehd.ces.census.gov/data/#lodes</logic><complete>Entire 19-county area is covered. Regarding data frame completeness: Local Origin-Destination Employment Statistics uses the data frame of State Unemployment Insurance systems, counting wage &amp; salary jobs that are &#8220;covered&#8221; by Unemployment Insurance.  Business owners, self-employed persons, some temporary workers, family farmers, military personnel, and others are typically outside of this frame, are not covered, and thus not counted in LODES.</complete><posacc><horizpa><horizpar>This dataset contains Excel spreadsheets indexed by Census block IDs. This data can be joined with a SHP or layer of TIGER 2010 Census blocks.</horizpar></horizpa><vertacc><vertaccr>This dataset contains Excel spreadsheets indexed by Census block IDs. This data can be joined with a SHP or layer of TIGER 2010 Census blocks.</vertaccr></vertacc></posacc><attracc><attraccr>Regarding the location of employment: U.S. Census Bureau geocodes most worksite locations. Geocoded locations are then "fuzzed" or randomly moved from true locations in order to obscure the identity of individual employers and worksites. The reallocation of worksite points into other, proximate Census blocks can distort local employment summarizations. Where worksites cannot be geocoded -- either geocoding failed or address is unknown -- the Bureau assigns probable locations through a Bayesian imputation process. Such a process will be biased toward agglomerations of successfully geocoded employment. Metropolitan Council staff find that the LODES employment totals may be low by 10 percent or more in predominantly rural areas. This suggests that U.S. Census Bureau is having some difficulty geolocating worksites in those counties. </attraccr></attracc><lineage><procstep><procdesc>Census-provided documentation is at http://lehd.ces.census.gov/data/#lodes
+
+Regarding the location of employment: U.S. Census Bureau geocodes most worksite locations. Geocoded locations are then "fuzzed" or randomly moved from true locations in order to obscure the identity of individual employers and worksites. The reallocation of worksite points into other, proximate Census blocks can distort local employment summarizations.
+
+Where worksites cannot be geocoded -- either geocoding failed or address is unknown -- the Bureau assigns probable locations through a Bayesian imputation process. Such a process will be biased toward agglomerations of successfully geocoded employment. Metropolitan Council staff find that the LODES employment totals may be low by 10 percent or more in predominantly rural areas. This suggests that U.S. Census Bureau is having some difficulty geolocating worksites in those counties. 
+
+With these caveats in mind, Local Origin-Destination Employment Statistics serves as a reasonable approximation of local employment distributions and journey-to-work patterns.
+</procdesc></procstep></lineage><mgmg3obj>point</mgmg3obj></dataqual><distinfo><resdesc>CensusWorkplaceAreaCharacteristics</resdesc><distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab><stdorder><ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'.  Doing so will tell your browser to download a 'ZIP' file which will contain the following:
+
+- ArcView shape files
+- metadata for the dataset (.htm)
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software.
+
+Additionally, this dataset is available for direct use via one or more map services.  More information about what a map service is can be found at http://www.datafinder.org/services/.  The specific map service and layer name for this dataset can be found by clicking the "Services" link for this dataset in the DataFinder Catalog at http://www.datafinder.org/catalog/ .</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Jon Hoekenga</cntper></cntperp><cntpos>GIS System Administrator</cntpos><cntaddr><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1561</cntvoice><cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20131108</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Todd Graham</cntper></cntperp><cntpos>Research Manager</cntpos><cntaddr><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1322</cntvoice><cntemail>todd.graham@metc.state.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

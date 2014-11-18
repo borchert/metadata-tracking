@@ -1,0 +1,138 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title catid="54327337-ebdd-4217-816e-74f5f7ac9383">Free WiFi Nodes</title>
+        <geoform>vector digital data</geoform>
+		<pubdate>2014</pubdate>
+		<onlink>http://www.arcgis.com/home/item.html?id=d6ddff0bdc8b48e3b2aaa7100d14a64d</onlink>
+      <origin>City of Minneapolis</origin><pubinfo><publish>City of Minneapolis</publish></pubinfo></citeinfo>
+    </citation>
+    
+<descript>    <abstract />
+    <purpose /></descript>
+	<supplinf />
+	<spdom>
+      <bounding>
+        <westbc>-93.323815</westbc>
+        <eastbc>-93.209932</eastbc>
+        <northbc>45.047613</northbc>
+        <southbc>44.897715</southbc>
+      </bounding>
+    </spdom>
+	<keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>free, wifi, nodes</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+		<placekey>Minneapolis</placekey>
+      </place>
+	</keywords>
+    <accconst>None</accconst>
+    <useconst>The maps provided by the City of Minneapolis are compilations of records, information and data from various sources, and they are to be used for reference purposes only. The City of Minneapolis does not warrant or guarantee that the Geographic Information Systems (GIS) data or maps are complete, current, or accurate. The City of Minneapolis does not represent that the GIS data can be used for navigational, tracking, legal, engineering, surveying, or any other purpose requiring exacting measurement of distance or direction or precision in the depiction of geographic features. Pursuant to Minnesota Statutes, Section 466.03, Subdivision 21, the City of Minneapolis disclaims any liability for claims based on alleged or actual inaccuracies in the GIS data or maps.</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>116</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 HARN Adj MN Hennepin Feet</mapprojn>
+          <lambertc>
+            <stdparll>44.88333333333333</stdparll>
+            <stdparll>45.13333333333333</stdparll>
+            <longcm>-93.38333333333334</longcm>
+            <latprjo>44.79111111111111</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>100000.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00000002655582420629799</absres>
+            <ordres>0.00000002655582420629799</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D NAD 1983 HARN Adj MN Hennepin</horizdn>
+        <ellips>S GRS 1980 Adj MN Hennepin</ellips>
+        <semiaxis>6378418.941</semiaxis>
+        <denflat>298.2572221008827</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>FreeWiFiNodes</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FREE_NODE</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <transize>0.000</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>file://</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20140922</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

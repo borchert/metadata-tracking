@@ -1,0 +1,397 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title catid="4617d9bc-3682-4281-83c4-5098d8cd8a95">parcelp_metrogis</title>
+        <geoform>vector digital data</geoform>
+		<onlink>http://gis.co.dakota.mn.us/websitegisdata/propertyinfo/shp/parcels_metrogis.zip</onlink>
+		<pubdate>2014</pubdate><origin>Dakota County</origin><pubinfo><publish>Dakota County</publish></pubinfo></citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-93.329419</westbc>
+        <eastbc>-92.729679</eastbc>
+        <northbc>44.923435</northbc>
+        <southbc>44.470046</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>152299</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>MN Dakota Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>44.51666666666667</stdparll>
+            <stdparll>44.91666666666666</stdparll>
+            <longcm>-93.31666666666666</longcm>
+            <latprjo>44.47194444444445</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>100000.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026575186495847457</absres>
+            <ordres>0.000000026575186495847457</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D MN Dakota</horizdn>
+        <ellips>MN Dakota</ellips>
+        <semiaxis>6378421.989</semiaxis>
+        <denflat>298.2572133677353</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>parcelp_metrogis</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PIN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BLDG_NUM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PREFIX_DIR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PREFIXTYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STREETNAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STREETTYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SUFFIX_DIR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>UNIT_INFO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CITY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CITY_USPS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIP4</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PLAT_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BLOCK</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LOT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ACRES_POLY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ACRES_DEED</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>USE1_DESC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>USE2_DESC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>USE3_DESC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>USE4_DESC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MULTI_USES</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LANDMARK</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OWNER_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OWNER_MORE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OWN_ADD_L1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OWN_ADD_L2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OWN_ADD_L3</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAX_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAX_ADD_L1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAX_ADD_L2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAX_ADD_L3</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HOMESTEAD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EMV_LAND</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EMV_BLDG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EMV_TOTAL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAX_CAPAC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TOTAL_TAX</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SPEC_ASSES</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TAX_EXEMPT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>XUSE1_DESC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>XUSE2_DESC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>XUSE3_DESC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>XUSE4_DESC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DWELL_TYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HOME_STYLE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FIN_SQ_FT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GARAGE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GARAGESQFT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BASEMENT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HEATING</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COOLING</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>YEAR_BUILT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NUM_UNITS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SALE_DATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SALE_VALUE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SCHOOL_DST</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WSHD_DIST</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GREEN_ACRE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OPEN_SPACE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AG_PRESERV</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AGPRE_ENRD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AGPRE_EXPD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PARC_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>A standard set of attribute fields is included for each county.  The attributes are identical for the point and polygon datasets.  Not all attributes fields are populated by each county.
+
+A list of the attribute names is shown below.  Detailed information about the attributes can be found at:
+http://www.datafinder.org/metadata/MetroGIS_Regional_Parcels_Attributes.pdf
+
+Field Name:  Brief Description
+-------------  -------------------- 
+COUNTY_ID: Unique County ID
+
+PIN: Unique Parcel ID
+
+BLDG_NUM: House Number
+PREFIX_DIR: Street Prefix Direction
+PREFIXTYPE: Street Prefix Type
+STREETNAME: Street Name
+STREETTYPE: Street Type
+SUFFIX_DIR: Street Suffix Direction
+UNIT_INFO: Unit Information
+
+CITY: City (actual)
+CITY_USPS: City (mailing)
+
+ZIP: ZIP Code
+ZIP4:  ZIP 4 Extension
+
+PLAT_NAME: Legal Description Plat Name
+BLOCK:  Legal Description Block
+LOT: Legal Description Lot 
+
+ACRES_POLY: Polygon Acreage  
+ACRES_DEED:  Deeded Acreage 
+
+USE1_DESC:  Use Type 1 
+USE2_DESC: Use Type 2   
+USE3_DESC: Use Type 3      
+USE4_DESC: Use Type 4       
+
+MULTI_USES:  Multiple Uses  
+
+LANDMARK:    Landmark/Business Name  
+
+OWNER_NAME:  Owner Name 
+OWNER_MORE:  Additional Owner Name   
+
+OWN_ADD_L1:  Owner Address Line 1     
+OWN_ADD_L2:  Owner Address Line 2    
+OWN_ADD_L3  Owner Address Line 3  
+
+TAX_NAME: Taxpayer Name 
+
+TAX_ADD_L1:  Taxpayer Address Line 1 
+TAX_ADD_L2:  Taxpayer Address Line 2 
+TAX_ADD_L3:  Taxpayer Address Line 3  
+
+HOMESTEAD:   Homestead Status
+
+EMV_LAND: Est. Market Value - Land
+EMV_BLDG: Est. Market Value - Buildings
+EMV_TOTAL: Est. Market Value - Total  
+
+TAX_CAPAC: Tax Capacity
+TOTAL_TAX: Total Tax
+
+SPEC_ASSES: Special Assessments 
+
+TAX_EXEMPT: Tax Exempt Status 
+
+XUSE1_DESC:  Exempt Use 1
+XUSE2_DESC:  Exempt Use 2 
+XUSE3_DESC:  Exempt Use 3 
+XUSE4_DESC:  Exempt Use 4 
+
+DWELL_TYPE:  Dwelling Type 
+HOME_STYLE:  Home Style
+FIN_SQ_FT:   Square Footage  
+
+GARAGE: Garage Y/N
+GARAGESQFT:  Garage Square Footage  
+
+BASEMENT:  Basement Y/N
+
+HEATING: Heating type
+COOLING: Cooling type
+
+YEAR_BUILT:  Year Built
+
+NUM_UNITS:   Number of Units
+
+SALE_DATE:   Last Sales Date
+SALE_VALUE:  Last Sales Value
+
+SCHOOL_DST:  School District 
+WSHD_DIST:   Watershed District  
+
+GREEN_ACRE:  Green Acres  
+OPEN_SPACE:  Open Space 
+AG_PRESERV:  Agricultural Preserve 
+AGPRE_ENRD:  Ag. Preserve Enrolled  
+AGPRE_EXPD:  Ag. Preserve Expiration 
+
+PARC_CODE:   Parcel Polygon to Parcel Point and PIN Relationship Code</eaover>
+      <eadetcit>A detailed description of the attributes available in this dataset can be found at 
+http://www.datafinder.org/metadata/MetroGIS_Regional_Parcels_Attributes.pdf
+
+Note:  The last five digits of Dakota Counties PIN Numbers changed format in March of 2011
+See .pdf above for further details.
+
+A lookup table "ParcelsDakotaOldNewPINLookupTable2011.dbf" will be included in the Dakota County zip bundle that allows users to join parcel information which contain the old PIN format.  Users should be aware that the old and new PIN formats are not mutually exclusive to each other.  There are approximately 1,500 records of NEWPIN numbers that have the same PIN as OLDPIN number.
+</eadetcit>
+    </overview>
+  </eainfo>
+  <metainfo>
+    <metd>20140926</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

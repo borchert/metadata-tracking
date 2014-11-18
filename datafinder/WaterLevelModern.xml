@@ -1,0 +1,259 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<title catid="128b8ddf-3b95-4b56-a010-d2866607ff08">Twin Cities Metropolitan Area Regional Groundwater Flow Model, Version 2.00 (Metro Model 2) Calibrated Hydraulic Head Contours - Twin Cities Metropolitan Area, Minnesota</title>
+				<origin>Barr Engineering Company</origin>
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<pubdate>Unpublished material</pubdate>
+				<onlink>ftp://gisftp.metc.state.mn.us/GroundwaterModelResults.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Groundwater flow in the Twin Cities metropolitan area was modeled using the finite difference modeling code MODFLOW-96 (McDonald and Harbaugh, 1988; Harbaugh and McDonald, 1996) as implemented in the modeling package Groundwater Vistas (version 5.09 build 16) (Environmental Simulations, Inc., 2007). This dataset defines contours of hydraulic head (feet above mean sea level) for each layer in the calibrated model (note: each model layer may represent more than one geologic unit). The hydraulic head contour represents head in the geologic unit present in that layer at that location. It is recommended that the user view these contours over a base map of bedrock geology or aquifer extent.This dataset is a direct output of the Metro Model 2, developed by Barr Engineering Company for the Metropolitan Council to support the development of a regional master water supply plan.
+
+More information about this process is provided in the 2009 Metropolitan Council report 'Twin Cities Metropolitan Area Regional Groundwater Flow Model Version 2.00 - Technical Report in Support of the Metropolitan Area Master Water Supply Plan', which is available online at www.metrocouncil.org/environment/WaterSupply/metrogroundwatermodeldatasets.htm.</abstract>
+			<purpose>The 2005 Minnesota Legislature directed the Metropolitan Council to "carry out planning activities addressing the water supply needs of the metropolitan area" (Minnesota Statutes, Section 473.1565). Specifically the Council is charged with developing a base of technical information for water supply planning decisions and to prepare a metropolitan area master water supply plan. This dataset supports this charge.</purpose>
+			<supplinf>Twin Cities metropolitan area and parts of surrounding counties</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20090112</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Data is based upon a regional groundwater flow model calibration completed in Spring 2009.</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As Needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-408025.000000</westbc>
+				<eastbc>-534525.000000</eastbc>
+				<northbc>5045732.000000</northbc>
+				<southbc>4911232.000000</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<place>
+				<placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County, Minnesota</placekey>
+			</place>
+			<theme>
+				<themekey>water supply planning, groundwater flow model, Metro Model 2, calibrated hydraulic head, water level</themekey>
+			</theme>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>By acceptance of this data, the user agrees to include a copy of the metadata record, including the liability disclaimer, whenever the user transmits or provides the GIS data (or any portion of it) to another user.</useconst>
+		<browse>
+			<browsen>None available</browsen>
+			<browsed />
+		</browse>
+		<crossref>
+			<citeinfo>
+				<title>Datasets described by this metadata:
+WaterLevelMonderPrairieduChienJordan
+WaterLevelModernFranconiaIrontonGalesville
+WaterLevelModernMtSimon</title>
+			</citeinfo>
+		</crossref>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.1.1332</native>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Lanya Ross</cntper>
+				</cntperp>
+				<cntpos>Sr. Environmental Scientist, Water Supply Planning</cntpos>
+				<cntaddr>
+					<address>390 Robert St. North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1066</cntvoice>
+				<cntfax>651-602-1130</cntfax>
+				<cntemail>lanya.ross@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>The absolute residual mean (mean error) of the regional groundwater flow model is 5.03 meters (16.50 feet). Models are abstract approximations of reality; therefore, all models have inherent uncertainty imbedded within them. This uncertainty within the model will always lead to some uncertainty in any predictions made by the model. Sources of uncertainty in the Metro Model 2 stem from:
+
+- An incomplete understanding of the geologic conditions in the Twin Cities area, including the presence of undetected features (e.g., faults, changes in glacial deposits);	
+
+- An incomplete understanding of groundwater flow conditions in the Twin Cities;
+
+- Data gaps in groundwater levels (particularly for deeper aquifers);
+
+- Data gaps on the hydraulic conductivity of the aquifers and aquitard due to a small set of existing pumping tests;
+
+- Undocumented or unreported groundwater withdrawals;
+
+- Limited base-flow data for streams (particularly for the Mississippi River through Minneapolis and St. Paul);
+
+- Limited or non-existent information on the permeability of lake bottoms;
+
+- The necessary simplifications, lumping of conditions, and time-averaging of observations that is needed in order to build and calibrate a groundwater flow model;
+
+- Incomplete and evolving understanding of how and where recharge through infiltration takes place;
+
+- The need to exclude very detailed, site-specific hydrogeologic data in a regional model; and
+
+- The conceptualization of groundwater flow on a regional basis for the purpose of this model (the evaluation of groundwater supply).
+
+Continuing efforts must be made to reduce model uncertainty and increase model uniqueness. As new data are obtained and new understandings of regional hydrogeology evolve, the model will be re-optimized. In particularly, the following types of information will likely have an impact on reducing model uncertainty:
+
+- New estimates of hydraulic conductivity from new pumping tests (expressed as prior knowledge in the model)
+- Additional calibration data, such as synoptic water levels and baseflow data
+- Better understanding of the water-transmitting characteristics of the glacial drift deposits
+- Refined estimates of recharge, particularly leakage from lakes</attraccr>
+		</attracc>
+		<complete>The entire seven county geographic area is covered, as well as portions of surrounding counties.</complete>
+		<lineage>
+			<procstep>
+				<procdesc>After model calibration, 25 foot hydraulic head contours were exported for each model layer to ArcGIS shapefiles through Groundwater Vistas (Version 5.0).</procdesc>
+			</procstep>
+			<srcinfo>
+				<srcscale />
+			</srcinfo>
+			<procstep>
+				<procdesc Sync="TRUE">Dataset copied.</procdesc>
+				<srcused Sync="TRUE">N:\EQA\WaterSupply\MAPS_Make_A_Map\MAM_WaterSupply_2Mar09\MAM_WatSUp_Metadata_23Apr09\MM2_CalHdContour</srcused>
+				<procdate Sync="TRUE">20091208</procdate>
+				<proctime Sync="TRUE">10043000</proctime>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref />
+		<direct>Vector</direct>
+		<mgmg3obj>line</mgmg3obj>
+		<mgmg3til />
+	</spdoinfo>
+	<spref>
+		<vertdef>
+			<altsys>
+				<altunits>Feet</altunits>
+			</altsys>
+			<depthsys>
+				<depthdn>Mean sea level</depthdn>
+				<depthdu>Feet</depthdu>
+			</depthsys>
+		</vertdef>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>Universal Transverse Mercator</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+				</gridsys>
+				<planci>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<overview>
+			<eaover>FID
+
+Shape
+
+Contour - Hydraulic head contour in feet above sea level. Contour interval = 25 feet. Each model layer may represent more than one geologic unit; the hydraulic head contour represents the geologic unit present in that layer at that location. It is recommended that the user view these contours over a base map of bedrock geology or aquifer extent.</eaover>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distliab>NOTICE: The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13). THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by the Metropolitan Council for its own internal business purposes. The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, the GIS Data must include a copy of this disclaimer.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Shapefile</formname>
+					<formvern />
+					<transize />
+				</digtinfo>
+			</digform>
+			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'. Doing so will tell your browser to download a 'ZIP' file which will contain the following: 
+
+- ArcView shape files 
+- metadata for the dataset (.htm) 
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software. 
+
+This dataset can also be viewed and downloaded from the MetroGIS DataFinder Cafe at http://www.datafinder.org/cafe/ . The Cafe allows users to subset or clip datasets using an existing feature, such as a city or school district boundary or an ad-hoc, user defined area. 
+
+Additionally, this dataset is available for direct use via one or more map services. More information about what a web mapping service is can be found at http://www.datafinder.org/services/ . The specific map service and layer name for this dataset can be found by clicking the blue or green boxes under the map service column of the DataFinder Catalog at http://www.datafinder.org/catalog/ .</ordering>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Lanya Ross</cntper>
+				</cntperp>
+				<cntpos>Sr. Environmental Scientist</cntpos>
+				<cntaddr>
+					<address>390 Robert St. North</address>
+					<city>St.Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1803</cntvoice>
+				<cntfax>651-602-1130</cntfax>
+				<cntemail>lanya.ross@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metd>20090331</metd>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Lanya Ross</cntper>
+				</cntperp>
+				<cntpos>Sr. Environmental Scientist, Water Supply Planning</cntpos>
+				<cntaddr>
+					<address>390 Robert St. North</address>
+					<city>St Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1803</cntvoice>
+				<cntfax>651-602-1130</cntfax>
+				<cntemail>lanya.ross@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<Esri>
+		<ModDate>20091214</ModDate>
+		<ModTime>09020300</ModTime>
+		<MetaID>{D35B186C-4AD3-4796-B25E-983DC8C59FE8}</MetaID>
+		<CreaDate>20091208</CreaDate>
+		<CreaTime>10043000</CreaTime>
+		<SyncOnce>TRUE</SyncOnce>
+	</Esri>
+	<mdDateSt Sync="TRUE">20091214</mdDateSt>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage Sync="TRUE">file://\\rafs\shared\EQA\WaterSupply\MAPS_Make_A_Map\Metadata\MM2_CalHdContour</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</onLineSrc>
+			</distorTran>
+		</distributor>
+	</distInfo>
+</metadata>

@@ -1,0 +1,278 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metropolitan Council</origin>
+				<title catid="1c7fda05-0fad-4980-a2f0-51264764191b">Transit Trip Frequency by Road Segment</title>
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<pubdate>20140604</pubdate>
+				<onlink>ftp://gisftp.metc.state.mn.us/TransitFrequencyBySegment.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The Transit Trip Frequency layer contains counts all trips serving the Twin Cities regional metropolitan area. One shape and one corresponding record exists for each individual road segment during a specific day of the week. One road segment can have three copies of the same shape if the trip pattern occurs on a weekday, Saturday, and Sunday. 
+
+The line work for the dataset was derived from NCompass's Centerline and Address Range dataset. A small number of line segments have been added to completely depict the network traveled by fixed-route transit vehicles. </abstract>
+			<purpose>To identify trip frequencies for specific roads in the Twin Cities metropolitan area.</purpose>
+			<supplinf>Twin Cities 7 county metropolitan area as well as Sherburne County.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington.</supplinf>
+		</descript>
+		<timeperd>
+			<current>Pattern trip frequency is updated weekly and includes linework from the NCompass street centerline dataset released in late summer or early spring.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>20140709</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Weekly</update>
+		</status>
+		<crossref>
+			<citeinfo>
+				<title>- NCompass Street Centerline and Address Range dataset. 
+- TransitRoutes, TransitStop, TransitPatterns, TransitPattersBySegment</title>
+			</citeinfo>
+		</crossref>
+		<keywords>
+			<place>
+				<placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County, Sherburne County</placekey>
+			</place>
+			<theme>
+				<themekey>transit, buses, patterns, streets, roads, transportation</themekey>
+				<themekt>None</themekt>
+			</theme>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<spdom>
+			<bounding>
+				<westbc>-94.012</westbc>
+				<eastbc>-92.732</eastbc>
+				<northbc>45.415</northbc>
+				<southbc>44.471</southbc>
+			</bounding>
+		</spdom>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Sean Murphy</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1371</cntvoice>
+				<cntemail>sean.murphy@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<eainfo>
+		<overview>
+			<eaover>LINE ATTRIBUTES: 
+
+TLGID: A number field identifying the unique road segment.
+
+L_F_ADD: Left from node address 
+
+R_F_ADD: Right from node address 
+
+L_T_ADD: Left to node address 
+
+R_T_ADD: Right to node address 
+
+F_CLASS: Feature class code 
+
+ZIP5_L: 5 Digit Zip Code (left side) 
+
+ZIP5_R: 5 Digit Zip Code (right side) 
+
+CITYLEFTL: Alpha city name (left side) 
+
+CITYRIGHT: Alpha city name (right side) 
+
+STREETNAME: Street name portion of entire street name 
+
+TYPE: Street type. A list of most of these is available from the USPS web site at pe.usps.gov/text/pub28/pub28apc.html#508hdr2 . 
+
+SUFDIR: Suffix street direction 
+
+CTYLABRV: City name abbreviation (left) 
+
+CTYRABRV: City name abbreviation (right) 
+
+SEG_FLOW: Direction to which the road segment is traveled by transit vehicles
+
+STREETALL: Full street name 
+
+ONEWAY: One way status 
+
+SERVICE_ID: Trips are seperated by day of week in which they occur. This field indicates which day of week is represented. See notes below.
+
+EAM: The frequency of trips in Early AM.
+
+AMP: The frequency of trips in AM Peak.
+
+MID: The frequency of trips in Midday.
+
+PMP: The frequency of trips in PM Peak.
+
+EVE: The frequency of trips in Evening.
+
+NIGHT: The frequency of trips in Night.
+
+OWL: The frequency of trips in very early morning (nicknamed Owl).
+
+TOTAL:  The total number of trips traveled during all time periods.
+
+Service ID notes:
+
+WK = Trips that occur during weekdays.
+SAT = Trips that occur during Saturday. 
+SUN =  Trips that occur during Sunday.
+FRI = Additional trips to weekdays that occur on Friday.
+HOL = Trips that occur during holidays.
+
+Time period notes:
+
+IF A TRIP DURATION CROSSES BETWEEN TWO TIME PERIODS, THEN IT IS COUNTED IN BOTH. THE TOTAL AMOUNT OF TRIPS REPRESENTS THE ACTUAL TOTAL NUMBER OF TRIPS, DO NOT SUM FREQUENCIES IN EACH TIME PERIOD.
+
+a. EAM - Early Morning = 4:30AM to 6:00AM
+b. AMP - AM Peak = 6:00AM to 9:00AM
+c. MID - Midday = 9:00AM to 3:00PM
+d. PMP - PM Peak = 3:00PM to 6:30PM
+e. EVE - Evening = 6:30PM to 9:00PM
+f. NIGHT - Night = 9:00PM to 1:30AM
+g. OWL - Owl = 1:30AM to 4:30AM
+
+Street centerline attribute notes: 
+
+a. - Street address ranges do not necessarily exist where only theoretical ranges exist; however, in many cases they do. 
+
+b. - Streetall represents the full street name. Predir, Streetname, Type, and 
+Sufdir represent parsed components of streetall as parsed to standard USPS 
+types and USPS standard direction names. 
+
+c. - Due to address matching and parsing issues, street directions are always 
+placed in the suffix direction field. Street names containing direction 
+names as part of their actual street name are originally parsed and then 
+incorporated back into the street item and removed from the predir item. 
+
+d. - Citylabrv and Cityrabrv are unique alpha city name abbreviations as 
+produced by NCompass Technologies. These fields are named in conjunction with 
+Twin Cities metro area street atlas produced by NCompass Technologies. 
+
+e. - Oneway is a field which is encoded with a 2 if the street is two-way, a 1 
+if the segment represents a one-way street on which traffic moves in the 
+direction of the flow of the segment; and -1 if the segment represents a 
+one-way street on which traffic moves in the opposite direction of the 
+flow of the segment. </eaover>
+		</overview>
+	</eainfo>
+	<dataqual>
+		<complete>The patterns include all versions of a route, which have service information provided on Metro Transit's website.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Positional accuracy varies throughout the dataset. Most line work in most counties falls within the road right of way, often near the center. Recent realignments by the NCompass Street Centerline database have resulted in increased positional accuracy. 
+
+Text below taken from NCompass metadata: 
+
+There are differing degrees of positional accuracy throughout the file. NCompass adjusts the positional accuracy of the data to available sources known to have a greater degrees of accuracy then those used to generate the existing data. However, in all cases (including instances where COGO line work has been the reference) NCompass generalizes the street segments to at least 4 feet in order to greatly reduce the number of vertices - thus reducing unnecessary file size and allowing for faster analysis. 
+
+NCompass's goal is to have 95% of roads located to within the approximate center of digital right-of-way data or pavement centerlines provided from counties, where such digital data is available. In other areas, 95% of roads are intended to be within ten meters of the road or right-of-way center.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>This dataset was created in Giro's Hastus scheduling software and referenced the NCompass and Metro Transit street centerline dataset. See the metadata for the NCompass Street Centerline layer for source information.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<indspref />
+		<mgmg3obj>line</mgmg3obj>
+		<mgmg3til />
+</spdoinfo>
+	<distinfo>
+		<resdesc>TransitFrequencyBySegment</resdesc>
+		<distliab>NOTICE: The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13). THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by the Metropolitan Council for its own internal business purposes. The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+		<stdorder>
+			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'. Doing so will tell your browser to download a 'ZIP' file which will contain the following: 
+
+- ArcView shape files 
+- metadata for the dataset (.htm) 
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software. 
+
+
+Additionally, this dataset is available for direct use via one or more map services. More information about what a web mapping service is can be found at www.datafinder.org/services/. The specific map service and layer name for this dataset can be found by clicking the blue or green boxes under the map service column of the DataFinder Catalog at www.datafinder.org/catalog/ .</ordering>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Jon Hoekenga</cntper>
+				</cntperp>
+				<cntpos>GIS System Administrator</cntpos>
+				<cntaddr>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1561</cntvoice>
+				<cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metd>20140709</metd>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+		</metextns>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Sean Murphy</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1371</cntvoice>
+				<cntemail>sean.murphy@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>Universal Transverse Mercator</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+				</gridsys>
+				<planci>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+	</spref>
+</metadata>

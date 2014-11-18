@@ -1,0 +1,135 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title catid="1406e9d4-4c37-4c6c-b067-3ac6a987b889">Benchmarks</title>
+        <geoform>vector digital data</geoform>
+		<pubdate>2014</pubdate>
+		<onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink>
+      <origin>Ramsey County</origin><pubinfo><publish>Ramsey County</publish></pubinfo></citeinfo>
+    </citation>
+	<descript>
+		<abstract>This data set contains points that represents vertical controls, or benchmarks.</abstract><purpose>Bench marks are relatively permanent objects having a marked point, whose elevation above or below an adopted datum, is known or assumed.  Vertical control is a series of bench marks or other points of known elevation established throughout an area</purpose><supplinf>Ramsey County</supplinf></descript>
+    <spdom>
+      <bounding>
+        <westbc>-93.227658</westbc>
+        <eastbc>-92.984562</eastbc>
+        <northbc>45.124810</northbc>
+        <southbc>44.991565</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>231</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>GEOD_Benchmark</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>X</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BenchmarkI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Y</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Z</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SurveyDate</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Status</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ControlTyp</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CornerPoin</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MonumentTy</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RodDepth</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>QuarterLoc</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Comment</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BenchmarkL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Benchmar_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20140908</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

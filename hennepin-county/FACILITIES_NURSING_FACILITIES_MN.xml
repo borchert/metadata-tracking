@@ -1,0 +1,226 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Taxpayer Services GIS Division</origin>
+        <title catid="cb110067-a12f-4da1-b682-a78a7fcf38d1">FACILITIES_NURSING_FACILITIES_MN</title>
+        <geoform>vector digital data</geoform>
+		<pubdate>2014</pubdate>
+		<onlink>http://gis-stage.hennepin.us/publicgisdata/HealthPacket.zip</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Nursing home locations were extracted from the Minnesota Department of Health - Health Care Facility and Provider database (facilityDirectoryExtract.xls) on November 28, 2012. Nursing homes were queried from the master table based on state licensed nursing home beds (NH_BEDS) and boarding care beds (BCH_BEDS). This includes nursing facility and boarding care beds that fall under Federal MEDICAID.Once the nursing home records were isolated, address records were cleaned for geocoding. The Hennepin County Composite locator was used to geocode 396 records. After the initial geocoding, manual geocoding, and additional referencing based on the Esri 10.0 North American Locating Service, 391 (99%) records were match and 5 (1%) unmatched. Furthermore additional placement correction was conducted to move as many street interpolated locations to the actual parcel centroid location within the metropoliltan counties including Hennepin.Original data was downloaded from http://www.health.state.mn.us/divs/fpc/directory/fpcdir.html and included the following statement: Health Care Facility and Provider Database - This database offers addresses, phone numbers, administrator names and state registration or licensure status for Minnesota health care providers. Federal certification classifications are also included. Provider types in the directory are boarding care homes, home health agencies, home care providers, hospices, hospitals, housing with services, nursing homes and supervised living facilities and other non-long term care providers. Providers can be selected by type, county, city or name.</abstract>
+      <purpose>General locating and mapping of Minnesota nursing homes.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-97.069400</westbc>
+        <eastbc>-90.266152</eastbc>
+        <northbc>48.931605</northbc>
+        <southbc>43.467871</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>GIS Division</themekey>
+        <themekey>Hennepin County</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Hennepin County</placekey>
+        <placekey>Minnesota</placekey>
+      </place>
+    </keywords>
+    <accconst>Hennepin County maintains geographic information systems (GIS) data in a central or "Enterprise" GIS warehouse for the internal business use of the County departments. Any data extracted or copied locally from the warehouse should be stored in a safe and secure environment and should be accessible only to departmental staff. Enterprise data should not be disseminated externally to private companies and/or individuals. Please forward external data requests to the custodial department as listed under the contacts metadata section.</accconst>
+    <useconst>All data and information ("Products") contained herein are for informational purposes only. Although such Products are believed to be accurate at the time of printing or distribution, Hennepin County does not warrant that such Products are error free. Hennepin County provides these Products on an "as is" basis without warranties of any kind, either express or implied, including, but not limited to, warranties of title or implied warranties of merchantability or fitness for a particular purpose. Hennepin County shall not be liable for any direct, indirect, incidental, special or consequential damages arising out of the use of such Products, or the inability to use such Products or out of any breach of any warranty. The user acknowledges and agrees that the use of such Products is at the sole risk of the user. General questions about this or any other Hennepin County GIS products, including errors, omissions, corrections and/or updates should be directed to the custodial department or division listed in the metadata contact information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>GIS Division</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>Hennepin County GIS Division</address>
+          <address>A-705 Government Center</address>
+          <city>Minneapolis</city>
+          <state>MN</state>
+          <postal>55487-0075</postal>
+        </cntaddr>
+        <cntvoice>612-596-9484</cntvoice>
+        <cntfax>612-348-2837</cntfax>
+        <cntemail>gis.info@co.hennepin.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>This point feature was created by the Hennepin County GIS Office.  Further stewardship and maintenance of this feature will be conducted by HSPHD staff.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>391</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>FACILITIES_NURSING_FACILITIES_MN</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Loc_name</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Score</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Match_type</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Match_addr</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ARC_Street</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ARC_City</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ARC_State</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ARC_ZIP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HFID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CITY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY_COD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY_NAM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TELEPHONE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FAX</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ADMINISTRA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LIC_TYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HOSP_BEDS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BASS_BEDS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PSY_HOSP_B</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NH_BEDS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BCH_BEDS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HOSP18_BED</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PSY18_BEDS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SNF_BEDS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SNFNF_BEDS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NF1_BEDS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NF2_BEDS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STAND_ADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MODIFIED</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20141110</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

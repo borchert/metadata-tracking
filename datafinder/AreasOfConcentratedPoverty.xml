@@ -1,0 +1,161 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metropolitan Council</origin>
+				<title catid="6f722dd3-144a-490f-b0dc-23e1f0eb0be7">Areas of Concentrated Poverty</title>
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<pubdate>20140324</pubdate>
+				<onlink>ftp://gisftp.metc.state.mn.us/AreasOfConcentratedPoverty.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Areas of Concentrated Poverty (ACP) are focal areas of the Fair Housing and Equity Assessment (FHEA). FHEA is a required component of grantees of the Sustainable Communities Regional Planning Grant program. Equity and access to opportunity are critical underpinnings of the Grant program. The FHEA is meant to engage different groups, particular those individuals and groups who have traditionally been marginalized from the community planning process, in helping address disparity issues and equalize access to opportunity.
+
+A key component of the FHEA is identifying Areas of Concentrated Poverty (ACP) and Racially Concentrated Areas of Poverty (RCAP).  Areas of Concentrated Poverty usually have higher crime, as well as schools with lower test scores and lower graduation rates. Exposure to concentrated poverty compromises the physical and mental health of both poor people and their neighbors. People of color disproportionately suffer from the negative consequences of living in concentrated areas of poverty regardless of their socioeconomic status.
+
+Areas of concentrated povery are defined as census tracts where more than 40 percent of the residents have incomes less than or equal to 185 percent of the federal poverty line. Census tract values are from the U.S. Census Bureau's American Community Survey 5-year data, 2007-2011. 
+
+Racial segregation and concentration of poverty are closely intertwined with each other in the Twin Cities metropolitan region. Racial segregation triggers disinvestment in communities, lowers property values, reduces the tax base of communities, and deepens poverty. Moreover, segregation practices limit people of color to areas of concentrated poverty, thus limiting exposure to economic and social opportunities found in more balanced communities.
+
+			</abstract>
+			<purpose>Identify and analize various social and demographic data within and outside the spatially defined areas.</purpose>
+			<supplinf>Twin Cities 7 county metropolitan area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington.</supplinf>
+		</descript>
+		<timeperd>
+			<current>Based on U.S. Census Bureau's American Community Survey 5-Year data, 2007-2011.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>20130731</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None Planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-94.012</westbc>
+				<eastbc>-92.732</eastbc>
+				<northbc>45.415</northbc>
+				<southbc>44.471</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<place>
+				<placekey>Twin Cities, Minneapolis, St. Paul, Brooklyn Park, Brooklyn Center, Ft. Snelling, Richfield</placekey>
+			</place>
+			<theme>
+				<themekey>Race, Poverty</themekey>
+			</theme>
+		</keywords>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Paul E. Hanson</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1642</cntvoice>
+				<cntemail>paul.hanson@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<complete>As define in 2010.</complete>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<indspref />
+		<mgmg3obj>polygon</mgmg3obj>
+		<mgmg3til />
+	</spdoinfo>
+	<distinfo>
+		<distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+		<stdorder>
+			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'.  Doing so will tell your browser to download a 'ZIP' file which will contain the following:
+
+- ArcView shape files
+- metadata for the dataset (.htm)
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software.
+
+Additionally, this dataset is available for direct use via one or more map services.  More information about what a map service is can be found at http://www.datafinder.org/services/.  The specific map service and layer name for this dataset can be found by clicking the "Services" link for this dataset in the DataFinder Catalog at http://www.datafinder.org/catalog/ .</ordering>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Jon Hoekenga</cntper>
+				</cntperp>
+				<cntpos>GIS System Administrator</cntpos>
+				<cntaddr>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1561</cntvoice>
+				<cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metd>20140324</metd>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+		</metextns>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Paul E. Hanson</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1642</cntvoice>
+				<cntemail>paul.hanson@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<eainfo>
+		<overview>
+			<eaover>ACP - Area of Concentrated Poverty, "Y" = yes
+			</eaover>
+		</overview>
+	</eainfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>Universal Transverse Mercator</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+				</gridsys>
+				<planci>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+	</spref>
+</metadata>

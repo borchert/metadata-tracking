@@ -1,0 +1,224 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title catid="f0f58ce7-3969-4a98-8afd-21ad8b14e79d">Street Centerlines</title>
+        <geoform>vector digital data</geoform>
+		<pubdate>2014</pubdate>
+		<onlink>http://www.minneapolismn.gov/www/groups/public/@bis/documents/webcontent/wcms1p-106991.zip</onlink>
+      <origin>City of Minneapolis</origin><pubinfo><publish>City of Minneapolis</publish></pubinfo></citeinfo>
+    </citation>
+   
+<descript>    <abstract />
+    <purpose /></descript>
+	<supplinf />
+	<spdom>
+      <bounding>
+        <westbc>-93.329210</westbc>
+        <eastbc>-93.197600</eastbc>
+        <northbc>45.051252</northbc>
+        <southbc>44.886897</southbc>
+      </bounding>
+    </spdom>
+	<keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>centerline, Streets</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+		<placekey>Minneapolis</placekey>
+      </place>
+	</keywords>
+    <accconst>None</accconst>
+    <useconst>The maps provided by the City of Minneapolis are compilations of records, information and data from various sources, and they are to be used for reference purposes only. The City of Minneapolis does not warrant or guarantee that the Geographic Information Systems (GIS) data or maps are complete, current, or accurate. The City of Minneapolis does not represent that the GIS data can be used for navigational, tracking, legal, engineering, surveying, or any other purpose requiring exacting measurement of distance or direction or precision in the depiction of geographic features. Pursuant to Minnesota Statutes, Section 466.03, Subdivision 21, the City of Minneapolis disclaims any liability for claims based on alleged or actual inaccuracies in the GIS data or maps.</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>13729</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>HENNEPIN COUNTY, MN</mapprojn>
+          <lambertc>
+            <stdparll>44.88333333333333</stdparll>
+            <stdparll>45.13333333333333</stdparll>
+            <longcm>-93.38333333333334</longcm>
+            <latprjo>44.79111111111111</latprjo>
+            <feast>499999.999998</feast>
+            <fnorth>100000.0001308333</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00000002655582420629799</absres>
+            <ordres>0.00000002655582420629799</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D User Defined</horizdn>
+        <ellips>User Defined Spheroid</ellips>
+        <semiaxis>6378418.941</semiaxis>
+        <denflat>298.2572242549207</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>CENTERLINE</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>SHAPE_LEN</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>L_F_ADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>R_F_ADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>L_T_ADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>R_T_ADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STREETALL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>F_CLASS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ALT_NAM1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ALT_NAM2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIP5_L</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIP5_R</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CITYLEFT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CITYRIGT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PREDIR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STREETNAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SPEED_LIM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ONEWAY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HIGHWAY_NU</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ALT_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GBSID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNTYRIGT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SUFDIR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNTYLEFT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MSLINK</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DESIGNATIO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>F_XSTREET_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>F_XSTREET1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>F_XSTREE_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>T_XSTREET_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>T_XSTREET1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>T_XSTREE_1</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <transize>0.000</transize>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20140922</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

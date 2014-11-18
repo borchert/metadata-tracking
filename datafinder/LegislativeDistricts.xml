@@ -1,0 +1,253 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metropolitan Council</origin>
+				<pubdate>2003</pubdate>
+				<title catid="fb0e3a32-7c9c-43d3-a62c-9f48fc37eb62">Legislative Districts - State House and Senate - Twin Cities Metro Area</title>
+				<mgmg1cid>N/A</mgmg1cid>
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<onlink>ftp://gisftp.metc.state.mn.us/LegislativeDistricts.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This data is a Twin Cities metro area version of the 2002 Minnesota Legislative Districts dataset from the Minnesota Legislative Coordinating Commission (see http://www.gis.leg.mn/metadata/leg02.htm ).  It includes only those State House of Representative and State Senate Districts which overlap the Twin Cities 7 County Area.
+
+Base data and features are derived from the 2000 TIGER files prepared by the U.S. Census Bureau.
+
+State Legislative Districts ordered by the Minnesota Supreme Court Special Redistricting Panel in the matter of Zachman v. Kiffmeyer, case #C0-01-160, on March 19, 2002. Dataset also includes Minnesota Session Laws 2003, 1st Special Session, Chapter 16 - H.F.No. 66 Sect. 13 (adjustment between house districts 45A and 45B).</abstract>
+			<purpose>For mapping and analysis of information by state legislative districts.</purpose>
+			<supplinf>Twin Cities 7 County Metropolitan Area. This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20030609</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Congressional and Legislative Districts ordered by the Minnesota Supreme Court Special Redistricting Panel in the matter of Zachman v. Kiffmeyer, case #C0-01-160, on March 19, 2002. 
+
+Minnesota Session Laws 2003, 1st Special Session, Chapter 16 - H.F.No. 66 Sect. 13. Signed by Governor 6/8/03 - effective the day following enactment = June 9, 2003.</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Approximately every 10 years.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-94.279060</westbc>
+				<eastbc>-92.665316</eastbc>
+				<northbc>45.731047</northbc>
+				<southbc>44.190362</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>State Senate, State House of Representatives, Legislature, administrative boundaries, voting districts</themekey>
+			</theme>
+			<place>
+				<placekey>Minnesota, Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Matt McGuire</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Technician</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1821</cntvoice>
+				<cntfax>651-602-1674</cntfax>
+				<cntemail>matthew.mcguire@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>http://www.datafinder.org/metadata/bg/LegislativeDistricts.jpg</browsen>
+			<browsed>A sample map of the legislative districts dataset</browsed>
+		</browse>
+		<native>ArcGIS 8x</native>
+		<crossref>
+			<citeinfo>
+				<title>Minnesota Legislative Districts  http://www.gis.leg.mn/metadata/leg02.htm
+U.S. Congressional Districts for Minnesota   http://www.gis.leg.mn/metadata/cong02.htm</title>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>District Codes Verified</attraccr>
+		</attracc>
+		<logic>Original datasets State House Districts and State Senate Districts were topologically clean. They were unioned from shapefiles using ArcGIS. No topological tests have been  run on them.</logic>
+		<complete>Complete</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>UNKNOWN</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr />
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale>100000</srcscale>
+			</srcinfo>
+			<procstep>
+				<procdesc>Base data and features used in these plans are derived from the 2000 TIGER files prepared by the U.S. Census Bureau.
+
+State House Districts and State Senate Districts were unioned in order to symbolize by Senate Districts and Shade by House Districts. 
+
+Congressional and Legislative Districts ordered by the Minnesota Supreme Court Special Redistricting Panel in the matter of Zachman v. Kiffmeyer, case #C0-01-160, on March 19, 2002.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>House and Senate district numbers</indspref>
+		<direct>Vector</direct>
+		<mgmg3obj>polygon shapes</mgmg3obj>
+		<mgmg3til>One layer for entire entire metropolitan area.</mgmg3til>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>UTM</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+					<spcs><spcszone /></spcs><mgmg4coz /><mgmg4adj /></gridsys>
+				<planci>
+					<plandu>Meters</plandu>
+					<coordrep><absres /><ordres /></coordrep></planci>
+				<mapproj><mapprojn /><mgmg4par /><otherprj /></mapproj></planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+			<geograph><latres /><longres /><geogunit /></geograph></horizsys>
+
+
+
+
+
+
+
+
+	</spref>
+	<eainfo>
+		<overview>
+			<eaover>Polygon Attributes:
+
+DISTRICT:   The district number. 
+
+SENATE:     The Senate District
+
+SEN_5COLOR: A symbolizing scheme for Senate Districts
+
+HOUSE:      House district A or B for that Senate District
+
+HSE_5COLOR: A symbolizing scheme for House districts
+
+TRNSPRNSY:  Allows symbolizing by Senate District and shading by House District</eaover>
+			<eadetcit />
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Mark Kotz</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Database Administrator</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1644</cntvoice>
+				<cntfax>651-602-1674</cntfax>
+				<cntemail>mark.kotz@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>LegislativeDistricts</resdesc>
+		<distliab>NOTICE: The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13). THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by the Metropolitan Council for its own internal business purposes. The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ArcView Shape File</formname>
+					<formvern>ArcGIS 8x</formvern>
+					<transize>1 MB for zip file.</transize>
+				</digtinfo>
+			</digform>
+			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'. Doing so will tell your browser to download a 'ZIP' file which will contain the following: 
+
+- ArcView shape files 
+- metadata for the dataset (.htm) 
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software. 
+
+ 
+ 
+Additionally, this dataset is available for direct use via one or more map services.  More information about what a web mapping service is can be found at http://www.datafinder.org/services/.  The specific map service and layer name for this dataset can be found by clicking the blue or green boxes under the map service column of the DataFinder Catalog at http://www.datafinder.org/catalog/ .</ordering>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20030624</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Matt McGuire</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Technician</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1821</cntvoice>
+				<cntfax>651-602-1674</cntfax>
+				<cntemail>matthew.mcguire@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+	</metainfo>
+	<Esri>
+		<ModDate>20040826</ModDate>
+		<ModTime>14563100</ModTime>
+		<MetaID>{A9F75AE0-14A6-4A8A-8253-4C12D377A137}</MetaID>
+		<CreaDate>20030618</CreaDate>
+		<CreaTime>09415500</CreaTime>
+		<SyncOnce>TRUE</SyncOnce>
+	</Esri>
+	<mdDateSt Sync="TRUE">20040826</mdDateSt>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage Sync="TRUE">file://\\metc-gisserv.metc.state.mn.us\gu\gu_mattm\districts\mn_state_house_2002</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</onLineSrc>
+			</distorTran>
+		</distributor>
+	</distInfo>
+</metadata>

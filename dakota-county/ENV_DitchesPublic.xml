@@ -1,0 +1,157 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title catid="4b544899-6e38-4a59-bdd1-7572d5ffea1c">Public Ditches</title>
+        <geoform>vector digital data</geoform>
+		<onlink>http://gis.co.dakota.mn.us/WebsiteGISData/env/shp/ENV_DitchesPublic.zip</onlink>
+		<pubdate>2014</pubdate>
+      <origin>Dakota County</origin><pubinfo><publish>Dakota County</publish></pubinfo></citeinfo>
+    </citation>
+    <descript>
+      <abstract>Dakota County has two public ditches within the North Cannon River Watershed which the county has jurisdiction over. They are named Public Ditch #1 and Public Ditch #2. Public Ditch #1 lies within Douglas and Hampton Twp and is also called Pine Creek. It extends north and west from Section 31 in Douglas Twp along the southern boundaries of Sections 25 and 26 then zigs north across Highway 52 through Section 27 and ends at the west boundary of Section 34. Public Ditch #2 lies within Waterford and Sciota Township and is made up of 1 ditch extending west from the North Branch of Chub Creek in Section 3 of Sciota Twp and Sections 4 and 5 of Waterford Twp and 2 ditches extending west from the Main branch of Chub Creek in Section 10 of Sciota Twp and Sections 6, 8, 9, and 17 of Waterford Twp. Ditches were heads-up digitized in ArcMap on 2002 Dakota County aerial photography using the original legal description map as reference for the extent of ditch jurisdiction.</abstract>
+      <purpose>To identify the full extent of those ditches in Dakota County that the County has jurisdiction over.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20060101</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.145712</westbc>
+        <eastbc>-92.900237</eastbc>
+        <northbc>44.560918</northbc>
+        <southbc>44.509435</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Public Ditches</themekey>
+        <themekey>Dakota County</themekey>
+        <themekey>North Cannon</themekey>
+        <themekey>NCRWMO</themekey>
+      </theme>
+    </keywords>
+    <accconst>The data set is public. A Dakota County Soil &amp; Water Conservation District DATA LISCENSE is necessary to obtain the data set. Data is deliverable in county coordinates in shapefile format. A fee may be required for data conversion to other coordinate systems or hard copy data delivery.</accconst>
+    <useconst>DAKOTA COUNTY GIS DATABASE DISCLAIMERNOTICE: Dakota County Geographic Information System (GIS) Data are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13) THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by Dakota County (&#8220;County&#8221;) for their own internal business purposes. The County does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, you must provide a copy of this disclaimer and the accompanying metadata for this dataset to the user.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Dakota County Soil and Water Conservation District</cntorg>
+          <cntper>David Holmen</cntper>
+        </cntorgp>
+        <cntpos>Resource Conservationist/I.T. Specialist</cntpos>
+        <cntvoice>651-480-7791</cntvoice>
+        <cntfax>651-480-7777</cntfax>
+        <cntemail>david.holmen@co.dakota.mn.us</cntemail>
+        <hours>8-4:30</hours>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>O:/Program Information/GIS Projects/public-ditch2.jpg</browsen>
+      <browsed>Public Ditch #2</browsed>
+      <browset>JPEG</browset>
+    </browse>
+    <datacred>Dakota County Soil and Water Conservation District</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+  </idinfo>
+  <dataqual>
+    <complete>Complete</complete>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>22</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>MN Dakota Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>44.51666666666667</stdparll>
+            <stdparll>44.91666666666666</stdparll>
+            <longcm>-93.31666666666666</longcm>
+            <latprjo>44.47194444444445</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>100000.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026575186495847457</absres>
+            <ordres>0.000000026575186495847457</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D MN Dakota</horizdn>
+        <ellips>MN Dakota</ellips>
+        <semiaxis>6378421.989</semiaxis>
+        <denflat>298.2572133677353</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ENV_DitchesPublic</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+        <attrdef>Stream Segment Length</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>STRM_LONG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STRM_NAME</attrlabl>
+        <attrdef>Name of Stream Segment</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>XTROUT_FLA</attrlabl>
+        <attrdef>Designated Trout Stream</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20140926</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

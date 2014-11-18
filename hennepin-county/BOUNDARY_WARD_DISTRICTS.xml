@@ -1,0 +1,232 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Survey Division, Taxpayer Services, Hennepin County</origin>
+        <title catid="8365ddc2-4439-4ad3-8afe-a08e0a0ebc58">BOUNDARY_WARD_DISTRICTS</title>
+        <geoform>vector digital data</geoform>
+		<pubdate>2014</pubdate>
+		<onlink>http://gis-stage.hennepin.us/publicgisdata/BOUNDARY_PACKAGE.zip</onlink>
+        <othercit>File Geodatabase published quarterly to requested Municipalities. Shapefile published quarterly to MetroGis. Other shapefiles published upon request.</othercit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>2012 redistricting, some cities use wards to break down their election districts, then break down further to precincts within those wards.</abstract>
+      <purpose>2012 redistricting polygons to break down the cities by equal census poulation into wards, then further breakdown into precincts</purpose>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.526271</westbc>
+        <eastbc>-93.193451</eastbc>
+        <northbc>45.212377</northbc>
+        <southbc>44.784348</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Parcels</themekey>
+        <themekey>Taxpayer Services</themekey>
+        <themekey>Survey Division</themekey>
+        <themekey>Hennepin County</themekey>
+        <themekey>County Surveyor</themekey>
+        <themekey>GIS</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Hennepin County</placekey>
+      </place>
+    </keywords>
+    <accconst>Please contact the Hennepin County Survey Division regarding access restrictions or limitations.</accconst>
+    <useconst>All data and information ("Products") contained herein are for informational purposes only. Although such Products are believed to be accurate at the time of printing or distribution, Hennepin County does not warrant that such Products are error free. Hennepin County provides these Products on an "as is" basis without warranties of any kind, either express or implied, including, but not limited to, warranties of title or implied warranties of merchantability or fitness for a particular purpose. Hennepin County shall not be liable for any direct, indirect, incidental, special or consequential damages arising out of the use of such Products, or the inability to use such Products or out of any breach of any warranty. The user acknowledges and agrees that the use of such Products is at the sole risk of the user. General questions about this or any other Hennepin County GIS products, including errors, omissions, corrections and/or updates should be directed to the Survey Division, Resident and Real Estate Services Department, Hennepin County at 612-348-3131.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Survey Division, Taxpayers Services Department</cntorg>
+          <cntper>Survey Division Staff</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>Hennepin County Survey Division</address>
+          <address>A-703 Government Center</address>
+          <city>Minneapolis</city>
+          <state>MN</state>
+          <postal>55487-0073</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>612-348-3131</cntvoice>
+        <cntfax>612-348-2837</cntfax>
+        <cntemail>Surveyor.Maps@co.hennepin.mn.us</cntemail>
+        <hours>8:00 am to 4:30 pm</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>This data set was created by Hennepin County Resident and Real Estate Services Survey Division.</datacred>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <crossref>
+      <citeinfo>
+        <origin>Hennepin County Survey Division</origin>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Parcel attributes are incorporated from Hennepin County PINS information on a monthly basis</attraccr>
+    </attracc>
+    <posacc>
+      <horizpa>
+        <horizpar>Original parcel and related data layers had an accuracy of 2-4 ft at the Section corners, We are currently in the process of recomputing all parcels using COGO metheds from deed and other source descriptions.</horizpar>
+      </horizpa>
+    </posacc>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>47</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>BOUNDARY_WARD_DISTRICTS</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME_TXT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FEATURECOD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MUNIC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MUNIC_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WARD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MCD_CD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Survey Division, Taxpayer Services Department, Hennepin County</cntorg>
+          <cntper>Survey Division Staff</cntper>
+        </cntorgp>
+        <cntpos>Supervising Engineering Technician</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>Hennepin County Survey Division</address>
+          <address>A-703 Government Center</address>
+          <city>Minneapolis</city>
+          <state>MN</state>
+          <postal>55487-0073</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>612-348-3131</cntvoice>
+        <cntfax>612-348-2837</cntfax>
+        <cntemail>surveyor.maps@co.hennepin.mn.us</cntemail>
+        <hours>8:00 am to 4:30 pm</hours>
+      </cntinfo>
+    </distrib>
+    <distliab>All data and information ("Products") contained herein are for informational purposes only. Although such Products are believed to be accurate at the time of printing or distribution, Hennepin County does not warrant that such Products are error free. Hennepin County provides these Products on an "as is" basis without warranties of any kind, either express or implied, including, but not limited to, warranties of title or implied warranties of merchantability or fitness for a particular purpose. Hennepin County shall not be liable for any direct, indirect, incidental, special or consequential damages arising out of the use of such Products, or the inability to use such Products or out of any breach of any warranty. The user acknowledges and agrees that the use of such Products is at the sole risk of the user. General questions about this or any other Hennepin County GIS products, including errors, omissions, corrections and/or updates should be directed to the Survey Division, Taxpayer Services Department, Hennepin County at 612-348-3131.</distliab>
+    <custom>Written request preferred</custom>
+  </distinfo>
+  <metainfo>
+    <metd>20141110</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Survey Division, Taxpayer Services Department, Hennepin County</cntorg>
+          <cntper>Survey Division Staff</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>Hennepin County Survey Division</address>
+          <address>A-703 Government Center</address>
+          <city>Minneapolis</city>
+          <state>MN</state>
+          <postal>55487-0073</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>612-348-2618</cntvoice>
+        <cntfax>612-348-2837</cntfax>
+        <cntemail>surveyor.info@co.hennepin.mn.us</cntemail>
+        <hours>8:00 am to 4:30 pm</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

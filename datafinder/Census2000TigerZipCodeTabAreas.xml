@@ -1,0 +1,50 @@
+<metadata>
+	<idinfo><citation><citeinfo><title catid="252aa75b-8e8e-468d-92aa-354c0f8fa493">Census 2000 5-Digit ZIP Code Tabulation Areas (ZCTAs)</title><origin>U.S. Census Bureau</origin><pubinfo><publish>Dept. of Commerce, Census Bureau, Geography Division</publish></pubinfo><pubdate>2002</pubdate><onlink>ftp://gisftp.metc.state.mn.us/Census2000TigerZipCodeTabAreas.zip</onlink></citeinfo></citation><descript><abstract>A ZIP Code tabulation area (ZCTA) is a statistical geographic entity that approximates the delivery area for a U.S. Postal Service five-digit or three-digit ZIP Code. ZCTAs are aggregations of census blocks that have the same predominant ZIP Code associated with the addresses in the U.S. Census Bureau's Master Address File (MAF). Three-digit ZCTA codes are applied to large contiguous areas for which the U.S. Census Bureau does not have five-digit ZIP Code information in its MAF. ZCTAs do not precisely depict ZIP Code delivery areas, and do not include all ZIP Codes used for mail delivery. The U.S. Census Bureau has established ZCTAs as a new geographic entity similar to, but replacing, data tabulations for ZIP Codes undertaken in conjunction with the 1990 and earlier censuses.</abstract><purpose>The Metropolitan Council downloaded this dataset for purposes of mapping data it collects by zip code.</purpose><supplinf>Twin Cities 7 County Metropolitan Area. This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>20000101</caldate></sngdate></timeinfo><current>2000 Census</current></timeperd><status><progress>Complete</progress><update>None planned</update></status><spdom><bounding><westbc>-97.269815</westbc><eastbc>-89.395174</eastbc><northbc>49.404385</northbc><southbc>43.435285</southbc></bounding></spdom><keywords><place><placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey></place><theme><themekey>demographics, zip code</themekey><themekt /></theme></keywords><accconst /><useconst /><ptcontac><cntinfo><cntperp><cntper /><cntorg>Dept. of Commerce, Census Bureau, Geography Division</cntorg></cntperp><cntpos /><cntaddr><address /><city /><state /><postal /></cntaddr><cntvoice /><cntfax /><cntemail /></cntinfo></ptcontac><browse><browsen>http://www.datafinder.org/metadata/bg/Census2000TigerZipCodeTabAreas.jpg</browsen><browsed>Sample map of the Zip Code Tabulation Areas 2000.</browsed></browse><crossref><citeinfo><title>Census 2000 Tiger data</title></citeinfo></crossref><native>ArcGIS 8x</native></idinfo><dataqual><attracc><attraccr /></attracc><logic /><complete>From the Census Bureau's Metadata:
+
+This  ZCTA cartographic boundary file is a selected generalized extract from the Census Bureau's TIGER geographic database designed for use in a Geographic Information System (GIS) or similar mapping system. It has been developed for various internal Census Bureau projects and have been made available here to the general public on an "as is" basis. 
+
+
+Cartographic Boundary File Formats
+
+Cartographic boundary files available from the Census Bureau's web site are available in the following formats: 
+ARC/INFO EXPORT (.e00) format
+ArcView Shapefile (.shp) format
+ARC/INFO Ungenerate (ASCII) format 
+
+
+Scale and Generalization 
+
+The cartographic boundary files are primarily designed for small scale, thematic mapping applications at a target scale range of 1:500,000 to 1:5,000,000. 
+
+The cartographic boundary files are a generalized extract from the U.S. Census Bureau's TIGER database. Line simplification/smoothing was performed with a tolerance of 0.005 decimal degrees and a coordinate reduction using the Douglas-Peucker method with a tolerance of 0.0003 decimal degrees. Very small polygons were eliminated when the combination of geographic codes existed elsewhere. The geography was clipped back to the shoreline of the United States, in contrast to TIGER/Line&#174; which shows the full extent of geography out to the 3-mile limit. 
+
+These generalized cartographic boundary files are originally produced to support the spatial geographic infrastructure for certain mapping functions within the Census Bureau's American Fact Finder and in support of the LandView Geographic Data Viewer. The generalized files have a much smaller file size than the original file extraction from the Census Bureau's TIGER database, resulting in faster download and processing times. 
+
+Limitations 
+
+Because of coordinate thinning:
+Cartographic boundary files should not be used for geocoding; 
+Some offshore, redundant, zero population and housing land areas may be absent from the files; 
+Cartographic Boundary files are not necessarily vertically integrated with previous boundary file sets.</complete><posacc><horizpa><horizpar /></horizpa><vertacc><vertaccr /></vertacc></posacc><lineage><procstep><procdesc>Shapefile Dataset copied from  U.S. Census Bureau Cartographic Boundary Files from 2000 Census for 5-Digit ZIP Code Tabulation Areas (ZCTAs): 2000
+
+http://www.census.gov/geo/www/cob/
+
+Projected from Geographic Decimal Degrees to UTM, NAD83, Zone 15, Meters using ArcGIS 8x ArcTools projection wizard for shapefiles.
+
+Selected only Zip Codes Tabulation Areas within or partially in the Minneapolis/St. Paul 7-County Metropolitan Area.</procdesc></procstep><srcinfo><srcscale /></srcinfo></lineage></dataqual><spdoinfo><indspref>ZIP code</indspref><direct>Vector</direct><mgmg3obj>Polygon</mgmg3obj><mgmg3til>State</mgmg3til></spdoinfo><spref><horizsys><geograph><latres /><longres /><geogunit /></geograph><planar><gridsys><gridsysn>UTM</gridsysn><utm><utmzone>15</utmzone></utm><spcs><spcszone /></spcs><mgmg4coz /><mgmg4adj /></gridsys><mapproj><mapprojn /><mgmg4par /><otherprj /></mapproj><planci><plandu>Meters</plandu><coordrep><absres /><ordres /></coordrep></planci></planar><geodetic><ellips>GRS80</ellips><horizdn>NAD83</horizdn></geodetic></horizsys></spref><eainfo><overview><eaover>ZCTA:       ZIP Code Tabulation Area (ZCTA) Approximate area representations
+            of U.S. Postal Service ZIP Code service areas created by the U.S. 
+            Census Bureau for statistical purposes.
+ 
+NAME:       Name of ZCTA
+ 
+LSAD:       Legal/Statistical Area Descripion Code.  Z5 for 5 Digit ZCTA
+ 
+LSAD_TRANS: LSAD Translation</eaover><eadetcit>Census 2000 TIGER/Line Technical documentation 
+
+http://www.census.gov/geo/www/tiger/tiger2k/tgr2000.html
+
+http://www.census.gov/geo/www/tiger/tiger2k/tiger2k.pdf</eadetcit></overview></eainfo><distinfo><distrib><cntinfo><cntperp><cntper>Tanya Mayer</cntper><cntorg>Metropolitan Council</cntorg></cntperp><cntpos>GIS Coordinator</cntpos><cntaddr><address>390 North Robert Street</address><city>St. Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651-602-1604</cntvoice><cntfax /><cntemail>tanya.mayer@metc.state.mn.us</cntemail></cntinfo></distrib><resdesc>Census2000TigerZipCodeTabAreas</resdesc><distliab>NOTICE: The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13). THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by the Metropolitan Council for its own internal business purposes. The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab><stdorder><digform><digtinfo><formname>Shapefile</formname><formvern>ArcGIS 9.x</formvern><transize /></digtinfo></digform><ordering>This data set is distributed on the internet by clicking below after 'Online Linkage'. Doing so will tell your browser to download a 'ZIP' file which will contain the following: 
+
+- ArcView shape files 
+- metadata for the data set (.htm) 
+- NOTICE.RTF, an important notice about this data set that can be read by any word processing software.</ordering></stdorder></distinfo><metainfo><metd>20080422</metd><metc><cntinfo><cntperp><cntper>Tanya Mayer</cntper><cntorg>Metropolitan Council</cntorg></cntperp><cntpos>GIS Coordinator</cntpos><cntaddr><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651-602-1604</cntvoice><cntfax>651-602-1674</cntfax><cntemail>tanya.mayer@metc.state.mn.us</cntemail></cntinfo></metc><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink></metextns></metainfo><Esri><ModDate>20110721</ModDate><ModTime>16310700</ModTime></Esri><mdDateSt Sync="TRUE">20110721</mdDateSt></metadata>

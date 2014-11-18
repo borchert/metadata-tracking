@@ -1,0 +1,93 @@
+<metadata><idinfo><citation><citeinfo><origin>Metropolitan Council and Metropolitan Airports Commission</origin><pubdate>Unpublished material</pubdate><title catid="88cd0393-a80a-412b-93b8-1ddb2ba40536">MSP Airport Noise Policy Area 1996</title><mgmg1cid>N/A</mgmg1cid><pubinfo><publish>Metropolitan Council</publish></pubinfo><onlink>None available</onlink></citeinfo></citation><descript><abstract>This dataset depicts the Noise Policy Area around the Minneapolis - St. Paul International Airport (MSP).  This Noise Policy Area was adopted by the Metropolitan Council as part of the December, 1996 Aviation Chapter of the Metropolitan Development Guide.  (A discussion of the Noise Policy Area is found on page 66 of the Aviation Guide Chapter.)
+
+The noise policy area lines in this layer were derived from MSP airport noise contours developed by the Metropolitan Airports Commission (MAC).  The portions of the lines that correspond with the three existing runways (4/22, 11L/29R &amp; 11R/29L) are derived from noise contours for 1996 that were modeled from 1991-92 base data (reference runway 4/22 EIS 'No-Build' option).  The portions of the lines that correspond to the new north-south runway are derived from noise contours for 2005 modeled by the MAC for the EIS on MSP 2010 expansion plan.  The outermost line represents a one mile buffer around the 60db noise policy contours.
+
+Notes: 
+- The FAA integrated noise model (INM) was used to generate the noise contours.
+- The positional accuracy of the contours from which this dataset is derived is unknown.  See the Lineage section for information.
+- Magnetic declination has resulted in re-numbering parallel runways to 12R/30L &amp; 12L/30R.</abstract><purpose>The MSP Noise Policy Area is to be used in local community planning for purposes of land use compatibility with aircraft noise.  The Noise Policy Area depicts the geographical area within which the compatibility guidelines apply.  The digital version of the Noise Policy Area will allow communities to overlay the noise zones on local land use and other information to conduct various analysis.</purpose><supplinf>An area surrounding the Minneapolis-St. Paul International Airport, including portions of Hennepin, Dakota and Ramsey Counties.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>199612</caldate></sngdate></timeinfo><current>The MSP Noise Policy Area was adopted by the Metropolitan Council as part of the December, 1996 Aviation Chapter of the Metropolitan Development Guide.</current></timeperd><status><progress>Complete</progress><update>Every 5 years with  Aviation Guide revisions.</update></status><spdom><bounding><westbc>-94.012</westbc><eastbc>-92.732</eastbc><northbc>45.415</northbc><southbc>44.471</southbc></bounding></spdom><keywords><theme><themekt>None</themekt><themekey>transportation, airports, airport noise, airport noise compatibility, Minneapolis - St. Paul International Airport, MSP, noise policy area, noise contour</themekey></theme><place><placekey>Minneapolis - St. Paul International Airport, MSP, Twin Cities, Dakota County, Hennepin County, Ramsey County, Minneapolis, St. Paul, Bloomington, Burnsville, Eagan, Edina, Inver Grove Heights, Lilydale, Mendota, Mendota Heights, Richfield, St. Louis Park, Sunfish Lake, West St. Paul</placekey></place></keywords><accconst>The Metropolitan Council has permission from the Metropolitan Airports Commission to distribute to 'communities surrounding Minneapolis-St. Paul International Airport,' the digital noise contour data that is included as part of the MSP Noise Policy Area data.</accconst><useconst>By acceptance of this data, the user agrees not to transmit this data or provide access to it or any part of it in digital form to another party or individual.  Users may make and distribute maps.</useconst><browse><browsen>http://www.datafinder.org/metadata/bg/mspnpa_a.jpg</browsen><browsed>Sample map showing the mspnpa layer.</browsed></browse><native>ARC/INFO Version 7x, UNIX platform</native><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Chauncey Case</cntper></cntperp><cntpos>Senior Planner</cntpos><cntaddr><addrtype> mailing and physical address </addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>Minnesota</state><postal>55101-1805</postal></cntaddr><cntvoice>651-602-1724</cntvoice><cntfax>651-602-1739</cntfax><cntemail>chauncey.case@metc.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>This dataset contains a minimal amount of attribute data.  All attributes have been verified  to be accurate.</attraccr></attracc><logic>The dataset is topologically 'clean'.</logic><complete>The entire MSP Noise Policy Area in included</complete><posacc><horizpa><horizpar>The positional accuracy of the dataset has not been tested under the National Standards for Spatial Data Accuracy.
+
+The consultants that developed the noise contour data were unable to provide any information about the estimated positional accuracy of the digital data.  In the process of converting the noise contour data from page units (as received by the Metropolitan Council) to real world coordinates, an estimated 10 meters of additional error was introduced into the data.  See the Lineage section for more information.</horizpar></horizpa></posacc><lineage><srcinfo><srcscale /></srcinfo><procstep><procdesc>The noise policy area lines in this layer were derived from MSP airport noise contours developed by the Metropolitan Airports Commission (MAC).  The portions of the lines that correspond with the three existing runways (4/22, 11L/29R &amp; 11R/29L) are derived from noise contours for 1996 that were modeled from 1991-92 base data (reference runway 4/22 EIS 'No-Build' option).  The portions of the lines that correspond to the new north-south runway are derived from noise contours for 2005 modeled by the MAC for the EIS on MSP 2010 expansion plan.  The outermost line represents a one mile buffer around the 60db noise policy contours.
+
+The outermost line represents a one mile buffer around the 60db noise policy contour.
+
+The consultants that developed the noise contour data were unable to provide any information about the estimated positional accuracy of the digital data.
+
+Several attempts were made by the consultants to provide the contour data (DXF files) in real world coordinates.  Significant positional problems were observed in the data for each of these attempts.  The Metropolitan Council decided to receive the data in what appeared to be page units and to convert the data in-house.  To do this, the MAC provided surveyed coordinates for the centers of the ends of each runway.  An Arc/Info layer was created for these points.  Then the Arc/Info 'transform' command was used to convert the data to real world coordinates.
+
+
+Information resulting from the conversion of the MSP 2005 contours
+
+To define centers of runway ends on the msp2005 dxf input cover, the centers of runways (that appear in the dxf file) were eyeballed.  This introduce an estimated +- 10 meter error on top of the unknown positional accuracy of the dxf file and potential noise model error.
+
+Transform command results:
+Arc: transform msp2005fix1 msp2005trans
+Transforming coordinates for coverage msp2005fix1
+ 
+Scale (X,Y) = (1212.517,1212.785)  Skew (degrees) = (-.008)
+Rotation (degrees) = (-.713)  Translation = (475746.003,4960764.616)
+RMS Error (input,output) = (0.000,0.483)
+ 
+Affine  X = Ax + By + C
+        Y = Dx + Ey + F
+  A =    1212.423   B =      14.915   C =    475746.003
+  D =     -15.085   E =    1212.693   F =   4960764.616
+
+tic id     input  x      input  y
+           output x      output y  x error  y error
+------  -----------  ------------  -------- -------
+   501        4.656         8.096
+         481510.861   4970511.947    0.732    0.075
+   502        5.506         8.576
+         482550.111   4971082.485    -.181    -.358
+   503        6.333         8.645
+         483553.186   4971152.625    -.509    0.356
+   504        7.277         7.523
+         484680.537   4969777.593    0.362    -.161
+   505        6.814         6.810
+         484108.579   4968920.009    -.019    0.063
+   507        4.396         6.671
+         481175.226   4968788.465    -.385    0.025
+
+
+Information resulting from the conversion of the MSP 1996 contours
+
+To define centers of runway ends on the msp 1996 dxf input cover, the centers of runways (that appear in the dxf file) were eyeballed.  (Runway end 22 did not appear to be in the same place on the 96nbpage cover and the control points cover, while the others did, so 22 was not used.)  This introduce an estimated +- 10 meter error on top of the unknown positional accuracy of the dxf file and potential noise model error.
+
+
+Arc: transform 96nbpage 96nbptrans affine
+Transforming coordinates for coverage 96nbpage
+ 
+Scale (X,Y) = (1213.121,1213.555)  Skew (degrees) = (0.018)
+Rotation (degrees) = (0.014)  Translation = (853550.201,301177.230)
+RMS Error (input,output) = (0.000,0.506)
+ 
+Affine  X = Ax + By + C
+        Y = Dx + Ey + F
+  A =    1213.121   B =       0.093   C =    853550.201
+  D =       0.297   E =    1213.555   F =    301177.230
+ 
+tic id     input  x      input  y
+           output x      output y  x error  y error
+------  -----------  -------------  ------  -------
+   501        5.728         7.303
+         860499.816    310040.693    0.379    0.498
+   502        6.579         7.782
+         861532.350    310624.121    -.418    -.496
+   504        8.349         6.729
+         863679.335    309344.989    0.377    0.392
+   505        7.886         6.016
+         863117.733    308480.169    -.288    -.268
+   506        5.953         6.371
+         860772.299    308910.797    -.050    -.127</procdesc></procstep></lineage></dataqual><spdoinfo><indspref>None</indspref><direct>Vector</direct><mgmg3obj>arcs, nodes, polygons, label points</mgmg3obj><mgmg3til>One layer.</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>Not applicable</altdatum><altunits /></altsys><depthsys><depthdn>Not applicable</depthdn><depthdu /></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><overview><eaover>Polygon Attributes:
+ 
+NEZONE:   Noise Exposure Zone (values of 1 - 4)
+ 
+ 
+Line Attributes:	
+ 
+DB:       Decibel level of noise contour lines used to create policy lines.
+ 
+LINEDESC: A more complete description of the line.</eaover><eadetcit>None</eadetcit></overview></eainfo><distinfo><resdesc>MSPNoisePolicyArea1996</resdesc><distliab>The Metropolitan Council and the Metropolitan Airports Commission make no representation or warranties, express or implied, with respect to the reuse of the data provided herewith, regardless of its format or the means of its transmission.  Determining the appropriate applications for the use of this dataset is the responsibility of the user.  The user accepts the data 'as is', and assumes all risks associated with its use.  By acceptance of this data, the user agrees not to transmit this data or provide access to it or any part of it to another party or individual.  The Metropolitan Council and the Metropolitan Airports Commission assume no responsibility for actual or consequential damage incurred as a result of any user's reliance on this data.</distliab><stdorder><digform><digtinfo><formname>Arc Export files and ArcView Shape files</formname><formvern>ArcInfo: 7x,  AV: 3.</formvern><transize>0.2 Mb for zip file</transize></digtinfo></digform><ordering>The Metropolitan Council has permission from the MAC to distribute this dataset to communities surrounding MSP.  To request the dataset, send a letter to the distributor requesting the dataset.  Include in the letter the statement that you will not hold the Metropolitan Council or the Metropolitan Airports Commission responsible for errors in the data and that you will not redistribute the data in digital form.
+
+Upon receipt of this letter, a suitable means of transfering the data will be arranged.  Letters may be FAXed to the distributor provided that the original is subsequently sent in the mail.</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Jon Hoekenga</cntper></cntperp><cntpos>GIS System Administrator</cntpos><cntaddr><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1561</cntvoice><cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20000830</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Jon Hoekenga</cntper></cntperp><cntpos>GIS System Administrator</cntpos><cntaddr><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1561</cntvoice><cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail></cntinfo></metc></metainfo><Esri><ModDate>20060227</ModDate><ModTime>09510000</ModTime></Esri><mdDateSt Sync="TRUE">20060227</mdDateSt></metadata>

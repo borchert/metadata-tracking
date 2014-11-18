@@ -1,0 +1,293 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metropolitan Council</origin>
+				<pubdate>Unpublished material</pubdate>
+				<title catid="f9645cdb-97a9-4a1a-9d10-5a07b9ad4cea">Steep Slope Class Grid</title>
+				<mgmg1cid>N/A</mgmg1cid>
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<onlink>ftp://gisftp.metc.state.mn.us/SteepSlopeClassGrid.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This grid dataset was developed by calculating the maximum rate of change between elevation points that are 30 meters apart in a 30 meter digital elevation model grid.
+
+This dataset shows three classes of sloped areas. Class1 includes slopes from 0 to 12 percent, class 2 includes slopes from 12 to 18 percent, and class 3 includes slopes greater than 18 percent. 
+However, there is no guarantee that such slopes exist within any given slope class in this grid file.
+
+This grid is not suitable for determining the precise location or actual size of areas that are undevelopable due to slopes, but merely the general location of areas where development might be constrained due to steep slopes. 
+
+Based on visual inspection when laying the dataset over 2000 orthophotos, the steep slope classes appear to be a reasonable representation of areas of steep slope, although these results have not been field checked.</abstract>
+			<purpose>This dataset shows three classes of sloped areas. Class1 includes slopes from 0 to 12 percent, class 2 includes slopes from 12 to 18 percent, and class 3 includes slopes greater than 18 percent. 
+However, there is no guarantee that such slopes exist within any given slope class in this grid file.
+
+This grid is not suitable for determining the precise location or actual size of areas that are undevelopable due to slopes, but merely the general location of areas where development might be constrained due to steep slopes.</purpose>
+			<supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>1980</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Base information is as current as the publication of its source USGS quadrangle maps which vary in publication date from 1979 to 1990.</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-94.012</westbc>
+				<eastbc>-92.732</eastbc>
+				<northbc>45.415</northbc>
+				<southbc>44.471</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Steep Slopes, Slopes, Digital Elevation Models, DEM, Topography, elevation</themekey>
+			</theme>
+			<place>
+				<placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Steve Kloiber</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>Senior Water Resources Planner</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1056</cntvoice>
+				<cntfax>651-602-1130</cntfax>
+				<cntemail>steve.kloiber@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>http://www.datafinder.org/metadata/bg/SteepSlopeClassGrid.gif</browsen>
+			<browsed>Sample map showing the SteepSlopeClassGrid layer.</browsed>
+		</browse>
+		<native>ArcInfo Version 8x Grid</native>
+		<crossref>
+			<citeinfo>
+				<title>30 meter DEM</title>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>This dataset shows three classes of sloped areas. Class1 includes slopes from 0 to 12 percent, class 2 includes slopes from 12 to 18 percent, and class 3 includes slopes greater than 18 percent.  However, there is no guarantee that such slopes exist within any given slope class in this grid file.</attraccr>
+		</attracc>
+		<logic>The dataset is topologically correct and verified.</logic>
+		<complete>Entire seven county geographic area is covered.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>The DEM upon which this data is based was derived from contours from USGS 1:24,000 scale maps.  Thus, the horizontal positional accuracy can probably be reasonably estimated based on the characteristics of source materials and processing techniques to be no better than +/- 45-60 feet (14 - 18 meters).</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>Vertical position is not an attribute of the steep slope grid data; however, these data are based upon elevation data from the 30-meter DEM.  The source data is derived from 7.5 minute quads, and therefore the vertical accuracy of the source data cannot be assumed to exceed National Map Accuracy Standards for 1:24,000 scale maps with 10-foot elevation contours (+/- 5 feet).</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale>24000</srcscale>
+			</srcinfo>
+			<procstep>
+				<procdesc>The process used to derive the steep slope grid from the 30-meter DEM is briefly described below.
+
+Step 1. Convert the elevation intervals of the 30 meter DEM from feet to meters.
+
+Step 2. Computed slope from original 30 meter DEM based on 30 meter cells using ArcView Spatial Analyst's 'Derive Slope' function.
+
+Step 3. Convert slope grid from degrees to percent as follows 
+Percent Slope (Rise/Run) = tangent(slope_degrees/57.29578) using ArcView Spatial Analyst's 'Map Calculator' function.
+
+Step 4: Used Spatial Analyst's 'Reclassification' function to reclassify the floating point values into three integer categories. Class 1 is slopes from 0 to 12 percent, class 2 is slopes from 12 to 18 percent, and class 3 is slopes greater than 18 percent.
+
+LINEAGE FOR SOURCE 30 METER DEM DATA:
+
+The software used to derive the dataset was ANUDEM (http://cres.anu.edu.au/outputs/software.html). Input data included elevation contours derived from USGS 10-foot DLG contours, topographic depression points, and lake polygons extracted from the National Wetlands Inventory by the Minnesota DNR. 
+
+Tile boundaries for the lake data were dissolved prior to processing. Lake surface elevations were calculated as zonal minimums of surface elevations for each lake. The resulting output is in a floating point grid, with units of feet.
+
+The interpolation parameters used in ANUDEM for this process were as follows:
+
+Drainage Enforcement On
+Elevation Data Consists Mainly of Contours
+Non-Negative RMS Factor = 1.0
+Vertical SE = 0.0
+Roughness Penalty = 0.0 (Recommended for Contour Data)
+Elevation Tolerance 1 = 5.0 feet
+Elevation Tolerance 2 = 100.0 feet
+Maximum Number of Iterations = 40
+Elevation Units = Feet
+Elevation Minimum = 660.0 feet
+Elevation Maximum = 1230.0 feet
+Elevation Centered on Grid Cell Center
+Horizontal Position Units = Meters
+Grid Spacing = 30.0
+X Limit (Minimum) = 410730.0
+X Limit (Maximum) = 529740.0
+Y Limit (Minimum) = 4913520.0
+Y Limit (Maximum) = 5038710.0
+Number of Columns in Output Grid = 3967
+Number of Rows in Output Grid = 4173
+Grid Margin = 20 cells
+Number of Input Files = 5
+Input File 1 = input_pt.gen (ArcInfo Point Data)
+Input File 2 = hyps_upl.gen (ArcInfo Contour Data)
+Input File 3 = dem_lake.gen (ArcInfo Lake Boundary Data)
+Input File 4 = dem_sink.gen (ArcInfo Sink Point Data)
+Input File 5 = union1.gen (ArcInfo Polygon)
+
+NOTE: Drainage enforcement was used, but stream data was not used. The data have not been hydrologically corrected. Using the drainage enforcement option has the effect of filling small spurious sinks that are created as an artifact of the interpolation process. Only sinks that exceed the Elevation Tolerance 1 value (5.0 feet) or sinks that are specifically identified in the topographic depression data file will be retained.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>None</indspref>
+		<direct>Raster</direct>
+		<mgmg3obj>Integer grid, 30 meter cell size</mgmg3obj>
+		<mgmg3til>One layer for entire area.</mgmg3til>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres />
+				<longres />
+				<geogunit /></geograph>
+			<planar>
+				<mapproj>
+					<mapprojn />
+					<mgmg4par />
+					<otherprj />
+				</mapproj>
+				<gridsys>
+					<gridsysn>UTM</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+					<spcs>
+						<spcszone />
+					</spcs>
+					<mgmg4coz />
+					<mgmg4adj />
+				</gridsys>
+				<planci>
+					<coordrep>
+						<absres>30</absres>
+						<ordres>30</ordres>
+					</coordrep>
+					<distbrep>
+						<distres>30</distres>
+					</distbrep>
+					<plandu>Meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum />
+				<altunits />
+			</altsys>
+			<depthsys>
+				<depthdn />
+				<depthdu />
+			</depthsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<overview>
+			<eaover>Grid Class = 1, 2, or 3
+ 
+SLOPECLASS:
+     1 = Areas where slopes of 0% to 12% are more likely to be found.
+     2 = Areas where slopes of 12% to 18% are more likely to be found.
+     3 = Areas where slopes of 18% or greater are more likely to be found.</eaover>
+			<eadetcit>None</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Mark Kotz</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Database Administrator</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1644</cntvoice>
+				<cntfax>651.602.1674</cntfax>
+				<cntemail>mark.kotz@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>SteepSlopeClassGrid</resdesc>
+		<distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>zipped grid dataset</formname>
+					<formvern>ArcInfo 8x</formvern>
+					<transize>1 MB for zip file.</transize>
+				</digtinfo>
+			</digform>
+			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'.  Doing so will tell your browser to download a 'ZIP' file which will contain the following:
+
+- Grid dataset
+- metdata for the dataset (.htm)
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software.
+ </ordering>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20020403</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Steve Kloiber</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>Senior Water Resources Planner</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1056</cntvoice>
+				<cntfax>651-602-1130</cntfax>
+				<cntemail>steve.kloiber@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+	</metainfo>
+	<Esri><ModDate>20040528</ModDate><ModTime>13462700</ModTime></Esri><mdDateSt Sync="TRUE">20040528</mdDateSt></metadata>

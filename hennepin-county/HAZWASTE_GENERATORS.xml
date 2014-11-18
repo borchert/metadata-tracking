@@ -1,0 +1,240 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title catid="15fb5b32-1f1d-4a1f-86eb-cfe180cd41ac">HAZARDOUS WASTE GENERATORS</title>
+        <geoform>vector digital data</geoform>
+		<pubdate>2014</pubdate>
+		<onlink>http://gis-stage.hennepin.us/publicgisdata/HAZWASTE_GENERATORS.zip</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Hazardous Waste is a "solid waste" which because of its quantity, concentration, or physical, chemical, or infectious characteristics may: either pose a substantial present or potential hazard to human health or the environment when improperly treated, stored or disposed of, or otherwise mismanaged; or cause or contribute to an increase in mortality, or an increase in irreversible or incapacitating illness. This spatial data set presents all known locations in Hennepin County where hazardous waste generators are or have been in operation. The information used to create this data comes from the hazardous waste generator licensing and inspection activities of Environmental Services staff.</abstract>
+      <purpose>To provide locations of all known hazardous waste generators in Hennepin County, Minnesota.
+
+Most recent update to this data set occured September 2014.</purpose>
+    </descript>
+    <status>
+      <progress>In work</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.770423</westbc>
+        <eastbc>-93.191458</eastbc>
+        <northbc>45.241902</northbc>
+        <southbc>44.791063</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>health</themekey>
+        <themekey>location</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Hazardous Waste</themekey>
+        <themekey>Generators</themekey>
+        <themekey>Contamination</themekey>
+        <themekey>Environment</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>All data and information ("Products") contained herein are for informational purposes only. Although such Products are believed to be accurate at the time of printing or distribution, Hennepin County does not warrant that such Products are error free. Hennepin County provides these Products on an "as is" basis without warranties of any kind, either express or implied, including, but not limited to, warranties of title or implied warranties of merchantability or fitness for a particular purpose. Hennepin County shall not be liable for any direct, indirect, incidental, special or consequential damages arising out of the use of such Products, or the inability to use such Products or out of any breach of any warranty. The user acknowledges and agrees that the use of such Products is at the sole risk of the user. General questions about this or any other Hennepin County GIS products, including errors, omissions, corrections and/or updates should be directed to the custodial department or division listed in the metadata contact information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Hennepin County - Department of Environmental Services - Commercial Hazardous Waste Unit</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>701 4th Street South #700</address>
+          <city>Minneapolis</city>
+          <state>MN</state>
+          <postal>55415-1942</postal>
+        </cntaddr>
+        <cntvoice>(612) 348-3777</cntvoice>
+        <cntfax>(612) 348-8532</cntfax>
+        <cntemail>DESMail@co.hennepin.mn.us</cntemail>
+        <hours>08:00-16:30 (M-F)</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Hennepin County - Department of Environmental Services - Commercial Hazardous Waste Unit</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>19142</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>HAZWASTE_GENERATORS</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Loc_name</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Status</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SITE_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Operation_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Operation1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SIZE_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SIC_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Last_Insp</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EPA_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Status_Cod</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Status_Rea</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Risk_Facto</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Site_City</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Last_Insp_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Site_Zip</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Site_Addre</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COMPANY_ID</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eadetcit>LOC_NAME: The name of the geolocation service used to geocode the sitelocation.  A 100% match-score was used to bolster accuracy
+STATUS: Pertains to whether the record was able to be geocoded: M=Match, T=Tied (Match), U=Unmatched
+OPERATION_NAME: The name of the hazardous waste generator operating at a particular site. 
+OPERATION_ID: This is the operation's identification number where both the company and site identification numbers have been concatenated to create a unique number associated to each generator license. 
+COMPANY_ID: The identification number associated with the company or ownership. 
+SITE_ID: The identification number associated with the site address. 
+EPA_ID: This is the generator's EPA identification number 
+SIC_CODE: The hazardous waste generator's Standard Industrial Classification number - value indicates the type of business
+SIZE_CODE: This is the generator's size.
+STATUS_CODE: Status definitions: C = Currently licensed, O=Old or obsolete operation, I = Licensing in process, P=Potential Generator, N=Non-Generator 
+STATUS_REASON: This is the reason why a company has a status of O or N. DU=Duplicate Record, MV=Moved Out Of County, MC=Moved Within County, NG=No Longer A Generator, OS=One-Time Shipment, OT=Out-Of-Business, PV=Private/Non-Commercial
+RISK_FACTOR: Values 1-9 represent the targeted number of years between inspections. Values &gt;9 were enabled mid-2012, where "50" series indicates those licensed through self-audit process: 52=licensed in 2012, 53=licensed in 2013, etc. The "80" series is used for generators that will qualify for minimal generator status at the time of a future minimal generator license period.  Minimal Generators are licensed for five year periods.  Generators with a risk of 84 will be eligible for minimal generator status at the end of 2014.  Generators with a risk of 89 will be eligible for minimal generator status at the end of 2019.  Risk 99 is for self-audit MIG generators that generate only low-risk wastes (e.g. photo fixer) where there is no intention to conduct on-site inspections absent cause, such as a complaint.
+LAST_RT_INSP: Last routine inspection date. A routine inspection is primarily a generator inspection, but it can also be a routine facility or tank inspection as well.
+LAST_INSP: Last inspection date
+LAST_INSP_TYPE: Last inspection type
+PID: This is the company's Hennepin County property identification number or PID.
+SITE_ADDRESS: This is the address where the licensed generator (or operation) is located, and is the address associated with the site contact information. 
+SITE_CITY: This is the city where the licensed operation is located. 
+SITE_ZIP: This is the zip code associated with the licensed operation. 
+SCON_NAME: The full name of the generator site's contact person. 
+SCON_PHONE: This is the site contact's phone number.  
+MAILING_ADDRESS: This is the mailing address associated with the mailing contact. 
+MAILING_CITY: This is the mailing address city associated with the mailing contact. 
+MAILING_STATE: This is the mailing address state associated with the mailing contact. 
+MAILING_ZIP: This is the mailing address zipcode associated with the mailing contact.
+MCON_NAME: The full name of the gernerator site's mailing contact person. 
+MCON_PHONE: This is the mailing contact's phone number. </eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>Contact Hennepin County Department of Environmental Services - Commercial Hazardous Waste Unit
+
+See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+          <transize>0.463</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>file://Service=sde:sqlserver:echo; Database=HENNEPIN; User=gis; Version=sde.DEFAULT</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20141110</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

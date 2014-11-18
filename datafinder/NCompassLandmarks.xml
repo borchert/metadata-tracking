@@ -1,0 +1,312 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>NCompass Technologies (formerly The Lawrence Group)</origin>
+				<pubdate>2013</pubdate>
+				<title catid="f03f6611-6995-4c1d-b6ee-e83acbe37534">NCompass Technologies Landmarks</title>
+				<mgmg1cid />
+				<pubinfo>
+					<publish>NCompass Technologies</publish>
+				</pubinfo>
+				<onlink>None available</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This is a compilation of a variety of geographic and reference point features in three datasets. It was built in conjunction with the NCompass Technologies street centerlines and is usually used in conjunction with that dataset. These features cover the Twin Cities Metropolitan Area and beyond (See Place Keywords for list of counties covered by this dataset) as well as three Wisconsin counties (Pierce, Polk, and St. Croix).
+
+The three files that make up the landmark features include Geographic areas of interest (NCompassLandmarkAreas), linear features (NCompassLandmarkLines) and points of interest (NCompassLandmarkPoints). 
+
+Typical features of the NCompassLandmarkAreas layer include parks, lakes, golf courses, cemeteries, airports, etc.  As of the December 1, 1998 release, the NCompassLandmarkAreas layer also contains a municipality field and feature name annotation.
+Typical features of the NCompassLandmarkLines layer include railroads and creeks.
+Typical features of the NCompassLandmarkPoints layer include city halls, schools, hospitals, etc.
+
+An agreement has been entered into by the Metropolitan Council and NCompass (formerly The Lawrence Group-TLG) that provides access to the NCompass Street Centerline and Landmarks data, at no fee, to all State and Local Government agencies and Colleges and Universities in the State of Minnesota. The Metropolitan Council has funded the licensing of these data for use by these organizations to promote standardization and sharing of geographic information. 
+
+Note: Landmark features from other counties may also be made available as they are completed.</abstract>
+			<purpose>This dataset was developed in conjunction with the NCompass Technologies street centerlines. Two key benefits of the file include 1) enhancing map output and 2) automated feature locating.</purpose>
+			<supplinf>This dataset covers 22 Minnesota and three Wisconsin counties See Place Keywords for counties covered by this dataset</supplinf>
+		</descript>
+		<timeperd>
+			<current>Dataset is updated monthly
+
+Attributes and features are added and updated in NCompass Technologies internal dataset on a daily basis.  Updating occurs on a city by city basis; therefore, data currency varies. Throughout the course of a year, NCompass Technologies completes an update of the entire Twin Cities Metro Area. 
+
+Users are encouraged to submit perceived data omissions or errors to NCompass Technologies by sending an email describing them to Kevin Etherton, Senior GIS Specialist (kevin.etherton@guidek12.com).  Additions and changes submitted to NCompass Technologies by Minnesota public users is available in the first monthly update that occurs 90 days after the changes are submitted.</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Monthly</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-94.502</westbc>
+				<eastbc>-92.296</eastbc>
+				<northbc>45.734</northbc>
+				<southbc>44.471</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>geoareas, points of interest, lines of interest, areas of interest, linear, parks, lakes, rivers, hospitals, city halls, schools, creeks, cemeteries, landmarks, shopping centers, streams, base maps</themekey>
+			</theme>
+			<place>
+				<placekey>Minnesota, Twin Cities, Anoka County, Benton County, Blue Earth County, Carver County, Chisago County, Dakota County, Goodhue County, Hennepin County, Isanti County, McLeod County, Morrison, Olmsted County, Pierce County, Polk County, Ramsey County, St. Croix, Scott County, Sherburne County, Sibley, Stearns County, Washington County, Wright County</placekey>
+			</place>
+		</keywords>
+		<accconst>In May of 1997, an agreement for the use of NCompass Technologies (formerly The Lawrence Group) Street Centerline data was completed by Metropolitan Council, Minnesota Department of Transportation (Mn/DOT) and NCompass Technologies. The agreement makes NCompass Technologies Street Centerline data available to all State and Local Government agencies and Colleges and Universities in the State of Minnesota. Mn/DOT and the Metropolitan Council have funded the licensing of the NCompass Technologies Street Centerline data for use by these organizations to promote standardization and sharing of geographic information.</accconst>
+		<useconst>All users are licensees and the dataset may be used within the licensee's business, organization, or agency only. A licensee may alter the data if records of updates and changes are provided to the Licensing Agent. Altered data may not be otherwise distributed. NCompass Technologies will be the maintenance provider for the street centerline dataset agreements for specific information.
+
+While for the Minnesota public users mentioned in 'Access Constraints' there is no charge for the license, there are some responsibilities by which users agree to abide. These include:
+- Submit roadway and address information additions and changes to NCompass Technologies so that they may be incorporated into the street centerline dataset and made available in future monthly updates. 
+- Take measures to prevent the distribution of the NCompass Technologies data to unauthorized users since it is proprietary trade secret information, making it non-public data. 
+- Determining appropriate applications for the use of the data are the responsibility of the user.</useconst>
+		<browse>
+			<browsen>http://www.datafinder.org/metadata/bg/tlg_landmarks.jpg</browsen>
+			<browsed>Sample map showing the tlg_landmarks layer.</browsed>
+		</browse>
+		<native>ARC/INFO UNIX platform, various versions</native>
+		<crossref>
+			<citeinfo>
+				<title>NCompass Technologies Street Centerlines</title>
+			</citeinfo>
+		</crossref>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>NCompass Technologies</cntorg>
+					<cntper>Dan Och</cntper>
+				</cntperp>
+				<cntpos>Sr. GIS Analyst/Consultant</cntpos>
+				<cntaddr>
+					<address>9855 West 78th Street, Suite 50</address>
+					<city>Eden Prairie</city>
+					<state>MN</state>
+					<postal>55344</postal>
+				</cntaddr>
+				<cntvoice>612.598.0435</cntvoice>
+				<cntemail>dan@ncompasstech.com</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Feature names are determined from all available sources. Typically, multiple sources have the same information; however, when inconsistencies exist, NCompass Technologies either contacts the city or names the feature based on multiple consistent sources.</attraccr>
+		</attracc>
+		<logic>The polygons are provided with polygon topology. Polygons may share borders.
+Points are provided as x,y pairs.
+Linear features are provided as arcs with multiple vertices making up the shapes between end points.</logic>
+		<complete>Although the areas of interest (NCompassLandmarkAreas) layer is extensive, NCompass Technologies is uncertain as to the completeness of geographic areas.  Additions are made as discovered or brought to the attention of NCompass Technologies staff by users.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>The positional accuracy varies greatly throughout these files. Geographic feature placement is sometimes enhanced through the use of aerial photos and other reference sources. Although, the number of vertices used for polygons and linear features provides a good indication of the shape of a feature, it is not sufficient to indicate precise shapes. 
+
+Points of interest are sometimes placed through geocoding methods and are often dependent on the positional accuracy of the associated street centerline file. Other points may be placed using descriptive sources.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>Not applicable</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale />
+			</srcinfo>
+			<procstep>
+				<procdesc>Sources used in the development of the data include hardcopy and digital references including: city planning maps, city reference maps, USGS maps. These various sources have been used since 1988 in the development of the data; and, in most cases, multiple sets of data were referenced in order to justify the existence, location, and attributes. 
+
+Attributes are gathered from numerous sources. Municipalities are the primary source of park information and various government based points of interest. Other feature sources vary greatly.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Dataset copied.</procdesc>
+				<srcused Sync="TRUE">L:\Metadata\Layers\tlg_landmarks</srcused>
+				<date Sync="TRUE">20080310</date>
+				<time Sync="TRUE">10275200</time>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<mgmg3obj>Landmark Areas: polygons, lines, nodes, label points;  Landmark Lines: arcs, nodes;  Landmark Points: points</mgmg3obj>
+		<mgmg3til>One file of the 18 county area for each layer.</mgmg3til>
+		<indspref />
+	</spdoinfo>
+	<eainfo>
+		<overview>
+			<eaover>Field Definitions:
+
+F_NAME:   Feature Name
+
+F_CLASS:  F_class is a feature class code labeled in a manner consistent with 
+          US Bureau of the Census codes.
+
+CITYNAME: The name of the city that the feature is within.
+
+TLGID:    Unique identification number
+
+F_CLASS items are assigned as follows although not all of the
+following features are necessarily present in the set of files:
+
+B01  RAILROAD TRACK
+B30  RAILROAD YARD
+
+C10  PIPELINE
+
+D00  HISTORIC LANDMARK
+D10  MILITARY INSTALL
+D23  TRAILER/MOBILE HOME PARK
+D24  MARINAS
+D31  HOSPITAL
+D36  JAIL/DETENTION CENTER
+D37  PRISONS
+D43  EDUCATIONAL INSTITUTION
+D43A PUBLIC ELEMENTARY
+D43B PUBLIC MIDDLE/INTERMEDIATE/JR. HIGH
+D43C PUBLIC HIGH SCHOOL
+D43D POST SECONDARY
+D43P PRIVATE (NON POST SECONDARY)
+D44  RELIGIOUS INSTITUTION
+D50  TRANSPORTATION TERMINAL
+D51  AIRPORT OR AIRFIELD
+D56  BOAT LAUNCH SITES
+D61  SHOPPING CENTER
+D62  INDUSTRIAL PARK
+D63  OFFICE BUILDING/PARK
+D64  AMUSEMENT CENTER
+D65  GOVERNMENT CENTER
+D65A CITY/TOWNSHIP HALLS
+D65B POST OFFICES
+D69  PARK AND RIDE LOTS
+D81  GOLF COURSE
+D82  CEMETERY
+D83  NATIONAL PARK
+D85  STATE/LOCAL PARK
+D86  ZOO
+D87  ARBORETUMS/NATURE CENTERS
+D88  FAIR GROUNDS
+D89  BEACH
+D99  NON-FILL (DOUGHNUT) POLYGON
+
+H01  ISLAND (SHORELINE OF PERENNIAL WATER FEATURE)
+H10  MAJOR RIVER
+H15  CREEK/STREAM
+H20  CANAL/DITCH
+H30  LAKE OR POND
+H31  EMBEDDED LAKE (PERENNIAL LAKE OR POND) 
+
+M11  PETROLEUM REFINERIES
+M20  REST STOPS
+M31  TUNNELS
+M32  ROAD BRIDGES
+
+R08 TRAIL</eaover>
+			<eadetcit>None</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<resdesc>NCompassLandmarks</resdesc>
+		<distliab>NCompass Technologies and Metropolitan Council shall use its best efforts to ensure the dataset is delivered free of physical defect and shall have sole authority to determine whether the dataset was free of any physical defect at the time of delivery. The dataset and associated manuals, reference materials, and technical documentation (if any) are provided 'as is', without warranty as to their performance, merchantability, or fitness for any particular purpose. The entire risk as to the results and performance of the dataset is assumed by the user. The Metropolitan Council and NCompass Technologies shall not be liable for indirect, special, incidental, compensatory, or consequential damages or third party claims which may result from the use of the dataset, even if the Council or NCompass Technologies has been advised of the possibility of such potential loss or damage. 
+
+See license agreement for complete information.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ArcView Shape Files</formname>
+					<formvern>ArcGIS 10x</formvern>
+					<transize>Approximate size for export format: tlglmk_areas.e00: 17 Mb; tlglmk_lines.e00: 4 Mb; tlglmk_points.e00: 1 Mb</transize>
+				</digtinfo>
+			</digform>
+			<ordering>This dataset is available only to licensed users.
+
+FOR MINNESOTA PUBLIC USERS (see 'Access Constraints' in Section 1 of the full metadata.):
+Instructions for licensing and obtaining the dataset may be found on the MetroGIS web site at http://www.metrogis.org/how-do-i-get/street-centerlines.aspx .   You may download copies of the license agreement and instructions via this link.  Once you have completed and signed the license, it must be sent to The NCompass Technologies.  NCompass Technologies will sign the agreements, return a copy to you and inform the Metropolitan Council that you are a new licensee.  Metropolitan Council will then send an account ID and password to you, allowing you to download the data and future updates according to the provisions of the license. 
+
+FOR OTHER USERS:
+Contact Terry Jackson at NCompass Technologies, PO Box 211223, Eagan, MN 55121 | terry@ncompasstech.com | 651.226.1830</ordering>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Jon Hoekenga</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1561</cntvoice>
+				<cntfax>651-602-1674</cntfax>
+				<cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metd>20130201</metd>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Jon Hoekenga</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert St North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101</postal>
+				</cntaddr>
+				<cntvoice>651-602-1561</cntvoice>
+				<cntfax>651-602-1674</cntfax>
+				<cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<Esri>
+		<ModDate>20111207</ModDate>
+		<ModTime>09571700</ModTime>
+		<MetaID>{7E0F4B68-2759-455C-A970-F808DA093E81}</MetaID>
+		<CreaDate>20080310</CreaDate>
+		<CreaTime>10275200</CreaTime>
+		<SyncOnce>TRUE</SyncOnce>
+	</Esri>
+	<mdDateSt Sync="TRUE">20111207</mdDateSt>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage Sync="TRUE">file://\\rafs\gis\devel\staff\gu_jessica\Temp_for_data_updates\tlg_landmarks</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</onLineSrc>
+			</distorTran>
+		</distributor>
+	</distInfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>Universal Transverse Mercator</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+				</gridsys>
+				<planci>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+	</spref>
+</metadata>

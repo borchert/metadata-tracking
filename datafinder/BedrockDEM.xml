@@ -1,0 +1,239 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metropolitan Council</origin>
+				<pubdate>20030408</pubdate>
+				<title catid="4ec1cf4f-c8b3-4e0f-b0ea-a35fa13ad487">Bedrock DEM</title>
+				<mgmg1cid />
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<onlink>ftp://gisftp.metc.state.mn.us/BedrockDEM.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This raster dataset is a digital elevation model of the bedrock surface of the Twin Cities Metropolitan Area. This data is a 30-meter grid interpolated from 50-foot contours of bedrock surface elevation obtained from the Minnesota Geological Survey.</abstract>
+			<purpose>This dataset was developed to assist with planning efforts including water supply planning and wastewater collection system planning.</purpose>
+			<supplinf>The data cover the seven-county Twin Cities Metropolitan Area</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>19960601</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>12/2002 - Interpolated from Contours</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-94.0047798</westbc>
+				<eastbc>-92.7286997</eastbc>
+				<northbc>45.4176828</northbc>
+				<southbc>44.4687857</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>bedrock, geology, elevation</themekey>
+			</theme>
+			<place>
+				<placekey>Twin Cities, Anoka, Carver, Dakota, Hennepin, Ramsey, Scott, Washington</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Credit given to the Minnesota Geological Survey</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Steve Kloiber</cntper>
+					<cntorg>Metropolitan Council Environmental Services</cntorg>
+				</cntperp>
+				<cntpos>Environmental Analyst</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101</postal>
+				</cntaddr>
+				<cntvoice>651-602-1056</cntvoice>
+				<cntfax>651-602-1130</cntfax>
+				<cntemail>steve.kloiber@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>http://www.datafinder.org/metadata/bg/BedrockDEM.jpg</browsen>
+			<browsed>Sample map showing the BedrockDEM layer.</browsed>
+		</browse>
+		<native>ESRI ArcInfo/ArcView Grid</native>
+		<crossref>
+			<citeinfo>
+				<title>Bedrock Geology and Structure of the seven-county Twin Cities Metropolitan Area (from MGS)</title>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>There is only one attribute, bedrock surface elevation. The accuracy of this elevation data is unknown, but cannot be assumed to be more accurate than the elevation of the 50-foot elevation contour data from which is was derived.</attraccr>
+		</attracc>
+		<logic>The data are logically consistent</logic>
+		<complete>The data are complete for the seven-county Twin Cities Metropolitan Area.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Unknown, but cannot be assumed to be more accurate than the position of the 50-foot elevation contour data from which is was derived.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>Unknown, but cannot be assumed to be more accurate than the elevation of the 50-foot elevation contour data from which is was derived. Probably +/- one-half of the contour interval (25 ft).</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale>100000</srcscale>
+			</srcinfo>
+			<procstep>
+				<procdesc>The elevation data contained in this raster dataset were interpolated from 50-foot bedrock surface elevation contours obtained from the Minnesota Geological Survey using ANUDEM. 
+
+ANUDEM was developed by M.F. Hutchinson at the Australian National University. This program calculates values on a regular grid of a discretized smooth surface fitted to a large number of irregularly spaced elevation data points and contour lines. The program automatically removes spurious sinks were possible. 
+
+In some regions, the interpolation overshoots the elevation, particularly in the case of exposed or very shallow bedrock plateaus. These areas were identified by creating a difference grid between the bedrock and surface elevation grids. All areas in the bedrock DEM where the depth to bedrock was found to be less than zero were re-coded to have a bedrock elevation equal to the surface elevation (for example the Mpls. - St. Paul Airport).</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>None</indspref>
+		<direct>Raster</direct>
+		<mgmg3obj>Cell</mgmg3obj>
+		<mgmg3til>One tile for entire region.</mgmg3til>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres />
+				<longres />
+				<geogunit />
+			</geograph>
+			<planar>
+				<mapproj>
+					<mapprojn />
+					<mgmg4par />
+					<otherprj />
+				</mapproj>
+				<gridsys>
+					<gridsysn>UTM</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+					<spcs>
+						<spcszone />
+					</spcs>
+					<mgmg4coz />
+					<mgmg4adj />
+				</gridsys>
+				<planci>
+					<coordrep>
+						<absres>30</absres>
+						<ordres>30</ordres>
+					</coordrep>
+					<distbrep>
+						<distres>30</distres>
+					</distbrep>
+					<plandu>Meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum>NAVD88</altdatum>
+				<altunits>Feet</altunits>
+			</altsys>
+			<depthsys>
+				<depthdn>Not applicable</depthdn>
+				<depthdu />
+			</depthsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<overview>
+			<eaover>The only attribute is elevation in feet about mean sea level.</eaover>
+			<eadetcit />
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Mark Kotz</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Database Administrator</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1644</cntvoice>
+				<cntfax>651-602-1674</cntfax>
+				<cntemail>mark.kotz@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>BedrockDEM</resdesc>
+		<distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Arc Grid</formname>
+					<formvern>ArcGIS 8x</formvern>
+					<transize>30 MB for ZIP file.</transize>
+				</digtinfo>
+			</digform>
+			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'. Doing so will tell your browser to download a 'ZIP' file which will contain the following: 
+
+- Grid dataset 
+- metdata for the dataset (.htm) 
+
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software. 
+
+ </ordering>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20040402</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Steve Kloiber</cntper>
+					<cntorg>Metropolitan Council Environmental Services</cntorg>
+				</cntperp>
+				<cntpos>Environmental Analyst</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1056</cntvoice>
+				<cntfax>651-602-1130</cntfax>
+				<cntemail>steve.kloiber@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+	</metainfo>
+
+</metadata>

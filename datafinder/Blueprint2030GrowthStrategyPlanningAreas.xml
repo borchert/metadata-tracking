@@ -1,0 +1,276 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metropolitan Council</origin>
+				<pubdate>20021218</pubdate>
+				<title catid="283dee28-c292-43de-87aa-d21b90fc9148">Blueprint 2030 Growth Strategy</title>
+				<mgmg1cid>N/A</mgmg1cid>
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<onlink>ftp://gisftp.metc.state.mn.us/Blueprint2030GrowthStrategyPlanningAreas.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This dataset depicts the  the various Blueprint 2030 planning areas shown in Council's Blueprint 2030 Growth Strategy map.  This map is part of the Metropolitan Council Blueprint 2030 adopted December 18, 2002.  This document is on hold with the current Metropolitan Council and will be revised in the near future.  See http://www.metrocouncil.org/planning/blueprint2030/overview.htm for more information.
+
+Please refer to the actual Blueprint 2030 Growth Strategy map for the actual details of the Blueprint.  A digital version can be found at http://www.metrocouncil.org/planning/planning_images/BPgsmap.jpg .
+
+See Lineage in Section 2 of this metadata for more information.
+
+Notes:
+ - At the time of adoption, Lake Elmo's comprehensive plan was not completed.  The manner in which the city of Lake Elmo is depicted in this dataset is considered to be illustrative only.  
+ - Also at the time of adoption, the City of Rockford was considered to be a Rural Center.  Since then the city has opted out of Metropolitan Council jurisdiction.</abstract>
+			<purpose>This dataset was created to allow the depictions of Blueprint 2030 planning areas.</purpose>
+			<supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20021218</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Planning areas were first defined to analyze land use and development trends and socio-economic characteristics to assist in preparing the Council's 1975 Metropolitan Development Framework.  They have subsequently been used for a wide range of general analysis purposes.  These areas were defined to reflect stage of development of metropolitan area communities.  A major factor in their determination has been the proportion of land developed.  As such, these areas have been periodically adjusted to reflect the continued outward growth of the region.  The latest revision was finalized in the current Blueprint 2030, adopted on December 18, 2002.  It reflected the Council's 2000 land use inventory data, 2000 census information and input from communities.</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-94.012</westbc>
+				<eastbc>-92.732</eastbc>
+				<northbc>45.415</northbc>
+				<southbc>44.471</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>planning and development, Blueprint 2030 Planning Areas, Blueprint 2030 Growth Strategy, regional growth strategy</themekey>
+			</theme>
+			<place>
+				<placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Tanya Mayer</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1604</cntvoice>
+				<cntfax>651.602.1674</cntfax>
+				<cntemail>tanya.mayer@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>http://www.datafinder.org/metadata/bg/Blueprint2030GrowthStrategyPlanningAreas</browsen>
+			<browsed>Sample map showing the Blueprint2030GrowthStrategyPlanningAreas layer.</browsed>
+		</browse>
+		<native>ArcView 3.2</native>
+		<crossref>
+			<citeinfo>
+				<title>Blueprint 2030 planning areas by community http://councilinfo/gis/data/metadata/Blueprint2030PlanningComunities.htm</title>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr />
+		</attracc>
+		<logic>The dataset is topologically 'clean'.</logic>
+		<complete>Entire seven county geographic area is covered.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar />
+			</horizpa>
+			<vertacc>
+				<vertaccr />
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale />
+			</srcinfo>
+			<procstep>
+				<procdesc>Source data used to define the Geographic Planning Areas of the Growth Strategy
+- 2000 Municipal Boundaries
+- 2000 Generalized Land Use
+- Comprehensive Plan Composite data from early in 2002 (communities that had not completed their comprehensive plan review process included Rockford, Minnetonka Beach, Shorewood, Eden Prairie, Jordan, Ham Lake, Linwood Twp., Lake Elmo, St. Mary's Point, New Market and Elko)
+
+Many boundaries from the Comprehensive Plan Composite data were generalized to portray a more general growth strategy policy. 
+
+The Growth Strategy that was adopted on December 18, 2002 was a map that also included:
+- Regional Natural Resource Areas (including Terrestrial and Wetland Areas) from the Metro DNR in coordination with the Metropolitan Council (Preliminary Regionally Significant Natural Resources Areas)
+- Regional Parks (Regional Recreation Open Space Features)
+- 2 proposed Regional Parks (Metropolitan Council Parks and Recreation staff)
+- Existing, Planned and Proposed Regional and State Trails (Park Operating Agencies) 
+- Transit 2025 Corridor (Transitways on Dedicated Rights-of-Way, 2025 dataset)
+- Principal Arterials (Functional Class Roads and Proposed Functional Class Roads, 2002, Principal Arterials only)
+
+Planning Area Definitions and Strategies for Geographic Planning Areas are available in the BP 2030 document at 
+http://www.metrocouncil.org/planning/blueprint2030/documents.htm .  (See p. 42 Appendix B)</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>None</indspref>
+		<direct>Vector</direct>
+		<mgmg3obj>Polygon shapes</mgmg3obj>
+		<mgmg3til>One layer for entire seven county region.</mgmg3til>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres />
+				<longres />
+				<geogunit />
+			</geograph>
+			<planar>
+				<mapproj>
+					<mapprojn />
+					<mgmg4par />
+					<otherprj />
+				</mapproj>
+				<gridsys>
+					<gridsysn>UTM</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+					<spcs>
+						<spcszone />
+					</spcs>
+					<mgmg4coz />
+					<mgmg4adj />
+				</gridsys>
+				<planci>
+					<coordrep>
+						<absres />
+						<ordres />
+					</coordrep>
+					<distbrep>
+						<distres />
+					</distbrep>
+					<plandu>Meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum />
+				<altunits />
+			</altsys>
+			<depthsys>
+				<depthdn />
+				<depthdu />
+			</depthsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<overview>
+			<eaover>Polygon Attributes:
+
+COMMUNITY: The name of the city or township
+
+BPPA_CODE: The two-digit code for the planning area
+
+BPPA_NAME: The name of the type of planning area
+
+           BPPA_CODE   BPPA_NAME
+           ---------   ------------------------------------------------
+                  20 = Developed Area
+                  30 = Developing Area
+                  40 = Rural Centers
+                  51 = Diversified Rural
+                  52 = Rural Residential
+                  53 = Agricultural Preservation Area
+                  60 = Non-Council Area</eaover>
+			<eadetcit>Planning Area Definitions and Strategies for Geographic Planning Areas are available in the BP 2030 document at 
+http://www.metrocouncil.org/planning/blueprint2030/documents.htm .  (See p. 42 Appendix B)</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Mark Kotz</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Database Administrator</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1644</cntvoice>
+				<cntfax>651.602.1674</cntfax>
+				<cntemail>mark.kotz@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>Blueprint2030GrowthStrategyPlanningAreas</resdesc>
+		<distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ArcView Shape Files</formname>
+					<formvern>ArcGIS 8x</formvern>
+					<transize>2 MB for ZIP file</transize>
+				</digtinfo>
+			</digform>
+			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'.  Doing so will tell your browser to download a 'ZIP' file which will contain the following:
+
+- ArcView shape files
+- metadata for the dataset (.htm)
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software.
+
+ 
+Additionally, this dataset is available for direct use via one or more map services.  More information about what a web mapping service is can be found at http://www.datafinder.org/services/.  The specific map service and layer name for this dataset can be found by clicking the blue or green boxes under the map service column of the DataFinder Catalog at http://www.datafinder.org/catalog/ .</ordering>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20030917</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Mark Kotz</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Database Administrator</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1644</cntvoice>
+				<cntfax>651.602.1674</cntfax>
+				<cntemail>mark.kotz@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+	</metainfo>
+
+</metadata>

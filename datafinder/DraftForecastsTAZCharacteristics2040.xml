@@ -1,0 +1,212 @@
+<metadata>
+	<eainfo>
+		<overview>
+			<eaover>Attributes 
+
+TAZ:  TAZ number
+
+COUNTY:  Name of the county
+
+TAZ_ACRES:  Total Acreage of TAZ (including open water)
+
+LAND_AREA:  Land Acreage of TAZ (not including open water)
+
+PRKBUFF_AC:  For year 2010, total zonal acreage falling within a buffer of park land (50 meters for local parks; 500 meters for regional parks and state parks)
+
+WATBUFF_AC:  Total zonal acreage falling within a buffer of open water (50 meters)
+
+PCT_SEWER: For year 2010, percent of TAZ that falls within the 2020 Metropolitan Urban Service Area (MUSA)
+
+PCTLOWINC:  The 2010 share of households residing in each zone that have income less than $35,000 (year 2010 dollars) per year 
+
+AVGHHINC:  Zonal average household income (year 2010)
+
+CBD:  Binary indicator variable indicating if zone is in Central Business District in downtown Minneapolis or St. Paul (1=Central Business District)
+
+HFREQBUS: Number of high frequency bus service stops within the TAZ (year 2010)
+
+HOUSEDEN: 2010 density of housing units within TAZ (housing units per acreage of residential land)
+
+PBB_WHITE: The 2010 share of households residing in each zone with a householder of White race
+
+PCT_LRT: The share of TAZ area within a half-mile buffer of a light rail station in year 2010.
+
+PKBUFF_40: For year 2040 scenario, total zonal acreage falling within a buffer of park land (50 meters for local parks; 500 meters for regional parks and state parks)
+
+PCTSWR_40: For year 2040 scenario, percent of TAZ that falls within the 2030 Metropolitan Urban Service Area (MUSA)
+
+HFREQ_40: For year 2040 scenario, number of high frequency bus service stops within the TAZ
+
+PCTLRT_40: For year 2040 scenario, the share of TAZ area within a half-mile buffer of a light rail or highway BRT station.</eaover>
+		</overview>
+	</eainfo>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metropolitan Council</origin>
+				<title catid="b9e0605d-14d6-4903-97a2-7e9ebd410a53">2040 Draft Forecasts TAZ Characteristics</title>
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<pubdate>20140310</pubdate>
+				<onlink>ftp://gisftp.metc.state.mn.us/DraftForecastsTAZCharacteristics2040.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This file presents Transportation Analysis Zone (TAZ) attributes used in the local forecast model which informs the 2040 Draft Local Forecasts (released in February 2014).  The file shows the 2010 TAZ attributes used in the 2010 base year calibration.  The file also shows the year 2040 policy assumptions for Metropolitan Urban Service Area (MUSA); light rail stations and high frequency bus stops; and park space for each TAZ</abstract>
+			<purpose>To show the TAZ attributes used in the 2010 calibration of the local forecast model, and in the 2040 scenario assumed for the 2040 Draft Local Forecasts</purpose>
+			<supplinf>Twin Cities 7 county metropolitan area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington.</supplinf>
+		</descript>
+		<timeperd>
+			<current>Data considered current through the date of this metadata.  Household/population data from 2010 US decennial Census. </current>
+			<timeinfo>
+				<sngdate>
+					<caldate>20140310</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>As Needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-94.012</westbc>
+				<eastbc>-92.732</eastbc>
+				<northbc>45.415</northbc>
+				<southbc>44.471</southbc>
+			</bounding>
+		</spdom>
+		<accconst>2040 TAZ level policy assumptions are preliminary.  These assumptions do not necessarily reflect adopted policies; assumptions were created to inform preliminary forecasts. </accconst>
+		<useconst>By acceptance of this data, the user agrees to include a copy of this metadata record, including the liability disclaimer, whenever the user transmits or provides the GIS Data (or any portion of it) to another user.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Dennis Farmer, AICP</cntper>
+				</cntperp>
+				<cntpos>Research Analyst</cntpos>
+				<cntaddr>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1552</cntvoice>
+				<cntemail>dennis.farmer@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<distinfo>
+		<distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+		<stdorder>
+			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'.  Doing so will tell your browser to download a 'ZIP' file which will contain the following:
+
+- ArcView shape files
+- metadata for the dataset (.htm)
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software.
+
+Additionally, this dataset is available for direct use via one or more map services.  More information about what a map service is can be found at http://www.datafinder.org/services/.  The specific map service and layer name for this dataset can be found by clicking the "Services" link for this dataset in the DataFinder Catalog at http://www.datafinder.org/catalog/ .</ordering>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Jon Hoekenga</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1561</cntvoice>
+				<cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metd>20140310</metd>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+		</metextns>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Dennis Farmer, AICP</cntper>
+				</cntperp>
+				<cntpos>Research Analyst</cntpos>
+				<cntaddr>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1552</cntvoice>
+				<cntemail>dennis.farmer@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>The Transportation Analysis Zones (TAZ) are based on the 2000 TAZ system.
+
+The file uses several datasets to calculate base year (2010) conditions and forecast year (2040) assumptions.  
+
+The 2010 water buffers used the Generalized Land Use - 2010 for the Twin Cities Metropolitan Area.
+
+The 2010 park buffer used the Generalized Land Use - 2010 for the Twin Cities Metropolitan Area.  The 2040 park buffer brings in assumptions from the 2030 Regional Parks Policy Plan regarding regional parks and regional park search areas.
+
+The 2010 percent Metropolitan Urban Service Area (MUSA) used the Metropolitan Urban Service Areas (MUSA) Composite - Year 2020 outline to calculate the percent of the TAZ served by the MUSA in 2010.  The 2040 percent MUSA is based on the Metropolitan Urban Service Areas (MUSA) Composite - Year 2030 outline
+
+The 2010 TAZ level percent of low income households, average zonal household income, and percent of households with a White householder are based on 2010 Census data.  The 2010 housing density calculation uses the 2010 Census data and the Generalized Land Use - 2010 for the Twin Cities Metropolitan Area.
+
+The Central Business District (CBD) uses designations from the Council's Travel Demand Model.
+
+The 2010 High Frequency Bus Stop field uses the existing High Frequency Transit Network.  
+
+The 2040 High Frequency Bus Stop field includes additional high frequency transit service taken from the 2013-2016 Regional Service Improvement Plan.  The 2040 High Frequency Bus Stop field also includes assumptions about future arterial bus rapid transit (BRT) service, which are treated as high frequency bus service.
+
+The 2010 percent Light Rail Transit station (LRT) uses the Hiawatha alignment to calculate the percent of a TAZ that falls within a 1/2-mile buffer of each station.  
+
+The 2040 percent LRT stations adds assumptions about LRT stations along the Central Corridor, Southwest Transitway and Bottineau Corridor alignments.  The 2040 percent LRT station variable also includes highway BRT stations, and includes highway BRT service along Cedar Avenue and I-35W, and assumes future highway BRT service along the Gateway Corridor, TH-65, I-35E and TH-36.
+
+
+
+
+
+				</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<indspref />
+		<mgmg3obj>polygon</mgmg3obj>
+		<mgmg3til />
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>Universal Transverse Mercator</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+				</gridsys>
+				<planci>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+	</spref>
+</metadata>

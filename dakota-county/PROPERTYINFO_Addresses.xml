@@ -1,0 +1,245 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title catid="c5300f5c-0494-42cd-b07b-3211c2b928a5">Addresses</title>
+        <geoform>vector digital data</geoform>
+		<onlink>http://gis.co.dakota.mn.us/WebsiteGISData/propertyinfo/fgdb/PROPERTYINFO_Addresses.zip</onlink>
+		<pubdate>2014</pubdate><origin>Dakota County</origin><pubinfo><publish>Dakota County</publish></pubinfo></citeinfo>
+    </citation>
+    <descript>
+      <abstract>Address points located by various methods. Typically the point is at least located within the property lines. Considerable effort has been made to move points so they at least fall on building (in no particular location) although not all points have been verified or checked.</abstract>
+      <purpose>Address information can be used for property lookups, geocoding and various other general mapping requirements.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-93.329368</westbc>
+        <eastbc>-92.729865</eastbc>
+        <northbc>44.923436</northbc>
+        <southbc>44.470155</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Addresses</themekey>
+        <themekey>house number</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Unlicensed</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>165521</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>MN Dakota Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>44.51666666666667</stdparll>
+            <stdparll>44.91666666666666</stdparll>
+            <longcm>-93.31666666666666</longcm>
+            <latprjo>44.47194444444445</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>100000.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026575186495847457</absres>
+            <ordres>0.000000026575186495847457</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D MN Dakota</horizdn>
+        <ellips>MN Dakota</ellips>
+        <semiaxis>6378421.989</semiaxis>
+        <denflat>298.2572133677353</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Addresses</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COMMENTS</attrlabl>
+        <attrdef>Comments</attrdef>
+        <attrdefs>Any addtional comments regarding the address</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS</attrlabl>
+        <attrdef>Address</attrdef>
+        <attrdefs>The street address of the property</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ADD_ID_NAT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ADD_ID_LOC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ANUMBERPRE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ANUMBER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ANUMBERSUF</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ANUMBERSEP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ST_PRE_MOD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ST_PRE_DIR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ST_PRE_TYP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ST_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ST_POS_TYP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ST_POS_DIR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ST_POS_MOD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SUB_TYPE1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SUB_ID1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SUB_TYPE2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SUB_ID2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MUNI_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MUNI_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>USPS_PLACE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CO_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CO_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STATE_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIP5</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIP4</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LOC_DESC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LANDMARK</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RESIDENCE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MAILABLE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STATUS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PIN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LONGITUDE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LATITUDE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POSI_ACCU</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ADIRSOURCE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AAUTHORITY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EDIT_ORG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>UPDATEDATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>file://Service=SDE:SQLSERVER:SQL2K5T; Database=Dak; User=GIS; Version=sde.DEFAULT</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20140926</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

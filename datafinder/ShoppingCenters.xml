@@ -1,0 +1,244 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metropolitan Council</origin>
+				<pubdate>2000</pubdate>
+				<title catid="49af689b-6433-41b4-bc2c-d3974ac94120">Major Shopping Centers</title>
+				<mgmg1cid>N/A</mgmg1cid>
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<onlink>ftp://gisftp.metc.state.mn.us/ShoppingCenters.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The Major Shopping Centers point data file includes those centers with more than 26,000 gross square feet of retail space, open as of December 31, 1998.  It does not include single, 'big - box' retail stores sited alone.  
+
+Note:  The point data is positioned for cartographic purposes for the Metropolitan Council's published Major Shopping Centers In the Twin Cities Metropolitan Area map (Publication No. 74-00-035) and not for precise location (e.g. the points might not fall on the actual shopping center).</abstract>
+			<purpose>This dataset was developed to update the 1990 Major Shopping Centers In the Twin Cities Metropolitan Area, 1939-1971, 1972-1984, 1985-1989 map published by the Metropolitan Council in the early 1990s, which was published as part of the Shopping Centers and Retail Sales report series.  Only the map was updated, not the report.</purpose>
+			<supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>19981231</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Minnesota Shopping Center Association Real Estate Report, 1998.
+Other sources listed under Lineage.</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None Planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-94.012</westbc>
+				<eastbc>-92.732</eastbc>
+				<northbc>45.415</northbc>
+				<southbc>44.471</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>shopping centers, major shopping centers, retail, society</themekey>
+			</theme>
+			<place>
+				<placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<browse>
+			<browsen>http://www.datafinder.org/metadata/bg/ShoppingCenters.jpg</browsen>
+			<browsed>Sample map showing the Major Shopping Centers dataset.</browsed>
+		</browse>
+		<native>ArcView Version 3.2</native>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Robert Paddock</cntper>
+				</cntperp>
+				<cntpos>Planner</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1340</cntvoice>
+				<cntfax>651.602.1674</cntfax>
+				<cntemail>bob.paddock@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Unknown</attraccr>
+		</attracc>
+		<logic>The dataset is topologically 'clean'.</logic>
+		<complete>Entire seven county geographic area is covered.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>The positional accuracy of the dataset has not been tested under the National Standards for Spatial Data Accuracy.
+
+The shopping center point locations were derived from a list of addresses that had some problems when address matched to street centerlines.  Some addresses were modified to improve address matching results.
+
+Some of the resulting points were repositioned for cartographic purposes and labeling for the published Major Shopping Centers map (Publication No. 74-00-035).  Thus, some of the points, especially in major shopping center areas, are not in their precise location (e.g. the points might not fall on the actual shopping center).</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale />
+			</srcinfo>
+			<procstep>
+				<procdesc>The Metropolitan Council research staff developed a database of shopping centers with ID numbers, addresses, gross square footage, year of construction, year renovated, and center type (regional, sub-regional, etc.) from the sources listed below.  Not all of these attributes were carried through to the final point data file.  
+
+This database was address matched with ArcView 3.2 using the TLG Street Centerlines dataset.  Some of the addresses were modified during this process to achieve better address matching results.  Some of the resulting points were then repositioned for cartographic purposes for the published Major Shopping Centers map (Publication No. 74-00-035).  Some of the points, especially in major shopping center locations, are not in their precise location (e.g. the points might not fall on the actual shopping center).
+
+Data Source:
+Minnesota Shopping Center Association 1997 and 1998 Real Estate Reports
+1990 Shopping Center Update Report by Metropolitan Council, December 1990
+Field surveys of developing areas
+
+Notes:  The shopping centers listed are only those with more than 26,000 gross square feet of retail space.  Single, 'big - box' retail stores sited alone are not included in the list.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>None</indspref>
+		<direct>Point</direct>
+		<mgmg3obj>point shapes</mgmg3obj>
+		<mgmg3til>One layer for entire seven county region.</mgmg3til>
+	</spdoinfo>
+	<eainfo>
+		<overview>
+			<eaover>FID:       Internal Feature Number
+
+Shape:     Internal Feature Geometry
+
+CENTER_ID: ID reference number used to index the shopping centers on the 
+           published map to the index on the back of the map.
+
+NAME:      Shopping center name
+
+TYPE:      Shopping center type 
+
+TYPE_NO:   Numeric value for each shopping center type to allow sorting by type 
+           in a certain order.
+
+ADDRESS:   Shopping center address
+
+CITY:      The city in which the shopping center resides.
+
+ZIP_CODE:  Shopping center's zip code</eaover>
+			<eadetcit>TYPE: 	Referenced from &#65533;Shopping Center Update with Retail Sales Data from the 1997 Economic Census, August 2001, Metropolitan Council&#65533;
+
+Mega Center - Mall of America is the only center in this category which is not defined on the basis of size but because of its unique character 
+
+Regional Center - centers that exceed 750,000 gross square feet of retail space
+
+Sub-Regional Center - centers have between 400,000 and 750,000 square feet of retail space 
+
+Downtown Center - contains mixed use developments that occur in highly urbanized downtown locations and are not categorized on the basis of gross, leasable retail space.
+
+Community Center - centers have between 100,000 and 400,000 square feet of retail space 
+
+Neighborhood Center - centers contain less than 100,000 square feet of retail space and are the smallest centers categorized 
+			</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<resdesc>ShoppingCenters</resdesc>
+		<distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ArcView Shape file</formname>
+					<formvern>ArcView 8x</formvern>
+					<transize>Less than 1 meg. for zip file.</transize>
+				</digtinfo>
+			</digform>
+			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'.  Doing so will tell your browser to download a 'ZIP' file which will contain the following:
+
+- ArcView shape files
+- metadata for the dataset (.htm)
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software.
+
+
+Additionally, this dataset is available for direct use via one or more map services.  More information about what a web mapping service is can be found at http://www.datafinder.org/services/.  The specific map service and layer name for this dataset can be found by clicking the blue or green boxes under the map service column of the DataFinder Catalog at http://www.datafinder.org/catalog/ .</ordering>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Mark Kotz</cntper>
+				</cntperp>
+				<cntpos>GIS Database Administrator</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1644</cntvoice>
+				<cntfax>651.602.1674</cntfax>
+				<cntemail>mark.kotz@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metd>20020124</metd>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Bob Paddock</cntper>
+				</cntperp>
+				<cntpos>Planner</cntpos>
+				<cntaddr>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1340</cntvoice>
+				<cntemail>bob.paddock@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<Esri>
+		<ModDate>20040826</ModDate>
+		<ModTime>15221400</ModTime>
+	</Esri>
+	<mdDateSt Sync="TRUE">20040826</mdDateSt>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>Universal Transverse Mercator</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+				</gridsys>
+				<planci>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+	</spref>
+</metadata>

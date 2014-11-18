@@ -1,0 +1,156 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title catid="b673b65b-aae5-4564-8394-7df1236322ec">Rosemount Muni Buff</title>
+        <geoform>vector digital data</geoform>
+		<onlink>http://gis.co.dakota.mn.us/websitegisdata/elevation/fgdb/Rosemount.zip</onlink>
+		<pubdate>2014</pubdate><origin>Dakota County</origin><pubinfo><publish>Dakota County</publish></pubinfo></citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-93.178982</westbc>
+        <eastbc>-92.953587</eastbc>
+        <northbc>44.790346</northbc>
+        <southbc>44.702261</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>MN Dakota Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>44.51666666666667</stdparll>
+            <stdparll>44.91666666666666</stdparll>
+            <longcm>-93.31666666666666</longcm>
+            <latprjo>44.47194444444445</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>100000.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026575186495847457</absres>
+            <ordres>0.000000026575186495847457</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D MN Dakota</horizdn>
+        <ellips>MN Dakota</ellips>
+        <semiaxis>6378421.989</semiaxis>
+        <denflat>298.2572133677353</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+Municipal Boundary</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Dak_GIS_MU</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DCCODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CITYNAME</attrlabl>
+        <attrdef>Name of city or township</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>STCODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FIPSCODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SYMBOL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>X</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Y</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BUFF_DIST</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Location and address information for the city halls in Dakota County.</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>file://Service=SDE:SQLSERVER:SQL2K5T; Database=Dak; User=GIS; Version=sde.DEFAULT</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20140926</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

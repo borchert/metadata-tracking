@@ -1,0 +1,249 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metropolitan Council</origin>
+				<pubdate>200010</pubdate>
+				<title catid="ccf7bfaa-10ec-4f07-bd9e-e2ae6f5edd73">2000 Digital Orthophotos, Twin Cities Metropolitan Area</title>
+				<mgmg1cid />
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<onlink>None available</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This dataset contains 267 black and white digital orthophoto quarter-quadrangles (DOQs), 3.75' x 3.75', covering the 7 county Twin Cities (Minneapolis and St. Paul) Metropolitan Area in Minnesota.  Each CD-ROM contains up to 4 quarter-quadrangles of a USGS 7.5 minute quadrangle, where a quarter-quadrangle is included IF it's coverage includes any portion of the Twin cities 7 county area.  The orthophotos are in UTM, Zone 15, NAD83 projection.  Each image is approximately 115 Mb, with a .6 meter image pixel, and available in TIFF format.  There are a total of 78 CD-ROMs.  These orthophotos were produced using the USGS DOQ specifications except for the file format and the scan resolution (pixel size is .6m rather than 1 meter).  The original imagery was collected at 20,000 ft. and centered on USGS quarter-quads.
+
+This dataset is available for direct use via the MnGeo Image Server.  More information at http://www.mngeo.state.mn.us/chouse/wms/wms_image_server_layers.html
+</abstract>
+			<purpose>The digital orthophotos will be used for the 2000 Metropolitan Council land use interpretation project as well as for many other mapping and analysis functions.
+
+A note about zooming:  The scale of the original photos (from which the digital data were created) was 1:40,000.  Generally photogrammetrists suggest that the integrity of a photo image degrades noticeably after 5 times the negative scale (1:8,000 in this case), and that 10 times the negatives scale is the absolute maximum one should enlarge a photo (1:4,000).</purpose>
+			<supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>200005</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>The dates of the original aerial photography were May 1, 2000 (West Half of the metro) and May 2, 2000 (East Half of the metro).</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Unknown.  The Metropolitan Council is required to collect Generalize Land Use data at the same time as the Census.  The Met. Council plans to acquire aerial imagery again by 2005.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-94.06</westbc>
+				<eastbc>-92.69</eastbc>
+				<northbc>45.44</northbc>
+				<southbc>44.44</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt />
+				<themekey>orthophotography, ortho, orthophotos, DOQ, DOQQ, imagery, images, digital ortho, aerial photography, aerial photos, digital aerial photography</themekey>
+			</theme>
+			<place>
+				<placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+			</place>
+		</keywords>
+		<accconst>Subject to License Agreement with the Metropolitan Council.</accconst>
+		<useconst>Subject to License Agreement with the Metropolitan Council.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Tanya Mayer</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1604</cntvoice>
+				<cntfax>651-602-1674</cntfax>
+				<cntemail>tanya.mayer@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>http://www.datafinder.org/metadata/bg/orthos2000.jpg</browsen>
+			<browsed>Sample map showing the 2000 digital orthophoto layer.</browsed>
+		</browse>
+		<native />
+		<crossref>
+			<citeinfo>
+				<title>1997 Metropolitan Council Digital Orthophotos,
+1991 USGS DOQs</title>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr />
+		</attracc>
+		<logic />
+		<complete>Entire seven county metro area is covered.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>NMAS @ 1:12,000 scale, 90% of well-defined points fall within 33.3 ft</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>Not applicable</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale>40000</srcscale>
+			</srcinfo>
+			<procstep>
+				<procdesc>Orthophotos were developed under contract with MARKHURD Inc.
+
+The contractor acquired new, vertical black and white aerial photography at a photo scale of 1=3333' (1:40,000 scale or at an altitude of 20,000 ft), following the USGS NAPP specifications.  There were 22 flight lines, 612 exposures, 590 exposures used for aerotriangulation (AT), 60% forward overlap and 30% side lap, flown in a north/south orientation covering the project area.
+
+The contractor acquired and processed airborne GPS data for the center of each photo.  This was used as input in to the AT solution.
+
+The contractor scanned each film diapositive at a setting of 14 microns to yield a 2' ground resolution pixel size (.6 meter).  TIFF images were exported for use in the softcopy workstation for the AT and ortho processing.
+
+A Fully Analytical Aerotriangulation (AT) of the aerial photography was developed to be used in the orthorectification process.  This increases the density of the ground control network, verifies the accuracy of the GPS survey check points, and provides independent comparison of the existing ground control points.  
+
+The Council provided the USGS 30 Meter DEM to the contractor in ArcInfo GRID and in ASCII format, in UTM, NAD 83, horizontal units in meters, vertical units (Z-units) in feet, tiled by USGS quadrangle.  The DEM files are used in the orthorectification process.
+
+The contractor used a softcopy process to create the final digital orthophotos.  Digital Orthophoto Quarter-Quads were developed following the USGS standards for digital orthophotos (DOQs) with the exception of pixel resolution (.6 meter), file format (TIFF with world files).  USGS header (.hdr) file were not included as a deliverable.
+
+Each CD-ROM contains up to 4 quarter-quadrangles of a USGS 7.5 minute quadrangle, where a quarter-quadrangle is included IF it's coverage includes any portion of the Twin cities 7 county area.  Each image is approximately 115 Mb, with a .6 meter image pixel, and available in TIFF format.  There are a total of 78 CD-ROMs.  These orthophotos were produced using the USGS DOQ specifications except for the file format and the scan resolution (pixel size is .6m rather than 1 meter).  The original imagery was collected at 20,000 ft. and centered on USGS quarter-quads.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref />
+		<direct>Raster</direct>
+		<mgmg3obj />
+		<mgmg3til>3.75 minute quadrangle sheets (USGS 7.5 minute ''quarter quads'')</mgmg3til>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres />
+				<longres />
+				<geogunit /></geograph>
+			<planar>
+				<mapproj>
+					<mapprojn />
+					<mgmg4par />
+					<otherprj />
+				</mapproj>
+				<gridsys>
+					<gridsysn>UTM</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+					<spcs>
+						<spcszone />
+					</spcs>
+					<mgmg4coz />
+					<mgmg4adj />
+				</gridsys>
+				<planci>
+					<coordrep>
+						<absres>0.6</absres>
+						<ordres>0.6</ordres>
+					</coordrep>
+					<distbrep>
+						<distres />
+					</distbrep>
+					<plandu>Meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum>NAVD88</altdatum>
+				<altunits>Meters</altunits>
+			</altsys>
+			<depthsys>
+				<depthdn />
+				<depthdu />
+			</depthsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<overview>
+			<eaover />
+			<eadetcit />
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Regional Data Center</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos />
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1140</cntvoice>
+				<cntfax />
+				<cntemail>datacenter@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>orthos2000</resdesc>
+		<distliab>See Metropolitan Council GIS Data Base License Agreement</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>TIFF (.tif) with world files (.tfw) for geographic reference.</formname>
+					<formvern>TIFF version 6.0</formvern>
+					<transize>Approximately 115 Mb per quarter-quadrangle</transize>
+				</digtinfo>
+			</digform>
+			<ordering>This dataset is available for direct use via the MnGeo Image Server.  More information at http://www.mngeo.state.mn.us/chouse/wms/wms_image_server_layers.html
+
+For more information about about licensing and purchasing the data, go to  http://gis.metc.state.mn.us/data_information/order_info_doq.asp or  call the Metropolitan Council Regional Data Center at 651-602-1140.
+</ordering>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20110920</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Tanya Mayer</cntper>
+					<cntorg>Metropolitan Council</cntorg>
+				</cntperp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>Minnesota</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651-602-1604</cntvoice>
+				<cntfax>651-602-1674</cntfax>
+				<cntemail>tanya.mayer@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+	</metainfo>
+	<Esri><ModDate>20110920</ModDate><ModTime>15390100</ModTime></Esri><mdDateSt Sync="TRUE">20110920</mdDateSt></metadata>

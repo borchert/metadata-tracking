@@ -1,0 +1,197 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Hennepin County Human Services &amp; Public Health Dept</origin>
+        <title catid="e5ef0252-6848-4829-b4b9-03a676cf135c">FACILITIES_HOSPITALS_MN</title>
+        <geoform>vector digital data</geoform>
+		<pubdate>2014</pubdate>
+		<onlink>http://gis-stage.hennepin.us/publicgisdata/HealthPacket.zip</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Hospitals: shows all hospitals in the state of Minnesota, arranged by county.Downloaded from the Minnesota Department of Health February 24, 2013. Hospital names and health system associations updated on April 10, 2013.http://www.health.state.mn.us/divs/fpc/directory/fpcdir.htmlAddresses cleaned and geocoded by the Hennepin County Human Services and Public Health Dept (HSPHD). Match rate 100% (135). Where possible road centerline geocoded locations were improved to parcel centroid.</abstract>
+      <purpose>Geocoded locations of hospitals for February, 2013. Please note licensing and status of hospitals can change. Please refer to the web page for current status.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-96.943312</westbc>
+        <eastbc>-90.269363</eastbc>
+        <northbc>48.872600</northbc>
+        <southbc>43.583157</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>human services, public health</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>health</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>hennepin county</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>All data and information ("Products") contained herein are for informational purposes only. Although such Products are believed to be accurate at the time of printing or distribution, Hennepin County does not warrant that such Products are error free. Hennepin County provides these Products on an "as is" basis without warranties of any kind, either express or implied, including, but not limited to, warranties of title or implied warranties of merchantability or fitness for a particular purpose. Hennepin County shall not be liable for any direct, indirect, incidental, special or consequential damages arising out of the use of such Products, or the inability to use such Products or out of any breach of any warranty. The user acknowledges and agrees that the use of such Products is at the sole risk of the user. General questions about this or any other Hennepin County GIS products, including errors, omissions, corrections and/or updates should be directed to the custodial department or division listed in the metadata contact information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Hennepin County Human Services &amp; Public Health Dept</cntorg>
+          <cntper>Tim Zimmerman</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>300 South 6th Street</address>
+          <city>Minneapolis</city>
+          <state>MN</state>
+          <postal>55487</postal>
+        </cntaddr>
+        <cntvoice>612-348-0307</cntvoice>
+        <cntemail>tim.zimmerman@co.hennepin.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Initial creation completed by the Hennepin County Human Services and Public Health Dept (HSPHD), with additional information provided by the Hennepin County Medical Center. Hospital names and health system association updated by HCMC on April 10, 2013. Maintenance and update stewardship responsibilities will be completed by HSPHD.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>136</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>FACILITIES_HOSPITALS_MN</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Loc_name</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Score</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>X</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Y</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HFID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CITY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY_CD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNTYNAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TELEPHONE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FAX</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ADMINISTRA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LIC_TYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HOSPBEDS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BASSBEDS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HOSP18BED2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CAH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DEEMED</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SWING</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HLTH_SYS</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20141110</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

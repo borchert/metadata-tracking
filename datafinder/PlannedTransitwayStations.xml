@@ -1,0 +1,236 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metropolitan Council</origin>
+				<pubdate>20140611</pubdate>
+				<title catid="d627def4-249a-481f-b987-751b3b35d885">Planned Transitway Stations</title>
+				<mgmg1cid>N/A</mgmg1cid>
+				<pubinfo>
+					<publish>Metropolitan Council</publish>
+				</pubinfo>
+				<onlink>ftp://gisftp.metc.state.mn.us/PlannedTransitwayStations.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This dataset depicts the location of planned transitway stations on future transitways which are in advanced design or under construction.  Currently, this file includes station locations for Southwest LRT (Green Line Extension), Bottineau LRT (Blue Line Extension) Cedar Avenue BRT Phase 2 (Red Line), I-35W BRT (Orange Line) and other planned Arterial BRT stations. 
+
+Station points are placed on the general location of the future station. For transitways in early design, this could be as generalized as a point at the intersection. This file is not a guarantee of future station locations. This is for PLANNING PURPOSES ONLY. Station locations subject to change without notice or warning. This file does not have any guaranteed measure of accuracy. 
+
+The point dataset was created by using heads-up digitizing referencing aerial photography.
+When transitway construction is completed and service begins, the stations will move from this file to TransitwayStations (existing). 
+
+Additional Notes:
+-  Red, Blue and Orange line station locations are managed by Rachel Wiken (see Section 7).  All other station locations are managed by:
+
+Katie Roth
+Senior Planner
+Metro Transit BRT/Small Starts Project Office
+707 16th Avenue S
+Minneapolis, MN  55454
+612-349-7772
+katie.roth@metrotransit.org
+
+- The A Line stations at Snelling &amp; Como will be located on the exit ramps, not in an online configuration as shown. The current point&#8217;s purpose is to show that there will be stations at Snelling and Como Avenues.
+
+- Downtown Minneapolis and Saint Paul BRT station locations have yet to be determined. Stations shown are conceptual. 
+			</abstract>
+			<purpose>To have a general depiction of the planned transitway stations.</purpose>
+			<supplinf>Twin Cities 7 county metropolitan area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20140611</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Information is accurate as of the above date.</current>
+		</timeperd>
+		<status>
+			<progress>Planned</progress>
+			<update>As Needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-94.012</westbc>
+				<eastbc>-92.732</eastbc>
+				<northbc>45.415</northbc>
+				<southbc>44.471</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>transit, light rail, commuter rail, bus stops, transportation, BRT, LRT, Planned Alignment</themekey>
+			</theme>
+			<place>
+				<placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<browse>
+			<browsen>none available</browsen>
+			<browsed>Sample map showing the HiawathaLRTStations layer.</browsed>
+		</browse>
+		<native />
+		<crossref>
+			<citeinfo>
+				<title>Transit Stops, Transit Routes, Planned Transitway Alignment
+				</title>
+			</citeinfo>
+		</crossref>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Rachel Wiken</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1572</cntvoice>
+				<cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Unknown</attraccr>
+		</attracc>
+		<logic>The dataset is topologically 'clean'.</logic>
+		<posacc>
+			<horizpa>
+				<horizpar>Station locations were created using heads-up digitizing while referencing aerial photography.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale />
+			</srcinfo>
+			<procstep>
+				<procdesc>The geography for this dataset was created referencing aerial photography and estimating the centerpoint of each station.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>None</indspref>
+		<direct>Vector</direct>
+		<mgmg3obj>points, polygons</mgmg3obj>
+		<mgmg3til>One layer for entire Hiawatha Light Rail line.</mgmg3til>
+	</spdoinfo>
+	<eainfo>
+		<overview>
+			<eaover>POINT ATTRIBUTES:
+
+STATION:   The name of the transitway station.
+
+****A Note about Bottineau Light Rail Stations**** 
+Selection of either a Golden Valley Road Station * or Plymouth Avenue Station * will be made in the future based on information from environmental impact review, engineering, and public involvement. 
+
+X:  The longitude in decimal degrees.
+
+Y:  The latitude in decimal degrees.
+
+Name: Name of the route which is served by the station
+
+Type:  Type of route served by station
+
+Transitway:  Transitway name
+
+StationID: Existing shared station IDs match the StationID field in the TransitwayStations file.
+Planned stations are labeled 900 and above.  Arterial BRT stations are labeled 999 until under construction. </eaover>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<resdesc>PlannedTransitwayStations</resdesc>
+		<distliab>NOTICE: The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13). THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by the Metropolitan Council for its own internal business purposes. The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ArcView Shape File</formname>
+					<formvern />
+					<transize>1 MB for zip file.</transize>
+				</digtinfo>
+			</digform>
+			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'.  Doing so will tell your browser to download a 'ZIP' file which will contain the following:
+
+- ArcView shape files
+- metadata for the dataset (.htm)
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software.
+
+
+Additionally, this dataset is available for direct use via one or more map services.  More information about what a web mapping service is can be found at http://www.datafinder.org/services/.  The specific map service and layer name for this dataset can be found by clicking the blue or green boxes under the map service column of the DataFinder Catalog at http://www.datafinder.org/catalog/ .</ordering>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Rachel Wiken</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1572</cntvoice>
+				<cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metd>20140611</metd>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<metextns>
+			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+		</metextns>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>Metropolitan Council</cntorg>
+					<cntper>Rachel Wiken</cntper>
+				</cntperp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<address>390 Robert Street North</address>
+					<city>St. Paul</city>
+					<state>MN</state>
+					<postal>55101-1805</postal>
+				</cntaddr>
+				<cntvoice>651.602.1572</cntvoice>
+				<cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<Esri>
+		<ModDate>20091208</ModDate>
+		<ModTime>10302300</ModTime>
+	</Esri>
+	<mdDateSt Sync="TRUE">20091208</mdDateSt>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>Universal Transverse Mercator</gridsysn>
+					<utm>
+						<utmzone>15</utmzone>
+					</utm>
+				</gridsys>
+				<planci>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>NAD83</horizdn>
+				<ellips>GRS80</ellips>
+			</geodetic>
+		</horizsys>
+	</spref>
+</metadata>

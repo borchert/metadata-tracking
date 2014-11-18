@@ -1,0 +1,192 @@
+<metadata><idinfo><citation><citeinfo><title catid="04cf8ef1-dbe3-43b1-a9a2-7429cb7852f2">Census 2010 Geography - Blocks, Block Groups, Tracts, TAZs, Counties, County Subdivisions and Water</title><origin>U.S. Census Bureau and the Metropolitan Council</origin><pubinfo><publish>Metropolitan Council</publish></pubinfo><pubdate>20110131</pubdate><onlink>ftp://gisftp.metc.state.mn.us/Census2010Tiger.zip</onlink></citeinfo></citation><descript><abstract>This 'Redistricting' version of the census data is the first release of the data.
+
+This 2010 census redistricting geography database of the 7 county metropolitan area and the additional 12 collar county area was developed from the U.S. Census Bureau's Redistricting Census 2010 TIGER/Line files.
+
+The Metropolitan Council downloaded this data from the Census Bureau's FTP site and added a few attributes, then created block, block group, tract, county subdivision (city), county, taz and water datasets from the original data.
+
+For block level data, this is the Census Bureau's March 2012 re-release with additional attributes added by the Met Council.</abstract><purpose>For mapping and analysis of data from the U. S. Census Bureau.</purpose><supplinf>Seven County Twin Cities Metropolitan Area and it's 12 collar counties.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>20100101</caldate></sngdate></timeinfo><current>2010 U.S. Census</current></timeperd><status><progress>Complete</progress><update>None Planned</update></status><spdom><bounding><westbc>-94.664</westbc><eastbc>-92.117</eastbc><northbc>45.736</northbc><southbc>44.183</southbc></bounding></spdom><keywords><place><placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County, Chisago County, Isanti County, Sherburne County, Wright County, McLeod County, Sibley County, Le Sueur County, Rice County, Goodhue County, Pierce County, St. Croix County, Polk County</placekey></place><theme><themekey>census, demographics, census boundaries, 2010 census, blocks, block boundaries, census blocks, census block groups, census tracts, counties, county subdivisions, FIPS Place, MCDs, TAZs, water</themekey></theme></keywords><accconst>None</accconst><useconst>None</useconst><browse><browsen>http://www.datafinder.org/metadata/bg/Census2010Tiger.jpg</browsen><browsed>Sample map showing the census 2010 Tiger datasets</browsed></browse><crossref><citeinfo><title>Census 2010 Redistricting (PL-94-171) Summary File Data (A Subset of Population Data)</title></citeinfo></crossref><native>TIGER; ArcGIS 9.x</native><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Tanya Mayer</cntper></cntperp><cntpos>GIS Coordinator</cntpos><cntaddr><address>390 Robert Street North</address><city>St. Paul</city><state>Minnesota</state><postal>55101</postal></cntaddr><cntvoice>651-602-1604</cntvoice><cntfax>651-602-1674</cntfax><cntemail>tanya.mayer@metc.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>Unknown</attraccr></attracc><logic>Each county polygon file is topologically 'clean'.</logic><complete>All counties are included.</complete><posacc><horizpa><horizpar>Presumed to meet source material standards: for 1:100,000-scale mapping, National Map Accuracy Standards state a horizontal positional accuracy of not less than +/- 167 feet for 90% of points tested.</horizpar></horizpa><vertacc><vertaccr>Not applicable</vertaccr></vertacc></posacc><lineage><procstep><procdesc>Data originated at the U.S. Bureau of the Census, as 2010 Census Redistricting TIGER/Line files (01/31/2011).
+ 
+7-County FIPS
+27-003  Anoka
+27-019  Carver
+27-037  Dakota
+27-053  Hennepin
+27-123  Ramsey
+27-139  Scott
+27-163  Washington
+ 
+Collar County FIPS
+27-025  Chisago
+27-049  Goodhue
+27-059  Isanti
+27-079  LeSueur
+27-085  McLeod
+27-131  Rice
+27-141  Sherburne
+27-143  Sibley
+27-171  Wright
+55-093  Pierce
+55-095  Polk
+55-109  St. Croix
+
+Statewide shape files were downloaded from the Census Bureau TIGER FTP site (ftp://ftp2.census.gov/geo/pvs/tiger2010st/27_Minnesota/27/) for the following 2010 boundaries: County, County Subdivisions, Tract, Block Group and Block.  7-county metro area was selected from each statewide shapefile and saved as a new shapefile.  9 MN collar counties and 3 WI collar counties were selected from each statewide shapefile and saved as a new shapefile - then Appended to 1-collar county shape file.
+ 
+Individual County Shapefiles were downloaded from the same site for Area Water features.  These shape files were Appended in to 2 new shape files: 7-county area water and a 12-county collar county area water
+ 
+County_2010 - from state-based file - selected
+Cousub_2010 - from state-based file - selected
+Tract_2010 - from state-based file - selected
+Blkgrp_2010 - from state-based file - selected
+Block_2010 - from state-based file - selected
+Water_2010 - from county-based files - append</procdesc></procstep><srcinfo><srcscale>100000</srcscale></srcinfo></lineage></dataqual><spdoinfo><indspref>2010 Census Block, Block Group or Tract</indspref><direct>Vector</direct><mgmg3obj>arcs, nodes, polygons, label points</mgmg3obj><mgmg3til>For each themes, one layer for entire seven county region and another layer for the 12 collar counties of the 7-county region.</mgmg3til></spdoinfo><eainfo><overview><eaover>Block
+     State-based Shapefile Record Layout (2010 Census)
+     File Name:  tl_2010_&lt;state FIPS&gt;_tabblock10.shp
+
+Field Name, Length, Type, Description
+STATEFP10,  2,  String,  2010 Census state FIPS code
+COUNTYFP10,  3,  String,  2010 Census county FIPS code
+TRACTCE10,  6,  String,  2010 Census census tract code
+BLOCKCE10,   4,  String,  2010 Census tabulation block number
+GEOID10,  15,  String,  Block identifier; a concatenation of 2010 Census state FIPS code, county FIPS code, census tract code and tabulation block number.
+NAME10, 10,  String,  2010 Census tabulation block name; a concatenation of 'Block' and the current tabulation block number
+MTFCC10,   5,  String,  MAF/TIGER feature class code (G5040)
+UR10,         1,  String,  2010 Census urban/rural indicator
+UACE10,       5,  String,  2010 Census urban area code
+FUNCSTAT10,   1,  String,  2010 Census functional status
+ALAND10,     14,  Number,  2010 Census land area (square meters)
+AWATER10,    14,  Number,  2010 Census water area (square meters) 
+INTPTLAT10,  11,  String,  2010 Census latitude of the internal point
+INTPTLON10,  12,  String,  2010 Census longitude of the internal point
+GOID, 25, String, Block identifier; a concatenation of 2010 Census state FIPS code, county FIPS code, census tract code and tabulation block number.
+PLACEFP10, 5, String, 5-digit FIPS code for Census place or city. From Census SF1.
+COUSUBFP10, 5, String, 5-digit FIPS code for county subdivision; in cities, this field will be identical to PLACEFP. From Census SF1.
+COUSUBNS10, 8, String, 8-digit ANSI code for county subdivision. From Census SF1.
+COUSUBNAME, 40, String, Name label for county subdivision. From Census SF1.
+TAZ2012, 5, Number, Transport Analysis Zone code, post-2010. Metropolitan Council assigned. Available in all 19 counties.
+TAZ2000, 5, Number, Transport Analysis Zone code, post-2000. Metropolitan Council assigned. Available only in metro 7 counties.
+MUSA_CODE, 2, String, 2-digit code of MUSA membership and staging. Metropolitan Council assigned. Available only in metro 7 counties.
+MC_PLANT, 1, String, Yes/No indicating location in sewershed of a Met Council-operated treatment plant. Metropolitan Council assigned. Available only in metro 7 counties.
+MUSA_GEN, 30, String, Description of MUSA membership and staging. Metropolitan Council assigned. Available only in metro 7 counties.
+
+
+
+Block Group
+     State-based Shapefile Record Layout (2010 Census)
+     File Name:  tl_2010_&lt;state FIPS&gt;_bg10.shp
+
+Field   Length  Type    Description
+STATEFP10,    2,  String,  2010 Census state FIPS code
+COUNTYFP10,   3,  String,  2010 Census county FIPS code
+TRACTCE10,    6,  String,  2010 Census census tract code
+BLOCKCE10,    4,  String,  2010 Census tabulation block number
+GEOID10,     15,  String,  Block identifier; a concatenation of 2010 Census state FIPS code, county FIPS code, census tract code and tabulation block number. 
+NAME10,  10,  String,  2010 Census tabulation block name; a concatenation of 'Block' and the current tabulation block number
+MTFCC10,      5,  String,  MAF/TIGER feature class code (G5040)
+UR10,         1,  String,  2010 Census urban/rural indicator
+UACE10,       5,  String,  2010 Census urban area code
+FUNCSTAT10,   1,  String,  2010 Census functional status
+ALAND10,     14,  Number,  2010 Census land area (square meters)
+AWATER10,    14,  Number,  2010 Census water area (square meters)
+INTPTLAT10,  11,  String,  2010 Census latitude of the internal point
+INTPTLON10,  12,  String,  2010 Census longitude of the internal point
+
+
+Census Tract
+     State-based Shapefile Record Layout (2010 Census)
+     File Name: tl_2010_&lt;state FIPS&gt;_tract10.shp
+
+Field   Length  Type    Description
+STATEFP10,    2,  String,  2010 Census state FIPS code
+COUNTYFP10,   3,  String,  2010 Census county FIPS code
+TRACTCE10,    6,  String,  2010 Census census tract code
+GEOID10,     11,  String,  Census tract identifier; a concatenation of 2010 Census state FIPS code, county FIPS code, and census tract code
+NAME10,       7,  String,  2010 Census census tract name, this is the census tract code converted to an integer or integer plus two-digit decimal if the last two characters of the code are not both zeros.
+NAMELSAD10,  20,  String,  2010 Census translated legal/statistical area  description and the census tract name
+MTFCC10,      5,  String,  MAF/TIGER feature class code (G5020)
+FUNCSTAT10,   1,  String,  2010 Census functional status
+ALAND10,     14,  Number,  2010 Census land area (square meters)
+AWATER10,    14,  Number,  2010 Census water area (square meters)
+INTPTLAT10,  11,  String,  2010 Census latitude of the internal point
+INTPTLON10,  12,  String,  2010 Census longitude of the internal point
+
+
+County and Equivalent Entity
+     State-based Shapefile Record Layout (2010 Census)
+     File Name:  tl_2010_&lt;state FIPS&gt;_county10.shp
+
+Field   Length  Type    Description
+STATEFP10,    2,  String,  2010 Census state FIPS code
+COUNTYFP10,   3,  String,  2010 Census county FIPS code
+COUNTYNS10,   8,  String,  2010 Census county ANSI code
+GEOID10,      5,  String,  County identifier; a concatenation of 2010 Census state FIPS code and county FIPS code
+NAME10,     100,  String,  2010 Census county name
+NAMELSAD10, 100,  String,  2010 Census name and the translated legal/statistical area description for county
+LSAD10,       2,  String,  2010 Census legal/statistical area description code for county
+CLASSFP10,    2,  String,  2010 Census FIPS class code
+MTFCC10,      5,  String,  MAF/TIGER feature class code (G4020)
+CSAFP10,      3,  String,  2010 Census combined statistical area code
+CBSAFP10,     5,  String,  2010 Census metropolitan statistical area/micropolitan statistical area code
+METDIVFP10,   5,  String,  2010 Census metropolitan division code
+FUNCSTAT10,   1,  String,  2010 Census functional status
+ALAND10,     14,  Number,  2010 Census land area (square meters)
+AWATER10    14  Number  2010 Census water area (square meters)
+INTPTLAT10  11  String  2010 Census latitude of the internal point
+INTPTLON10  12  String  2010 Census longitude of the internal point
+
+
+County Subdivision
+     State-based Shapefile Record Layout (2010 Census)
+     File Name:  tl_2010_&lt;state FIPS&gt;_cousub10.shp
+
+Field   Length  Type    Description
+STATEFP10    2  String  2010 Census state FIPS code
+COUNTYFP10   3  String  2010 Census county FIPS code
+COUSUBFP10   5  String  2010 Census county subdivision FIPS code
+COUSUBNS10   8  String  2010 Census county subdivision ANSI code
+GEOID10     10  String  County subdivision identifier; a concatenation of 2010 Census state FIPS code, county FIPS code, and county subdivision FIPS code.
+NAME10     100  String  2010 Census county subdivision name
+NAMELSAD10 100  String  2010 Census name and the translated legal/statistical area description code for county subdivision
+LSAD10       2  String  2010 Census legal/statistical area description code for county subdivision
+CLASSFP10    2  String  2010 Census FIPS class code
+MTFCC10      5  String  MAF/TIGER feature class code (G4040)
+CNECTAFP10   3  String  2010 Census combined New England city and town area code
+NECTAFP10    5  String  2010 Census New England city and town area code
+NCTADVFP10   5  String  2010 Census New England city and town area division code
+FUNCSTAT10   1  String  2010 Census functional status
+ALAND10     14  Number  2010 Census land area (square meters)
+AWATER10    14  Number  2010 Census water area (square meters)
+INTPTLAT10  11  String  2010 Census latitude of the internal point
+INTPTLON10  12  String  2010 Census longitude of the internal point
+
+
+Hydrography 
+     Shapefile Record Layout
+     File Name:  tl_2010_&lt;state-county FIPS&gt;_areawater.shp
+
+Field   Length  Type    Description
+STATEFP      2  String  State FIPS code
+COUNTYFP     3  String  County FIPS code
+ANSICODE     8  String  Official code for the water body for use by federal agencies for data transfer and dissemination, if applicable
+HYDROID     22  String  Area hydrography identifier
+FULLNAME   100  String  Concatenation of expanded text for prefix qualifier, prefix direction, prefix type, base name, suffix type, suffix direction, and suffix qualifier (as available) with a space between each expanded text field
+MTFCC        5  String  MAF/TIGER feature class code
+ALAND       14  Number  Land area
+AWATER      14  Number  Water area
+INTPTLAT    11  String  Latitude of the internal point
+INTPTLON    12  String  Longitude of the internal point</eaover><eadetcit>Redistricting Census 2010 TIGER/Line Files
+
+http://www.census.gov/geo/www/tiger/
+
+Redistricting Census 2010 TIGER/Line Technical Documentation and Metadata</eadetcit></overview></eainfo><distinfo><resdesc>Census2010Tiger</resdesc><distliab>NOTICE: The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13). THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by the Metropolitan Council for its own internal business purposes. The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab><stdorder><digform><digtinfo><formname>ArcView Shape File</formname><formvern>9x</formvern><transize /></digtinfo></digform><ordering>This dataset is distributed on the internet.  
+
+By clicking below after 'Online Linkage' you will be able to download the 7-county metro shape files.
+
+To download the shape files for the collar counties, click on this link:  ftp://gisftp.metc.state.mn.us/Census2010TigerCollar.zip
+
+Doing so will tell your browser to download a 'ZIP' file which will contain the following:
+
+- ArcView shape files
+- metadata for the dataset (.htm)
+- NOTICE.RTF, an important notice about this dataset that can be read by any word processing software.
+ 
+Additionally, this dataset is available for direct use via one or more map services.  More information about what a web mapping service is can be found at http://www.datafinder.org/services/.  The specific map service and layer name for this dataset can be found by clicking the blue or green boxes under the map service column of the DataFinder Catalog at http://www.datafinder.org/catalog/ .</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Tanya Mayer</cntper></cntperp><cntpos>GIS Coordinator</cntpos><cntaddr><address>390 Robert Street North</address><city>St. Paul</city><state>Minnesota</state><postal>55101</postal></cntaddr><cntvoice>651-602-1604</cntvoice><cntfax>651-602-1674</cntfax><cntemail>tanya.mayer@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20120830</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Tanya Mayer</cntper></cntperp><cntpos>GIS Coordinator</cntpos><cntaddr><address>390 Robert Street North</address><city>St. Paul</city><state>Minnesota</state><postal>55101-1805</postal></cntaddr><cntvoice>651-602-1604</cntvoice><cntfax>651-602-1674</cntfax><cntemail>tanya.mayer@metc.state.mn.us</cntemail></cntinfo></metc></metainfo><Esri><ModDate>20110722</ModDate><ModTime>16250000</ModTime></Esri><mdDateSt Sync="TRUE">20110722</mdDateSt><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

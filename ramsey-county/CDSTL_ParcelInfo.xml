@@ -1,0 +1,241 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title catid="7146612f-0b6b-41af-96ea-da00dc6d3f1c">Parcel Info</title>
+        <geoform>vector digital data</geoform>
+		<pubdate>2014</pubdate>
+		<onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink>
+      <origin>Ramsey County</origin><pubinfo><publish>Ramsey County</publish></pubinfo></citeinfo>
+    </citation>
+	<descript>
+		<abstract>This data set contains miscellaneous linework that assists with map creation and clarification.  In 1986, Parcel Information [MAPINFO] data was digitized from hand drawn 1:2400 half and 1:1200 quarter section maps.  In 1995, the map information data layer was converted to ArcINFO format and maintained in an ArcStorm data base.  Parcel Information was converted in 2005 to an ESRI Arc GIS GeoDatabase format.
+
+		Parcel Information data is rarely computed utilizing coordinate geometry programs.  Most of this information is a visual representation of map features.
+
+		Examples of graphical features represented in this database are: old or vacated lot lines, lines, right of way and plat boundary extension lines.  This data set is not intended to provide a complete history of the previous underlying makeup of parcel related boundaries</abstract>
+		<purpose> The parcel information data layer represents various parcel related graphical elements, which aid in the understanding and interpretation of map features.  It is not intended to be inclusive. It is intended to act as a visual aid to help with map interpretation.  This data is primarily used in map creation.  Features held in this database are utilized by automated half and quarter section map production. </purpose><supplinf>Ramsey County</supplinf>
+	</descript>
+    <spdom>
+      <bounding>
+        <westbc>-93.228416</westbc>
+        <eastbc>-92.982655</eastbc>
+        <northbc>45.124494</northbc>
+        <southbc>44.890644</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>0</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>CDSTL_ParcelInfo</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DISTANCE</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RADIUS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DELTA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TANGENT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ARCLENGTH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SIDE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ELEVATION</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Direction</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Distance</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Delta</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Radius</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Tangent</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ArcLength</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Side</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DIRECTION</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Lines included in this layer are for map clarification purposes.  Landties indicate where individual pieces of land make up a single tax parcel. Plat and sidelot extensions are commonly used to represent where these lines extend into a roadway, while vacated lot and street lines represent where these lines once existed but have been changed (or vacated).</eaover>
+      <eadetcit>Entity Attributes:
+ObjectID
+Shape
+Elevation
+DXF_Layer
+Created_Date
+Created_User
+Shape_Len
+Lyr
+Direction
+Distance
+Delta
+Radius
+Tangent
+Arclength
+Side
+
+Lookup Table: (LYR)
+LINE TYPES:
+CLSPEC               SPECIAL CENTERLINES
+CLSPECC             COMPUTED SPECIAL CENTERLINES
+CLSPECI              SPECIAL CENTERLINES INVISIBLE
+CLSPECIC            COMPUTED SPECIAL CENTERLINES INVISIBLE
+CODITCH             COUNTY DITCH LINE
+CONSTRLI           CONSTRUCTED LINE (MAP CLARIFICATION)
+CREEKLI              CREEK LINE FROM HALF SECTIONS
+EASEMENTX       EASEMENT EXTENSION LINE
+EASEMENTXC     COMPUTED EASEMENT EXTENSION LINE
+FEDRWX              FEDERAL RIGHT OF WAY EXTENSION LINE
+FEDRWXC            COMPUTED FEDERAL RIGHT OF WAY EXTENSION LINE
+LANDTIE	              LAND TIES SOLID
+LANDTIES            SMALL LANDTIE 
+MUNRWX             MUNICIPAL RIGHT OF WAY EXTENSION LINE
+OLDCOSARW       OLD COUNTY STATE AID RIGHT OF WAY
+OLDEASEMENT   OLD EASEMENT LINE
+OLDLOTLI             OLD LOT LINE
+OLDMUNRW        OLD MUNICIPAL RIGHT OF WAY
+OLDMUNRWC      COMPUTED OLD MUNICIPAL RIGHT OF WAY
+OLDRRRW           OLD RAILROAD RIGHT OF WAY 
+OLDRW                OLD RIGHT OF WAY LINE
+OLDSIDELOT       OLD SIDELOT LINE
+PLATX                  PLAT EXTENSION LINE 
+PLATXC                COMPUTED PLAT EXTENSION LINE
+RADIUSLI             STREET RADIUS LINES 
+RRRWX	              RAILROAD RIGHT OF WAY EXTENSION
+RRRWXC             COMPUTED RAILROAD RIGHT OF WAY EXTENSION
+RWX                     RIGHT OF WAY EXTENSION
+RWXC                  COMPUTED RIGHT OF WAY EXTENSION
+SIDELOTX           SIDE LOT EXTENSION
+SIDELOTXC         COMPUTED SIDE LOT EXTENSION
+SURVEYLI           SURVEY LINE
+SWAMPLI            SWAMP LINE (FOR PROPERTY MAPS)
+VACCOSARW      VACATED COUNTY STATE AID RIGHT OF WAY
+VACLOTLI            VACATED LOT LINE
+VACMUNRW       VACATED MUNICIPAL RIGHT OF WAY
+VACSIDELOT       VACATED SIDELOT LINE
+VACSTRLI            VACATED STREET LINE
+VACALLEYLI        VACATED ALLEY LINE 
+WATERLI             DASHED WATER LINE</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+          <transize>32.658</transize>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20140908</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
