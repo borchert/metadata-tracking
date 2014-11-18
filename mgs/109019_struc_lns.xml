@@ -1,0 +1,212 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>20070731</pubdate>
+        <title catid="baf55648-c7f6-4950-be14-4bb05a44c9c3">Structure Lines, Mesabi Iron Range, Minnesota, 2007</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>Minnesota Geological Survey</publish>
+        </pubinfo>
+      <onlink>http://conservancy.umn.edu/handle/11299/109019/</onlink></citeinfo>
+    </citation>
+    <descript>
+      <abstract>This document summarizes work conducted by the Minnesota Geological Survey (MGS) in support of broader goals of the Central Iron Range Initiative (CIRI) project entitled &#8220;Hydrology, habitat, and energy potential of mine lakes.&#8221; Those goals are to establish ultimate mine water elevations and outflows, design optimum mine land configurations for fish habitat and lakeshore development, and evaluate wind/pumped hydropower potential. The MGS project was designed to provide CIRI project partners with technical data about the bedrock and unconsolidated sediments that exist in the central iron range. The data augment previous publications of the MGS, and were used by the Minnesota Department of Natural Resources to create hydrologic models that are described in a separate report. Much of the MGS data were provided to the partners during the course of the project as interim products and technical guidance. MGS staff described, sampled, measured structures, and photographed materials at more than 300 new field observation points. Consequent efforts included textural analyses of 286 sediment samples; acquisition, interpretation, and digital capture of about 125 new drilling records; coordination with the partners and mining company staff; and the digitization and interpretation of data to produce interim and final products.</abstract>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-93.104447</westbc>
+        <eastbc>-92.546472</eastbc>
+        <northbc>47.573088</northbc>
+        <southbc>47.412227</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>bedrock, quaternary geology, hydrology, mine lakes, energy potential</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Minnesota, Central Mesabi Iron Range</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>67</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>struc_lns</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FNODE_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TNODE_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LPOLY_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RPOLY_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STRUCLNS_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STRUCLNS_I</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RELATEID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GCM_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GEOC_SRC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GEOC_DATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GEOL_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>INTRP_DATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BASIS1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BASIS2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FEATURE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MGSCODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SYMBOL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DESCRIPTN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WIDTH_M</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>REFRNCE</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <transize>0.000</transize>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20140818</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

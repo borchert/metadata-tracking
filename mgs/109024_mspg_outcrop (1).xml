@@ -1,0 +1,171 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>20081031</pubdate>
+        <title catid="86d8b380-06a6-4165-9141-0ed8c1b2ec5e">Outcrop, Olmsted County, Minnesota, 2008</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>GIS Staff</publish>
+        </pubinfo>
+      <onlink>http://conservancy.umn.edu/handle/11299/109024/</onlink></citeinfo>
+    </citation>
+    <descript>
+      <abstract>Geologic investigations to support ground-water management - Rochester Public Utilities, Olmsted County, Minnesota</abstract>
+      <purpose>GIS datasets developed to support ground-water and geologic resource management tasks - Rochester Public Utilities, Olmsted County, Minnesota</purpose>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-92.696054</westbc>
+        <eastbc>-92.055785</eastbc>
+        <northbc>44.209435</northbc>
+        <southbc>43.832797</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>bedrock geology</themekt>
+        <themekey>bedrock geology</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+    </keywords>
+    <accconst>ESRI ARC/INFO and ARCVIEW software</accconst>
+    <useconst>Credit given to Minnesota Geological Survey</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>Bob Tipping</cntper>
+        </cntorgp>
+        <cntpos>Hydrogeologist</cntpos>
+        <cntvoice>(612) 627-4780 x226</cntvoice>
+        <cntfax>(612) 627-4778</cntfax>
+        <cntemail>tippi001@umn.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Minnesota Geological Survey</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>visually and computationally checked to be internally consistent and with USGS National Elevation Dataset (NED) data.</attraccr>
+    </attracc>
+    <logic>no topological problems</logic>
+    <complete>complete to currently available data</complete>
+    <posacc>
+      <horizpa />
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>100000</srcscale>
+        <typesrc>None</typesrc>
+      </srcinfo>
+      <procstep>
+        <procdesc>outcrop locations digitized from 1:24,000 USGS quadrangle field maps</procdesc>
+        <srcused>C:\DOCUME~1\BTIPPI~1.MGS\LOCALS~1\Temp\xml9B.tmp</srcused>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1174</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>mspg_outcrop</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>strat_rev</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20140818</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>(612) 627-4780</cntvoice>
+        <cntfax>(612) 627-4778</cntfax>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

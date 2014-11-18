@@ -1,0 +1,90 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+		<pubdate>20070801</pubdate>
+        <title catid="fa893070-7319-4454-8f3a-273724153a78">mcds</title>
+        <geoform>vector digital data</geoform>
+      <onlink>http://conservancy.umn.edu/handle/11299/109019/</onlink></citeinfo>
+    </citation>
+	 <spdom>
+      <bounding>
+        <westbc>-93.125869</westbc>
+        <eastbc>-92.559768</eastbc>
+        <northbc>47.562278</northbc>
+        <southbc>47.394090</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>0</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>mcds</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MCDS_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MCDS_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNTYNAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <transize>0.000</transize>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20070628</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

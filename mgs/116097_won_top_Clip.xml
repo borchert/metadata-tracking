@@ -1,0 +1,175 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Geological Survey</origin>
+        <pubdate>20120101</pubdate>
+        <title catid="93402c37-31e3-4146-91aa-ea61169830ec">Wonewoc Top, Blue Earth County, Minnesota, 2012</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>Minnesota Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://conservancy.umn.edu/handle/11299/116097/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This map emphasizes the glacial landforms, the processes which formed them and the interpreted distribution of all surface sediment in the county.</abstract>
+      <purpose>This map emphasizes the glacial landforms, the processes which formed them and the interpreted distribution of all surface sediment in the county.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20080901</begdate>
+          <enddate>20100101</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Unknown</current>
+    </timeperd>
+    <spdom>
+      <bounding>
+        <westbc>-94.377525</westbc>
+        <eastbc>-93.913179</eastbc>
+        <northbc>44.251036</northbc>
+        <southbc>43.846561</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>surficial, glacial, geomorphology</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Blue Earth County, Mankato, Minnesota River Valley, East-central Minnesota</placekey>
+      </place>
+    </keywords>
+    <accconst>Public</accconst>
+    <useconst>See access and use constraints information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <dataqual>
+    <posacc>
+      <horizpa>
+        <horizpar>The horizontal error complies with national map accuracy standards at 1:100,000, approx. 60 meters. Any error from compilation and digital registration is additional, but difficult to quantify.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>100</srcscale>
+        <typesrc>None</typesrc>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>11</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>area_fine_sed_surface_be</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Id</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>elev</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20140820</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

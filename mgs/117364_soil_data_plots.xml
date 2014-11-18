@@ -1,0 +1,353 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>20090101</pubdate>
+        <title catid="ca92b0c6-cad8-4b65-ae2b-a82aae0ff1c1">The National Geochemical Survey, Minnesota, 2013</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://conservancy.umn.edu/handle/11299/117364/</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Minnesota Geological Survey</origin>
+            <pubdate>20090101</pubdate>
+            <title>Minnesota Geochemical Atlas</title>
+            <serinfo>
+              <sername>Open File Report</sername>
+              <issue>09-02</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>St. Paul, Minnesota</pubplace>
+              <publish>Minnesota Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Geochemistry of soil and stream sediment samples collected by MGS staff.</abstract>
+      <purpose>Samples collected as part of a North American Geochemistry study by the U.S. Geological Survey.</purpose>
+      <supplinf>For these soil samples, individual Excel tables are available in the tables folder that contain more detailed descriptive data than is available in this geodatabase. Use the rec_no field to match data points. The majority of stream sediment data in western and central Mn were collected by MGS staff for the NURE (National Uranium Resource Evaluation) program in 1979, stored by the USGS and subsampled and analyzed for this project.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20090101</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.199353</westbc>
+        <eastbc>-89.907295</eastbc>
+        <northbc>49.356967</northbc>
+        <southbc>43.452167</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>geochemistry</themekey>
+        <themekey>stream</themekey>
+        <themekey>sediment</themekey>
+        <themekey>minnesota</themekey>
+        <themekey>geology</themekey>
+        <themekey>soil</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>environment</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>USGS, Minnesota Geological Survey</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <crossref>
+      <citeinfo>
+        <serinfo>
+          <sername>Open File Report</sername>
+          <issue>09-02</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>St. Paul, Minnesota</pubplace>
+          <publish>Minnesota Geological Survey</publish>
+        </pubinfo>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <posacc>
+      <horizpa>
+        <horizpar>+- 30 m</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S.Geological Survey</origin>
+            <pubdate>20080101</pubdate>
+            <title>National Geochemical Survey</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srccitea>National Geochemical Survey</srccitea>
+      </srcinfo>
+      <procstep>
+        <procdesc>Samples collected by MGS staff. Chemical Analyses by USGS. Data downloaded from USGS National Geochemical Survey web site. Data extracted and process for plotting by MGS. Plots for the Minnesota Geochemical Atlas made at MGS.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>1352</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>soil_data_plots</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REC_NO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AG_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AL_PCT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AS_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BA_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BE_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BI_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>P_PCT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CA_PCT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CD_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CE_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CO_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CR_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FE_PCT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GA_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>K_PCT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LA_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LI_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EU_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MG_PCT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HO_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MN_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MO_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NA_PCT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NB_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PB_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ND_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SE_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SN_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SC_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SR_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TA_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TH_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TI_PCT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>U_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>V_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Y_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>YB_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZN_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AU_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HG_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PT_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PD_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CU_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NI_PPM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POINT_X</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POINT_Y</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20140821</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

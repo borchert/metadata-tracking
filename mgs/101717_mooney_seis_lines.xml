@@ -1,0 +1,128 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>20090101</pubdate>
+        <title catid="0c91d22c-3e0d-432c-961b-e50e07f5a81a">Seismic Refraction Lines, Minnesota, 2009</title>
+        <geoform>vector digital data</geoform>
+      <onlink>http://conservancy.umn.edu/handle/11299/101717/</onlink></citeinfo>
+    </citation>
+    <descript>
+      <abstract>Presents the locations for seismic refraction profiles that were acquired by Professor H. M. Mooney and students during 1964-1967. Lines represent the maximum offset length (shot to farthest geophone) of the original seismic profile.</abstract>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19640101</begdate>
+          <enddate>19670101</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Unknown</current>
+    </timeperd>
+    <spdom>
+      <bounding>
+        <westbc>-93.925396</westbc>
+        <eastbc>-90.887390</eastbc>
+        <northbc>46.677889</northbc>
+        <southbc>43.480103</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Seismic refraction , rift</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Seismic refraction, rift</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Eastern Minnesota, Northwestern Wisconsin</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>90</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>33.0</stdparll>
+            <stdparll>45.0</stdparll>
+            <longcm>-90.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000000008208145274579693</absres>
+            <ordres>0.000000000008208145274579693</ordres>
+          </coordrep>
+          <plandu>user_defined_unit</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>mooney_seis_lines</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>line_no</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>direction</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20140807</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

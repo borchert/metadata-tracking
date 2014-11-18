@@ -1,0 +1,121 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+		<pubdate>20120101</pubdate>
+        <title catid="cd7b0028-0ceb-418e-8583-10f1605713b3">bgtable_freq</title>
+        <geoform>tabular digital data</geoform>
+      <onlink>http://conservancy.umn.edu/handle/11299/116056/</onlink></citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-94.634143</westbc>
+        <eastbc>-93.761476</eastbc>
+        <northbc>44.725687</northbc>
+        <southbc>44.448927</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <spdoinfo>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>84</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>bgtable_freq</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FREQUENCY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MAPLABEL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DESCRIPTN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Major_Lith</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Minor_Lith</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Age</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Matrx_comp</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Rel_permea</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20140820</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

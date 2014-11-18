@@ -1,0 +1,199 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>(Minnesota Geological Survey)</origin>
+        <pubdate>20110601</pubdate>
+        <title catid="86a55eec-7b9e-4ae4-a036-9ba22ba67d3b">Water - Well Cuttings, Cook County, Minnesota, 2011</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>(Minnesota Geological Survey)</publish>
+        </pubinfo>
+        <onlink>http://conservancy.umn.edu/handle/11299/115932/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Map shows locations of bedrock outcrops, water well locations with available cutting samples, structural measurements, interpreted bedrock geology, and interpreted geologic cross-sections.</abstract>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20100701</begdate>
+          <enddate>20110501</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Unknown</current>
+    </timeperd>
+    <spdom>
+      <bounding>
+        <westbc>-90.248464</westbc>
+        <eastbc>-90.149995</eastbc>
+        <northbc>47.870438</northbc>
+        <southbc>47.773157</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Keweenawan, Mesoproterozoic, North Shore Volcanic Group, Monker Lake diabase, Scabbard Lake diabase, Miscellaneous diabase intrusions, Mink Lake ferromonzonite, Brule-Hovland gabbro, Miscellaneous mafic to intermediate intrusions, Pine Mountain granophyres, hybrid intrusions, Devil Track rhyolite, Maple Hill rhyolite, Woods Creek basalt, Red Cliff basalts, Kimball Creek rhyolite, Kadunce icelandite, Marr Island lavas, Naniboujou basalt, Brule River lavas, Devil&#8217;s Kettle rhyolite, Trout Lake rhyolite, porphyritic rhyolite, aphyric rhyolite, andesite, icelandite, rhyolite, basalt, ophitic basalt, diabase, ferrodiorite, ferrogranodiorite, ferromonzodiorite, granophyric granite</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Keweenawan, Mesoproterozoic, North Shore Volcanic Group, Monker Lake, Red Cliff, Kadunce River, Kimball Creek, Durfee Creek, Minnesota, Cook County</placekey>
+      </place>
+    </keywords>
+    <accconst>Public</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>(Minnesota Geological Survey)</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srcscale>24</srcscale>
+        <typesrc>None</typesrc>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>17</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>water_well_cuttings</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RELATEID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STRAT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MGS_NO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LOGCTTNGS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>QUAD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TS_SAMPLE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SAMPLE_INT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TS_LITHOLO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TWP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RANGE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SECTION</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RANGE_E_W</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>(Minnesota Geological Survey)</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20140819</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>(Minnesota Geological Survey)</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

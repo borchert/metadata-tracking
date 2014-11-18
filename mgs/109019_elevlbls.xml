@@ -1,0 +1,127 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>20070801</pubdate>
+        <title catid="8cf54894-318f-4de2-af09-2e82db4a7d04">Cross - Section Elevation, Minnesota, 2007</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>Minnesota Geological Survey</publish>
+        </pubinfo>
+      <onlink>http://conservancy.umn.edu/handle/11299/109019/</onlink></citeinfo>
+    </citation>
+    <descript>
+      <abstract>This document summarizes work conducted by the Minnesota Geological Survey (MGS) in support of broader goals of the Central Iron Range Initiative (CIRI) project entitled &#8220;Hydrology, habitat, and energy potential of mine lakes.&#8221; Those goals are to establish ultimate mine water elevations and outflows, design optimum mine land configurations for fish habitat and lakeshore development, and evaluate wind/pumped hydropower potential. The MGS project was designed to provide CIRI project partners with technical data about the bedrock and unconsolidated sediments that exist in the central iron range. The data augment previous publications of the MGS, and were used by the Minnesota Department of Natural Resources to create hydrologic models that are described in a separate report. Much of the MGS data were provided to the partners during the course of the project as interim products and technical guidance. MGS staff described, sampled, measured structures, and photographed materials at more than 300 new field observation points. Consequent efforts included textural analyses of 286 sediment samples; acquisition, interpretation, and digital capture of about 125 new drilling records; coordination with the partners and mining company staff; and the digitization and interpretation of data to produce interim and final products.</abstract>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-93.125932</westbc>
+        <eastbc>-92.546298</eastbc>
+        <northbc>47.588481</northbc>
+        <southbc>47.374277</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>bedrock, quaternary geology, hydrology, energy potential, Mines lakes</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Minnesota, Mesabi Iron Range</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>13</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>elevlbls</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>G50PT2006_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>G50PT20062</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>X_COORD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Y_COORD</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20140818</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,149 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title catid="f21fee91-8970-43a6-b815-41104e70894a">Surficial geology of Two Harbors quadrangle, Lake County, Minnesota</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://conservancy.umn.edu/handle/11299/422/</onlink>
+      <pubdate>2003</pubdate></citeinfo>
+    </citation>
+    <descript>
+      <abstract>Quaternary sediments and areas of shallow bedrock. Shows surface</abstract>
+    </descript>
+   <spdom>
+      <bounding>
+        <westbc>-91.753729</westbc>
+        <eastbc>-91.623252</eastbc>
+        <northbc>47.126360</northbc>
+        <southbc>46.971148</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>surficial geology, Two Harbors quadrangle, Lake County, Northeastern Minnesota</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+      </place>
+    </keywords>
+    <accconst>Public</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>GIS Staff, Minnesota Geological Survey, University of Minnesota</address>
+        </cntaddr>
+        <cntvoice>612-627-4780</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>43</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>bgnta_polygon</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>GCM_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GEOC_SRC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>UTM_ZONE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SGTHPTS2_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SGTHPTS2_I</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RELATEID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GEOC_DATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>UTME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTMN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COMMENT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SITENUM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>F_POLYGONI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>F_SCALE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>F_ANGLE</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20140829</metd>
+    <metc>
+      <cntinfo>
+        
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>GIS Staff, Minnesota Geological Survey, University of Minnesota</address>
+        </cntaddr>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

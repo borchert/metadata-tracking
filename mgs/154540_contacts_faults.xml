@@ -1,0 +1,132 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title catid="2719feb3-998b-44a6-8237-127b1a166b7d">Contact Faults, Minnesota, 2012</title>
+        <geoform>vector digital data</geoform>
+      <onlink>http://conservancy.umn.edu/handle/11299/154540/</onlink><pubdate>2012</pubdate></citeinfo>
+    </citation>
+    <descript>
+      <abstract>Line file showing contacts between bedrock units and the location of, and apparent offset (locally with thrust faults) along faults and other dislocational structures. Most fault structures are inferred to be steeply dipping. Geologic contacts dip variably&#8212;typically near vertical-in Archean rocks and supracrustal and intrusive rocks in Paleoproterozoic Penokean fold and thrust belt and East-central Minnesota batholith; moderately shallow (5-35 degrees) in Paleoproterozoic Animikie basin and Mesoproterozoic supracrustal rocks, and varied in equivalent intrusions.</abstract>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-97.269864</westbc>
+        <eastbc>-89.388883</eastbc>
+        <northbc>49.404536</northbc>
+        <southbc>43.435384</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Bedrock, geology, Minnesota, contact, fault, thrust, geophysical lineament, geophysical</themekey>
+        <themekey>discontinuity, shear zone, tectonic zone</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Minnesota, except Minnesotan portion of Lake Superior</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>12081</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>contacts_faults</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GCM_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GEOC_SRC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GEOC_DATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DESCRIPTN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LINE_TYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20140820</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

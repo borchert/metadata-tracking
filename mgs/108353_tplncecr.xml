@@ -1,0 +1,229 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Geological Survey</origin>
+        <pubdate>20030801</pubdate>
+        <title catid="93a6c096-286b-434b-bb5c-1aa2e9786a4a">Eau Claire Elevation, Northwestern Metropolitan Area, Minnesota, 2003</title>
+        <geoform>vector digital data</geoform>
+        <othercit>part of informal report to the Metropolitan Council</othercit>
+      <onlink>http://conservancy.umn.edu/handle/11299/108353/</onlink></citeinfo>
+    </citation>
+    <descript>
+      <abstract>northwest metro structural contours for top of the Eau Claire Formation</abstract>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.963816</westbc>
+        <eastbc>-92.985006</eastbc>
+        <northbc>45.504942</northbc>
+        <southbc>44.883991</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>bedrock geology</themekt>
+        <themekey>Bedrock geology, Topology,  Eau Claire elevation</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Minnesota, Twin Cities, Northwestern, Metropolitan Area</placekey>
+      </place>
+    </keywords>
+    <accconst>ESRI ARC/INFO and ARCVIEW software</accconst>
+    <useconst>Credit given to Minnesota Geological Survey</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>(612) 627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Minnesota Geological Survey</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <crossref>
+      <citeinfo>
+        <title>Geology in support of groundwater management for the northwestern Twin Cities Metropolitan area</title>
+        <othercit>Informal report to the Metropolitan Council</othercit>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>visually and computationally checked to be internally consistent and with USGS 1:24,000 land surface DEMs</attraccr>
+    </attracc>
+    <logic>no topological problems</logic>
+    <complete>complete to currently available data</complete>
+    <posacc>
+      <horizpa />
+      <vertacc />
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>100000</srcscale>
+        <typesrc>None</typesrc>
+      </srcinfo>
+      <procstep>
+        <procdesc>data compiled initially at 1:24, 000, then recompiled at 1:100,000</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Minnesota Geological Survey</cntorg>
+              <cntper>Bob Tipping</cntper>
+            </cntorgp>
+            <cntpos>Hydrogeologist</cntpos>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>156</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>tplncecr</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FNODE_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TNODE_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LPOLY_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RPOLY_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TPLNCECR_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TPLNCECR_I</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GCM_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GEOC_SRC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GEOC_DATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MGSCODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DESCRIPTN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CLEV</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Bedrock geology of the 7-county metropolitan area</eaover>
+      <eadetcit>updated in the northwest as part of a project with the Metropolitan Council</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>(612) 627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20140808</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>(612) 627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,161 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>2013</pubdate>
+        <title catid="6d01cdff-6378-4c95-ae2e-9dde8a0edeff"> OFR-13-01 Preliminary Bedrock Geologic Map of the Pagami Creek Fire Area, Lake and Cook Counties, Northeastern Minnesota</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://conservancy.umn.edu/handle/11299/155030/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This preliminary manuscript and associated map have not been peer reviewed and formally edited, and therefore do not conform to editorial standards of the Minnesota Geological Survey.</abstract>
+      <purpose>This geologic map encloses the area burned by the 2011 Pagami Creek forest fire&#8212;one of the largest in Minnesota history. It covers all or parts of fifteen 7.5-minute quadrangles, and lies within parts of the Superior National Forest and Boundary Waters Canoe Area Wilderness. The map area contains bedrock units spanning a wide range of ages from Archean to Mesoproterozoic, and a generally thin and discontinuous cover of glacial sediment. The majority of the map portrays intrusive units of the Mesoproterozoic Duluth Complex, including portions of the anorthositic and layered series&#8217;. Although the map primarily depicts bedrock geology, some features of glacial origin are also portrayed. The map is considered preliminary largely because geologic mapping in the area by a number of authors is ongoing&#8212;a final version is likely to be published in coming years.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20120701</begdate>
+          <enddate>20130701</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Unknown</current>
+    </timeperd>
+    <spdom>
+      <bounding>
+        <westbc>-91.590163</westbc>
+        <eastbc>-90.990499</eastbc>
+        <northbc>47.966813</northbc>
+        <southbc>47.699525</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Archean, Paleoproterozoic, Mesoproterozoic, Cenozoic, Midcontinent Rift Intrusive Supersuite, Duluth Complex, anorthositic series, layered series</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Beaver Bay Complex, Wilder Lake intrusion, Giants Range batholith, Ely Greenstone, Snowbank Lake intrusion, Knife Lake Group, Boundary Waters Canoe Area Wilderness, Superior National Forest, Lake Isabella, Isabella River, Island River, Ojibway Lake, Lake Insula, Alice Lake, Lake Polly, Gabbro Lake, Quadga Lake, Perent Lake, Kawishiwi Lake, Wilson Lake, Wawa subprovince, Superior Province</placekey>
+      </place>
+    </keywords>
+    <accconst>Public</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>GIS Staff, Minnesota Geological Survey, University of Minnesota</address>
+        </cntaddr>
+        <cntvoice>612-627-4780</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <dataqual>
+    <posacc>
+      <horizpa>
+        <horizpar>Outcrops and structure symbols by lead author were transferred from GPS coordinates and 1:24,000-scale maps; accuracy ~100 feet. Some outcrop outlines and structural data were digitized from rectified scans of published paper maps&#8212;location accuracy generally within 100-200 feet. Faults and fracture zones and contacts were drawn using a combination of geophysical and LiDAR topographic maps at varied scales, and outcrop&#8212;therefore accuracy is variable depending on geologic control; appropriate to map scale 1:50,000 or smaller. </horizpar>
+      </horizpa>
+    </posacc>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>2</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>area_thck_till</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DRIFT_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DRIFT_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20140829</metd>
+    <metc>
+      <cntinfo>
+        
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>GIS Staff, Minnesota Geological Survey, University of Minnesota</address>
+        </cntaddr>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

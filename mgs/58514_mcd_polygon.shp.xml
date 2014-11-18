@@ -1,0 +1,151 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Geological Survey</origin>
+        <pubdate>19950101</pubdate>
+        <title catid="c2632c4e-b5f8-416f-a119-ad2dcdd44376">C-09 Geologic atlas of Rice County, Minnesota [Part A]</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>Minnesota Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://conservancy.umn.edu/handle/11299/58514/</onlink>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-93.528346</westbc>
+        <eastbc>-93.039025</eastbc>
+        <northbc>44.544723</northbc>
+        <southbc>44.195249</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>atlas, geology</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+      </place>
+    </keywords>
+    <accconst>Public</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>GIS Staff, Minnesota Geological Survey, University of Minnesota</address>
+        </cntaddr>
+        <cntvoice>612-627-4780</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>25</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>bgnta_polygon</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MCD_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MCD_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CTY_FIPS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MCD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20140829</metd>
+    <metc>
+      <cntinfo>
+        
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>GIS Staff, Minnesota Geological Survey, University of Minnesota</address>
+        </cntaddr>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

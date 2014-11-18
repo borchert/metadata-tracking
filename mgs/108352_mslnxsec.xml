@@ -1,0 +1,192 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Geological Survey</origin>
+        <pubdate>20050701</pubdate>
+        <title catid="fa4bb158-0c64-4707-b1c5-ef71429aa5ab"> Cross - Section Lines, Scott County, Minnesota, 2005</title>
+        <geoform>vector digital data</geoform>
+        <othercit>Hydrogeologic investigations in support of ground-water management for the Shakopee Mdewakanton Sioux Community, Minnesota.</othercit>
+      <onlink>http://conservancy.umn.edu/handle/11299/108352/</onlink></citeinfo>
+    </citation>
+    <descript>
+      <abstract>Hydrogeologic investigations in support of ground-water management for the Shakopee Mdewakanton Sioux Community, Minnesota.</abstract>
+      <purpose>GIS datasets developed to support ground-water management tasks within Shakopee Mdewakanton tribal land</purpose>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.501218</westbc>
+        <eastbc>-93.398392</eastbc>
+        <northbc>44.789895</northbc>
+        <southbc>44.703075</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>bedrock hydrogeology; valley-fill deposits</themekt>
+        <themekey>Valley-fill deposit, bedrock hydrogeology, cross - section lines, groundwater management</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Minnesota, Scott County, Shakopee Mdewakanton tribal land</placekey>
+      </place>
+    </keywords>
+    <accconst>ESRI ARC/INFO and ARCVIEW software</accconst>
+    <useconst>Credit given to Minnesota Geological Survey</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>Bob Tipping</cntper>
+        </cntorgp>
+        <cntpos>Hydrogeologist</cntpos>
+        <cntvoice>(612) 627-4780 x226</cntvoice>
+        <cntfax>(612) 627-4778</cntfax>
+        <cntemail>tippi001@umn.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Minnesota Geological Survey</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <crossref>
+      <citeinfo>
+        <title>Hydrogeologic investigations in support of ground-water management for the Shakopee Mdewakanton Sioux Community, Minnesota.</title>
+        <othercit>Informal report to the Shakopee Mdewakanton Sioux Commmunity</othercit>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>visually and computationally checked to be internally consistent and with USGS 1:24,000 scale quadrangle maps</attraccr>
+    </attracc>
+    <logic>no topological problems</logic>
+    <complete>complete to currently available data</complete>
+    <posacc>
+      <horizpa />
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>24000</srcscale>
+        <typesrc>None</typesrc>
+      </srcinfo>
+      <procstep>
+        <procdesc>digitized using Arcview 3.2</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>3</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>mslnxsec</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LINE_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LINKTO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Hydrogeologic investigations in support of ground-water management for the Shakopee Mdewakanton Sioux Community, Minnesota.</eaover>
+      <eadetcit>Informal report to the Shakopee Mdewakanton Sioux Community</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20140808</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>MGS Staff</cntper>
+        </cntorgp>
+        <cntvoice>(612) 627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

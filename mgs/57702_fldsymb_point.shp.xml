@@ -1,0 +1,124 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Geological Survey</origin>
+        <pubdate>20050101</pubdate>
+        <title catid="f482a4aa-ea51-4511-80d2-e931e1408dfe">M-159 Bedrock geology of the Babbitt quadrangle, St. Louis and Lake Counties, Minnesota</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>Minnesota Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://conservancy.umn.edu/handle/11299/57702/</onlink>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-91.956954</westbc>
+        <eastbc>-91.874750</eastbc>
+        <northbc>47.659602</northbc>
+        <southbc>47.624152</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>bedrock, geology, iron, range, minnesota, database, drillhole, exploration drill hole, topography, depth,</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+      </place>
+    </keywords>
+    <accconst>Public</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>GIS Staff, Minnesota Geological Survey, University of Minnesota</address>
+        </cntaddr>
+        <cntvoice>612-627-4780</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>26</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>bgnta_polygon</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FLDSYMB_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FLDSYMB_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SYM_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>F_POLYGONI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>F_SCALE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>F_ANGLE</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20140829</metd>
+    <metc>
+      <cntinfo>
+        
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>GIS Staff, Minnesota Geological Survey, University of Minnesota</address>
+        </cntaddr>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

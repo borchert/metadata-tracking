@@ -1,0 +1,142 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Geological Survey</origin>
+        <pubdate>19990101</pubdate>
+        <title catid="74fc54b0-aaf7-49d6-8fd4-7178004c66ee">M-091 Bedrock geologic map of Allen quadrangle, St. Louis County, Minnesota</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>Minnesota Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://conservancy.umn.edu/handle/11299/57000/</onlink>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-92.123837</westbc>
+        <eastbc>-92.004485</eastbc>
+        <northbc>47.618755</northbc>
+        <southbc>47.526512</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Surficial geology, Knife River quadrangle, St. Louis County, Lake County</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+      </place>
+    </keywords>
+    <accconst>Public</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>GIS Staff, Minnesota Geological Survey, University of Minnesota</address>
+        </cntaddr>
+        <cntvoice>612-627-4780</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>75</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>bgnta_polygon</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>GCM_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GEOC_SRC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BGNTA_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BGNTA_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DESCRIPTIO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MGSCODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>UNIT_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>UTM_ZONE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GEOC_DATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTMN</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20140829</metd>
+    <metc>
+      <cntinfo>
+        
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>GIS Staff, Minnesota Geological Survey, University of Minnesota</address>
+        </cntaddr>
+        <cntvoice>612-627-4780</cntvoice>
+        <cntemail>mgsgis@umn.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
