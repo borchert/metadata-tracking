@@ -4,7 +4,7 @@
       <citeinfo>
         <origin>Minnesota Geological Survey</origin>
         <pubdate>20090101</pubdate>
-        <title catid="a81ec24e-07e6-42bd-b128-f928cfe28acc">Bedrock Geology Plate 2, County Atlas Series C-20 Mcleod County, Part A</title>
+        <title catid="a81ec24e-07e6-42bd-b128-f928cfe28acc">Bedrock Geology Plate 2, County Atlas Series C-20 McLeod County, Part A</title>
         <geoform>vector digital data</geoform>
         <pubinfo>
           <publish>Minnesota Geological Survey</publish>
@@ -18,7 +18,7 @@
     <spdom>
       <bounding>
         <westbc>-94.563411</westbc>
-        <eastbc>-79.314226</eastbc>
+        <eastbc>-94.2700</eastbc>
         <northbc>47.026495</northbc>
         <southbc>42.307155</southbc>
       </bounding>
