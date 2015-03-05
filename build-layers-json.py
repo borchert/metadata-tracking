@@ -48,5 +48,5 @@ with open("layers.json", "wb") as layers_json_file:
             if layer_id is not "UNKNOWN" and layer_id is not None:
                 layers[layer_id] = os.path.join(dirpath.lstrip("./"), f)
 
-    layers_json_file.write(json.dumps(layers))
+    layers_json_file.writelines(json.dumps(layers, indent=4))
 
