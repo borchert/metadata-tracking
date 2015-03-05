@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+
+
+<metadata>
+
+
+  <idinfo>
+
+    <citation>
+      <citeinfo>
+        <origin>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</origin>
+        <pubdate>2009-01-14 00:00:00.0</pubdate>
+        <title>Wild Rice Lakes Identified by DNR Wildlife</title>
+        <mgmg1cid></mgmg1cid>
+          <pubinfo>
+            <publish>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</publish>
+          </pubinfo>
+        <onlink></onlink>
+      </citeinfo>
+    </citation>
+
+    <descript>
+      <abstract>This is a polygon coverage of Wild Rice Lakes and Rivers in Minnesota. Lakes and rivers were selected out from the DNR 100k Lakes and Rivers shapefile based upon intersection with nri_wricept2 .</abstract>
+      <purpose>This layer was created to help resource managers identify wild rice lakes and rivers for wildlife habitat restoration and enhancement, and for rice management.</purpose>
+      <supplinf></supplinf>
+    </descript>
+
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2006-2008</caldate>
+        </sngdate>
+      </timeinfo>
+      <current></current>
+    </timeperd>
+
+    <status>
+      <progress>Complete</progress>
+      <update>As Needed</update>
+    </status>
+    
+    <spdom>
+      <bounding>
+        <westbc>-96.120787</westbc>
+        <eastbc>-89.561945</eastbc>
+        <northbc>49.353394</northbc>
+        <southbc>43.490440</southbc>
+      </bounding>
+    </spdom>
+
+    <keywords>
+      <theme>
+        <themekey>Hydrography, wild rice, wild rice lakes, wild rice rivers, wildlife, habitat,</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN </placekey>
+      </place>
+    </keywords>
+
+    <accconst>No special restrictions beyond those described in the Minnesota Department of Natural Resources General Geographic Data License Agreement.</accconst>
+    <useconst>No special restrictions beyond those described in the Minnesota Department of Natural Resources General Geographic Data License Agreement.</useconst>
+    
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Tom Engel</cntper>
+          <cntorg>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</cntorg>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>1201 E. Hwy 2</address>
+          <city>Grand Rapids</city>
+          <state>MN</state>
+          <postal>55744</postal>
+        </cntaddr>
+        <cntvoice>218-999-7936</cntvoice>
+        <cntfax>218-327-4263</cntfax>
+        <cntemail>tom.engel@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+
+    <browse>
+      <browsen>http://jmaps.dnr.state.mn.us/gis/dp_datasample.jsp?mpid=39000711&amp;ptid=2&amp;fcid=1&amp;lname=Wild Rice Lakes Identified by DNR Wildlife</browsen>
+      <browsed></browsed>
+    </browse>
+
+    <native>ArcView Shapefile</native>
+    
+    <crossref>
+      <citeinfo>
+        <title></title>
+      </citeinfo>
+    </crossref>
+
+  </idinfo>
+
+
+  <dataqual>
+
+    <attracc>
+      <attraccr></attraccr>
+    </attracc>
+
+    <logic>Data are topologically correct using ArcView 3.x.</logic>
+    <complete></complete>
+    
+    <posacc>
+      <horizpa>
+        <horizpar>Source layer lake_wricepy2:  See metadata for DNR 100k Lakes and Rivers.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr></vertaccr>
+      </vertacc>
+    </posacc>
+     
+    <lineage>
+      <srcinfo>
+        <srcscale>Source layer lake_wricepy2:  100000
+</srcscale>
+      </srcinfo>
+      <procstep>
+        <procdesc></procdesc>
+      </procstep>
+    </lineage>
+
+  </dataqual>
+
+
+  <spdoinfo>
+
+    <indspref>Wild Rice Lakes and Rivers</indspref>
+    <direct>vector</direct>
+    <mgmg3obj>polygon</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+
+  </spdoinfo>
+
+
+  <spref>
+
+    <horizsys>
+      <geograph>
+        <latres></latres>
+        <longres></longres>
+      </geograph>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <mgmg4par>Not Applicable</mgmg4par>
+          <otherprj>Not Applicable</otherprj>
+        </mapproj>
+        <gridsys>
+          <gridsysn>UTM</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+          <spcs>
+            <spcszone></spcszone>
+          </spcs>
+          <mgmg4coz></mgmg4coz>
+          <mgmg4adj>Not Applicable</mgmg4adj>
+        </gridsys>
+        <planci>
+          <coordrep>
+            <absres></absres>
+            <ordres></ordres>
+          </coordrep>
+          <distbrep>
+            <distres></distres>
+          </distbrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS1980</ellips>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+
+  </spref>
+
+
+  <eainfo>
+
+
+
+    <overview>
+      <eaover></eaover>
+      <eadetcit></eadetcit>
+    </overview>
+
+  </eainfo>
+
+
+  <distinfo>
+
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Tom Engel</cntper>
+          <cntorg>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</cntorg>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>1201 E. Hwy 2</address>
+          <city>Grand Rapids</city>
+          <state>MN</state>
+          <postal>55744</postal>
+        </cntaddr>
+        <cntvoice>218-999-7936</cntvoice>
+        <cntfax>218-327-4263</cntfax>
+        <cntemail>tom.engel@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>lake_wricepy2</resdesc>
+    <distliab>The Minnesota Department of Natural Resources makes no representation or warranties, express or implied, with respect to the reuse of data provided herewith, regardless of its format or the means of its transmission. There is no guarantee or representation to the user as to the accuracy, currency, suitability, or reliability of this data for any purpose. The user accepts the data &apos;as is&apos;, and assumes all risks associated with its use. By accepting this data, the user agrees not to transmit this data or provide access to it or any part of it to another party unless the user shall include with the data a copy of this disclaimer. The Minnesota Department of Natural Resources assumes no responsibility for actual or consequential damage incurred as a result of any user&apos;s reliance on this data. </distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shapefile</formname>
+          <formvern></formvern>
+          <transize>1024</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage or Distribution Contact</ordering>
+    </stdorder>
+
+  </distinfo>
+
+
+  <metainfo>
+
+    <metd>2009-06-11 13:15:06.0</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Tom Engel</cntper>
+          <cntorg>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</cntorg>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+	  <addrtype>Mailing and Physical</addrtype>
+          <address>1201 E. Hwy 2</address>
+          <city>Grand Rapids</city>
+          <state>MN</state>
+          <postal>55744</postal>
+        </cntaddr>
+        <cntvoice>218-999-7936</cntvoice>
+        <cntfax>218-327-4263</cntfax>
+        <cntemail>tom.engel@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+    </metextns>
+
+  </metainfo>
+
+</metadata>
+

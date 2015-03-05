@@ -1,0 +1,66 @@
+<?xml version="1.0"?><metadata xml:lang="en"><idinfo><native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.4000</native><descript><abstract>This is a set of the impaired wetlands as determined by MPCA in 2009 for the 2010 reporting cycling to US EPA.
+
+The lakes are a subset and enhancement of the 1:24,000 scale National Hydrography Dataset (NHD). MPCA adds additional lakes. Since the impaired lakes are a small subset of the NHD lakes, only that subset is included in the dataset.   This dataset includes impaired lakes which have not yet had a TMDL plan approved by the US EPA, as well as those lakes that have a US EPA approved TMDL plan.</abstract><purpose>The data set was created as part of the Minnesota Pollution Control Agency's Environmental Data Access System, which allows for public access to surface water monitoring data.</purpose><supplinf>State of Minnesota</supplinf></descript><citation><citeinfo><origin>Minnesota Pollution Control Agency</origin><pubdate>20120323</pubdate><title>Impaired Wetlands 2010</title><geoform>vector digital data</geoform><pubinfo><publish>Minnesota Pollution Control Agency</publish></pubinfo></citeinfo></citation><timeperd><current>March 23, 2012</current><timeinfo><sngdate><caldate>20120323</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>As needed</update></status><spdom><bounding><westbc>-96.404505</westbc><eastbc>-93.196833</eastbc><northbc>45.826093</northbc><southbc>44.143791</southbc></bounding></spdom><keywords><theme><themekey>surface water, water chemistry, water quality, impaired waters, TMDL, 303(d)</themekey></theme><place><placekey>Minnesota</placekey></place></keywords><accconst>None</accconst><browse><browsen>None available</browsen><browsed /></browse><crossref><citeinfo><title>Minnesota 2010  Inventory of Impaired Streams, February, 2012
+Minnesota 2010 Inventory of Impaired Lakes, February, 2012</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>Minnesota Pollution Control Agency</cntorg><cntper>Kris Parson</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><address>520 Lafayette Road</address><city>St Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>(651) 757-2639</cntvoice><cntfax>(651) 282-5446</cntfax><cntemail>kristofor.parson@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataIdInfo><envirDesc>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.4000</envirDesc><dataLang><languageCode value="en" /><countryCode value="US" /></dataLang><idCitation><resTitle>impaired_2010_wetlands</resTitle><presForm><PresFormCd value="005" /></presForm></idCitation><spatRpType><SpatRepTypCd value="001" /></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL>227546.453</westBL><eastBL>484943.976</eastBL><northBL>5074896.2274</northBL><southBL>4893326.5</southBL><exTypeCode>1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL>-96.50441</westBL><eastBL>-93.188403</eastBL><northBL>45.827465</northBL><southBL>44.142342</southBL><exTypeCode>1</exTypeCode></geoBox></dataIdInfo><metainfo><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><mettc>local time</mettc><metd>20120323</metd><metextns><onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink><metprof>ESRI Metadata Profile</metprof></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Pollution Control Agency</cntorg><cntper>Kris Parson</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><address>520 Lafayette Road North</address><city>St Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>(651) 757-2639</cntvoice><cntfax>(651) 282-5446</cntfax><cntemail>kristofor.parson@state.mn.us</cntemail></cntinfo></metc></metainfo><mdLang><languageCode value="en" /><countryCode value="US" /></mdLang><mdStanName>ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer>DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd value="004" /></mdChar><mdHrLv><ScopeCd value="005" /></mdHrLv><mdHrLvName>dataset</mdHrLvName><distinfo><stdorder><digform><digtinfo><transize>12.423</transize><formname>Shapefile</formname><formvern /></digtinfo></digform></stdorder><distliab>NOTICE: The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13). THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by the Minnesota Pollution Control Agnecy for its own internal business purposes. The Minnesota Pollution Control Agency does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, the GIS Data must include a copy of this disclaimer.</distliab><distrib><cntinfo><cntperp><cntorg>Minnesota Pollution Control Agency</cntorg><cntper>Kris Parson</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><address>520 Lafayette Road</address><city>St Paul</city><state>MN</state><postal>55125</postal></cntaddr><cntvoice>(651) 757-2639</cntvoice><cntfax>(651) 282-5446</cntfax><cntemail>kristofor.parson@state.mn.us</cntemail></cntinfo></distrib></distinfo><distInfo><distributor><distorTran><onLineSrc><orDesc>002</orDesc><linkage>file://\\s-sp07\GISlib\Projects\KParson\Water\303d\2010_FinalList\FinalShape\impaired_2010_wetlands.shp</linkage><protocol>Local Area Network</protocol></onLineSrc><transSize>0.030</transSize></distorTran><distorFormat><formatName>Shapefile</formatName></distorFormat></distributor><distFormat><formatName>Shapefile</formatName></distFormat><distTranOps><transSize>0.000</transSize></distTranOps></distInfo><spdoinfo><direct>Vector</direct><indspref /><mgmg3obj /><mgmg3til /><ptvctinf><sdtsterm><sdtstype>G-polygon</sdtstype><ptvctcnt>14</ptvctcnt></sdtsterm></ptvctinf></spdoinfo><refSysInfo><RefSystem><refSysID><identCode value="26915">NAD_1983_UTM_Zone_15N</identCode><idCodeSpace>EPSG</idCodeSpace><idVersion>7.4.1</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd value="001" /></topLvl><geometObjs><geoObjTyp><GeoObjTypCd value="001" /></geoObjTyp><geoObjCnt>14</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><eainfo><detailed><enttyp><enttypl>impaired_2010_wetlands</enttypl></enttyp><attr><attrlabl>FID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>Shape</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl>RNAME</attrlabl></attr><attr><attrlabl>ALT_NAME</attrlabl></attr><attr><attrlabl>AUID</attrlabl></attr><attr><attrlabl>County</attrlabl></attr><attr><attrlabl>NEEDSPLN</attrlabl></attr><attr><attrlabl>Basin</attrlabl></attr><attr><attrlabl>HUC8</attrlabl></attr><attr><attrlabl>HUC8_NAME</attrlabl></attr><attr><attrlabl>WDWMO_NAME</attrlabl></attr><attr><attrlabl>WDWMO_TYPE</attrlabl></attr><attr><attrlabl>CAT</attrlabl></attr><attr><attrlabl>APPROVED</attrlabl></attr><attr><attrlabl>AFFECTED_U</attrlabl></attr><attr><attrlabl>NEW2010</attrlabl></attr><attr><attrlabl>B_P</attrlabl></attr><attr><attrlabl>M_IBI</attrlabl></attr><attr><attrlabl>Shape_Leng</attrlabl></attr><attr><attrlabl>Shape_Area</attrlabl><attrdef>Area of feature in internal units squared.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>IMP_PARAM</attrlabl></attr></detailed><overview><eaover>All wetlands contained in this shapefile are on the 2010 Impaired Waters list, have a TMDL plan approved by EPA or have been delisted.</eaover><eadetcit>RNAME: Name of the waterbody associated with the AUID. 
+
+ALT_NAME: Alternate Lake Name
+
+AUID:  Assessment Unit ID, the MN Department of Natural Resources Division of Waters lake id number. This AUID constitutes a unique identifer for each lake in the dataset. 
+
+COUNTY: Name of county where lake is located
+
+BASIN: Name of 4-digit  Federal Hydrologic Unit Code (SubRegion)
+
+HUC8: 8-digit Federal Hydrologic Unit Code (Subbasin
+
+HUC8_NAME: Name of 8-digit Federal Hydrologic Unit Code (Subbasin
+
+WDWMO_NAME: Watershed District or Watershed Management Organization Name
+
+WDWMO_TYPE = Type of Organization
+    Values:
+     WD = Watershed District
+     WMO = Watershed Management Organization
+     na = not applicable
+
+CAT: EPA Consolidation Assessment and Listing Methodology [CALM] which integrates the 305(b) Report with the 303(d) TMDL List. 
+The five categories in CALM are as follows: 
+Category 1: all designated uses are meeting water quality standards 
+Category 2: some uses are meeting water quality standards and there are insufficient data to assess other uses 
+Category 3: there are insufficient data to assess any uses 
+Category 4: at least one use is impaired, but a TMDL is not required 
+Category 5: at least one use is impaired and a TMDL is required. These become the List of impaired waters. 
+
+A reach can only be placed into one Category. For example, if a reach is impaired for one pollutant but the other uses are being met, and a TMDL is required, that reach would be placed into Category 5. Furthermore, if the reach is impaired for more than one pollutant, the reach must stay in Category 5 until ALL pollutants have EPA-approved TMDL plans. 
+
+For 'bookkeeping' purposes, these Categories can be sub-divided. Category 4 has the following four sub-categories: 
+4A: Impaired, but a TMDL study has been approved by EPA 
+4B: Impaired, but a TMDL study is not required because water quality standards are expected to be met in the near future 
+4C: Impaired, but a TMDL study is not required because the impairment is not caused by a pollutant 
+4D: An assessment unit is impaired or threatened but doesn't require a TMDL because the impairment is due to natural conditions with only insignificant anthropogenic influence. To be considered 'insignificant', the elimination of the anthropogenic influence would not lead to the attainment of water quality standards and it would not be included in formal pollution reduction goal-setting activities. A reach-specific water quality standard based on local natural conditions has yet to be determined. Upon determination, the assessment unit will be considered non-impaired for the natural conditions and re-categorized to an appropriate category. 
+4E: Impaired or threatened but existing data indicates a TMDL is not required because impairment is solely a result of natural    sources; a final determination of Category 4D will be made in the next assessment cycle pending confirmation from additional    information (i.e. water quality or land use). 
+ 
+Category 5 has the following three sub-categories: 
+5A: Impaired by multiple pollutants and no TMDL study plans are approved by EPA 
+5B: Impaired by multiple pollutants and at least one TMDL study plan is approved by EPA 
+5C: Impaired by one pollutant and no TMDL study plan is approved by EPA 
+
+APPROVED: The parameter(s) for which TMDL plans have been approved. 
+
+NEEDSPLN: The pollutant(s) for which TMDL plans must be developed and approved. 
+   Values:
+   B_IP: Index of Biological Integrity (Invertebrates and Plants)
+   B_I: Index of Biological Integrity (Invertebrates)
+   B_P: Index of Biological Integrity (Plants)
+ 
+AFFECTED_U:  Impaired Use 
+   Values:
+   AQL = Aquatic Life
+
+NEW2010: Parameters proposed to be listed for the first time in 2010
+
+B_P: The target start year for a TMDL project addressing this parameter - Index of Biological Integrity (Plants)
+
+M_IBI: The target start year for a TMDL project addressing this parameter - Index of Biological Integrity (Macroinvertebrates)
+
+IMP_PARAM: A list of all impairment parameters affecting the feature</eadetcit></overview></eainfo><mdDateSt>20120326</mdDateSt><dataqual><attracc><attraccr>Data has not been approved by US EPA.</attraccr></attracc><lineage><srcinfo><srcscale>24000</srcscale></srcinfo></lineage></dataqual><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

@@ -1,0 +1,298 @@
+<MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
+  <gmd:fileIdentifier>
+      <gco:CharacterString>45162ef5dd4b495dbf5b1f875219571c_0</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
+  </gmd:language>
+  <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115"/>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+      <gco:CharacterString>dataset</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact gco:nilReason="missing"/>
+  <gmd:dateStamp>
+      <gco:DateTime/>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+      <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+      <gco:CharacterString>2007</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:spatialRepresentationInfo>
+      <gmd:MD_VectorSpatialRepresentation>
+         <gmd:topologyLevel>
+            <gmd:MD_TopologyLevelCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115"/>
+         </gmd:topologyLevel>
+         <gmd:geometricObjects>
+            <gmd:MD_GeometricObjects>
+               <gmd:geometricObjectType>
+                  <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
+               </gmd:geometricObjectType>
+               <gmd:geometricObjectCount>
+                  <gco:Integer/>
+               </gmd:geometricObjectCount>
+            </gmd:MD_GeometricObjects>
+         </gmd:geometricObjects>
+      </gmd:MD_VectorSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem>
+         <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+               <gmd:code>
+                  <gco:CharacterString>4326</gco:CharacterString>
+               </gmd:code>
+               <gmd:codeSpace>
+                  <gco:CharacterString>EPSG</gco:CharacterString>
+               </gmd:codeSpace>
+               <gmd:version>
+                  <gco:CharacterString>8.2.6</gco:CharacterString>
+               </gmd:version>
+            </gmd:RS_Identifier>
+         </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>NCR Funding</gco:CharacterString>
+               </gmd:title>
+               <gmd:date gco:nilReason="missing"/>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>City_of_Minneapolis</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString/>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:presentationForm>
+                  <gmd:CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115"/>
+               </gmd:presentationForm>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>Neighborhood&#160;&#160;&#160;&#160; Action Plan&#13;
+Approval Date &#8211; The date on which the&#13;
+City of Minneapolis officially approved the neighborhood&#8217;s NRP Phase 1 plan.&#13;
+Column name ActPlanDat.
+&#160;
+NRP Phase 1 Plan $ - NRP Phase 1 funds allocated to the plan upon official approval&#13;
+(Note: This does not include NRP Phase 1 funds that have since been reallocated&#13;
+to support implementation of the neighborhood&#8217;s NRP Phase 2 plan &#8211; see below).&#13;
+Column name Phase1Plan.
+&#160;
+NRP Phase 1 Program Income $ - Income generated from the initial investment of NRP Phase 1&#13;
+funds &#8211; generally as a result of repayments made under housing and economic&#13;
+development loans. (Note: This does not include NRP Phase 1 program income that&#13;
+have since been reallocated to support implementation of the neighborhood&#8217;s NRP&#13;
+Phase 2 plan &#8211; see below). Column name Phase1Inco.
+&#160;
+NRP Phase 1R Plan $ - NRP Phase 1 funds that have since been reallocated to support&#13;
+implementation of the neighborhood&#8217;s NRP Phase 2 plan. Column name Phase1R.
+&#160;
+NRP Phase 1R Program Income $ - Income generated from the initial investment of NRP Phase 1&#13;
+funds that have since been reallocated to support implementation of the&#13;
+neighborhood&#8217;s NRP Phase 2 plan &#8211; generally as a result of repayments made&#13;
+under housing and economic development loans. Column name Phase1RInc.
+&#160;
+NRP Phase 1 Total $ as of 9-30-2014 &#8211; The total of all NRP Phase 1 funds (including program income&#13;
+and all funds reallocated to support implementation of the neighborhood&#8217;s NRP&#13;
+Phase 2 plan) supporting the implementation of Minneapolis neighborhood NRP&#13;
+plans, as of September 30, 2014. Column name Phase1Tota.
+&#160;
+Approval Date Phase 2 Plan - The date on which the City of Minneapolis officially approved&#13;
+the neighborhood&#8217;s NRP Phase 2 plan. Column name Phase2Date.
+&#160;
+* NRP Phase 2 Plan $ - NRP Phase 2 funds allocated to the plan upon official approval&#13;
+(Note: This allocation includes all funds officially approved under the&#13;
+original NRP Phase 2 plan, including funds that have since been frozen by the&#13;
+Minneapolis City Council in December 2010 &#8211; see below). Column name Phase2Plan.
+&#160;
+* NRP Phase 2 Frozen $ - Phase 2 plan funds that were frozen by the Minneapolis City&#13;
+Council in December, 2010, and not available for use by neighborhood to&#13;
+implement to NRP Phase 2 plans. Column name Phase2Froz.
+&#160;
+NRP Phase 2 AHRF $ - NRP Phase 2 neighborhood funds earmarked by the Minneapolis&#13;
+City Council for use on affordable housing projects throughout the city. Column&#13;
+name Phase2AHRF.
+&#160;
+NRP Phase 2 COPSIRF $ - NRP Phase 2 neighborhood funds earmarked by the Minneapolis&#13;
+City Council for use on community-oriented public safety initiatives throughout&#13;
+the city. Column name Phase2COPS.
+&#160;
+NRP Phase 2 Program Income $ - Income generated from the initial investment of NRP Phase 2&#13;
+funds &#8211; generally as a result of repayments made under housing and economic&#13;
+development loans. Column name Phase2Inco.
+&#160;
+NRP Phase 2 Total $ as of 9-30-2014 - The total of all NRP Phase 2 funds (including program income)&#13;
+supporting the implementation of Minneapolis neighborhood NRP plans, as of&#13;
+September 30, 2014. (Note:&#160; This does not&#13;
+include Phase 1R or Phase 1R Program Income that are used to implement the&#13;
+Phase 2 plan &#8211; those are accounted for under NRP Phase 1 Total $ as of&#13;
+9-30-2014 &#8211; see above). Column name Phase2Tota.
+&#160;
+PlanNet Neighborhood Name (for sorting with other PlanNet info) &#8211; This is a field used in PlanNet &#8211; the City&#8217;s information system&#13;
+used for tracking NRP and CPP neighborhood initiatives.&#160; It is included for use in conjunction with&#13;
+other PlanNet-derived data. Column name SYSNAME.</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Minneapolis (Minn.)</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Open Data</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
+               </gmd:type>
+            <gmd:keyword>
+                  <gco:CharacterString>Neighborhoods</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>NCR</gco:CharacterString>
+               </gmd:keyword>
+               </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_Constraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>For questions about this data please contact&#160;NCROpenData@minneapolismn.govThe maps provided by the City of Minneapolis are compilations of records, information and data from various sources, and they are to be used for reference purposes only. The City of Minneapolis does not warrant or guarantee that the Geographic Information Systems (GIS) data or maps are complete, current, or accurate. The City of Minneapolis does not represent that the GIS data can be used for navigational, tracking, legal, engineering, surveying, or any other purpose requiring exacting measurement of distance or direction or precision in the depiction of geographic features. Pursuant to Minnesota Statutes, Section 466.03, Subdivision 21, the City of Minneapolis disclaims any liability for claims based on alleged or actual inaccuracies in the GIS data or maps.This work is licensed under the&#160;Creative Commons Attribution-ShareAlike 4.0 International License.</gco:CharacterString>
+               </gmd:useLimitation>
+            </gmd:MD_Constraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>public</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115"/>
+         </gmd:spatialRepresentationType>
+         <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
+         </gmd:language>
+         <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+         </gmd:characterSet>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode/>
+         </gmd:topicCategory>
+         <gmd:environmentDescription>
+            <gco:CharacterString>Version 6.2 (Build 9200) ; Esri ArcGIS 10.2.2.3574</gco:CharacterString>
+         </gmd:environmentDescription>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-93.32128098902626</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-93.21348963443894</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>44.89691930428261</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>45.04486936862662</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+      </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>Shapefile</gco:CharacterString>
+               </gmd:name>
+               <gmd:version gco:nilReason="missing"/>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributor>
+            <gmd:MD_Distributor>
+               <gmd:distributorContact gco:nilReason="missing"/>
+               <gmd:distributorFormat>
+                  <gmd:MD_Format>
+                     <gmd:name>
+                        <gco:CharacterString>Shapefile</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:version gco:nilReason="missing"/>
+                  </gmd:MD_Format>
+               </gmd:distributorFormat>
+            </gmd:MD_Distributor>
+         </gmd:distributor>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:transferSize>
+                  <gco:Real>0.29</gco:Real>
+               </gmd:transferSize>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://opendata.minneapolismn.gov/datasets/45162ef5dd4b495dbf5b1f875219571c_0.zip</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>download</gco:CharacterString>
+                     </gmd:protocol>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL></gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString/>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString/>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+</MD_Metadata>
