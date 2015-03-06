@@ -1,0 +1,335 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources (DNR)</origin>
+        <pubdate>20140402</pubdate>
+        <title>DNR Hydrography - Designated Infested Waters</title>
+        <pubinfo>
+          <publish>Minnesota DNR - Ecological and Water Resources</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/env-designated-infested-waters</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These are waterbodies (lakes, streams/rivers, wetlands) designated as infested with 1 or more of the following invasive species:
+
+&lt;li&gt;Bighead or Silver (Asian) Carp&lt;/li&gt;
+&lt;li&gt;Eurasian Water Milfoil&lt;/li&gt;
+&lt;li&gt;Faucet Snail&lt;/li&gt;
+&lt;li&gt;Flowering Rush&lt;/li&gt;
+&lt;li&gt;New Zealand mudsnail&lt;/li&gt;
+&lt;li&gt;Round Goby&lt;/li&gt;
+&lt;li&gt;Ruffe&lt;/li&gt;
+&lt;li&gt;Spiny Water Flea&lt;/li&gt;
+&lt;li&gt;Viral Hemorrhagic Septicemia (VHS)&lt;/li&gt;
+&lt;li&gt;White Perch&lt;/li&gt;
+&lt;li&gt;Zebra Mussel&lt;/li&gt;
+
+This layer represents the waterbodies listed in the following document:
+(Note that this list (not the GIS layer) is the official record of Designated Infested Waters for MN)
+
+&lt;i&gt;Pursuant to the provisions of Minnesota Statutes, including but not limited to section 84D.03, subdivision 1 the following described waters are designated infested waters:&lt;/i&gt;  http://files.dnr.state.mn.us/eco/invasives/infested_waters.pdf
+
+
+&lt;b&gt;NOTE:&lt;/b&gt;  As of 4/2/2014, this layer is ~ 98% complete.  Here is a list of issues still being resolved:
+
+&lt;li&gt;Need to identify Sensky Creek (LOTW County) - spiny water flea&lt;/li&gt;
+&lt;li&gt;Need to identify Johnson Creek (LOTW County) - spiny water flea&lt;/li&gt;
+&lt;li&gt;Need to identify Swift Ditch (Roseau County) - spiny water flea&lt;/li&gt;
+&lt;li&gt;Lake Superior tributaries (do these include all upstream tributaries or only those directly connected to Lake Superior?) - round goby, ruffe, VHS, white perch&lt;/li&gt;
+&lt;li&gt;there are several DOW# errors on the Designated Infested Waters list&lt;/li&gt;</abstract>
+      <purpose>To provide a comprehensive, statewide layer to identify Minnesota's designated infested waters to meet DNR business needs, including mapping, analysis, reporting, statuatory responsibilities, etc.  
+
+&lt;b&gt;Usage Tips: &lt;/b&gt;  In Quick Layers, there are separate Lake and Stream layers for each species.  Individual species layers should be drawn independently (with no other species layer turned on) so that one layer doesn't obscure another.  To show more than one species at a time, adjust the line widths of the layers, putting layers with narrow width symbols on top of those with wider symbols.  
+
+To show all designated waters at one time, use the &lt;b&gt;Designated Infested Streams (all)&lt;/b&gt; and &lt;b&gt;Designated Infested Waterbodies (all)&lt;/b&gt; layers.  Use the &lt;i&gt;Identify Tool&lt;/i&gt; to click on a feature and get a list of all invasive species within the selected waterbody.
+
+Waterbodies marked with * have additional information regarding their infested status; see INV_NOTES in attribute table for more details.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150130</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset. It should be noted this database is continuously a work in progress, and the list is updated as needed to reflect the most current conditions of the waterbodies in the state of Minnesota. 
+
+Re-delineations and edits (to the waterbody delineations) are frequent and occur as needed.  See the attributes DELINEATION_DATE and DELINEATION_SRC for date and source of each polygon.</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.23</westbc>
+        <eastbc>-89.53</eastbc>
+        <northbc>49.37</northbc>
+        <southbc>43.5</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Hydrography, Water, Lakes, Wetlands, inlandWaters, streams, rivers, ponds, infested waters, invasive species</themekey>
+        <themekt>
+          </themekt>
+      </theme>
+      <place>
+        <placekey>Minnesota, border waters</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Shapefile</native>
+    <browse>
+      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/env_designated_infested_waters/metadata/preview.jpg</browsen>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <title>Features derived from: 
+&lt;a href="../../water_dnr_hydrography/metadata/dnr_hydrography_lakes_and_open_water.html" target=_blank&gt;&lt;b&gt;DNR Hydrography - Lakes and Open Water&lt;/b&gt;&lt;/a&gt;
+&lt;a href="../../water_measured_kittle_routes/metadata/metadata.html" target=_blank&gt;DNR Hydrography - Stream Routes with Kittle Numbers and Mile Measures&lt;/a&gt;
+
+Species data comes from a database maintained by the Invasive Species program (DNR Ecological and Water Resources Division)</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>
+      </logic>
+    <complete>Data exist statewide.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Horizontal positional accuracy is based originally on the 100K USGS source quadrangles. Polygons for managed waters have been improved by on-screen digitizing using DOQs and FSA imagery.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>N/A</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>The lake polygons are derived from DNR Hydrography - All Water Features. 
+Stream features are derived from Streams with Kittle Numbers and Mile Measures.</procdesc>
+      </procstep>
+    </lineage>
+    <attracc>
+      <attraccr>
+        </attraccr>
+    </attracc>
+  </dataqual>
+  <spdoinfo>
+    <direct>vector</direct>
+    <mgmg3obj>polygon</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>streams_with_measured_kittle_routes</enttypl>
+        <enttypd>Stream Routes with Kittle Numbers and Mile Measures</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>DNR_HYDRO_ID</attrlabl>
+        <attrdef>Unique GIS record number for each stream route feature in DNR Hydrography SDE - Stream Route Centerlines   (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>95000</rdommin>
+            <rdommax>300000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FW_ID</attrlabl>
+        <attrdef>Unique Fisheries Watercourse ID for joining/linking stream routes to DNR Fisheries Stream Survey Oracle DB. FW_IDs are assigned based on how the watercourse is managed by DNR Fisheries (an FW_ID may correspond to an entire stream or portion of a stream.)  Dummy (invalid) Kittle Numbers have FW_ID = 0.</attrdef>
+        <attrdefs>DNR Fisheries Stream Survey DB</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0, 100000</rdommin>
+            <rdommax>300000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>KITTLE_NBR</attrlabl>
+        <attrdef>Watercourse ID per DNR Fisheries Stream Survey database.  A valid KITTLE_NBR has a drainage-branching format 'X-000-000-000...' (See VALID = Y, below).  A dummy KITTLE_NBR has the format 'MAJXXXX-xxxxx' (See VALID = N, below).</attrdef>
+        <attrdefs>DNR Fisheries Stream Survey DB</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>KITTLE_NAME</attrlabl>
+        <attrdef>Stream Name per DNR Fisheries Stream Survey database</attrdef>
+        <attrdefs>DNR Fisheries Stream Survey DB</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ROUTE_MI</attrlabl>
+        <attrdef>Length of entire stream route in miles.  (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FROM_MEAS</attrlabl>
+        <attrdef>Mile measure for starting (downstream) location of linear feature.  (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TO_MEAS</attrlabl>
+        <attrdef>Mile measure for ending (upstream) location of linear feature.  (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH_MI</attrlabl>
+        <attrdef>Length of linear feature in miles.  (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>START_UTM_X</attrlabl>
+        <attrdef>UTM X coordinate for starting location of linear feature.  (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>START_UTM_Y</attrlabl>
+        <attrdef>UTM Y coordinate for starting location of linear feature.  (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>END_UTM_X</attrlabl>
+        <attrdef>UTM X coordinate for ending location of linear feature.  (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>END_UTM_Y</attrlabl>
+        <attrdef>UTM Y coordinate for ending location of linear feature.  (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>VALID</attrlabl>
+        <attrdef>Flag to identify validity of assigned Kittle Numbers</attrdef>
+        <attrdefs>DNR Fisheries Stream Survey DB</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Dummy (invalid) Kittle Number assigned by DNR Fisheries; has the format 'MAJXXXX-xxxxx' where MAJXXXX represents the 4-digit code for the HUC04 drainage and -xxxxx is a unique, sequential number.  Dummy Kittle Numbers usually pertain to small unmanaged streams and streams outside of MN.</edomvd>
+            <edomvds>DNR Fisheries</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Valid Kittle Number assigned by DNR Fisheries; has a valid drainage-branching format 'X-000-000-000...' where X identifies the major drainage (H-Hudson Bay, I-Iowa/Cedar River, M-Mississippi River, S-Lake Superior) and '-000-000-000...' is  a branching identifier that lengthens as you move upstream.  Valid Kittle Numbers usually pertain to major streams and/or streams that have had some type of DNR management.</edomvd>
+            <edomvds>DNR Fisheries</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LABEL</attrlabl>
+        <attrdef>A concatenation of Kittle Name + (Kittle Number) for labeling purposes</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PUBLISH_DATE</attrlabl>
+        <attrdef>Date the GIS layer was published or updated and re-published.</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <resdesc>env_designated_infested_waters</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141023</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Fisheries Unit</cntorg>
+          <cntper>Lyn Bergquist</cntper>
+        </cntperp>
+        <cntpos>GIS Data Contact</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5189</cntvoice>
+        <cntemail>lyn.bergquist@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

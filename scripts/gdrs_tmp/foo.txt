@@ -1,0 +1,956 @@
+[1mdiff --git a/../../mn-geospatial-commons/biota_dnr_native_prairies.xml b/biota_dnr_native_prairies.xml[m
+[1mindex 0cd273b..5388340 100644[m
+[1m--- a/../../mn-geospatial-commons/biota_dnr_native_prairies.xml[m
+[1m+++ b/biota_dnr_native_prairies.xml[m
+[36m@@ -1,951 +1,951 @@[m
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources (DNR)</origin>
+        <pubdate>20141204</pubdate>
+        <title>MNDNR Native Prairies</title>
+        <pubinfo>
+          <publish>Minnesota Department of Natural Resources (MNDNR)</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/biota-dnr-native-prairies</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Native prairie polygons are a subset of a larger database of DNR Native Plant Communities and are the result of that classification system and protocol. 
+
+As a subset of the DNR Native Plant Communities dataset, this dataset contains selected native plant community classifications (prairies) that result from the Minnesota Biological Survey (MBS), State Park land cover data, Forestry native plant community data, and Wildlife Management Areas  land cover data. It includes polygons representing the highest quality native prairie communities remaining in surveyed areas. These native prairie communities are important areas for conservation.
+
+Native plant communities (sometimes also referred to as "natural communities") are groups of native plants that interact with each other and their surrounding environment in ways not greatly altered by modern human activity or by introduced plant or animal species. These groups of native species form recognizable units, such as an oak forest, a prairie, or a marsh, that tend to repeat across the landscape and over time.
+
+Native plant communities are generally classified and described by considering vegetation, hydrology, land forms, soils, and natural disturbance regimes. The native plant community types and subtypes in this data layer are classified primarily by vegetation and major habitat features.
+
+Areas that are not mapped as native plant community polygons primarily represent: 1) land where modern human activities such as farming, overgrazing, wetland drainage, recent logging and residential and commercial development have destroyed or greatly altered the natural vegetation; and 2) native plant community polygons that were below minimal size criteria.
+
+Note: some areas that are not mapped are important for conservation. They may include habitat for native plants and animals, corridors for animal movement, buffers surrounding high quality natural areas and open space, and target areas for restoration.</abstract>
+      <purpose>To foster better understanding and protection of Minnesota's native prairies.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          [31m<caldate>20150226</caldate>[m[32m<caldate>20150305</caldate>[m
+        </sngdate>
+      </timeinfo>
+      <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset.  See the attribute field OBSERVATION_YEAR which indicates when specific features were observed.</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-96.810633</westbc>
+        <eastbc>-89.787973</eastbc>
+        <northbc>49.015581</northbc>
+        <southbc>43.436939</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>biota, Native Plant Communities, Natural Communities, Rare Plants, Prairie</themekey>
+        <themekt>ISO 19115 Category</themekt>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Use of the data are constrained only by the DNR GIS Data License Agreement. See the Distribution Liability section below for a link.  Users must also include an acknowledgment of the Minnesota Biological Survey as the source of information to any derived products.</useconst>
+    <native>ArcGIS File Geodatabase</native>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/biota_dnr_native_prairies/metadata/preview.jpg</browsen>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <title>DNR Native Plant Communities</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Ecological and Water Resources</cntorg>
+          <cntper>Jason Johnson</cntper>
+        </cntperp>
+        <cntpos>Ecologist</cntpos>
+        <cntaddr>
+          <address>Box 25</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5150</cntvoice>
+        <cntemail>jason.johnson@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Data are topologically structured and verified.</logic>
+    <complete>Data are complete for each county with MBS data and all State Parks.  State Forests and WMA are partially complete.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No quantitative studies of horizontal positional accuracy exist for the data. Positional accuracy can be reasonably estimated based on the characteristics of source materials and processing techniques to be 45-60 feet (14-18 meters) from correct position.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not Applicable</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>This data is extracted from the Minnesota DNR's Native Plant Community database sytem.  Candidate features and attributes go through extensive verification and quality control before being certified for publishing through the MNDNR's Geospatial Data Resource site and the Minnesota Geospatial Commons.</procdesc>
+      </procstep>
+    </lineage>
+    <attracc>
+      <attraccr>Attributes go through a rigorous certification process </attraccr>
+    </attracc>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Not Applicable</indspref>
+    <direct>vector</direct>
+    <mgmg3obj>polygon</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>dnr_native_prairies</enttypl>
+        <enttypd>Primary Feature Class Attribute Table</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>NPC</attrlabl>
+        <attrdef>Concatonation of NPC_code and NPC_description fields. Useful for creating map legends.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NPC_code</attrlabl>
+        <attrdef>Native Plant Community and Complex codes. NPC Complex codes end in end in _CX.</attrdef>
+        <attrdefs>Field Guide to the Native Plant Communities of Minnesota (see http://www.dnr.state.mn.us/npc/classification.html)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>UP</edomv>
+            <edomvd>Upland Prairie System</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn</edomv>
+            <edomvd>Upland Prairie System Northern</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn12</edomv>
+            <edomvd>Northern Dry Prairie</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn12a</edomv>
+            <edomvd>Dry Barrens Prairie (Northern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn12b</edomv>
+            <edomvd>Dry Sand - Gravel Prairie (Northern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn12c</edomv>
+            <edomvd>Dry Sand - Gravel Brush-Prairie (Northern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn12d</edomv>
+            <edomvd>Dry Hill Prairie (Northern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn13</edomv>
+            <edomvd>Northern Dry Savanna</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn13a</edomv>
+            <edomvd>Dry Barrens Jack Pine Savanna (Northern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn13b</edomv>
+            <edomvd>Dry Barrens Oak Savanna (Northern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn13c</edomv>
+            <edomvd>Dry Sand - Gravel Oak Savanna (Northern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn13d</edomv>
+            <edomvd>Dry Hill Oak Savanna (Northern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn23</edomv>
+            <edomvd>Northern Mesic Prairie</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn23a</edomv>
+            <edomvd>Mesic Brush-Prairie (Northern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn23b</edomv>
+            <edomvd>Mesic Prairie (Northern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn24</edomv>
+            <edomvd>Northern Mesic Savanna</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn24a</edomv>
+            <edomvd>Mesic Oak Savanna (Northern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn24b</edomv>
+            <edomvd>Aspen Openings (Northern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPs</edomv>
+            <edomvd>Upland Prairie System Southern</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPs13</edomv>
+            <edomvd>Southern Dry Prairie</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPs13a</edomv>
+            <edomvd>Dry Barrens Prairie (Southern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPs13b</edomv>
+            <edomvd>Dry Sand - Gravel Prairie (Southern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPs13c</edomv>
+            <edomvd>Dry Bedrock Bluff Prairie (Southern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPs13d</edomv>
+            <edomvd>Dry Hill Prairie (Southern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPs14</edomv>
+            <edomvd>Southern Dry Savanna</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPs14a</edomv>
+            <edomvd>Dry Barrens Oak Savanna (Southern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPs14a1</edomv>
+            <edomvd>Dry Barrens Oak Savanna (Southern): Jack Pine Subtype</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPs14a2</edomv>
+            <edomvd>Dry Barrens Oak Savanna (Southern): Oak Subtype</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPs14b</edomv>
+            <edomvd>Dry Sand - Gravel Oak Savanna (Southern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPs14c</edomv>
+            <edomvd>Dry Hill Oak Savanna (Southern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPs23</edomv>
+            <edomvd>Southern Mesic Prairie</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPs23a</edomv>
+            <edomvd>Mesic Prairie (Southern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPs24</edomv>
+            <edomvd>Southern Mesic Savanna</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPs24a</edomv>
+            <edomvd>Mesic Oak Savanna (Southern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WP</edomv>
+            <edomvd>Wetland Prairie System</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WPn</edomv>
+            <edomvd>Wetland Prairie System Northern</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WPn53</edomv>
+            <edomvd>Northern Wet Prairie</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WPn53a</edomv>
+            <edomvd>Wet Seepage Prairie (Northern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WPn53b</edomv>
+            <edomvd>Wet Brush-Prairie (Northern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WPn53c</edomv>
+            <edomvd>Wet Prairie (Northern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WPn53d</edomv>
+            <edomvd>Wet Saline Prairie (Northern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WPs</edomv>
+            <edomvd>Wetland Prairie System Southern</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WPs54</edomv>
+            <edomvd>Southern Wet Prairie</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WPs54a</edomv>
+            <edomvd>Wet Seepage Prairie (Southern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WPs54b</edomv>
+            <edomvd>Wet Prairie (Southern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WPs54c</edomv>
+            <edomvd>Wet Saline Prairie (Southern)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ASP_CX</edomv>
+            <edomvd>Aspen Parkland Complex</edomvd>
+            <edomvds>complex list (see Section 5 overview)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ASR_CX</edomv>
+            <edomvd>Agassiz Shoreline Ridge and Swale Complex</edomvd>
+            <edomvds>complex list (see Section 5 overview)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PBW_CX</edomv>
+            <edomvd>Parkland Brush Prairie - Wetland Complex</edomvd>
+            <edomvds>complex list (see Section 5 overview)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PMA_CX</edomv>
+            <edomvd>Wet-Mesic Prairie / Lowland Aspen Complex</edomvd>
+            <edomvds>complex list (see Section 5 overview)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWL_CX</edomv>
+            <edomvd>Prairie Wetland Complex</edomvd>
+            <edomvds>complex list (see Section 5 overview)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ROP_CX</edomv>
+            <edomvd>Rock Outcrop - Dry Prairie Complex</edomvd>
+            <edomvds>complex list (see Section 5 overview)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SWP_CX</edomv>
+            <edomvd>Saline Wet Prairie Complex</edomvd>
+            <edomvds>complex list (see Section 5 overview)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AIP_CX</edomv>
+            <edomvd>Agassiz Interbeach Prairie Complex</edomvd>
+            <edomvds>complex list (see Section 5 overview)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>DPW_CX</edomv>
+            <edomvd>Dry Prairie - Woodland Complex - Central</edomvd>
+            <edomvds>complex list (see Section 5 overview)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ABR_CX</edomv>
+            <edomvd>Agassiz Beach Ridge Complex</edomvd>
+            <edomvds>complex list (see Section 5 overview)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>condition_rank</attrlabl>
+        <attrdef>Standard ranking of condition of native plant community.</attrdef>
+        <attrdefs>Guidelines for Assigning Statewide Biodiversity Significance Ranks to Minnesota County Biological Survey Sites  (http://files.dnr.state.mn.us/eco/mcbs/biodiversity_significance_ranking.pdf)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>A</edomv>
+            <edomvd>A</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AB</edomv>
+            <edomvd>AB</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>B</edomv>
+            <edomvd>B</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>BC</edomv>
+            <edomvd>BC</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>C</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CD</edomv>
+            <edomvd>CD</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>D</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NR</edomv>
+            <edomvd>Not Ranked</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>system_code</attrlabl>
+        <attrdef>Two character substring of NPC_code indicating system level of the classification.</attrdef>
+        <attrdefs>Field Guide to the Native Plant Communities of Minnesota (see http://www.dnr.state.mn.us/npc/classification.html)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>CMX</edomv>
+            <edomvd>Complex community</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UP</edomv>
+            <edomvd>Upland Prairie System</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WP</edomv>
+            <edomvd>Wetland Prairie System</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>floristic_region_code</attrlabl>
+        <attrdef>Three character NPC_code substring indicating MBS Floristic Region Code</attrdef>
+        <attrdefs>Field Guide to the Native Plant Communities of Minnesota (see http://www.dnr.state.mn.us/npc/classification.html)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>CMX</edomv>
+            <edomvd>Complex community</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPn</edomv>
+            <edomvd>Upland Prairie System, Northern Floristic Region</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>UPs</edomv>
+            <edomvd>Upland Prairie System, Southern Floristic Region</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WPn</edomv>
+            <edomvd>Wetland Prairie System, Northern Floristic Region</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WPs</edomv>
+            <edomvd>Wetland Prairie System, Southern Floristic Region</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>class_code</attrlabl>
+        <attrdef>Five character substring of NPC_code, indicating NPC Class within which this community falls.</attrdef>
+        <attrdefs>Field Guide to the Native Plant Communities of Minnesota (see http://www.dnr.state.mn.us/npc/classification.html)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>s_rank_code</attrlabl>
+        <attrdef>Sub National Conservation Rank Code</attrdef>
+        <attrdefs>NatureServe Conservation Status Rank: Interpreting G-ranks and S-ranks for Native Plant Communities   (Version 1.3, April 1, 2009)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>S1</edomv>
+            <edomvd>critically imperiled</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>S2</edomv>
+            <edomvd>imperiled</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>S3</edomv>
+            <edomvd>vulnerable to extirpation or extinction</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>S4</edomv>
+            <edomvd>apparently secure</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>S5</edomv>
+            <edomvd>demonstrably widespread, abundant, and secure</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>biodiversity_signif_rank</attrlabl>
+        <attrdef>Ecological and Water Resources Division rank of overall site</attrdef>
+        <attrdefs>Guidelines for Assigning Statewide Biodiversity Significance Ranks to Minnesota County Biological Survey Sites  (http://files.dnr.state.mn.us/eco/mcbs/biodiversity_significance_ranking.pdf)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Outstanding</edomv>
+            <edomvd>Sites containing the best occurrences of the rarest species, the most outstanding examples of the rarest native plant communities, and/or the largest, most intact functional landscapes present.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>High</edomv>
+            <edomvd>Sites containing very good quality occurrences of the rarest species, high-quality examples of rare NPCs, and/or important functional landscapes.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Moderate</edomv>
+            <edomvd>Sites containing occurrences of rare species and/or moderately disturbed NPCs, and/or landscapes that have a strong potential for recovery.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Below</edomv>
+            <edomvd>Sites below minimum biodiversity threshold for statewide significance. These sites lack occurrences of rare species or natural features or do not meet MCBS standards for Outstanding, High, or Moderate rank. These sites may include areas of conservation value at the local level, such as habitat for native plants and animals, corridors for animal movements, buffers surrounding higher quality natural areas, or areas with high potential for restoration of native habitat.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>observer_1</attrlabl>
+        <attrdef>Name of Primary Observer</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>observer_2</attrlabl>
+        <attrdef>Name of Secondary Observer</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>observer_3</attrlabl>
+        <attrdef>Name of Tertiary Observer</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>observer_1_affiliation_type</attrlabl>
+        <attrdef>Primary Observer  Affiliation</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>observer_2_affiliation_type</attrlabl>
+        <attrdef>Secondary Observer Affiliation</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>observer_3_affiliation_type</attrlabl>
+        <attrdef>Tertiary Observer Affiliation</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>observer_1_affiliation_detail</attrlabl>
+        <attrdef>Primary Observer Details</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>observer_2_affiliation_detail</attrlabl>
+        <attrdef>Secondary Observer Details</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>observer_3_affiliation_detail</attrlabl>
+        <attrdef>Tertiary Observer Details</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>observation_year</attrlabl>
+        <attrdef>Year Observation was Made</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>1986</rdommin>
+            <rdommax>Present</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>submitted_by</attrlabl>
+        <attrdef>Name of person who submitted this record. May be different from observer.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>admin_dnr_unit</attrlabl>
+        <attrdef>MNDNR Division responsible for this record</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>FOR</edomv>
+            <edomvd>Forestry</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>EWR</edomv>
+            <edomvd>Eco-Waters</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FAW</edomv>
+            <edomvd>Fish and Wildlife</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PAT</edomv>
+            <edomvd>Parks and Trails</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>collection_method</attrlabl>
+        <attrdef>Method used to acquire data</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>G</edomv>
+            <edomvd>Ground Survey: Surveyor gained information about the community through ground survey; done for the purpose of NPC evaluation. This includes but is not limited to: comprehensive walk-through supported by waypoints &amp; field notes, releves, or forestry transect worksheets. This is performed by you personally or performed by others and given to you to use.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>Peripheral Edge: Survey Surveyor gained information about the community by viewing from edge (drive-by, canoe, etc.) or cursory walk through. Again, this action is performed by you personally or performed by others and the data is given to you to use.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>A</edomv>
+            <edomvd>Aerial Survey: Surveyor gained information about the community by aircraft, helicopter, etc.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>O</edomv>
+            <edomvd>Other: Surveyor used some type of physical document usually in the form of a report or publication that lends some supporting information about a map polygon. These are a contrast to the standard derived spatial layers typically consulted in a GIS. Examples would be a forest service report that included some reference text to help describe the NPC delineation/classification process, but the report was carried out for a purpose other than NPC evaluation.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>P</edomv>
+            <edomvd>Photo Interpretation:  Using Derived Data layers the surveyor gained information about the community from data sources that do not represent a physical visit to the polygon for the purpose of NPC evaluation. This data is typically remotely sensed data (Air Photos, GAP, LiDAR, DEMs), extrapolated data (soil surveys, NWI) or other natural resource inventories (FIM, CSA).</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Non-DNR Data Source</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>photo_year</attrlabl>
+        <attrdef>If collection method includes photo, year of collection method photo.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>1980</rdommin>
+            <rdommax>Present</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>photo_type</attrlabl>
+        <attrdef>If collection method includes photo, type of photo used.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>FSA Color</edomv>
+            <edomvd>Farm Service Agency Full Color</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Forestry CIR</edomv>
+            <edomvd>DNR Division of Forestry Color Infrared</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NHAP CIR</edomv>
+            <edomvd>National High Altitude Program Color Infrared</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NAPP B&amp;W</edomv>
+            <edomvd>National Aerial Photography Program Black and White</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>DNR Forestry Color Infrared - Hard Copy</edomv>
+            <edomvd>DNR Forestry Color Infrared - Hard Copy</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>DNR Forestry Color Infrared - DOQs</edomv>
+            <edomvd>DNR Forestry Color Infrared - DOQs</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2009 DNR Northeast MN 50cm Resolution Color Infrared Imagery</edomv>
+            <edomvd>2009 DNR Northeast MN 50cm Resolution Color Infrared Imagery</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2008 FSA Color Infrared (CIR) Imagery</edomv>
+            <edomvd>2008 FSA Color Infrared (CIR) Imagery</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2010 FSA Color Aerial Photography</edomv>
+            <edomvd>2010 FSA Color Aerial Photography</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2009 DNR Northeast MN 50cm Resolution True Color Imagery</edomv>
+            <edomvd>2009 DNR Northeast MN 50cm Resolution True Color Imagery</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>comment</attrlabl>
+        <attrdef>General comments supporting NPC classification or other information pertaining to this NPC.  Content should be related to classification, survey effort and/or condition.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>gis_acres</attrlabl>
+        <attrdef>Area of polygon in acres, calculated by GIS by automated method.</attrdef>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>This derived product includes coded fields (described in the deatailed section of this metadata) as well as descriptive fields, where the meanings of the codes have been added to this product for user convenience.  We have simply documented the coded fields here and included their valid value domains and descriptive meanings.
+
+***Definitions for NPC complex codes which occur in the NPC_code field are found at &lt;a href="NPC_Complexes.html" target=_blank&gt;NPC Complex list&lt;/a&gt;.
+
+
+
+</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>biota_dnr_native_prairies</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcGIS File Geodatabase</formname>
+          <formvern>N/A</formvern>
+          <transize>118000</transize>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Rd</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155-4011</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141204</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Ecological and Water Resources</cntorg>
+          <cntper>Jared Cruz</cntper>
+        </cntperp>
+        <cntpos>GIS Data Contact</cntpos>
+        <cntaddr>
+          <address>Box 25</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5093</cntvoice>
+        <cntemail>jared.cruz@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>
