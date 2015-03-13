@@ -1,6 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <fileIdentifier>
-      <gco:CharacterString>d67f042acef4454c851d8c7448b216f9_0</gco:CharacterString>
+      <gco:CharacterString>d050496ced314752bf89763139bc0cb3_0</gco:CharacterString>
   </fileIdentifier>
   <language>
       <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -32,7 +32,7 @@
          <geometricObjects>
             <MD_GeometricObjects>
                <geometricObjectType>
-                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
+                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
                   <gco:Integer/>
@@ -63,7 +63,7 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Neighborhoods</gco:CharacterString>
+                  <gco:CharacterString>Benchmarking Results - CY 2012 Public Buildings</gco:CharacterString>
                </title>
                <date gco:nilReason="missing"/>
                <citedResponsibleParty>
@@ -92,7 +92,25 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString></gco:CharacterString>
+            <gco:CharacterString>Energy and water benchmarking results from CY 2012 for public buildings. Includes City, Park Board, Hennepin County and Minneapolis Public Schools.In&#13;
+Minneapolis, large commercial buildings make up almost 50% of the city's energy&#13;
+use.&#160; This provides a tremendous opportunity for identifying&#160;areas&#13;
+with the largest potential for energy&#160;savings. In February of 2013, the&#13;
+Minneapolis City Council adopted ordinance 47.190 requiring commercial&#13;
+buildings 50,000 square feet and over and&#160;city-owned buildings 25,000&#13;
+square feet and over to annually benchmark their energy consumption and report&#13;
+this information to the City. This ordinance will allow building owners and the&#13;
+City to track energy and water usage year to year to determine opportunities&#13;
+for improvement, recognize high performers, and determine progress towards the&#13;
+City's&#160;Climate Action Plan&#160;goals.
+&#160;
+This&#13;
+data shows the results of the energy benchmarking conducted by buildings in&#13;
+Minneapolis. Calendar year 2013 and 2014 data include only information on&#13;
+buildings owned by the City of Minneapolis, Hennepin County, the Minneapolis&#13;
+Public Schools and the Minneapolis Park and Recreation Board. More information&#13;
+about the ordinance and the full report on benchmarking results is available&#13;
+here: http://minneapolismn.gov/environment/energy/index.htm</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -107,26 +125,26 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>Minneapolis</gco:CharacterString>
+                  <gco:CharacterString>benchmarking</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>Neighborhoods</gco:CharacterString>
+                  <gco:CharacterString>transparency</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Boundary</gco:CharacterString>
+                  <gco:CharacterString>energy</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Boundaries</gco:CharacterString>
+                  <gco:CharacterString>2012</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/d67f042acef4454c851d8c7448b216f9_0/license.json</gco:CharacterString>
+                  <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/d050496ced314752bf89763139bc0cb3_0/license.json</gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -157,16 +175,16 @@
                <geographicElement>
                   <EX_GeographicBoundingBox>
                      <westBoundLongitude>
-                        <gco:Decimal>-93.46</gco:Decimal>
+                        <gco:Decimal>-93.32584910393562</gco:Decimal>
                      </westBoundLongitude>
                      <eastBoundLongitude>
-                        <gco:Decimal>-93.04</gco:Decimal>
+                        <gco:Decimal>-93.20536705623289</gco:Decimal>
                      </eastBoundLongitude>
                      <southBoundLatitude>
-                        <gco:Decimal>44.85</gco:Decimal>
+                        <gco:Decimal>44.89329130123258</gco:Decimal>
                      </southBoundLatitude>
                      <northBoundLatitude>
-                        <gco:Decimal>45.09</gco:Decimal>
+                        <gco:Decimal>45.046728916752656</gco:Decimal>
                      </northBoundLatitude>
                   </EX_GeographicBoundingBox>
                </geographicElement>
@@ -205,7 +223,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/d67f042acef4454c851d8c7448b216f9_0</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/d050496ced314752bf89763139bc0cb3_0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
