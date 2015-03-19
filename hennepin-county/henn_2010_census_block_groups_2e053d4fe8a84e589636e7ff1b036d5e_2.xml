@@ -1,239 +1,246 @@
-<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
-  <fileIdentifier>
-      <gco:CharacterString>2e053d4fe8a84e589636e7ff1b036d5e_2</gco:CharacterString>
-  </fileIdentifier>
-  <language>
-      <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
-  </language>
-  <characterSet>
-      <MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
-  </characterSet>
-  <hierarchyLevel>
-      <MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115"/>
-  </hierarchyLevel>
-  <hierarchyLevelName>
-      <gco:CharacterString>dataset</gco:CharacterString>
-  </hierarchyLevelName>
-  <contact gco:nilReason="missing"/>
-  <dateStamp>
-      <gco:DateTime/>
-  </dateStamp>
-  <metadataStandardName>
-      <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
-  </metadataStandardName>
-  <metadataStandardVersion>
-      <gco:CharacterString>2007</gco:CharacterString>
-  </metadataStandardVersion>
-  <spatialRepresentationInfo>
-      <MD_VectorSpatialRepresentation>
-         <topologyLevel>
-            <MD_TopologyLevelCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115"/>
-         </topologyLevel>
-         <geometricObjects>
-            <MD_GeometricObjects>
-               <geometricObjectType>
-                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
-               </geometricObjectType>
-               <geometricObjectCount>
-                  <gco:Integer/>
-               </geometricObjectCount>
-            </MD_GeometricObjects>
-         </geometricObjects>
-      </MD_VectorSpatialRepresentation>
-  </spatialRepresentationInfo>
-  <referenceSystemInfo>
-      <MD_ReferenceSystem>
-         <referenceSystemIdentifier>
-            <RS_Identifier>
-               <code>
-                  <gco:CharacterString>4326</gco:CharacterString>
-               </code>
-               <codeSpace>
-                  <gco:CharacterString>EPSG</gco:CharacterString>
-               </codeSpace>
-               <version>
-                  <gco:CharacterString>8.2.6</gco:CharacterString>
-               </version>
-            </RS_Identifier>
-         </referenceSystemIdentifier>
-      </MD_ReferenceSystem>
-  </referenceSystemInfo>
-  <identificationInfo>
-      <MD_DataIdentification>
-         <citation>
-            <CI_Citation>
-               <title>
-                  <gco:CharacterString>2010 Census Block Groups</gco:CharacterString>
-               </title>
-               <date gco:nilReason="missing"/>
-               <citedResponsibleParty>
-                  <CI_ResponsibleParty>
-                     <organisationName>
-                        <gco:CharacterString>hennepin.county.maps</gco:CharacterString>
-                     </organisationName>
-                     <role>
-                        <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
-                     </role>
-                  </CI_ResponsibleParty>
-               </citedResponsibleParty>
-               <citedResponsibleParty>
-                  <CI_ResponsibleParty>
-                     <organisationName>
-                        <gco:CharacterString/>
-                     </organisationName>
-                     <role>
-                        <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115"/>
-                     </role>
-                  </CI_ResponsibleParty>
-               </citedResponsibleParty>
-               <presentationForm>
-                  <CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115"/>
-               </presentationForm>
-            </CI_Citation>
-         </citation>
-         <abstract>
-            <gco:CharacterString>2010 US Census Block Groups for Hennepin County with subset of PL94-171 demographic data.The Hennepin County GIS Office downloaded US Census data from the following sites:Shapefiles:http://www.census.gov/cgi-bin/geo/shapefiles2010/mainPL94-171:http://www.census.gov/rdo/data/2010_census_redistricting_data_pl_94-171_summary_files.htmlPL94-171 tabular data was post processed per instructions and stored in an Access database. Records and a subset of the 290 plus fields were extracted from the master tables using SQL statements. A copy of the statement has been included in the Lineage section of metadata. Tables were registered as a geodatabase and copied to a File Geodatabase. Shapefiles were imported into the File Geodatabase and projected to UTM Zone 15 N. The feature classes were joined to the tabular data and saved as the final US Census layer. The feature classes underwent visual inspection. The number of records were compared and checked. The attribute values were compared to existing Maptitude US Census data.Please contact the Hennepin GIS Office if you require additional PL94-171 fields.Hennepin County GIS OfficeA-705 Government Center Minneapolis, Minnesota 55487-075GIS.Info@co.hennepin.mn.usPhone: 612-596-9484FAX: 612-348-2837The original metadata is contained below.The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. Block Groups (BGs) are defined before tabulation block delineation and numbering, but are clusters of blocks within the same census tract that have the same first digit of their 4-digit census block number from the same decennial census. For example, Census 2000 tabulation blocks 3001, 3002, 3003,.., 3999 within Census 2000 tract 1210.02 are also within BG 3 within that census tract. Census 2000 BGs generally contained between 600 and 3,000 people, with an optimum size of 1,500 people. Most BGs were delineated by local participants in the Census Bureau's Participant Statistical Areas Program (PSAP). The Census Bureau delineated BGs only where the PSAP participant declined to delineate BGs or where the Census Bureau could not identify any local PSAP participant. A BG usually covers a contiguous area. Each census tract contains at least one BG, and BGs are uniquely numbered within census tract. Within the standard census geographic hierarchy, BGs never cross county or census tract boundaries, but may cross the boundaries of other geographic entities like county subdivisions, places, urban areas, voting districts, congressional districts, and American Indian / Alaska Native / Native Hawaiian areas. BGs have a valid code range of 0 through 9. BGs coded 0 were intended to only include water area, no land area, and they are generally in territorial seas, coastal water, and Great Lakes water areas. For Census 2000, rather than extending a census tract boundary into the Great Lakes or out to the U.S. nautical three-mile limit, the Census Bureau delineated some census tract boundaries along the shoreline or just offshore. The Census Bureau assigned a default census tract number of 0 and BG of 0 to these offshore, water-only areas not included in regularly numbered census tract areas.Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/2010%20Census%20Block%20Groups.pdfData updated: 04/08/2011Use Limitations: This data (i) is furnished "AS IS" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data.</gco:CharacterString>
-         </abstract>
-         <descriptiveKeywords>
-            <MD_Keywords>
-               <keyword>
-                  <gco:CharacterString>Hennepin County (Minn.)</gco:CharacterString>
-               </keyword>
-               <type>
-                  <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
-               </type>
-            </MD_Keywords>
-         </descriptiveKeywords>
-         <descriptiveKeywords>
-            <MD_Keywords>
-               <keyword>
-                  <gco:CharacterString>open data</gco:CharacterString>
-               </keyword>
-               <type>
-                  <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
-               </type>
-            <keyword>
-                  <gco:CharacterString>demographics</gco:CharacterString>
-               </keyword>
-               <keyword>
-                  <gco:CharacterString>people and society</gco:CharacterString>
-               </keyword>
-               <keyword>
-                  <gco:CharacterString>census</gco:CharacterString>
-               </keyword>
-               </MD_Keywords>
-         </descriptiveKeywords>
-         <resourceConstraints>
-            <MD_Constraints>
-               <useLimitation>
-                  <gco:CharacterString>http://gis.hennepin.opendata.arcgis.com/datasets/2e053d4fe8a84e589636e7ff1b036d5e_2/license.json</gco:CharacterString>
-               </useLimitation>
-            </MD_Constraints>
-         </resourceConstraints>
-         <resourceConstraints>
-            <MD_LegalConstraints>
-               <otherConstraints>
-                  <gco:CharacterString>public</gco:CharacterString>
-               </otherConstraints>
-            </MD_LegalConstraints>
-         </resourceConstraints>
-         <spatialRepresentationType>
-            <MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115"/>
-         </spatialRepresentationType>
-         <language>
-            <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
-         </language>
-         <characterSet>
-            <MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
-         </characterSet>
-         <topicCategory>
-            <MD_TopicCategoryCode/>
-         </topicCategory>
-         <environmentDescription>
-            <gco:CharacterString>Version 6.2 (Build 9200) ; Esri ArcGIS 10.2.2.3574</gco:CharacterString>
-         </environmentDescription>
-         <extent>
-            <EX_Extent>
-               <geographicElement>
-                  <EX_GeographicBoundingBox>
-                     <westBoundLongitude>
-                        <gco:Decimal>-93.772</gco:Decimal>
-                     </westBoundLongitude>
-                     <eastBoundLongitude>
-                        <gco:Decimal>-93.1769</gco:Decimal>
-                     </eastBoundLongitude>
-                     <southBoundLatitude>
-                        <gco:Decimal>44.7834</gco:Decimal>
-                     </southBoundLatitude>
-                     <northBoundLatitude>
-                        <gco:Decimal>45.2477</gco:Decimal>
-                     </northBoundLatitude>
-                  </EX_GeographicBoundingBox>
-               </geographicElement>
-            </EX_Extent>
-         </extent>
-      </MD_DataIdentification>
-  </identificationInfo>
-  <distributionInfo>
-      <MD_Distribution>
-         <distributionFormat>
-            <MD_Format>
-               <name>
-                  <gco:CharacterString>ArcGIS Open Dataset</gco:CharacterString>
-               </name>
-               <version gco:nilReason="missing"/>
-            </MD_Format>
-         </distributionFormat>
-         <distributor>
-            <MD_Distributor>
-               <distributorContact gco:nilReason="missing"/>
-               <distributorFormat>
-                  <MD_Format>
-                     <name>
-                        <gco:CharacterString>Shapefile</gco:CharacterString>
-                     </name>
-                     <version gco:nilReason="missing"/>
-                  </MD_Format>
-               </distributorFormat>
-            </MD_Distributor>
-         </distributor>
-         <transferOptions>
-            <MD_DigitalTransferOptions>
-               <transferSize>
-                  <gco:Real>0.29</gco:Real>
-               </transferSize>
-               <onLine>
-                  <CI_OnlineResource>
-                     <linkage>
-                        <URL>http://gis.hennepin.opendata.arcgis.com/datasets/2e053d4fe8a84e589636e7ff1b036d5e_2</URL>
-                     </linkage>
-                     <protocol>
-                        <gco:CharacterString>download</gco:CharacterString>
-                     </protocol>
-                  </CI_OnlineResource>
-               </onLine>
-            </MD_DigitalTransferOptions>
-         </transferOptions>
-         <transferOptions>
-            <MD_DigitalTransferOptions>
-               <onLine>
-                  <CI_OnlineResource>
-                     <linkage>
-                        <URL>http://gis.hennepin.us/arcgis/rest/services/HennepinData/PEOPLE_SOCIETY/MapServer/2</URL>
-                     </linkage>
-                     <protocol>
-                        <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
-                     </protocol>
-                     <name>
-                        <gco:CharacterString/>
-                     </name>
-                     <description>
-                        <gco:CharacterString/>
-                     </description>
-                  </CI_OnlineResource>
-               </onLine>
-            </MD_DigitalTransferOptions>
-         </transferOptions>
-      </MD_Distribution>
-  </distributionInfo>
+<MD_Metadata
+    xmlns="http://www.isotc211.org/2005/gmd"
+    xmlns:srv="http://www.isotc211.org/2005/srv"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:gts="http://www.isotc211.org/2005/gts"
+    xmlns:gml="http://www.opengis.net/gml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
+    <fileIdentifier>
+        <gco:CharacterString>2e053d4fe8a84e589636e7ff1b036d5e_2</gco:CharacterString>
+    </fileIdentifier>
+    <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115"/>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact gco:nilReason="missing"/>
+    <dateStamp>
+        <gco:DateTime/>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <spatialRepresentationInfo>
+        <MD_VectorSpatialRepresentation>
+            <topologyLevel>
+                <MD_TopologyLevelCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115"/>
+            </topologyLevel>
+            <geometricObjects>
+                <MD_GeometricObjects>
+                    <geometricObjectType>
+                        <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
+                    </geometricObjectType>
+                    <geometricObjectCount>
+                        <gco:Integer/>
+                    </geometricObjectCount>
+                </MD_GeometricObjects>
+            </geometricObjects>
+        </MD_VectorSpatialRepresentation>
+    </spatialRepresentationInfo>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem>
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <code>
+                        <gco:CharacterString>4326</gco:CharacterString>
+                    </code>
+                    <codeSpace>
+                        <gco:CharacterString>EPSG</gco:CharacterString>
+                    </codeSpace>
+                    <version>
+                        <gco:CharacterString>8.2.6</gco:CharacterString>
+                    </version>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>2010 Census Block Groups</gco:CharacterString>
+                    </title>
+                    <date gco:nilReason="missing"/>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>hennepin.county.maps</gco:CharacterString>
+                            </organisationName>
+                            <role>
+                                <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString/>
+                            </organisationName>
+                            <role>
+                                <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115"/>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                    <presentationForm>
+                        <CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115"/>
+                    </presentationForm>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>2010 US Census Block Groups for Hennepin County with subset of PL94-171 demographic data.The Hennepin County GIS Office downloaded US Census data from the following sites:Shapefiles:http://www.census.gov/cgi-bin/geo/shapefiles2010/mainPL94-171:http://www.census.gov/rdo/data/2010_census_redistricting_data_pl_94-171_summary_files.htmlPL94-171 tabular data was post processed per instructions and stored in an Access database. Records and a subset of the 290 plus fields were extracted from the master tables using SQL statements. A copy of the statement has been included in the Lineage section of metadata. Tables were registered as a geodatabase and copied to a File Geodatabase. Shapefiles were imported into the File Geodatabase and projected to UTM Zone 15 N. The feature classes were joined to the tabular data and saved as the final US Census layer. The feature classes underwent visual inspection. The number of records were compared and checked. The attribute values were compared to existing Maptitude US Census data.Please contact the Hennepin GIS Office if you require additional PL94-171 fields.Hennepin County GIS OfficeA-705 Government Center Minneapolis, Minnesota 55487-075GIS.Info@co.hennepin.mn.usPhone: 612-596-9484FAX: 612-348-2837The original metadata is contained below.The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. Block Groups (BGs) are defined before tabulation block delineation and numbering, but are clusters of blocks within the same census tract that have the same first digit of their 4-digit census block number from the same decennial census. For example, Census 2000 tabulation blocks 3001, 3002, 3003,.., 3999 within Census 2000 tract 1210.02 are also within BG 3 within that census tract. Census 2000 BGs generally contained between 600 and 3,000 people, with an optimum size of 1,500 people. Most BGs were delineated by local participants in the Census Bureau's Participant Statistical Areas Program (PSAP). The Census Bureau delineated BGs only where the PSAP participant declined to delineate BGs or where the Census Bureau could not identify any local PSAP participant. A BG usually covers a contiguous area. Each census tract contains at least one BG, and BGs are uniquely numbered within census tract. Within the standard census geographic hierarchy, BGs never cross county or census tract boundaries, but may cross the boundaries of other geographic entities like county subdivisions, places, urban areas, voting districts, congressional districts, and American Indian / Alaska Native / Native Hawaiian areas. BGs have a valid code range of 0 through 9. BGs coded 0 were intended to only include water area, no land area, and they are generally in territorial seas, coastal water, and Great Lakes water areas. For Census 2000, rather than extending a census tract boundary into the Great Lakes or out to the U.S. nautical three-mile limit, the Census Bureau delineated some census tract boundaries along the shoreline or just offshore. The Census Bureau assigned a default census tract number of 0 and BG of 0 to these offshore, water-only areas not included in regularly numbered census tract areas.Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/2010%20Census%20Block%20Groups.pdfData updated: 04/08/2011Use Limitations: This data (i) is furnished "AS IS" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data.</gco:CharacterString>
+            </abstract>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Hennepin County (Minn.)</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>open data</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
+                    </type>
+                    <keyword>
+                        <gco:CharacterString>demographics</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>people and society</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>census</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>http://gis.hennepin.opendata.arcgis.com/datasets/2e053d4fe8a84e589636e7ff1b036d5e_2/license.json</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>public</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <spatialRepresentationType>
+                <MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115"/>
+            </spatialRepresentationType>
+            <language>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
+            </language>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+            </characterSet>
+            <topicCategory>
+                <MD_TopicCategoryCode/>
+            </topicCategory>
+            <environmentDescription>
+                <gco:CharacterString>Version 6.2 (Build 9200) ; Esri ArcGIS 10.2.2.3574</gco:CharacterString>
+            </environmentDescription>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <westBoundLongitude>
+                                <gco:Decimal>-93.772</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>-93.1769</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>44.7834</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>45.2477</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </extent>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <distributionFormat>
+                <MD_Format>
+                    <name>
+                        <gco:CharacterString>ArcGIS Open Dataset</gco:CharacterString>
+                    </name>
+                    <version gco:nilReason="missing"/>
+                </MD_Format>
+            </distributionFormat>
+            <distributor>
+                <MD_Distributor>
+                    <distributorContact gco:nilReason="missing"/>
+                    <distributorFormat>
+                        <MD_Format>
+                            <name>
+                                <gco:CharacterString>Shapefile</gco:CharacterString>
+                            </name>
+                            <version gco:nilReason="missing"/>
+                        </MD_Format>
+                    </distributorFormat>
+                </MD_Distributor>
+            </distributor>
+            <transferOptions>
+                <MD_DigitalTransferOptions>
+                    <transferSize>
+                        <gco:Real>0.29</gco:Real>
+                    </transferSize>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>http://gis.hennepin.opendata.arcgis.com/datasets/2e053d4fe8a84e589636e7ff1b036d5e_2.zip</URL>
+                            </linkage>
+                            <protocol>
+                                <gco:CharacterString>download</gco:CharacterString>
+                            </protocol>
+                        </CI_OnlineResource>
+                    </onLine>
+                </MD_DigitalTransferOptions>
+            </transferOptions>
+            <transferOptions>
+                <MD_DigitalTransferOptions>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>http://gis.hennepin.us/arcgis/rest/services/HennepinData/PEOPLE_SOCIETY/MapServer/2</URL>
+                            </linkage>
+                            <protocol>
+                                <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
+                            </protocol>
+                            <name>
+                                <gco:CharacterString/>
+                            </name>
+                            <description>
+                                <gco:CharacterString/>
+                            </description>
+                        </CI_OnlineResource>
+                    </onLine>
+                </MD_DigitalTransferOptions>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
 </MD_Metadata>
