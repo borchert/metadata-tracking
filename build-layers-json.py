@@ -20,6 +20,15 @@ def get_metadata_standard(root):
         return "iso"
 
 with open("layers.json", "wb") as layers_json_file:
+    NSMAP = {
+                   "srv":"http://www.isotc211.org/2005/srv",
+                   "gco":"http://www.isotc211.org/2005/gco",
+                   "xlink":"http://www.w3.org/1999/xlink",
+                   "gts":"http://www.isotc211.org/2005/gts",
+                   "xsi":"http://www.w3.org/2001/XMLSchema-instance",
+                   "gml":"http://www.opengis.net/gml",
+                   "gmd":"http://www.isotc211.org/2005/gmd"
+    }
 
     for dirpath, dirs, files in os.walk("."):
 
@@ -34,15 +43,6 @@ with open("layers.json", "wb") as layers_json_file:
                 layer_id = tree.find("idinfo/citation/citeinfo/title").get("catid")
                
             elif standard == "iso":
-                NSMAP = {
-                   "srv":"http://www.isotc211.org/2005/srv",
-                   "gco":"http://www.isotc211.org/2005/gco",
-                   "xlink":"http://www.w3.org/1999/xlink",
-                   "gts":"http://www.isotc211.org/2005/gts",
-                   "xsi":"http://www.w3.org/2001/XMLSchema-instance",
-                   "gml":"http://www.opengis.net/gml",
-                   "gmd":"http://www.isotc211.org/2005/gmd"
-                }
                 layer_id = tree.findtext("gmd:fileIdentifier/gco:CharacterString", "UNKNOWN", NSMAP)
 
             if layer_id is not "UNKNOWN" and layer_id is not None:
