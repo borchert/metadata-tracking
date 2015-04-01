@@ -202,7 +202,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/cb05984116c146cfa6ee35d32f664bd7_0</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/cb05984116c146cfa6ee35d32f664bd7_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>

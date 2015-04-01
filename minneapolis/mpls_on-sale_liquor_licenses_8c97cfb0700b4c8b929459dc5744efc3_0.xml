@@ -1,6 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <fileIdentifier>
-      <gco:CharacterString>8c97cfb0700b4c8b929459dc5744efc3_0</gco:CharacterString>
+      <gco:CharacterString>=</gco:CharacterString>
   </fileIdentifier>
   <language>
       <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -65,6 +65,13 @@
                <title>
                   <gco:CharacterString>On-Sale Liquor Licenses</gco:CharacterString>
                </title>
+               <identifier>
+                 <MD_Identifier>
+                   <code>
+                     <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/8c97cfb0700b4c8b929459dc5744efc3_0</gco:CharacterString>
+                   </code>
+                 </MD_Identifier>
+               </identifier>
                <date gco:nilReason="missing"/>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
@@ -92,12 +99,12 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>For questions about this data please contact&#160;RegulatoryServicesOpenData@minneapolismn.govCurrent on-sale liquor licenses active in the city.Field DescriptionsAttribute descriptions in respective order:FID - feature IDShape - geometry of featurePERMITID - ID number of permitTYPE - license type codePERMIT - permit numberDECISION - status of licenseLIQUOR_TYP - distinguishes on-sale from off-saleSTATUS - open or closed, all in dataset are openISSUEDATE - issue date of licenseEXPIRE_YEA - expiration year of licenseEXPIRE_DAT - not usedESTABLISHM - number of the establishment holding licenseESTABLISH_1 - name of establishment holding licenseESTABLISH_2 - address of establishment holding licenseESTABLISH_3 -address suite number where applicableESTABLISH_4 - street direction where applicableTYPE_DESCR - additional license descriptionLastUpdate - when data was last updatedWGS_X - X coordinate (WGS84 web mercator auxilliary sphere)WGS_Y - Y coordinate&#160;(WGS84 web mercator auxilliary sphere)APN - parcel ID number</gco:CharacterString>
+            <gco:CharacterString>&lt;div style='margin: 0px; padding: 0px; color: rgb(77, 77, 77); font-family: '&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;&lt;p style='color: rgb(68, 68, 68); line-height: 1.5em; padding: 0px; font-size: 12px; font-family: Verdana, Helvetica, sans-serif; background-color: rgb(255, 255, 255);'&gt;&lt;span style='overflow: auto;'&gt;For questions about this data please contact&#160;&lt;a href='mailto:RegulatoryServicesOpenData@minneapolismn.gov' style='color: rgb(33, 117, 155); font-family: Verdana; font-size: 13px; line-height: 1.38461538461538; outline: none !important; background-color: transparent;' target='_blank'&gt;RegulatoryServicesOpenData@minneapolismn.gov&lt;/a&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;&lt;font size='3'&gt;Current on-sale liquor licenses active in the city.&lt;/font&gt;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;&lt;u&gt;&lt;br /&gt;&lt;/u&gt;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;&lt;u&gt;&lt;b&gt;Field Descriptions&lt;/b&gt;&lt;/u&gt;&lt;/div&gt;Attribute descriptions in respective order:&lt;div style='margin: 0px; padding: 0px;'&gt;FID - feature ID&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;Shape - geometry of feature&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;PERMITID - ID number of permit&lt;br /&gt;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;TYPE - license type code&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;PERMIT - permit number&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;DECISION - status of license&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;LIQUOR_TYP - distinguishes on-sale from off-sale&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;STATUS - open or closed, all in dataset are open&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;ISSUEDATE - issue date of license&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;EXPIRE_YEA - expiration year of license&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;EXPIRE_DAT - not used&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;ESTABLISHM - number of the establishment holding license&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;ESTABLISH_1 - name of establishment holding license&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;ESTABLISH_2 - address of establishment holding license&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;ESTABLISH_3 -address suite number where applicable&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;ESTABLISH_4 - street direction where applicable&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;TYPE_DESCR - additional license description&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;LastUpdate - when data was last updated&lt;br /&gt;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;WGS_X - X coordinate (WGS84 web mercator auxilliary sphere)&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;WGS_Y - Y coordinate&#160;&lt;span style='line-height: 1.38461538461538;'&gt;(WGS84 web mercator auxilliary sphere)&lt;/span&gt;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;&lt;span style='line-height: 1.38461538461538;'&gt;APN - parcel ID number&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>Minneapolis (Minn.)</gco:CharacterString>
+                  <gco:CharacterString>Hennepin County (Minn.)</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
@@ -173,7 +180,7 @@
          <distributionFormat>
             <MD_Format>
                <name>
-                  <gco:CharacterString>ArcGIS Open Dataset</gco:CharacterString>
+                  <gco:CharacterString>shapefile</gco:CharacterString>
                </name>
                <version gco:nilReason="missing"/>
             </MD_Format>
@@ -199,7 +206,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/8c97cfb0700b4c8b929459dc5744efc3_0</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/8c97cfb0700b4c8b929459dc5744efc3_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>

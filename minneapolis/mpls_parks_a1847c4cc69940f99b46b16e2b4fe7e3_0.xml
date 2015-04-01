@@ -92,8 +92,8 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>If there are any issues with the data in this&#13;
-map, service, or shp file please contact the Minneapolis&#160;GIS office.</gco:CharacterString>
+            <gco:CharacterString>&lt;p style='margin-bottom:0in;margin-bottom:.0001pt'&gt;&lt;font size='3'&gt;&lt;span style='line-height: 115%; color: rgb(77, 77, 77); background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;'&gt;If there are any issues with the data in this&#13;
+map, service, or shp file please contact the Minneapolis&lt;/span&gt;&lt;span style='line-height: 115%; color: rgb(77, 77, 77); background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;'&gt;&#160;&lt;/span&gt;&lt;a href='mailto:gis@minneapolismn.gov' style='outline: none !important;' target='_self'&gt;&lt;span style='line-height: 115%; color: rgb(33, 117, 155); background: white;'&gt;GIS office&lt;/span&gt;&lt;/a&gt;&lt;span style='line-height: 115%;'&gt;.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -212,7 +212,7 @@ map, service, or shp file please contact the Minneapolis&#160;GIS office.</gco:C
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/a1847c4cc69940f99b46b16e2b4fe7e3_0</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/a1847c4cc69940f99b46b16e2b4fe7e3_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>

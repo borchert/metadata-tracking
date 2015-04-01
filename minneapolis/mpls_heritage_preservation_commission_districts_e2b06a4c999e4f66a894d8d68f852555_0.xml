@@ -92,7 +92,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Map service showing the&#160;Heritage Preservation Commission Districts&#160;in Minneapolis.</gco:CharacterString>
+            <gco:CharacterString>&lt;font size='3'&gt;Map service showing the&#160;&lt;a href='http://www.minneapolismn.gov/hpc/' target='_blank'&gt;Heritage Preservation Commission Districts&lt;/a&gt;&lt;span style='color: rgb(0, 51, 102); line-height: normal;'&gt;&#160;in Minneapolis.&lt;/span&gt;&lt;/font&gt;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -208,7 +208,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/e2b06a4c999e4f66a894d8d68f852555_0</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/e2b06a4c999e4f66a894d8d68f852555_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>

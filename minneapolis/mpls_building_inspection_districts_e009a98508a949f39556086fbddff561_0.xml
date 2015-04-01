@@ -93,7 +93,7 @@
          </citation>
          <abstract>
             <gco:CharacterString>This layer displays the Building Inspection Districts from Construction Codes Services &#13;
-Division of the Community Planning &amp; Economic Developement (CPED) Department. &#160;Questions regarding this layer should be directed to:Construction Code ServicesPublic Service Center250 S. 4th St., Suite 300Minneapolis, MN 55415311 or (612) 673-3000</gco:CharacterString>
+Division of the Community Planning &amp;amp; Economic Developement (CPED) Department. &#160;Questions regarding this layer should be directed to:&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Construction Code Services&lt;br /&gt;&lt;/strong&gt;&lt;span style='color: rgb(0, 0, 0); font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: normal;'&gt;Public Service Center&lt;/span&gt;&lt;br /&gt;&lt;span style='color: rgb(0, 0, 0); font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: normal;'&gt;250 S. 4th St., Suite 300&lt;/span&gt;&lt;br /&gt;&lt;span style='color: rgb(0, 0, 0); font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: normal;'&gt;Minneapolis, MN 55415&lt;/span&gt;&lt;br /&gt;&lt;span style='color: rgb(0, 0, 0); font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: normal;'&gt;311 or (612) 673-3000&lt;/span&gt;&lt;br /&gt;&lt;/div&gt;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -203,7 +203,7 @@ Division of the Community Planning &amp; Economic Developement (CPED) Department
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/e009a98508a949f39556086fbddff561_0</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/e009a98508a949f39556086fbddff561_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>

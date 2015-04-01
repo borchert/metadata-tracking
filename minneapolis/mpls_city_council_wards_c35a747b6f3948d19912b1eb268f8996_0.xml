@@ -92,7 +92,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>This is the feature map service for the City of Minneapolis City Council Ward Boundaries that were redistricted and adopted in April of 2012. &#160;These boundaries took effect January 1, 2014.</gco:CharacterString>
+            <gco:CharacterString>&lt;span style='color: rgb(77, 77, 77); font-family: '&gt;This is the feature map service for the City of Minneapolis City Council Ward Boundaries that were redistricted and adopted in April of 2012. &#160;These boundaries took effect January 1, 2014.&lt;/span&gt;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -211,7 +211,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/c35a747b6f3948d19912b1eb268f8996_0</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/c35a747b6f3948d19912b1eb268f8996_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>

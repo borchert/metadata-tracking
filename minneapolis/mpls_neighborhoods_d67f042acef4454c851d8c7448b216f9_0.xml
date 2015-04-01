@@ -92,7 +92,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString></gco:CharacterString>
+            <gco:CharacterString>&lt;p style='margin-bottom:0in;margin-bottom:.0001pt'&gt;&lt;br /&gt;&lt;/p&gt;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -205,7 +205,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/d67f042acef4454c851d8c7448b216f9_0</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/d67f042acef4454c851d8c7448b216f9_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>

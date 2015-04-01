@@ -92,7 +92,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>If there are any issues with the data please contact the&#160;GIS office&#160;</gco:CharacterString>
+            <gco:CharacterString>If there are any issues with the data please contact the&#160;&lt;a href='mailto:gis@minneapolismn.gov' target='_self'&gt;GIS office&lt;/a&gt;&#160;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -208,7 +208,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/8d110c659d614474839c9c0642d8974a_0</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/8d110c659d614474839c9c0642d8974a_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>

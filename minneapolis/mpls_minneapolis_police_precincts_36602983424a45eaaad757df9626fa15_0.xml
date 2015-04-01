@@ -92,7 +92,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>&#160;The City of&#160;Minneapolis Police Department Precincts.</gco:CharacterString>
+            <gco:CharacterString>&#160;The City of&#160;&lt;a href='http://www.minneapolismn.gov/police/' target='_top'&gt;Minneapolis Police Department Precincts&lt;/a&gt;.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -208,7 +208,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/36602983424a45eaaad757df9626fa15_0</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/36602983424a45eaaad757df9626fa15_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>

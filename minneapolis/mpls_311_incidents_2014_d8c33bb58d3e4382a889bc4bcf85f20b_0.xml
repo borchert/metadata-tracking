@@ -1,6 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <fileIdentifier>
-      <gco:CharacterString>d8c33bb58d3e4382a889bc4bcf85f20b_0</gco:CharacterString>
+      <gco:CharacterString>=</gco:CharacterString>
   </fileIdentifier>
   <language>
       <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -65,6 +65,13 @@
                <title>
                   <gco:CharacterString>311 Incidents 2014</gco:CharacterString>
                </title>
+               <identifier>
+                 <MD_Identifier>
+                   <code>
+                     <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/d8c33bb58d3e4382a889bc4bcf85f20b_0</gco:CharacterString>
+                   </code>
+                 </MD_Identifier>
+               </identifier>
                <date gco:nilReason="missing"/>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
@@ -92,214 +99,287 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>For questions about this data please contact&#160;311OpenData@minneapolismn.govThe data provided are public-facing service requests that were taken by 311 contact center agents, or through online and mobile applications, and entered the Lagan CRM system during 2014. The two main identifiers of data, with which users of the open data should converse with 311, are the Case ID and the Type Name field. Type name is the common used title for a service request among city staff, 311, and the community at large.Attribute DescriptionsCase ID - Gives a unique identifying number associated with each case.&#160;Subject - This is the top level hierarchy definition of a service request. It is most closely associated with a department designation.&#160;Enquiry Type ID - An additional identification number .Reason - This is the 2nd level classification of a service request and reflects a program name or a division assigned to perform the service request.&#160;Type - This is the 3rd level classification describing what the service request specifically is for. It is the most common designation description used in the city.&#160;Title - Similar to the Type column, this describes more details about the incident.&#160;Open Date Time - This is the date and time stamp when the department, program, or division assigned to complete the task in a service request starts working that service request.&#160;Case Status - If case status = "0", it means the case is closed. If case status = "1", the case is still considered open. All cases with a case status of "1" should not have a closed date.Closed Date Time - The date a resolving department, division or program completed the service request.&#160;XCoord &amp; YCoord - This is the coordinate the city provides of where the service request occurred in the WGS 84 web Mercator auxilliary sphere coordinate system.Service Request Definition ListAbandoned Vehicle &#8211; a&#13;
+            <gco:CharacterString>&lt;div&gt;&lt;span style='font-family: Verdana, Helvetica, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255);'&gt;For questions about this data please contact&#160;&lt;/span&gt;&lt;a href='mailto:311OpenData@minneapolismn.gov' style='line-height: 1.38461538461538; color: rgb(33, 117, 155); outline: none !important;' target='_blank'&gt;311OpenData@minneapolismn.gov&lt;/a&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;The data provided are public-facing service requests that were taken by 311 contact center agents, or through online and mobile applications, and entered the Lagan CRM system during 2014. The two main identifiers of data, with which users of the open data should converse with 311, are the Case ID and the Type Name field. Type name is the common used title for a service request among city staff, 311, and the community at large.&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div style='margin: 0px; padding: 0px; color: rgb(77, 77, 77); font-family: '&gt;&lt;span style='font-size: medium; line-height: 22.153844833374px;'&gt;&lt;b&gt;Attribute Descriptions&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px; color: rgb(77, 77, 77); font-family: '&gt;Case ID - Gives a unique identifying number associated with each case.&#160;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px; color: rgb(77, 77, 77); font-family: '&gt;Subject - This is the top level hierarchy definition of a service request. It is most closely associated with a department designation.&#160;&lt;div style='margin: 0px; padding: 0px;'&gt;&lt;span style='line-height: 1.38461538461538;'&gt;Enquiry Type ID - An additional identification number .&lt;/span&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;Reason - This is the 2nd level classification of a service request and reflects a program name or a division assigned to perform the service request.&#160;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;Type - This is the 3rd level classification describing what the service request specifically is for. It is the most common designation description used in the city.&#160;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;Title - Similar to the Type column, this describes more details about the incident.&#160;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;&lt;span style='line-height: 1.38461538461538;'&gt;Open Date Time - This is the date and time stamp when the department, program, or division assigned to complete the task in a service request starts working that service request.&#160;&lt;/span&gt;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;&lt;span style='line-height: 1.38461538461538;'&gt;Case Status - If case status = &amp;quot;0&amp;quot;, it means the case is closed. If case status = &amp;quot;1&amp;quot;, the case is still considered open. All cases with a case status of &amp;quot;1&amp;quot; should not have a closed date.&lt;/span&gt;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;&lt;span style='line-height: 1.38461538461538;'&gt;Closed Date Time - The date a resolving department, division or program completed the service request.&#160;&lt;/span&gt;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;&lt;span style='line-height: 1.38461538461538;'&gt;XCoord &amp;amp; YCoord - This is the coordinate the city provides of where the service request occurred in the WGS 84 web Mercator auxilliary sphere coordinate system.&lt;/span&gt;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&lt;b&gt;&lt;font size='3'&gt;Service Request Definition List&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px;'&gt;&lt;p&gt;&lt;b&gt;Abandoned Vehicle &#8211; &lt;/b&gt;a&#13;
 vehicle parked in a public right of way (street) that appears to have been left&#13;
 by its owner in excess of 72 consecutive hours or lacking vital component parts&#13;
-(City Ordinance 478.250).
-Abandoned Vehicle &#8211;&#13;
-Open311 &#8211; vehicle reported abandoned via the Minneapolis Mobile&#13;
-Application.
-Abandoned/Illegally&#13;
-Parked Bicycle &#8211; This is a report of an abandoned (or missing parts) bike&#13;
-by owner or someone else
-Air Pollution Complaint &#8211; air contaminants, fumes, or other offensive&#13;
-odors that occur outdoors and impacts the environment.Animal Complaint &#8211;&#13;
-Livability &#8211; nuisance conditions such as barking dog, stray pets
-Animal Complaint &#8211;&#13;
-Public Health &#8211; abandoned, mistreated or uncared for animal, excessive&#13;
-feces in yard causing health risks.
-Barricade&#13;
-Pickup/Placement &#8211; request for City staff to deploy or remove barricades&#13;
-from city street and or sidewalks.
-Bicycle Lane Issue&#13;
+(City Ordinance 478.250).&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Abandoned Vehicle &#8211;&#13;
+Open311&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; vehicle reported abandoned via the Minneapolis Mobile&#13;
+Application.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Abandoned/Illegally&#13;
+Parked Bicycle &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;This is a report of an abandoned (or missing parts) bike&#13;
+by owner or someone else&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Air Pollution Complaint &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;air contaminants, fumes, or other offensive&#13;
+odors that occur outdoors and impacts the environment.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Animal Complaint &#8211;&#13;
+Livability &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;nuisance conditions such as barking dog, stray pets&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Animal Complaint &#8211;&#13;
+Public Healt&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;h &#8211; abandoned, mistreated or uncared for animal, excessive&#13;
+feces in yard causing health risks.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Barricade&#13;
+Pickup/Placement &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;request for City staff to deploy or remove barricades&#13;
+from city street and or sidewalks.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Bicycle Lane Issue&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#13;
 &#8211; complaint for users of bike paths to report off-street bike path trail issues&#13;
 such as pavement, lighting, fencing, signs, debris, overgrown vegetation, etc.&#13;
-phones or other nuisance conditions on city bicycle paths.
-Bridge Complaint &#8211; structural&#13;
-issue that needs attention
-Chemical Spill &#8211;&#13;
-chemical contaminant spilled in any non-authorized location in the city.
-Commercial Food&#13;
-Safety/Sanitation Complaint &#8211; unclean or unhealthy conditions suspected at&#13;
-an eating establishment
-Debris in the Street&#13;
-or Alley &#8211; branches, appliances, or general objects that are blocking an&#13;
-alleyway or street.
-Debris Alley/Street &#8211;&#13;
-Open 311 &#8211; Debris in street or alley reported via the Minneapolis Mobile&#13;
-Application.
-Emergency Pollution&#13;
-Complaint same as land, air, water but emergency requiring contact with 911
-Exterior Nuisance&#13;
-Complaint &#8211; nuisance conditions located on the exterior of a building, such&#13;
-as long grass, debris or trash, or long weeds.
-Exterior Nuisance &#8211;&#13;
-Self Service &#8211; nuisance conditions reportable on the 311 online&#13;
-applications on the website
-Fence or Guardrail&#13;
-Maintenance &#8211; report about a fence or guardrail along a city street that&#13;
-may be in disrepair
-Fire Hydrant Snow&#13;
-Issue &#8211; snow is impeding the normal operation of a fire hydrant&#8230;.needs to&#13;
-be shoveled out.
-General Street&#13;
-Complaint &#8211; non-specific problem with a street that does not fit in any&#13;
-other type of street complaint
-Graffiti&#13;
-complaint/reporting &#8211; tagger or gang graffiti on properties, public signs,&#13;
-or any surface
-Graffiti &#8211; Open 311&#13;
-&#8211; graffiti complaint made via Minneapolis Mobile Application
-Hydrant Issue &#8211;&#13;
-hydrant out of service, leaking water, damaged, etc
-Illegal Dumping&#13;
-Complaint &#8211; report of waste being disposed at a location other than where&#13;
-it was generated and there is proof of the dumping
-Land Pollution&#13;
-Complaint &#8211; contaminant suspected in land that may require environmental&#13;
-remediation to restore
-Licensing Complaint&#13;
+phones or other nuisance conditions on city bicycle paths.&lt;/span&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Bridge Complaint &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;structural&#13;
+issue that needs attention&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Chemical Spill &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#8211;&#13;
+chemical contaminant spilled in any non-authorized location in the city.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Commercial Food&#13;
+Safety/Sanitation Complaint &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;unclean or unhealthy conditions suspected at&#13;
+an eating establishment&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Debris in the Street&#13;
+or Alley&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; branches, appliances, or general objects that are blocking an&#13;
+alleyway or street.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Debris Alley/Street &#8211;&#13;
+Open 311 &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#8211; Debris in street or alley reported via the Minneapolis Mobile&#13;
+Application.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Emergency Pollution&#13;
+Complaint &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;same as land, air, water but emergency requiring contact with 911&lt;/span&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Exterior Nuisance&#13;
+Complaint &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;nuisance conditions located on the exterior of a building, such&#13;
+as long grass, debris or trash, or long weeds.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Exterior Nuisance &#8211;&#13;
+Self Service &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#8211; nuisance conditions reportable on the 311 online&#13;
+applications on the website&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Fence or Guardrail&#13;
+Maintenance &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#8211; report about a fence or guardrail along a city street that&#13;
+may be in disrepair&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Fire Hydrant Snow&#13;
+Issue &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;snow is impeding the normal operation of a fire hydrant&#8230;.needs to&#13;
+be shoveled out.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;General Street&#13;
+Complaint&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; non-specific problem with a street that does not fit in any&#13;
+other type of street complaint&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Graffiti&#13;
+complaint/reporting&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; tagger or gang graffiti on properties, public signs,&#13;
+or any surface&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Graffiti &#8211; Open 311&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#13;
+&#8211; graffiti complaint made via Minneapolis Mobile Application&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Hydrant Issue&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211;&#13;
+hydrant out of service, leaking water, damaged, etc&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Illegal Dumping&#13;
+Complaint&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; report of waste being disposed at a location other than where&#13;
+it was generated and there is proof of the dumping&lt;/span&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Land Pollution&#13;
+Complaint &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#8211; contaminant suspected in land that may require environmental&#13;
+remediation to restore&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Licensing Complaint&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#13;
 &#8211; complaints or concerns about a business either licensed by Minneapolis, or&#13;
-operating without a license.
-Newspaper Box&#13;
-Complaint &#8211; newspaper boxes for community newspapers, shoppers, or even&#13;
+operating without a license.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Newspaper Box&#13;
+Complaint &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;newspaper boxes for community newspapers, shoppers, or even&#13;
 major dailies in a state of disrepair, or not used, or obstructing the public&#13;
-right of way.
-Noise Pollution&#13;
-Complaint &#8211; excessive noise that disrupts peace and tranquility of&#13;
-neighborhoods.
-Parking Meter Citation Issue report that a defective meter/pay&#13;
-station may have cause the vehicle owner to get a ticket
-Parking Meter Problem&#13;
-&#8211; parking meter in need of attention or maintenance&#8230;possibly malfunctioning
-Parking Meter &#8211;&#13;
-Open311 &#8211; parking meter problem reported via Minneapolis Mobile&#13;
-Application.
-Parking Ramp/Lot&#13;
-Issue &#8211; problem with ramp such as lights out affecting safety, mechanical&#13;
-problems with equipment, cluttered or unsafe stairwells.
-Parking Violation&#13;
-Complaint &#8211; someone parked in a no parking zone, fire lane, etc.
-Parking Violation &#8211;&#13;
-Open311 &#8211; parking violation made via Minneapolis Mobile Application
-Permitted Work - report&#13;
+right of way.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Noise Pollution&#13;
+Complaint&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; excessive noise that disrupts peace and tranquility of&#13;
+neighborhoods.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Parking Meter Citation Issue&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; report that a defective meter/pay&#13;
+station may have cause the vehicle owner to get a ticket&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Parking Meter Problem&#13;
+&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#8211; parking meter in need of attention or maintenance&#8230;possibly malfunctioning&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Parking Meter &#8211;&#13;
+Open311&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; parking meter problem reported via Minneapolis Mobile&#13;
+Application.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Parking Ramp/Lot&#13;
+Issue&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; problem with ramp such as lights out affecting safety, mechanical&#13;
+problems with equipment, cluttered or unsafe stairwells.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Parking Violation&#13;
+Complaint&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; someone parked in a no parking zone, fire lane, etc.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Parking Violation &#8211;&#13;
+Open311 &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;parking violation made via Minneapolis Mobile Application&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Permitted Work - &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;report&#13;
 of concerns about construction work being done on private property after a&#13;
-permit has been obtained
-Pothole &#8211; report&#13;
-of pavement depression/defect
-Pothole &#8211; Open311&#13;
-&#8211; pothole reported via Minneapolis Mobile Application
-Residential&#13;
-Conditions Complaint &#8211; a structural problem with a residential property&#13;
+permit has been obtained&lt;/span&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Pothole&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; report&#13;
+of pavement depression/defect&lt;/span&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Pothole &#8211; Open311&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#13;
+&#8211; pothole reported via Minneapolis Mobile Application&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Residential&#13;
+Conditions Complaint&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; a structural problem with a residential property&#13;
 with 1-3 dwelling units, such as stairwell needing repair, or a chimney in&#13;
-disrepair, or a broken window.&#160;
-Residential&#13;
-Conditions Complaint HOD (High Occupancy Dwelling) &#8211; a conditions complaint&#13;
+disrepair, or a broken window.&lt;/span&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#160;&lt;/span&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Residential&#13;
+Conditions Complaint HOD (High Occupancy Dwelling) &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;a conditions complaint&#13;
 for properties with 4 or more residential dwelling units, or a mixed commercial&#13;
-and residential building, or a commercial building complaint.
-Residential&#13;
-Conditions Complaint Tenant &#8211; a complaint in which the tenant of a 1-3 unit&#13;
+and residential building, or a commercial building complaint.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Residential&#13;
+Conditions Complaint Tenant &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;a complaint in which the tenant of a 1-3 unit&#13;
 residential dwelling unit is adversely affected by a condition in a property,&#13;
 such as nuisance conditions like pests, or heat issues, or malfunctioning&#13;
-equipment.
-Residential&#13;
-Conditions Complaint HOD Tenant - this is a tenant complaint in a&#13;
+equipment.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Residential&#13;
+Conditions Complaint HOD Tenant -&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; this is a tenant complaint in a&#13;
 residential building with 4 or more units, a mixed commercial and residential&#13;
-building, or a commercial building complaint.
-Residential&#13;
-Disability Zone &#8211; a vehicle parked in a zone reserved for disabled citizens&#13;
-illegally, or periodically can be reported here.
-Sand Barrell &#8211; request&#13;
-to have a sand barrel placed at a location in the City of Minneapolis
-Sewer Issues &#8211; report&#13;
-of sewer issues such as missing grate, odor,&#13;
-plugged basin, manhole cover issue, sewer backup, etc.
-Sidewalk Obstruction&#13;
-Complaint &#8211; an object or overhanging bush or tree that prevents public&#13;
-right of way on the sidewalk
-Sidewalk Snow &amp;&#13;
-Ice Complaint &#8211; sidewalk that has not been maintained after a snow event or&#13;
-in a melt refreeze cycle.
-Sidewalk Snow and Ice&#13;
-&#8211; SS &#8211; sidewalk snow and ice complaint that is reported on the 311 website.
-Sidewalk Snow &amp;&#13;
-Ice &#8211; Open311 &#8211; sidewalk snow &amp; ice report via Minneapolis Mobile&#13;
-Application
-Sidewalk Structural&#13;
-Complaint &#8211; a sidewalk that is uneven, or fractured can be reported on this&#13;
-service request.
-Sidewalk Structural &#8211;&#13;
-Open311 &#8211; a sidewalk structural complaint made via Minneapolis Mobile&#13;
-Application
-Sign Complaint &#8211;&#13;
+building, or a commercial building complaint.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Residential&#13;
+Disability Zone &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;a vehicle parked in a zone reserved for disabled citizens&#13;
+illegally, or periodically can be reported here.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Sand Barrell &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;request&#13;
+to have a sand barrel placed at a location in the City of Minneapolis&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Sewer Issues &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;report&#13;
+of sewer issues such as missing grate,&lt;/span&gt;&lt;b&gt; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;odor,&#13;
+plugged basin, manhole cover issue, sewer backup, etc.&lt;/span&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Sidewalk Obstruction&#13;
+Complaint &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;an object or overhanging bush or tree that prevents public&#13;
+right of way on the sidewalk&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Sidewalk Snow &amp;amp;&#13;
+Ice Complaint &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;sidewalk that has not been maintained after a snow event or&#13;
+in a melt refreeze cycle.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Sidewalk Snow and Ice&#13;
+&#8211; SS &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;sidewalk snow and ice complaint that is reported on the 311 website.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Sidewalk Snow &amp;amp;&#13;
+Ice &#8211; Open311 &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;sidewalk snow &amp;amp; ice report via Minneapolis Mobile&#13;
+Application&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Sidewalk Structural&#13;
+Complaint &#8211;&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; a sidewalk that is uneven, or fractured can be reported on this&#13;
+service request.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Sidewalk Structural &#8211;&#13;
+Open311&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; a sidewalk structural complaint made via Minneapolis Mobile&#13;
+Application&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Sign Complaint&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211;&#13;
 a sign that is not permitted in the city, like a bandit sign for real estate&#13;
-purchasing companies, or other unwanted signs.
-Snow &#8211; Illegal&#13;
-Dumping &#8211; complaint about snow being shoveled and dumped back into the&#13;
-street or public right of way.
-Snow &amp; Ice Complaint&#13;
-&#8211; this is a snow and ice complaint in a city street or alley
-Special Sweep &#8211;&#13;
+purchasing companies, or other unwanted signs.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Snow &#8211; Illegal&#13;
+Dumping &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#8211; complaint about snow being shoveled and dumped back into the&#13;
+street or public right of way.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Snow &amp;amp; Ice Complaint&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#13;
+&#8211; this is a snow and ice complaint in a city street or alley&lt;/span&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Special Sweep&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211;&#13;
 customer can request a street sweep of their street due to dirt or loose debris&#13;
-in the street
-Speed Wagon &#8211; a&#13;
+in the street&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Speed Wagon &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#8211; a&#13;
 request for a speed indicator to be deployed on a city right of way (street) to&#13;
-indicate vehicle speeds
-Sports Equipment in&#13;
-Street &#8211; items that create obstructions for right of way in streets like&#13;
-portable basketball hoops.
-Street Light &#8211; New &#8211;&#13;
-a request for the city to deploy a new street light in a given city street/alley
-Street Light Trouble&#13;
-&#8211; street lights no longer working that need to be replaced
-Street Light Trouble&#13;
-&#8211; Open311 &#8211; street light issues reported via Minneapolis Mobile Application
-Streets Snow &amp;&#13;
-Ice &#8211; Open311 &#8211; snow and ice complaint via Minneapolis Mobile Application
-Traffic Sign &#8211; New &#8211; request&#13;
-for a new traffic sign at an intersection, or somewhere in&#160; or near the public right of way
-Traffic Sign &#8211;&#13;
-Removal &#8211; request for an existing traffic sign to be removed
-Traffic Sign &#8211; Repair&#13;
-&#8211; request for a sign in some level of reported disrepair to be repaired or&#13;
-restored to fully functional condition
-Traffic Sign Repair &#8211;&#13;
-Open311 &#8211; sign repair requested via Minneapolis Mobile Application
-Traffic Signal &#8211;&#13;
-New/Modification &#8211; a request for a new traffic light at an intersection
-Traffic Signal Timing&#13;
-Issue &#8211; a problem with a light that causes delays or spillover traffic in&#13;
+indicate vehicle speeds&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Sports Equipment in&#13;
+Street &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#8211; items that create obstructions for right of way in streets like&#13;
+portable basketball hoops.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Street Light &#8211; New &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#8211;&#13;
+a request for the city to deploy a new street light in a given city street/alley&lt;/span&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Street Light Trouble&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#13;
+&#8211; street lights no longer working that need to be replaced&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Street Light Trouble&#13;
+&#8211; Open311 &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;street light issues reported via Minneapolis Mobile Application&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Streets Snow &amp;amp;&#13;
+Ice &#8211; Open311&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; snow and ice complaint via Minneapolis Mobile Application&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Traffic Sign &#8211; New &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;request&#13;
+for a new traffic sign at an intersection, or somewhere in&lt;/span&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#160; &lt;/span&gt;&lt;span style='line-height: 1.38461538461538;'&gt;or near the public right of way&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Traffic Sign &#8211;&#13;
+Removal&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; request for an existing traffic sign to be removed&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Traffic Sign &#8211; Repair&#13;
+&#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;request for a sign in some level of reported disrepair to be repaired or&#13;
+restored to fully functional condition&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Traffic Sign Repair &#8211;&#13;
+Open311&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; sign repair requested via Minneapolis Mobile Application&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Traffic Signal &#8211;&#13;
+New/Modification&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; a request for a new traffic light at an intersection&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Traffic Signal Timing&#13;
+Issue&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; a problem with a light that causes delays or spillover traffic in&#13;
 other intersections due to poorly or disproportionate time given to one right&#13;
-of way over another.
-Traffic Signal&#13;
-Trouble &#8211; signal has lights out or is malfunctioning in some way
-Traffic Signal&#13;
-Trouble &#8211; Open311 &#8211; traffic signal trouble reported via Minneapolis Mobile&#13;
-Application
-Trees Down &#8211; report&#13;
-about a tree or tree branch that is obstruction the public right of way
-Unpermitted Work &#8211;&#13;
+of way over another.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Traffic Signal&#13;
+Trouble&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; signal has lights out or is malfunctioning in some way&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Traffic Signal&#13;
+Trouble &#8211; Open311 &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;traffic signal trouble reported via Minneapolis Mobile&#13;
+Application&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Trees Down&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt; &#8211; report&#13;
+about a tree or tree branch that is obstruction the public right of way&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Unpermitted Work &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#8211;&#13;
 report that indicates concern that a citizen or contractor is performing work&#13;
-on properties that requires a city of Minneapolis permit
-Urgent Pollution&#13;
-Complaint &#8211; land, air, water pollution complaints that need immediate&#13;
-attention
-Water Main Break &#8211;&#13;
-Report about water leaking or gushing from a main water pipe
-Water Pollution&#13;
-Complaint &#8211; can report concerns about suspected water pollution
-Water Quality Issues&#13;
-&#8211; reports about water having color, or fishy taste, or some other concern&#13;
-about the quality of water.
-Water Service Issue &#8211;&#13;
-report about frozen water pipes, leaks, low pressure, no water, etc.
-Zoning Ordinance&#13;
-Complaint &#8211; complaints about zoning regulations</gco:CharacterString>
+on properties that requires a city of Minneapolis permit&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Urgent Pollution&#13;
+Complaint &#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;land, air, water pollution complaints that need immediate&#13;
+attention&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Water Main Break &#8211;&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#13;
+Report about water leaking or gushing from a main water pipe&lt;/span&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Water Pollution&#13;
+Complaint &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#8211; can report concerns about suspected water pollution&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Water Quality Issues&#13;
+&#8211; &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;reports about water having color, or fishy taste, or some other concern&#13;
+about the quality of water.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Water Service Issue &#8211;&#13;
+&lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;report about frozen water pipes, leaks, low pressure, no water, etc.&lt;/span&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;b&gt;Zoning Ordinance&#13;
+Complaint &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#8211; complaints about zoning regulations&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>Minneapolis (Minn.)</gco:CharacterString>
+                  <gco:CharacterString>Hennepin County (Minn.)</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
@@ -384,7 +464,7 @@ Complaint &#8211; complaints about zoning regulations</gco:CharacterString>
          <distributionFormat>
             <MD_Format>
                <name>
-                  <gco:CharacterString>ArcGIS Open Dataset</gco:CharacterString>
+                  <gco:CharacterString>shapefile</gco:CharacterString>
                </name>
                <version gco:nilReason="missing"/>
             </MD_Format>
@@ -410,7 +490,7 @@ Complaint &#8211; complaints about zoning regulations</gco:CharacterString>
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/d8c33bb58d3e4382a889bc4bcf85f20b_0</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/d8c33bb58d3e4382a889bc4bcf85f20b_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>

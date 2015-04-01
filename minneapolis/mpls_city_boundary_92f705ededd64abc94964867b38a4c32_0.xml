@@ -92,9 +92,11 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>If there are&#13;
+            <gco:CharacterString>&lt;p&gt;&lt;span style='font-size:10.5pt;line-height:115%;font-family:&#13;
+&amp;quot;Lucida Sans Unicode&amp;quot;,&amp;quot;sans-serif&amp;quot;;color:#4D4D4D;background:white'&gt;If there are&#13;
 any issues with the data in this map, service, or shp file please contact the&#13;
-Minneapolis&#160;GIS office.</gco:CharacterString>
+Minneapolis&#160;&lt;/span&gt;&lt;a href='mailto:gis@minneapolismn.gov' style='outline: none !important;' target='_self'&gt;&lt;span style='font-size:10.5pt;line-height:115%;font-family:&amp;quot;Lucida Sans Unicode&amp;quot;,&amp;quot;sans-serif&amp;quot;;&#13;
+color:#21759B;background:white'&gt;GIS office&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -201,7 +203,7 @@ Minneapolis&#160;GIS office.</gco:CharacterString>
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/92f705ededd64abc94964867b38a4c32_0</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/92f705ededd64abc94964867b38a4c32_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>

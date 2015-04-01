@@ -92,9 +92,9 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Downloadable shp file of the City's road network.&#160;If there are any&#13;
+            <gco:CharacterString>&lt;font size='3'&gt;&lt;span style='color: rgb(77, 77, 77); line-height: 18.3999996185303px; background-color: rgb(255, 255, 255);'&gt;Downloadable shp file of the City's road network.&#160;&lt;/span&gt;&lt;span style='line-height: 115%; color: rgb(77, 77, 77); background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;'&gt;If there are any&#13;
 issues with the data in this map, service, or shp file please contact the&#13;
-Minneapolis&#160;GIS office.</gco:CharacterString>
+Minneapolis&lt;/span&gt;&lt;span style='line-height: 115%; color: rgb(77, 77, 77); background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;'&gt;&#160;&lt;/span&gt;&lt;span style='line-height: 115%;'&gt;&lt;a href='mailto:gis@minneapolismn.gov' style='outline: none !important;' target='_self'&gt;&lt;span style='line-height: 115%; color: rgb(33, 117, 155); background: white;'&gt;GIS office&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span style='line-height: 115%;'&gt;.&lt;/span&gt;&lt;/font&gt;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -207,7 +207,7 @@ Minneapolis&#160;GIS office.</gco:CharacterString>
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/9d845322959a4b6193645957a995dac0_0</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/9d845322959a4b6193645957a995dac0_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>

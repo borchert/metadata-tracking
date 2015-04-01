@@ -92,7 +92,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>This is the feature service for the City of Minneapolis's primary Zoning layer. &#160;Please refer to the City's&#160;Zoning&#160;webpage for more details about what the zoning codes mean and the types of uses allowed in the designated zoning area. &#160;While variance updates made to this layer occur often, this dataset will be updated quarterly.&#160;</gco:CharacterString>
+            <gco:CharacterString>This is the feature service for the City of Minneapolis's primary Zoning layer. &#160;Please refer to the City's&#160;&lt;a href='http://www.minneapolismn.gov/zoning/' target='_blank'&gt;Zoning&lt;/a&gt;&#160;webpage for more details about what the zoning codes mean and the types of uses allowed in the designated zoning area. &#160;While variance updates made to this layer occur often, this dataset will be updated quarterly.&#160;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -223,7 +223,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/eac15cee3f2d4ec4887e1f8995955ef1_0</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/eac15cee3f2d4ec4887e1f8995955ef1_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
