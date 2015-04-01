@@ -32,7 +32,7 @@
          <geometricObjects>
             <MD_GeometricObjects>
                <geometricObjectType>
-                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
+                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
                   <gco:Integer/>
@@ -63,12 +63,12 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Minnesota Hospitals</gco:CharacterString>
+                  <gco:CharacterString>HSPHD Regions</gco:CharacterString>
                </title>
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>http://gis.hennepin.opendata.arcgis.com/datasets/311d9bce9fe54b72ac7654aa78bf3a8b_1</gco:CharacterString>
+                     <gco:CharacterString>http://gis.hennepin.opendata.arcgis.com/datasets/00c7e7125e5d49da9b963129bdca007b_2</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
@@ -99,9 +99,8 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Hospitals: shows all hospitals in the state of Minnesota, arranged by county.&#160; &lt;br /&gt;&lt;br /&gt;Downloaded from the Minnesota Department of Health February 24, 2013. Hospital names and health system associations updated on April 10, 2013.&lt;br /&gt;&lt;br /&gt;http://www.health.state.mn.us/divs/fpc/directory/fpcdir.html&lt;br /&gt;&lt;br /&gt;Addresses cleaned and geocoded by the Hennepin County Human Services and Public Health Dept (HSPHD). Match rate 100% (135). Where possible road centerline geocoded locations were improved to parcel centroid.&#160; &lt;br /&gt;&lt;br /&gt;The field NAME contains the hospital name.&#13;
-&#13;
-&lt;br /&gt;&lt;br /&gt;Link to Attribute Table Information: &lt;a href='http://gis.hennepin.us/OpenData/Metadata/Minnesota%20Hospitals.pdf ' target='_blank'&gt;http://gis.hennepin.us/OpenData/Metadata/Minnesota%20Hospitals.pdf &lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Data updated: 05/22/2014&lt;br /&gt;&lt;br /&gt;Use Limitations: This data (i) is furnished &amp;quot;AS IS&amp;quot; with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data.</gco:CharacterString>
+            <gco:CharacterString>The Hennepin County Human Services and Public Health Department (HSPHD) Geographic Regions are the six geographic areas (three in Minneapolis, and three in the suburbs) in which HSPHD client service delivery will be provided. These HSPHD Geographic Regions were created to strategically place HSPHD staff within the county to improve access to department services and to integrate services for clients withint the department, with other governmental agencies and with community-based services. Each geographic region will have one hub site in which all core HSPHD services will be provided or accessed, and one or more satellite sites at which specialized services will be provided. Regionalization (or decentralization) of services, along with a redesigned (and integrated) client service delivery model, will provide for easier client access to services and information, along with better client outcomes.The boundary was updated March 2014 to align with the county boundary, municipal boundaries, Minneapolis neighborhoods, and Franklin Ave. This was completed by the Hennepin County GIS Office.&#160; The Field REG_NAME contains the HSPHD regions name.&#13;
+&lt;br /&gt;&lt;br /&gt;Link to Attribute Table Information: &lt;a href='http://gis.hennepin.us/OpenData/Metadata/HSPHD%20Regions.pdf ' target='_blank'&gt;http://gis.hennepin.us/OpenData/Metadata/HSPHD%20Regions.pdf &lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Data updated: 03/01/2014&lt;br /&gt;&lt;br /&gt;Use Limitations: This data (i) is furnished &amp;quot;AS IS&amp;quot; with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -122,17 +121,17 @@
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>health</gco:CharacterString>
+                  <gco:CharacterString>boundaries</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>hospitals</gco:CharacterString>
+                  <gco:CharacterString>health</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://gis.hennepin.opendata.arcgis.com/datasets/311d9bce9fe54b72ac7654aa78bf3a8b_1/license.json</gco:CharacterString>
+                  <gco:CharacterString>http://gis.hennepin.opendata.arcgis.com/datasets/00c7e7125e5d49da9b963129bdca007b_2/license.json</gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -163,16 +162,16 @@
                <geographicElement>
                   <EX_GeographicBoundingBox>
                      <westBoundLongitude>
-                        <gco:Decimal>-96.9433</gco:Decimal>
+                        <gco:Decimal>-93.7728</gco:Decimal>
                      </westBoundLongitude>
                      <eastBoundLongitude>
-                        <gco:Decimal>-90.2694</gco:Decimal>
+                        <gco:Decimal>-93.1766</gco:Decimal>
                      </eastBoundLongitude>
                      <southBoundLatitude>
-                        <gco:Decimal>43.5832</gco:Decimal>
+                        <gco:Decimal>44.783</gco:Decimal>
                      </southBoundLatitude>
                      <northBoundLatitude>
-                        <gco:Decimal>48.8726</gco:Decimal>
+                        <gco:Decimal>45.2471</gco:Decimal>
                      </northBoundLatitude>
                   </EX_GeographicBoundingBox>
                </geographicElement>
@@ -211,7 +210,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://gis.hennepin.opendata.arcgis.com/datasets/311d9bce9fe54b72ac7654aa78bf3a8b_1.zip</URL>
+                        <URL>http://gis.hennepin.opendata.arcgis.com/datasets/00c7e7125e5d49da9b963129bdca007b_2.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -225,7 +224,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://gis.hennepin.us/arcgis/rest/services/HennepinData/HEALTH/MapServer/1</URL>
+                        <URL>http://gis.hennepin.us/arcgis/rest/services/HennepinData/BOUNDARIES/MapServer/2</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

@@ -1,6 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <fileIdentifier>
-      <gco:CharacterString>f8650dcc821e42dfa757b16f4607538f_8</gco:CharacterString>
+      <gco:CharacterString>=</gco:CharacterString>
   </fileIdentifier>
   <language>
       <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -65,6 +65,13 @@
                <title>
                   <gco:CharacterString>Homeless Shelters</gco:CharacterString>
                </title>
+               <identifier>
+                 <MD_Identifier>
+                   <code>
+                     <gco:CharacterString>http://gis.hennepin.opendata.arcgis.com/datasets/f8650dcc821e42dfa757b16f4607538f_8</gco:CharacterString>
+                   </code>
+                 </MD_Identifier>
+               </identifier>
                <date gco:nilReason="missing"/>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
@@ -94,7 +101,7 @@
          <abstract>
             <gco:CharacterString>The GIS layer contains locations of homeless shelters that offer emergency temporary shelter and possibly Pay-For-Stay options. Please note that age restrictions may apply. This does not include day time homeless shelter services and referral offices.&#160; Created by the GIS Office, July 2014 based on internet searches and published locations of homeless shelters.&#13;
 &#13;
- Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/Homeless%20Shelters.pdf Data updated: 07/01/2014Use Limitations: This data (i) is furnished "AS IS" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. General questions about this data set, including errors, omissions, corrections and/or updates should be directed to the Hennepin County GIS Office at 612-596-9484.</gco:CharacterString>
+ &lt;br /&gt;&lt;br /&gt;Link to Attribute Table Information: &lt;a href='http://gis.hennepin.us/OpenData/Metadata/Homeless%20Shelters.pdf ' target='_blank'&gt;http://gis.hennepin.us/OpenData/Metadata/Homeless%20Shelters.pdf &lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Data updated: 07/01/2014&lt;br /&gt;&lt;br /&gt;Use Limitations: This data (i) is furnished &amp;quot;AS IS&amp;quot; with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. General questions about this data set, including errors, omissions, corrections and/or updates should be directed to the Hennepin County GIS Office at 612-596-9484.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -178,7 +185,7 @@
          <distributionFormat>
             <MD_Format>
                <name>
-                  <gco:CharacterString>ArcGIS Open Dataset</gco:CharacterString>
+                  <gco:CharacterString>shapefile</gco:CharacterString>
                </name>
                <version gco:nilReason="missing"/>
             </MD_Format>
@@ -204,7 +211,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://gis.hennepin.opendata.arcgis.com/datasets/f8650dcc821e42dfa757b16f4607538f_8</URL>
+                        <URL>http://gis.hennepin.opendata.arcgis.com/datasets/f8650dcc821e42dfa757b16f4607538f_8.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>

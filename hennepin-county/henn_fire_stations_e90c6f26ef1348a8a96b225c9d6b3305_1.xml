@@ -1,6 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <fileIdentifier>
-      <gco:CharacterString>e90c6f26ef1348a8a96b225c9d6b3305_1</gco:CharacterString>
+      <gco:CharacterString>=</gco:CharacterString>
   </fileIdentifier>
   <language>
       <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -65,6 +65,13 @@
                <title>
                   <gco:CharacterString>Fire Stations</gco:CharacterString>
                </title>
+               <identifier>
+                 <MD_Identifier>
+                   <code>
+                     <gco:CharacterString>http://gis.hennepin.opendata.arcgis.com/datasets/e90c6f26ef1348a8a96b225c9d6b3305_1</gco:CharacterString>
+                   </code>
+                 </MD_Identifier>
+               </identifier>
                <date gco:nilReason="missing"/>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
@@ -92,9 +99,9 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Fire Stations in Minnesota Any location where fire fighters are stationed or based out of, or where equipment that such personnel use in carrying out their jobs is stored for ready use. Fire Departments not having a permanent location are included, in which case their location has been depicted at the city/town hall or at the center of their service area if a city/town hall does not exist. This dataset includes those locations primarily engaged in forest or grasslands fire fighting, including fire lookout towers if the towers are in current use for fire protection purposes. This dataset includes both private and governmental entities. Fire fighting training academies are also included. This dataset is comprised completely of license free data. The Fire Station dataset and the EMS dataset were merged into one working file. TGS processed as one file and then separated for delivery purposes. Records with "-DOD" appended to the end of the [NAME] value are located on a military base, as defined by the Defense Installation Spatial Data Infrastructure (DISDI) military installations and military range boundaries. Text fields in this dataset have been set to all upper case to facilitate consistent database engine search results. All diacritics (e.g., the German umlaut or the Spanish tilde) have been replaced with their closest equivalent English character to facilitate use with database systems that may not support diacritics. The currentness of this dataset is indicated by the [CONTDATE] field. Based upon this field, the oldest record dates from 01/05/2005 and the newest record dates from 08/07/2008.&#13;
+            <gco:CharacterString>Fire Stations in Minnesota Any location where fire fighters are stationed or based out of, or where equipment that such personnel use in carrying out their jobs is stored for ready use. Fire Departments not having a permanent location are included, in which case their location has been depicted at the city/town hall or at the center of their service area if a city/town hall does not exist. This dataset includes those locations primarily engaged in forest or grasslands fire fighting, including fire lookout towers if the towers are in current use for fire protection purposes. This dataset includes both private and governmental entities. Fire fighting training academies are also included. This dataset is comprised completely of license free data. The Fire Station dataset and the EMS dataset were merged into one working file. TGS processed as one file and then separated for delivery purposes. Records with &amp;quot;-DOD&amp;quot; appended to the end of the [NAME] value are located on a military base, as defined by the Defense Installation Spatial Data Infrastructure (DISDI) military installations and military range boundaries. Text fields in this dataset have been set to all upper case to facilitate consistent database engine search results. All diacritics (e.g., the German umlaut or the Spanish tilde) have been replaced with their closest equivalent English character to facilitate use with database systems that may not support diacritics. The currentness of this dataset is indicated by the [CONTDATE] field. Based upon this field, the oldest record dates from 01/05/2005 and the newest record dates from 08/07/2008.&#13;
 &#13;
-Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/Fire%20Stations.pdf Use Limitations: This data (i) is furnished "AS IS" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data.</gco:CharacterString>
+&lt;br /&gt;&lt;br /&gt;Link to Attribute Table Information: &lt;a href='http://gis.hennepin.us/OpenData/Metadata/Fire%20Stations.pdf ' target='_blank'&gt;http://gis.hennepin.us/OpenData/Metadata/Fire%20Stations.pdf &lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Use Limitations: This data (i) is furnished &amp;quot;AS IS&amp;quot; with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -178,7 +185,7 @@ Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/Fi
          <distributionFormat>
             <MD_Format>
                <name>
-                  <gco:CharacterString>ArcGIS Open Dataset</gco:CharacterString>
+                  <gco:CharacterString>shapefile</gco:CharacterString>
                </name>
                <version gco:nilReason="missing"/>
             </MD_Format>
@@ -204,7 +211,7 @@ Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/Fi
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://gis.hennepin.opendata.arcgis.com/datasets/e90c6f26ef1348a8a96b225c9d6b3305_1</URL>
+                        <URL>http://gis.hennepin.opendata.arcgis.com/datasets/e90c6f26ef1348a8a96b225c9d6b3305_1.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>

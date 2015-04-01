@@ -1,6 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <fileIdentifier>
-      <gco:CharacterString>d94b89af31ec416885d2e9cb00037379_0</gco:CharacterString>
+      <gco:CharacterString>=</gco:CharacterString>
   </fileIdentifier>
   <language>
       <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -65,6 +65,13 @@
                <title>
                   <gco:CharacterString>Hazardous Waste Generators</gco:CharacterString>
                </title>
+               <identifier>
+                 <MD_Identifier>
+                   <code>
+                     <gco:CharacterString>http://gis.hennepin.opendata.arcgis.com/datasets/d94b89af31ec416885d2e9cb00037379_0</gco:CharacterString>
+                   </code>
+                 </MD_Identifier>
+               </identifier>
                <date gco:nilReason="missing"/>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
@@ -92,10 +99,10 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Hazardous Waste is a "solid waste" which because of its quantity, concentration, or physical, chemical, or infectious characteristics may: either pose a substantial current or future potential hazard to human health or the environment when improperly treated, stored or disposed of, or otherwise mismanaged; or cause or contribute to an increase in mortality, or an increase in irreversible or incapacitating illness. This spatial data set presents all known locations in Hennepin County where hazardous waste generators are or have been in operation. The information used to create this data comes from the hazardous waste generator licensing and inspection activities of Environment &amp; Energy staff.&#13;
+            <gco:CharacterString>Hazardous Waste is a &amp;quot;solid waste&amp;quot; which because of its quantity, concentration, or physical, chemical, or infectious characteristics may: either pose a substantial current or future potential hazard to human health or the environment when improperly treated, stored or disposed of, or otherwise mismanaged; or cause or contribute to an increase in mortality, or an increase in irreversible or incapacitating illness. &lt;br /&gt;&lt;br /&gt;This spatial data set presents all known locations in Hennepin County where hazardous waste generators are or have been in operation. The information used to create this data comes from the hazardous waste generator licensing and inspection activities of Environment &amp;amp; Energy staff.&#13;
 &#13;
-Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/Hazardous%20Waste%20Generators.pdf
-Data updated: Summer 2014Use Limitations: This data (i) is furnished "AS IS" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data.</gco:CharacterString>
+&lt;br /&gt;&lt;br /&gt;Link to Attribute Table Information: &lt;a href='http://gis.hennepin.us/OpenData/Metadata/Hazardous%20Waste%20Generators.pdf' target='_blank'&gt;http://gis.hennepin.us/OpenData/Metadata/Hazardous%20Waste%20Generators.pdf&lt;/a&gt;&#13;
+&lt;br /&gt;&lt;br /&gt;Data updated: Summer 2014&lt;br /&gt;&lt;br /&gt;Use Limitations: This data (i) is furnished &amp;quot;AS IS&amp;quot; with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -176,7 +183,7 @@ Data updated: Summer 2014Use Limitations: This data (i) is furnished "AS IS" wit
          <distributionFormat>
             <MD_Format>
                <name>
-                  <gco:CharacterString>ArcGIS Open Dataset</gco:CharacterString>
+                  <gco:CharacterString>shapefile</gco:CharacterString>
                </name>
                <version gco:nilReason="missing"/>
             </MD_Format>
@@ -202,7 +209,7 @@ Data updated: Summer 2014Use Limitations: This data (i) is furnished "AS IS" wit
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://gis.hennepin.opendata.arcgis.com/datasets/d94b89af31ec416885d2e9cb00037379_0</URL>
+                        <URL>http://gis.hennepin.opendata.arcgis.com/datasets/d94b89af31ec416885d2e9cb00037379_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>

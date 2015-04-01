@@ -1,6 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <fileIdentifier>
-      <gco:CharacterString>176d2c8512924d508f42f5da4b2a48ee_7</gco:CharacterString>
+      <gco:CharacterString>=</gco:CharacterString>
   </fileIdentifier>
   <language>
       <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -65,6 +65,13 @@
                <title>
                   <gco:CharacterString>Soil and Water Districts</gco:CharacterString>
                </title>
+               <identifier>
+                 <MD_Identifier>
+                   <code>
+                     <gco:CharacterString>http://gis.hennepin.opendata.arcgis.com/datasets/176d2c8512924d508f42f5da4b2a48ee_7</gco:CharacterString>
+                   </code>
+                 </MD_Identifier>
+               </identifier>
                <date gco:nilReason="missing"/>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
@@ -92,9 +99,9 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>This dataset contains the Soil and Water District Boundaries in Hennepin County for local elections. Current boundaries are as of the 2002 redistricting for Soil and Water election districts.The field NAME_TXT contains the district identifier for each Soil and Water District.&#13;
+            <gco:CharacterString>This dataset contains the Soil and Water District Boundaries in Hennepin County for local elections. Current boundaries are as of the 2002 redistricting for Soil and Water election districts.&lt;br /&gt;&lt;br /&gt;The field NAME_TXT contains the district identifier for each Soil and Water District.&#13;
 &#13;
-Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/Soil%20Water%20Districts.pdf Data updated: monthlyUse Limitations: This data (i) is furnished "AS IS" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. General questions about this dataset, including errors, omissions, corrections and/or updates should be directed to the Survey Division, Resident and Real Estate Services Department, Hennepin County at 612-348-3131.</gco:CharacterString>
+&lt;br /&gt;&lt;br /&gt;Link to Attribute Table Information: &lt;a href='http://gis.hennepin.us/OpenData/Metadata/Soil%20Water%20Districts.pdf ' target='_blank'&gt;http://gis.hennepin.us/OpenData/Metadata/Soil%20Water%20Districts.pdf &lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Data updated: monthly&lt;br /&gt;&lt;br /&gt;Use Limitations: This data (i) is furnished &amp;quot;AS IS&amp;quot; with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. General questions about this dataset, including errors, omissions, corrections and/or updates should be directed to the Survey Division, Resident and Real Estate Services Department, Hennepin County at 612-348-3131.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -178,7 +185,7 @@ Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/So
          <distributionFormat>
             <MD_Format>
                <name>
-                  <gco:CharacterString>ArcGIS Open Dataset</gco:CharacterString>
+                  <gco:CharacterString>shapefile</gco:CharacterString>
                </name>
                <version gco:nilReason="missing"/>
             </MD_Format>
@@ -204,7 +211,7 @@ Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/So
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://gis.hennepin.opendata.arcgis.com/datasets/176d2c8512924d508f42f5da4b2a48ee_7</URL>
+                        <URL>http://gis.hennepin.opendata.arcgis.com/datasets/176d2c8512924d508f42f5da4b2a48ee_7.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>

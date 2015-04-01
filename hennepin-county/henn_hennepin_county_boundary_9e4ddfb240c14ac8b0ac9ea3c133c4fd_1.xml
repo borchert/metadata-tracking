@@ -1,6 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <fileIdentifier>
-      <gco:CharacterString>9e4ddfb240c14ac8b0ac9ea3c133c4fd_1</gco:CharacterString>
+      <gco:CharacterString>=</gco:CharacterString>
   </fileIdentifier>
   <language>
       <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -65,6 +65,13 @@
                <title>
                   <gco:CharacterString>Hennepin County Boundary</gco:CharacterString>
                </title>
+               <identifier>
+                 <MD_Identifier>
+                   <code>
+                     <gco:CharacterString>http://gis.hennepin.opendata.arcgis.com/datasets/9e4ddfb240c14ac8b0ac9ea3c133c4fd_1</gco:CharacterString>
+                   </code>
+                 </MD_Identifier>
+               </identifier>
                <date gco:nilReason="missing"/>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
@@ -93,7 +100,7 @@
          </citation>
          <abstract>
             <gco:CharacterString>This dataset contains the boundary area of Hennepin County. A large part of Hennepin County is bounded by rivers. The boundary in some cases is determined by the Township and Range Lines of the Public Land Survey System. The NAME_TXT attribute field contains the county text label.&#13;
-Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/County%20Boundary.pdf Data updated: monthlyUse Limitations: This data (i) is furnished "AS IS" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. General questions about this dataset, including errors, omissions, corrections and/or updates should be directed to the Survey Division, Resident and Real Estate Services Department, Hennepin County at 612-348-3131.</gco:CharacterString>
+&lt;br /&gt;&lt;br /&gt;Link to Attribute Table Information: &lt;a href='http://gis.hennepin.us/OpenData/Metadata/County%20Boundary.pdf ' target='_blank'&gt;http://gis.hennepin.us/OpenData/Metadata/County%20Boundary.pdf &lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Data updated: monthly&lt;br /&gt;&lt;br /&gt;Use Limitations: This data (i) is furnished &amp;quot;AS IS&amp;quot; with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. General questions about this dataset, including errors, omissions, corrections and/or updates should be directed to the Survey Division, Resident and Real Estate Services Department, Hennepin County at 612-348-3131.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -177,7 +184,7 @@ Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/Co
          <distributionFormat>
             <MD_Format>
                <name>
-                  <gco:CharacterString>ArcGIS Open Dataset</gco:CharacterString>
+                  <gco:CharacterString>shapefile</gco:CharacterString>
                </name>
                <version gco:nilReason="missing"/>
             </MD_Format>
@@ -203,7 +210,7 @@ Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/Co
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://gis.hennepin.opendata.arcgis.com/datasets/9e4ddfb240c14ac8b0ac9ea3c133c4fd_1</URL>
+                        <URL>http://gis.hennepin.opendata.arcgis.com/datasets/9e4ddfb240c14ac8b0ac9ea3c133c4fd_1.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
