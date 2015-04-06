@@ -1,3 +1,4 @@
+#! /usr/bin/env python
 __author__ = 'dykex005'
 PATH_TO_OGP_MDT_SRC = "/Users/dykex005/Workspace/OGP-metadata-py/src"
 import sys
