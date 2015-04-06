@@ -11,7 +11,6 @@ import urllib2
 import os.path
 
 MANIFEST_URL = "ftp://ftp.gisdata.mn.gov/pub/gdrs/system/metadata/manifest.json"
-OUTPUT_PATH = "../mn-geospatial-commons"
 
 try:
     req = urllib2.urlopen(MANIFEST_URL)
@@ -25,21 +24,14 @@ except URLError as e:
 else:
     manifest = json.loads(req.read())
     datasets = manifest["dsDetails"]
+    docs = []
+    solr = ogp2solr.SolrOGP()
     for dataset_id in datasets:
         print datasets[dataset_id]["dsBaseName"]
-        if datasets[dataset_id]["dsMetadataUrl"]:
-            metadata_url = datasets[dataset_id]["dsMetadataUrl"].rstrip(".html")+".xml"
-            metadata_filename = metadata_url.split("/")[-3]+".xml"
-
-            with open(os.path.join(OUTPUT_PATH, metadata_filename), "wb") as metadata_file: 
-                try:
-                    r = urllib2.urlopen(metadata_url)
-                except URLError as e:
-                    if hasattr(e, 'reason'):
-                        print 'We failed to reach a server.'
-                        print 'Reason: ', e.reason
-                    elif hasattr(e, 'code'):
-                        print 'The server couldn\'t fulfill the request.'
-                        print 'Error code: ', e.code
-                else:
-                    metadata_file.write(r.read())
+        doc = md2ogp.GDRSDocument(datasets[dataset_id],
+            dataset_id.replace("{","").replace("}",""), 
+            None, 
+            None)
+        ogp_tree = md2ogp.write_ogp_tree(doc)
+        docs.append(ogp_tree)
+    solr.add_to_solr_bulk(docs)
