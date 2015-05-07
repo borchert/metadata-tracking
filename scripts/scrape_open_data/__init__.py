@@ -176,7 +176,7 @@ def main(url, prefix, output_path):
         elements["placekey"][0].getparent().getparent().find("gmd:keyword/gco:CharacterString", NSMAP).text = "Hennepin County (Minn.)"
 
         new_xml_filename = "{prefix}_{title}_{id}".format(prefix=PREFIX,
-                                                          title=dataset["title"].replace(" ", "_").lower(),
+                                                          title=dataset["title"].replace(" ", "_").replace("/","_").lower(),
                                                           id=dataset["identifier"].split("/")[-1])
 
         print os.path.join(output_path, new_xml_filename + ".xml")
