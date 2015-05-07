@@ -68,7 +68,7 @@
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/eac15cee3f2d4ec4887e1f8995955ef1_0</gco:CharacterString>
+                     <gco:CharacterString>eac15cee3f2d4ec4887e1f8995955ef1_0</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
