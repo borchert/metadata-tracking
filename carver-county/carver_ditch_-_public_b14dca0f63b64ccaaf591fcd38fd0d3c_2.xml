@@ -68,7 +68,7 @@
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>http://data.carver.opendata.arcgis.com/datasets/b14dca0f63b64ccaaf591fcd38fd0d3c_2</gco:CharacterString>
+                     <gco:CharacterString>b14dca0f63b64ccaaf591fcd38fd0d3c_2</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
