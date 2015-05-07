@@ -56,9 +56,11 @@ def get_landing_page_json(dataset):
             r = requests.get(dataset["landingPage"]+".json")
         except requests.exceptions.HTTPError as e:
             sys.exit(e.message)
-        else:
-            landing_page_json = r.json()
-            return landing_page_json
+        finally:
+            if "json" in r.headers["content-type"]:
+                landing_page_json = r.json()
+                return landing_page_json
+            return None
 
 def clear_landing_page_json():
     landing_page_json = None
@@ -83,7 +85,7 @@ def parse_datatype(dataset):
     try:
         geometryType = get_landing_page_json(dataset)["data"]["geometry_type"]
         print "geometryType: ", geometryType
-    except KeyError as e:
+    except (KeyError,TypeError) as e:
         print "couldn't get geometry type for {title}".format(title=dataset["title"])
         return "undefined"
 
@@ -101,20 +103,9 @@ def parse_datatype(dataset):
 
 def main(url, prefix, output_path):
 
-    HENN = "http://gis.hennepin.opendata.arcgis.com/data.json"
-    MPLS = "http://opendata.minneapolismn.gov/data.json"
-    #PREFIX = "henn"
     PREFIX = prefix
-    #url = HENN
-    output_base = "/Users/dykex005/tmp"
-    compare_path = "/Users/dykex005/Workspace/borchert-github/metadata-tracking/hennepin-county"
-    landing_page_json = None
-    #output_path = os.path.join(output_base, "minneapolis")
-    #output_path = compare_path
-
     if not os.path.exists(output_path):
         os.mkdir(output_path)
-
 
     datasets = get_data_json(PREFIX, url)
 
