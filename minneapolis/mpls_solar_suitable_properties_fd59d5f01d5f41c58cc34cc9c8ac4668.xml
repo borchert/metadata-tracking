@@ -32,7 +32,7 @@
          <geometricObjects>
             <MD_GeometricObjects>
                <geometricObjectType>
-                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
+                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="undefined" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
                   <gco:Integer/>
@@ -63,12 +63,12 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Police Stations</gco:CharacterString>
+                  <gco:CharacterString>Solar Suitable Properties</gco:CharacterString>
                </title>
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/cb05984116c146cfa6ee35d32f664bd7_0</gco:CharacterString>
+                     <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/fd59d5f01d5f41c58cc34cc9c8ac4668</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>City_of_Minneapolis</gco:CharacterString>
+                        <gco:CharacterString>slottbr0</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -99,7 +99,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Map service showing the locations of the Police Stations and sub-stations in Minneapolis.</gco:CharacterString>
+            <gco:CharacterString>&lt;p style='font: 14px/normal Arial, Verdana, sans-serif; margin: 0.8em 0px; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;'&gt;&lt;font face='Verdana' size='2'&gt;This is the data that underlies the &lt;/font&gt;&lt;a href='http://www.ci.minneapolis.mn.us/sustainability/action/renewable/WCMS1P-128641' target='_blank'&gt;&lt;font face='Verdana' size='2'&gt;Minneapolis Solar Suitability Application&lt;/font&gt;&lt;/a&gt;&lt;font face='Verdana'&gt;&lt;font size='2'&gt;.&#160; This application was developed to help property owners understand the potential for solar photovoltaic systems on their roof.&#160; This data includes realistic maximum size and ouput of a solar PV system for individual structures with the boundaries of the City of Minneapolis.&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style='font: 14px/normal Arial, Verdana, sans-serif; margin: 0.8em 0px; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;'&gt;&lt;font face='Verdana'&gt;&lt;font size='2'&gt;The&lt;span&gt;&#160;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;a href='http://www.mngeo.state.mn.us/chouse/elevation/lidar.html' target=''&gt;&lt;font face='Verdana' size='2'&gt;Minnesota Geospatial Information Office&lt;/font&gt;&lt;/a&gt;&lt;font face='Verdana'&gt;&lt;font size='2'&gt;&lt;span&gt;&#160;&lt;/span&gt;produces Light Detection and Ranging (LiDAR) elevation data for all parts of the state.&#160; This highly detailed data was used to produce a detailed digital model of the elevation of Minneapolis - including trees, buildings, and topographic features.&#160;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style='font: 14px/normal Arial, Verdana, sans-serif; margin: 0.8em 0px; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;'&gt;&lt;font face='Verdana'&gt;&lt;font size='2'&gt;Using this elevation model as an input, an ESRI ArcGIS tool called&lt;span&gt;&#160;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;a href='http://resources.arcgis.com/en/help/main/10.1/index.html#/Understanding_solar_radiation_analysis/009z000000t8000000/' target=''&gt;&lt;font face='Verdana' size='2'&gt;Solar Radiation Analysis&lt;/font&gt;&lt;/a&gt;&lt;font face='Verdana'&gt;&lt;font size='2'&gt;&lt;span&gt;&#160;&lt;/span&gt;calculated the total incoming solar radiation (insolation) for each square meter, accounting for variations in elevation, slope, orientation and shading from surrounding features, like trees.&#160; Flat rooftops, and rooftop areas with southeast- to southwest-facing slopes were considered appropriate for solar energy systems.&#160; Only portions of rooftops receiving a minimum amount of insolation year-round, and&#160;were large enough to accomodate&#160;at least 1,000 watts of solar panels were deemed appropriate.&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style='font: 14px/normal Arial, Verdana, sans-serif; margin: 0.8em 0px; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px;'&gt;&lt;font face='Verdana' size='2'&gt;This data and the&#160;Find My Solar Suitability application was developed with assistance from ESRI and the University of Minnesota.&#160; All requests for data and other inquires should be directed to &lt;/font&gt;&lt;a href='mailto:sustainability@minneapolismn.gov'&gt;&lt;font face='Verdana' size='2'&gt;sustainability@minneapolismn.gov&lt;/font&gt;&lt;/a&gt;&lt;font face='Verdana' size='2'&gt;.&lt;/font&gt;&lt;/p&gt;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -114,23 +114,26 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>Minneapolis</gco:CharacterString>
+                  <gco:CharacterString>solar</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>Police Stations</gco:CharacterString>
+                  <gco:CharacterString>minneapolis</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Assets</gco:CharacterString>
+                  <gco:CharacterString>buildings</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>electricity</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/cb05984116c146cfa6ee35d32f664bd7_0/license.json</gco:CharacterString>
+                  <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/fd59d5f01d5f41c58cc34cc9c8ac4668/license.json</gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -161,16 +164,16 @@
                <geographicElement>
                   <EX_GeographicBoundingBox>
                      <westBoundLongitude>
-                        <gco:Decimal>-93.3051475315409</gco:Decimal>
+                        <gco:Decimal>0</gco:Decimal>
                      </westBoundLongitude>
                      <eastBoundLongitude>
-                        <gco:Decimal>-93.2342923951286</gco:Decimal>
+                        <gco:Decimal>0</gco:Decimal>
                      </eastBoundLongitude>
                      <southBoundLatitude>
-                        <gco:Decimal>44.9464332875385</gco:Decimal>
+                        <gco:Decimal>0</gco:Decimal>
                      </southBoundLatitude>
                      <northBoundLatitude>
-                        <gco:Decimal>45.0123583514198</gco:Decimal>
+                        <gco:Decimal>0</gco:Decimal>
                      </northBoundLatitude>
                   </EX_GeographicBoundingBox>
                </geographicElement>
@@ -209,7 +212,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/cb05984116c146cfa6ee35d32f664bd7_0.zip</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/fd59d5f01d5f41c58cc34cc9c8ac4668.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -223,7 +226,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL></URL>
+                        <URL>https://www.arcgis.com/sharing/rest/content/items/fd59d5f01d5f41c58cc34cc9c8ac4668/data</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
