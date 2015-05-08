@@ -228,7 +228,7 @@ Minneapolis&lt;/span&gt;&lt;span style='line-height: 115%; color: rgb(77, 77, 77
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL></URL>
+                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Street_Centerline/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

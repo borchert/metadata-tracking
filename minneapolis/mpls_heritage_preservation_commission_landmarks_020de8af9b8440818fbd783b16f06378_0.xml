@@ -290,7 +290,7 @@ criteria in which it is significant&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</gco:Char
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL></URL>
+                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Minneapolis_HPC_Landmarks/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

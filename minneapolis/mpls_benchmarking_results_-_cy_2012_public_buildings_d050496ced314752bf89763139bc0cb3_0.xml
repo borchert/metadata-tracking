@@ -248,7 +248,7 @@ here: &lt;/span&gt;&lt;span style='color:#1F497D'&gt;&lt;a href='http://minneapo
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL></URL>
+                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Benchmarking_Results_-_CY_2012_Public_Buildings/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

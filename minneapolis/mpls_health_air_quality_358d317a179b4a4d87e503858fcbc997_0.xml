@@ -300,7 +300,7 @@ placed.&lt;/p&gt;</gco:CharacterString>
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL></URL>
+                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/OPENDATA_HEALTH_AIR_QUALITY/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

@@ -429,7 +429,7 @@ other PlanNet-derived data. Column name SYSNAME.&lt;/span&gt;&lt;/p&gt;</gco:Cha
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL></URL>
+                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/OPENDATA_NCR_FUNDING/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

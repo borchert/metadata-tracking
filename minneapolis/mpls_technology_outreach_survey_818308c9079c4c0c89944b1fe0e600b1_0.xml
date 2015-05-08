@@ -341,7 +341,7 @@ technology is a necessary ingredient of success.&lt;/i&gt;&lt;/span&gt;&lt;/p&gt
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL></URL>
+                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/OPENDATA_IT_OUTREACHSURVEY/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

@@ -226,7 +226,7 @@ amount of rental licenses.&lt;/span&gt;&lt;/p&gt;&lt;p style='margin-bottom: 0.0
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL></URL>
+                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Open_Rental_Licenses/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

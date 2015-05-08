@@ -504,7 +504,7 @@ Complaint &lt;/b&gt;&lt;span style='line-height: 1.38461538461538;'&gt;&#8211; c
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL></URL>
+                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/311Incidents2014/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

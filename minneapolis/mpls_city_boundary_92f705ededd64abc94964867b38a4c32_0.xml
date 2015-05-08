@@ -224,7 +224,7 @@ color:#21759B;background:white'&gt;GIS office&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;<
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL></URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Minneapolis_City_Limits/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
