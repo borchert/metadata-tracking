@@ -73,11 +73,6 @@ def get_fields(dataset):
 
 def parse_webservice(dataset):
     url = dataset["webService"]
-
-    #If it's a feature service, we don't want it (for now)
-    if url.find("FeatureServer") is not -1:
-        url = ""
-
     return url
 
 def parse_datatype(dataset):
@@ -143,7 +138,7 @@ def main(url, prefix, output_path):
         elements["datatype"][0].set("codeListValue", parse_datatype(dataset))
 
 
-        elements["id"][0].text = dataset["identifier"]
+        elements["id"][0].text = dataset["identifier"].split("/")[-1]
         elements["accconst"][0].text = dataset["accessLevel"]
 
         # description and license oftentimes have HTML contents,
@@ -173,7 +168,6 @@ def main(url, prefix, output_path):
             if index != len(keywords_list) - 1:
                 keywords_element.append(deepcopy(keyword_element))
 
-        elements["placekey"][0].getparent().getparent().find("gmd:keyword/gco:CharacterString", NSMAP).text = "Hennepin County (Minn.)"
 
         new_xml_filename = "{prefix}_{title}_{id}".format(prefix=PREFIX,
                                                           title=dataset["title"].replace(" ", "_").replace("/","_").lower(),
