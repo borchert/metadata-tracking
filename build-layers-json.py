@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import os
 import json
 import pdb
@@ -5,6 +6,7 @@ from lxml import etree
 
 #don't enter these dirs (at the root level)
 IGNORE_DIRS = ["scripts", "testing", ".git", "inbox"]
+ISO_ID_PATH = "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString"
 
 #{id: path}
 layers = {}
@@ -43,7 +45,7 @@ with open("layers.json", "wb") as layers_json_file:
                 layer_id = tree.find("idinfo/citation/citeinfo/title").get("catid")
                
             elif standard == "iso":
-                layer_id = tree.findtext("gmd:fileIdentifier/gco:CharacterString", "UNKNOWN", NSMAP)
+                layer_id = tree.findtext(ISO_ID_PATH, "UNKNOWN", NSMAP)
 
             if layer_id is not "UNKNOWN" and layer_id is not None:
                 layers[layer_id] = os.path.join(dirpath.lstrip("./"), f)
