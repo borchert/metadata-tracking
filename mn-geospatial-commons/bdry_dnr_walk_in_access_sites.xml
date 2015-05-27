@@ -1,177 +1,174 @@
 <metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>Minnesota Department of Natural Resources (DNR)</origin>
-        <pubdate>20120920</pubdate>
-        <title>Minnesota Walk-In Access Sites</title>
-        <pubinfo>
-          <publish>Minnesota DNR - Fish and Wildlife</publish>
-        </pubinfo>
-        <onlink>http://gisdata.mn.gov/dataset/bdry-dnr-walk-in-access-sites</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>The Minnesota Walk-In Access site (WIA) GIS data represents areas of private land that have been made open to the public for the purpose of walk-in (foot travel) only hunting via the Walk-In Access program. These sites are open during legal hunting season from September 1st to May 31st. Currently the WIA program covers a 21 county area in SW Minnesota. The program is in it's second year as a pilot program and is seeking permanent funding to continue operating.</abstract>
-      <purpose>This data is used for displaying WIA sites on map products made available on the DNR website.</purpose>
-    </descript>
-    <timeperd>
-      <timeinfo>
-        <sngdate>
-          <caldate>20150410</caldate>
-        </sngdate>
-      </timeinfo>
-      <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset.</current>
-    </timeperd>
-    <status>
-      <progress>
-        </progress>
-      <update>As needed</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-96.5</westbc>
-        <eastbc>-89</eastbc>
-        <northbc>49.5</northbc>
-        <southbc>43</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <theme>
-        <themekey>Walk-In Access, WIA</themekey>
-        <themekt>
-          </themekt>
-      </theme>
-      <place>
-        <placekey>Minnesota</placekey>
-      </place>
-    </keywords>
-    <accconst>
-      </accconst>
-    <useconst>This data was created from multiple sources and does not accurately represent legal boundaries or ownership and should not be used for navigation. All WIA Sites are not open to the public unless their boundaries are posted on the ground with WIA signs.</useconst>
-    <browse>
-      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/bdry_dnr_walk_in_access_sites/preview/preview.jpg</browsen>
-    </browse>
-    <crossref>
-      <citeinfo>
-        <title>
-          </title>
-      </citeinfo>
-    </crossref>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Department of Natural Resources</cntorg>
-          <cntper>Zeb Thomas</cntper>
-        </cntperp>
-        <cntpos>GIS Data Systems Coordinator</cntpos>
-        <cntaddr>
-          <address>500 Lafayette Rd</address>
-          <city>Saint Paul</city>
-          <state>MN</state>
-          <postal>55155</postal>
-        </cntaddr>
-        <cntvoice>651-259-5637</cntvoice>
-        <cntemail>zeb.thomas@state.mn.us</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <logic>All data are topologically correct using ArcMap 10.0</logic>
-    <complete>Updates will be posted as needed to indicate WIA sites that are no longer open to public hunting due to WIA contract termination.</complete>
-    <posacc>
-      <horizpa>
-        <horizpar>No positional accuracy assessment has been done on this data.</horizpar>
-      </horizpa>
-      <vertacc>
-        <vertaccr>Not specifically assessed.</vertaccr>
-      </vertacc>
-    </posacc>
-    <lineage>
-      <procstep>
-        <procdesc>Attribute Lineage:
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin>Minnesota Department of Natural Resources (DNR)</origin>
+                <pubdate>20120920</pubdate>
+                <title>Minnesota Walk-In Access Sites</title>
+                <pubinfo>
+                    <publish>Minnesota DNR - Fish and Wildlife</publish>
+                </pubinfo>
+                <onlink>http://gisdata.mn.gov/dataset/bdry-dnr-walk-in-access-sites</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The Minnesota Walk-In Access site (WIA) GIS data represents areas of private land that have been made open to the public for the purpose of walk-in (foot travel) only hunting via the Walk-In Access program. These sites are open during legal hunting season from September 1st to May 31st. Currently the WIA program covers a 21 county area in SW Minnesota. The program is in it's second year as a pilot program and is seeking permanent funding to continue operating.</abstract>
+            <purpose>This data is used for displaying WIA sites on map products made available on the DNR website.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20150410</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset.</current>
+        </timeperd>
+        <status>
+            <progress/>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-96.5</westbc>
+                <eastbc>-89</eastbc>
+                <northbc>49.5</northbc>
+                <southbc>43</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekey>Walk-In Access, WIA</themekey>
+                <themekt/>
+            </theme>
+            <place>
+                <placekey>Minnesota</placekey>
+            </place>
+        </keywords>
+        <accconst/>
+        <useconst>This data was created from multiple sources and does not accurately represent legal boundaries or ownership and should not be used for navigation. All WIA Sites are not open to the public unless their boundaries are posted on the ground with WIA signs.</useconst>
+        <browse>
+            <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/bdry_dnr_walk_in_access_sites/preview/preview.jpg</browsen>
+        </browse>
+        <crossref>
+            <citeinfo>
+                <title/>
+            </citeinfo>
+        </crossref>
+        <ptcontac>
+            <cntinfo>
+                <cntperp>
+                    <cntorg>Minnesota Department of Natural Resources</cntorg>
+                    <cntper>Zeb Thomas</cntper>
+                </cntperp>
+                <cntpos>GIS Data Systems Coordinator</cntpos>
+                <cntaddr>
+                    <address>500 Lafayette Rd</address>
+                    <city>Saint Paul</city>
+                    <state>MN</state>
+                    <postal>55155</postal>
+                </cntaddr>
+                <cntvoice>651-259-5637</cntvoice>
+                <cntemail>zeb.thomas@state.mn.us</cntemail>
+            </cntinfo>
+        </ptcontac>
+    </idinfo>
+    <dataqual>
+        <logic>All data are topologically correct using ArcMap 10.0</logic>
+        <complete>Updates will be posted as needed to indicate WIA sites that are no longer open to public hunting due to WIA contract termination.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>No positional accuracy assessment has been done on this data.</horizpar>
+            </horizpa>
+            <vertacc>
+                <vertaccr>Not specifically assessed.</vertaccr>
+            </vertacc>
+        </posacc>
+        <lineage>
+            <procstep>
+                <procdesc>Attribute Lineage:
 
     Not specifically assessed.
 
 Cartographic Lineage:
 
     wiabdrypy.polygon</procdesc>
-      </procstep>
-    </lineage>
-    <attracc>
-      <attraccr>
-        </attraccr>
-    </attracc>
-  </dataqual>
-  <spref>
-    <horizsys>
-      <planar>
-        <gridsys>
-          <gridsysn>Universal Transverse Mercator</gridsysn>
-          <utm>
-            <utmzone>15E</utmzone>
-          </utm>
-        </gridsys>
-        <planci>
-          <plandu>meters</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>NAD83</horizdn>
-        <ellips>GRS80</ellips>
-      </geodetic>
-    </horizsys>
-  </spref>
-  <eainfo>
-    </eainfo>
-  <distinfo>
-    <resdesc>bdry_dnr_walk_in_access_sites</resdesc>
-    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
-    <stdorder>
-      <ordering>
-        </ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Department of Natural Resources</cntorg>
-          <cntper>Zeb Thomas</cntper>
-        </cntperp>
-        <cntpos>GIS Data Systems Coordinator</cntpos>
-        <cntaddr>
-          <address>500 Lafayette Rd</address>
-          <city>Saint Paul</city>
-          <state>MN</state>
-          <postal>55155</postal>
-        </cntaddr>
-        <cntvoice>651-259-5637</cntvoice>
-        <cntemail>zeb.thomas@state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>2014-09-25 18:22:11</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Department of Natural Resources</cntorg>
-          <cntper>Zeb Thomas</cntper>
-        </cntperp>
-        <cntpos>GIS Data Systems Coordinator</cntpos>
-        <cntaddr>
-          <address>500 Lafayette Rd</address>
-          <city>Saint Paul</city>
-          <state>MN</state>
-          <postal>55155</postal>
-        </cntaddr>
-        <cntvoice>651-259-5637</cntvoice>
-        <cntemail>zeb.thomas@state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
+            </procstep>
+        </lineage>
+        <attracc>
+            <attraccr/>
+        </attracc>
+    </dataqual>
+    <spref>
+        <horizsys>
+            <planar>
+                <gridsys>
+                    <gridsysn>Universal Transverse Mercator</gridsysn>
+                    <utm>
+                        <utmzone>15E</utmzone>
+                    </utm>
+                </gridsys>
+                <planci>
+                    <plandu>meters</plandu>
+                </planci>
+            </planar>
+            <geodetic>
+                <horizdn>NAD83</horizdn>
+                <ellips>GRS80</ellips>
+            </geodetic>
+        </horizsys>
+    </spref>
+    <eainfo/>
+    <distinfo>
+        <resdesc>bdry_dnr_walk_in_access_sites</resdesc>
+        <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+        <stdorder>
+            <ordering/>
+        </stdorder>
+        <distrib>
+            <cntinfo>
+                <cntperp>
+                    <cntorg>Minnesota Department of Natural Resources</cntorg>
+                    <cntper>Zeb Thomas</cntper>
+                </cntperp>
+                <cntpos>GIS Data Systems Coordinator</cntpos>
+                <cntaddr>
+                    <address>500 Lafayette Rd</address>
+                    <city>Saint Paul</city>
+                    <state>MN</state>
+                    <postal>55155</postal>
+                </cntaddr>
+                <cntvoice>651-259-5637</cntvoice>
+                <cntemail>zeb.thomas@state.mn.us</cntemail>
+            </cntinfo>
+        </distrib>
+    </distinfo>
+    <metainfo>
+        <metd>2014-09-25 18:22:11</metd>
+        <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+        <metstdv>1.2</metstdv>
+        <metextns>
+            <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+        </metextns>
+        <metc>
+            <cntinfo>
+                <cntperp>
+                    <cntorg>Minnesota Department of Natural Resources</cntorg>
+                    <cntper>Zeb Thomas</cntper>
+                </cntperp>
+                <cntpos>GIS Data Systems Coordinator</cntpos>
+                <cntaddr>
+                    <address>500 Lafayette Rd</address>
+                    <city>Saint Paul</city>
+                    <state>MN</state>
+                    <postal>55155</postal>
+                </cntaddr>
+                <cntvoice>651-259-5637</cntvoice>
+                <cntemail>zeb.thomas@state.mn.us</cntemail>
+            </cntinfo>
+        </metc>
+    </metainfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <mgmg3obj>Polygon</mgmg3obj>
+    </spdoinfo>
 </metadata>
