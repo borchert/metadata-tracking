@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+
+
+<metadata>
+
+
+  <idinfo>
+
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Geological Survey, modified by MNDNR, Lands and Minerals</origin>
+        <pubdate>2000-01-01 00:00:00.0</pubdate>
+        <title>Bedrock Geology from MGS State Map Series S-20 2000 (Digital Version 3) - Line</title>
+        <mgmg1cid></mgmg1cid>
+          <pubinfo>
+            <publish>Minnesota Geological Survey</publish>
+          </pubinfo>
+        <onlink>http://www.geo.umn.edu/mgs/</onlink>
+      </citeinfo>
+    </citation>
+
+    <descript>
+      <abstract>Bedrock Geology of Minnesota, compiled by G.B. Morey and Joyce Meints, 2000. This is the digital version of the Minnesota Geological Survey State Map Series S-20 (Geologic Map of Minnesota: Bedrock Geology), 3rd edition. Scale is 1:1,000,000.
+
+The 1st edition was done by G.B. Morey, 1994. The 2nd edition was revised in 1996.
+
+The Arc/INFO coverage, bgpg2000, was downloaded from the MGS ftp site by DNR, Division of Lands and Minerals, in the fall of 2000. To make the coverage match the DNR's GIS core library, it was renamed to bg2kxpy2 and projected into UTM, extended zone 15, NAD83, units meters, from the Lambert projection it was created in. Several additional attributes were added to the coverage?s attribute table to enable users to see more of the information that was included on the map created by MGS, specifically, the detailed legend descriptions and the correlation of map units.  This information was not included in the digital data that is available for download.  These additional attributes will be described more fully in the Lineage and Entity and Attribute sections.</abstract>
+      <purpose>To produce a general descriptive layer of bedrock geology for the state.</purpose>
+      <supplinf>Minnesota, Statewide</supplinf>
+    </descript>
+
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>10/04/2000</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Map was delineated in 1994, and revised as of July 1, 1996, based on the subsurface information available at the time. This version, October 1999 - October 2000 includes the addition of recent geologic data and recompilation of state bedrock geology by the MGS authors.</current>
+    </timeperd>
+
+    <status>
+      <progress>Complete</progress>
+      <update></update>
+    </status>
+    
+    <spdom>
+      <bounding>
+        <westbc>-96.832973</westbc>
+        <eastbc>-89.397201</eastbc>
+        <northbc>49.347640</northbc>
+        <southbc>43.435431</southbc>
+      </bounding>
+    </spdom>
+
+    <keywords>
+      <theme>
+        <themekey>Geology, Bedrock Geology, Subsurface, geoscientificInformation</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota, Statewide</placekey>
+      </place>
+    </keywords>
+
+    <accconst>Not for distribution beyond the DNR.</accconst>
+    <useconst>Credit given to Minnesota Geological Survey</useconst>
+    
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Greg Spoden</cntper>
+          <cntorg>DNR-Waters, Climatology Group</cntorg>
+        </cntperp>
+        <cntpos>Assistant State Climatologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>DNR Waters, 500 Lafayette Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155-4032</postal>
+        </cntaddr>
+        <cntvoice>(651) 296-4214</cntvoice>
+        <cntfax>651-296-0445</cntfax>
+        <cntemail>greg.spoden@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+
+    <browse>
+      <browsen>http://jmaps.dnr.state.mn.us/gis/dp_datasample.jsp?mpid=39000178&amp;ptid=2&amp;fcid=2&amp;lname=Bedrock Geology from MGS State Map Series S-20 2000 (Digital Version 3) - Line</browsen>
+      <browsed></browsed>
+    </browse>
+
+    <native>Arc/INFO 7.04</native>
+    
+    <crossref>
+      <citeinfo>
+        <title></title>
+      </citeinfo>
+    </crossref>
+
+  </idinfo>
+
+
+  <dataqual>
+
+    <attracc>
+      <attraccr></attraccr>
+    </attracc>
+
+    <logic>No topological problems noted.</logic>
+    <complete>Complete to currently available data</complete>
+    
+    <posacc>
+      <horizpa>
+        <horizpar>Source layer bg2kxpy2:  The horizontal error complies with national map accuracy standards at 1:1,000,000, approx. 500 meters.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Source layer bg2kxpy2:  Not Applicable
+</vertaccr>
+      </vertacc>
+    </posacc>
+     
+    <lineage>
+      <srcinfo>
+        <srcscale>Source layer bg2kxpy2:  1000000
+</srcscale>
+      </srcinfo>
+      <procstep>
+        <procdesc></procdesc>
+      </procstep>
+    </lineage>
+
+  </dataqual>
+
+
+  <spdoinfo>
+
+    <indspref>Not Applicable</indspref>
+    <direct>vector</direct>
+    <mgmg3obj>line</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+
+  </spdoinfo>
+
+
+  <spref>
+
+    <horizsys>
+      <geograph>
+        <latres></latres>
+        <longres></longres>
+      </geograph>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <mgmg4par>Not Applicable</mgmg4par>
+          <otherprj>Not Applicable</otherprj>
+        </mapproj>
+        <gridsys>
+          <gridsysn>UTM</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+          <spcs>
+            <spcszone></spcszone>
+          </spcs>
+          <mgmg4coz></mgmg4coz>
+          <mgmg4adj>Not Applicable</mgmg4adj>
+        </gridsys>
+        <planci>
+          <coordrep>
+            <absres></absres>
+            <ordres></ordres>
+          </coordrep>
+          <distbrep>
+            <distres></distres>
+          </distbrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS1980</ellips>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+
+  </spref>
+
+
+  <eainfo>
+
+
+
+    <overview>
+      <eaover></eaover>
+      <eadetcit></eadetcit>
+    </overview>
+
+  </eainfo>
+
+
+  <distinfo>
+
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper></cntper>
+          <cntorg></cntorg>
+        </cntperp>
+        <cntpos></cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address></address>
+          <city></city>
+          <state></state>
+          <postal></postal>
+        </cntaddr>
+        <cntvoice></cntvoice>
+        <cntfax></cntfax>
+        <cntemail></cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>lfrm_bdrkgln2</resdesc>
+    <distliab>The Minnesota Department of Natural Resources makes no representation or warranties, express or implied, with respect to the reuse of data provided herewith, regardless of its format or the means of its transmission. There is no guarantee or representation to the user as to the accuracy, currency, suitability, or reliability of this data for any purpose. The user accepts the data &apos;as is&apos;, and assumes all risks associated with its use. By accepting this data, the user agrees not to transmit this data or provide access to it or any part of it to another party unless the user shall include with the data a copy of this disclaimer. The Minnesota Department of Natural Resources assumes no responsibility for actual or consequential damage incurred as a result of any user&apos;s reliance on this data.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <formvern>Not applicable</formvern>
+          <transize></transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage or Distribution Contact</ordering>
+    </stdorder>
+
+  </distinfo>
+
+
+  <metainfo>
+
+    <metd>2006-08-09 09:15:07.0</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Renee Johnson</cntper>
+          <cntorg>DNR-Lands and Minerals</cntorg>
+        </cntperp>
+        <cntpos>ITS 3</cntpos>
+        <cntaddr>
+	  <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Road - Box 45</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>(651) 259-5396</cntvoice>
+        <cntfax>(651) 296-5939</cntfax>
+        <cntemail>renee.johnson@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+    </metextns>
+
+  </metainfo>
+
+</metadata>
+
