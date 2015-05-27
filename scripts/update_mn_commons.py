@@ -1,17 +1,44 @@
 #! /usr/bin/env python
 from __future__ import unicode_literals
 __author__ = 'dykex005'
+
 PATH_TO_OGP_MDT_SRC = "/Users/dykex005/Workspace/OGP-metadata-py/src"
 import sys
 sys.path.append(PATH_TO_OGP_MDT_SRC)
 import md2ogp
+
 import json
 import ogp2solr
 import urllib2
 import os.path
+import os
+import shutil
+from pprint import pprint
 
 MANIFEST_URL = "ftp://ftp.gisdata.mn.gov/pub/gdrs/system/metadata/manifest.json"
+GDRS_PATH = "//files.umn.edu/US/GIS-Spatial/GDRS"
+MN_COMMONS_PATH = os.path.join("..", "mn-geospatial-commons")
+GDRS_SHARE_PATH = os.path.join(".", "GDRS-share")
+MANIFEST_PATH = os.path.join(GDRS_SHARE_PATH, "system", "metadata", "manifest.json")
+RESOURCES_PATH = os.path.join(GDRS_SHARE_PATH, "data", "pub")
+PATH_TO_METADATA_XML = os.path.join("metadata", "metadata.xml")
 
+
+if not os.path.exists(GDRS_SHARE_PATH):
+    os.mkdir(GDRS_SHARE_PATH)
+
+if not os.path.ismount(GDRS_SHARE_PATH):
+    os.system("mount_smbfs {gdrs} {path}".format(gdrs=GDRS_PATH, path=GDRS_SHARE_PATH))
+
+for root, dirs, files in os.walk(RESOURCES_PATH):
+    if "metadata" in dirs:
+        ds_name = root.split(os.path.sep)[-1]
+        if os.path.isfile(os.path.join(root, PATH_TO_METADATA_XML)):
+            #shutil.copyfile(os.path.join(root, PATH_TO_METADATA_XML), os.path.join(MN_COMMONS_PATH, ds_name + ".xml"))
+            print "copied {ds}".format(ds=ds_name)
+
+
+"""
 try:
     req = urllib2.urlopen(MANIFEST_URL)
 except URLError as e:
@@ -35,3 +62,4 @@ else:
         ogp_tree = md2ogp.write_ogp_tree(doc)
         docs.append(ogp_tree)
     solr.add_to_solr_bulk(docs)
+"""
