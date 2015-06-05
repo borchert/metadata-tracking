@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?><!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  --><metadata><idinfo><citation><citeinfo><origin>Minnesota Geospatial Information Office (MnGeo)</origin><pubdate>20140530</pubdate><title>Electric Transmission Lines and Substations, 60 Kilovolt and Greater, Minnesota, 2014</title><mgmg1cid></mgmg1cid><pubinfo><publish>Minnesota Geospatial Information Office (MnGeo)</publish></pubinfo></citeinfo></citation><descript><abstract>The electric transmission network information consists of transmission lines, with associated substations, designed to handle 60 Kilovolts or greater.
+<!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  --><metadata><idinfo><citation><citeinfo><origin>Minnesota Geospatial Information Office (MnGeo)</origin><pubdate>20140530</pubdate><title>Electric Transmission Lines and Substations, 60 Kilovolt and Greater, Minnesota, 2014</title><mgmg1cid/><pubinfo><publish>Minnesota Geospatial Information Office (MnGeo)</publish></pubinfo><onlink>https://gisdata.mn.gov/dataset/util-elec-trans</onlink></citeinfo></citation><descript><abstract>The electric transmission network information consists of transmission lines, with associated substations, designed to handle 60 Kilovolts or greater.
 
 The Minnesota Electric Transmission Mapping Project has developed two geographic information system data sets: transmission lines and substations. This metadata record describes both data sets.
 
@@ -19,7 +19,7 @@ Where possible, the positional accuracy of the transmission lines and substation
 Transmission Lines: There was no attempt to capture pole locations, just changes in line direction.
 
 Substations: The locations were moved to the visual footprint of the substation on the aerial photography.
-</horizpar></horizpa><vertacc><vertaccr>Not applicable</vertaccr></vertacc></posacc><lineage><srcinfo><srcscale></srcscale></srcinfo><procstep><procdesc>The Minnesota Electric Transmission Line Mapping Project is a collaborative effort between the Minnesota Department of Commerce and MnGeo (formerly LMIC).
+</horizpar></horizpa><vertacc><vertaccr>Not applicable</vertaccr></vertacc></posacc><lineage><srcinfo><srcscale/></srcinfo><procstep><procdesc>The Minnesota Electric Transmission Line Mapping Project is a collaborative effort between the Minnesota Department of Commerce and MnGeo (formerly LMIC).
 
 A letter was sent to the utility companies in August 2002 requesting information on transmission lines greater than 60 kV and their associated substations. The list of utilities contacted was provided by the Minnesota Transmission Owners consortium. This request asked for the maps of features (digital or paper) and attributes describing the features. If the attribute information submitted by the utilities did not match what had been requested, it was standardized to more closely match the attributes originally requested. Once completed, the utilities were given several opportunities to review the results in 2003 and 2004.
 
@@ -66,7 +66,7 @@ DOCKET - eDocket designation: TL-YY-NNNN ex. TL-11-915 (YY = Year and NNNN is a 
 
 COMMENTS</eaover></overview></eainfo><distinfo><resdesc>elec_trans14 - Transmission lines and substations 2014</resdesc><distliab>Redistribution conditions: In obtaining this data from the Minnesota Department of Commerce and MnGeo, it is understood that you and/or your organization have the right to use them for any internal purpose. You should not transmit or provide the GIS files in any form to another user; instead, refer other users to the online form to request the GIS data.
 
-MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab><stdorder><digform><digtinfo><formname>ESRI shapefile</formname><formvern></formvern><transize>Less than 1 MB</transize></digtinfo></digform><ordering>1.  Map:  A PDF version of the 2007 statewide map showing transmission lines and substation locations is free online at:
+MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab><stdorder><digform><digtinfo><formname>ESRI shapefile</formname><formvern/><transize>Less than 1 MB</transize></digtinfo></digform><ordering>1.  Map:  A PDF version of the 2007 statewide map showing transmission lines and substation locations is free online at:
    http://www.gda.state.mn.us/maps/ElecTran07.pdf
 
 A 2014 version of the map is in progress.

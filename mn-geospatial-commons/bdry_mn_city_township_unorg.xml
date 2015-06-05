@@ -1,8 +1,6 @@
-<?xml version="1.0"?>
 <!--  
 
-<!DOCTYPE metadata SYSTEM "metadata.dtd">  -->
-<metadata>
+<!DOCTYPE metadata SYSTEM "metadata.dtd">  --><metadata>
     <idinfo>
         <citation>
             <citeinfo>
@@ -13,8 +11,7 @@
                 <pubinfo>
                     <publish>Minnesota Geospatial Information Office (MnGeo)</publish>
                 </pubinfo>
-                <onlink>https://gisdata.mn.gov/dataset/bdry-mn-city-township-unorg</onlink>
-            </citeinfo>
+            <onlink>https://gisdata.mn.gov/dataset/bdry-mn-city-township-unorg</onlink></citeinfo>
         </citation>
         <descript>
             <abstract>This medium-scale (nominally 1:24,000) dataset represents the boundaries of cities, townships, and unorganized territories (CTUs) in Minnesota. MnGeo created this file by updating a municipal boundary file maintained by the Minnesota Department of Transportation. Update information was gathered primarily from annexation and detachment records maintained by the Office of Administrative Hearings, Municipal Boundary Adjustment Unit.

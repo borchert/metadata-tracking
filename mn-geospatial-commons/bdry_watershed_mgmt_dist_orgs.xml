@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <metadata>
     <eainfo>
         <overview>
@@ -19,8 +18,7 @@ METROSTATE: Indicates whether the management organization is in the seven county
                 <pubinfo>
                     <publish>Minnesota Board of Water and Soil Resources (BWSR)</publish>
                 </pubinfo>
-                <onlink>https://gisdata.mn.gov/dataset/bdry-watershed-mgmt-dist-orgs</onlink>
-            </citeinfo>
+            <onlink>https://gisdata.mn.gov/dataset/bdry-watershed-mgmt-dist-orgs</onlink></citeinfo>
         </citation>
         <descript>
             <abstract>This data set depicts watershed district and watershed management organization boundaries throughout the state of Minnesota. 
