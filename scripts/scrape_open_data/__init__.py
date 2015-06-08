@@ -9,14 +9,14 @@ from copy import deepcopy
 import os, os.path
 import json
 
-def check_for_local_data_json(PREFIX):
-    if os.path.exists(PREFIX + "_data.json"):
+def check_for_local_data_json(prefix):
+    if os.path.exists(prefix + "_data.json"):
         return True
     else:
         return False
 
-def request_data_json(url, PREFIX):
-    with open(PREFIX + "_data.json", "wb") as fp:
+def request_data_json(url, prefix):
+    with open(prefix + "_data.json", "wb") as fp:
         print "remote request for data.json"
         try:
             j = requests.get(url).json()
@@ -26,11 +26,11 @@ def request_data_json(url, PREFIX):
             fp.write(json.dumps(j))
             return j["dataset"]
 
-def get_data_json(PREFIX,url):
-    if not check_for_local_data_json(PREFIX):
-        return request_data_json(url, PREFIX)
+def get_data_json(prefix, url):
+    if not check_for_local_data_json(prefix):
+        return request_data_json(url, prefix)
     else:
-        return json.load(open(PREFIX + "_data.json"))["dataset"]
+        return json.load(open(prefix + "_data.json"))["dataset"]
 
 def get_elements_for_open_data(tree):
     field_map = {}
@@ -97,12 +97,16 @@ def parse_datatype(dataset):
 
 
 def main(url, prefix, output_path):
+    """
+        url = Esri Open Data root url (like opendata.minneapolismn.gov)
+        prefix = what to put in front of each file name that gets written out
+        output_path = where output files should be written
+    """
 
-    PREFIX = prefix
     if not os.path.exists(output_path):
         os.mkdir(output_path)
 
-    datasets = get_data_json(PREFIX, url)
+    datasets = get_data_json(prefix, url)
 
     for dataset in datasets:
         print "Now on:", dataset["title"]
@@ -169,7 +173,7 @@ def main(url, prefix, output_path):
                 keywords_element.append(deepcopy(keyword_element))
 
 
-        new_xml_filename = "{prefix}_{title}_{id}".format(prefix=PREFIX,
+        new_xml_filename = "{prefix}_{title}_{id}".format(prefix=prefix,
                                                           title=dataset["title"].replace(" ", "_").replace("/","_").lower(),
                                                           id=dataset["identifier"].split("/")[-1])
 
@@ -212,8 +216,8 @@ PATHS = {
     "onlink"   : "gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/gmd:URL",
     "origin"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString",
     "publish"  : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString",
-        "pubdate"  : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:editionDate/gco:Date",
-"westbc"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:westBoundLongitude/gco:Decimal",
+    "pubdate"  : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:editionDate/gco:Date",
+    "westbc"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:westBoundLongitude/gco:Decimal",
     "eastbc"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:eastBoundLongitude/gco:Decimal",
     "northbc"  : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:northBoundLatitude/gco:Decimal",
     "southbc"  : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:southBoundLatitude/gco:Decimal",
