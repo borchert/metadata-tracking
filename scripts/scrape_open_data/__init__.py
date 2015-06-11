@@ -9,11 +9,6 @@ from copy import deepcopy
 import os, os.path
 import json
 
-def check_for_local_data_json(prefix):
-    if os.path.exists(prefix + "_data.json"):
-        return True
-    else:
-        return False
 
 def request_data_json(url, prefix):
     with open(prefix + "_data.json", "wb") as fp:
@@ -27,10 +22,7 @@ def request_data_json(url, prefix):
             return j["dataset"]
 
 def get_data_json(prefix, url):
-    if not check_for_local_data_json(prefix):
-        return request_data_json(url, prefix)
-    else:
-        return json.load(open(prefix + "_data.json"))["dataset"]
+    return request_data_json(url, prefix)
 
 def get_elements_for_open_data(tree):
     field_map = {}
