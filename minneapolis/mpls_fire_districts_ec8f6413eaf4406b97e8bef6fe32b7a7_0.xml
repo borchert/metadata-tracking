@@ -32,7 +32,7 @@
          <geometricObjects>
             <MD_GeometricObjects>
                <geometricObjectType>
-                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
+                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
                   <gco:Integer/>
@@ -63,12 +63,12 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Fire Stations</gco:CharacterString>
+                  <gco:CharacterString>Fire Districts</gco:CharacterString>
                </title>
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>8529687b17e44acf88d52ee696821854_0</gco:CharacterString>
+                     <gco:CharacterString>ec8f6413eaf4406b97e8bef6fe32b7a7_0</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
@@ -99,7 +99,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Map service showing the locations of MFD fire stations.</gco:CharacterString>
+            <gco:CharacterString>&lt;div&gt;&lt;span style='color: rgb(77, 77, 77); font-family: '&gt;&lt;span style='font-family: Verdana, Helvetica, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);'&gt;For questions about this data please contact&#160;&lt;/span&gt;&lt;a href='mailto:FireOpenData@minneapolismn.gov' style='color: rgb(33, 117, 155); text-decoration: none; line-height: 1.38461538461538; outline: none !important;' target='_blank'&gt;FireOpenData@minneapolismn.gov&lt;/a&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;span style='color: rgb(77, 77, 77); font-family: '&gt;Map service showing the Fire Districts for the Minneapolis Fire Department.&lt;/span&gt;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -120,17 +120,20 @@
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>Fire Stations</gco:CharacterString>
+                  <gco:CharacterString>MFD</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Assets</gco:CharacterString>
+                  <gco:CharacterString>Fire Department</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Fire</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/8529687b17e44acf88d52ee696821854_0/license.json</gco:CharacterString>
+                  <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/ec8f6413eaf4406b97e8bef6fe32b7a7_0/license.json</gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -161,16 +164,16 @@
                <geographicElement>
                   <EX_GeographicBoundingBox>
                      <westBoundLongitude>
-                        <gco:Decimal>-93.3204369681973</gco:Decimal>
+                        <gco:Decimal>-93.32910836426294</gco:Decimal>
                      </westBoundLongitude>
                      <eastBoundLongitude>
-                        <gco:Decimal>-93.2238579308365</gco:Decimal>
+                        <gco:Decimal>-93.18961599873607</gco:Decimal>
                      </eastBoundLongitude>
                      <southBoundLatitude>
-                        <gco:Decimal>44.9049153448895</gco:Decimal>
+                        <gco:Decimal>44.89015200184134</gco:Decimal>
                      </southBoundLatitude>
                      <northBoundLatitude>
-                        <gco:Decimal>45.0396951127998</gco:Decimal>
+                        <gco:Decimal>45.051246260236795</gco:Decimal>
                      </northBoundLatitude>
                   </EX_GeographicBoundingBox>
                </geographicElement>
@@ -209,7 +212,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/8529687b17e44acf88d52ee696821854_0.zip</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/ec8f6413eaf4406b97e8bef6fe32b7a7_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -223,7 +226,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Fire_Stations/FeatureServer/0</URL>
+                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/FireDistricts/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

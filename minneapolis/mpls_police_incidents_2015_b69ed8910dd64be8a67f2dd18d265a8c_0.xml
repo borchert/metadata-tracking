@@ -63,12 +63,12 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Fire Stations</gco:CharacterString>
+                  <gco:CharacterString>Police Incidents 2015</gco:CharacterString>
                </title>
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>8529687b17e44acf88d52ee696821854_0</gco:CharacterString>
+                     <gco:CharacterString>b69ed8910dd64be8a67f2dd18d265a8c_0</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
@@ -99,7 +99,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Map service showing the locations of MFD fire stations.</gco:CharacterString>
+            <gco:CharacterString>&lt;div style='margin: 0px; padding: 0px; color: rgb(77, 77, 77); font-family: '&gt;&lt;p style='padding: 0px; font-size: 12px; line-height: 1.5em; font-family: Verdana, Helvetica, sans-serif;'&gt;&lt;span style='overflow: auto;'&gt;For questions about this data please contact&#160;&lt;a href='mailto:PoliceOpenData@minneapolismn.gov' style='color: rgb(33, 117, 155); font-family: Verdana; font-size: 13px; line-height: 1.38461538461538; outline: none !important; background-color: transparent;' target='_blank'&gt;PoliceOpenData@minneapolismn.gov&lt;/a&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div style='margin: 0px; padding: 0px; color: rgb(77, 77, 77); font-family: '&gt;&lt;br /&gt;&lt;/div&gt;&lt;span style='color: rgb(77, 77, 77); font-family: '&gt;Police Incidents for 2015.&lt;/span&gt;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -114,23 +114,17 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>Minneapolis</gco:CharacterString>
+                  <gco:CharacterString>open data</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
-            <keyword>
-                  <gco:CharacterString>Fire Stations</gco:CharacterString>
-               </keyword>
-               <keyword>
-                  <gco:CharacterString>Assets</gco:CharacterString>
-               </keyword>
-               </MD_Keywords>
+            </MD_Keywords>
          </descriptiveKeywords>
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/8529687b17e44acf88d52ee696821854_0/license.json</gco:CharacterString>
+                  <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/b69ed8910dd64be8a67f2dd18d265a8c_0/license.json</gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -161,16 +155,16 @@
                <geographicElement>
                   <EX_GeographicBoundingBox>
                      <westBoundLongitude>
-                        <gco:Decimal>-93.3204369681973</gco:Decimal>
+                        <gco:Decimal>-93.54013061501706</gco:Decimal>
                      </westBoundLongitude>
                      <eastBoundLongitude>
-                        <gco:Decimal>-93.2238579308365</gco:Decimal>
+                        <gco:Decimal>-93.20504760723301</gco:Decimal>
                      </eastBoundLongitude>
                      <southBoundLatitude>
-                        <gco:Decimal>44.9049153448895</gco:Decimal>
+                        <gco:Decimal>44.87675857493759</gco:Decimal>
                      </southBoundLatitude>
                      <northBoundLatitude>
-                        <gco:Decimal>45.0396951127998</gco:Decimal>
+                        <gco:Decimal>45.05033874514328</gco:Decimal>
                      </northBoundLatitude>
                   </EX_GeographicBoundingBox>
                </geographicElement>
@@ -209,7 +203,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/8529687b17e44acf88d52ee696821854_0.zip</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/b69ed8910dd64be8a67f2dd18d265a8c_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -223,7 +217,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Fire_Stations/FeatureServer/0</URL>
+                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Police_Incidents_2015/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

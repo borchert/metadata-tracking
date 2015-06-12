@@ -63,12 +63,12 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Fire Stations</gco:CharacterString>
+                  <gco:CharacterString>Hydrants</gco:CharacterString>
                </title>
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>8529687b17e44acf88d52ee696821854_0</gco:CharacterString>
+                     <gco:CharacterString>cb8d4b1dbad0470380e5f46f1e75e962_0</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
@@ -99,7 +99,9 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Map service showing the locations of MFD fire stations.</gco:CharacterString>
+            <gco:CharacterString>&lt;p&gt;&lt;font color='#000000'&gt;For questions about this dataset please contact&#160;&lt;/font&gt;&lt;a href='mailto:PublicWorksOpenData@minneapolismn.gov' target='_blank'&gt;PublicWorksOpenData@minneapolismn.gov&lt;/a&gt;&lt;font color='#000000'&gt;&#160;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color='#000000'&gt;The hydrant data is created&#13;
+using engineering drawings (as-builts), field measurements, GPS (survey&#13;
+shots-0.5 inch accuracy) or ortho photos (6 in accuracy). The data is updated annually.&#160;&lt;/font&gt;&lt;/p&gt;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -114,23 +116,23 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>Minneapolis</gco:CharacterString>
+                  <gco:CharacterString>open data</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>Fire Stations</gco:CharacterString>
+                  <gco:CharacterString>water</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Assets</gco:CharacterString>
+                  <gco:CharacterString>hydrants</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/8529687b17e44acf88d52ee696821854_0/license.json</gco:CharacterString>
+                  <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/cb8d4b1dbad0470380e5f46f1e75e962_0/license.json</gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -161,16 +163,16 @@
                <geographicElement>
                   <EX_GeographicBoundingBox>
                      <westBoundLongitude>
-                        <gco:Decimal>-93.3204369681973</gco:Decimal>
+                        <gco:Decimal>-93.32902440052996</gco:Decimal>
                      </westBoundLongitude>
                      <eastBoundLongitude>
-                        <gco:Decimal>-93.2238579308365</gco:Decimal>
+                        <gco:Decimal>-93.18763878972773</gco:Decimal>
                      </eastBoundLongitude>
                      <southBoundLatitude>
-                        <gco:Decimal>44.9049153448895</gco:Decimal>
+                        <gco:Decimal>44.88364594641723</gco:Decimal>
                      </southBoundLatitude>
                      <northBoundLatitude>
-                        <gco:Decimal>45.0396951127998</gco:Decimal>
+                        <gco:Decimal>45.05426171479436</gco:Decimal>
                      </northBoundLatitude>
                   </EX_GeographicBoundingBox>
                </geographicElement>
@@ -209,7 +211,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/8529687b17e44acf88d52ee696821854_0.zip</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/cb8d4b1dbad0470380e5f46f1e75e962_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -223,7 +225,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Fire_Stations/FeatureServer/0</URL>
+                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Hydrants/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
