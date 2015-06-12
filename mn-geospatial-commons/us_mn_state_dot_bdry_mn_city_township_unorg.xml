@@ -1,0 +1,189 @@
+<?xml version="1.0"?><!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  --><metadata><idinfo><citation><citeinfo><origin>Minnesota Geospatial Information Office (MnGeo)</origin><pubdate>20140610</pubdate><title>City, Township, and Unorganized Territory (CTU) Boundaries, Minnesota, May 29, 2014</title><mgmg1cid></mgmg1cid><pubinfo><publish>Minnesota Geospatial Information Office (MnGeo)</publish></pubinfo><onlink>https://gisdata.mn.gov/dataset/bdry-mn-city-township-unorg</onlink></citeinfo></citation><descript><abstract>This medium-scale (nominally 1:24,000) dataset represents the boundaries of cities, townships, and unorganized territories (CTUs) in Minnesota. MnGeo created this file by updating a municipal boundary file maintained by the Minnesota Department of Transportation. Update information was gathered primarily from annexation and detachment records maintained by the Office of Administrative Hearings, Municipal Boundary Adjustment Unit.
+Note: Townships represented in this dataset are political (civil) townships, not public land survey townships, and unorganized territory subdivisions are those defined by the U.S. Bureau of the Census, which often differ from those defined by a county.</abstract><purpose>This dataset is best suited for general reference only -- it is not suitable for precise land measurements or ground surveys. MnGeo created it as part of a legislatively mandated project to calculate a table of township acreage data for the Minnesota Department of Revenue in accordance with state statute (Chapter 366, Article 17, Section 7, Subd. 3).
+
+Note that several state agencies and government units maintain statewide CTU boundary and acreage data for their internal business needs. Though these data may meet the requirements of those individual agencies, there are no authoritative processes in place to provide a standard, regularly maintained universal data set for use by the GIS community at large. This data set is a step toward the long term goal of improving accuracy, standardizing attributes and maintaining statewide boundary and acreage data for ongoing use by the GIS community.</purpose><supplinf>State of Minnesota</supplinf></descript><timeperd><timeinfo><sngdate><caldate>20140529</caldate></sngdate></timeinfo><current>Date of the most recent annexations included in this dataset.</current></timeperd><status><progress>Complete</progress><update>Quarterly</update></status><spdom><bounding><westbc>-97.269853</westbc><eastbc>-89.389133</eastbc><northbc>49.404387</northbc><southbc>43.435244</southbc></bounding></spdom><keywords><theme><themekt>ISO 19115 Topic Category</themekt><themekey>boundaries, CTU, city boundary, township boundary, political township boundary, civil township boundary, unorganized territory boundary, municipal boundary, minor civil division boundary, MCD boundary, government unit boundary</themekey></theme><place><placekey>Minnesota</placekey></place></keywords><accconst>None</accconst><useconst>This dataset is best suited for general reference only.  It is not suitable for precise land measurements or ground surveys.
+
+Redistribution conditions: It is understood that you and/or your organization have the right to use it for any purpose. If you modify it, you are encouraged to apply responsible best practices by documenting those changes in a metadata record. If you transmit or provide the data to another user, it is your responsibility to provide appropriate content, limitation, warranty and liability information as you see fit.</useconst><native>ArcGIS 10</native><crossref><citeinfo><title>The Minnesota CTU database is an up-to-date resource for Minnesota CTU ID codes and names:
+http://www.mngeo.state.mn.us/CTU/index.html
+
+CTU boundary files for previous years can be obtained from the following websites:
+
+1. MCD2003 - http://www.mngeo.state.mn.us/chouse/metadata/mcd2003.html
+2. Mn/DOT BaseMap 2001 - Muni -  http://www.dot.state.mn.us/maps/gdma/data/metadata/muni.htm
+3. 2000 Minor Civil Divisions - http://www.mngeo.state.mn.us/chouse/metadata/mcd.html (this file contains many Census 2000 population attributes)
+4. MCD 1998/1995 - ftp://ftp.commissions.leg.state.mn.us/pub/gis/shape/
+5. Minor Civil Divisions, Minnesota, 1990 -  http://www.mngeo.state.mn.us/chouse/metadata/mcd90.html (this file contains 1990 Census population totals).
+
+For more information about municipal boundary adjustments, see:  http://www.mba.state.mn.us/</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>Minnesota Department of Transportation (MnDOT) - Office of Transportation Management - GIM Unit</cntorg><cntper>Mike Eull</cntper></cntperp><cntpos>Research Analysis Specialist</cntpos><cntaddr><addrtype>Mailling and Physical</addrtype><address>395 John Ireland Blvd, Mail Stop 450</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-366-3859</cntvoice><cntemail>michael.eull@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>MnGeo staff compared the attributes created for this project (the mnctu09 feature class -- see Lineage field for description of how attributes were created) with the Minnesota CTU database (derived from the U.S. Geological Survey's Geographic Names Information System or GNIS). The checks were done using Esri's ArcSDE and ArcMap software:
+
+1. Downloaded CTU records from the Minnesota CTU database: http://www.mngeo.state.mn.us/CTU/index.html
+2. Created CTU events (from the CTU records centroid X,Y coordinates) in ArcMap 
+3. Spatially joined CTU events and mnctu09 feature class 
+4. Checked and fixed mnctu09 types (e.g., city, township, unorganized territory) that were not equivalent to CTU event types 
+5. Checked and fixed mnctu09 names that did not match CTU event names 
+6. Expanded all abbreviations in mnctu09 names (e.g., St. to Saint, Mt. to Mountain) 
+7. Verified that no blanks existed in any records (except 11 unorganized territories that did not have GNIS_IDs)
+
+September 1, 2010
+
+CTU GNIS_IDs were updated to include recently assigned USGS GNIS IDs for two Unorganized Territories. Fictitious GNIS_IDs were assigned to nine Unorganized Territories which did not have USGS-assigned GNIS ID's, to create common fields enabling table joins and edits to attribute tables from previous datasets.</attraccr></attracc><logic>In the original dataset, MnDOT's more up-to-date dataset for city, township and unorganized territory boundaries was merged with MnGeo's updated boundary data. The resulting gaps and overlaps were manually fixed to produce a seamless statewide dataset.
+
+In 2010, MnGeo received a CAP grant to investigate methods for improving data accuracy working in an ArcSDE geodatabase environment. The following is a summary of the methods used to create the updated CTU boundary dataset:
+
+1. Set up ArcSDE Geodatabase. 
+2. Created a feature dataset that includes a line (CTU_l), annexation polygon (CTU_Edits), and city, township and unorganized territory polygon base file (CTU_p).
+3. Created annexation lines using advanced COGO tools  in Arc Editor. Line files were created using both as-read survey descriptions and digitized georeferenced maps. The line files were saved as Traverse files and rotated when necessary to adjust to PLS 40 and other base layer reference maps. 
+4. Constructed annexation polygons (CTU_Edits) from the line files  (CTU_l) and unioned, then dissolved the polygons with the most recent CTU dataset (mnctu062310). 
+5. Created topology rules to eliminate gaps and overlaps and recalculated acreage.
+6. Exported CTU_p to a shapefile and named it mnctu090110.</logic><complete>MnDOT's municipal boundary file was selected to be used as the original basemap to update MBA boundary changes because, compared to other available sources, it provided the most comprehensive statewide boundary and acreage coverage and had more recent annexation boundary information.
+
+The most current statewide boundary and acreage coverage, mnctu072011, was used as the basemap to update MBA boundary changes. 
+
+Total records:   2747
+Cities: 900
+Townships: 1785
+Unorganized Territories: 62
+
+The GNIS code for 9 unorganized territory records could not be found in the CTU database or on the GNIS website so they were assigned fictitous numbers (999901-999911). Unorganized territories sometimes do not have the same names and boundaries between the two primary sources for their data: individual counties and the U.S. Census Bureau. Therefore, GNIS codes are not established for those with discrepancies. To facilitate joins and relates, fictititious GNIS codes (999901-999911) were assigned.</complete><posacc><horizpa><horizpar>All of the data sources reviewed and the final dataset were within the National Map Accuracy Standards for 1:24,000-scale maps which is +/- 40 feet (12 meters). The dataset is not intended for legal land survey use, and is best suited for general reference.
+
+The positional accuracy of annexation data varies depending on the quality of the submitted data and the method used to enter the data:
+
+1. When the legal descriptions in the MBA dockets were complete, boundaries could often be entered by using Esri's Traverse COGO (coordinate geometry) tool which is likely to produce the most accurate results.
+
+2.  Dockets that could not be mapped using the Traverse tool were georeferenced and digitized using aerial photography and Public Land Survey 40 quarter-quarter section lines. The quality of the boundary data digitized from georeferenced maps varies depending on the scale and quality of the scanned raster image of the map.
+
+3. Some maps obtained from MBA were digitized based on intent and interpreted using area measurements and relative positions of hand-drawn features on the docket maps and their approximate geospatial relationship to landmarks on aerial photos and roads. In these cases, the areas mapped may be less accurate than data entered using georeferenced maps or the Traverse tool.</horizpar></horizpa><vertacc><vertaccr>Not Applicable</vertaccr></vertacc></posacc><lineage><srcinfo><srcscale>24000</srcscale></srcinfo><procstep><procdesc>OVERVIEW:
+
+The Minnesota Geospatial Information Office (MnGeo), formerly the Minnesota Land Management Information Center (LMIC), created this file by updating a municipal boundary file maintained by the Minnesota Department of Transportation (MnDOT). Update information was gathered primarily from annexation and detachment records maintained in the 'docket' system of the Office of Administrative Hearings, Municipal Boundary Adjustment Unit (MBA):  http://www.mba.state.mn.us
+
+Depending on the quality of information provided, different processes were used to update and check the data.
+-----------------------------------
+PROCESS FOR INITIAL DATASET CREATION, April 2009 version
+
+
+SOURCE DATA:
+
+A. Data file used as a starting point:
+
+MnDOT Municipal (City) Boundaries shapefile (muni_bounds) with updated annexation data through February 2008 (MnDOT was missing approximately 50 annexation dockets from after Feb. 08): Contains city boundary updates based on annexation data received from MBA.
+
+This 2008 version of the data set was prepared for internal use at MnDOT. For documentation of the 2001 version of this data set (MnDOT BaseMap Muni) which is currently the most recent version publicly available online, see:  http://www.dot.state.mn.us/maps/gdma/data/metadata/muni.htm
+
+
+B. Sources used to check and update the muni_bounds data set:
+
+1. MnDOT All_boundaries shapefile
+Contains boundary data for cities, townships, and unorganized territories.
+
+2. MnDOT updated municipal boundary data table (Excel format)
+Lists all recent (through February 2008) municipal boundary annexation dockets that MnDOT had completed or planned to complete.
+
+3. Municipal Boundary Adjustments (MBA) docket data
+Approved annexation and detachment dockets that include legal descriptions and maps of all approved annexations through mid-April 2009.
+
+4. LMIC Adjusted and Unadjusted municipality polygon files
+Contain annexations performed on the state's municipalities. The annexation boundaries in the 'adjusted' file were geo-registered (adjusted) to Public Land Survey line data (see data source #5 below). The annexation boundaries in the 'unadjusted' file were not geo-registered to the PLS data set.
+
+5.  Control Point Generated Public Land Survey Quarter-quarter Sections
+Used to georeference some of the annexation boundaries. Documented at: https://gisdata.mn.gov/dataset/plan-mndnr-public-land-survey
+
+-----------------------------------
+PROCESS STEPS:
+
+The following steps were completed using Esri's ArcGIS 9.2 software:
+
+1. MnDOT muni_bounds data set was reviewed to determine the annexations/detachments that were definitively completed by MnDOT. The muni_bounds file was compared with existing LMIC municipality data and with MnDOT's updated municipal boundary data table. Three hundred and ninety-nine (399) annexations/detachments were identified that needed review and potential updating.
+
+2. Annexation/detachment docket files (including maps) were then obtained from MBA and compared with those annexations/detachments requiring review from step 1 to determine if they were already complete. Approximately two-thirds of the records were determined to be complete and did not require further updates.
+
+3. The approximately 100 annexations/detachments that had not been completed were checked to determine boundary closure accuracy where sufficient legal description information of the annexation was provided. The information was then entered into the muni_bounds data set several ways, depending on the quality of the source data:
+ 
+a. Drawn using the coordinate geometry (COGO) Advanced Computations Traverse tool in ArcGIS if legal descriptions contained sufficient information to support using the tool.
+
+b. Digitized by 'tracing' georeferenced MBA docket maps, using 2008 FSA NAIP aerial photos, and occasionally MnDOT road files, in the background for reference.
+
+c. Digitized based on intent as stated in the MBA docket and interpreted using area measurements and relative positions of hand-drawn features on the MBA docket maps and their approximate geospatial relationship to landmarks on aerial photos and roads.
+
+4. After completing updates to the city boundaries, the city boundary data (muni_bounds) was subtracted from the township and unorganized territory boundary data (All_boundaries) using the Erase tool; this created an updated township and unorganized territory boundary data file.
+
+5. The updated files were merged to create a single geodatabase with two new feature classes: the Updated City Boundary feature class and the Updated Township and Unorganized Territory Boundary feature class. Gaps and overlaps were resolved, giving priority to the city boundary location (see Logical Consistency field for details).
+
+6. An 'acres' field was calculated for both the city and township attribute tables.
+
+7. A shapefile version was created from the geodatabase for public distribution.
+
+-----------------------------------
+UPDATE: January 2010
+
+- The process to resolve gaps and overlaps was redone using the ArcGIS 'Union' tool with a 1-meter tolerance rather than the 'Integrate' tool with a 10-meter tolerance. This corrected problems with boundaries that were inadvertantly generalized and shifted by the Integrate process - see Logical Consistency field for details.
+- Seven annexation features from the Minnesota Department of Revenue were added.
+- A GNIS code was added to Grant Township and its misspelled name (Grand) was corrected.
+- Two misspellings were corrected: 'Marysville' township was changed to 'Marysland' (Swift County); 'Ghent' unorganized territory was changed to 'Gheen' (St. Louis County)
+- Added the 'County_num' field to display the ANSI county code for the given CTU feature. This was done to give each feature a unique ID when the 'County_num' field is combined with the 'GNIS_ID' field.
+- The city of Roosevelt (County_num = 135, 077 GNIS_ID = 2396425) was split between Roseau and Lake of the Woods counties.
+- The city of St. Peter (County_num = 079, 103 GNIS_ID = 2396517) was split between Le Sueur and Nicollet counties.
+
+-----------------------------------
+UPDATE:  April 2010
+- Corrections were made to the Norwood Young America boundary (Carver County).
+
+-----------------------------------
+UPDATE:  June 2010
+- A city name misspelling was corrected:  'Hinkley' was changed to 'Hinckley'
+
+-----------------------------------
+UPDATE: September 2010
+- Updated boundary data in an ArcSDE Geodatabase
+- Applied topoplogy rules to eliminate gaps and overlaps
+- Added fictitious GNIS codes to nine Unorganized Territories (999901-999911) to facilitate joins and relates
+
+-----------------------------------
+UPDATE: January 27, 2011
+- 107 corrections were made to the dataset based on MnDOT ROW (right-of-way) and boundary review
+
+-----------------------------------
+UPDATE: July 27, 2011
+-all approved MBA dockets were processed for the fiscal year
+-Number of records changed from 2748 to 2747 due to City of Tenney dissolution to Campbell Township
+
+-----------------------------------
+UPDATE: October 2011
+-all approved MBA dockets were processed from July 1, 2011 to October 18, 2011
+
+-----------------------------------
+UPDATE: February 2012
+-all approved MBA dockets were processed from October 18, 2011 to February 8, 2012. Pine Island annexation data was corrected and updated based on information provided by the Rochester-Olmsted Planning Department.
+
+-----------------------------------
+UPDATE: June 2012
+-all approved MBA dockets were processed from February 9, 2012 to June 19, 2012.
+- The format of the ID field was changed to comply with the State of Minnesota's CTU Standard: http://mn.gov/oet/programs/policies/geospatial/gis-pages/CTU-Identifier-Codes.jsp  The GNIS_ID code field (text without leading zeros) was dropped and was replaced with the same code in text format with leading zeros (GNIS_ID_T) and with the code in integer format (GNIS_ID_I).
+
+-----------------------------------
+UPDATE: July 2013
+-all approved MBA dockets were processed from June 20, 2012 to June 30, 2013.
+
+-----------------------------------
+UPDATE: June 2014
+-all approved MBA dockets were processed from July 1, 2013 to May 29, 2014.</procdesc></procstep></lineage></dataqual><spdoinfo><indspref>None</indspref><direct>Vector</direct><mgmg3obj>Polygon</mgmg3obj><mgmg3til>State</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>not applicable</altdatum><altunits>Not applicable</altunits></altsys><depthsys><depthdn>not applicable</depthdn><depthdu>Not applicable</depthdu></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><overview><eaover>Field name: Description (type, width)
+
+FID: Unique identifier of the city, township or unorganized territory feature assigned automatically by ArcGIS (Object ID, N/A).
+Shape: Geometry data of the city, township or unorganized territory feature (Geometry, N/A).
+LoadDate: Date when the record was last loaded into the database (Date, N/A).
+AREA: Area of the city, township or unorganized territory feature in square meters derived automatically by ArcGIS (Double, N/A).
+LEN: Perimeter length of the city, township or unorganized territory feature in meters derived automatically by ArcGIS (Double, N/A).
+Name: The name of the city, township or unorganized territory feature (Text, 49).
+Fcode: Feature code (Long Integer, 5):
+61316 = city
+61348 = township
+61350 = unorganized territory
+Acres: Number of acres within the polygon (Double, 15/2)
+GNIS_ID_T: Geographic Names Information System Feature ID (Text with leading zeros, 8)
+GNIS_ID_I: Geographic Names Information System Feature ID (Integer)
+CTU_Type: city, township, unorganized territory
+County_num: ANSI 3-digit county code for given feature (Text, 10)</eaover><eadetcit>CTU codes are a subset of the full set of GNIS codes. For more information on CTU and GNIS codes, see: http://www.mngeo.state.mn.us/CTU/index.html</eadetcit></overview></eainfo><distinfo><resdesc>mnctu, bdry_mn_city_township_unorg</resdesc><distliab>Use of this data is subject to MnDOT's disclaimers, legal notices and policies found at:  http://www.dot.state.mn.us/information/disclaimer.html
+
+MnGeo's Distribution Liability Statement is here:  
+http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab><stdorder><digform><digtinfo><formname>Shapefile</formname><formvern>N/A</formvern><transize>8 MB</transize></digtinfo></digform><ordering>Data distribution is through the Minnesota Geospatial Commons via the Online Linkage field below.
+
+</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>658 Cedar Street, Room 300</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntfax>651-296-6398</cntfax><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20140918</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Department of Transportation (MnDOT) - Office of Transportation Management - GIM Unit</cntorg><cntper>Mike Eull</cntper></cntperp><cntpos>Research Analysis Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>395 John Ireland Blvd, Mail Stop 450</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-366-3859</cntvoice><cntemail>michael.eull@state.mn.us</cntemail></cntinfo></metc></metainfo></metadata>

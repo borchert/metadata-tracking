@@ -1,0 +1,801 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>The Minnesota County Biological Survey, Minnesota Department of Natural Resources, Division of Ecological Resources</origin>
+        <pubdate>2000-01-01 00:00:00.0</pubdate>
+        <title>MCBS Sites of Biodiversity Significance</title>
+        <pubinfo>
+          <publish>The Minnesota County Biological Survey, Minnesota Department of Natural Resources, Division of Ecological Resources</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/biota-mcbs-sites-of-biodiversity</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data layer represents areas with varying levels of native biodiversity that may contain high quality native plant communities, rare plants, rare animals, and/or animal aggregations.  Initially, boundaries of sites are determined by review of aerial photography in order to identify potential areas of native biodiversity based on native vegetation.  In subsequent field investigations, MCBS assesses the ecological characteristics of the site and the presence of rare species.  A biodiversity significance rank is assigned on the basis of the number of rare species, the quality of the native plant communities, size of the site, and context within the landscape.   Following field investigations, site boundaries sometimes are revised, or sites added, to incorporate critical habitat for rare plants and rare animals.  In these instances, the quality of native plant communities is not the primary criteria for ranking the site.  MCBS Sites that are found to be disturbed are retained in the layer as negative data and are given the Biodiversity Significance rank of "Below."  Those disturbed areas within MCBS Sites and all areas outside MCBS Sites are lands where native plant communities have been seriously altered or destroyed by human activities such as farming, recent logging, draining, and development.</abstract>
+      <purpose>To track information on sites that have been surveyed by the Minnesota County Biological Survey so that areas of statewide biodiversity significance can be given priority for preservation.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150507</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset. The data are current, by county, to the publication date of the County Biological Survey data for that county. 1980 - Present.</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-96.810586</westbc>
+        <eastbc>-89.787973</eastbc>
+        <northbc>49.015581</northbc>
+        <southbc>43.436203</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>MCBS Sites, Native Plant Communities, Rare Species, Rare Plants, Natural Heritage, Biological Survey, biota</themekey>
+        <themekt>
+          </themekt>
+      </theme>
+      <place>
+        <placekey>Minnesota</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Users must include in any product derived from this GIS data set an acknowledgment of the Minnesota County Biological Survey as the source of information.  In addition, in order to protect DNR's copyright interest in these data, the user must also include an appropriate copyright notice in the name of the DNR or the user.</useconst>
+    <native>ArcView Shapefile</native>
+    <browse>
+      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/biota_mcbs_sites_of_biodiversity/metadata/preview.jpg</browsen>
+      <browsed>MCBS Sites of Biodiversity Significance in the Glacial Lakes State Park area.  Shown with County Highway Map overlay.</browsed>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <title>
+          </title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Ecological Resources</cntorg>
+          <cntper>Carmen Converse</cntper>
+        </cntperp>
+        <cntpos>MCBS Supervisor</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>Box 25
+500 Lafayette Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155-4025</postal>
+        </cntaddr>
+        <cntvoice>651-259-5083</cntvoice>
+        <cntfax>651-296-1811</cntfax>
+        <cntemail>carmen.converse@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>
+      </logic>
+    <complete>Data are complete for each county represented in the data set.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Source layer mnsbspy3:  No quantitative studies of horizontal positional accuracy exist for the data. Positional accuracy can be reasonably estimated based on the characteristics of source materials and processing techniques to be 45 - 60 feet (14 - 18 meters) from correct position.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Source layer mnsbspy3:  Not Applicable
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Attribute Lineage for source table MCBS_SBSPY3.DBF:  The data have been automated using either ArcView or ArcGIS.
+</procdesc>
+      </procstep>
+    </lineage>
+    <attracc>
+      <attraccr>Source table MCBS_SBSPY3.DBF:  Attribute values are subjected to a quality control process.
+</attraccr>
+    </attracc>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Not Applicable</indspref>
+    <direct>vector</direct>
+    <mgmg3obj>polygon</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>MCBS_SBSPY3.DBF</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>the unique value</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SITE</attrlabl>
+        <attrdef>MCBS site number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SITE_NAME</attrlabl>
+        <attrdef>MCBS name for the site</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SUBSITE</attrlabl>
+        <attrdef>MCBS subsite number (subsites may be created when portions of a site are substantially different in biodiversity significance)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CTYSITE</attrlabl>
+        <attrdef>concatenation of COUNTY and SITE values</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BIODIV_SIG</attrlabl>
+        <attrdef>biodiversity significance rank</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Outstanding</edomv>
+            <edomvd>Sites containing the best occurrences of the rarest species, the most outstanding examples of the rarest native plant communities, and/or the largest, most intact functional landscapes.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>High</edomv>
+            <edomvd>Sites containing very good quality occurrences of the rarest species, high-quality examples of rare native plant communities, and/or important functional landscapes.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Moderate</edomv>
+            <edomvd>Sites containing occurrences of rare species and/or moderately disturbed native plant communities, and/or landscapes that have a strong potential for recovery.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Below</edomv>
+            <edomvd>Sites below minimum biodiversity threshold for statewide significance. These sites lack occurrences of rare species or natural features or do not meet MCBS standards for Outstanding, High, or Moderate rank. These sites may include areas of conservation value at the local level, such as habitat for native plants and animals, corridors for animal movements, buffers surrounding high quality natural areas, or areas with high potential for restoration of native habitat.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DESCR</attrlabl>
+        <attrdef>biodiversity significance in descriptive format</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>two digit county code</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Aitkin</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Anoka</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Becker</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Beltrami</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Benton</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Big Stone</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Blue Earth</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Brown</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Carlton</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Carver</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>Cass</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>Chippewa</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>13</edomv>
+            <edomvd>Chisago</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>14</edomv>
+            <edomvd>Clay</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>15</edomv>
+            <edomvd>Clearwater</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>16</edomv>
+            <edomvd>Cook</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>17</edomv>
+            <edomvd>Cottonwood</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>18</edomv>
+            <edomvd>Crow Wing</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>19</edomv>
+            <edomvd>Dakota</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>20</edomv>
+            <edomvd>Dodge</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>21</edomv>
+            <edomvd>Douglas</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>22</edomv>
+            <edomvd>Faribault</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>23</edomv>
+            <edomvd>Fillmore</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>24</edomv>
+            <edomvd>Freeborn</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>25</edomv>
+            <edomvd>Goodhue</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>26</edomv>
+            <edomvd>Grant</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>27</edomv>
+            <edomvd>Hennepin</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>28</edomv>
+            <edomvd>Houston</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>29</edomv>
+            <edomvd>Hubbard</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>30</edomv>
+            <edomvd>Isanti</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>31</edomv>
+            <edomvd>Itasca</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>32</edomv>
+            <edomvd>Jackson</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>33</edomv>
+            <edomvd>Kanabec</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>34</edomv>
+            <edomvd>Kandiyohi</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>35</edomv>
+            <edomvd>Kittson</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>36</edomv>
+            <edomvd>Koochiching</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>37</edomv>
+            <edomvd>Lac Qui Parle</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>38</edomv>
+            <edomvd>Lake</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>39</edomv>
+            <edomvd>Lake of the Woods</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>40</edomv>
+            <edomvd>Le Sueur</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>41</edomv>
+            <edomvd>Lincoln</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>42</edomv>
+            <edomvd>Lyon</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>43</edomv>
+            <edomvd>McLeod</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>44</edomv>
+            <edomvd>Mahnomen</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>45</edomv>
+            <edomvd>Marshall</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>46</edomv>
+            <edomvd>Martin</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>47</edomv>
+            <edomvd>Meeker</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>48</edomv>
+            <edomvd>Mille Lacs</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>49</edomv>
+            <edomvd>Morrison</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>50</edomv>
+            <edomvd>Mower</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>51</edomv>
+            <edomvd>Murray</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>52</edomv>
+            <edomvd>Nicollet</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>53</edomv>
+            <edomvd>Nobles</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>54</edomv>
+            <edomvd>Norman</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>55</edomv>
+            <edomvd>Olmsted</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>56</edomv>
+            <edomvd>Otter Tail</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>57</edomv>
+            <edomvd>Pennington</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>58</edomv>
+            <edomvd>Pine</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>59</edomv>
+            <edomvd>Pipestone</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>60</edomv>
+            <edomvd>Polk</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>61</edomv>
+            <edomvd>Pope</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>62</edomv>
+            <edomvd>Ramsey</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>63</edomv>
+            <edomvd>Red Lake</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>64</edomv>
+            <edomvd>Redwood</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>65</edomv>
+            <edomvd>Renville</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>66</edomv>
+            <edomvd>Rice</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>67</edomv>
+            <edomvd>Rock</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>68</edomv>
+            <edomvd>Roseau</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>69</edomv>
+            <edomvd>St. Louis</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>70</edomv>
+            <edomvd>Scott</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>71</edomv>
+            <edomvd>Sherburne</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>72</edomv>
+            <edomvd>Sibley</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>73</edomv>
+            <edomvd>Stearns</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>74</edomv>
+            <edomvd>Steele</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>75</edomv>
+            <edomvd>Stevens</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>76</edomv>
+            <edomvd>Swift</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>77</edomv>
+            <edomvd>Todd</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>78</edomv>
+            <edomvd>Traverse</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>79</edomv>
+            <edomvd>Wabasha</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>80</edomv>
+            <edomvd>Wadena</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>81</edomv>
+            <edomvd>Waseca</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>82</edomv>
+            <edomvd>Washington</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>83</edomv>
+            <edomvd>Watonwan</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>84</edomv>
+            <edomvd>Wilkin</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>85</edomv>
+            <edomvd>Winona</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>86</edomv>
+            <edomvd>Wright</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>87</edomv>
+            <edomvd>Yellow Medicine</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>area in square meters</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>perimeter in meters</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>U.S. acres</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <resdesc>biota_mcbs_sites_of_biodiversity</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <formvern>Not Applicable</formvern>
+          <transize>30000</transize>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Ecological Resources - Natural Heritage and Nongame Research Program</cntorg>
+          <cntper>Lisa Joyal</cntper>
+        </cntperp>
+        <cntpos>NHIS Data Distribution Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Road, Box 25</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5109</cntvoice>
+        <cntfax>651-296-1811</cntfax>
+        <cntemail>lisa.joyal@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141006</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Ecological Resources</cntorg>
+          <cntper>Carmen Converse</cntper>
+        </cntperp>
+        <cntpos>MCBS Supervisor</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>Box 25
+500 Lafayette Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155-4025</postal>
+        </cntaddr>
+        <cntvoice>651-259-5083</cntvoice>
+        <cntfax>651-296-1811</cntfax>
+        <cntemail>carmen.converse@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

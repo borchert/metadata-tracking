@@ -1,0 +1,83 @@
+<?xml version="1.0"?><!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  --><metadata><idinfo><citation><citeinfo><origin>Minnesota Geospatial Information Office (MnGeo)</origin><pubdate>20140530</pubdate><title>Electric Transmission Lines and Substations, 60 Kilovolt and Greater, Minnesota, 2014</title><mgmg1cid></mgmg1cid><pubinfo><publish>Minnesota Geospatial Information Office (MnGeo)</publish></pubinfo></citeinfo></citation><descript><abstract>The electric transmission network information consists of transmission lines, with associated substations, designed to handle 60 Kilovolts or greater.
+
+The Minnesota Electric Transmission Mapping Project has developed two geographic information system data sets: transmission lines and substations. This metadata record describes both data sets.
+
+In 2002, each electric utility company was mailed a request for their facility information which could be provided in either digital or paper form. The responses varied significantly in quality and quantity. In addition, the companies expressed concerns about providing the information because of security concerns. Data users are strongly encouraged to read the data quality section of this documentation. 
+
+Datasets were published in 2003, 2007, and 2014. The dataset was last updated in April, 2014 -- most changes were to improve the positional accuracy of lines and substations. These changes include updates from filings with the Energy Facility Permitting, Minnesota Department of Commerce. In addition, Dakota County updated the lines for their county.
+
+The Minnesota Electric Transmission Mapping Project is a collaborative effort between the Minnesota Department of Commerce and the Minnesota Geospatial Information Office.</abstract><purpose>This project will assist with state energy planning efforts and enhance public understanding of Minnesota's electric power infrastructure.</purpose><supplinf>State of Minnesota to first substation outside the state (goal of the project).</supplinf></descript><timeperd><timeinfo><sngdate><caldate>2014</caldate></sngdate></timeinfo><current>The companies provided data from December 2001 to October 2003. The editing process corrected information until the winter of 2003/2004. In 2007, the positional accuracy of many transmission lines and substations was improved using several sources (see Lineage for details), and several new lines were added based on data provided by HDR. The 2007 dataset was NOT a comprehensive update for the entire state. The last update was in April, 2014 and included several new lines and substations that were filed with the Department of Commerce.</current></timeperd><status><progress>Complete</progress><update>Irregular</update></status><spdom><bounding><westbc>-97.23</westbc><eastbc>-89.53</eastbc><northbc>49.37</northbc><southbc>43.5</southbc></bounding></spdom><keywords><theme><themekt>ISO 19115 Topic Category</themekt><themekey>utilitiesCommunication, Utilities, Transmission Lines, Substations, Power, Power Lines, Powerlines, Electric, Electricity, AC, DC</themekey></theme><place><placekey>Minnesota, MN</placekey></place></keywords><accconst>There are no access constraints to view or download the map at:  http://www.gda.state.mn.us/maps/ElecTran07.pdf
+
+Due to security concerns, the GIS data is not available online. It must be requested according to the directions found in 'Ordering Instructions'.</accconst><useconst>Redistribution conditions: In obtaining this data from the Minnesota Department of Commerce and MnGeo, it is understood that you and/or your organization have the right to use them for any internal purpose. You should not transmit or provide the GIS files in any form to another user; instead, refer other users to the online form described in the Ordering Instructions to request the GIS data.</useconst><browse><browsed>Statewide map showing transmission lines and substation locations.</browsed><browsen>http://www.gda.state.mn.us/maps/ElecTran07.pdf</browsen></browse><native>ESRI ArcGIS 9.1</native><crossref><citeinfo><title>See the transmission line section of MnGeo's first-stop information webpage on utilities:   http://www.mngeo.state.mn.us/chouse/utilities.html#transmission</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Norman Anderson</cntper></cntperp><cntpos>Senior Research Analyst</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>658 Cedar Street, Room 300</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2483</cntvoice><cntfax>651-296-6398</cntfax><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>No statistical attribute assessment has been performed on the data. When the transmission line and substation characteristics were standardized, errors may have been inadvertently introduced to values. A SOURCE attribute was added to track the positional sources of data such as the organization that provided the data (e.g., HDR) or the background (e.g., AP - air photo). It was added later in the process so it is not complete.
+
+Transmission Lines: For several lines, the VOLTAGE field is set to zero since the company did not provide the voltage. Several lines have voltages lower than 60 kV, but this dataset does NOT comprehensively map lower voltage lines.
+
+Substations: Locations from different companies which are in close proximity may have the same or similar names. There was an attempted to expand the characteristics for the values of SUB_TYPE and VOLTAGE where they were missing.</attraccr></attracc><logic>Data does not have network connectivity. Transmission Lines: Some transmission lines end abruptly.  Substations: It appears that some substations were provided by multiple utilities.</logic><complete>Each company filled out the original request for information to varying degrees. The majority supplied the key characteristics, i.e. utility identification and voltage for transmission lines but no company supplied all the values for each requested item. One utility did not return maps sent out for review. Several companies provided substation names but very little else. In 2008, Great River Energy (GRE) provided a .kml to assist in reviewing the state's data. Lines are added through the energy facility permitting process at the Department of Commerce.</complete><posacc><horizpa><horizpar>The original stated accuracy of the information received from the utilities ranged from +/- 100 feet to +/- 1,500 feet.
+
+Where possible, the positional accuracy of the transmission lines and substations has been improved to match the 2010 Farm Service Agency (FSA) National Agriculture Imagery Program (NAIP) 1-meter resolution photos  - http://www.mngeo.state.mn.us/chouse/airphoto/naip10.html  
+
+Most of the lines 138 kV and greater have been adjusted to the aerial photography.
+
+Transmission Lines: There was no attempt to capture pole locations, just changes in line direction.
+
+Substations: The locations were moved to the visual footprint of the substation on the aerial photography.
+</horizpar></horizpa><vertacc><vertaccr>Not applicable</vertaccr></vertacc></posacc><lineage><srcinfo><srcscale></srcscale></srcinfo><procstep><procdesc>The Minnesota Electric Transmission Line Mapping Project is a collaborative effort between the Minnesota Department of Commerce and MnGeo (formerly LMIC).
+
+A letter was sent to the utility companies in August 2002 requesting information on transmission lines greater than 60 kV and their associated substations. The list of utilities contacted was provided by the Minnesota Transmission Owners consortium. This request asked for the maps of features (digital or paper) and attributes describing the features. If the attribute information submitted by the utilities did not match what had been requested, it was standardized to more closely match the attributes originally requested. Once completed, the utilities were given several opportunities to review the results in 2003 and 2004.
+
+The positional quality of the original data has been addressed several times, mainly in 2007 and 2014. Some of the utilities provided data of a graphical nature to make it easy to visualize on a general map but which had little to do with its actual position. Aerial photography has been the primary method to improve the positional quality. There was no attempt to capture pole locations, just changes in line direction. In addition, companies, utilities and counties have provided some improved positional data. Several new lines and substations were added between 2007 and 2014.
+
+In the future, updates to the data will typically happen through the Energy Facility Permitting process with the Department of Commerce.
+</procdesc></procstep></lineage></dataqual><spdoinfo><indspref>None</indspref><direct>Vector</direct><mgmg3obj>Line</mgmg3obj><mgmg3til>Statewide</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>not applicable</altdatum></altsys><depthsys><depthdn>not applicable</depthdn></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15E</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><overview><eaover>TRANSMISSION LINES:
+
+COMPANY - name of the company that provided the data - 45 characters.
+COMP_AB - company abbrevation.
+COMP_ID - company circuit identification / line number - 35 characters.
+ACDC - AC or DC power - 2 characters.
+VOLTAGE - voltage in kilovolts (kV) - 3 digits.
+MILES_GIS - calculated miles base on GIS layer.
+INTERSTATE - yes or no - 3 characters.
+COMMENTS
+SOURCE - Source was added by MnGeo partway through the project to track some of the positional sources of data when the companies did not (see Attribute Accuracy field above).
+Codes used:
+- AP: aerial photography (statewide 1 meter, metro .3 meter)
+- Dakot: Dakota County
+- GPS:  Global Positioning System
+- GRE: Great River Energy
+- HDR: HDR consulting firm
+- Blanks or NULLs: Source not recorded
+DOCKET - eDocket designation: TL-YY-NNNN ex. TL-11-915 (YY = Year and NNNN is a unique ID for that year)
+
+-------------------------------------------------------------------------------------
+
+SUBSTATIONS:
+
+COMPANY - company name - 45 characters.
+COMP_AB - company abbreviation.
+COMP_ID - substation identification - 45 characters.
+SUB_TYPE - substation type - 15 characters.
+SOURCE - Source was added by MnGeo to track some of the positional sources of data when the companies did not (see Attribute Accuracy field above).
+Codes used:
+- AP: aerial photography (statewide 1 meter, metro .3 meter)
+- CAD: DXF/DWG files
+- GIS: Geographic Information System file
+- GIS m: Geographic Information System file from Rochester Public Utilities
+- Blanks or NULLs: Source not recorded
+INTERSTATE - yes or no - 3 characters.
+DOCKET - eDocket designation: TL-YY-NNNN ex. TL-11-915 (YY = Year and NNNN is a unique ID for that year)
+
+COMMENTS</eaover></overview></eainfo><distinfo><resdesc>elec_trans14 - Transmission lines and substations 2014</resdesc><distliab>Redistribution conditions: In obtaining this data from the Minnesota Department of Commerce and MnGeo, it is understood that you and/or your organization have the right to use them for any internal purpose. You should not transmit or provide the GIS files in any form to another user; instead, refer other users to the online form to request the GIS data.
+
+MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab><stdorder><digform><digtinfo><formname>ESRI shapefile</formname><formvern></formvern><transize>Less than 1 MB</transize></digtinfo></digform><ordering>1.  Map:  A PDF version of the 2007 statewide map showing transmission lines and substation locations is free online at:
+   http://www.gda.state.mn.us/maps/ElecTran07.pdf
+
+A 2014 version of the map is in progress.
+
+2.  GIS data:  For security reasons, the GIS data is not online and must be requested.
+
+The request form is online:  ftp://ftp.lmic.state.mn.us/pub/data/trans_util/MN_Commerce_HVTL_Data_Request.pdf
+
+Follow the instructions on the form to fill it out and submit it to the Minnesota Department of Commerce. Commerce staff may refer the request to the Homeland Security and Emergency Management division of the state's Department of Public Safety for their review. If both departments approve the request, Commerce will notify MnGeo to send the data to you. You should not transmit or provide the GIS files in any form to another user; instead, refer other users to the online form to request the GIS data.
+
+If you have any questions about the form or the approval process, please contact Commerce staff at:  HVTL.data@state.mn.us</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>658 Cedar Street, Room 300</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntfax>651-296-6398</cntfax><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150529</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm
+</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>658 Cedar Street, Room 300</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntfax>651-296-6398</cntfax><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></metc></metainfo><Esri><ModDate>20111025</ModDate><ModTime>11361800</ModTime></Esri><mdDateSt Sync="TRUE">20111025</mdDateSt></metadata>

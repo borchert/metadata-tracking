@@ -1,0 +1,250 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources (DNR)</origin>
+        <pubdate>2006-03-17 00:00:00.0</pubdate>
+        <title>DNR Wildlife Management Area Land Cover - Publicly Accessible</title>
+        <pubinfo>
+          <publish>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/biota-wma-landcover-pub</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This polygon feature class contains land cover type boundaries for publicly accessible Wildlife Management Areas(WMAs) across the state. WMAs are part of the Minnesota state recreation system created to protect wildlife habitat and provide wildlife-based recreation.  Cover type polygons are based on a hierarchical classification system modified from the Minnesota Land Cover Classification System (MLCCS).  (The following text is taken from the: Minnesota Land Cover Classification System User Manual, July 2003, MN DNR, Central Region.)  MLCCS integrates classification of cultural features, non-native vegetation, natural and semi-natural vegetation into a comprehensive land cover classification system.  MLCCS is based heavily on the US National Vegetation Classification System (NVCS) and Minnesota's Native Vegetation: A Key to Natural Communities, version 1.5.  The MLCCS uses the natural community terminology developed by the MN DNR Natural Heritage and Nongame Research Program (NHNRP).  To find out further about the MLCCS, refer to the Minnesota Land Cover
+Classification System website.(http://www.dnr.state.mn.us/mlccs/index.html).</abstract>
+      <purpose>Wildlife staff will use the WMA cover type layer for managing wildlife habitat on WMAs; local mapping, contracting for maintenance and development projects, visitor use maps, management use maps, project planning and acquisition planning. The layer will also be used for public information about the types of wildlife habitat that can be found on WMAs. WMA cover types are included in the Recreation Compass on the DNR web site, which can be accessed by the public to print maps of wildlife habitat types found on a particular WMA.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150611</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset. WMA cover type alterations and cover types of new WMA acquisitions will be updated on an annual basis every summer.</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Weekly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-96.774088</westbc>
+        <eastbc>-89.847596</eastbc>
+        <northbc>49.238689</northbc>
+        <southbc>43.437530</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Land Cover, Wildlife Management Area, Cover Types, Habitat Types, WMLCCS</themekey>
+        <themekt>
+          </themekt>
+      </theme>
+      <place>
+        <placekey>Minnesota</placekey>
+      </place>
+    </keywords>
+    <accconst>
+      </accconst>
+    <useconst>
+      </useconst>
+    <native>ArcView Shapefile</native>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/biota_wma_landcover_pub/metadata/preview.jpg</browsen>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <title>
+          </title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</cntorg>
+          <cntper>Bruce Anderson</cntper>
+        </cntperp>
+        <cntpos>GIS Support Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>1201 E HWY 2</address>
+          <city>Grand Rapids</city>
+          <state>MN</state>
+          <postal>55744</postal>
+        </cntaddr>
+        <cntvoice>2318-327-4105</cntvoice>
+        <cntfax>218-327-4263</cntfax>
+        <cntemail>Bruce.Anderson@dnr.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Data are topologically correct using ArcView 3.x. All polygons are closed and lines intersect where intended.</logic>
+    <complete>
+      </complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+          </horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Source layer ctype_wmac2py3:  Not Applicable
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Attribute Lineage for source table CTYPE_WMACPY3.DBF:  Unknown
+</procdesc>
+      </procstep>
+    </lineage>
+    <attracc>
+      <attraccr>Source table CTYPE_WMACPY3.DBF:  Unknown
+</attraccr>
+    </attracc>
+  </dataqual>
+  <spdoinfo>
+    <direct>vector</direct>
+    <mgmg3obj>polygon</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>Data Elements for Attribute Table CTYPE_WMACPY3.DBF:
+
+PGM_PRJ:  Management Unit ID number (ie WMA01242)
+
+CT_UNIT_IS:  Cover Type Unit ID - unique number for the polygon that falls within this WMA subunit. i.e. "Some" WMA "This" Subunit has 10 cover type polygons which will be numbered 1 - 10 in this field.
+
+
+BDUNIQUEID:  This value relates to the UNIQUEID value in the WMA Boundary layer
+
+
+SOURCE:  Primary digitizing source (Attachment D)
+
+DATE_INV:  Date inventoried
+
+CTYPE:  Cover type code
+
+CNAME:  Cover type description
+
+AREA:  Default area of polygon in square meters
+
+PERIMETER:  Perimeter of polygon in meters
+
+COUNTY:  Numeric code for primary county
+
+WEBCLASS:  Land Cover types are grouped for web display these are the text descriptions for those categories. 
+
+
+WEBTYPE:  Numeric value relating to the WEBCLASS descriptions
+
+
+CNAME_L1:  the WMA Land Cover is based on a hierarchical system. This is the lowest level of detail that each polygon falls into. 
+
+
+SHAPE_LENG:  perimeter (m) calculated in the WMAGIS GDB
+
+
+SHAPE_AREA:  area (m) calculated in the WMAGIS GDB
+
+
+WEBREADY:  Ready for display on DNR Website and available on Data Deli.
+
+ACRES:  Area of polygon in acres
+
+</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>biota_wma_landcover_pub</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shapefile</formname>
+          <formvern>3.x</formvern>
+          <transize>1024</transize>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</cntorg>
+          <cntper>Bruce Anderson</cntper>
+        </cntperp>
+        <cntpos>GIS Support Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>1201 E HWY 2</address>
+          <city>Grand Rapids</city>
+          <state>MN</state>
+          <postal>55744</postal>
+        </cntaddr>
+        <cntvoice>2318-327-4105</cntvoice>
+        <cntfax>218-327-4263</cntfax>
+        <cntemail>Bruce.Anderson@dnr.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>2008-08-20 16:17:37.0</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</cntorg>
+          <cntper>Bruce Anderson</cntper>
+        </cntperp>
+        <cntpos>GIS Support Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>1201 E HWY 2</address>
+          <city>Grand Rapids</city>
+          <state>MN</state>
+          <postal>55744</postal>
+        </cntaddr>
+        <cntvoice>2318-327-4105</cntvoice>
+        <cntfax>218-327-4263</cntfax>
+        <cntemail>Bruce.Anderson@dnr.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>
