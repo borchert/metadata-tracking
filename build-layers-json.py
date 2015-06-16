@@ -5,7 +5,7 @@ import pdb
 from lxml import etree
 
 #don't enter these dirs (at the root level)
-IGNORE_DIRS = ["scripts", "testing", ".git", "inbox"]
+IGNORE_DIRS = ["scripts", "testing", ".git", "inbox", "OLD-mgs"]
 ISO_ID_PATH = "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString"
 
 #{id: path}
