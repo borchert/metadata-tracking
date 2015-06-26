@@ -1,6 +1,413 @@
-﻿<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><title>GEOD_Corner</title><pubinfo><publish>Ramsey County Enterprise GIS</publish></pubinfo><pubdate>20150304</pubdate><origin>Ramsey County</origin><onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink></citeinfo></citation><descript><abstract>This data set contains points that represent section corners.  In 1985, Ramsey County began a 5 year project to modernize it's land records mapping system to create a computerized Land Information System.  As part of the project, the County developed an accurate coordinate control base for this mapping system.  The 27 existing State and Federal first order accuracy positions in Ramsey County were densified by a GPS (Global Positioning System) Network of 171 second order accuracy positions.  These positions were established and recorded on existing public land survey corner monuments and accessory monuments through out the county.</abstract><purpose>The section corners in this data set support many functions including thematic mapping, asset management, property assessment, surveying and engineering projects.</purpose><supplinf>Ramsey County</supplinf></descript><status><progress>Complete</progress><update>Monthly</update></status><spdom><bounding><westbc>-93.228202</westbc><eastbc>-92.982974 </eastbc><northbc>45.124277</northbc><southbc>44.890922</southbc></bounding></spdom><keywords><theme><themekey>corners, section, PLS</themekey></theme></keywords><accconst>None.</accconst><useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the publisher would be appreciated.</useconst><timeperd><timeinfo><sngdate><caldate>20150304</caldate></sngdate></timeinfo><current>Data set is current and complete, but constantly being update to reflect changes.  New versions are released monthly.</current></timeperd><ptcontac><cntinfo><cntperp><cntorg>Ramsey County Survey</cntorg><cntper>Curt Peterson</cntper></cntperp><cntpos>GIS Supervisor</cntpos><cntaddr><address>1425 Paul Kirkwold Dr</address><city>Arden Hills</city><state>MN</state><postal>55112</postal></cntaddr><cntvoice>651.266.7172</cntvoice><cntemail>Curtis.Peterson@co.ramsey.mn.us</cntemail></cntinfo></ptcontac></idinfo><distinfo><distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>GEOD_Corner</title>
+        <pubinfo>
+          <publish>Ramsey County Enterprise GIS</publish>
+        </pubinfo>
+        <pubdate>20150304</pubdate>
+        <origin>Ramsey County</origin>
+        <onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set contains points that represent section corners.  In 1985, Ramsey County began a 5 year project to modernize it's land records mapping system to create a computerized Land Information System.  As part of the project, the County developed an accurate coordinate control base for this mapping system.  The 27 existing State and Federal first order accuracy positions in Ramsey County were densified by a GPS (Global Positioning System) Network of 171 second order accuracy positions.  These positions were established and recorded on existing public land survey corner monuments and accessory monuments through out the county.</abstract>
+      <purpose>The section corners in this data set support many functions including thematic mapping, asset management, property assessment, surveying and engineering projects.</purpose>
+      <supplinf>Ramsey County</supplinf>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>Monthly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.228202</westbc>
+        <eastbc>-92.982974 </eastbc>
+        <northbc>45.124277</northbc>
+        <southbc>44.890922</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>corners, section, PLS</themekey>
+      </theme>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the publisher would be appreciated.</useconst>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150304</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Data set is current and complete, but constantly being update to reflect changes.  New versions are released monthly.</current>
+    </timeperd>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County Survey</cntorg>
+          <cntper>Curt Peterson</cntper>
+        </cntperp>
+        <cntpos>GIS Supervisor</cntpos>
+        <cntaddr>
+          <address>1425 Paul Kirkwold Dr</address>
+          <city>Arden Hills</city>
+          <state>MN</state>
+          <postal>55112</postal>
+        </cntaddr>
+        <cntvoice>651.266.7172</cntvoice>
+        <cntemail>Curtis.Peterson@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
 Limit on Liability:  This data is not a legally recorded map or survey and is not intended to be used as one. This data is a compilation of records and information from various state, county, and city offices, and other sources, and should be used for reference only.
-In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab><resdesc>ISvSQL55.GISWarehouse.Survey.GEOD_Corner</resdesc><distrib><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150304</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Ramsey County Custom Coordinate</gridsysn></gridsys><planci><plandu>feet</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><dataqual><posacc><horizpa><horizpar>Digitized information is generally ± 7 feet; some areas have been found to be ± 30 feet.  COGO (coordinate geometry) accuracy generally is ± 1.0 foot.</horizpar></horizpa></posacc><attracc><attraccr>Feature attributes are identified using analytical and soft copy photogrammetric compilation methods.  Automated GIS processes supplement the photo identified feature attributing with the numerical parameters.</attraccr></attracc><complete>Entire Ramsey County coverage</complete><lineage><procstep>This layer contains a vector representation of bridges and overpasses.  Color aerial photography and airborne GPS used for aerotriangulation.  Aerotrianglution solution used with analytical and softcopy stereo plotters to collect limited planimetric feature.  LIDAR DEM provide by Ramsey County under separate contract with Waggoner Inc. of Jackson, Mississippi was used to create digital ortho images.
+In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab>
+    <resdesc>ISvSQL55.GISWarehouse.Survey.GEOD_Corner</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150304</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Ramsey County Custom Coordinate</gridsysn>
+        </gridsys>
+        <planci>
+          <plandu>feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <dataqual>
+    <posacc>
+      <horizpa>
+        <horizpar>Digitized information is generally &#177; 7 feet; some areas have been found to be &#177; 30 feet.  COGO (coordinate geometry) accuracy generally is &#177; 1.0 foot.</horizpar>
+      </horizpa>
+    </posacc>
+    <attracc>
+      <attraccr>Feature attributes are identified using analytical and soft copy photogrammetric compilation methods.  Automated GIS processes supplement the photo identified feature attributing with the numerical parameters.</attraccr>
+    </attracc>
+    <complete>Entire Ramsey County coverage</complete>
+    <lineage>
+      <procstep>This layer contains a vector representation of bridges and overpasses.  Color aerial photography and airborne GPS used for aerotriangulation.  Aerotrianglution solution used with analytical and softcopy stereo plotters to collect limited planimetric feature.  LIDAR DEM provide by Ramsey County under separate contract with Waggoner Inc. of Jackson, Mississippi was used to create digital ortho images.
  
  
-</procstep></lineage><logic>Information is visually inspected and corrected as necessary.</logic></dataqual><eainfo><detailed><enttyp><enttypl>GEOD_Corner</enttypl></enttyp><attr><attrlabl>MonumentID</attrlabl><attrdef>Unique Monument ID</attrdef><attrdomv><edom><edomv>xxx</edomv><edomvd>Corner</edomvd></edom></attrdomv><attrdomv><edom><edomv>xxxCC</edomv><edomvd>Closing Corner</edomvd></edom></attrdomv><attrdomv><edom><edomv>xxxSC</edomv><edomvd>Standard Corner</edomvd></edom></attrdomv><attrdomv><edom><edomv>8xxx</edomv><edomvd>Anoka County Standard Corner</edomvd></edom></attrdomv><attrdomv><edom><edomv>9xxx</edomv><edomvd>Washington County Standard Corner</edomvd></edom></attrdomv><attrdomv><edom><edomv>MCxxx</edomv><edomvd>Meander Corner - A corner set on a township, section or quarter section line where it intersects with navigable water</edomvd></edom></attrdomv><attrdomv><edom><edomv>WCxxx</edomv><edomvd>Witness Corner - A reference marker set on a township, section or quarter section line that is a known distance from the corner.  Witness Corners are used when the section or meander corner is in an impractical location</edomvd></edom></attrdomv><attrdomv><edom><edomv>xxxE</edomv><edomvd>East - Witness Corner located to the east of monument corner xxx</edomvd></edom></attrdomv><attrdomv><edom><edomv>xxxW</edomv><edomvd>West - Witness Corner located to the west of monument corner xxx</edomvd></edom></attrdomv><attrdomv><edom><edomv>xxxN</edomv><edomvd>North - Witness Corner located to the north of monument corner xxx</edomvd></edom></attrdomv><attrdomv><edom><edomv>xxxS</edomv><edomvd>South - Witness Corner located to the south of monument corner xxx</edomvd></edom></attrdomv></attr><attr><attrlabl>ControlType</attrlabl><attrdef>Jurisdiction type for Benchmark</attrdef><attrdomv><edom><edomv>1</edomv><edomvd>City</edomvd></edom></attrdomv><attrdomv><edom><edomv>2</edomv><edomvd>County</edomvd></edom></attrdomv><attrdomv><edom><edomv>3</edomv><edomvd>Private Surveyors</edomvd></edom></attrdomv><attrdomv><edom><edomv>4</edomv><edomvd>Federal &amp; State</edomvd></edom></attrdomv></attr><attr><attrlabl>CornerPointType</attrlabl><attrdef>The type of control corner</attrdef><attrdomv><edom><edomv>Closing Quarter Corner</edomv><edomvd>Closing Quarter Corner</edomvd></edom></attrdomv><attrdomv><edom><edomv>Location Monument</edomv><edomvd>Location Monument</edomvd></edom></attrdomv><attrdomv><edom><edomv>Government Lot Corner</edomv><edomvd>Government Lot Corner</edomvd></edom></attrdomv><attrdomv><edom><edomv>Meander Corner</edomv><edomvd>Meander Corner</edomvd></edom></attrdomv><attrdomv><edom><edomv>Parcel Control Corner</edomv><edomvd>Parcel Control Corner</edomvd></edom></attrdomv><attrdomv><edom><edomv>Quarter Corner</edomv><edomvd>Quarter Corner</edomvd></edom></attrdomv><attrdomv><edom><edomv>Section Corner</edomv><edomvd>Section Corner</edomvd></edom></attrdomv><attrdomv><edom><edomv>Subdivision of Section Corner</edomv><edomvd>Subdivision of Section Corner</edomvd></edom></attrdomv><attrdomv><edom><edomv>Township Corner</edomv><edomvd>Township Corner</edomvd></edom></attrdomv><attrdomv><edom><edomv>Witness Point</edomv><edomvd>Witness Point</edomvd></edom></attrdomv><attrdomv><edom><edomv>Other</edomv><edomvd>Other</edomvd></edom></attrdomv><attrdomv><edom><edomv>Unknown</edomv><edomvd>Unknown</edomvd></edom></attrdomv></attr><attr><attrlabl>MonumentType</attrlabl><attrdef>Desctiption of the type of Monument</attrdef><attrdomv><edom><edomv>Cast Iron</edomv></edom></attrdomv><attrdomv><edom><edomv>Computed Position</edomv></edom></attrdomv><attrdomv><edom><edomv>Cut Granite</edomv></edom></attrdomv><attrdomv><edom><edomv>Other</edomv></edom></attrdomv><attrdomv><edom><edomv>Unknown</edomv></edom></attrdomv></attr><attr><attrlabl>MonumentDesc</attrlabl><attrdef>Description of Monument</attrdef></attr><attr><attrlabl>Status</attrlabl><attrdef>Condition of the monument</attrdef><attrdomv><edom><edomv>existing</edomv></edom></attrdomv><attrdomv><edom><edomv>nonexistent</edomv></edom></attrdomv><attrdomv><edom><edomv>unknown</edomv></edom></attrdomv></attr><attr><attrlabl>CountyX</attrlabl><attrdef>X value of the location of monumnet in County Coordinates</attrdef></attr><attr><attrlabl>CountyY</attrlabl><attrdef>Y value of the location of monumnet in County Coordinates</attrdef></attr><attr><attrlabl>StateX</attrlabl><attrdef>X value of the location of monumnet in UTM Zone 15</attrdef></attr><attr><attrlabl>StateY</attrlabl><attrdef>Y value of the location of monumnet in UTM Zone 15</attrdef></attr><attr><attrlabl>DmdLatitude</attrlabl><attrdef>Latitude of the monument in Degree Minute Seconds, but listed without spaces and decimals</attrdef></attr><attr><attrlabl>DmsLongitude</attrlabl><attrdef>Longitude of the monument in Degree Minute Seconds, but listed without spaces and decimal</attrdef></attr><attr><attrlabl>CertificateLink</attrlabl><attrdef>Link to the RC site for monument certificate</attrdef></attr><attr><attrlabl>Comment</attrlabl><attrdef>Misc Comment</attrdef></attr></detailed></eainfo></metadata>
+</procstep>
+    </lineage>
+    <logic>Information is visually inspected and corrected as necessary.</logic>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>GEOD_Corner</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>MonumentID</attrlabl>
+        <attrdef>Unique Monument ID</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>xxx</edomv>
+            <edomvd>Corner</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>xxxCC</edomv>
+            <edomvd>Closing Corner</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>xxxSC</edomv>
+            <edomvd>Standard Corner</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>8xxx</edomv>
+            <edomvd>Anoka County Standard Corner</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>9xxx</edomv>
+            <edomvd>Washington County Standard Corner</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MCxxx</edomv>
+            <edomvd>Meander Corner - A corner set on a township, section or quarter section line where it intersects with navigable water</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WCxxx</edomv>
+            <edomvd>Witness Corner - A reference marker set on a township, section or quarter section line that is a known distance from the corner.  Witness Corners are used when the section or meander corner is in an impractical location</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>xxxE</edomv>
+            <edomvd>East - Witness Corner located to the east of monument corner xxx</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>xxxW</edomv>
+            <edomvd>West - Witness Corner located to the west of monument corner xxx</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>xxxN</edomv>
+            <edomvd>North - Witness Corner located to the north of monument corner xxx</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>xxxS</edomv>
+            <edomvd>South - Witness Corner located to the south of monument corner xxx</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ControlType</attrlabl>
+        <attrdef>Jurisdiction type for Benchmark</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>City</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>County</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Private Surveyors</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Federal &amp; State</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CornerPointType</attrlabl>
+        <attrdef>The type of control corner</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Closing Quarter Corner</edomv>
+            <edomvd>Closing Quarter Corner</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Location Monument</edomv>
+            <edomvd>Location Monument</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Government Lot Corner</edomv>
+            <edomvd>Government Lot Corner</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Meander Corner</edomv>
+            <edomvd>Meander Corner</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Parcel Control Corner</edomv>
+            <edomvd>Parcel Control Corner</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Quarter Corner</edomv>
+            <edomvd>Quarter Corner</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Section Corner</edomv>
+            <edomvd>Section Corner</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Subdivision of Section Corner</edomv>
+            <edomvd>Subdivision of Section Corner</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Township Corner</edomv>
+            <edomvd>Township Corner</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Witness Point</edomv>
+            <edomvd>Witness Point</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Other</edomv>
+            <edomvd>Other</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Unknown</edomv>
+            <edomvd>Unknown</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MonumentType</attrlabl>
+        <attrdef>Desctiption of the type of Monument</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Cast Iron</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Computed Position</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Cut Granite</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Other</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Unknown</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MonumentDesc</attrlabl>
+        <attrdef>Description of Monument</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Status</attrlabl>
+        <attrdef>Condition of the monument</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>existing</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>nonexistent</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>unknown</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CountyX</attrlabl>
+        <attrdef>X value of the location of monumnet in County Coordinates</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CountyY</attrlabl>
+        <attrdef>Y value of the location of monumnet in County Coordinates</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>StateX</attrlabl>
+        <attrdef>X value of the location of monumnet in UTM Zone 15</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>StateY</attrlabl>
+        <attrdef>Y value of the location of monumnet in UTM Zone 15</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DmdLatitude</attrlabl>
+        <attrdef>Latitude of the monument in Degree Minute Seconds, but listed without spaces and decimals</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DmsLongitude</attrlabl>
+        <attrdef>Longitude of the monument in Degree Minute Seconds, but listed without spaces and decimal</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CertificateLink</attrlabl>
+        <attrdef>Link to the RC site for monument certificate</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Comment</attrlabl>
+        <attrdef>Misc Comment</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+</metadata>

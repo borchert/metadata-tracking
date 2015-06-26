@@ -1,9 +1,190 @@
-﻿<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><title>CDSTL_Landtie</title><pubinfo><publish>Ramsey County Enterprise GIS</publish></pubinfo><pubdate>20140219</pubdate><origin>Ramsey County</origin><onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink></citeinfo></citation><descript><abstract>This data set contains linework that represents Landties.  These are lines with hooked ends that help define parcel ownership on maps.  In 1986, Parcel Information [MAPINFO] data was digitized from hand drawn 1:2400 half and 1:1200 quarter section maps.  In 1995, the map information data layer was converted to ArcINFO format and maintained in an ArcStorm data base.  Parcel Information was converted in 2005 to an ESRI Arc GIS GeoDatabase format.  In 2014, Landties were seperated out from the other Parcel Information data.
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>CDSTL_Landtie</title>
+        <pubinfo>
+          <publish>Ramsey County Enterprise GIS</publish>
+        </pubinfo>
+        <pubdate>20140219</pubdate>
+        <origin>Ramsey County</origin>
+        <onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set contains linework that represents Landties.  These are lines with hooked ends that help define parcel ownership on maps.  In 1986, Parcel Information [MAPINFO] data was digitized from hand drawn 1:2400 half and 1:1200 quarter section maps.  In 1995, the map information data layer was converted to ArcINFO format and maintained in an ArcStorm data base.  Parcel Information was converted in 2005 to an ESRI Arc GIS GeoDatabase format.  In 2014, Landties were seperated out from the other Parcel Information data.
 
 Parcel Information data is rarely computed utilizing coordinate geometry programs.  Most of this information is a visual representation of map features.
-</abstract><purpose> The landtie data layer represents graphical elements, which aid in the understanding and interpretation of map features.  It is not intended to be inclusive. It is intended to act as a visual aid to help with map interpretation.  This data is primarily used in map creation.  Features held in this database are utilized by automated half and quarter section map production. </purpose><supplinf>Ramsey County</supplinf></descript><status><progress>Complete</progress><update>Monthly</update></status><spdom><bounding><westbc>-93.228202</westbc><eastbc>-92.982974 </eastbc><northbc>45.124277</northbc><southbc>44.890922</southbc></bounding></spdom><keywords><theme><themekey>County, Ramsey, Parcel, Tax, landties</themekey></theme></keywords><accconst>None.</accconst><useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the publisher would be appreciated.</useconst><timeperd><timeinfo><sngdate><caldate>20140219</caldate></sngdate></timeinfo><current>Data set is current and complete, but constantly being update to reflect changes.  New versions are released monthly.</current></timeperd><ptcontac><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></ptcontac></idinfo><distinfo><distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
+</abstract>
+      <purpose> The landtie data layer represents graphical elements, which aid in the understanding and interpretation of map features.  It is not intended to be inclusive. It is intended to act as a visual aid to help with map interpretation.  This data is primarily used in map creation.  Features held in this database are utilized by automated half and quarter section map production. </purpose>
+      <supplinf>Ramsey County</supplinf>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>Monthly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.228202</westbc>
+        <eastbc>-92.982974 </eastbc>
+        <northbc>45.124277</northbc>
+        <southbc>44.890922</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>County, Ramsey, Parcel, Tax, landties</themekey>
+      </theme>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the publisher would be appreciated.</useconst>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20140219</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Data set is current and complete, but constantly being update to reflect changes.  New versions are released monthly.</current>
+    </timeperd>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
 Limit on Liability:  This data is not a legally recorded map or survey and is not intended to be used as one. This data is a compilation of records and information from various state, county, and city offices, and other sources, and should be used for reference only.
-In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab><resdesc>ISvSQL55.GISWarehouse.Cadastral.CDSTL_Landtie</resdesc><distrib><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20140219</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Ramsey County Custom Coordinate</gridsysn></gridsys><planci><plandu>feet</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>Landtie</enttypl></enttyp><attr><attrlabl>TieClass</attrlabl></attr><attr><attrlabl>LyrName</attrlabl></attr><attr><attrlabl>CreatedBy</attrlabl></attr><attr><attrlabl>CreatedDate</attrlabl><attrdef>date created</attrdef></attr><attr><attrlabl>SourceReference</attrlabl></attr><attr><attrlabl>Link1</attrlabl></attr><attr><attrlabl>Link2</attrlabl></attr><attr><attrlabl>Link3</attrlabl></attr><attr><attrlabl>Link4</attrlabl></attr></detailed><overview><eaover>Lines included in this layer are for map clarification purposes.  Landties indicate where individual pieces of land make up a single tax parcel.</eaover></overview></eainfo><dataqual><posacc><horizpa><horizpar>Digitized information is generally ± 7 feet; some areas have been found to be ± 30 feet.  COGO (coordinate geometry) accuracy generally is ± 1.0 foot.</horizpar></horizpa></posacc><attracc><attraccr>Feature attributes are identified using analytical and softcopy photogrammetric compilation methods.  Automated GIS processes supplement the photo identified feature attributing with the numerical parameters.</attraccr></attracc><complete>Entire Ramsey County coverage</complete><lineage><procstep>This layer contains a vector representation of bridges and overpasses.  Color aerial photography and airborne GPS used for aerotriangulation.  Aerotrianglution solution used with analytical and softcopy stereo plotters to collect limited planimetric feature.  LIDAR DEM provide by Ramsey County under separate contract with Waggoner Inc. of Jackson, Mississippi was used to create digital ortho images.
+In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab>
+    <resdesc>ISvSQL55.GISWarehouse.Cadastral.CDSTL_Landtie</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20140219</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Ramsey County Custom Coordinate</gridsysn>
+        </gridsys>
+        <planci>
+          <plandu>feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Landtie</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>TieClass</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LyrName</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CreatedBy</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CreatedDate</attrlabl>
+        <attrdef>date created</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SourceReference</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Link1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Link2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Link3</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Link4</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Lines included in this layer are for map clarification purposes.  Landties indicate where individual pieces of land make up a single tax parcel.</eaover>
+    </overview>
+  </eainfo>
+  <dataqual>
+    <posacc>
+      <horizpa>
+        <horizpar>Digitized information is generally &#177; 7 feet; some areas have been found to be &#177; 30 feet.  COGO (coordinate geometry) accuracy generally is &#177; 1.0 foot.</horizpar>
+      </horizpa>
+    </posacc>
+    <attracc>
+      <attraccr>Feature attributes are identified using analytical and softcopy photogrammetric compilation methods.  Automated GIS processes supplement the photo identified feature attributing with the numerical parameters.</attraccr>
+    </attracc>
+    <complete>Entire Ramsey County coverage</complete>
+    <lineage>
+      <procstep>This layer contains a vector representation of bridges and overpasses.  Color aerial photography and airborne GPS used for aerotriangulation.  Aerotrianglution solution used with analytical and softcopy stereo plotters to collect limited planimetric feature.  LIDAR DEM provide by Ramsey County under separate contract with Waggoner Inc. of Jackson, Mississippi was used to create digital ortho images.
  
  
-</procstep></lineage><logic>Information is visually inspected and corrected as necessary.</logic></dataqual></metadata>
+</procstep>
+    </lineage>
+    <logic>Information is visually inspected and corrected as necessary.</logic>
+  </dataqual>
+</metadata>

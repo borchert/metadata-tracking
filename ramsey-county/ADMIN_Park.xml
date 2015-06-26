@@ -1,3 +1,580 @@
-﻿<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>Ramsey County</origin><title>ADMIN_Park</title><pubinfo><publish>Ramsey County Enterprise GIS</publish></pubinfo><pubdate>20140926</pubdate><onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink></citeinfo></citation><descript><supplinf>Ramsey County</supplinf><abstract>This data set contains polygons that represent Ramsey County park boundaries.  The parks boundaries were originally compiled from a variety of sources including Ramsey County Parks &amp; Recreation department and several municipalities.</abstract><purpose>Park Boundaries are used in the production of mapping products as well as online applications.</purpose></descript><status><progress>Complete</progress><update>Irregular</update></status><spdom><bounding><westbc>-93.228202</westbc><eastbc>-92.982974 </eastbc><northbc>45.124277</northbc><southbc>44.890922</southbc></bounding></spdom><accconst>None.</accconst><useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgment of the publisher would be appreciated.</useconst><timeperd><current>Data set is current and complete, but regularly being update to reflect changes.  New versions are released monthly.</current><timeinfo><sngdate><caldate>20140926</caldate></sngdate></timeinfo></timeperd><keywords><theme><themekey>County, Ramsey, Park</themekey></theme></keywords><ptcontac><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></ptcontac></idinfo><distinfo><resdesc>ISvSQL55.GISWarehouse.Other.ADMIN_Park</resdesc><distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Ramsey County</origin>
+        <title>ADMIN_Park</title>
+        <pubinfo>
+          <publish>Ramsey County Enterprise GIS</publish>
+        </pubinfo>
+        <pubdate>20140926</pubdate>
+        <onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <supplinf>Ramsey County</supplinf>
+      <abstract>This data set contains polygons that represent Ramsey County park boundaries.  The parks boundaries were originally compiled from a variety of sources including Ramsey County Parks &amp; Recreation department and several municipalities.</abstract>
+      <purpose>Park Boundaries are used in the production of mapping products as well as online applications.</purpose>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.228202</westbc>
+        <eastbc>-92.982974 </eastbc>
+        <northbc>45.124277</northbc>
+        <southbc>44.890922</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgment of the publisher would be appreciated.</useconst>
+    <timeperd>
+      <current>Data set is current and complete, but regularly being update to reflect changes.  New versions are released monthly.</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20140926</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <keywords>
+      <theme>
+        <themekey>County, Ramsey, Park</themekey>
+      </theme>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <resdesc>ISvSQL55.GISWarehouse.Other.ADMIN_Park</resdesc>
+    <distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
 Limit on Liability:  This data is not a legally recorded map or survey and is not intended to be used as one. This data is a compilation of records and information from various state, county, and city offices, and other sources, and should be used for reference only.
-In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab><distrib><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20140926</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></metc></metainfo><eainfo><detailed><enttyp><enttypl>Park</enttypl></enttyp><attr><attrlabl>GNISJurisdiction</attrlabl><attrdef>Organization responsible for park area</attrdef><attrdomv><edom><edomv>02393979</edomv><edomvd>Arden Hills</edomvd></edom></attrdomv><attrdomv><edom><edomv>02394183</edomv><edomvd>Blaine</edomvd></edom></attrdomv><attrdomv><edom><edomv>02394738</edomv><edomvd>Falcon Heights</edomvd></edom></attrdomv><attrdomv><edom><edomv>02394871</edomv><edomvd>Gem Lake</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395642</edomv><edomvd>Lauderdale</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395733</edomv><edomvd>Little Canada</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395846</edomv><edomvd>Maplewood</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395118</edomv><edomvd>Mounds View</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395187</edomv><edomvd>New Brighton</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395259</edomv><edomvd>North Oaks</edomvd></edom></attrdomv><attrdomv><edom><edomv>02396435</edomv><edomvd>Roseville</edomvd></edom></attrdomv><attrdomv><edom><edomv>02396471</edomv><edomvd>Saint Anthony</edomvd></edom></attrdomv><attrdomv><edom><edomv>02396511</edomv><edomvd>Saint Paul</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395876</edomv><edomvd>Shoreview</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395934</edomv><edomvd>Spring Lake Park</edomvd></edom></attrdomv><attrdomv><edom><edomv>02397106</edomv><edomvd>Vadnais Heights</edomvd></edom></attrdomv><attrdomv><edom><edomv>02397299</edomv><edomvd>White Bear Lake</edomvd></edom></attrdomv><attrdomv><edom><edomv>00665981</edomv><edomvd>White Bear Township</edomvd></edom></attrdomv><attrdomv><edom><edomv>00659507</edomv><edomvd>Ramsey County</edomvd></edom></attrdomv><attrdomv><edom><edomv>99999999</edomv><edomvd>Other/Undesignatable</edomvd></edom></attrdomv><attrdomv><edom><edomv>99999990</edomv><edomvd>State of Minnesota</edomvd></edom></attrdomv><attrdomv><edom><edomv>99999995</edomv><edomvd>Private</edomvd></edom></attrdomv><attrdomv><edom><edomv>00664202</edomv><edomvd>Fort Snelling (Unorg. Terr.)</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395261</edomv><edomvd>North Saint Paul</edomvd></edom></attrdomv></attr><attr><attrlabl>GNISLocation</attrlabl><attrdef>Jurisdiction in which the park exists</attrdef><attrdomv><edom><edomv>02393979</edomv><edomvd>Arden Hills</edomvd></edom></attrdomv><attrdomv><edom><edomv>02394183</edomv><edomvd>Blaine</edomvd></edom></attrdomv><attrdomv><edom><edomv>02394738</edomv><edomvd>Falcon Heights</edomvd></edom></attrdomv><attrdomv><edom><edomv>02394871</edomv><edomvd>Gem Lake</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395642</edomv><edomvd>Lauderdale</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395733</edomv><edomvd>Little Canada</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395846</edomv><edomvd>Maplewood</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395118</edomv><edomvd>Mounds View</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395187</edomv><edomvd>New Brighton</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395259</edomv><edomvd>North Oaks</edomvd></edom></attrdomv><attrdomv><edom><edomv>02396435</edomv><edomvd>Roseville</edomvd></edom></attrdomv><attrdomv><edom><edomv>02396471</edomv><edomvd>Saint Anthony</edomvd></edom></attrdomv><attrdomv><edom><edomv>02396511</edomv><edomvd>Saint Paul</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395876</edomv><edomvd>Shoreview</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395934</edomv><edomvd>Spring Lake Park</edomvd></edom></attrdomv><attrdomv><edom><edomv>02397106</edomv><edomvd>Vadnais Heights</edomvd></edom></attrdomv><attrdomv><edom><edomv>02397299</edomv><edomvd>White Bear Lake</edomvd></edom></attrdomv><attrdomv><edom><edomv>00665981</edomv><edomvd>White Bear Township</edomvd></edom></attrdomv><attrdomv><edom><edomv>00659507</edomv><edomvd>Ramsey County</edomvd></edom></attrdomv><attrdomv><edom><edomv>99999999</edomv><edomvd>Other/Undesignatable</edomvd></edom></attrdomv><attrdomv><edom><edomv>99999990</edomv><edomvd>State of Minnesota</edomvd></edom></attrdomv><attrdomv><edom><edomv>99999995</edomv><edomvd>Private</edomvd></edom></attrdomv><attrdomv><edom><edomv>00664202</edomv><edomvd>Fort Snelling (Unorg. Terr.)</edomvd></edom></attrdomv><attrdomv><edom><edomv>02395261</edomv><edomvd>North Saint Paul</edomvd></edom></attrdomv></attr><attr><attrlabl>FeatureCode</attrlabl><attrdef>Type of Park</attrdef><attrdomv><edom><edomv>AR</edomv><edomvd>Archery Range</edomvd></edom></attrdomv><attrdomv><edom><edomv>FG</edomv><edomvd>Fairground</edomvd></edom></attrdomv><attrdomv><edom><edomv>II</edomv><edomvd>Indoor Ice Skating Rink</edomvd></edom></attrdomv><attrdomv><edom><edomv>PA</edomv><edomvd>Park</edomvd></edom></attrdomv></attr><attr><attrlabl>FeatureID</attrlabl><attrdef>Feature Identification Number</attrdef></attr><attr><attrlabl>Feature Name</attrlabl><attrdef>Park Facility Name</attrdef></attr><attr><attrlabl>AssetMgmtID</attrlabl><attrdef>Owning Jurisdiction Park ID</attrdef></attr><attr><attrlabl>RCMgmtClass</attrlabl><attrdef>Ramsey County Park Classification Scheme</attrdef><attrdomv><edom><edomv>City Park</edomv></edom></attrdomv><attrdomv><edom><edomv>Community Park</edomv></edom></attrdomv><attrdomv><edom><edomv>County Park</edomv></edom></attrdomv><attrdomv><edom><edomv>Mini Park</edomv></edom></attrdomv><attrdomv><edom><edomv>Neighborhood Park</edomv></edom></attrdomv><attrdomv><edom><edomv>Open Space</edomv></edom></attrdomv><attrdomv><edom><edomv>Preserve Park</edomv></edom></attrdomv><attrdomv><edom><edomv>Recreational Center</edomv></edom></attrdomv><attrdomv><edom><edomv>Regional Park</edomv></edom></attrdomv><attrdomv><edom><edomv>State Park</edomv></edom></attrdomv><attrdomv><edom><edomv>Traffic Island</edomv></edom></attrdomv><attrdomv><edom><edomv>Regional Trail Corridor</edomv></edom></attrdomv><attrdomv><edom><edomv>Special Use Facility</edomv></edom></attrdomv><attrdomv><edom><edomv>Golf Course</edomv></edom></attrdomv></attr><attr><attrlabl>Acres</attrlabl><attrdef>Area of Park in Acres</attrdef></attr><attr><attrlabl>Hectares</attrlabl><attrdef>Area of Park in Hectares</attrdef></attr><attr><attrlabl>SqFeet</attrlabl><attrdef>Area of Park in square feet</attrdef></attr><attr><attrlabl>PerimeterFeet</attrlabl><attrdef>Perimeter of Park</attrdef></attr><attr><attrlabl>LocalMgmtClass</attrlabl><attrdef>Owning Jurisdiction Management Scheme value</attrdef></attr><attr><attrlabl>UplandAcres</attrlabl><attrdef>area of park upland</attrdef></attr><attr><attrlabl>WetlandAcres</attrlabl><attrdef>area of park wetlands</attrdef></attr></detailed></eainfo><dataqual><logic>Information is visually inspected and corrected as necessary.</logic><complete>Entire Ramsey County coverage</complete></dataqual><spref><horizsys><planar><gridsys><gridsysn>Ramsey County Custom Coordinate</gridsysn></gridsys><planci><plandu>feet</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>
+In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20140926</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Park</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>GNISJurisdiction</attrlabl>
+        <attrdef>Organization responsible for park area</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>02393979</edomv>
+            <edomvd>Arden Hills</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02394183</edomv>
+            <edomvd>Blaine</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02394738</edomv>
+            <edomvd>Falcon Heights</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02394871</edomv>
+            <edomvd>Gem Lake</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395642</edomv>
+            <edomvd>Lauderdale</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395733</edomv>
+            <edomvd>Little Canada</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395846</edomv>
+            <edomvd>Maplewood</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395118</edomv>
+            <edomvd>Mounds View</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395187</edomv>
+            <edomvd>New Brighton</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395259</edomv>
+            <edomvd>North Oaks</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02396435</edomv>
+            <edomvd>Roseville</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02396471</edomv>
+            <edomvd>Saint Anthony</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02396511</edomv>
+            <edomvd>Saint Paul</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395876</edomv>
+            <edomvd>Shoreview</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395934</edomv>
+            <edomvd>Spring Lake Park</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02397106</edomv>
+            <edomvd>Vadnais Heights</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02397299</edomv>
+            <edomvd>White Bear Lake</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>00665981</edomv>
+            <edomvd>White Bear Township</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>00659507</edomv>
+            <edomvd>Ramsey County</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>99999999</edomv>
+            <edomvd>Other/Undesignatable</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>99999990</edomv>
+            <edomvd>State of Minnesota</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>99999995</edomv>
+            <edomvd>Private</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>00664202</edomv>
+            <edomvd>Fort Snelling (Unorg. Terr.)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395261</edomv>
+            <edomvd>North Saint Paul</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GNISLocation</attrlabl>
+        <attrdef>Jurisdiction in which the park exists</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>02393979</edomv>
+            <edomvd>Arden Hills</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02394183</edomv>
+            <edomvd>Blaine</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02394738</edomv>
+            <edomvd>Falcon Heights</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02394871</edomv>
+            <edomvd>Gem Lake</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395642</edomv>
+            <edomvd>Lauderdale</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395733</edomv>
+            <edomvd>Little Canada</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395846</edomv>
+            <edomvd>Maplewood</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395118</edomv>
+            <edomvd>Mounds View</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395187</edomv>
+            <edomvd>New Brighton</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395259</edomv>
+            <edomvd>North Oaks</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02396435</edomv>
+            <edomvd>Roseville</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02396471</edomv>
+            <edomvd>Saint Anthony</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02396511</edomv>
+            <edomvd>Saint Paul</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395876</edomv>
+            <edomvd>Shoreview</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395934</edomv>
+            <edomvd>Spring Lake Park</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02397106</edomv>
+            <edomvd>Vadnais Heights</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02397299</edomv>
+            <edomvd>White Bear Lake</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>00665981</edomv>
+            <edomvd>White Bear Township</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>00659507</edomv>
+            <edomvd>Ramsey County</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>99999999</edomv>
+            <edomvd>Other/Undesignatable</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>99999990</edomv>
+            <edomvd>State of Minnesota</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>99999995</edomv>
+            <edomvd>Private</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>00664202</edomv>
+            <edomvd>Fort Snelling (Unorg. Terr.)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>02395261</edomv>
+            <edomvd>North Saint Paul</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FeatureCode</attrlabl>
+        <attrdef>Type of Park</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>AR</edomv>
+            <edomvd>Archery Range</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FG</edomv>
+            <edomvd>Fairground</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>II</edomv>
+            <edomvd>Indoor Ice Skating Rink</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PA</edomv>
+            <edomvd>Park</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FeatureID</attrlabl>
+        <attrdef>Feature Identification Number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Feature Name</attrlabl>
+        <attrdef>Park Facility Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AssetMgmtID</attrlabl>
+        <attrdef>Owning Jurisdiction Park ID</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RCMgmtClass</attrlabl>
+        <attrdef>Ramsey County Park Classification Scheme</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>City Park</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Community Park</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>County Park</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Mini Park</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Neighborhood Park</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Open Space</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Preserve Park</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Recreational Center</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Regional Park</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>State Park</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Traffic Island</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Regional Trail Corridor</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Special Use Facility</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Golf Course</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Acres</attrlabl>
+        <attrdef>Area of Park in Acres</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Hectares</attrlabl>
+        <attrdef>Area of Park in Hectares</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SqFeet</attrlabl>
+        <attrdef>Area of Park in square feet</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PerimeterFeet</attrlabl>
+        <attrdef>Perimeter of Park</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LocalMgmtClass</attrlabl>
+        <attrdef>Owning Jurisdiction Management Scheme value</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>UplandAcres</attrlabl>
+        <attrdef>area of park upland</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>WetlandAcres</attrlabl>
+        <attrdef>area of park wetlands</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <dataqual>
+    <logic>Information is visually inspected and corrected as necessary.</logic>
+    <complete>Entire Ramsey County coverage</complete>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Ramsey County Custom Coordinate</gridsysn>
+        </gridsys>
+        <planci>
+          <plandu>feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

@@ -1,6 +1,241 @@
-﻿<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><title>GEOD_Benchmark</title><pubinfo><publish>Ramsey County Enterprise GIS</publish></pubinfo><pubdate>20150304</pubdate><origin>Ramsey County</origin><onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink></citeinfo></citation><descript><abstract>This data set contains points that represents vertical controls, or benchmarks. </abstract><purpose>Bench marks are relatively permanent objects having a marked point, whose elevation above or below an adopted datum, is known or assumed.  Vertical control is a series of bench marks or other points of known elevation established throughout an area</purpose><supplinf>Ramsey County</supplinf></descript><status><progress>Complete</progress><update>Monthly</update></status><spdom><bounding><westbc>-93.228202</westbc><eastbc>-92.982974 </eastbc><northbc>45.124277</northbc><southbc>44.890922</southbc></bounding></spdom><keywords><theme><themekey>county, vertical control, benchmark, elevation</themekey></theme></keywords><accconst>None.</accconst><useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the publisher would be appreciated.</useconst><timeperd><timeinfo><sngdate><caldate>20150304</caldate></sngdate></timeinfo><current>Data set is current and complete, but constantly being update to reflect changes.  New versions are released monthly.</current></timeperd><ptcontac><cntinfo><cntperp><cntorg>Ramsey County Survey</cntorg><cntper>Curt Peterson</cntper></cntperp><cntpos>GIS Supervisor</cntpos><cntaddr><address>1425 Paul Kirkwold Dr</address><city>Arden Hills</city><state>MN</state><postal>55112</postal></cntaddr><cntvoice>651.266.7172</cntvoice><cntemail>Curtis.Peterson@co.ramsey.mn.us</cntemail></cntinfo></ptcontac></idinfo><distinfo><distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>GEOD_Benchmark</title>
+        <pubinfo>
+          <publish>Ramsey County Enterprise GIS</publish>
+        </pubinfo>
+        <pubdate>20150304</pubdate>
+        <origin>Ramsey County</origin>
+        <onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set contains points that represents vertical controls, or benchmarks. </abstract>
+      <purpose>Bench marks are relatively permanent objects having a marked point, whose elevation above or below an adopted datum, is known or assumed.  Vertical control is a series of bench marks or other points of known elevation established throughout an area</purpose>
+      <supplinf>Ramsey County</supplinf>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>Monthly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.228202</westbc>
+        <eastbc>-92.982974 </eastbc>
+        <northbc>45.124277</northbc>
+        <southbc>44.890922</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>county, vertical control, benchmark, elevation</themekey>
+      </theme>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the publisher would be appreciated.</useconst>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150304</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Data set is current and complete, but constantly being update to reflect changes.  New versions are released monthly.</current>
+    </timeperd>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County Survey</cntorg>
+          <cntper>Curt Peterson</cntper>
+        </cntperp>
+        <cntpos>GIS Supervisor</cntpos>
+        <cntaddr>
+          <address>1425 Paul Kirkwold Dr</address>
+          <city>Arden Hills</city>
+          <state>MN</state>
+          <postal>55112</postal>
+        </cntaddr>
+        <cntvoice>651.266.7172</cntvoice>
+        <cntemail>Curtis.Peterson@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
 Limit on Liability:  This data is not a legally recorded map or survey and is not intended to be used as one. This data is a compilation of records and information from various state, county, and city offices, and other sources, and should be used for reference only.
-In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab><resdesc>ISvSQL55.GISWarehouse.Survey.GEOD_Benchmark</resdesc><distrib><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150304</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Ramsey County Custom Coordinate</gridsysn></gridsys><planci><plandu>feet</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><dataqual><posacc><horizpa><horizpar>Digitized information is generally ± 7 feet; some areas have been found to be ± 30 feet.  COGO (coordinate geometry) accuracy generally is ± 1.0 foot.</horizpar></horizpa></posacc><attracc><attraccr>Feature attributes are identified using analytical and softcopy photogrammetric compilation methods.  Automated GIS processes supplement the photo identified feature attributing with the numerical parameters.</attraccr></attracc><complete>Entire Ramsey County coverage</complete><lineage><procstep>This layer contains a vector representation of bridges and overpasses.  Color aerial photography and airborne GPS used for aerotriangulation.  Aerotrianglution solution used with analytical and softcopy stereo plotters to collect limited planimetric feature.  LIDAR DEM provide by Ramsey County under separate contract with Waggoner Inc. of Jackson, Mississippi was used to create digital ortho images.
+In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab>
+    <resdesc>ISvSQL55.GISWarehouse.Survey.GEOD_Benchmark</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150304</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Ramsey County Custom Coordinate</gridsysn>
+        </gridsys>
+        <planci>
+          <plandu>feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <dataqual>
+    <posacc>
+      <horizpa>
+        <horizpar>Digitized information is generally &#177; 7 feet; some areas have been found to be &#177; 30 feet.  COGO (coordinate geometry) accuracy generally is &#177; 1.0 foot.</horizpar>
+      </horizpa>
+    </posacc>
+    <attracc>
+      <attraccr>Feature attributes are identified using analytical and softcopy photogrammetric compilation methods.  Automated GIS processes supplement the photo identified feature attributing with the numerical parameters.</attraccr>
+    </attracc>
+    <complete>Entire Ramsey County coverage</complete>
+    <lineage>
+      <procstep>This layer contains a vector representation of bridges and overpasses.  Color aerial photography and airborne GPS used for aerotriangulation.  Aerotrianglution solution used with analytical and softcopy stereo plotters to collect limited planimetric feature.  LIDAR DEM provide by Ramsey County under separate contract with Waggoner Inc. of Jackson, Mississippi was used to create digital ortho images.
  
  
-</procstep></lineage><logic>Information is visually inspected and corrected as necessary.</logic></dataqual><eainfo><detailed><enttyp><enttypl>GEOD_Benchmark</enttypl></enttyp><attr><attrlabl>BenchmarkID</attrlabl><attrdef>Unique Benchmark Identifier</attrdef></attr><attr><attrlabl>X</attrlabl><attrdef>Easterly offset in feet from county origin</attrdef></attr><attr><attrlabl>Y</attrlabl><attrdef>Northerly offset in feet from county origin</attrdef></attr><attr><attrlabl>Z</attrlabl><attrdef>Feet above sea level</attrdef></attr><attr><attrlabl>SurveyDate</attrlabl><attrdef>Date or Year Benchmark was set</attrdef></attr><attr><attrlabl>ControlType</attrlabl><attrdef>Jurisdiction type for Benchmark</attrdef><attrdomv><edom><edomv>1</edomv><edomvd>City</edomvd></edom></attrdomv><attrdomv><edom><edomv>2</edomv><edomvd>County</edomvd></edom></attrdomv><attrdomv><edom><edomv>3</edomv><edomvd>Private Surveyors</edomvd></edom></attrdomv><attrdomv><edom><edomv>4</edomv><edomvd>Federal &amp; State</edomvd></edom></attrdomv></attr><attr><attrlabl>CornerPointType</attrlabl><attrdef>The type of control corner</attrdef><attrdomv><edom><edomv>Location Monument</edomv><edomvd>Location Monument</edomvd></edom></attrdomv></attr><attr><attrlabl>MonumentType</attrlabl><attrdef>Description of the type of Monument</attrdef></attr><attr><attrlabl>Status</attrlabl><attrdef>Status of the benchmark</attrdef></attr><attr><attrlabl>QuarterLocation</attrlabl><attrdef>Name of the Quarter Section the Benchmark is located in</attrdef></attr><attr><attrlabl>RodDepth</attrlabl><attrdef>Description of the location of the benchmark rod</attrdef></attr><attr><attrlabl>BenchmarkLocation</attrlabl><attrdef>Description of the location of the Benchmark</attrdef></attr><attr><attrlabl>BenchmarkLink</attrlabl><attrdef>Link to the RC information regarding the benchmark</attrdef></attr><attr><attrlabl>Comment</attrlabl><attrdef>Misc. notes regarding the benchmark</attrdef></attr></detailed></eainfo></metadata>
+</procstep>
+    </lineage>
+    <logic>Information is visually inspected and corrected as necessary.</logic>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>GEOD_Benchmark</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>BenchmarkID</attrlabl>
+        <attrdef>Unique Benchmark Identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>X</attrlabl>
+        <attrdef>Easterly offset in feet from county origin</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Y</attrlabl>
+        <attrdef>Northerly offset in feet from county origin</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Z</attrlabl>
+        <attrdef>Feet above sea level</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SurveyDate</attrlabl>
+        <attrdef>Date or Year Benchmark was set</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ControlType</attrlabl>
+        <attrdef>Jurisdiction type for Benchmark</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>City</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>County</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Private Surveyors</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Federal &amp; State</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CornerPointType</attrlabl>
+        <attrdef>The type of control corner</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Location Monument</edomv>
+            <edomvd>Location Monument</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MonumentType</attrlabl>
+        <attrdef>Description of the type of Monument</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Status</attrlabl>
+        <attrdef>Status of the benchmark</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>QuarterLocation</attrlabl>
+        <attrdef>Name of the Quarter Section the Benchmark is located in</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RodDepth</attrlabl>
+        <attrdef>Description of the location of the benchmark rod</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BenchmarkLocation</attrlabl>
+        <attrdef>Description of the location of the Benchmark</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BenchmarkLink</attrlabl>
+        <attrdef>Link to the RC information regarding the benchmark</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Comment</attrlabl>
+        <attrdef>Misc. notes regarding the benchmark</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+</metadata>

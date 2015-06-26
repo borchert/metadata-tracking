@@ -1,8 +1,861 @@
-﻿<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><title>CDSTL_AttributedParcelPoint</title><pubinfo><publish>Ramsey County Enterprise GIS</publish></pubinfo><pubdate>20140218</pubdate><origin>Ramsey County</origin><onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink></citeinfo></citation><descript><abstract>Attributed Parcel Point contains data fields previously contained in Ramsey County Users Group shapefiles, ParPts and OnLineCore, and MetroGIS Parcel Datasets. These fields are populated from a compilation of records and information from various state, county and city offices, and other sources. This data is joined to Ramsey Countys Parcel Point data using a property identification number (PIN) which is assigned to both polygons and points and is the primary link to county tax and assessment data.
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>CDSTL_AttributedParcelPoint</title>
+        <pubinfo>
+          <publish>Ramsey County Enterprise GIS</publish>
+        </pubinfo>
+        <pubdate>20140218</pubdate>
+        <origin>Ramsey County</origin>
+        <onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Attributed Parcel Point contains data fields previously contained in Ramsey County Users Group shapefiles, ParPts and OnLineCore, and MetroGIS Parcel Datasets. These fields are populated from a compilation of records and information from various state, county and city offices, and other sources. This data is joined to Ramsey Countys Parcel Point data using a property identification number (PIN) which is assigned to both polygons and points and is the primary link to county tax and assessment data.
 
 In 1986, parcels were digitized from hand drawn 1:2400 half and 1:1200 quarter section maps. In 1995, the parcel data layer was converted to ArcINFO format and held in the ArcStorm data base. Parcel Points were created from parcel centroids. Parcel Points were converted in 2005 to an ESRI ArcGIS GeoDatabase.
 
 When Parcel Points were originally created, there was a one-to-one relationship with identical PINs on both Parcel Polygons and Parcel Points with additional Parcel Points added for Common Interest Communities, Apartment Ownerships or Condominiums, where there is a one-to-many relationship with the Parcel Polygon having the smallest PIN for all associated Parcel Points. Parcel Points were also added for Manufactured Homes and are being added for Apartment Units.  The PIN for Manufactured Homes contains a number for the Manufactured Home Park followed by an M then a unique number.  The PIN for Apartments Units begins with a U and is followed by the PIN for the Parcel Polygon; attribute data for Apartment Units consists primarily of site address information.  The Attributed Parcel Point field, TaxParcelID, can be used to identify the associated Parcel Polygon based on its PIN, and ParcelCode can be used to identify if there is a one-to-many relationship between the point &amp; polygon features.
-</abstract><purpose>Attributed Parcel Point support many functions including web based mapping, thematic mapping, land records and property assessment and surveying and engineering projects. Attributes included property address, ownership and tax payer addresses, property and building description.</purpose><supplinf>Ramsey County</supplinf></descript><spdom><bounding><westbc>-93.228202</westbc><eastbc>-92.982974 </eastbc><northbc>45.124277</northbc><southbc>44.890922</southbc></bounding></spdom><status><progress>Complete</progress><update>Monthly</update></status><accconst>None.</accconst><useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgment of the publisher would be appreciated.</useconst><timeperd><timeinfo><sngdate><caldate>Data as known to Ramsey County as of Attribution Date</caldate></sngdate></timeinfo><current>Publication Date</current></timeperd><keywords><theme><themekey>Parcel, Parcel Point, County, Tax</themekey></theme></keywords><ptcontac><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></ptcontac></idinfo><distinfo><distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
+</abstract>
+      <purpose>Attributed Parcel Point support many functions including web based mapping, thematic mapping, land records and property assessment and surveying and engineering projects. Attributes included property address, ownership and tax payer addresses, property and building description.</purpose>
+      <supplinf>Ramsey County</supplinf>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-93.228202</westbc>
+        <eastbc>-92.982974 </eastbc>
+        <northbc>45.124277</northbc>
+        <southbc>44.890922</southbc>
+      </bounding>
+    </spdom>
+    <status>
+      <progress>Complete</progress>
+      <update>Monthly</update>
+    </status>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgment of the publisher would be appreciated.</useconst>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>Data as known to Ramsey County as of Attribution Date</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication Date</current>
+    </timeperd>
+    <keywords>
+      <theme>
+        <themekey>Parcel, Parcel Point, County, Tax</themekey>
+      </theme>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
 Limit on Liability:  This data is not a legally recorded map or survey and is not intended to be used as one. This data is a compilation of records and information from various state, county, and city offices, and other sources, and should be used for reference only.
-In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab><resdesc>ISvSQL55.GISWarehouse.Cadastral.CDSTL_AttributedParcelPoint</resdesc><distrib><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>matt.koukol@co.rasmey.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20140219</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>matt.koukol@co.rasmey.mn.us</cntemail></cntinfo></metc></metainfo><eainfo><detailed><enttyp><enttypl>AttributedParcelPoint</enttypl><enttypd>Attributes of the Attributed Parcel Points</enttypd></enttyp><attr><attrlabl>CountyID</attrlabl><attrdef>Ramsey County FIPS code</attrdef><attrdomv><edom><edomv>123</edomv><edomvd>123</edomvd></edom></attrdomv></attr><attr><attrlabl>ParcelID</attrlabl><attrdef>Tax Parcel Identification Number</attrdef></attr><attr><attrlabl>FIPsCodeParcelID</attrlabl><attrdef>County FIPS Code and Parcel ID</attrdef></attr><attr><attrlabl>RollType</attrlabl><attrdef>Code representing type of parcel</attrdef><attrdomv><edom><edomv>R</edomv><edomvd>Real Property</edomvd></edom></attrdomv><attrdomv><edom><edomv>M</edomv><edomvd>Manufactured Home</edomvd></edom></attrdomv><attrdomv><edom><edomv>A</edomv><edomvd>Apartment</edomvd></edom></attrdomv><attrdomv><edom><edomv>C</edomv><edomvd>Common Interest Community</edomvd></edom></attrdomv></attr><attr><attrlabl>BuildingNumber</attrlabl><attrdef>Building or house number of the parcel</attrdef></attr><attr><attrlabl>Unit</attrlabl><attrdef>Apartment or condominium unit number</attrdef></attr><attr><attrlabl>BuildingNumberSuffix</attrlabl><attrdef>Fractional building or house number of the parcel</attrdef></attr><attr><attrlabl>StreetPrefixDirection</attrlabl><attrdef>Street Prefix Direction for the parcel</attrdef></attr><attr><attrlabl>StreetPrefixType</attrlabl><attrdef>Street Prefix Type for the parcel</attrdef><attrdomv><edom><edomv>Interstate</edomv><edomvd>Interstate</edomvd></edom></attrdomv><attrdomv><edom><edomv>Highway</edomv><edomvd>Highway</edomvd></edom></attrdomv><attrdomv><edom><edomv>County Road</edomv><edomvd>County Road</edomvd></edom></attrdomv><attrdomv><edom><edomv>County Highway</edomv><edomvd>County Highway</edomvd></edom></attrdomv></attr><attr><attrlabl>StreetName</attrlabl><attrdef>Street Name for the parcel</attrdef></attr><attr><attrlabl>StreetSuffixType</attrlabl><attrdef>Street Type abbreviation for the parcel</attrdef></attr><attr><attrlabl>StreetSuffixDirection</attrlabl><attrdef>Street Suffix direction for the parcel</attrdef><attrdomv><edom><edomv>N</edomv><edomvd>North</edomvd></edom></attrdomv><attrdomv><edom><edomv>S</edomv><edomvd>South</edomvd></edom></attrdomv><attrdomv><edom><edomv>E</edomv><edomvd>East</edomvd></edom></attrdomv><attrdomv><edom><edomv>W</edomv><edomvd>West</edomvd></edom></attrdomv><attrdomv><edom><edomv>NE</edomv><edomvd>Northeast</edomvd></edom></attrdomv><attrdomv><edom><edomv>NW</edomv><edomvd>Northwest</edomvd></edom></attrdomv><attrdomv><edom><edomv>SE</edomv><edomvd>Southeast</edomvd></edom></attrdomv><attrdomv><edom><edomv>SW</edomv><edomvd>Southwest</edomvd></edom></attrdomv></attr><attr><attrlabl>StreetNameAll</attrlabl><attrdef>Combined Street Name for parcel may include: StreetPrefixType, StreetName, StreetSuffixType and StreetSuffixDirection</attrdef></attr><attr><attrlabl>SiteAddress</attrlabl><attrdef>Combined Street Name for parcel: BuildingNumber, BuildingNumberSuffix and StreetNameAll</attrdef></attr><attr><attrlabl>SiteCItyNameUSPS</attrlabl><attrdef>City Name from Property Records Revenue (PRR) data</attrdef></attr><attr><attrlabl>SiteCItyName</attrlabl><attrdef>City Name from GIS City data</attrdef></attr><attr><attrlabl>SiteZIP5</attrlabl><attrdef>ZIP code for parcel</attrdef></attr><attr><attrlabl>SiteZIP4</attrlabl><attrdef>4 digit ZIP code extension</attrdef></attr><attr><attrlabl>SiteZIP</attrlabl><attrdef>Combined ZIP: SiteZIP5-SiteZIP4</attrdef></attr><attr><attrlabl>SiteCityStateZIP</attrlabl><attrdef>Combined address: SiteCityName, MN, SiteZIP5 and SiteZIP4</attrdef></attr><attr><attrlabl>TaxPayerLastName</attrlabl><attrdef>Primary Tax Payers name: last name only, Business name or city name</attrdef></attr><attr><attrlabl>TaxPayerName</attrlabl><attrdef>Primary Tax Payers name: last name first, Business name or city name</attrdef></attr><attr><attrlabl>PrimaryTaxName1</attrlabl><attrdef>Primary Tax Payers name; Business name or city name</attrdef></attr><attr><attrlabl>PrimaryTaxName2</attrlabl><attrdef>Primary Tax Payers name (second person)</attrdef></attr><attr><attrlabl>PrimaryTaxAddress1</attrlabl><attrdef>Primary Tax Payers mailing address (line 1)</attrdef></attr><attr><attrlabl>PrimaryTaxAddress2</attrlabl><attrdef>Primary Tax Payers mailing address (line 2)</attrdef></attr><attr><attrlabl>PrimaryTaxAddress</attrlabl><attrdef>Primary Tax Payers mailing address lines 1 and 2 combined</attrdef></attr><attr><attrlabl>PrimaryTaxCity</attrlabl><attrdef>Primary Tax Payers address City</attrdef></attr><attr><attrlabl>PrimaryTaxState</attrlabl><attrdef>Primary Tax Payers address State</attrdef></attr><attr><attrlabl>PrimaryTaxZIP5</attrlabl><attrdef>Primary Tax Payers address ZIP5</attrdef></attr><attr><attrlabl>PrimaryTaxZIP4</attrlabl><attrdef>Primary Tax Payers address ZIP4</attrdef></attr><attr><attrlabl>PrimaryTaxCountry</attrlabl><attrdef>Primary Tax Payers address Country (outside US)</attrdef></attr><attr><attrlabl>PrimaryCityStateZIP</attrlabl><attrdef>Primary Tax Payers address combined: PrimaryTaxCity, PrimaryTaxState, PrimaryTaxZIP5, PrimaryTaxZIP4 and PrimaryTaxCountry</attrdef></attr><attr><attrlabl>AlternateTaxName1</attrlabl><attrdef>Alternate Tax Payers name (note: Alternate Fields are used if someone other than the Primary Tax Payer pays the parcels taxes)</attrdef></attr><attr><attrlabl>AlternateTaxName2</attrlabl><attrdef>Alternate Tax Payers name (second person)</attrdef></attr><attr><attrlabl>AlternateTaxAddress1</attrlabl><attrdef>Alternate Tax Payers mailing address (line1)</attrdef></attr><attr><attrlabl>AlternateTaxAddress2</attrlabl><attrdef>Alternate Tax Payers mailing address (line2)</attrdef></attr><attr><attrlabl>AlternateTaxAddress</attrlabl><attrdef>Alternate Tax Payers mailing address lines 1 and 2 combined</attrdef></attr><attr><attrlabl>AlternateTaxCity</attrlabl><attrdef>Alternate Tax Payers address City</attrdef></attr><attr><attrlabl>AlternateTaxState</attrlabl><attrdef>Alternate Tax Payers address State</attrdef></attr><attr><attrlabl>AlternateTaxZIP5</attrlabl><attrdef>Alternate Tax Payers address ZIP5</attrdef></attr><attr><attrlabl>AlternateTaxZIP4</attrlabl><attrdef>Alternate Tax Payers address ZIP4</attrdef></attr><attr><attrlabl>AlternateTaxCountry</attrlabl><attrdef>Alternate Tax Payers address Country</attrdef></attr><attr><attrlabl>AlternateCityStateZIP</attrlabl><attrdef>Alternate Tax Payers address combined: AlternateTaxCity, AlternateTax-State, AlternateTaxZIP5, AlternateTaxZIP4 and AlternateTaxCountry</attrdef></attr><attr><attrlabl>HomesteadName1</attrlabl><attrdef>Homestead Name</attrdef></attr><attr><attrlabl>HomesteadName2</attrlabl><attrdef>Homestead Name (second person)</attrdef></attr><attr><attrlabl>HomesteadAddress1</attrlabl><attrdef>Homestead mailing address (line 1)</attrdef></attr><attr><attrlabl>HomesteadAddress2</attrlabl><attrdef>Homestead mailing address (line 2)</attrdef></attr><attr><attrlabl>HomesteadAddress</attrlabl><attrdef>Homestead mailing address lines 1 and 2 combined</attrdef></attr><attr><attrlabl>HomesteadCity</attrlabl><attrdef>Homestead address City</attrdef></attr><attr><attrlabl>HomesteadState</attrlabl><attrdef>Homestead address State</attrdef></attr><attr><attrlabl>HomesteadZIP5</attrlabl><attrdef>Homestead address ZIP5</attrdef></attr><attr><attrlabl>HomesteadZIP4</attrlabl><attrdef>Homestead address ZIP4</attrdef></attr><attr><attrlabl>HomesteadCiyStateZIP</attrlabl><attrdef>Homestead address combined: HomesteadCity, HomesteadState, Home-steadZIP5 and HomesteadZIP4</attrdef></attr><attr><attrlabl>TIFDistrict</attrlabl><attrdef>Tax Increment Funding (TIF) district code</attrdef></attr><attr><attrlabl>SchoolDistrictNumber</attrlabl><attrdef>School District number from PRR data</attrdef></attr><attr><attrlabl>SchoolDistrictName</attrlabl><attrdef>School District name</attrdef></attr><attr><attrlabl>WatershedIDTax</attrlabl><attrdef>Watershed District ID from PRR data</attrdef></attr><attr><attrlabl>WatershedDistrictNameTax</attrlabl><attrdef>Watershed District name from PRR data</attrdef></attr><attr><attrlabl>WatershedDistNamePoly</attrlabl><attrdef>Watershed District name from GIS Watershed data</attrdef></attr><attr><attrlabl>PlatID</attrlabl><attrdef>Plat number from PRR data</attrdef></attr><attr><attrlabl>PlatName</attrlabl><attrdef>Full Plat Name from Survey Office or when not available PRRs abbreviated Plat Name</attrdef></attr><attr><attrlabl>TaxDescription</attrlabl><attrdef>Legal description for a parcel (this description may not be a complete description)</attrdef></attr><attr><attrlabl>PlatRecordDate</attrlabl><attrdef>Plat recorded date from Survey Office</attrdef></attr><attr><attrlabl>AbstractDeed</attrlabl><attrdef>Abstract Deed number from Survey Office</attrdef></attr><attr><attrlabl>TorrensDeed</attrlabl><attrdef>Torrens Deed number from Survey Office</attrdef></attr><attr><attrlabl>Block</attrlabl><attrdef>Block number that describes the legal location within a plat</attrdef></attr><attr><attrlabl>Lot</attrlabl><attrdef>Lot number that describes the legal location within a block</attrdef></attr><attr><attrlabl>ParcelAcresDeed</attrlabl><attrdef>Parcel acres from PRR</attrdef></attr><attr><attrlabl>ParcelSquareFeet</attrlabl><attrdef>Parcel square footage calculated from PRR data</attrdef></attr><attr><attrlabl>ParcelAcresPolygon</attrlabl><attrdef>Parcel acres from GIS Parcel Polygon data</attrdef></attr><attr><attrlabl>ParcelFrontage</attrlabl><attrdef>Actual frontage of the parcel</attrdef></attr><attr><attrlabl>LoanCompany</attrlabl><attrdef>Number for the loan company handling escrowed taxes for the parcel</attrdef></attr><attr><attrlabl>LoanCompanyName</attrlabl><attrdef>Name for the loan company handling escrowed taxes for the parcel</attrdef></attr><attr><attrlabl>TaxYear</attrlabl><attrdef>Current Year</attrdef></attr><attr><attrlabl>EMVYear</attrlabl><attrdef>Current Year - 1 year (assessment year is one year prior to tax year)</attrdef></attr><attr><attrlabl>EMVLand</attrlabl><attrdef>Estimated Market Value (EMV) of the land for current tax year</attrdef></attr><attr><attrlabl>EMVBuilding</attrlabl><attrdef>EMV of the building for current tax year</attrdef></attr><attr><attrlabl>EMVTotal</attrlabl><attrdef>Total EMV for this parcel for current tax year</attrdef></attr><attr><attrlabl>TotalTax</attrlabl><attrdef>Total Tax due - the net tax due plus special assessments for current tax year</attrdef></attr><attr><attrlabl>SpecialAssessmentDue</attrlabl><attrdef>The amount of the assessment that is to be recovered from the parcel for current tax year</attrdef></attr><attr><attrlabl>TaxCapacity</attrlabl><attrdef>not currently populated</attrdef></attr><attr><attrlabl>TaxYear1</attrlabl><attrdef>Current Year - 1 (previous tax year)</attrdef></attr><attr><attrlabl>EMVYear1</attrlabl><attrdef>Current Year - 2 (assessment year for TaxYear1)</attrdef></attr><attr><attrlabl>EMVLand1</attrlabl><attrdef>EMV of the land for tax year 1</attrdef></attr><attr><attrlabl>EMVBuilding1</attrlabl><attrdef>EMV of the building for tax year 1</attrdef></attr><attr><attrlabl>EMVTotal1</attrlabl><attrdef>Total EMV for this parcel for tax year 1</attrdef></attr><attr><attrlabl>TotalTax1</attrlabl><attrdef>Total Tax due - the net tax due plus special assessments for tax year 1</attrdef></attr><attr><attrlabl>SpecialAssessmentDue1</attrlabl><attrdef>The amount of the assessment that is to be recovered from the parcel for tax year 1</attrdef></attr><attr><attrlabl>TaxYear2</attrlabl><attrdef>Current Year - 2 (2 years previous tax year)</attrdef></attr><attr><attrlabl>EMVYear2</attrlabl><attrdef>Current Year - 3 (assessment year for TaxYear2)</attrdef></attr><attr><attrlabl>EMVLandYear2</attrlabl><attrdef>EMV of the land for tax year 2</attrdef></attr><attr><attrlabl>EMVBuildingYear2</attrlabl><attrdef>EMV of the building for tax year 2</attrdef></attr><attr><attrlabl>EMVTotalYear2</attrlabl><attrdef>Total EMV for this parcel for tax year 2</attrdef></attr><attr><attrlabl>TotalTaxYear2</attrlabl><attrdef>Total Tax due - the net tax due plus special assessments for tax year 2</attrdef></attr><attr><attrlabl>SpecialAssessmentDue2</attrlabl><attrdef>The amount of the assessment that is to be recovered from the parcel for tax year 2</attrdef></attr><attr><attrlabl>LandmarkBusinessName</attrlabl><attrdef>not currently populated</attrdef></attr><attr><attrlabl>LandUseCodeDescription</attrlabl><attrdef>Land Use Code (LUC) description</attrdef></attr><attr><attrlabl>MultipleUseYN</attrlabl><attrdef>Y/N flag to indicate if multiple uses exist for the parcel</attrdef></attr><attr><attrlabl>UseType1</attrlabl><attrdef>Abbreviated description of the classification code for the parcel (class code is a 1 to many field with as many as 4 values for a single parcel)</attrdef></attr><attr><attrlabl>UseType2</attrlabl><attrdef>Abbreviated description of the classification code for the parcel (class code is a 1 to many field with as many as 4 values for a single parcel)</attrdef></attr><attr><attrlabl>UseType3</attrlabl><attrdef>Abbreviated description of the classification code for the parcel (class code is a 1 to many field with as many as 4 values for a single parcel)</attrdef></attr><attr><attrlabl>UseType4</attrlabl><attrdef>Abbreviated description of the classification code for the parcel (class code is a 1 to many field with as many as 4 values for a single parcel)</attrdef></attr><attr><attrlabl>TaxExemptYN</attrlabl><attrdef>Y/N flag to indicate if the parcel is tax exempt</attrdef></attr><attr><attrlabl>ExemptUse1</attrlabl><attrdef>Abbreviated description of the classification code for the parcel; tax exempt parcels have a numeric value greater than 900  (there are as many as 4 values for a single parcel)</attrdef></attr><attr><attrlabl>ExemptUse2</attrlabl><attrdef>Abbreviated description of the classification code for the parcel; tax exempt parcels have a numeric value greater than 900  (there are as many as 4 values for a single parcel)</attrdef></attr><attr><attrlabl>ExemptUse3</attrlabl><attrdef>Abbreviated description of the classification code for the parcel; tax exempt parcels have a numeric value greater than 900  (there are as many as 4 values for a single parcel)</attrdef></attr><attr><attrlabl>ExemptUse4</attrlabl><attrdef>Abbreviated description of the classification code for the parcel; tax exempt parcels have a numeric value greater than 900  (there are as many as 4 values for a single parcel)</attrdef></attr><attr><attrlabl>GreenAcreYN</attrlabl><attrdef>Y/N flag to indicate green acres status</attrdef></attr><attr><attrlabl>OpenSpaceYN</attrlabl><attrdef>Y/N flag to indicate open space status - not currently populated</attrdef></attr><attr><attrlabl>AgriculturalPreserveYN</attrlabl><attrdef>Y/N flag to indicate Agricultural preserve - not currently populated</attrdef></attr><attr><attrlabl>AgPreserveEnrolled</attrlabl><attrdef>Agricultural preserve enrollment date - not currently populated</attrdef></attr><attr><attrlabl>AgPreserveExpire</attrlabl><attrdef>Agricultural preserve expiration date - not currently populated</attrdef></attr><attr><attrlabl>HomesteadYN</attrlabl><attrdef>Flag to indicate homestead status</attrdef><attrdomv><edom><edomv>N</edomv><edomvd>Not Homestead</edomvd></edom></attrdomv><attrdomv><edom><edomv>Y</edomv><edomvd>Homestead</edomvd></edom></attrdomv><attrdomv><edom><edomv>P</edomv><edomvd>Partial Homestead</edomvd></edom></attrdomv></attr><attr><attrlabl>HomesteadDescription</attrlabl><attrdef>Homestead description for non-homesteaded properties</attrdef></attr><attr><attrlabl>StructureDescription</attrlabl><attrdef>Structure description for commercial parcels</attrdef></attr><attr><attrlabl>DwellingType</attrlabl><attrdef>Dwelling type description based on residential LUC codes (400 - 599)</attrdef></attr><attr><attrlabl>LivingUnit</attrlabl><attrdef>Number of living units</attrdef></attr><attr><attrlabl>HomeStyleDescription</attrlabl><attrdef>Residential construction style</attrdef></attr><attr><attrlabl>ExteriorWallDescription</attrlabl><attrdef>Residential exterior wall construction</attrdef></attr><attr><attrlabl>Stories</attrlabl><attrdef>Number of stories in the dwelling</attrdef></attr><attr><attrlabl>RoomTotal</attrlabl><attrdef>Total number of rooms in the structure</attrdef></attr><attr><attrlabl>BedRoom</attrlabl><attrdef>Number of bedrooms in the structure</attrdef></attr><attr><attrlabl>FamilyRoom</attrlabl><attrdef>Number of family rooms in the structure</attrdef></attr><attr><attrlabl>BasementYN</attrlabl><attrdef>Y/N flag to indicate basement</attrdef></attr><attr><attrlabl>HeatingType</attrlabl><attrdef>Heating system type</attrdef></attr><attr><attrlabl>CoolingType</attrlabl><attrdef>Heating and cooling system type</attrdef></attr><attr><attrlabl>LivingAreaSquareFeet</attrlabl><attrdef>Total living area in square feet</attrdef></attr><attr><attrlabl>GarageYN</attrlabl><attrdef>Y/N flag to indicate garages (could be a basement garage, attached or detached garages)</attrdef></attr><attr><attrlabl>GarageSquareFeet</attrlabl><attrdef>Garage area for attached and detached garages (no garage areas available for basement garages)</attrdef></attr><attr><attrlabl>YearBuilt</attrlabl><attrdef>Year the structure or residence is built</attrdef></attr><attr><attrlabl>TopologyDescription</attrlabl><attrdef>Topology description</attrdef></attr><attr><attrlabl>UtilityDescription</attrlabl><attrdef>Utility type description</attrdef></attr><attr><attrlabl>LastSaleDate</attrlabl><attrdef>Date of the most recent recorded sale</attrdef></attr><attr><attrlabl>SalePrice</attrlabl><attrdef>Price of the most recent recorded sale</attrdef></attr><attr><attrlabl>X</attrlabl><attrdef>County Coordinate value</attrdef></attr><attr><attrlabl>Y</attrlabl><attrdef>County Coordinate value</attrdef></attr><attr><attrlabl>Latitude</attrlabl><attrdef>Latitude value</attrdef></attr><attr><attrlabl>Longitude</attrlabl><attrdef>Longitude value</attrdef></attr><attr><attrlabl>ParcelCode</attrlabl><attrdef>Info on Parcel Type</attrdef><attrdomv><edom><edomv>0</edomv><edomvd>Information not available or not provided</edomvd></edom></attrdomv><attrdomv><edom><edomv>1</edomv><edomvd>Valid Parcel with a single Tax PIN</edomvd></edom></attrdomv><attrdomv><edom><edomv>2</edomv><edomvd>Parcel Polygon representing multiple tax PINs</edomvd></edom></attrdomv></attr><attr><attrlabl>PropertyDataJoinDate</attrlabl><attrdef>Attributed data creation date</attrdef></attr></detailed><overview><eaover>Attribute data is populated from a compilation of records and information from various state, county and city offices, and other sources. This data is joined to Ramsey Countys Parcel Point data using a property identification number (PIN) which is assigned to both polygons and points and is the primary link to other county tax and assessment data.</eaover></overview></eainfo><dataqual><posacc><horizpa><horizpar>Digitized information is generally ± 7 feet; some areas have been found to be ± 30 feet.  COGO (coordinate geometry) accuracy generally is ± 1.0 foot.</horizpar></horizpa></posacc><attracc><attraccr>Attributes held within the GIS graphical data base are entered by GIS personnel utilizing manual or semi-automated methods.  Check plots are produced periodically to verify the consistency of the source data. Attributes produced by the Ramsey County Records and Revenue Department such as names, taxpayers, values etc., are not created or managed by GIS personnel.  This information is extracted separately and in most cases joined to the graphical GIS parcel data set. This data set has not been verified by GIS personnel.</attraccr></attracc><logic>Graphical elements are topologically clean. Over shoots and undershoots are not permitted. Parcel gaps and overlaps are analyzed in a case by case basis. Generally boundaries conflicting in position by less than 1 foot are dissolved into a single line giving precedence to Senior and Junior property boundaries</logic><complete>Entire Ramsey County Coverage</complete></dataqual><spref><horizsys><planar><gridsys><gridsysn>Ramsey County Custom Coordinate</gridsysn></gridsys><planci><plandu>feet</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>
+In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab>
+    <resdesc>ISvSQL55.GISWarehouse.Cadastral.CDSTL_AttributedParcelPoint</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>matt.koukol@co.rasmey.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20140219</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>matt.koukol@co.rasmey.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>AttributedParcelPoint</enttypl>
+        <enttypd>Attributes of the Attributed Parcel Points</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>CountyID</attrlabl>
+        <attrdef>Ramsey County FIPS code</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>123</edomv>
+            <edomvd>123</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ParcelID</attrlabl>
+        <attrdef>Tax Parcel Identification Number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FIPsCodeParcelID</attrlabl>
+        <attrdef>County FIPS Code and Parcel ID</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RollType</attrlabl>
+        <attrdef>Code representing type of parcel</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Real Property</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>M</edomv>
+            <edomvd>Manufactured Home</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>A</edomv>
+            <edomvd>Apartment</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>Common Interest Community</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BuildingNumber</attrlabl>
+        <attrdef>Building or house number of the parcel</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Unit</attrlabl>
+        <attrdef>Apartment or condominium unit number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BuildingNumberSuffix</attrlabl>
+        <attrdef>Fractional building or house number of the parcel</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>StreetPrefixDirection</attrlabl>
+        <attrdef>Street Prefix Direction for the parcel</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>StreetPrefixType</attrlabl>
+        <attrdef>Street Prefix Type for the parcel</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Interstate</edomv>
+            <edomvd>Interstate</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Highway</edomv>
+            <edomvd>Highway</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>County Road</edomv>
+            <edomvd>County Road</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>County Highway</edomv>
+            <edomvd>County Highway</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StreetName</attrlabl>
+        <attrdef>Street Name for the parcel</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>StreetSuffixType</attrlabl>
+        <attrdef>Street Type abbreviation for the parcel</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>StreetSuffixDirection</attrlabl>
+        <attrdef>Street Suffix direction for the parcel</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>North</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>South</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>East</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>W</edomv>
+            <edomvd>West</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NE</edomv>
+            <edomvd>Northeast</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NW</edomv>
+            <edomvd>Northwest</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SE</edomv>
+            <edomvd>Southeast</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SW</edomv>
+            <edomvd>Southwest</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StreetNameAll</attrlabl>
+        <attrdef>Combined Street Name for parcel may include: StreetPrefixType, StreetName, StreetSuffixType and StreetSuffixDirection</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SiteAddress</attrlabl>
+        <attrdef>Combined Street Name for parcel: BuildingNumber, BuildingNumberSuffix and StreetNameAll</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SiteCItyNameUSPS</attrlabl>
+        <attrdef>City Name from Property Records Revenue (PRR) data</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SiteCItyName</attrlabl>
+        <attrdef>City Name from GIS City data</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SiteZIP5</attrlabl>
+        <attrdef>ZIP code for parcel</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SiteZIP4</attrlabl>
+        <attrdef>4 digit ZIP code extension</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SiteZIP</attrlabl>
+        <attrdef>Combined ZIP: SiteZIP5-SiteZIP4</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SiteCityStateZIP</attrlabl>
+        <attrdef>Combined address: SiteCityName, MN, SiteZIP5 and SiteZIP4</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TaxPayerLastName</attrlabl>
+        <attrdef>Primary Tax Payers name: last name only, Business name or city name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TaxPayerName</attrlabl>
+        <attrdef>Primary Tax Payers name: last name first, Business name or city name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PrimaryTaxName1</attrlabl>
+        <attrdef>Primary Tax Payers name; Business name or city name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PrimaryTaxName2</attrlabl>
+        <attrdef>Primary Tax Payers name (second person)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PrimaryTaxAddress1</attrlabl>
+        <attrdef>Primary Tax Payers mailing address (line 1)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PrimaryTaxAddress2</attrlabl>
+        <attrdef>Primary Tax Payers mailing address (line 2)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PrimaryTaxAddress</attrlabl>
+        <attrdef>Primary Tax Payers mailing address lines 1 and 2 combined</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PrimaryTaxCity</attrlabl>
+        <attrdef>Primary Tax Payers address City</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PrimaryTaxState</attrlabl>
+        <attrdef>Primary Tax Payers address State</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PrimaryTaxZIP5</attrlabl>
+        <attrdef>Primary Tax Payers address ZIP5</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PrimaryTaxZIP4</attrlabl>
+        <attrdef>Primary Tax Payers address ZIP4</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PrimaryTaxCountry</attrlabl>
+        <attrdef>Primary Tax Payers address Country (outside US)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PrimaryCityStateZIP</attrlabl>
+        <attrdef>Primary Tax Payers address combined: PrimaryTaxCity, PrimaryTaxState, PrimaryTaxZIP5, PrimaryTaxZIP4 and PrimaryTaxCountry</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AlternateTaxName1</attrlabl>
+        <attrdef>Alternate Tax Payers name (note: Alternate Fields are used if someone other than the Primary Tax Payer pays the parcels taxes)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AlternateTaxName2</attrlabl>
+        <attrdef>Alternate Tax Payers name (second person)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AlternateTaxAddress1</attrlabl>
+        <attrdef>Alternate Tax Payers mailing address (line1)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AlternateTaxAddress2</attrlabl>
+        <attrdef>Alternate Tax Payers mailing address (line2)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AlternateTaxAddress</attrlabl>
+        <attrdef>Alternate Tax Payers mailing address lines 1 and 2 combined</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AlternateTaxCity</attrlabl>
+        <attrdef>Alternate Tax Payers address City</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AlternateTaxState</attrlabl>
+        <attrdef>Alternate Tax Payers address State</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AlternateTaxZIP5</attrlabl>
+        <attrdef>Alternate Tax Payers address ZIP5</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AlternateTaxZIP4</attrlabl>
+        <attrdef>Alternate Tax Payers address ZIP4</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AlternateTaxCountry</attrlabl>
+        <attrdef>Alternate Tax Payers address Country</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AlternateCityStateZIP</attrlabl>
+        <attrdef>Alternate Tax Payers address combined: AlternateTaxCity, AlternateTax-State, AlternateTaxZIP5, AlternateTaxZIP4 and AlternateTaxCountry</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HomesteadName1</attrlabl>
+        <attrdef>Homestead Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HomesteadName2</attrlabl>
+        <attrdef>Homestead Name (second person)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HomesteadAddress1</attrlabl>
+        <attrdef>Homestead mailing address (line 1)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HomesteadAddress2</attrlabl>
+        <attrdef>Homestead mailing address (line 2)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HomesteadAddress</attrlabl>
+        <attrdef>Homestead mailing address lines 1 and 2 combined</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HomesteadCity</attrlabl>
+        <attrdef>Homestead address City</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HomesteadState</attrlabl>
+        <attrdef>Homestead address State</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HomesteadZIP5</attrlabl>
+        <attrdef>Homestead address ZIP5</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HomesteadZIP4</attrlabl>
+        <attrdef>Homestead address ZIP4</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HomesteadCiyStateZIP</attrlabl>
+        <attrdef>Homestead address combined: HomesteadCity, HomesteadState, Home-steadZIP5 and HomesteadZIP4</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TIFDistrict</attrlabl>
+        <attrdef>Tax Increment Funding (TIF) district code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SchoolDistrictNumber</attrlabl>
+        <attrdef>School District number from PRR data</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SchoolDistrictName</attrlabl>
+        <attrdef>School District name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>WatershedIDTax</attrlabl>
+        <attrdef>Watershed District ID from PRR data</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>WatershedDistrictNameTax</attrlabl>
+        <attrdef>Watershed District name from PRR data</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>WatershedDistNamePoly</attrlabl>
+        <attrdef>Watershed District name from GIS Watershed data</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PlatID</attrlabl>
+        <attrdef>Plat number from PRR data</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PlatName</attrlabl>
+        <attrdef>Full Plat Name from Survey Office or when not available PRRs abbreviated Plat Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TaxDescription</attrlabl>
+        <attrdef>Legal description for a parcel (this description may not be a complete description)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PlatRecordDate</attrlabl>
+        <attrdef>Plat recorded date from Survey Office</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AbstractDeed</attrlabl>
+        <attrdef>Abstract Deed number from Survey Office</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TorrensDeed</attrlabl>
+        <attrdef>Torrens Deed number from Survey Office</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Block</attrlabl>
+        <attrdef>Block number that describes the legal location within a plat</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Lot</attrlabl>
+        <attrdef>Lot number that describes the legal location within a block</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ParcelAcresDeed</attrlabl>
+        <attrdef>Parcel acres from PRR</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ParcelSquareFeet</attrlabl>
+        <attrdef>Parcel square footage calculated from PRR data</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ParcelAcresPolygon</attrlabl>
+        <attrdef>Parcel acres from GIS Parcel Polygon data</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ParcelFrontage</attrlabl>
+        <attrdef>Actual frontage of the parcel</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LoanCompany</attrlabl>
+        <attrdef>Number for the loan company handling escrowed taxes for the parcel</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LoanCompanyName</attrlabl>
+        <attrdef>Name for the loan company handling escrowed taxes for the parcel</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TaxYear</attrlabl>
+        <attrdef>Current Year</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>EMVYear</attrlabl>
+        <attrdef>Current Year - 1 year (assessment year is one year prior to tax year)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>EMVLand</attrlabl>
+        <attrdef>Estimated Market Value (EMV) of the land for current tax year</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>EMVBuilding</attrlabl>
+        <attrdef>EMV of the building for current tax year</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>EMVTotal</attrlabl>
+        <attrdef>Total EMV for this parcel for current tax year</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TotalTax</attrlabl>
+        <attrdef>Total Tax due - the net tax due plus special assessments for current tax year</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SpecialAssessmentDue</attrlabl>
+        <attrdef>The amount of the assessment that is to be recovered from the parcel for current tax year</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TaxCapacity</attrlabl>
+        <attrdef>not currently populated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TaxYear1</attrlabl>
+        <attrdef>Current Year - 1 (previous tax year)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>EMVYear1</attrlabl>
+        <attrdef>Current Year - 2 (assessment year for TaxYear1)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>EMVLand1</attrlabl>
+        <attrdef>EMV of the land for tax year 1</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>EMVBuilding1</attrlabl>
+        <attrdef>EMV of the building for tax year 1</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>EMVTotal1</attrlabl>
+        <attrdef>Total EMV for this parcel for tax year 1</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TotalTax1</attrlabl>
+        <attrdef>Total Tax due - the net tax due plus special assessments for tax year 1</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SpecialAssessmentDue1</attrlabl>
+        <attrdef>The amount of the assessment that is to be recovered from the parcel for tax year 1</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TaxYear2</attrlabl>
+        <attrdef>Current Year - 2 (2 years previous tax year)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>EMVYear2</attrlabl>
+        <attrdef>Current Year - 3 (assessment year for TaxYear2)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>EMVLandYear2</attrlabl>
+        <attrdef>EMV of the land for tax year 2</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>EMVBuildingYear2</attrlabl>
+        <attrdef>EMV of the building for tax year 2</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>EMVTotalYear2</attrlabl>
+        <attrdef>Total EMV for this parcel for tax year 2</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TotalTaxYear2</attrlabl>
+        <attrdef>Total Tax due - the net tax due plus special assessments for tax year 2</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SpecialAssessmentDue2</attrlabl>
+        <attrdef>The amount of the assessment that is to be recovered from the parcel for tax year 2</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LandmarkBusinessName</attrlabl>
+        <attrdef>not currently populated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LandUseCodeDescription</attrlabl>
+        <attrdef>Land Use Code (LUC) description</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MultipleUseYN</attrlabl>
+        <attrdef>Y/N flag to indicate if multiple uses exist for the parcel</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>UseType1</attrlabl>
+        <attrdef>Abbreviated description of the classification code for the parcel (class code is a 1 to many field with as many as 4 values for a single parcel)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>UseType2</attrlabl>
+        <attrdef>Abbreviated description of the classification code for the parcel (class code is a 1 to many field with as many as 4 values for a single parcel)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>UseType3</attrlabl>
+        <attrdef>Abbreviated description of the classification code for the parcel (class code is a 1 to many field with as many as 4 values for a single parcel)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>UseType4</attrlabl>
+        <attrdef>Abbreviated description of the classification code for the parcel (class code is a 1 to many field with as many as 4 values for a single parcel)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TaxExemptYN</attrlabl>
+        <attrdef>Y/N flag to indicate if the parcel is tax exempt</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ExemptUse1</attrlabl>
+        <attrdef>Abbreviated description of the classification code for the parcel; tax exempt parcels have a numeric value greater than 900  (there are as many as 4 values for a single parcel)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ExemptUse2</attrlabl>
+        <attrdef>Abbreviated description of the classification code for the parcel; tax exempt parcels have a numeric value greater than 900  (there are as many as 4 values for a single parcel)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ExemptUse3</attrlabl>
+        <attrdef>Abbreviated description of the classification code for the parcel; tax exempt parcels have a numeric value greater than 900  (there are as many as 4 values for a single parcel)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ExemptUse4</attrlabl>
+        <attrdef>Abbreviated description of the classification code for the parcel; tax exempt parcels have a numeric value greater than 900  (there are as many as 4 values for a single parcel)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>GreenAcreYN</attrlabl>
+        <attrdef>Y/N flag to indicate green acres status</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OpenSpaceYN</attrlabl>
+        <attrdef>Y/N flag to indicate open space status - not currently populated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AgriculturalPreserveYN</attrlabl>
+        <attrdef>Y/N flag to indicate Agricultural preserve - not currently populated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AgPreserveEnrolled</attrlabl>
+        <attrdef>Agricultural preserve enrollment date - not currently populated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AgPreserveExpire</attrlabl>
+        <attrdef>Agricultural preserve expiration date - not currently populated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HomesteadYN</attrlabl>
+        <attrdef>Flag to indicate homestead status</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Not Homestead</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Homestead</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>P</edomv>
+            <edomvd>Partial Homestead</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HomesteadDescription</attrlabl>
+        <attrdef>Homestead description for non-homesteaded properties</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>StructureDescription</attrlabl>
+        <attrdef>Structure description for commercial parcels</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DwellingType</attrlabl>
+        <attrdef>Dwelling type description based on residential LUC codes (400 - 599)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LivingUnit</attrlabl>
+        <attrdef>Number of living units</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HomeStyleDescription</attrlabl>
+        <attrdef>Residential construction style</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ExteriorWallDescription</attrlabl>
+        <attrdef>Residential exterior wall construction</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Stories</attrlabl>
+        <attrdef>Number of stories in the dwelling</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RoomTotal</attrlabl>
+        <attrdef>Total number of rooms in the structure</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BedRoom</attrlabl>
+        <attrdef>Number of bedrooms in the structure</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FamilyRoom</attrlabl>
+        <attrdef>Number of family rooms in the structure</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BasementYN</attrlabl>
+        <attrdef>Y/N flag to indicate basement</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HeatingType</attrlabl>
+        <attrdef>Heating system type</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CoolingType</attrlabl>
+        <attrdef>Heating and cooling system type</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LivingAreaSquareFeet</attrlabl>
+        <attrdef>Total living area in square feet</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>GarageYN</attrlabl>
+        <attrdef>Y/N flag to indicate garages (could be a basement garage, attached or detached garages)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>GarageSquareFeet</attrlabl>
+        <attrdef>Garage area for attached and detached garages (no garage areas available for basement garages)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>YearBuilt</attrlabl>
+        <attrdef>Year the structure or residence is built</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TopologyDescription</attrlabl>
+        <attrdef>Topology description</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>UtilityDescription</attrlabl>
+        <attrdef>Utility type description</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LastSaleDate</attrlabl>
+        <attrdef>Date of the most recent recorded sale</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SalePrice</attrlabl>
+        <attrdef>Price of the most recent recorded sale</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>X</attrlabl>
+        <attrdef>County Coordinate value</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Y</attrlabl>
+        <attrdef>County Coordinate value</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+        <attrdef>Latitude value</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+        <attrdef>Longitude value</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ParcelCode</attrlabl>
+        <attrdef>Info on Parcel Type</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Information not available or not provided</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Valid Parcel with a single Tax PIN</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Parcel Polygon representing multiple tax PINs</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PropertyDataJoinDate</attrlabl>
+        <attrdef>Attributed data creation date</attrdef>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Attribute data is populated from a compilation of records and information from various state, county and city offices, and other sources. This data is joined to Ramsey Countys Parcel Point data using a property identification number (PIN) which is assigned to both polygons and points and is the primary link to other county tax and assessment data.</eaover>
+    </overview>
+  </eainfo>
+  <dataqual>
+    <posacc>
+      <horizpa>
+        <horizpar>Digitized information is generally &#177; 7 feet; some areas have been found to be &#177; 30 feet.  COGO (coordinate geometry) accuracy generally is &#177; 1.0 foot.</horizpar>
+      </horizpa>
+    </posacc>
+    <attracc>
+      <attraccr>Attributes held within the GIS graphical data base are entered by GIS personnel utilizing manual or semi-automated methods.  Check plots are produced periodically to verify the consistency of the source data. Attributes produced by the Ramsey County Records and Revenue Department such as names, taxpayers, values etc., are not created or managed by GIS personnel.  This information is extracted separately and in most cases joined to the graphical GIS parcel data set. This data set has not been verified by GIS personnel.</attraccr>
+    </attracc>
+    <logic>Graphical elements are topologically clean. Over shoots and undershoots are not permitted. Parcel gaps and overlaps are analyzed in a case by case basis. Generally boundaries conflicting in position by less than 1 foot are dissolved into a single line giving precedence to Senior and Junior property boundaries</logic>
+    <complete>Entire Ramsey County Coverage</complete>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Ramsey County Custom Coordinate</gridsysn>
+        </gridsys>
+        <planci>
+          <plandu>feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

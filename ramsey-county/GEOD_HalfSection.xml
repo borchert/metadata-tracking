@@ -1,6 +1,279 @@
-﻿<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><title>GEOD_HalfSection</title><pubinfo><publish>Ramsey County Enterprise GIS</publish></pubinfo><pubdate>20150304</pubdate><origin>Ramsey County</origin><onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink></citeinfo></citation><descript><abstract>This data set contains polygons that represent half sections.  In 1985, Ramsey County began a 5 year project to modernize it's land records mapping system to create a computerized Land Information System.  As part of the project, the County developed an accurate coordinate control base for this mapping system.  The 27 existing State and Federal first order accuracy positions in Ramsey County were densified by a GPS (Global Positioning System) Network of 171 second order accuracy positions.  These positions were established and recorded on existing public land survey corner monuments and accessory monuments through out the county.</abstract><purpose>The Half Sections in this data set support many functions including thematic mapping, asset management, property assessment, surveying and engineering projects.</purpose><supplinf>Ramsey County</supplinf></descript><status><progress>Complete</progress><update>Monthly</update></status><spdom><bounding><westbc>-93.228202</westbc><eastbc>-92.982974 </eastbc><northbc>45.124277</northbc><southbc>44.890922</southbc></bounding></spdom><keywords><theme><themekey>township, range, PLS, HalfSection</themekey></theme></keywords><accconst>None.</accconst><useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the publisher would be appreciated.</useconst><timeperd><timeinfo><sngdate><caldate>20150304</caldate></sngdate></timeinfo><current>Data set is current and complete, but constantly being update to reflect changes.  New versions are released monthly.</current></timeperd><ptcontac><cntinfo><cntperp><cntorg>Ramsey County Survey</cntorg><cntper>Curt Peterson</cntper></cntperp><cntpos>GIS Supervisor</cntpos><cntaddr><address>1425 Paul Kirkwold Dr</address><city>Arden Hills</city><state>MN</state><postal>55112</postal></cntaddr><cntvoice>651.266.7172</cntvoice><cntemail>Curtis.Peterson@co.ramsey.mn.us</cntemail></cntinfo></ptcontac></idinfo><distinfo><distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>GEOD_HalfSection</title>
+        <pubinfo>
+          <publish>Ramsey County Enterprise GIS</publish>
+        </pubinfo>
+        <pubdate>20150304</pubdate>
+        <origin>Ramsey County</origin>
+        <onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set contains polygons that represent half sections.  In 1985, Ramsey County began a 5 year project to modernize it's land records mapping system to create a computerized Land Information System.  As part of the project, the County developed an accurate coordinate control base for this mapping system.  The 27 existing State and Federal first order accuracy positions in Ramsey County were densified by a GPS (Global Positioning System) Network of 171 second order accuracy positions.  These positions were established and recorded on existing public land survey corner monuments and accessory monuments through out the county.</abstract>
+      <purpose>The Half Sections in this data set support many functions including thematic mapping, asset management, property assessment, surveying and engineering projects.</purpose>
+      <supplinf>Ramsey County</supplinf>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>Monthly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.228202</westbc>
+        <eastbc>-92.982974 </eastbc>
+        <northbc>45.124277</northbc>
+        <southbc>44.890922</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>township, range, PLS, HalfSection</themekey>
+      </theme>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the publisher would be appreciated.</useconst>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150304</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Data set is current and complete, but constantly being update to reflect changes.  New versions are released monthly.</current>
+    </timeperd>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County Survey</cntorg>
+          <cntper>Curt Peterson</cntper>
+        </cntperp>
+        <cntpos>GIS Supervisor</cntpos>
+        <cntaddr>
+          <address>1425 Paul Kirkwold Dr</address>
+          <city>Arden Hills</city>
+          <state>MN</state>
+          <postal>55112</postal>
+        </cntaddr>
+        <cntvoice>651.266.7172</cntvoice>
+        <cntemail>Curtis.Peterson@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
 Limit on Liability:  This data is not a legally recorded map or survey and is not intended to be used as one. This data is a compilation of records and information from various state, county, and city offices, and other sources, and should be used for reference only.
-In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab><resdesc>ISvSQL55.GISWarehouse.Survey.GEOD_HalfSection</resdesc><distrib><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150304</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Ramsey County Custom Coordinate</gridsysn></gridsys><planci><plandu>feet</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>GEOD_Halfection</enttypl></enttyp><attr><attrlabl>Name</attrlabl><attrdef>Half, Section Number, Township Number and Range Number</attrdef></attr><attr><attrlabl>TownshipNumber</attrlabl><attrdef>Township Number</attrdef></attr><attr><attrlabl>TownshipDirection</attrlabl><attrdef>Township Direction</attrdef><attrdomv><edom><edomv>North</edomv></edom></attrdomv></attr><attr><attrlabl>Range Number</attrlabl><attrdef>Range Number</attrdef></attr><attr><attrlabl>RangeDirection</attrlabl><attrdef>Range Direction</attrdef><attrdomv><edom><edomv>West</edomv></edom></attrdomv></attr><attr><attrlabl>SectionNumber</attrlabl><attrdef>Number of the Section within the Township</attrdef></attr><attr><attrlabl>Half</attrlabl><attrdef>Half Abbreviation</attrdef><attrdomv><edom><edomv>N</edomv><edomvd>North</edomvd></edom></attrdomv><attrdomv><edom><edomv>S</edomv><edomvd>South</edomvd></edom></attrdomv></attr><attr><attrlabl>TaxID</attrlabl><attrdef>Public Land Survey System ID</attrdef></attr><attr><attrlabl>StandardLink</attrlabl><attrdef>Link to the Ramsey County Vector Half Section Map</attrdef></attr><attr><attrlabl>AerialLink</attrlabl><attrdef>Link to the Ramsey County Imagery background half section map</attrdef></attr><attr><attrlabl>TaxMapLink</attrlabl><attrdef>Link to the Ramsey County Tax Map</attrdef></attr><attr><attrlabl>AdjEast</attrlabl><attrdef>Adjacent Section to the East</attrdef></attr><attr><attrlabl>AdjWest</attrlabl><attrdef>Adjacent Section to the West</attrdef></attr><attr><attrlabl>AdjSouth</attrlabl><attrdef>Adjacent Section to the South</attrdef></attr><attr><attrlabl>AdjNorth</attrlabl><attrdef>Adjacent Section to the North</attrdef></attr><attr><attrlabl>AdjEastCnty</attrlabl><attrdef>Adjacent County to the East</attrdef></attr><attr><attrlabl>AdjWestCnty</attrlabl><attrdef>Adjacent County to the West</attrdef></attr><attr><attrlabl>AdjSouthCnty</attrlabl><attrdef>Adjacent County to the South</attrdef></attr><attr><attrlabl>AdjNorthCnty</attrlabl><attrdef>Adjacent County to the North</attrdef></attr><attr><attrlabl>LyrName</attrlabl><attrdef>RC specific attribute representing the parcel subtype line layer</attrdef><attrdomv><edom><edomv>Half Section</edomv><edomvd>Half Section</edomvd></edom></attrdomv></attr><attr><attrlabl>TaxMapFeature</attrlabl><attrdef>flag indicating if the parcel will appear on PR&amp;R's Tax Map</attrdef><attrdomv><edom><edomv>1</edomv><edomvd>Yes</edomvd></edom></attrdomv><attrdomv><edom><edomv>0</edomv><edomvd>No</edomvd></edom></attrdomv></attr></detailed></eainfo><dataqual><posacc><horizpa><horizpar>Digitized information is generally ± 7 feet; some areas have been found to be ± 30 feet.  COGO (coordinate geometry) accuracy generally is ± 1.0 foot.</horizpar></horizpa></posacc><attracc><attraccr>Feature attributes are identified using analytical and softcopy photogrammetric compilation methods.  Automated GIS processes supplement the photo identified feature attributing with the numerical parameters.</attraccr></attracc><complete>Entire Ramsey County coverage</complete><lineage><procstep>This layer contains a vector representation of bridges and overpasses.  Color aerial photography and airborne GPS used for aerotriangulation.  Aerotrianglution solution used with analytical and softcopy stereo plotters to collect limited planimetric feature.  LIDAR DEM provide by Ramsey County under separate contract with Waggoner Inc. of Jackson, Mississippi was used to create digital ortho images.
+In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab>
+    <resdesc>ISvSQL55.GISWarehouse.Survey.GEOD_HalfSection</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150304</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Ramsey County Custom Coordinate</gridsysn>
+        </gridsys>
+        <planci>
+          <plandu>feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>GEOD_Halfection</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>Half, Section Number, Township Number and Range Number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TownshipNumber</attrlabl>
+        <attrdef>Township Number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TownshipDirection</attrlabl>
+        <attrdef>Township Direction</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>North</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Range Number</attrlabl>
+        <attrdef>Range Number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RangeDirection</attrlabl>
+        <attrdef>Range Direction</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>West</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SectionNumber</attrlabl>
+        <attrdef>Number of the Section within the Township</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Half</attrlabl>
+        <attrdef>Half Abbreviation</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>North</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>South</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TaxID</attrlabl>
+        <attrdef>Public Land Survey System ID</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>StandardLink</attrlabl>
+        <attrdef>Link to the Ramsey County Vector Half Section Map</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AerialLink</attrlabl>
+        <attrdef>Link to the Ramsey County Imagery background half section map</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TaxMapLink</attrlabl>
+        <attrdef>Link to the Ramsey County Tax Map</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AdjEast</attrlabl>
+        <attrdef>Adjacent Section to the East</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AdjWest</attrlabl>
+        <attrdef>Adjacent Section to the West</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AdjSouth</attrlabl>
+        <attrdef>Adjacent Section to the South</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AdjNorth</attrlabl>
+        <attrdef>Adjacent Section to the North</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AdjEastCnty</attrlabl>
+        <attrdef>Adjacent County to the East</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AdjWestCnty</attrlabl>
+        <attrdef>Adjacent County to the West</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AdjSouthCnty</attrlabl>
+        <attrdef>Adjacent County to the South</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AdjNorthCnty</attrlabl>
+        <attrdef>Adjacent County to the North</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LyrName</attrlabl>
+        <attrdef>RC specific attribute representing the parcel subtype line layer</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Half Section</edomv>
+            <edomvd>Half Section</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TaxMapFeature</attrlabl>
+        <attrdef>flag indicating if the parcel will appear on PR&amp;R's Tax Map</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <dataqual>
+    <posacc>
+      <horizpa>
+        <horizpar>Digitized information is generally &#177; 7 feet; some areas have been found to be &#177; 30 feet.  COGO (coordinate geometry) accuracy generally is &#177; 1.0 foot.</horizpar>
+      </horizpa>
+    </posacc>
+    <attracc>
+      <attraccr>Feature attributes are identified using analytical and softcopy photogrammetric compilation methods.  Automated GIS processes supplement the photo identified feature attributing with the numerical parameters.</attraccr>
+    </attracc>
+    <complete>Entire Ramsey County coverage</complete>
+    <lineage>
+      <procstep>This layer contains a vector representation of bridges and overpasses.  Color aerial photography and airborne GPS used for aerotriangulation.  Aerotrianglution solution used with analytical and softcopy stereo plotters to collect limited planimetric feature.  LIDAR DEM provide by Ramsey County under separate contract with Waggoner Inc. of Jackson, Mississippi was used to create digital ortho images.
  
  
-</procstep></lineage><logic>Information is visually inspected and corrected as necessary.</logic></dataqual></metadata>
+</procstep>
+    </lineage>
+    <logic>Information is visually inspected and corrected as necessary.</logic>
+  </dataqual>
+</metadata>

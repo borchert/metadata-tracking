@@ -1,12 +1,226 @@
-﻿<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><title>TRANS_StreetSimple</title><pubinfo><publish>Ramsey County Enterprise GIS</publish></pubinfo><pubdate>20150413</pubdate><origin>Ramsey County</origin><onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink></citeinfo></citation><descript><abstract>StreetSimple provide a simplified network of federal, state, county and municipal and private roads.  
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>TRANS_StreetSimple</title>
+        <pubinfo>
+          <publish>Ramsey County Enterprise GIS</publish>
+        </pubinfo>
+        <pubdate>20150413</pubdate>
+        <origin>Ramsey County</origin>
+        <onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>StreetSimple provide a simplified network of federal, state, county and municipal and private roads.  
 
 All public roads should be represented in the database as well as many of the private roads that are open to the general public.  A private section of pavement that serves less than three households is generally considered a private drive and is not included in this set.
 
 The features are intended to represent the driving surfaces of the roads, and are often near the center of the road pavement, however, this varies by feature. Where the pavement is divided by a median or raised divider of more than 50', a separate feature represents the pavement in each direction (a dual carrigeway representation). 
 
 The center of physical roadway pavement may or may not represent the center of the road right of way.  Road right of ways may taper or change width. There has been no attempt to alter the road centerline to conform to right of way that is not parallel or alters in width.
-This file has been further modified using several sources including Ramsey County Public Work's survey centerlines and digitizing off aerial photos.</abstract><purpose>The Simplifed Streets data represents all public roads in Ramsey County and many private roads open to public access.  Road centerlines help support map general production, thematic mapping, land surveying and engineering projects.  This dataset shows a reduced set of attributes when compared to the full TRANS_Street data.  The features from the full dataset have been merged to reduce the number of segments making this data set appropriate for rapid cartographic display, but not for geocoding, routing, or other functions supported by the full dataset.</purpose><supplinf>Ramsey County</supplinf></descript><status><progress>Complete</progress><update>Continually</update></status><spdom><bounding><westbc>-93.228202</westbc><eastbc>-92.982974 </eastbc><northbc>45.124277</northbc><southbc>44.890922</southbc></bounding></spdom><keywords><theme><themekey>Transportation, County, Street</themekey></theme></keywords><accconst>None.</accconst><useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the publisher would be appreciated.</useconst><timeperd><timeinfo><sngdate><caldate>20150413</caldate></sngdate></timeinfo></timeperd><ptcontac><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></ptcontac></idinfo><distinfo><distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
+This file has been further modified using several sources including Ramsey County Public Work's survey centerlines and digitizing off aerial photos.</abstract>
+      <purpose>The Simplifed Streets data represents all public roads in Ramsey County and many private roads open to public access.  Road centerlines help support map general production, thematic mapping, land surveying and engineering projects.  This dataset shows a reduced set of attributes when compared to the full TRANS_Street data.  The features from the full dataset have been merged to reduce the number of segments making this data set appropriate for rapid cartographic display, but not for geocoding, routing, or other functions supported by the full dataset.</purpose>
+      <supplinf>Ramsey County</supplinf>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.228202</westbc>
+        <eastbc>-92.982974 </eastbc>
+        <northbc>45.124277</northbc>
+        <southbc>44.890922</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Transportation, County, Street</themekey>
+      </theme>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the publisher would be appreciated.</useconst>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150413</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
 Limit on Liability:  This data is not a legally recorded map or survey and is not intended to be used as one. This data is a compilation of records and information from various state, county, and city offices, and other sources, and should be used for reference only.
-In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab><resdesc>ISvSQL55.GISTrans.ECC.TRANS_Street</resdesc><distrib><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150413</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Ramsey County Custom Coordinate</gridsysn></gridsys><planci><plandu>feet</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>TRANS_Street</enttypl></enttyp><attr><attrlabl>RouteSystem</attrlabl><attrdef>Route System based on MnDOT's System - currently not in use</attrdef></attr><attr><attrlabl>RouteID</attrlabl><attrdef>Unique ID based on MnDOT's Route naming system - currently not in use</attrdef></attr><attr><attrlabl>RouteDirection</attrlabl><attrdef>Indicates if the accumulated mileage of the MnDOT route increases or decreases along this feature. By convention, road sections with two way traffic are coded as I.</attrdef><attrdomv><edom><edomv>I</edomv><edomvd>Increasing mileage</edomvd></edom></attrdomv><attrdomv><edom><edomv>D</edomv><edomvd>Decreasing mileage</edomvd></edom></attrdomv></attr><attr><attrlabl>RouteName</attrlabl><attrdef>Used to store additional names based on MnDOT route designations</attrdef></attr><attr><attrlabl>RouteNumber</attrlabl><attrdef>Road or highway number used for dynamic labeling with shield background</attrdef></attr><attr><attrlabl>StreetNameAll</attrlabl><attrdef>Concatenation of StreetPreType, Street Name, StreetPostType, StreetPostDirectional with appropriate spaces to create a complete street name.</attrdef></attr><attr><attrlabl>OneWay</attrlabl><attrdef>The direction of traffic flow on the street.</attrdef><attrdomv><edom><edomv>F</edomv><edomvd>Traffic Flows in the direction of the digitized arc (Begins at the F).</edomvd></edom></attrdomv><attrdomv><edom><edomv>T</edomv><edomvd>Traffic flows against the direction of the digitized arc (Begins at the To).</edomvd></edom></attrdomv><attrdomv><edom><edomv>B</edomv><edomvd>Traffic flows both ways on the arc.</edomvd></edom></attrdomv></attr><attr><attrlabl>Layer</attrlabl><attrdef>Indicator of the Road system for use in Computer Aided Drafting exports.</attrdef></attr></detailed><overview><eaover>This layer represents the centerline of municipal, county, state and federal roadways.  Attribute information includes road type, name and code identification information.</eaover></overview></eainfo><dataqual><posacc><horizpa><horizpar>Digitized information is generally ± 7 feet; some areas have been found to be ± 30 feet. COGO (coordinate geometry) accuracy generally is  ± 1.0 foot.</horizpar></horizpa></posacc><attracc><attraccr>Attributes held within the GIS graphical data base are entered by GIS personnel utilizing manual or semi-automated methods. </attraccr></attracc><lineage><procstep><procdesc> In 1986, the road centerlines were digitized from hand drawn 1:2400 half and 1:1200 quarter section maps. In 1995, the parcel data layer was converted to ArcINFO format and held in the ArcStorm database. Centerlines were converted in 2005 to an ESRI ArcGIS GeoDatabase. 
+In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab>
+    <resdesc>ISvSQL55.GISTrans.ECC.TRANS_Street</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150413</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Ramsey County Custom Coordinate</gridsysn>
+        </gridsys>
+        <planci>
+          <plandu>feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>TRANS_Street</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>RouteSystem</attrlabl>
+        <attrdef>Route System based on MnDOT's System - currently not in use</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RouteID</attrlabl>
+        <attrdef>Unique ID based on MnDOT's Route naming system - currently not in use</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RouteDirection</attrlabl>
+        <attrdef>Indicates if the accumulated mileage of the MnDOT route increases or decreases along this feature. By convention, road sections with two way traffic are coded as I.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>I</edomv>
+            <edomvd>Increasing mileage</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Decreasing mileage</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RouteName</attrlabl>
+        <attrdef>Used to store additional names based on MnDOT route designations</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RouteNumber</attrlabl>
+        <attrdef>Road or highway number used for dynamic labeling with shield background</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>StreetNameAll</attrlabl>
+        <attrdef>Concatenation of StreetPreType, Street Name, StreetPostType, StreetPostDirectional with appropriate spaces to create a complete street name.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OneWay</attrlabl>
+        <attrdef>The direction of traffic flow on the street.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>Traffic Flows in the direction of the digitized arc (Begins at the F).</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>T</edomv>
+            <edomvd>Traffic flows against the direction of the digitized arc (Begins at the To).</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>B</edomv>
+            <edomvd>Traffic flows both ways on the arc.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Layer</attrlabl>
+        <attrdef>Indicator of the Road system for use in Computer Aided Drafting exports.</attrdef>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>This layer represents the centerline of municipal, county, state and federal roadways.  Attribute information includes road type, name and code identification information.</eaover>
+    </overview>
+  </eainfo>
+  <dataqual>
+    <posacc>
+      <horizpa>
+        <horizpar>Digitized information is generally &#177; 7 feet; some areas have been found to be &#177; 30 feet. COGO (coordinate geometry) accuracy generally is  &#177; 1.0 foot.</horizpar>
+      </horizpa>
+    </posacc>
+    <attracc>
+      <attraccr>Attributes held within the GIS graphical data base are entered by GIS personnel utilizing manual or semi-automated methods. </attraccr>
+    </attracc>
+    <lineage>
+      <procstep>
+        <procdesc> In 1986, the road centerlines were digitized from hand drawn 1:2400 half and 1:1200 quarter section maps. In 1995, the parcel data layer was converted to ArcINFO format and held in the ArcStorm database. Centerlines were converted in 2005 to an ESRI ArcGIS GeoDatabase. 
 The original vector data was created utilizing positions calculated from plats using coordinate geometry programs. In 2013, the purpose of this data changed from showing survey centerline to representing the approximate center of the driving surface. This change was necessary to move to a multifunction data source for emergency services, increased accuracy in geocoding, and routing. 
-</procdesc></procstep></lineage></dataqual></metadata>
+</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+</metadata>

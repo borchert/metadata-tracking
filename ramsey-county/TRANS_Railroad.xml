@@ -1,7 +1,171 @@
-﻿<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><title>TRANS_Railroad</title><pubinfo><publish>Ramsey County Enterprise GIS</publish></pubinfo><pubdate>20140220</pubdate><origin>Ramsey County</origin><onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink></citeinfo></citation><descript><abstract>This data set contains the vectors representing the centerlines of railroads.  The vector information was derived from aerial photography observation and interpretation using stereo processing techniques.  Vector line work was originally plotted from 2009 photography.  All graphical lines contain a character based layer name that identifies the different mapping features.  The flight height for the aerial photography utilized in this project is approximately 5000 feet.  The mapping scale for aerial photography utilized in this project is 1 inch equals 833 feet.</abstract><purpose>Railroad lines residing in this data set support many functions including thematic mapping, land records, property assessment, and surveying and engineering projects.</purpose><supplinf>Ramsey County</supplinf></descript><status><progress>Complete</progress><update>Planned every 3 Years</update></status><spdom><bounding><westbc>-93.228202</westbc><eastbc>-92.982974 </eastbc><northbc>45.124277</northbc><southbc>44.890922</southbc></bounding></spdom><keywords><theme><themekey>Transportation, County, Railroad</themekey></theme></keywords><accconst>None.</accconst><useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the publisher would be appreciated.</useconst><timeperd><timeinfo><sngdate><caldate>04/14/2009</caldate></sngdate></timeinfo></timeperd><ptcontac><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></ptcontac></idinfo><distinfo><distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>TRANS_Railroad</title>
+        <pubinfo>
+          <publish>Ramsey County Enterprise GIS</publish>
+        </pubinfo>
+        <pubdate>20140220</pubdate>
+        <origin>Ramsey County</origin>
+        <onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set contains the vectors representing the centerlines of railroads.  The vector information was derived from aerial photography observation and interpretation using stereo processing techniques.  Vector line work was originally plotted from 2009 photography.  All graphical lines contain a character based layer name that identifies the different mapping features.  The flight height for the aerial photography utilized in this project is approximately 5000 feet.  The mapping scale for aerial photography utilized in this project is 1 inch equals 833 feet.</abstract>
+      <purpose>Railroad lines residing in this data set support many functions including thematic mapping, land records, property assessment, and surveying and engineering projects.</purpose>
+      <supplinf>Ramsey County</supplinf>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>Planned every 3 Years</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.228202</westbc>
+        <eastbc>-92.982974 </eastbc>
+        <northbc>45.124277</northbc>
+        <southbc>44.890922</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Transportation, County, Railroad</themekey>
+      </theme>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the publisher would be appreciated.</useconst>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>04/14/2009</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
 Limit on Liability:  This data is not a legally recorded map or survey and is not intended to be used as one. This data is a compilation of records and information from various state, county, and city offices, and other sources, and should be used for reference only.
-In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab><resdesc>ISvSQL55.GISWarehouse.TRANS_Railroad</resdesc><distrib><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20140212</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Ramsey County Custom Coordinate</gridsysn></gridsys><planci><plandu>feet</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>STRUCT_Railroad</enttypl></enttyp><attr><attrlabl>Feature</attrlabl><attrdef>Feature Type</attrdef><attrdomv><edom><edomv>RR</edomv><edomvd>Centerline of Railroad</edomvd></edom></attrdomv></attr></detailed></eainfo><dataqual><posacc><horizpa><horizpar>This data meets or exceeds the National Map Accuracy Standard (NMAS) - 1/30 of 1 inch at map scale.  Tested 2.5 feet horizontal accuracy at 95% confidence level.</horizpar></horizpa><vertacc><vertaccr>Not Applicable as it pertains to a two-dimensional ArcGIS dataset.  However, during feature compilation the vertical accuarcy meets NMAS - 1/6000 of flight height above mean terrain. 
-</vertaccr></vertacc></posacc><attracc><attraccr>Feature attributes are identified using analytical and softcopy photogrammetric compilation methods.  Automated GIS processes supplement the photo identified feature attributing with the numerical parameters.</attraccr></attracc><logic>Graphical elements are topologically clean as the majority of the linework is intended to create closed boundaries or polygons.  The linework represents physical features existing at the time of data collection.</logic><complete>All features of this type photogrammetrically identifiable within the Ramsey County coverage are included.</complete><lineage><procstep><procdesc>This layer contains a vector representation of bridges and overpasses.  Color aerial photography and airborne GPS used for aerotriangulation.  Aerotrianglution solution used with analytical and softcopy stereo plotters to collect limited planimetric feature.  LIDAR DEM provide by Ramsey County under separate contract with Waggoner Inc. of Jackson, Mississippi was used to create digital ortho images.
+In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab>
+    <resdesc>ISvSQL55.GISWarehouse.TRANS_Railroad</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20140212</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Ramsey County Custom Coordinate</gridsysn>
+        </gridsys>
+        <planci>
+          <plandu>feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>STRUCT_Railroad</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Feature</attrlabl>
+        <attrdef>Feature Type</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>RR</edomv>
+            <edomvd>Centerline of Railroad</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <dataqual>
+    <posacc>
+      <horizpa>
+        <horizpar>This data meets or exceeds the National Map Accuracy Standard (NMAS) - 1/30 of 1 inch at map scale.  Tested 2.5 feet horizontal accuracy at 95% confidence level.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not Applicable as it pertains to a two-dimensional ArcGIS dataset.  However, during feature compilation the vertical accuarcy meets NMAS - 1/6000 of flight height above mean terrain. 
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <attracc>
+      <attraccr>Feature attributes are identified using analytical and softcopy photogrammetric compilation methods.  Automated GIS processes supplement the photo identified feature attributing with the numerical parameters.</attraccr>
+    </attracc>
+    <logic>Graphical elements are topologically clean as the majority of the linework is intended to create closed boundaries or polygons.  The linework represents physical features existing at the time of data collection.</logic>
+    <complete>All features of this type photogrammetrically identifiable within the Ramsey County coverage are included.</complete>
+    <lineage>
+      <procstep>
+        <procdesc>This layer contains a vector representation of bridges and overpasses.  Color aerial photography and airborne GPS used for aerotriangulation.  Aerotrianglution solution used with analytical and softcopy stereo plotters to collect limited planimetric feature.  LIDAR DEM provide by Ramsey County under separate contract with Waggoner Inc. of Jackson, Mississippi was used to create digital ortho images.
  
  
-</procdesc></procstep></lineage></dataqual></metadata>
+</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+</metadata>

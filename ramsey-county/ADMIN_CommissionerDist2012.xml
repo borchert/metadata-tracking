@@ -1,6 +1,366 @@
-﻿<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><title>ADMIN_CommissionerDist2012</title><pubinfo><publish>Ramsey County Enterprise GIS</publish></pubinfo><pubdate>20140212</pubdate><origin>Ramsey County</origin><onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink></citeinfo></citation><descript><abstract>This data set contains polygons that represent Ramsey County Commissioner Districts as of the redistricting process following the 2010 census.  The boundaries were created by merging Federal Census Blocks which had individually been assigned to a Commissioner District.  </abstract><purpose>Commissioner Districts are often used as boundaries for analysing other GIS data, including census data, tax data, and county services.</purpose><supplinf>Ramsey County</supplinf></descript><status><progress>Complete</progress><update>Irregular</update></status><spdom><bounding><westbc>-93.228202</westbc><eastbc>-92.982974 </eastbc><northbc>45.124277</northbc><southbc>44.890922</southbc></bounding></spdom><keywords><theme><themekey>County, Ramsey, Commissioner, Political</themekey></theme></keywords><accconst>None.</accconst><useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the publisher would be appreciated.</useconst><timeperd><timeinfo><sngdate><caldate>2012</caldate></sngdate></timeinfo><current>Commissioner Districts may be modified following political re-districting activities.  Attribution may also be changed following election of new commissioners.</current></timeperd><ptcontac><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></ptcontac></idinfo><distinfo><distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>ADMIN_CommissionerDist2012</title>
+        <pubinfo>
+          <publish>Ramsey County Enterprise GIS</publish>
+        </pubinfo>
+        <pubdate>20140212</pubdate>
+        <origin>Ramsey County</origin>
+        <onlink>http://www.co.ramsey.mn.us/is/gisdata.htm</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set contains polygons that represent Ramsey County Commissioner Districts as of the redistricting process following the 2010 census.  The boundaries were created by merging Federal Census Blocks which had individually been assigned to a Commissioner District.  </abstract>
+      <purpose>Commissioner Districts are often used as boundaries for analysing other GIS data, including census data, tax data, and county services.</purpose>
+      <supplinf>Ramsey County</supplinf>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.228202</westbc>
+        <eastbc>-92.982974 </eastbc>
+        <northbc>45.124277</northbc>
+        <southbc>44.890922</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>County, Ramsey, Commissioner, Political</themekey>
+      </theme>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.  Acknowledgement of the publisher would be appreciated.</useconst>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2012</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Commissioner Districts may be modified following political re-districting activities.  Attribution may also be changed following election of new commissioners.</current>
+    </timeperd>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distliab>EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
 Limit on Liability:  This data is not a legally recorded map or survey and is not intended to be used as one. This data is a compilation of records and information from various state, county, and city offices, and other sources, and should be used for reference only.
-In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab><resdesc>ISvSQL55.GISWarehouse.Other.ADMIN_CommissionerDist2012</resdesc><distrib><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20140212</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Ramsey County</cntorg><cntper>Matt Koukol</cntper></cntperp><cntpos>GIS Manager</cntpos><cntaddr><address>121 7th Place E</address><address>Suite 2300</address><city>Saint Paul</city><state>MN</state><postal>55101</postal></cntaddr><cntvoice>651.266.3463</cntvoice><cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Ramsey County Custom Coordinate</gridsysn></gridsys><planci><plandu>feet</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>ADMIN_CommissionerDist2012</enttypl></enttyp><attr><attrlabl>District</attrlabl><attrdef>Ramsey County Commissioner District Number</attrdef><attrdomv><rdom><rdommin>1</rdommin><rdommax>7</rdommax></rdom></attrdomv></attr><attr><attrlabl>Name</attrlabl><attrdef>Name of current Ramsey County Commissioner representing the district.</attrdef></attr><attr><attrlabl>Population</attrlabl><attrdef>Population of the District based on 2010 census values.</attrdef></attr><attr><attrlabl>White</attrlabl><attrdef>White population of the District based on 2010 census values.</attrdef></attr><attr><attrlabl>Black</attrlabl><attrdef>Black population of the District based on 2010 census values.</attrdef></attr><attr><attrlabl>AmIndian</attrlabl><attrdef>American Indian population of the District based on 2010 census values.</attrdef></attr><attr><attrlabl>Asian</attrlabl><attrdef>Asian population of the District based on 2010 census values.</attrdef></attr><attr><attrlabl>Hawaiian</attrlabl><attrdef>Hawaiin population of the District based on 2010 census values.</attrdef></attr><attr><attrlabl>OtherRace</attrlabl><attrdef>Population of the District based on 2010 census values for other races.</attrdef></attr><attr><attrlabl>MultipleRace</attrlabl><attrdef>Multi-racial population of the District based on 2010 census values.</attrdef></attr><attr><attrlabl>HispanicOrigin</attrlabl><attrdef>Number of people in the district that reported as of Hispanic origins on the 2010 census.</attrdef></attr><attr><attrlabl>NotHispanicOrigin</attrlabl><attrdef>Number of people in the district that did not report as of Hispanic origins on the 2010 census.</attrdef></attr><attr><attrlabl>NonHispanicWhite</attrlabl><attrdef>NonHispanic white population reported in the 2010 census.</attrdef></attr><attr><attrlabl>Population18</attrlabl><attrdef>Population reported in the 2010 census that is 18 or older.</attrdef></attr><attr><attrlabl>White18</attrlabl><attrdef>White population reported in the 2010 census that  is 18 or older.</attrdef></attr><attr><attrlabl>Black18</attrlabl><attrdef>Black population reported in the 2010 census that  is 18 or older.</attrdef></attr><attr><attrlabl>AmIndian18</attrlabl><attrdef>American Indian population reported in the 2010 census that  is 18 or older.</attrdef></attr><attr><attrlabl>Asian18</attrlabl><attrdef>Asian population reported in the 2010 census that  is 18 or older.</attrdef></attr><attr><attrlabl>Hawaiian18</attrlabl><attrdef>Hawaiian population reported in the 2010 census that  is 18 or older.</attrdef></attr><attr><attrlabl>OtherRace18</attrlabl><attrdef>Population reported as other races in the 2010 census that is 18 or older.</attrdef></attr><attr><attrlabl>MultipleRace18</attrlabl><attrdef>Population reported  as multi-racial in the 2010 census that  is 18 or older.</attrdef></attr><attr><attrlabl>Hispanic18</attrlabl><attrdef>Hispanic Origin population reported in the 2010 census that  is 18 or older.</attrdef></attr><attr><attrlabl>NonHispanic18</attrlabl><attrdef>NonHispanic population reported in the 2010 census that  is 18 or older.</attrdef></attr><attr><attrlabl>NonHispanicWhite18</attrlabl><attrdef>NonHispanic white population reported in the 2010 census that is 18 or older.</attrdef></attr><attr><attrlabl>Housing</attrlabl><attrdef>Housing Units as reported in 2010 census</attrdef></attr><attr><attrlabl>HousingOccupied</attrlabl><attrdef>Occupied Housing units as reported in the 2010 census.</attrdef></attr><attr><attrlabl>IDEAL_VALU</attrlabl><attrdef>The ideal population for a Ramsey County Commissioner District based on the 2010 census.</attrdef></attr><attr><attrlabl>DEVATION</attrlabl><attrdef>Devation of the district from the ideal value.</attrdef></attr><attr><attrlabl>F_Deviation</attrlabl><attrdef>DEVIATION divided by IDEAL_VALU</attrdef></attr><attr><attrlabl>WhitePercent</attrlabl><attrdef>White population divided by total population.</attrdef></attr><attr><attrlabl>BlackPercent</attrlabl><attrdef>Black population divided by total population.</attrdef></attr><attr><attrlabl>AmIndianPercent</attrlabl><attrdef>American Indian population divided by total population.</attrdef></attr><attr><attrlabl>AsianPercent</attrlabl><attrdef>Asian population divided by total population.</attrdef></attr><attr><attrlabl>HawaiianPercent</attrlabl><attrdef>Hawaiian population divided by total population.</attrdef></attr><attr><attrlabl>OtherRacePercent</attrlabl><attrdef>Other race population divided by total population.</attrdef></attr><attr><attrlabl>MultipleRacePercent</attrlabl><attrdef>Multi-racial population divided by total population.</attrdef></attr><attr><attrlabl>HispanicPercent</attrlabl><attrdef>Hispanic population divided by total population.</attrdef></attr><attr><attrlabl>NonHispanicPercent</attrlabl><attrdef>NonHispanic population divided by total population.</attrdef></attr><attr><attrlabl>NonHispanicWhitePercent</attrlabl><attrdef>NonHispanic white  population divided by total population.</attrdef></attr><attr><attrlabl>White18PlusPercent</attrlabl><attrdef>White, 18 or older population divided by total population.</attrdef></attr><attr><attrlabl>Black18PlusPercent</attrlabl><attrdef>Black, 18 or older population divided by total population.</attrdef></attr><attr><attrlabl>AmericanIndian18PlusPercent</attrlabl><attrdef>American Indian, 18 or older population divided by total population.</attrdef></attr><attr><attrlabl>Asian18Percent</attrlabl><attrdef>Asian, 18 or older  population divided by total population.</attrdef></attr><attr><attrlabl>Hawaiian18Percent</attrlabl><attrdef>Hawaiian, 18 or older  population divided by total population.</attrdef></attr><attr><attrlabl>OtherRace18Percent</attrlabl><attrdef>Other races, 18 or older population divided by total population.</attrdef></attr><attr><attrlabl>MultipleRace18Percent</attrlabl><attrdef>Multi-racial, 18 or older population divided by total population.</attrdef></attr><attr><attrlabl>Hispanic18Percent</attrlabl><attrdef>Hispanic, 18 or older population divided by total population.</attrdef></attr><attr><attrlabl>NonHispanic18Plus</attrlabl><attrdef>NonHispanic, 18 or older population divided by total population.</attrdef></attr><attr><attrlabl>NonHispanicWhite18Percent</attrlabl><attrdef>NonHispanic, 18 or older population divided by total population.</attrdef></attr><attr><attrlabl>OccupiedHousingPercent</attrlabl><attrdef>OccupiedHousing divided by Housing</attrdef></attr><attr><attrlabl>VacantHousingPercent</attrlabl><attrdef>(1-OccupiedHousingPercent)</attrdef></attr></detailed></eainfo><dataqual><posacc><horizpa><horizpar>Digitized information is generally ± 7 feet; some areas have been found to be ± 30 feet.  COGO (coordinate geometry) accuracy generally is ± 1.0 foot.</horizpar></horizpa></posacc><attracc><attraccr>Feature attributes are identified using analytical and softcopy photogrammetric compilation methods.  Automated GIS processes supplement the photo identified feature attributing with the numerical parameters.</attraccr></attracc><complete>Entire Ramsey County coverage</complete><lineage><procstep>This layer contains a vector representation of bridges and overpasses.  Color aerial photography and airborne GPS used for aerotriangulation.  Aerotrianglution solution used with analytical and softcopy stereo plotters to collect limited planimetric feature.  LIDAR DEM provide by Ramsey County under separate contract with Waggoner Inc. of Jackson, Mississippi was used to create digital ortho images.
+In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages.  Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs.</distliab>
+    <resdesc>ISvSQL55.GISWarehouse.Other.ADMIN_CommissionerDist2012</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20140212</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Ramsey County</cntorg>
+          <cntper>Matt Koukol</cntper>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <address>121 7th Place E</address>
+          <address>Suite 2300</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651.266.3463</cntvoice>
+        <cntemail>RCGISMetaData@co.ramsey.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Ramsey County Custom Coordinate</gridsysn>
+        </gridsys>
+        <planci>
+          <plandu>feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ADMIN_CommissionerDist2012</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>District</attrlabl>
+        <attrdef>Ramsey County Commissioner District Number</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>7</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>Name of current Ramsey County Commissioner representing the district.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Population</attrlabl>
+        <attrdef>Population of the District based on 2010 census values.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>White</attrlabl>
+        <attrdef>White population of the District based on 2010 census values.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Black</attrlabl>
+        <attrdef>Black population of the District based on 2010 census values.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AmIndian</attrlabl>
+        <attrdef>American Indian population of the District based on 2010 census values.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Asian</attrlabl>
+        <attrdef>Asian population of the District based on 2010 census values.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Hawaiian</attrlabl>
+        <attrdef>Hawaiin population of the District based on 2010 census values.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OtherRace</attrlabl>
+        <attrdef>Population of the District based on 2010 census values for other races.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MultipleRace</attrlabl>
+        <attrdef>Multi-racial population of the District based on 2010 census values.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HispanicOrigin</attrlabl>
+        <attrdef>Number of people in the district that reported as of Hispanic origins on the 2010 census.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NotHispanicOrigin</attrlabl>
+        <attrdef>Number of people in the district that did not report as of Hispanic origins on the 2010 census.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NonHispanicWhite</attrlabl>
+        <attrdef>NonHispanic white population reported in the 2010 census.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Population18</attrlabl>
+        <attrdef>Population reported in the 2010 census that is 18 or older.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>White18</attrlabl>
+        <attrdef>White population reported in the 2010 census that  is 18 or older.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Black18</attrlabl>
+        <attrdef>Black population reported in the 2010 census that  is 18 or older.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AmIndian18</attrlabl>
+        <attrdef>American Indian population reported in the 2010 census that  is 18 or older.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Asian18</attrlabl>
+        <attrdef>Asian population reported in the 2010 census that  is 18 or older.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Hawaiian18</attrlabl>
+        <attrdef>Hawaiian population reported in the 2010 census that  is 18 or older.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OtherRace18</attrlabl>
+        <attrdef>Population reported as other races in the 2010 census that is 18 or older.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MultipleRace18</attrlabl>
+        <attrdef>Population reported  as multi-racial in the 2010 census that  is 18 or older.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Hispanic18</attrlabl>
+        <attrdef>Hispanic Origin population reported in the 2010 census that  is 18 or older.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NonHispanic18</attrlabl>
+        <attrdef>NonHispanic population reported in the 2010 census that  is 18 or older.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NonHispanicWhite18</attrlabl>
+        <attrdef>NonHispanic white population reported in the 2010 census that is 18 or older.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Housing</attrlabl>
+        <attrdef>Housing Units as reported in 2010 census</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HousingOccupied</attrlabl>
+        <attrdef>Occupied Housing units as reported in the 2010 census.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>IDEAL_VALU</attrlabl>
+        <attrdef>The ideal population for a Ramsey County Commissioner District based on the 2010 census.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DEVATION</attrlabl>
+        <attrdef>Devation of the district from the ideal value.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>F_Deviation</attrlabl>
+        <attrdef>DEVIATION divided by IDEAL_VALU</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>WhitePercent</attrlabl>
+        <attrdef>White population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BlackPercent</attrlabl>
+        <attrdef>Black population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AmIndianPercent</attrlabl>
+        <attrdef>American Indian population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AsianPercent</attrlabl>
+        <attrdef>Asian population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HawaiianPercent</attrlabl>
+        <attrdef>Hawaiian population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OtherRacePercent</attrlabl>
+        <attrdef>Other race population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MultipleRacePercent</attrlabl>
+        <attrdef>Multi-racial population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HispanicPercent</attrlabl>
+        <attrdef>Hispanic population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NonHispanicPercent</attrlabl>
+        <attrdef>NonHispanic population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NonHispanicWhitePercent</attrlabl>
+        <attrdef>NonHispanic white  population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>White18PlusPercent</attrlabl>
+        <attrdef>White, 18 or older population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Black18PlusPercent</attrlabl>
+        <attrdef>Black, 18 or older population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AmericanIndian18PlusPercent</attrlabl>
+        <attrdef>American Indian, 18 or older population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Asian18Percent</attrlabl>
+        <attrdef>Asian, 18 or older  population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Hawaiian18Percent</attrlabl>
+        <attrdef>Hawaiian, 18 or older  population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OtherRace18Percent</attrlabl>
+        <attrdef>Other races, 18 or older population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MultipleRace18Percent</attrlabl>
+        <attrdef>Multi-racial, 18 or older population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Hispanic18Percent</attrlabl>
+        <attrdef>Hispanic, 18 or older population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NonHispanic18Plus</attrlabl>
+        <attrdef>NonHispanic, 18 or older population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NonHispanicWhite18Percent</attrlabl>
+        <attrdef>NonHispanic, 18 or older population divided by total population.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OccupiedHousingPercent</attrlabl>
+        <attrdef>OccupiedHousing divided by Housing</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>VacantHousingPercent</attrlabl>
+        <attrdef>(1-OccupiedHousingPercent)</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <dataqual>
+    <posacc>
+      <horizpa>
+        <horizpar>Digitized information is generally &#177; 7 feet; some areas have been found to be &#177; 30 feet.  COGO (coordinate geometry) accuracy generally is &#177; 1.0 foot.</horizpar>
+      </horizpa>
+    </posacc>
+    <attracc>
+      <attraccr>Feature attributes are identified using analytical and softcopy photogrammetric compilation methods.  Automated GIS processes supplement the photo identified feature attributing with the numerical parameters.</attraccr>
+    </attracc>
+    <complete>Entire Ramsey County coverage</complete>
+    <lineage>
+      <procstep>This layer contains a vector representation of bridges and overpasses.  Color aerial photography and airborne GPS used for aerotriangulation.  Aerotrianglution solution used with analytical and softcopy stereo plotters to collect limited planimetric feature.  LIDAR DEM provide by Ramsey County under separate contract with Waggoner Inc. of Jackson, Mississippi was used to create digital ortho images.
  
  
-</procstep></lineage><logic>Information is visually inspected and corrected as necessary.</logic></dataqual></metadata>
+</procstep>
+    </lineage>
+    <logic>Information is visually inspected and corrected as necessary.</logic>
+  </dataqual>
+</metadata>
