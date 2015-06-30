@@ -1,7 +1,5 @@
-"""
-Script for writing ISO 19139 metadata for Esri Open Data datasets. Work in progress...
-"""
-
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 from lxml import etree
 import requests
 from bs4 import BeautifulSoup
@@ -9,6 +7,9 @@ from copy import deepcopy
 import os, os.path
 import json
 
+"""
+Script for writing ISO 19139 metadata for Esri Open Data datasets. Work in progress...
+"""
 
 def request_data_json(url, prefix):
     with open(prefix + "_data.json", "wb") as fp:
