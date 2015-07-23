@@ -11,16 +11,17 @@ import json
 Script for writing ISO 19139 metadata for Esri Open Data datasets. Work in progress...
 """
 
+def get_list_of_datasets(root_data_json):
+    return [i.identifier for i in root_data_json]
+
 def request_data_json(url, prefix):
-    with open(prefix + "_data.json", "wb") as fp:
-        print "remote request for data.json"
-        try:
-            j = requests.get(url).json()
-        except requests.exceptions.HTTPError as e:
-            sys.exit(e.message)
-        else:
-            fp.write(json.dumps(j))
-            return j["dataset"]
+    print "remote request for data.json"
+    try:
+        j = requests.get(url).json()
+    except requests.exceptions.HTTPError as e:
+        sys.exit(e.message)
+    else:
+        return j["dataset"]
 
 def get_data_json(prefix, url):
     return request_data_json(url, prefix)
@@ -42,6 +43,17 @@ def check_for_landing_page_json(dataset):
         return True
     else:
         return False
+
+def get_dataset_json(dataset_id):
+    try:
+        r = requests.get(dataset_id + ".json")
+    except requests.exceptions.HTTPError as e:
+        sys.exit(e.message)
+    finally:
+        if "json" in r.headers["content-type"]:
+            json = r.json()
+            return json["data"]
+        return None
 
 def get_landing_page_json(dataset):
     if not check_for_landing_page_json(dataset):
@@ -99,10 +111,11 @@ def main(url, prefix, output_path):
     if not os.path.exists(output_path):
         os.mkdir(output_path)
 
-    datasets = get_data_json(prefix, url)
+    data_json = get_data_json(prefix, url)
 
-    for dataset in datasets:
-        print "Now on:", dataset["title"]
+    for dataset in data_json:
+        dataset_detail = get_dataset_json(dataset["identifier"])
+        print "Now on:", dataset_detail["name"]
         tree = parse_template_into_tree()
         elements = get_elements_for_open_data(tree)
 
@@ -110,10 +123,10 @@ def main(url, prefix, output_path):
             elements["title"][0].text = dataset["title"]
 
         if len(elements["pubdate"]) > 0:
-            elements["pubdate"][0].text = dataset["issued"]
+            elements["pubdate"][0].text = dataset["modified"]
 
         if len(elements["title"]) > 0:
-            elements["origin"][0].text = elements["publish"][0].text = dataset["contactPoint"]["fn"]
+            elements["origin"][0].text = elements["publish"][0].text = dataset["publisher"]["name"]
 
         # bounding coordinates
         bbox = get_bbox(dataset)
@@ -145,8 +158,11 @@ def main(url, prefix, output_path):
 
         if dataset["description"]:
             abstract_soup = BeautifulSoup(dataset["description"])
-            #elements["abstract"][0].text = u' \n'.join(abstract_soup.findAll(text=True))
-            elements["abstract"][0].text = dataset["description"]
+            linebreaks = abstract_soup.findAll("br")
+            [br.replace_with("&#xD;&#xA;") for br in linebreaks]
+
+            elements["abstract"][0].text = abstract_soup.text
+            #elements["abstract"][0].text = dataset["description"]
         else:
             elements["abstract"][0].text = "No description provided"
 
@@ -229,7 +245,3 @@ landing_page_json = None
 if __name__ == "__main__":
     import sys
     main(sys.argv[1], sys.argv[2], sys.argv[3])
-
-
-
-
