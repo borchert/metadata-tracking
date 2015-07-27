@@ -32,7 +32,7 @@
          <geometricObjects>
             <MD_GeometricObjects>
                <geometricObjectType>
-                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
+                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
                   <gco:Integer/>
@@ -63,12 +63,12 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Waconia PUD Overlay Districts</gco:CharacterString>
+                  <gco:CharacterString>OpenDataStandards | Address Points</gco:CharacterString>
                </title>
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>96a322444ce84aedba2ecce849dbd59d_1</gco:CharacterString>
+                     <gco:CharacterString>f52d0d79746c453abb7f2a9a9cc714b4_0</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
@@ -99,7 +99,14 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>City of Waconia PUD Overlay District.&#160; Data current as of October 2014</gco:CharacterString>
+            <gco:CharacterString>Summary&#13;
+Carver County address point dataset.&#13;
+&#13;
+Description&#13;
+Address points are maintained by different addressing authorities within Carver County. The dataset is based upon the MetroGIS Address Points Standards,&#13;
+ derived from the National Address Standard. This dataset contains situs&#13;
+ addresses, they are not used for contact of individuals, but instead &#13;
+for the relating of features to a specific location.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -114,29 +121,32 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>Waconia</gco:CharacterString>
+                  <gco:CharacterString>Carver County</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>PUD</gco:CharacterString>
+                  <gco:CharacterString>Address</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Planning</gco:CharacterString>
+                  <gco:CharacterString>Point</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Land use</gco:CharacterString>
+                  <gco:CharacterString>Open</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Zoning</gco:CharacterString>
+                  <gco:CharacterString>Standard</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>MetroGIS</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://data.carver.opendata.arcgis.com/datasets/96a322444ce84aedba2ecce849dbd59d_1/license.json</gco:CharacterString>
+                  <gco:CharacterString>http://data.carver.opendata.arcgis.com/datasets/f52d0d79746c453abb7f2a9a9cc714b4_0/license.json</gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -167,16 +177,16 @@
                <geographicElement>
                   <EX_GeographicBoundingBox>
                      <westBoundLongitude>
-                        <gco:Decimal>-93.7833</gco:Decimal>
+                        <gco:Decimal>-94.0277</gco:Decimal>
                      </westBoundLongitude>
                      <eastBoundLongitude>
-                        <gco:Decimal>-93.7554</gco:Decimal>
+                        <gco:Decimal>-93.51</gco:Decimal>
                      </eastBoundLongitude>
                      <southBoundLatitude>
-                        <gco:Decimal>44.8292</gco:Decimal>
+                        <gco:Decimal>44.6423</gco:Decimal>
                      </southBoundLatitude>
                      <northBoundLatitude>
-                        <gco:Decimal>44.8436</gco:Decimal>
+                        <gco:Decimal>44.9814</gco:Decimal>
                      </northBoundLatitude>
                   </EX_GeographicBoundingBox>
                </geographicElement>
@@ -215,7 +225,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://data.carver.opendata.arcgis.com/datasets/96a322444ce84aedba2ecce849dbd59d_1.zip</URL>
+                        <URL>http://data.carver.opendata.arcgis.com/datasets/f52d0d79746c453abb7f2a9a9cc714b4_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -229,7 +239,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>https://gis.co.carver.mn.us/arcgis_ca/rest/services/Waconia/Waconia_LandUsePlanning/MapServer/1</URL>
+                        <URL>https://gis.co.carver.mn.us/arcgis_ea/rest/services/OpenAccess/CC_OpenDataStandards/MapServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

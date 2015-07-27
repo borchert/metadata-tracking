@@ -63,12 +63,12 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Waconia PUD Overlay Districts</gco:CharacterString>
+                  <gco:CharacterString>Administrative | Fire Districts</gco:CharacterString>
                </title>
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>96a322444ce84aedba2ecce849dbd59d_1</gco:CharacterString>
+                     <gco:CharacterString>39063ddf89984c20b3a41e68d73c4f76_6</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
@@ -99,7 +99,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>City of Waconia PUD Overlay District.&#160; Data current as of October 2014</gco:CharacterString>
+            <gco:CharacterString>Fire Districts were created by the Sheriff's Office and the local Fire Departments.&amp;#xD;&amp;#xA;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -114,29 +114,26 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>Waconia</gco:CharacterString>
+                  <gco:CharacterString>Carver County</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>PUD</gco:CharacterString>
+                  <gco:CharacterString>Fire</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Planning</gco:CharacterString>
+                  <gco:CharacterString>District</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Land use</gco:CharacterString>
-               </keyword>
-               <keyword>
-                  <gco:CharacterString>Zoning</gco:CharacterString>
+                  <gco:CharacterString>Boundary</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://data.carver.opendata.arcgis.com/datasets/96a322444ce84aedba2ecce849dbd59d_1/license.json</gco:CharacterString>
+                  <gco:CharacterString>http://data.carver.opendata.arcgis.com/datasets/39063ddf89984c20b3a41e68d73c4f76_6/license.json</gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -167,16 +164,16 @@
                <geographicElement>
                   <EX_GeographicBoundingBox>
                      <westBoundLongitude>
-                        <gco:Decimal>-93.7833</gco:Decimal>
+                        <gco:Decimal>-94.013</gco:Decimal>
                      </westBoundLongitude>
                      <eastBoundLongitude>
-                        <gco:Decimal>-93.7554</gco:Decimal>
+                        <gco:Decimal>-93.5106</gco:Decimal>
                      </eastBoundLongitude>
                      <southBoundLatitude>
-                        <gco:Decimal>44.8292</gco:Decimal>
+                        <gco:Decimal>44.6346</gco:Decimal>
                      </southBoundLatitude>
                      <northBoundLatitude>
-                        <gco:Decimal>44.8436</gco:Decimal>
+                        <gco:Decimal>45.007</gco:Decimal>
                      </northBoundLatitude>
                   </EX_GeographicBoundingBox>
                </geographicElement>
@@ -215,7 +212,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://data.carver.opendata.arcgis.com/datasets/96a322444ce84aedba2ecce849dbd59d_1.zip</URL>
+                        <URL>http://data.carver.opendata.arcgis.com/datasets/39063ddf89984c20b3a41e68d73c4f76_6.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -229,7 +226,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>https://gis.co.carver.mn.us/arcgis_ca/rest/services/Waconia/Waconia_LandUsePlanning/MapServer/1</URL>
+                        <URL>https://gis.co.carver.mn.us/arcgis_ea/rest/services/OpenAccess/CC_Administrative/MapServer/6</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
