@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -99,9 +99,8 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>&lt;p style='line-height: 1.5em; padding: 0px; font-size: 12px; font-family: Verdana, Helvetica, sans-serif; background-color: rgb(255, 255, 255);'&gt;&lt;span style='overflow: auto;'&gt;For questions about this data please contact&#160;&lt;a href='mailto:CPEDOpenData@minneapolismn.gov' style='color: rgb(33, 117, 155); font-family: Verdana; font-size: 13px; line-height: 1.38461538461538; outline: none !important; background-color: transparent;' target='_blank'&gt;CPEDOpenData@minneapolismn.gov&lt;/a&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;span style='color: black;'&gt;&lt;font size='3'&gt;Boundaries of 5 sectors for CPED staff assignments&lt;font face='Calibri, sans-serif'&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&#13;
-&#13;
-&lt;p&gt;&lt;font size='3'&gt;&lt;br /&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;u&gt;&lt;b&gt;&lt;font size='3'&gt;Field Descriptions&lt;/font&gt;&lt;/b&gt;&lt;/u&gt;&lt;/p&gt;&lt;p&gt;&lt;font size='3'&gt;SECTOR is the sector name&lt;/font&gt;&lt;/p&gt;</gco:CharacterString>
+            <gco:CharacterString>For questions about this data please contact&#160;CPEDOpenData@minneapolismn.gov&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Boundaries of 5 sectors for CPED staff assignments
+&amp;#xD;&amp;#xA;Field DescriptionsSECTOR is the sector name</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -231,7 +230,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Planning_Sectors/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Planning_Sectors/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

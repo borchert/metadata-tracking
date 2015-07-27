@@ -183,7 +183,7 @@
          <distributionFormat>
             <MD_Format>
                <name>
-                  <gco:CharacterString>shapefile</gco:CharacterString>
+                  <gco:CharacterString>Shapefile</gco:CharacterString>
                </name>
                <version gco:nilReason="missing"/>
             </MD_Format>
