@@ -1,35 +1,36 @@
 <metadata>
-	<idinfo>
-		<citation>
-			<citeinfo>
-				<origin>Minnesota Department of Transportation (MNDOT)</origin>
-				<pubdate>Periodically revised</pubdate>
-				<title catid="8475f3e9-927d-434e-a6f3-3d5b3e2965ff">Bikeways</title>
-				<mgmg1cid />
-				<pubinfo>
-					<publish>Metropolitan Council</publish>
-				</pubinfo>
-				<onlink>ftp://gisftp.metc.state.mn.us/Bikeways.zip</onlink>
-			</citeinfo>
-		</citation>
-		<descript>
-			<abstract>The regional bikeways dataset was created by the Minnesota Dept of Transportation (MNDOT) in 2003. It has been maintained and updated by the Land Management Information Center (LMIC) through contract with the Metropolitan Council. 
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin>Minnesota Department of Transportation (MNDOT)</origin>
+                <pubdate>Periodically revised</pubdate>
+                <title catid="8475f3e9-927d-434e-a6f3-3d5b3e2965ff">Bikeways</title>
+                <mgmg1cid/>
+                <pubinfo>
+                    <publish>Metropolitan Council</publish>
+                </pubinfo>
+                <onlink>ftp://gisftp.metc.state.mn.us/Bikeways.zip</onlink>
+                <onlink>http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Transportation/MapServer/3</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The regional bikeways dataset was created by the Minnesota Dept of Transportation (MNDOT) in 2003. It has been maintained and updated by the Land Management Information Center (LMIC) through contract with the Metropolitan Council. 
 
 Dataset includes bicycle routes within nine Twin Cities metropolitan counties: Anoka, Carver, Chisago, Dakota, Hennepin, Ramsey, Scott, Washington, and Wright.  The bikeways are from a number of sources including the Metro Bicycle Network map book (2001), supplemented by information from maps published by city, state, county and regional government agencies, and city and county planning maps.  The map shows on-road and off-road bikeways, proposed and existing bikeways, and includes bike lanes, bike-able road shoulders, and trails.
 
 The majority of the bikeways follow road centerlines of the MNDOT BaseMap 2002-Roads.  A description of the bikeways attributes and sources of data are included in Section 5 of this document - Entity and Attribute Overview.</abstract>
-			<purpose>The Bicycle and Pedestrian Section, Office of Transit, developed the electronic bikeways map and GIS database to fill the need for a comprehensive inventory of bicycle routes in the Twin Cities metro area.   The bike route data layer represents an interconnected regional network of bikeways that meet basic standards as developed by the Metro Bikeway Mapping Advisory Committee and helps to meet the region's goal of increased and safe transportation options.
+            <purpose>The Bicycle and Pedestrian Section, Office of Transit, developed the electronic bikeways map and GIS database to fill the need for a comprehensive inventory of bicycle routes in the Twin Cities metro area.   The bike route data layer represents an interconnected regional network of bikeways that meet basic standards as developed by the Metro Bikeway Mapping Advisory Committee and helps to meet the region's goal of increased and safe transportation options.
 
 The map will serve to show existing inventory of bikeways and identify cost-effective bicycle infrastructure opportunities that will interface with local projects.  The goal is to provide planning guidance to build a bicycle transportation network for the Twin Cities metro area.</purpose>
-			<supplinf>Anoka County, Carver County, Chisago County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County, Wright County</supplinf>
-		</descript>
-		<timeperd>
-			<timeinfo>
-				<sngdate>
-					<caldate>20070406</caldate>
-				</sngdate>
-			</timeinfo>
-			<current>The bikeways maps for the nine-county metro area represent route information from 2001 to 2007.
+            <supplinf>Anoka County, Carver County, Chisago County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County, Wright County</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20070406</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>The bikeways maps for the nine-county metro area represent route information from 2001 to 2007.
 
 The initial bikeways data set was digitized in 2003.  Additional bikeways were digitized 2004 through 2007.  MNDOT BaseMap road centerlines were used for the location of the majority of bikeways.
 
@@ -44,62 +45,62 @@ Published maps:  variable
 Aerial Express color commercial aerial photography: 2002
 Farm Service Agency air photos:  Summer 2003
 National Geospatial-Intelligence Agency air photos for St. Paul/Minneapolis:  Spring 2004</current>
-		</timeperd>
-		<status>
-			<progress>In work</progress>
-			<update>To be determined</update>
-		</status>
-		<spdom>
-			<bounding>
-				<westbc>-94.50</westbc>
-				<eastbc>-92.70</eastbc>
-				<northbc>45.80</northbc>
-				<southbc>44.40</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt />
-				<themekey>Transportation, Bicycle facility, bikepath, bikeway, bike route, trail, trails, bike trails, bike paths, recreation, biking, cycling</themekey>
-			</theme>
-			<place>
-				<placekey>Minnesota, Minneapolis, St. Paul, Anoka, Carver, Chisago, Dakota, Hennepin, Ramsey, Scott, Washington, Wright, Twin Cities</placekey>
-			</place>
-		</keywords>
-		<accconst>None</accconst>
-		<useconst>None</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntperp>
-					<cntper>David Vessel</cntper>
-					<cntorg>Metropolitan Council</cntorg>
-				</cntperp>
-				<cntpos>Transportation Planner</cntpos>
-				<cntaddr>
-					<address>390 Robert St North</address>
-					<city>St. Paul</city>
-					<state>MN</state>
-					<postal>55101-1805</postal>
-				</cntaddr>
-				<cntvoice>651-602-1646</cntvoice>
-				<cntfax>651-602-1739</cntfax>
-				<cntemail>david.vessel@metc.state.mn.us</cntemail>
-			</cntinfo>
-		</ptcontac>
-		<browse>
-			<browsen>http://www.datafinder.org/metadata/bg/Bikeways.jpg</browsen>
-			<browsed>Map of 9 county area showing Bikeways layer</browsed>
-		</browse>
-		<native>ArcGIS 8x</native>
-		<crossref>
-			<citeinfo>
-				<title>Regional Trails</title>
-			</citeinfo>
-		</crossref>
-	</idinfo>
-	<dataqual>
-		<attracc>
-			<attraccr>Variable.  Existing and proposed trails were attributed according to source information, which vary in accuracy and currentness. Many attributes were unknown and so were left blank.
+        </timeperd>
+        <status>
+            <progress>In work</progress>
+            <update>To be determined</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-94.50</westbc>
+                <eastbc>-92.70</eastbc>
+                <northbc>45.80</northbc>
+                <southbc>44.40</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt/>
+                <themekey>Transportation, Bicycle facility, bikepath, bikeway, bike route, trail, trails, bike trails, bike paths, recreation, biking, cycling</themekey>
+            </theme>
+            <place>
+                <placekey>Minnesota, Minneapolis, St. Paul, Anoka, Carver, Chisago, Dakota, Hennepin, Ramsey, Scott, Washington, Wright, Twin Cities</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntperp>
+                    <cntper>David Vessel</cntper>
+                    <cntorg>Metropolitan Council</cntorg>
+                </cntperp>
+                <cntpos>Transportation Planner</cntpos>
+                <cntaddr>
+                    <address>390 Robert St North</address>
+                    <city>St. Paul</city>
+                    <state>MN</state>
+                    <postal>55101-1805</postal>
+                </cntaddr>
+                <cntvoice>651-602-1646</cntvoice>
+                <cntfax>651-602-1739</cntfax>
+                <cntemail>david.vessel@metc.state.mn.us</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <browse>
+            <browsen>http://www.datafinder.org/metadata/bg/Bikeways.jpg</browsen>
+            <browsed>Map of 9 county area showing Bikeways layer</browsed>
+        </browse>
+        <native>ArcGIS 8x</native>
+        <crossref>
+            <citeinfo>
+                <title>Regional Trails</title>
+            </citeinfo>
+        </crossref>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>Variable.  Existing and proposed trails were attributed according to source information, which vary in accuracy and currentness. Many attributes were unknown and so were left blank.
 
 During bikeway digitization, the Metro Bicycle Network (MBN) map book was used as the primary source for bike route entry where associated information from the MBN was assigned to each bikeway.  Other map sources were used for substantiation.  In addition, city and county data were used to corroborate and/or update the MBN layer.
 
@@ -109,31 +110,31 @@ LMIC converted the data set to a geodatabase format with constrained picklists f
 
 NOTE:
 A single line may represent either an on-street bikeway or an off-street bikeway or both.  Both single and/or multiple bikeways that follow the same road centerline are represented by a single line and are distinguished by attribute code values - see Entity and Attribute Section.</attraccr>
-		</attracc>
-		<logic>The arcs were not created to support network analysis. Most bikeway arcs are unbroken where they cross roads, however, some areas, such as the city of Woodbury, broke the bikeway arc where it crossed a road.</logic>
-		<complete>The bikeways layer is complete in that there are bicycle route data recorded for each of the nine metropolitan counties. To the extent that all existing bikeways have been located and included, the dataset is incomplete.
+        </attracc>
+        <logic>The arcs were not created to support network analysis. Most bikeway arcs are unbroken where they cross roads, however, some areas, such as the city of Woodbury, broke the bikeway arc where it crossed a road.</logic>
+        <complete>The bikeways layer is complete in that there are bicycle route data recorded for each of the nine metropolitan counties. To the extent that all existing bikeways have been located and included, the dataset is incomplete.
 
 Data current to April 2007 (for specific municipalities); bikeways will be updated as new/corrected information is made available.</complete>
-		<posacc>
-			<horizpa>
-				<horizpar>Trails are aligned to MNDOT BaseMap Roads where appropriate.
+        <posacc>
+            <horizpa>
+                <horizpar>Trails are aligned to MNDOT BaseMap Roads where appropriate.
 
 The positional accuracy of the data set has not been tested under the National Standards for Spatial Data Accuracy.  Trails were placed according to source information, which varied in accuracy.
 
 Location accuracy for most of the bikeways depends on the location accuracy of the road centerlines. MNDOT derived the road centerline features from USGS 7.5-minute quadrangles and their accuracy cannot be assumed to exceed National Map Accuracy Standards for 1:24,000 scale maps (+/- 40 feet or 12 meters).
 
 If an off-street bikeway followed along road centerlines within proximity of approximately 10-50 feet of the road centerline, the centerline was used as the source.</horizpar>
-			</horizpa>
-			<vertacc>
-				<vertaccr>Not applicable</vertaccr>
-			</vertacc>
-		</posacc>
-		<lineage>
-			<srcinfo>
-				<srcscale />
-			</srcinfo>
-			<procstep>
-				<procdesc>Processing steps:
+            </horizpa>
+            <vertacc>
+                <vertaccr>Not applicable</vertaccr>
+            </vertacc>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srcscale/>
+            </srcinfo>
+            <procstep>
+                <procdesc>Processing steps:
 
 Phase 1
 Metropolitan Bikeways Network maps were created in 2000-2002 by having city and county staff representatives code streets on a laminated street map by placing colored tape on streets or parks where some form of bike route was known.
@@ -211,69 +212,69 @@ Shapefiles: All the arcs that were not already included in the Bikeways data set
 Maps:  Printed maps were scanned and georectified using ArcGIS software. Bikeways were then digitized using air photos (either FSA 2003 or NGA 2004); if a bikeway was not visible on the photos (usually in the case of proposed trails), then the line was digitized from the georeferenced map image. Trails along roadways follow MNDOT road line segments; the Trace tool was used to follow the segments exactly.
 
 Near the end of the project, the data was converted from shapefiles to an ArcGIS 8.3 geodatabase with constrained picklists in order to standardize entry of many of the attributes.</procdesc>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<indspref />
-		<direct>Vector</direct>
-		<mgmg3obj>Arc, Node</mgmg3obj>
-		<mgmg3til>9-county region</mgmg3til>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres />
-				<longres />
-				<geogunit />
-			</geograph>
-			<planar>
-				<mapproj>
-					<mapprojn />
-					<mgmg4par />
-					<otherprj />
-				</mapproj>
-				<gridsys>
-					<gridsysn>UTM</gridsysn>
-					<utm>
-						<utmzone>15</utmzone>
-					</utm>
-					<spcs>
-						<spcszone />
-					</spcs>
-					<mgmg4coz />
-					<mgmg4adj />
-				</gridsys>
-				<planci>
-					<coordrep>
-						<absres />
-						<ordres />
-					</coordrep>
-					<distbrep>
-						<distres />
-					</distbrep>
-					<plandu>Meters</plandu>
-				</planci>
-			</planar>
-			<geodetic>
-				<horizdn>NAD83</horizdn>
-				<ellips>GRS80</ellips>
-			</geodetic>
-		</horizsys>
-		<vertdef>
-			<altsys>
-				<altdatum>Not applicable</altdatum>
-				<altunits />
-			</altsys>
-			<depthsys>
-				<depthdn>Not applicable</depthdn>
-				<depthdu />
-			</depthsys>
-		</vertdef>
-	</spref>
-	<eainfo>
-		<overview>
-			<eaover>Bikeways arcs are coded for Source, Side, Type, Jurisdiction, Active
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <indspref/>
+        <direct>Vector</direct>
+        <mgmg3obj>Arc, Node</mgmg3obj>
+        <mgmg3til>9-county region</mgmg3til>
+    </spdoinfo>
+    <spref>
+        <horizsys>
+            <geograph>
+                <latres/>
+                <longres/>
+                <geogunit/>
+            </geograph>
+            <planar>
+                <mapproj>
+                    <mapprojn/>
+                    <mgmg4par/>
+                    <otherprj/>
+                </mapproj>
+                <gridsys>
+                    <gridsysn>UTM</gridsysn>
+                    <utm>
+                        <utmzone>15</utmzone>
+                    </utm>
+                    <spcs>
+                        <spcszone/>
+                    </spcs>
+                    <mgmg4coz/>
+                    <mgmg4adj/>
+                </gridsys>
+                <planci>
+                    <coordrep>
+                        <absres/>
+                        <ordres/>
+                    </coordrep>
+                    <distbrep>
+                        <distres/>
+                    </distbrep>
+                    <plandu>Meters</plandu>
+                </planci>
+            </planar>
+            <geodetic>
+                <horizdn>NAD83</horizdn>
+                <ellips>GRS80</ellips>
+            </geodetic>
+        </horizsys>
+        <vertdef>
+            <altsys>
+                <altdatum>Not applicable</altdatum>
+                <altunits/>
+            </altsys>
+            <depthsys>
+                <depthdn>Not applicable</depthdn>
+                <depthdu/>
+            </depthsys>
+        </vertdef>
+    </spref>
+    <eainfo>
+        <overview>
+            <eaover>Bikeways arcs are coded for Source, Side, Type, Jurisdiction, Active
 (Proposed vs. Existing), and Notes (for Comments).  
 
 Bikeway Attributes:
@@ -325,7 +326,7 @@ ROAD_AADT
 ROAD_HCADT
 SURF_TYPE 
 SURF_QUAL</eaover>
-			<eadetcit>Bikeway Attributes:
+            <eadetcit>Bikeway Attributes:
 
 SOURCE - 20 character string
 * Sample Values: MNDOT Bike Map Book, County (or county name), City (or city name), Township name, or Aerial Photo.
@@ -505,38 +506,38 @@ SURF_TYPE - 25 character string
 SURF_QUAL - 25 character string
 * Surface Quality - Critical, Excellent, Good, Poor, NULL 
    Categories reflect perceived surface quality and are not decided with specific criteria.</eadetcit>
-		</overview>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntperp>
-					<cntper>Mark Kotz</cntper>
-					<cntorg>Metropolitan Council</cntorg>
-				</cntperp>
-				<cntpos>GIS Database Administrator</cntpos>
-				<cntaddr>
-					<address>390 Robert Street North</address>
-					<city>St. Paul</city>
-					<state>MN</state>
-					<postal>55101-1805</postal>
-				</cntaddr>
-				<cntvoice>651-602-1644</cntvoice>
-				<cntfax>651-602-1674</cntfax>
-				<cntemail>mark.kotz@metc.state.mn.us</cntemail>
-			</cntinfo>
-		</distrib>
-		<resdesc>Bikeways</resdesc>
-		<distliab>NOTICE: The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13). THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by the Metropolitan Council for its own internal business purposes. The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>Shapefile</formname>
-					<formvern>ArcGIS 9x</formvern>
-					<transize />
-				</digtinfo>
-			</digform>
-			<ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'. Doing so will tell your browser to download a 'ZIP' file which will contain the following: 
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntperp>
+                    <cntper>Mark Kotz</cntper>
+                    <cntorg>Metropolitan Council</cntorg>
+                </cntperp>
+                <cntpos>GIS Database Administrator</cntpos>
+                <cntaddr>
+                    <address>390 Robert Street North</address>
+                    <city>St. Paul</city>
+                    <state>MN</state>
+                    <postal>55101-1805</postal>
+                </cntaddr>
+                <cntvoice>651-602-1644</cntvoice>
+                <cntfax>651-602-1674</cntfax>
+                <cntemail>mark.kotz@metc.state.mn.us</cntemail>
+            </cntinfo>
+        </distrib>
+        <resdesc>Bikeways</resdesc>
+        <distliab>NOTICE: The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13). THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by the Metropolitan Council for its own internal business purposes. The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Shapefile</formname>
+                    <formvern>ArcGIS 9x</formvern>
+                    <transize/>
+                </digtinfo>
+            </digform>
+            <ordering>This dataset is distributed on the internet by clicking below after 'Online Linkage'. Doing so will tell your browser to download a 'ZIP' file which will contain the following: 
 
 - ArcView shape files 
 - metadata for the dataset (.htm) 
@@ -545,33 +546,32 @@ SURF_QUAL - 25 character string
   
 
 Additionally, this dataset is available for direct use via one or more map services. More information about what a web mapping service is can be found at http://www.datafinder.org/services/ . The specific map service and layer name for this dataset can be found by clicking the blue or green boxes under the map service column of the DataFinder Catalog at http://www.datafinder.org/catalog/ .</ordering>
-		</stdorder>
-	</distinfo>
-	<metainfo>
-		<metd>20070406</metd>
-		<metc>
-			<cntinfo>
-				<cntperp>
-					<cntper>Rachel Wiken</cntper>
-					<cntorg>Metropolitan Council</cntorg>
-				</cntperp>
-				<cntpos>GIS Technician</cntpos>
-				<cntaddr>
-					<address>390 Robert St North</address>
-					<city>St. Paul</city>
-					<state>MN</state>
-					<postal>55101-1805</postal>
-				</cntaddr>
-				<cntvoice>651-602-1572</cntvoice>
-				<cntfax>651-602-1739</cntfax>
-				<cntemail>rachel.wiken@metc.state.mn.us</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-		<metstdv>1.2</metstdv>
-		<metextns>
-			<onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
-		</metextns>
-	</metainfo>
-
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20070406</metd>
+        <metc>
+            <cntinfo>
+                <cntperp>
+                    <cntper>Rachel Wiken</cntper>
+                    <cntorg>Metropolitan Council</cntorg>
+                </cntperp>
+                <cntpos>GIS Technician</cntpos>
+                <cntaddr>
+                    <address>390 Robert St North</address>
+                    <city>St. Paul</city>
+                    <state>MN</state>
+                    <postal>55101-1805</postal>
+                </cntaddr>
+                <cntvoice>651-602-1572</cntvoice>
+                <cntfax>651-602-1739</cntfax>
+                <cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+        <metstdv>1.2</metstdv>
+        <metextns>
+            <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+        </metextns>
+    </metainfo>
 </metadata>
