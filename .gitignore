@@ -1,3 +1,5 @@
 *.csv
 *.zip
 *.gsheet
+testing/
+OLD-mgs/

@@ -1,2 +1,2 @@
 python scrape_open_data/__init__.py "http://gis.hennepin.opendata.arcgis.com/data.json" "henn" "../hennepin-county"
-git iaddpw ../hennepin-county/*.xml
+git iaddpw
