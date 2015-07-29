@@ -1,0 +1,91 @@
+<?xml version="1.0"?><!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  --><metadata><idinfo><citation><citeinfo><origin>Minnesota Geological Survey (MGS)</origin><pubdate>1996</pubdate><title>Geologic Atlas of Stearns County (Part A)</title><mgmg1cid></mgmg1cid><pubinfo><publish>Minnesota Geological Survey</publish></pubinfo><onlink>http://conservancy.umn.edu/handle/11299/58515</onlink></citeinfo></citation><descript><abstract>A County Geologic Atlas is a systematic study of a county's geologic and ground water resources. Geologic studies include both near-surface deposits and bedrock. Ground water studies include flow systems, aquifer capacity, and ground water chemistry. In some areas sand and gravel deposits, sinkholes, or other features are studied. Interpretation of sensitivity to pollution is also part of an atlas. The information is organized, analyzed, and displayed using geographic information technology.</abstract><purpose>County Geologic Atlas and Regional Hydrogeologic Assessment information is used in planning and environmental protection efforts at all levels of government. Wellhead protection and well-sealing programs are examples of local programs that need geologic and ground water information. The information is also used by businesses and the general public.</purpose><supplinf>Stearns County, Minnesota</supplinf></descript><timeperd><timeinfo><sngdate><caldate>1995</caldate></sngdate></timeinfo><current>Geologic Maps were derived based on information available during the period 1995-1996.</current></timeperd><status><progress>Complete</progress><update>None Planned</update></status><spdom><bounding><westbc>-95.13</westbc><eastbc>-94.05</eastbc><northbc>45.79</northbc><southbc>45.27</southbc></bounding></spdom><keywords><theme><themekt>ISO 19115 Topic Category</themekt><themekey>geoscientificInformation, Bedrock Geology, Surficial Geology, Quaternary Stratigraphy, Bedrock Topography, Wells, Borings, Hydrogeology, Mineral Resources</themekey></theme><place><placekey>Minnesota, MN, Stearns County, Central Minnesota</placekey></place></keywords><accconst>None</accconst><useconst>Credit given to the Minnesota Geological Survey and Stearns County for use of data in map products. Note that, for delineation purposes, the county was divided into two parts. Geology for the eastern 1/3 of the county was delineated at 1:100,000. Geology for the western 2/3 of the county was delineated at 1:200,000.</useconst><browse><browsen>None available</browsen></browse><native>Arc/INFO 7.0.2</native><crossref><citeinfo><title>C-10, Part A. Geologic atlas of Stearns County, Minnesota. G.N. Meyer, project manager. 1995. Color. 7 pls. Scales 1:100,000 and 1:200,000. Plates: 1, Data-base map; 2, Bedrock geology; 3, Surfical geology; 4, Quaternary stratigraphy; 5, Depth to bedrock and thickness of Cretaceous strata; 6, Bedrock topography; 7, Geologic resources. $20.00. Map and report available from MGS Map Sales Office (2609 Territorial Road, St. Paul, Minnesota, 55114, 612-626-2969.)
+
+C-10, Part B. Geologic atlas of Stearns County, Minnesota. J. Falteisek, Minnesota Dept. of Natural Resources, Division of Waters, editor and project manager. 1998. Color. Scale 1:100,000. 3 pls. and insert. $12.00. Map and report available from MGS Map Sales Office.  Digital files available from the Department of Natural Resources (DNR).
+
+C-10, Part C. Text supplement to the Geologic Atlas of Stearns County, Minnesota. G.N. Meyer and L. Swanson, eds. 1996. 63 p. $2.50. Report available from MGS Map Sales Office.
+
+For a listing of all geologic maps go to the Minnesota Geological Survey website at: http://www.mngs.umn.edu/mgsdocs.html
+
+For a complete listing of MGS State Map Series Maps, Reports, and GIS Data, see http://conservancy.umn.edu/handle/11299/708
+
+For other County Atlas and Regional Hydrogeologic Assessment data see: http://www.mngs.umn.edu/county_atlas/countyatlas.htm 
+
+For a listing of the status of the Department of Natural Resources (DNR) Ground Water Mapping Program, go to: http://www.dnr.state.mn.us/waters/groundwater_section/mapping/index.html
+</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>Minnesota Geological Survey</cntorg><cntper>Timothy E. Wahl</cntper></cntperp><cntpos>Geologic Information Systems</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>2609 Territorial Road</address><city>St. Paul</city><state>MN</state><postal>55114</postal></cntaddr><cntvoice>612-626-0992</cntvoice><cntemail>tewahl@umn.edu</cntemail></cntinfo></ptcontac></idinfo><dataqual><lineage><srcinfo><srcscale>200000</srcscale></srcinfo><procstep><procdesc>Investigations begin with a review of existing information, such as earlier geologic maps, soil maps, and hydrologic reports. Drillers send water well logs to the Minnesota Geological Survey, where they are reviewed, interpreted, and entered into the County Well Index (CWI), an interactive data base of water-well information. Building on the previous data, field studies are conducted to improve the understanding of local geologic and hydrologic conditions. Linework is created based upon the field studies and base data, and digitized. Background GIS data layers such as roads, surface hydrography, township grids, etc., are obtained from various sources.   Layer-level metadata is not available for this project.</procdesc></procstep></lineage><logic>Not available</logic><complete>Not available</complete><posacc><horizpa><horizpar>Not available</horizpar></horizpa></posacc><attracc><attraccr>Not available</attraccr></attracc></dataqual><spdoinfo><indspref></indspref><direct>Vector</direct><mgmg3obj>Point, Vector, Polygon</mgmg3obj><mgmg3til>County, and sub-county study areas</mgmg3til></spdoinfo><eainfo><overview><eaover>Below is an index of the digital data layers compiled for the Stearns County Geologic Atlas.  These are the coverages used to generate the published maps prepared as part of the project. Layer-level metadata is not available for this project.
+
+a. Bedrock geology plate  coverage/file - - description
+
+   bgpg - - bedrock geology polygon coverage (units)
+   bglns - - bedrock geology line coverage - structure
+   ocpg - - outcrop polygon coverage
+   ocpt - - outcrop points / structural measurements
+   ocpta100 - - annotation coverage for ocpt (1:100,000)
+   bgpt - - geologic control points (drill holes, etc.)
+
+b. Surficial geology plate coverage/file - - description
+ 
+   sgpg - - surficial geology polygon coverage (units)
+   sgpgx   - -           sgpg chopped with net2k (ps poly problem)
+   sgln100 - - surficial geology line coverage (1:100,000 portion (eastern 1/3))
+   sgln200 - - surficial geology line coverage (1:200,000 portion (western 2/3))
+   sgpt100 - - point features (1:100,000)
+   sgpt200 - - point features (1:200,000)
+   sgpgo - - surficial geology overlay poygons (loess, till, etc.)
+
+c. Quaternary stratigraphy plate coverage/file - - description
+
+   qspg - - polygon coverage
+   qsan    - -            annotation cover with carto lines
+
+d. Bedrock topography and drift thickness plates coverage/file  - - description
+ 
+   btln - - bedrock topography lines (20 ft. contour int.)
+   btln1k   - -           bedrock topography lines clipped eastern half
+   btln2k   - -           bedrock topography lines clipped western half
+   dtln - -           depth to bedrock line coverage
+   ktln - - thickness of Cretaceous deposits (25 ft)
+   dtpg     - -            drift thickness polygon cover (50 ft contours)
+
+e. Mineral resources plate  coverage/file - - description
+ 
+   rspgsg - -    surficial geologic resources - polygons
+   rsptsg - -    surficial geologic resources - point features
+   rslnsg - -    surficial geologic resources - linear features
+   rspgbg  - -    bedrock geologic resources - polygons
+   rspg50  - -    bedrock geologic subcrop within 50' of surface - - polygons
+   rslnbg - -    bedrock geologic resources - linear features
+   ocpg - -    bedrock outcrop polygons (see above)
+
+f. Database plate coverage/file - - description
+
+   wwpt - - point coverage of drill holes, primarily water wells
+   sgpt - - point coverage of drill holes including soil  borings, geophysical logging, scientific test drill holes, and textural analyses sites.
+   c4ix_inf  - - INFO data base related to wwpt by item RELATEID. Data is County Well Index 4.0 primary index file.
+
+   Cartographic base coverage/file - - description
+
+   hydro - - rivers, streams (TIGER line coverage)
+   roads1 - - major roads (TIGER line coverage)
+   roads2 - - minor roads (TIGER line coverage)
+   mcd - - minor civil divisions (TIGER poly coverage)
+   county - - county boundary (TIGER poly coverage
+
+   bse100  - - boundary of eastern 1/3 (1:100,000 area)
+   bse200  - - boundary of western 2/3 (1:200,000 area)
+   coanno  - - base annotation layers
+   blkanno - -          base annotation - 100% black
+   llbs - - lat./lon. ticks point coverage
+   tr24k - - township/range blocks
+
+   anno100    - -      annotation for eastern 1/3 (1:100,000)
+   blk100     - -        annotation for eastern 1/3 - 100% black
+   hybs100   - -        rivers, streams for eastern 1/3 (1:100,000)
+   llbs100   - -           lat/lon tics for eastern 1/3 (1:100,000)
+   mcd100    - -           mcds for eastern 1/3 (1:100,000)
+   rds100     - -          roads for eastern 1/3 (1:100,000)
+   tr100       - -         township/range for eastern 1/3 (1:100,000)
+   rfcttic     - -         registration tics for offset printing
+
+</eaover><eadetcit>Layer-level metadata is not available for this project.</eadetcit></overview></eainfo><distinfo><resdesc>c10 ( http://conservancy.umn.edu/handle/11299/58515)</resdesc><stdorder><digform><digtinfo><formname>Arc/Info Export in dos or unix formats</formname><formvern>7.0.2</formvern><transize>10 MB as zipped tarfile.</transize></digtinfo></digform><ordering>Data download is from the U of M Libraries Digital Conservancy. All GIS data and metadata for the Stearns County Geologic Atlas is provided in the zip file C10 Part A Extras.zip. (Supplementary Files). GIS distribution format for most data in this dataset is Esri .e00 (arc interchange format). The direct Digital Conservancy link to PDF map products and GIS data projects (Supplementary Files) for this data set is: http://conservancy.umn.edu/handle/11299/58515
+
+If you would prefer to have the digital data on DVD, or paper copies of the geologic plates, contact the MGS Map Sales office at 612-626-2969 and specify publication County Atlas Series C-10, part A, or County Geologic Atlas of Stearns County.</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Geological Survey</cntorg><cntper>Timothy E. Wahl</cntper></cntperp><cntpos>Geologic Information Systems</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>2609 Territorial Road</address><city>St. Paul</city><state>MN</state><postal>55114</postal></cntaddr><cntvoice>612-626-0992</cntvoice><cntemail>tewahl@umn.edu</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150416</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>658 Cedar Street</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>UTM</gridsysn><utm><utmzone>15E</utmzone></utm></gridsys><planci><plandu>Meters</plandu></planci></planar><geodetic><horizdn>NAD27</horizdn><ellips>Clarke 1866</ellips></geodetic></horizsys></spref></metadata>

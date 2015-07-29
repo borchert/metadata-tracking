@@ -18,7 +18,7 @@
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20150709</caldate>
+          <caldate>20150723</caldate>
         </sngdate>
       </timeinfo>
       <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset. This inventory is ongoing. Some areas will be inventoried for specific plants one year and then gone through for more detail later. As control treatments are applied, later inventories should show a reduction in numbers of plants.</current>
@@ -49,7 +49,7 @@
     <useconst>None</useconst>
     <native>ArcGIS Personal Geodatabase</native>
     <browse>
-      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/env_invasive_terrestrial_obs/metadata/preview.jpg</browsen>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_invasive_terrestrial_obs/metadata/preview.jpg</browsen>
     </browse>
     <crossref>
       <citeinfo>

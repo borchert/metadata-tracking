@@ -49,7 +49,7 @@
     <useconst>No special restrictions beyond those described in the Minnesota Department of Natural Resources General Geographic Data License Agreement.</useconst>
     <native>ArcView Shapefile</native>
     <browse>
-      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/env_designated_wildlife_lakes/metadata/preview.jpg</browsen>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_designated_wildlife_lakes/metadata/preview.jpg</browsen>
     </browse>
     <crossref>
       <citeinfo>

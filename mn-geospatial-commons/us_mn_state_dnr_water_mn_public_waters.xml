@@ -48,7 +48,7 @@
     <useconst>These are provisional data. Users are expected to contact the appropriate Area and Regional Hydrologist before taking any actions that may affect a regulated basin or watercourse.  Use of the data are constrained only by the MNDNR GIS Data License Agreement. See the Distribution Liability section below for a link.</useconst>
     <native>ArcView Shapefile</native>
     <browse>
-      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/water_mn_public_waters/preview/preview.jpg</browsen>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/water_mn_public_waters/preview/preview.jpg</browsen>
     </browse>
     <crossref>
       <citeinfo>

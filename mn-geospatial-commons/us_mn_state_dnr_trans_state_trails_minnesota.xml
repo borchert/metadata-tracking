@@ -19,7 +19,7 @@
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20150708</caldate>
+          <caldate>20150722</caldate>
         </sngdate>
       </timeinfo>
       <current>These data were collected from GPS, aerial photograph interpretation, and paper maps.
@@ -50,7 +50,7 @@
     <useconst>Use of the data are constrained only by the DNR GIS Data License Agreement. See the Distribution Liability section below for a link.</useconst>
     <native>ArcSDE Geodatabase</native>
     <browse>
-      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/trans_state_trails_minnesota/preview/preview.jpg</browsen>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/trans_state_trails_minnesota/preview/preview.jpg</browsen>
     </browse>
     <crossref>
       <citeinfo>

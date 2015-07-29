@@ -69,7 +69,7 @@ The &lt;b&gt;Stream Routes (linear)&lt;/b&gt; feature class is the base layer fo
     <useconst>Use of the data are constrained only by the DNR GIS Data License Agreement. See the Distribution Liability section below for a link.</useconst>
     <native>Shapefile</native>
     <browse>
-      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/water_dnr_hydrography/preview/preview.jpg</browsen>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/water_dnr_hydrography/preview/preview.jpg</browsen>
     </browse>
     <crossref>
       <citeinfo>

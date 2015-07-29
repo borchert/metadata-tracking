@@ -48,7 +48,7 @@
     <useconst>These boundaries are for general reference.  While they can be used in a GPS, they are not accurate enough to legally locate boundary lines.  Avoid tresspass onto private lands by observing posted boundary signs, or contacting the local Area Wildlife office for detailed information.  Use of the data are constrained only by the DNR GIS Data License Agreement. See the Distribution Liability section below for a link.</useconst>
     <native>ArcView Shapefile</native>
     <browse>
-      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/bdry_dnr_wildlife_mgmt_areas_pub/preview/preview.jpg</browsen>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_dnr_wildlife_mgmt_areas_pub/preview/preview.jpg</browsen>
     </browse>
     <crossref>
       <citeinfo>

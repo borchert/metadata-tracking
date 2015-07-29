@@ -49,7 +49,7 @@
     <useconst>Users must include in any product derived from this GIS data set an acknowledgment of the Minnesota County Biological Survey as the source of information.  In addition, in order to protect DNR's copyright interest in these data, the user must also include an appropriate copyright notice in the name of the DNR or the user.</useconst>
     <native>ArcView Shapefile</native>
     <browse>
-      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/biota_mcbs_sites_of_biodiversity/metadata/preview.jpg</browsen>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/biota_mcbs_sites_of_biodiversity/metadata/preview.jpg</browsen>
       <browsed>MCBS Sites of Biodiversity Significance in the Glacial Lakes State Park area.  Shown with County Highway Map overlay.</browsed>
     </browse>
     <crossref>

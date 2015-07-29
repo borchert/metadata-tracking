@@ -50,7 +50,7 @@ This geodatabase was derived from the master data within the Parks and Trails En
       </accconst>
     <useconst>Disclaimer: The public water access database is a work in progress and errors do exist. Information in this dataset is deemed reliable, but this is not guaranteed.</useconst>
     <browse>
-      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/loc_water_access_sites/preview/preview.jpg</browsen>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/loc_water_access_sites/preview/preview.jpg</browsen>
     </browse>
     <crossref>
       <citeinfo>
