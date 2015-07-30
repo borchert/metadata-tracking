@@ -1,4 +1,58 @@
-<?xml version="1.0"?><!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  --><metadata><idinfo><citation><citeinfo><origin>Minnesota Geological Survey (MGS)</origin><pubdate>1992</pubdate><title>Geologic Atlas of Ramsey County, Minnesota</title><mgmg1cid></mgmg1cid><pubinfo><publish>Minnesota Geological Survey</publish></pubinfo><onlink>http://conservancy.umn.edu/handle/11299/58233</onlink></citeinfo></citation><descript><abstract>A County Geologic Atlas is a systematic study of a county's geologic and ground water resources. Geologic studies include both near-surface deposits and bedrock. Ground water studies include flow systems, aquifer capacity, and ground water chemistry. In some areas sand and gravel deposits, sinkholes, or other features are studied. Interpretation of sensitivity to pollution is also part of an atlas. The information is organized, analyzed, and displayed using geographic information technology.</abstract><purpose>County Geologic Atlas and Regional Hydrogeologic Assessment information is used in planning and environmental protection efforts at all levels of government. Wellhead protection and well-sealing programs are examples of local programs that need geologic and ground water information. The information is also used by businesses and the general public.</purpose><supplinf>Ramsey County, Minnesota</supplinf></descript><timeperd><timeinfo><sngdate><caldate>1992</caldate></sngdate></timeinfo><current>Geologic linework delineated based on data available in 1991-1992.</current></timeperd><status><progress>Complete</progress><update>None Planned</update></status><spdom><bounding><westbc>-93.23</westbc><eastbc>-92.98</eastbc><northbc>45.13</northbc><southbc>44.88</southbc></bounding></spdom><keywords><theme><themekt>ISO 19115 Topic Category</themekt><themekey>geoscientificInformation, Bedrock Geology, Surficial Geology,  Quaternary Geology, Bedrock Topography, Water Table Contours, Ground Water Levels, Wells, Pollution Sensitivity</themekey></theme><place><placekey>Minnesota, MN, Ramsey County, Twin Cities Metropolitan Area</placekey></place></keywords><accconst>None</accconst><useconst>Credit given to the Minnesota Geological Survey and Ramsey County for use of data in map products.</useconst><native>Arc/INFO Unix environment</native><crossref><citeinfo><title>C-7. Geologic atlas of Ramsey County, Minnesota. G.N. Meyer and L. Swanson, eds. 1992. 10 pls. Scale 1:48,000 and smaller. $12.50. Folded copies only. Some digital files available, no metadata.  Paper map and report available from the MGS Map Sales Office (2609 Territorial Road, St. Paul, Minnesota, 55114, 612-626-2969)
+<!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  -->
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Geological Survey (MGS)</origin>
+        <pubdate>1992</pubdate>
+        <title>Geologic Atlas of Ramsey County, Minnesota</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://conservancy.umn.edu/handle/11299/58233</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>A County Geologic Atlas is a systematic study of a county's geologic and ground water resources. Geologic studies include both near-surface deposits and bedrock. Ground water studies include flow systems, aquifer capacity, and ground water chemistry. In some areas sand and gravel deposits, sinkholes, or other features are studied. Interpretation of sensitivity to pollution is also part of an atlas. The information is organized, analyzed, and displayed using geographic information technology.</abstract>
+      <purpose>County Geologic Atlas and Regional Hydrogeologic Assessment information is used in planning and environmental protection efforts at all levels of government. Wellhead protection and well-sealing programs are examples of local programs that need geologic and ground water information. The information is also used by businesses and the general public.</purpose>
+      <supplinf>Ramsey County, Minnesota</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1992</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Geologic linework delineated based on data available in 1991-1992.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.23</westbc>
+        <eastbc>-92.98</eastbc>
+        <northbc>45.13</northbc>
+        <southbc>44.88</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificInformation, Bedrock Geology, Surficial Geology,  Quaternary Geology, Bedrock Topography, Water Table Contours, Ground Water Levels, Wells, Pollution Sensitivity</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN, Ramsey County, Twin Cities Metropolitan Area</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Credit given to the Minnesota Geological Survey and Ramsey County for use of data in map products.</useconst>
+    <native>Arc/INFO Unix environment</native>
+    <crossref>
+      <citeinfo>
+        <title>C-7. Geologic atlas of Ramsey County, Minnesota. G.N. Meyer and L. Swanson, eds. 1992. 10 pls. Scale 1:48,000 and smaller. $12.50. Folded copies only. Some digital files available, no metadata.  Paper map and report available from the MGS Map Sales Office (2609 Territorial Road, St. Paul, Minnesota, 55114, 612-626-2969)
 
 Some of the Ramsey County bedrock geology information has been updated,  revised and combined  with data from the other six metro counties to form several seamless metro geology data sets for the Twin Cities Metropolitan Ground Water Model at the Minnesota Pollution Control Agency (1996-2000). Information about data available online and on CD is available at the Metro Model website: http://www.pca.state.mn.us/index.php/water/water-types-and-programs/groundwater/groundwater-data-and-programs/metropolitan-area-groundwater-model.html
 
@@ -8,7 +62,57 @@ For a complete listing of MGS State Map Series Maps, Reports, and GIS Data, see 
 
 For other County Atlas and Regional Hydrogeologic Assessment data see: http://www.mngs.umn.edu/county_atlas/countyatlas.htm 
 
-For a listing of the status of the Department of Natural Resources (DNR) Ground Water Mapping Program, go to: http://www.dnr.state.mn.us/waters/groundwater_section/mapping/index.html</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>Minnesota Geological Survey</cntorg><cntper>General Information</cntper></cntperp><cntpos>Administrative Staff</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>2609 Territorial Road</address><city>St. Paul</city><state>MN</state><postal>55114</postal></cntaddr><cntvoice>612-626-2969</cntvoice><cntemail>mgs@umn.edu</cntemail></cntinfo></ptcontac></idinfo><dataqual><lineage><srcinfo><srcscale>48000</srcscale></srcinfo><procstep><procdesc>Investigations begin with a review of existing information, such as earlier geologic maps, soil maps, and hydrologic reports. Drillers send water well logs to the Minnesota Geological Survey, where they are reviewed, interpreted, and entered into the County Well Index (CWI), an interactive data base of water-well information. Building on the previous data, field studies are conducted to improve the understanding of local geologic and hydrologic conditions. Linework is created based upon the field studies and base data, and digitized. Background GIS data layers such as roads, surface hydrography, township grids, etc., are obtained from various sources.</procdesc></procstep></lineage><logic>Not available</logic><complete>Not available</complete><posacc><horizpa><horizpar>Not available</horizpar></horizpa></posacc><attracc><attraccr>Not available</attraccr></attracc></dataqual><spdoinfo><indspref></indspref><direct>Vector</direct><mgmg3obj>Point, Vector, Polygon</mgmg3obj><mgmg3til>Ramsey County</mgmg3til></spdoinfo><eainfo><overview><eaover>Index of coverages for Ramsey County Geological Atlas  1992
+For a listing of the status of the Department of Natural Resources (DNR) Ground Water Mapping Program, go to: http://www.dnr.state.mn.us/waters/groundwater_section/mapping/index.html</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>General Information</cntper>
+        </cntperp>
+        <cntpos>Administrative Staff</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>2609 Territorial Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55114</postal>
+        </cntaddr>
+        <cntvoice>612-626-2969</cntvoice>
+        <cntemail>mgs@umn.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srcscale>48000</srcscale>
+      </srcinfo>
+      <procstep>
+        <procdesc>Investigations begin with a review of existing information, such as earlier geologic maps, soil maps, and hydrologic reports. Drillers send water well logs to the Minnesota Geological Survey, where they are reviewed, interpreted, and entered into the County Well Index (CWI), an interactive data base of water-well information. Building on the previous data, field studies are conducted to improve the understanding of local geologic and hydrologic conditions. Linework is created based upon the field studies and base data, and digitized. Background GIS data layers such as roads, surface hydrography, township grids, etc., are obtained from various sources.</procdesc>
+      </procstep>
+    </lineage>
+    <logic>Not available</logic>
+    <complete>Not available</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Not available</horizpar>
+      </horizpa>
+    </posacc>
+    <attracc>
+      <attraccr>Not available</attraccr>
+    </attracc>
+  </dataqual>
+  <spdoinfo>
+    <indspref/>
+    <direct>Vector</direct>
+    <mgmg3obj>Point, Vector, Polygon</mgmg3obj>
+    <mgmg3til>Ramsey County</mgmg3til>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>Index of coverages for Ramsey County Geological Atlas  1992
 Scale = 1:48,000
 
 Projection:
@@ -29,6 +133,86 @@ bgnt83      =  polygon cover of bedrock geology,  scale 1:48,000
  pls83     =  poly/line cover of public land survey [DNR]
  hyln83    =  rivers/lake boundaries [TIGER]
  rdln83    =  major roads (modified from TIGER)
- twpln83   =  line cover of township-range lines</eaover><eadetcit>Metadata for individual layers is not available. Contact MGS with questions.</eadetcit></overview></eainfo><distinfo><resdesc>c7  (http://conservancy.umn.edu/handle/11299/58233)</resdesc><stdorder><digform><digtinfo><formname>Coverages are in Arc/Info Export. County Well Index is in Microsoft Access format.</formname><formvern></formvern><transize>28 MB, (total of all files, arc/INFO export, uncompressed.)</transize></digtinfo></digform><ordering>Data download is from the U of M Libraries Digital Conservancy. All GIS data and metadata for the Fillmore County Geologic Atlas is provided in the zip file C7[1].zip. (Supplementary Files). GIS distribution format for most data in this dataset is Esri .e00 (arc interchange format). The direct Digital Conservancy link to PDF map products and GIS data projects (Supplementary Files) for this data set is: http://conservancy.umn.edu/handle/11299/58233
+ twpln83   =  line cover of township-range lines</eaover>
+      <eadetcit>Metadata for individual layers is not available. Contact MGS with questions.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>c7  (http://conservancy.umn.edu/handle/11299/58233)</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Coverages are in Arc/Info Export. County Well Index is in Microsoft Access format.</formname>
+          <formvern/>
+          <transize>28 MB, (total of all files, arc/INFO export, uncompressed.)</transize>
+        </digtinfo>
+      </digform>
+      <ordering>Data download is from the U of M Libraries Digital Conservancy. All GIS data and metadata for the Fillmore County Geologic Atlas is provided in the zip file C7[1].zip. (Supplementary Files). GIS distribution format for most data in this dataset is Esri .e00 (arc interchange format). The direct Digital Conservancy link to PDF map products and GIS data projects (Supplementary Files) for this data set is: http://conservancy.umn.edu/handle/11299/58233
 
-If you would prefer to have the digital data on DVD, or paper copies of the geologic plates, contact the MGS Map Sales office at 612-626-2969 and specify publication County Atlas Series C-07, or County Geologic Atlas of Ramsey County.</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Geological Survey</cntorg><cntper>Timothy E. Wahl</cntper></cntperp><cntpos>Geologic Information Systems</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>2609 Territorial Road</address><city>St. Paul</city><state>MN</state><postal>55114</postal></cntaddr><cntvoice>612-626-0992</cntvoice><cntemail>tewahl@umn.edu</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150416</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>658 Cedar Street</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15E</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>
+If you would prefer to have the digital data on DVD, or paper copies of the geologic plates, contact the MGS Map Sales office at 612-626-2969 and specify publication County Atlas Series C-07, or County Geologic Atlas of Ramsey County.</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>Timothy E. Wahl</cntper>
+        </cntperp>
+        <cntpos>Geologic Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2609 Territorial Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55114</postal>
+        </cntaddr>
+        <cntvoice>612-626-0992</cntvoice>
+        <cntemail>tewahl@umn.edu</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150416</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15E</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

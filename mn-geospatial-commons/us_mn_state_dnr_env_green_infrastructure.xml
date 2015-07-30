@@ -1,8 +1,203 @@
-﻿<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>Minnesota Department of Natural Resources (DNR)</origin><pubdate>2008-06-11 00:00:00.0</pubdate><title>Central Region Green Infrastructure</title><mgmg1cid></mgmg1cid><pubinfo><publish>Minnesota Department of Natural Resources (DNR)</publish></pubinfo><onlink>http://gisdata.mn.gov/dataset/env-green-infrastructure</onlink></citeinfo></citation><descript><abstract>This Green Infrastructure data is comprised of 3 similar ecological corridor data layers ? Metro Conservation Corridors, green infrastructure analysis in counties just north of the metro area, and  green infrastructure analysis in counties in the southeast part of the state.
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources (DNR)</origin>
+        <pubdate>2008-06-11 00:00:00.0</pubdate>
+        <title>Central Region Green Infrastructure</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota Department of Natural Resources (DNR)</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/env-green-infrastructure</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This Green Infrastructure data is comprised of 3 similar ecological corridor data layers ? Metro Conservation Corridors, green infrastructure analysis in counties just north of the metro area, and  green infrastructure analysis in counties in the southeast part of the state.
 
 This is an interpretation of both functional and conceptual natural habitat corridors that link high quality natural communities both within and between counties of Central Minnesota.  Base maps that were referenced include the Minnesota County Biological Survey, the Regionally Significant Ecological Areas, DNR Public Recreation Information Map, 2003 Farm Service Agency color aerial photos, and various lakes and rivers data sets.  Base maps were overlain and polygons developed in areas where there was a high density of mapped features:  MCBS plant communities, RSEA, WMA.  The resulting polygons were assessed for the connectivity.  Stream connections were primarily used to create either conceptual and / or functional corridors connecting these polygons.  Due to local geology, this may lead to connectivity along only one axis.  Where necessary to create connectivity along the opposing axis, additional connections were created using both RSEA and FSA aerial photos along areas not served by surface water connections.  Finally, the polygons were visually checked against the FSA aerial photos to adjust for areas that have been developed and to adjust for roadways and other limitations.
 
-The southeast analysis also used steep slope areas, riparian areas, and geological edges.</abstract><purpose>The data was developed to help make local and regional scale land use decisions as they relate to balancing development and natural resource protection and to aid in the administration of state and local natural resource management programs.</purpose><supplinf>Todd, Morrison, Mille Lacs, Kanabec, Stearns, Benton, Isanti, Sherburne, Chisago, Anoka, Wright, Hennepin, Ramsey, Washington, Carver, Scott, Dakota, Le Sueur, Goodhue, Wabasha, Olmsted, Winona, Fillmore, Houston counties</supplinf></descript><timeperd><timeinfo><sngdate><caldate>2008</caldate></sngdate></timeinfo><current>Field work and FSA photos.</current></timeperd><status><progress>Complete</progress><update>None Planned</update></status><spdom><bounding><westbc>-95.061095</westbc><eastbc>-91.126578</eastbc><northbc>46.369039</northbc><southbc>43.483265</southbc></bounding></spdom><keywords><theme><themekey>Ecological corridors</themekey></theme><place><placekey>East central Minnesota</placekey></place></keywords><accconst>None</accconst><useconst>None</useconst><browse><browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_green_infrastructure/metadata/preview.jpg</browsen><browsed></browsed></browse><native>ArcView Shapefile</native><ptcontac><cntinfo><cntperp><cntorg>DNR-MIS</cntorg><cntper>Bart Richardson</cntper></cntperp><cntpos>GIS Project Manager</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>1200 Warner Road</address><city>St. Paul</city><state>MN</state><postal>55106</postal></cntaddr><cntvoice>(651) 259-5796</cntvoice><cntfax>(651) 772-7977</cntfax><cntemail>bart.richardson@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><logic>Data are topologically correct using ArcMap 9.2. All polygons are closed and lines intersect where intended</logic><posacc><horizpa><horizpar>Source layer ear_gipy3:  100 meters. This represents a rough estimate of potential ecological corridors, draw on USGS quads and PRIM maps.
-</horizpar></horizpa><vertacc><vertaccr>Source layer ear_gipy3:  Not Applicable
-</vertaccr></vertacc></posacc><lineage><srcinfo><srcscale>Source layer ear_gipy3:  10000
-</srcscale></srcinfo></lineage></dataqual><spdoinfo><indspref></indspref><direct>vector</direct><mgmg3obj>polygon</mgmg3obj><mgmg3til>state</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>Not Applicable</altdatum><altunits>Not Applicable</altunits></altsys><depthsys><depthdn>Not Applicable</depthdn><depthdu>Not Applicable</depthdu></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>green_infrastructure</enttypl><enttypd>Central Region Green Infrastructure</enttypd></enttyp><attr><attrlabl>Green</attrlabl><attrdef>Location of green infrastructures.</attrdef></attr></detailed></eainfo><distinfo><resdesc>env_green_infrastructure</resdesc><stdorder><digform><digtinfo><formname>ArcView Shapefile</formname><formvern></formvern><transize>1024</transize></digtinfo></digform><ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering></stdorder><distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab><distrib><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><address>500 Lafayette Rd</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150317</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>DNR-MIS</cntorg><cntper>Bart Richardson</cntper></cntperp><cntpos>GIS Project Manager</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>1200 Warner Road</address><city>St. Paul</city><state>MN</state><postal>55106</postal></cntaddr><cntvoice>(651) 259-5796</cntvoice><cntfax>(651) 772-7977</cntfax><cntemail>bart.richardson@state.mn.us</cntemail></cntinfo></metc></metainfo></metadata>
+The southeast analysis also used steep slope areas, riparian areas, and geological edges.</abstract>
+      <purpose>The data was developed to help make local and regional scale land use decisions as they relate to balancing development and natural resource protection and to aid in the administration of state and local natural resource management programs.</purpose>
+      <supplinf>Todd, Morrison, Mille Lacs, Kanabec, Stearns, Benton, Isanti, Sherburne, Chisago, Anoka, Wright, Hennepin, Ramsey, Washington, Carver, Scott, Dakota, Le Sueur, Goodhue, Wabasha, Olmsted, Winona, Fillmore, Houston counties</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2008</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Field work and FSA photos.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-95.061095</westbc>
+        <eastbc>-91.126578</eastbc>
+        <northbc>46.369039</northbc>
+        <southbc>43.483265</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Ecological corridors</themekey>
+      </theme>
+      <place>
+        <placekey>East central Minnesota</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_green_infrastructure/metadata/preview.jpg</browsen>
+      <browsed/>
+    </browse>
+    <native>ArcView Shapefile</native>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>DNR-MIS</cntorg>
+          <cntper>Bart Richardson</cntper>
+        </cntperp>
+        <cntpos>GIS Project Manager</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>1200 Warner Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55106</postal>
+        </cntaddr>
+        <cntvoice>(651) 259-5796</cntvoice>
+        <cntfax>(651) 772-7977</cntfax>
+        <cntemail>bart.richardson@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Data are topologically correct using ArcMap 9.2. All polygons are closed and lines intersect where intended</logic>
+    <posacc>
+      <horizpa>
+        <horizpar>Source layer ear_gipy3:  100 meters. This represents a rough estimate of potential ecological corridors, draw on USGS quads and PRIM maps.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Source layer ear_gipy3:  Not Applicable
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>Source layer ear_gipy3:  10000
+</srcscale>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref/>
+    <direct>vector</direct>
+    <mgmg3obj>polygon</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>green_infrastructure</enttypl>
+        <enttypd>Central Region Green Infrastructure</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>Green</attrlabl>
+        <attrdef>Location of green infrastructures.</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <resdesc>env_green_infrastructure</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shapefile</formname>
+          <formvern/>
+          <transize>1024</transize>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150317</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>DNR-MIS</cntorg>
+          <cntper>Bart Richardson</cntper>
+        </cntperp>
+        <cntpos>GIS Project Manager</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>1200 Warner Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55106</postal>
+        </cntaddr>
+        <cntvoice>(651) 259-5796</cntvoice>
+        <cntfax>(651) 772-7977</cntfax>
+        <cntemail>bart.richardson@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

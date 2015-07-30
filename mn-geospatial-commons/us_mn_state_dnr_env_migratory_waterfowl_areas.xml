@@ -1,4 +1,186 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata><idinfo><citation><citeinfo><origin>Minnesota Department of Natural Resources (DNR)</origin><pubdate>2009-02-20 00:00:00.0</pubdate><title>Migratory Waterfowl Feeding and Resting Areas</title><mgmg1cid></mgmg1cid><pubinfo><publish>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</publish></pubinfo><onlink>http://gisdata.mn.gov/dataset/env-migratory-waterfowl-areas</onlink></citeinfo></citation><descript><abstract>This resource contains 2 feature classes: 1) A polygon feature class of lakes completely or partially designated as Migratory Waterfowl Feeding &amp; Resting Areas, as listed in the Minnesota Hunting &amp; Trapping Regulations Handbook. The lakes were derived (selected) out of the DNR 100k Lakes and Rivers. 2) A point feature class created from the polygons.</abstract><purpose> To create a spatial representation of the Migratory Waterfowl Feeding and Resting Areas as listed in the Minnesota Waterfowl Hunting Regulations. When these areas are posted as such during the open waterfowl season no person my use any motor-propelled watercraft or aircraft. Some of the lakes carry an exception allowing use of electric trolling motors with less then 30 pounds of thrust. PLEASE consult the Minnesota Waterfowl Hunting Regulations for a list of the exceptions. </purpose><supplinf>Minnesota (Statewide)</supplinf></descript><timeperd><timeinfo><sngdate><caldate>2005</caldate></sngdate></timeinfo></timeperd><status><update>Yearly</update></status><spdom><bounding><westbc>-96.428572</westbc><eastbc>-93.469584</eastbc><northbc>47.725581</northbc><southbc>43.495509</southbc></bounding></spdom><keywords><theme><themekey>Lakes, Waterfowl, ducks, migratory waterfowl</themekey></theme><place><placekey>Minnesota, MN</placekey></place></keywords><accconst>No special restrictions beyond those described in the Minnesota Department of Natural Resources General Geographic Data License Agreement.</accconst><useconst>No special restrictions beyond those described in the Minnesota Department of Natural Resources General Geographic Data License Agreement.</useconst><native>ArcView Shapefile</native><browse><browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_migratory_waterfowl_areas/metadata/preview.jpg</browsen></browse><ptcontac><cntinfo><cntperp><cntorg>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</cntorg><cntper>Nicole Hansel-Welch</cntper></cntperp><cntpos>Shallow Lakes Program Supervisor</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>1601 Minnesota Dr</address><city>Brainerd</city><state>MN</state><postal>56401-0030</postal></cntaddr><cntvoice>218-833-8626</cntvoice><cntfax>218-833-8632</cntfax><cntemail>Nicole.Hansel-Welch@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><logic>Not Applicable</logic><posacc><horizpa><horizpar>Source layer lake_mwfrapt2:  Points were converted from polyongs using ArcView 3.x and should represent the center of the polygon.
-</horizpar></horizpa><vertacc><vertaccr>Source layer lake_mwfrapt2:  Not Applicable.
-</vertaccr></vertacc></posacc><lineage><srcinfo><srcscale>Source layer lake_mwfrapt2:  100000
-</srcscale></srcinfo></lineage></dataqual><spdoinfo><indspref>lake_mwfrapt2</indspref><direct>point</direct><mgmg3obj>point</mgmg3obj><mgmg3til>state</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>Not Applicable</altdatum><altunits>Not Applicable</altunits></altsys><depthsys><depthdn>Not Applicable</depthdn><depthdu>Not Applicable</depthdu></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><distinfo><resdesc>env_migratory_waterfowl_areas</resdesc><distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab><stdorder><digform><digtinfo><formname>ArcView Shapefile</formname><formvern></formvern><transize>1024</transize></digtinfo></digform><ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</cntorg><cntper>Bruce Anderson</cntper></cntperp><cntpos>GIS Support Specialist</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>1201 E HWY 2</address><city>Grand Rapids</city><state>MN</state><postal>55744</postal></cntaddr><cntvoice>218-327-4105</cntvoice><cntfax>218-327-4263</cntfax><cntemail>Bruce.J.Anderson@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20141006</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</cntorg><cntper>Bruce Anderson</cntper></cntperp><cntpos>GIS Support Specialist</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>1201 E HWY 2</address><city>Grand Rapids</city><state>MN</state><postal>55744</postal></cntaddr><cntvoice>218-327-4105</cntvoice><cntfax>218-327-4263</cntfax><cntemail>Bruce.J.Anderson@state.mn.us</cntemail></cntinfo></metc></metainfo></metadata>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources (DNR)</origin>
+        <pubdate>2009-02-20 00:00:00.0</pubdate>
+        <title>Migratory Waterfowl Feeding and Resting Areas</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/env-migratory-waterfowl-areas</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This resource contains 2 feature classes: 1) A polygon feature class of lakes completely or partially designated as Migratory Waterfowl Feeding &amp; Resting Areas, as listed in the Minnesota Hunting &amp; Trapping Regulations Handbook. The lakes were derived (selected) out of the DNR 100k Lakes and Rivers. 2) A point feature class created from the polygons.</abstract>
+      <purpose> To create a spatial representation of the Migratory Waterfowl Feeding and Resting Areas as listed in the Minnesota Waterfowl Hunting Regulations. When these areas are posted as such during the open waterfowl season no person my use any motor-propelled watercraft or aircraft. Some of the lakes carry an exception allowing use of electric trolling motors with less then 30 pounds of thrust. PLEASE consult the Minnesota Waterfowl Hunting Regulations for a list of the exceptions. </purpose>
+      <supplinf>Minnesota (Statewide)</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2005</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <update>Yearly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-96.428572</westbc>
+        <eastbc>-93.469584</eastbc>
+        <northbc>47.725581</northbc>
+        <southbc>43.495509</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Lakes, Waterfowl, ducks, migratory waterfowl</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN</placekey>
+      </place>
+    </keywords>
+    <accconst>No special restrictions beyond those described in the Minnesota Department of Natural Resources General Geographic Data License Agreement.</accconst>
+    <useconst>No special restrictions beyond those described in the Minnesota Department of Natural Resources General Geographic Data License Agreement.</useconst>
+    <native>ArcView Shapefile</native>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_migratory_waterfowl_areas/metadata/preview.jpg</browsen>
+    </browse>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</cntorg>
+          <cntper>Nicole Hansel-Welch</cntper>
+        </cntperp>
+        <cntpos>Shallow Lakes Program Supervisor</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>1601 Minnesota Dr</address>
+          <city>Brainerd</city>
+          <state>MN</state>
+          <postal>56401-0030</postal>
+        </cntaddr>
+        <cntvoice>218-833-8626</cntvoice>
+        <cntfax>218-833-8632</cntfax>
+        <cntemail>Nicole.Hansel-Welch@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Not Applicable</logic>
+    <posacc>
+      <horizpa>
+        <horizpar>Source layer lake_mwfrapt2:  Points were converted from polyongs using ArcView 3.x and should represent the center of the polygon.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Source layer lake_mwfrapt2:  Not Applicable.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>Source layer lake_mwfrapt2:  100000
+</srcscale>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>lake_mwfrapt2</indspref>
+    <direct>point</direct>
+    <mgmg3obj>point</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <resdesc>env_migratory_waterfowl_areas</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shapefile</formname>
+          <formvern/>
+          <transize>1024</transize>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</cntorg>
+          <cntper>Bruce Anderson</cntper>
+        </cntperp>
+        <cntpos>GIS Support Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>1201 E HWY 2</address>
+          <city>Grand Rapids</city>
+          <state>MN</state>
+          <postal>55744</postal>
+        </cntaddr>
+        <cntvoice>218-327-4105</cntvoice>
+        <cntfax>218-327-4263</cntfax>
+        <cntemail>Bruce.J.Anderson@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141006</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</cntorg>
+          <cntper>Bruce Anderson</cntper>
+        </cntperp>
+        <cntpos>GIS Support Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>1201 E HWY 2</address>
+          <city>Grand Rapids</city>
+          <state>MN</state>
+          <postal>55744</postal>
+        </cntaddr>
+        <cntvoice>218-327-4105</cntvoice>
+        <cntfax>218-327-4263</cntfax>
+        <cntemail>Bruce.J.Anderson@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

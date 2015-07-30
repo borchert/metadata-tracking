@@ -1,6 +1,63 @@
-<?xml version="1.0"?><!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  --><metadata><idinfo><citation><citeinfo><origin>Minnesota Geological Survey (MGS)</origin><pubdate>2007</pubdate><title>Geologic Atlas of Todd County, Minnesota (Part A)</title><mgmg1cid></mgmg1cid><pubinfo><publish>Minnesota Geological Survey</publish></pubinfo><onlink>http://conservancy.umn.edu/handle/11299/58719</onlink></citeinfo></citation><descript><abstract>A County Geologic Atlas is a systematic study of a county's geologic and ground water resources. Geologic studies include both near-surface deposits and bedrock. Ground water studies include flow systems, aquifer capacity, and ground water chemistry. In some areas sand and gravel deposits, sinkholes, or other features are studied. Interpretation of sensitivity to pollution is also part of an atlas. The information is organized, analyzed, and displayed using geographic information technology.
+<!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  -->
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Geological Survey (MGS)</origin>
+        <pubdate>2007</pubdate>
+        <title>Geologic Atlas of Todd County, Minnesota (Part A)</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://conservancy.umn.edu/handle/11299/58719</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>A County Geologic Atlas is a systematic study of a county's geologic and ground water resources. Geologic studies include both near-surface deposits and bedrock. Ground water studies include flow systems, aquifer capacity, and ground water chemistry. In some areas sand and gravel deposits, sinkholes, or other features are studied. Interpretation of sensitivity to pollution is also part of an atlas. The information is organized, analyzed, and displayed using geographic information technology.
 
-Most Geologic Atlas and Regional Hydrogeologic Assessment projects are done in two parts. The Minnesota Geological Survey covers basic geology and creates databases of information such as wells and soil borings in part A. The Minnesota Department of Natural Resources handles hydrogeology and ground water sensitivity layers in Part B. Completion of a project's two parts is staggered: Part A is completed about two years before Part B, compiling information used to create part B. Parts A and B are published and distributed as two separate products.</abstract><purpose>County Geologic Atlas and Regional Hydrogeologic Assessment information is used in planning and environmental protection efforts at all levels of government. Wellhead protection and well-sealing programs are examples of local programs that need geologic and ground water information. The information is also used by businesses and the general public.</purpose><supplinf>Todd County, Minnesota</supplinf></descript><timeperd><timeinfo><sngdate><caldate>2007</caldate></sngdate></timeinfo><current>Geologic maps were created based on information available to MGS during the period 2005-2007.</current></timeperd><status><progress>Complete</progress><update>None Planned</update></status><spdom><bounding><westbc>-95.14</westbc><eastbc>-94.65</eastbc><northbc>46.38</northbc><southbc>45.76</southbc></bounding></spdom><keywords><theme><themekt>ISO 19115 Topic Category</themekt><themekey>geoscientificInformation, Bedrock Geology, Surficial Geology, Bedrock Topography, Depth to Bedrock, Quaternary Stratigraphy, Wells, Mineral Resources</themekey></theme><place><placekey>Minnesota, MN, Todd County</placekey></place></keywords><accconst>None</accconst><useconst>Credit should be given to the Minnesota Geological Survey for any use of the given digital data in any publication.  </useconst><browse><browsen>None available</browsen></browse><native>ArcGIS 9.2</native><crossref><citeinfo><title>C-18, Part A. Geologic Atlas of Todd County, Minnesota. Dale R. Setterholm, Project Manager. March 2007. Color. 6 plates. Scales 1:100,000 and 1:200,000. Paper map and report available from MGS Map Sales Office (2609 Territorial Road, St. Paul, Minnesota, 55114, 612-626-2969.)
+Most Geologic Atlas and Regional Hydrogeologic Assessment projects are done in two parts. The Minnesota Geological Survey covers basic geology and creates databases of information such as wells and soil borings in part A. The Minnesota Department of Natural Resources handles hydrogeology and ground water sensitivity layers in Part B. Completion of a project's two parts is staggered: Part A is completed about two years before Part B, compiling information used to create part B. Parts A and B are published and distributed as two separate products.</abstract>
+      <purpose>County Geologic Atlas and Regional Hydrogeologic Assessment information is used in planning and environmental protection efforts at all levels of government. Wellhead protection and well-sealing programs are examples of local programs that need geologic and ground water information. The information is also used by businesses and the general public.</purpose>
+      <supplinf>Todd County, Minnesota</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2007</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Geologic maps were created based on information available to MGS during the period 2005-2007.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-95.14</westbc>
+        <eastbc>-94.65</eastbc>
+        <northbc>46.38</northbc>
+        <southbc>45.76</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificInformation, Bedrock Geology, Surficial Geology, Bedrock Topography, Depth to Bedrock, Quaternary Stratigraphy, Wells, Mineral Resources</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN, Todd County</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Credit should be given to the Minnesota Geological Survey for any use of the given digital data in any publication.  </useconst>
+    <browse>
+      <browsen>None available</browsen>
+    </browse>
+    <native>ArcGIS 9.2</native>
+    <crossref>
+      <citeinfo>
+        <title>C-18, Part A. Geologic Atlas of Todd County, Minnesota. Dale R. Setterholm, Project Manager. March 2007. Color. 6 plates. Scales 1:100,000 and 1:200,000. Paper map and report available from MGS Map Sales Office (2609 Territorial Road, St. Paul, Minnesota, 55114, 612-626-2969.)
 
 For a listing of all geologic maps go to the Minnesota Geological Survey website at: http://www.mngs.umn.edu/mgsdocs.html
 
@@ -9,7 +66,57 @@ For a complete listing of MGS State Map Series Maps, Reports, and GIS Data, see 
 For other County Atlas and Regional Hydrogeologic Assessment data see: http://www.mngs.umn.edu/county_atlas/countyatlas.htm 
 
 For a listing of the status of the Department of Natural Resources (DNR) Ground Water Mapping Program, go to: http://www.dnr.state.mn.us/waters/groundwater_section/mapping/index.html
-</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>Minnesota Geological Survey</cntorg><cntper>Richard S. Lively</cntper></cntperp><cntpos>Geologic Information Systems</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>2609 Territorial Road</address><city>St. Paul</city><state>MN</state><postal>55114</postal></cntaddr><cntvoice>612-626-3103</cntvoice><cntemail>lively@umn.edu</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>See individual layer metadata files.</attraccr></attracc><logic>See individual layer metadata files.</logic><complete>See individual layer metadata files.</complete><posacc><horizpa><horizpar>See individual layer metadata files.</horizpar></horizpa></posacc><lineage><srcinfo><srcscale>100000</srcscale></srcinfo><procstep><procdesc>Investigations begin with a review of existing information, such as earlier geologic maps, soil maps, and hydrologic reports. Drillers send water well logs to the Minnesota Geological Survey, where they are reviewed, interpreted, and entered into the County Well Index (CWI), an interactive data base of water-well information. Building on the previous data, field studies are conducted to improve the understanding of local geologic and hydrologic conditions. Linework is created based upon the field studies and base data, and digitized. Background GIS data layers such as roads, surface hydrography, township grids, etc., are obtained from various sources, as noted in the Entity/Attribute section. See also individual metadata reports at ftp://mgssun6.mngs.umn.edu/pub5/c-18/</procdesc></procstep></lineage></dataqual><spdoinfo><indspref></indspref><direct>Vector</direct><mgmg3obj>Point, Vector, Polygon</mgmg3obj><mgmg3til>Todd County</mgmg3til></spdoinfo><eainfo><overview><eaover>The following are a list of the GIS files used in compiling the Todd County Geologic Atlas:
+</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>Richard S. Lively</cntper>
+        </cntperp>
+        <cntpos>Geologic Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>2609 Territorial Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55114</postal>
+        </cntaddr>
+        <cntvoice>612-626-3103</cntvoice>
+        <cntemail>lively@umn.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>See individual layer metadata files.</attraccr>
+    </attracc>
+    <logic>See individual layer metadata files.</logic>
+    <complete>See individual layer metadata files.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>See individual layer metadata files.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>100000</srcscale>
+      </srcinfo>
+      <procstep>
+        <procdesc>Investigations begin with a review of existing information, such as earlier geologic maps, soil maps, and hydrologic reports. Drillers send water well logs to the Minnesota Geological Survey, where they are reviewed, interpreted, and entered into the County Well Index (CWI), an interactive data base of water-well information. Building on the previous data, field studies are conducted to improve the understanding of local geologic and hydrologic conditions. Linework is created based upon the field studies and base data, and digitized. Background GIS data layers such as roads, surface hydrography, township grids, etc., are obtained from various sources, as noted in the Entity/Attribute section. See also individual metadata reports at ftp://mgssun6.mngs.umn.edu/pub5/c-18/</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref/>
+    <direct>Vector</direct>
+    <mgmg3obj>Point, Vector, Polygon</mgmg3obj>
+    <mgmg3til>Todd County</mgmg3til>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>The following are a list of the GIS files used in compiling the Todd County Geologic Atlas:
 
 Database:
 WWPT    = point shapefile of county well index well locations
@@ -134,10 +241,90 @@ in folder grids: mgd1d = first derivative of magnetic anomaly map used with bedr
 rspg polygons.lyr = layer (legend) file used to display Quaternary resources
 rspt point.lyr = layer (legend) file used to display gravel pits and other features
 bgpgrs_polygon.lyr = layer (legend) file used to display bedrock polygons
-bgrs_stln.lyr = layer (legend) file used to display bedrock structural features</eaover><eadetcit>See individual layer metadata files.</eadetcit></overview></eainfo><distinfo><resdesc>C18 ( http://conservancy.umn.edu/handle/11299/58719)</resdesc><stdorder><digform><digtinfo><formname>Arc/Info Export (.e00), shapefile, mxd</formname><formvern></formvern><transize>export (e00).zip 50 MB;  c18.zip 529 MB</transize></digtinfo></digform><ordering>Data download is from the U of M Libraries Digital Conservancy. All GIS data and metadata for the Todd County Geologic Atlas is provided in the zip file C18_CD.zip. (Supplementary Files).
+bgrs_stln.lyr = layer (legend) file used to display bedrock structural features</eaover>
+      <eadetcit>See individual layer metadata files.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>C18 ( http://conservancy.umn.edu/handle/11299/58719)</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Arc/Info Export (.e00), shapefile, mxd</formname>
+          <formvern/>
+          <transize>export (e00).zip 50 MB;  c18.zip 529 MB</transize>
+        </digtinfo>
+      </digform>
+      <ordering>Data download is from the U of M Libraries Digital Conservancy. All GIS data and metadata for the Todd County Geologic Atlas is provided in the zip file C18_CD.zip. (Supplementary Files).
 
 If you would prefer to have the digital data on DVD, contact MGS Map Sales office at (612) 626-2969.
 
 The direct Digital Conservancy link to PDF map products and GIS data projects (Supplementary Files) for this data set is: http://conservancy.umn.edu/handle/11299/58719
 
-If you would like paper copies of the geologic plates; contact the MGS Map Sales office at 612-626-2969 and specify publication County Atlas Series C-18, part A, or County Geologic Atlas of Todd County.</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Geological Survey</cntorg><cntper>Timothy E. Wahl</cntper></cntperp><cntpos>Geologic Information Systems</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>2609 Territorial Road</address><city>St. Paul</city><state>MN</state><postal>55114</postal></cntaddr><cntvoice>612-626-0992</cntvoice><cntemail>tewahl@umn.edu</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150415</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>658 Cedar Street</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15E</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>
+If you would like paper copies of the geologic plates; contact the MGS Map Sales office at 612-626-2969 and specify publication County Atlas Series C-18, part A, or County Geologic Atlas of Todd County.</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>Timothy E. Wahl</cntper>
+        </cntperp>
+        <cntpos>Geologic Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2609 Territorial Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55114</postal>
+        </cntaddr>
+        <cntvoice>612-626-0992</cntvoice>
+        <cntemail>tewahl@umn.edu</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150415</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15E</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

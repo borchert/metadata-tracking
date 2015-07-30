@@ -1,4 +1,19 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata><idinfo><citation><citeinfo><origin>Minnesota Department of Natural Resources (DNR) - Division of Ecological and Water Resources, Scientific &amp; Natural Areas (SNA) Program</origin><pubdate>20140724</pubdate><title>Natural Area Registry</title><mgmg1cid></mgmg1cid><pubinfo><publish>Minnesota DNR - Division of Ecological and Water Services</publish></pubinfo><onlink>http://gisdata.mn.gov/dataset/bdry-natural-area-registry</onlink></citeinfo></citation><descript><abstract>Natural Area Registry (NAR) Sites layer version supporting SNA Work Planning application.
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources (DNR) - Division of Ecological and Water Resources, Scientific &amp; Natural Areas (SNA) Program</origin>
+        <pubdate>20140724</pubdate>
+        <title>Natural Area Registry</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota DNR - Division of Ecological and Water Services</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/bdry-natural-area-registry</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Natural Area Registry (NAR) Sites layer version supporting SNA Work Planning application.
 
 natural_area-registry-sites_boundaries:    A polygon database delineated on and digitized from 1:24,000 U.S.G.S. quad maps of Minnesota Natural Area Registry (NARs). (The following text is partially excerpted from: Scientific and Natural Area (SNA) Program Administrative Handbook,  Draft EWR Divisional Directive 103, Natural Area Registry, MN DNR, Scientific and Natural Areas Program.)
 
@@ -11,9 +26,191 @@ The Natural Areas Registry was established in the early 1980s within the DNR Sec
 
 This Representation SNA boundaries is based on the NAR_BASE_DATA feature class in the DNR's core GIS Library. It includes only DEDICATED features, which are dissolved on the following attributes: SITENAME, SITE_ID, BREMCODE. 
 
-The coverage should be reasonably accurate although the boundaries probably will not line up with other public land survey information. Some of the boundaries for NAR sites have been created by DNR and other partner staff, and are often sub units within a larger unit.  Since the NAR boundaries have no legal standing, the accuracy of boundaries vary from site to site, but are typically reasonable approximations of the NAR site boundary.</abstract><purpose>To provide a multi-part polygon view of SNA Units for use in the SNA Work Planning - Activities application.</purpose><supplinf>Minnesota</supplinf></descript><timeperd><current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset. USGS Quad Maps, DNR Land Records Database System, 1982-Present</current><timeinfo><sngdate><caldate>20140724</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>Bi-Yearly</update></status><spdom><bounding><westbc>-97.23</westbc><eastbc>-89.53</eastbc><northbc>49.37</northbc><southbc>43.5</southbc></bounding></spdom><keywords><theme><themekey>boundaries, SNA, Scientific and Natural Areas, Rare Plant Communities, boundaries, managed areas</themekey><themekt>ISO 19115</themekt></theme><place><placekey>Minnesota, MN</placekey></place></keywords><accconst>None</accconst><useconst>Use of the data are constrained only by the DNR GIS Data License Agreement. See the Distribution Liability section below for a link.</useconst><browse><browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_natural_area_registry/preview/preview.jpg</browsen></browse><ptcontac><cntinfo><cntperp><cntorg>Minnesota DNR - Division of Ecological and Water Resources</cntorg><cntper>Mark Cleveland</cntper></cntperp><cntpos>Statewide Management Coordinator, SNA Program</cntpos><cntaddr><address>500 Lafayette Rd</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5094</cntvoice><cntemail>mark.cleveland@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><complete>The data are statewide.  NAR polygons were delineated on and digitized from 1:24,000 USGS quad maps over a period of more than 10 years.   NAR additions were digitized in ArcView GIS  and ArcMap 10.0, based on 1:24,000 USDS Digital Raster Graphics (DRGs) with additional reference to USGS and NAIP aerial photography.</complete><posacc><horizpa><horizpar>Unknown.  The coverage should be reasonably accurate although the boundaries probably will not line up with other public land survey information.</horizpar></horizpa><vertacc><vertaccr>Not Applicable
-</vertaccr></vertacc></posacc><lineage><srcinfo><srcscale>Source layer scientific_and_natural_area_boundaries: 2400
-</srcscale></srcinfo><procstep>This dataset of SNA boundaries is based on the SNA_BASE_DATA feature class in the DNR's core GIS Library. It includes only DEDICATED features, which are dissolved on the following attributes: SITENAME, SITE_ID, BREMCODE.
+The coverage should be reasonably accurate although the boundaries probably will not line up with other public land survey information. Some of the boundaries for NAR sites have been created by DNR and other partner staff, and are often sub units within a larger unit.  Since the NAR boundaries have no legal standing, the accuracy of boundaries vary from site to site, but are typically reasonable approximations of the NAR site boundary.</abstract>
+      <purpose>To provide a multi-part polygon view of SNA Units for use in the SNA Work Planning - Activities application.</purpose>
+      <supplinf>Minnesota</supplinf>
+    </descript>
+    <timeperd>
+      <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset. USGS Quad Maps, DNR Land Records Database System, 1982-Present</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20140724</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Bi-Yearly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.23</westbc>
+        <eastbc>-89.53</eastbc>
+        <northbc>49.37</northbc>
+        <southbc>43.5</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>boundaries, SNA, Scientific and Natural Areas, Rare Plant Communities, boundaries, managed areas</themekey>
+        <themekt>ISO 19115</themekt>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Use of the data are constrained only by the DNR GIS Data License Agreement. See the Distribution Liability section below for a link.</useconst>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_natural_area_registry/preview/preview.jpg</browsen>
+    </browse>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Ecological and Water Resources</cntorg>
+          <cntper>Mark Cleveland</cntper>
+        </cntperp>
+        <cntpos>Statewide Management Coordinator, SNA Program</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5094</cntvoice>
+        <cntemail>mark.cleveland@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <complete>The data are statewide.  NAR polygons were delineated on and digitized from 1:24,000 USGS quad maps over a period of more than 10 years.   NAR additions were digitized in ArcView GIS  and ArcMap 10.0, based on 1:24,000 USDS Digital Raster Graphics (DRGs) with additional reference to USGS and NAIP aerial photography.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Unknown.  The coverage should be reasonably accurate although the boundaries probably will not line up with other public land survey information.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not Applicable
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>Source layer scientific_and_natural_area_boundaries: 2400
+</srcscale>
+      </srcinfo>
+      <procstep>This dataset of SNA boundaries is based on the SNA_BASE_DATA feature class in the DNR's core GIS Library. It includes only DEDICATED features, which are dissolved on the following attributes: SITENAME, SITE_ID, BREMCODE.
 
-sna_parking: A point feature class of parking areas for Minnesota Scientific and Natural Areas. Utilize it for guidance to the designated place(s) to park when visiting a site. It was created in ArcMap10 using the following layers: SNA boundary layer, Department of Transportation (DOT) roads (All Classes), State Forest Roads, County Boundaries, Water Accesses and aerial photography from 1991, 2008, and 2009. SNA Regional Staff reviewed and edited layer. Google Earth was also used for some verifications.</procstep></lineage><attracc><attraccr>Attributes are checked during data entry process</attraccr></attracc></dataqual><spdoinfo><indspref>Not Applicable</indspref><direct>vector</direct><mgmg3obj>polygon</mgmg3obj><mgmg3til>state</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>Not Applicable</altdatum><altunits>Not Applicable</altunits></altsys><depthsys><depthdn>Not Applicable</depthdn><depthdu>Not Applicable</depthdu></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><distinfo><resdesc>bdry_natural_area_registry</resdesc><distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html
-</distliab><stdorder><digform><digtinfo><transize></transize></digtinfo></digform><ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>500 Lafayette Rd</address><city>St. Paul</city><state>MN</state><postal>55155-4011</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20140924</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>500 Lafayette Rd</address><city>St. Paul</city><state>MN</state><postal>55155-4011</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></metc></metainfo><eainfo><detailed><enttyp><enttypl>natural_area_registry_boundaries</enttypl></enttyp><attr><attrlabl>SITE_NAME</attrlabl><attrdef>Name of NAR Site</attrdef></attr><attr><attrlabl>SUB_UNIT</attrlabl><attrdef>area within an NAR site</attrdef></attr></detailed></eainfo></metadata>
+sna_parking: A point feature class of parking areas for Minnesota Scientific and Natural Areas. Utilize it for guidance to the designated place(s) to park when visiting a site. It was created in ArcMap10 using the following layers: SNA boundary layer, Department of Transportation (DOT) roads (All Classes), State Forest Roads, County Boundaries, Water Accesses and aerial photography from 1991, 2008, and 2009. SNA Regional Staff reviewed and edited layer. Google Earth was also used for some verifications.</procstep>
+    </lineage>
+    <attracc>
+      <attraccr>Attributes are checked during data entry process</attraccr>
+    </attracc>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Not Applicable</indspref>
+    <direct>vector</direct>
+    <mgmg3obj>polygon</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <resdesc>bdry_natural_area_registry</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html
+</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize/>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Rd</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155-4011</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20140924</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Rd</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155-4011</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>natural_area_registry_boundaries</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>SITE_NAME</attrlabl>
+        <attrdef>Name of NAR Site</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SUB_UNIT</attrlabl>
+        <attrdef>area within an NAR site</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+</metadata>

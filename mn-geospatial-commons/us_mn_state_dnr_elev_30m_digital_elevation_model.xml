@@ -1,6 +1,199 @@
-<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>U.S. Geological Survey</origin><pubdate>2004-05-01 00:00:00.0</pubdate><title>Minnesota Digital Elevation Model - 30 Meter Resolution</title><mgmg1cid></mgmg1cid><pubinfo><publish>Minnesota Department of Natural Resources (DNR)</publish></pubinfo><onlink>http://gisdata.mn.gov/dataset/elev-30m-digital-elevation-model</onlink></citeinfo></citation><descript><abstract>This 30 Meter Digital Elevation Model (DEM) is a copy of the USGS 1:24,000 scale Level 2 DEMs for the State.
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>2004-05-01 00:00:00.0</pubdate>
+        <title>Minnesota Digital Elevation Model - 30 Meter Resolution</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota Department of Natural Resources (DNR)</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/elev-30m-digital-elevation-model</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This 30 Meter Digital Elevation Model (DEM) is a copy of the USGS 1:24,000 scale Level 2 DEMs for the State.
 
-There are three quadrangles known be be Level 1 DEM data: Town Line Lake (q1925), Grand Portage (q1261)  and Grand Portage OE N (q1161).</abstract><purpose>Landscape analysis, hillshade generation for cartographic products, and slope determination</purpose><supplinf>Statewide</supplinf></descript><timeperd><current>Current to USGS 1:24k DEM product release</current></timeperd><status><progress>Complete</progress><update>None Planned</update></status><spdom><bounding><westbc>-96.832879</westbc><eastbc>-89.396784</eastbc><northbc>49.348291</northbc><southbc>43.435263</southbc></bounding></spdom><keywords><theme><themekey>Elevation,  Model, Slope, elevation</themekey><themekt>ISO 19115 Category</themekt></theme><place><placekey>Minnesota</placekey></place></keywords><accconst>None</accconst><useconst>None</useconst><native>Arc GRID</native><browse><browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/elev_30m_digital_elevation_model/preview/preview.jpg</browsen></browse><ptcontac><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><address>500 Lafayette Rd</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><logic>Not Applicable</logic><posacc><horizpa><horizpar>Source layer dem30im3:  Unknown
-</horizpar></horizpa><vertacc><vertaccr>Source layer dem30im3:  Vertical accuracy specifications for dem DEM data depend on the production methodology, photogrammetric source, and degree of editing.  A vertical RMSE of 7 meters or less is the desired accuracy standard.  A RMSE of 15 meters is the maximum permitted.  Distinct north-south tonal banding is visible in quads with larger RMSE's.  This data noise becomes especially prevalent in derived products, such as hillshades, aspect, and slope layers.
-</vertaccr></vertacc></posacc><lineage><srcinfo><srcscale>Source layer dem30im3:  24000
-</srcscale></srcinfo></lineage></dataqual><spdoinfo><indspref>Not Applicable</indspref><direct>raster</direct><mgmg3obj>grid</mgmg3obj><mgmg3til>q250k</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>NGVD1929</altdatum><altunits>feet</altunits></altsys><depthsys><depthdn>Not Applicable</depthdn><depthdu>Not Applicable</depthdu></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu><coordrep><absres>30</absres><ordres>30</ordres></coordrep></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><distinfo><resdesc>elev_30m_digital_elevation_model</resdesc><distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab><stdorder><digform><digtinfo><formname>ArcView Shapefile</formname><formvern>3.x</formvern><transize>100</transize></digtinfo></digform><ordering>See Online Linkage or Distribution Contact</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><address>500 Lafayette Rd</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20140716</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><address>500 Lafayette Rd</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></metc></metainfo><eainfo><detailed><enttyp><enttypl>digital_elevation_model_30m</enttypl></enttyp><attr><attrlabl>VALUE</attrlabl><attrdef>elevation in feet above mean sea level</attrdef></attr><attr><attrlabl>COUNT</attrlabl><attrdef>A count of the number of occurrences of a given elevation within the raster</attrdef></attr></detailed></eainfo></metadata>
+There are three quadrangles known be be Level 1 DEM data: Town Line Lake (q1925), Grand Portage (q1261)  and Grand Portage OE N (q1161).</abstract>
+      <purpose>Landscape analysis, hillshade generation for cartographic products, and slope determination</purpose>
+      <supplinf>Statewide</supplinf>
+    </descript>
+    <timeperd>
+      <current>Current to USGS 1:24k DEM product release</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-96.832879</westbc>
+        <eastbc>-89.396784</eastbc>
+        <northbc>49.348291</northbc>
+        <southbc>43.435263</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Elevation,  Model, Slope, elevation</themekey>
+        <themekt>ISO 19115 Category</themekt>
+      </theme>
+      <place>
+        <placekey>Minnesota</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Arc GRID</native>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/elev_30m_digital_elevation_model/preview/preview.jpg</browsen>
+    </browse>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Not Applicable</logic>
+    <posacc>
+      <horizpa>
+        <horizpar>Source layer dem30im3:  Unknown
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Source layer dem30im3:  Vertical accuracy specifications for dem DEM data depend on the production methodology, photogrammetric source, and degree of editing.  A vertical RMSE of 7 meters or less is the desired accuracy standard.  A RMSE of 15 meters is the maximum permitted.  Distinct north-south tonal banding is visible in quads with larger RMSE's.  This data noise becomes especially prevalent in derived products, such as hillshades, aspect, and slope layers.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>Source layer dem30im3:  24000
+</srcscale>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Not Applicable</indspref>
+    <direct>raster</direct>
+    <mgmg3obj>grid</mgmg3obj>
+    <mgmg3til>q250k</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>NGVD1929</altdatum>
+        <altunits>feet</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+          <coordrep>
+            <absres>30</absres>
+            <ordres>30</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <resdesc>elev_30m_digital_elevation_model</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shapefile</formname>
+          <formvern>3.x</formvern>
+          <transize>100</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage or Distribution Contact</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20140716</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>digital_elevation_model_30m</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>VALUE</attrlabl>
+        <attrdef>elevation in feet above mean sea level</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>COUNT</attrlabl>
+        <attrdef>A count of the number of occurrences of a given elevation within the raster</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+</metadata>

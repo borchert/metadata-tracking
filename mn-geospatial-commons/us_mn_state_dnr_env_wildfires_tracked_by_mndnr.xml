@@ -1,5 +1,694 @@
-﻿<metadata><idinfo><citation><citeinfo><origin>Minnesota Department of Natural Resources (DNR)</origin><pubdate>2003-06-18 00:00:00.0</pubdate><title>Wildfires Tracked by Minnesota DNR</title><pubinfo><publish>Minnesota DNR - Division of Forestry</publish></pubinfo><onlink>http://gisdata.mn.gov/dataset/env-wildfires-tracked-by-mndnr</onlink></citeinfo></citation><descript><abstract>This theme shows the locations of wildfires for which the DNR was the primary responding agency. These include fires not only on state lands, but also rural private lands for which there is not another agency with primary responsibility. Wildfires that are not included in this theme are those that occur on federal and native American lands (several hundred annually) and those that are responded to by local fire departments (several thousand annually). DNR wildfire suppression responsibility is heaviest in the forested part of the state.</abstract><purpose>Enables analysis of spatial and temporal patterns in wildfire starts.</purpose></descript><timeperd><timeinfo><sngdate><caldate>20150413</caldate></sngdate></timeinfo><current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset.</current></timeperd><status><progress>In work</progress><update>Weekly</update></status><spdom><bounding><westbc>-96.773290</westbc><eastbc>-89.809879</eastbc><northbc>49.317173</northbc><southbc>43.439532</southbc></bounding></spdom><keywords><theme><themekey>fire, wildfire, forest fire, environment</themekey></theme><place><placekey>Minnesota</placekey></place></keywords><accconst>None</accconst><useconst>None</useconst><native>Perl Mapscript, Oracle 8</native><browse><browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_wildfires_tracked_by_mndnr/metadata/preview.jpg</browsen><browsed>The graphic is taken from the online interface to this dataset at http://www.dnr.state.mn.us/forestry/fire/maps/locations.html</browsed></browse><ptcontac><cntinfo><cntperp><cntorg>DNR - MIS</cntorg><cntper>Ken Boss</cntper></cntperp><cntpos>Systems Analyst</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>1201 E Hwy 2</address><city>Grand Rapids</city><state>MN</state><postal>55744</postal></cntaddr><cntvoice>218-999-7860</cntvoice><cntfax>218-327-4517</cntfax><cntemail>ken.boss@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><logic>Not applicable</logic><complete>Includes all fires reported by DNR field forestry offices.</complete><posacc><horizpa><horizpar>Source layer pinmap:  DNR field personnel report fire locations using PLS descriptors.  The vast majority of fires are reported using a PLS forty descriptor, though occasionally a less precise PLS section descriptor may be used.  Fire location points are assigned by taking the nominal center of the indicated PLS forty (section).  Accordingly, fire locations can generally be considered to be accurate to within +-200 meters (1/8 mile), or +-800 meters (1/2 mile) in the rare instances where the fire location is reported using a PLS section descriptor.
-</horizpar></horizpa><vertacc><vertaccr>Source layer pinmap:  Not Applicable
-</vertaccr></vertacc></posacc><lineage><procstep><procdesc>Attribute Lineage for source table EVNT_WFIREPT3.DBF:  All attributes field-collected.
-</procdesc></procstep></lineage><attracc><attraccr>Source table EVNT_WFIREPT3.DBF:  Good - all data subjected to extensive validation checks at the time of data entry.
-</attraccr></attracc></dataqual><spdoinfo><indspref>Not Applicable</indspref><direct>point</direct><mgmg3obj>point</mgmg3obj><mgmg3til>state</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>Not Applicable</altdatum><altunits>Not Applicable</altunits></altsys><depthsys><depthdn>Not Applicable</depthdn><depthdu>Not Applicable</depthdu></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>EVNT_WFIREPT3.DBF</enttypl><enttypd>Shapefile Attribute Table</enttypd></enttyp><attr><attrlabl>ID</attrlabl><attrdef>Unique ID, comprised of Year, Forestry RAN (a 3-digit administrative area identifier), and sequence number.  Eg.: 20032410056</attrdef></attr><attr><attrlabl>START_DATE</attrlabl><attrdef>(Estimated) start date for this fire.</attrdef></attr><attr><attrlabl>START_TIME</attrlabl><attrdef>(Estimated) start time for this fire.</attrdef></attr><attr><attrlabl>ACRES_F</attrlabl><attrdef>Number of forested acres burned.</attrdef></attr><attr><attrlabl>ACRES_NF</attrlabl><attrdef>Number of non-forested acres burned.</attrdef></attr><attr><attrlabl>ACRES_TOT</attrlabl><attrdef>Total number of acres burned.</attrdef></attr><attr><attrlabl>COUNTY</attrlabl><attrdef>The name of the Minnesota county in which this fire occurred.</attrdef></attr><attr><attrlabl>SECTION</attrlabl><attrdef>PLS section number. Valid values are 1-36.</attrdef></attr><attr><attrlabl>TOWNSHIP</attrlabl><attrdef>Three-digit township (tier) number.  26 through 71, 101 through 168</attrdef></attr><attr><attrlabl>RANGE</attrlabl><attrdef>Two-digit range number.  1 through 51</attrdef></attr><attr><attrlabl>RANGE_DIR</attrlabl><attrdef>Range direction.  "E" or "W"</attrdef></attr><attr><attrlabl>FORTY</attrlabl><attrdef>Textual PLS forty identifier</attrdef><attrdomv><edom><edomv>NENE</edomv><edomvd>Northeast Quarter of the Northeast Quarter of the PLS Section</edomvd></edom></attrdomv><attrdomv><edom><edomv>NENW</edomv><edomvd>Northeast Quarter of the Northwest Quarter of the PLS Section</edomvd></edom></attrdomv><attrdomv><edom><edomv>NESE</edomv><edomvd>Northeast Quarter of the Southwest Quarter of the PLS Section</edomvd></edom></attrdomv><attrdomv><edom><edomv>NESW</edomv><edomvd>Northeast Quarter of the Southwest Quarter of the PLS Section</edomvd></edom></attrdomv><attrdomv><edom><edomv>NWNE</edomv><edomvd>Northwest Quarter of the Northeast Quarter of the PLS Section</edomvd></edom></attrdomv><attrdomv><edom><edomv>NWNW</edomv><edomvd>Northwest Quarter of the Northwest Quarter of the PLS Section</edomvd></edom></attrdomv><attrdomv><edom><edomv>NWSE</edomv><edomvd>Northwest Quarter of the Southeast Quarter of the PLS Section</edomvd></edom></attrdomv><attrdomv><edom><edomv>NWSW</edomv><edomvd>Northwest Quarter of the Southwest Quarter of the PLS Section</edomvd></edom></attrdomv><attrdomv><edom><edomv>SENE</edomv><edomvd>Southeast Quarter of the Northeast Quarter of the PLS Section</edomvd></edom></attrdomv><attrdomv><edom><edomv>SENW</edomv><edomvd>Southeast Quarter of the Northwest Quarter of the PLS Section</edomvd></edom></attrdomv><attrdomv><edom><edomv>SESE</edomv><edomvd>Southeast Quarter of the Southeast Quarter of the PLS Section</edomvd></edom></attrdomv><attrdomv><edom><edomv>SESW</edomv><edomvd>Southeast Quarter of the Soutwest Quarter of the PLS Section</edomvd></edom></attrdomv><attrdomv><edom><edomv>SWNE</edomv><edomvd>Southwest Quarter of the Northeast Quarter of the PLS Section</edomvd></edom></attrdomv><attrdomv><edom><edomv>SWNW</edomv><edomvd>Southwest Quarter of the Northwest Quarter of the PLS Section</edomvd></edom></attrdomv><attrdomv><edom><edomv>SWSE</edomv><edomvd>Southeast Quarter of the Southeast Quarter of the PLS Section</edomvd></edom></attrdomv><attrdomv><edom><edomv>SWSW</edomv><edomvd>Southwest Quarter of the Southwest Quarter of the PLS Section</edomvd></edom></attrdomv></attr><attr><attrlabl>CAUSE</attrlabl><attrdef>Cause of this fire.</attrdef><attrdomv><edom><edomv>Campfire</edomv><edomvd>Fire caused by campfire</edomvd></edom></attrdomv><attrdomv><edom><edomv>Debris - Ag.</edomv><edomvd>Fire caused by debris from agricultural operations</edomvd></edom></attrdomv><attrdomv><edom><edomv>Debris - Burner</edomv><edomvd>Fire caused by debris from burner</edomvd></edom></attrdomv><attrdomv><edom><edomv>Debris - Piled</edomv><edomvd>Fire caused by piled debris</edomvd></edom></attrdomv><attrdomv><edom><edomv>Debris - Running</edomv><edomvd>Fire caused by running debris</edomvd></edom></attrdomv><attrdomv><edom><edomv>Equipment - ATV</edomv><edomvd>Fire caused by all terrain vehicle equipment</edomvd></edom></attrdomv><attrdomv><edom><edomv>Equipment - Farm</edomv><edomvd>Fire caused by farm equipement</edomvd></edom></attrdomv><attrdomv><edom><edomv>Equipment - Misc. Tools</edomv><edomvd>Fire caused by miscellaneous equipment and tools</edomvd></edom></attrdomv><attrdomv><edom><edomv>Equipment - Road</edomv><edomvd>Fire caused by road maintenance equipement</edomvd></edom></attrdomv><attrdomv><edom><edomv>Equipment - Vehicle</edomv><edomvd>Fire caused by vehicle equipment</edomvd></edom></attrdomv><attrdomv><edom><edomv>Equipment - Welding/Cutting</edomv><edomvd>Fire caused by welding/cutting equipment</edomvd></edom></attrdomv><attrdomv><edom><edomv>Incendiary/Arson</edomv><edomvd>Fire caused by incendiary/arson</edomvd></edom></attrdomv><attrdomv><edom><edomv>Lightning</edomv><edomvd>Fire caused by lightning</edomvd></edom></attrdomv><attrdomv><edom><edomv>Misc. - Electric Fence</edomv><edomvd>Fire caused by electric fence</edomvd></edom></attrdomv><attrdomv><edom><edomv>Misc. - Fireworks</edomv><edomvd>Fire caused by fireworks</edomvd></edom></attrdomv><attrdomv><edom><edomv>Misc. - Other</edomv><edomvd>Fire caused by miscellaneous (other) reasons</edomvd></edom></attrdomv><attrdomv><edom><edomv>Misc. - Power Line</edomv><edomvd>Fire caused by power line</edomvd></edom></attrdomv><attrdomv><edom><edomv>Misc. - Prescribed Fire</edomv><edomvd>Fire caused by prescribed fire</edomvd></edom></attrdomv><attrdomv><edom><edomv>Misc. - Structure</edomv><edomvd>Fire caused by structure</edomvd></edom></attrdomv><attrdomv><edom><edomv>Railroad - Brakes</edomv><edomvd>Fire caused by railroad brakes</edomvd></edom></attrdomv><attrdomv><edom><edomv>Railroad - Exhaust</edomv><edomvd>Fire caused by railroad exhaust</edomvd></edom></attrdomv><attrdomv><edom><edomv>Railroad - Maintenance</edomv><edomvd>Fire caused by railroad maintenance</edomvd></edom></attrdomv><attrdomv><edom><edomv>Railroad - Other</edomv><edomvd>Fire caused by railroad (other)</edomvd></edom></attrdomv><attrdomv><edom><edomv>Railroad - Wheel Bearings</edomv><edomvd>Fire caused by railroad wheel bearings</edomvd></edom></attrdomv><attrdomv><edom><edomv>Smoking</edomv><edomvd>Fire caused by smoking</edomvd></edom></attrdomv><attrdomv><edom><edomv>Vehicle</edomv><edomvd>Fire caused by vehicle</edomvd></edom></attrdomv></attr><attr><attrlabl>PERMIT</attrlabl><attrdef>Fire Permit Status</attrdef><attrdomv><edom><edomv>0</edomv><edomvd>No permit was issued, or permit not applicable</edomvd></edom></attrdomv><attrdomv><edom><edomv>1</edomv><edomvd>A permit was issued for this fire.</edomvd></edom></attrdomv></attr><attr><attrlabl>INJURIES</attrlabl><attrdef>Number of injuries resulting from this fire.</attrdef></attr><attr><attrlabl>FATALITIES</attrlabl><attrdef>Number of fatalities resulting from this fire.</attrdef></attr><attr><attrlabl>SUP_COST</attrlabl><attrdef>Suppression costs associated with this fire.</attrdef></attr><attr><attrlabl>L_TIMBER</attrlabl><attrdef>Dollar losses of timber value as a result of this fire.</attrdef></attr><attr><attrlabl>L_AGRI</attrlabl><attrdef>Dollar losses of agricultural value as a result of this fire.</attrdef></attr><attr><attrlabl>L_PERSONAL</attrlabl><attrdef>Dollar losses of personal property as a result of this fire.</attrdef></attr><attr><attrlabl>L_OTHER</attrlabl><attrdef>Dollar losses of other property as a result of this fire.</attrdef></attr><attr><attrlabl>L_RES_DAM</attrlabl><attrdef>Number of residential structures damaged as a result of this fire.</attrdef></attr><attr><attrlabl>L_RES_DES</attrlabl><attrdef>Number of residential structures destroyed as a result of this fire.</attrdef></attr><attr><attrlabl>L_OUT_DAM</attrlabl><attrdef>Number of outbuildings damaged as a result of this fire.</attrdef></attr><attr><attrlabl>L_OUT_DES</attrlabl><attrdef>Number of outbuildings destroyed as a result of this fire.</attrdef></attr><attr><attrlabl>I_RPT_BY</attrlabl><attrdef>Origin of initial report of fire to DNR.</attrdef><attrdomv><edom><edomv>9-1-1 Dispatcher</edomv><edomvd>9-1-1 Dispatcher</edomvd></edom></attrdomv><attrdomv><edom><edomv>Aerial Detection</edomv><edomvd>Aerial Detection</edomvd></edom></attrdomv><attrdomv><edom><edomv>DNR Employee</edomv><edomvd>DNR Employee</edomvd></edom></attrdomv><attrdomv><edom><edomv>Fire Dept. Report</edomv><edomvd>Fire Dept. Report</edomvd></edom></attrdomv><attrdomv><edom><edomv>Fire Warden</edomv><edomvd>Fire Warden</edomvd></edom></attrdomv><attrdomv><edom><edomv>Local Resident</edomv><edomvd>Local Resident</edomvd></edom></attrdomv><attrdomv><edom><edomv>Other</edomv><edomvd>Other</edomvd></edom></attrdomv><attrdomv><edom><edomv>Passerby</edomv><edomvd>Passerby</edomvd></edom></attrdomv><attrdomv><edom><edomv>Responsible Party</edomv><edomvd>Responsible Party</edomvd></edom></attrdomv><attrdomv><edom><edomv>tower</edomv><edomvd>Tower</edomvd></edom></attrdomv></attr><attr><attrlabl>MAPPED_TO</attrlabl><attrdef>The type of PLS entity whose center point was taken as the location of this fire.</attrdef><attrdomv><edom><edomv>PLS Forty</edomv><edomvd>PLS Forty</edomvd></edom></attrdomv><attrdomv><edom><edomv>PLS Section</edomv><edomvd>PLS Section</edomvd></edom></attrdomv><attrdomv><edom><edomv>PLS Township</edomv><edomvd>PLS Township</edomvd></edom></attrdomv></attr><attr><attrlabl>SIZE_CLASS</attrlabl><attrdef>Size class for this fire.</attrdef><attrdomv><edom><edomv>A</edomv><edomvd>0 - 0.25 acres</edomvd></edom></attrdomv><attrdomv><edom><edomv>B</edomv><edomvd>0.26 - 9.9 acres</edomvd></edom></attrdomv><attrdomv><edom><edomv>C</edomv><edomvd>10 - 99 acres</edomvd></edom></attrdomv><attrdomv><edom><edomv>D</edomv><edomvd>100 - 299 acres</edomvd></edom></attrdomv><attrdomv><edom><edomv>E</edomv><edomvd>300 - 999 acres</edomvd></edom></attrdomv><attrdomv><edom><edomv>F</edomv><edomvd>1000 - 2999 acres</edomvd></edom></attrdomv><attrdomv><edom><edomv>G</edomv><edomvd>3000+ acres</edomvd></edom></attrdomv></attr></detailed></eainfo><distinfo><resdesc>env_wildfires_tracked_by_mndnr</resdesc><distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab><stdorder><digform><digtinfo><formname>Shapefile</formname><formvern>Not Applicable</formvern><transize>200</transize></digtinfo></digform><ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><address>500 Lafayette Rd</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150413</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>DNR - MIS</cntorg><cntper>Ken Boss</cntper></cntperp><cntpos>Systems Analyst</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>1201 E Hwy 2</address><city>Grand Rapids</city><state>MN</state><postal>55744</postal></cntaddr><cntvoice>218-999-7860</cntvoice><cntfax>218-327-4517</cntfax><cntemail>ken.boss@state.mn.us</cntemail></cntinfo></metc></metainfo></metadata>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources (DNR)</origin>
+        <pubdate>2003-06-18 00:00:00.0</pubdate>
+        <title>Wildfires Tracked by Minnesota DNR</title>
+        <pubinfo>
+          <publish>Minnesota DNR - Division of Forestry</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/env-wildfires-tracked-by-mndnr</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This theme shows the locations of wildfires for which the DNR was the primary responding agency. These include fires not only on state lands, but also rural private lands for which there is not another agency with primary responsibility. Wildfires that are not included in this theme are those that occur on federal and native American lands (several hundred annually) and those that are responded to by local fire departments (several thousand annually). DNR wildfire suppression responsibility is heaviest in the forested part of the state.</abstract>
+      <purpose>Enables analysis of spatial and temporal patterns in wildfire starts.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150413</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset.</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Weekly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-96.773290</westbc>
+        <eastbc>-89.809879</eastbc>
+        <northbc>49.317173</northbc>
+        <southbc>43.439532</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>fire, wildfire, forest fire, environment</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Perl Mapscript, Oracle 8</native>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_wildfires_tracked_by_mndnr/metadata/preview.jpg</browsen>
+      <browsed>The graphic is taken from the online interface to this dataset at http://www.dnr.state.mn.us/forestry/fire/maps/locations.html</browsed>
+    </browse>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>DNR - MIS</cntorg>
+          <cntper>Ken Boss</cntper>
+        </cntperp>
+        <cntpos>Systems Analyst</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>1201 E Hwy 2</address>
+          <city>Grand Rapids</city>
+          <state>MN</state>
+          <postal>55744</postal>
+        </cntaddr>
+        <cntvoice>218-999-7860</cntvoice>
+        <cntfax>218-327-4517</cntfax>
+        <cntemail>ken.boss@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Not applicable</logic>
+    <complete>Includes all fires reported by DNR field forestry offices.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Source layer pinmap:  DNR field personnel report fire locations using PLS descriptors.  The vast majority of fires are reported using a PLS forty descriptor, though occasionally a less precise PLS section descriptor may be used.  Fire location points are assigned by taking the nominal center of the indicated PLS forty (section).  Accordingly, fire locations can generally be considered to be accurate to within +-200 meters (1/8 mile), or +-800 meters (1/2 mile) in the rare instances where the fire location is reported using a PLS section descriptor.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Source layer pinmap:  Not Applicable
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Attribute Lineage for source table EVNT_WFIREPT3.DBF:  All attributes field-collected.
+</procdesc>
+      </procstep>
+    </lineage>
+    <attracc>
+      <attraccr>Source table EVNT_WFIREPT3.DBF:  Good - all data subjected to extensive validation checks at the time of data entry.
+</attraccr>
+    </attracc>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Not Applicable</indspref>
+    <direct>point</direct>
+    <mgmg3obj>point</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>EVNT_WFIREPT3.DBF</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>Unique ID, comprised of Year, Forestry RAN (a 3-digit administrative area identifier), and sequence number.  Eg.: 20032410056</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>START_DATE</attrlabl>
+        <attrdef>(Estimated) start date for this fire.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>START_TIME</attrlabl>
+        <attrdef>(Estimated) start time for this fire.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ACRES_F</attrlabl>
+        <attrdef>Number of forested acres burned.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ACRES_NF</attrlabl>
+        <attrdef>Number of non-forested acres burned.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ACRES_TOT</attrlabl>
+        <attrdef>Total number of acres burned.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>The name of the Minnesota county in which this fire occurred.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SECTION</attrlabl>
+        <attrdef>PLS section number. Valid values are 1-36.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TOWNSHIP</attrlabl>
+        <attrdef>Three-digit township (tier) number.  26 through 71, 101 through 168</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RANGE</attrlabl>
+        <attrdef>Two-digit range number.  1 through 51</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>RANGE_DIR</attrlabl>
+        <attrdef>Range direction.  "E" or "W"</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FORTY</attrlabl>
+        <attrdef>Textual PLS forty identifier</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>NENE</edomv>
+            <edomvd>Northeast Quarter of the Northeast Quarter of the PLS Section</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NENW</edomv>
+            <edomvd>Northeast Quarter of the Northwest Quarter of the PLS Section</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NESE</edomv>
+            <edomvd>Northeast Quarter of the Southwest Quarter of the PLS Section</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NESW</edomv>
+            <edomvd>Northeast Quarter of the Southwest Quarter of the PLS Section</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NWNE</edomv>
+            <edomvd>Northwest Quarter of the Northeast Quarter of the PLS Section</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NWNW</edomv>
+            <edomvd>Northwest Quarter of the Northwest Quarter of the PLS Section</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NWSE</edomv>
+            <edomvd>Northwest Quarter of the Southeast Quarter of the PLS Section</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NWSW</edomv>
+            <edomvd>Northwest Quarter of the Southwest Quarter of the PLS Section</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SENE</edomv>
+            <edomvd>Southeast Quarter of the Northeast Quarter of the PLS Section</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SENW</edomv>
+            <edomvd>Southeast Quarter of the Northwest Quarter of the PLS Section</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SESE</edomv>
+            <edomvd>Southeast Quarter of the Southeast Quarter of the PLS Section</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SESW</edomv>
+            <edomvd>Southeast Quarter of the Soutwest Quarter of the PLS Section</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SWNE</edomv>
+            <edomvd>Southwest Quarter of the Northeast Quarter of the PLS Section</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SWNW</edomv>
+            <edomvd>Southwest Quarter of the Northwest Quarter of the PLS Section</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SWSE</edomv>
+            <edomvd>Southeast Quarter of the Southeast Quarter of the PLS Section</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SWSW</edomv>
+            <edomvd>Southwest Quarter of the Southwest Quarter of the PLS Section</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CAUSE</attrlabl>
+        <attrdef>Cause of this fire.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Campfire</edomv>
+            <edomvd>Fire caused by campfire</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Debris - Ag.</edomv>
+            <edomvd>Fire caused by debris from agricultural operations</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Debris - Burner</edomv>
+            <edomvd>Fire caused by debris from burner</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Debris - Piled</edomv>
+            <edomvd>Fire caused by piled debris</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Debris - Running</edomv>
+            <edomvd>Fire caused by running debris</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Equipment - ATV</edomv>
+            <edomvd>Fire caused by all terrain vehicle equipment</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Equipment - Farm</edomv>
+            <edomvd>Fire caused by farm equipement</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Equipment - Misc. Tools</edomv>
+            <edomvd>Fire caused by miscellaneous equipment and tools</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Equipment - Road</edomv>
+            <edomvd>Fire caused by road maintenance equipement</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Equipment - Vehicle</edomv>
+            <edomvd>Fire caused by vehicle equipment</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Equipment - Welding/Cutting</edomv>
+            <edomvd>Fire caused by welding/cutting equipment</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Incendiary/Arson</edomv>
+            <edomvd>Fire caused by incendiary/arson</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Lightning</edomv>
+            <edomvd>Fire caused by lightning</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Misc. - Electric Fence</edomv>
+            <edomvd>Fire caused by electric fence</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Misc. - Fireworks</edomv>
+            <edomvd>Fire caused by fireworks</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Misc. - Other</edomv>
+            <edomvd>Fire caused by miscellaneous (other) reasons</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Misc. - Power Line</edomv>
+            <edomvd>Fire caused by power line</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Misc. - Prescribed Fire</edomv>
+            <edomvd>Fire caused by prescribed fire</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Misc. - Structure</edomv>
+            <edomvd>Fire caused by structure</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Railroad - Brakes</edomv>
+            <edomvd>Fire caused by railroad brakes</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Railroad - Exhaust</edomv>
+            <edomvd>Fire caused by railroad exhaust</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Railroad - Maintenance</edomv>
+            <edomvd>Fire caused by railroad maintenance</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Railroad - Other</edomv>
+            <edomvd>Fire caused by railroad (other)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Railroad - Wheel Bearings</edomv>
+            <edomvd>Fire caused by railroad wheel bearings</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Smoking</edomv>
+            <edomvd>Fire caused by smoking</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Vehicle</edomv>
+            <edomvd>Fire caused by vehicle</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERMIT</attrlabl>
+        <attrdef>Fire Permit Status</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No permit was issued, or permit not applicable</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>A permit was issued for this fire.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>INJURIES</attrlabl>
+        <attrdef>Number of injuries resulting from this fire.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FATALITIES</attrlabl>
+        <attrdef>Number of fatalities resulting from this fire.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SUP_COST</attrlabl>
+        <attrdef>Suppression costs associated with this fire.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>L_TIMBER</attrlabl>
+        <attrdef>Dollar losses of timber value as a result of this fire.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>L_AGRI</attrlabl>
+        <attrdef>Dollar losses of agricultural value as a result of this fire.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>L_PERSONAL</attrlabl>
+        <attrdef>Dollar losses of personal property as a result of this fire.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>L_OTHER</attrlabl>
+        <attrdef>Dollar losses of other property as a result of this fire.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>L_RES_DAM</attrlabl>
+        <attrdef>Number of residential structures damaged as a result of this fire.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>L_RES_DES</attrlabl>
+        <attrdef>Number of residential structures destroyed as a result of this fire.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>L_OUT_DAM</attrlabl>
+        <attrdef>Number of outbuildings damaged as a result of this fire.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>L_OUT_DES</attrlabl>
+        <attrdef>Number of outbuildings destroyed as a result of this fire.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>I_RPT_BY</attrlabl>
+        <attrdef>Origin of initial report of fire to DNR.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>9-1-1 Dispatcher</edomv>
+            <edomvd>9-1-1 Dispatcher</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Aerial Detection</edomv>
+            <edomvd>Aerial Detection</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>DNR Employee</edomv>
+            <edomvd>DNR Employee</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Fire Dept. Report</edomv>
+            <edomvd>Fire Dept. Report</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Fire Warden</edomv>
+            <edomvd>Fire Warden</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Local Resident</edomv>
+            <edomvd>Local Resident</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Other</edomv>
+            <edomvd>Other</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Passerby</edomv>
+            <edomvd>Passerby</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Responsible Party</edomv>
+            <edomvd>Responsible Party</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>tower</edomv>
+            <edomvd>Tower</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MAPPED_TO</attrlabl>
+        <attrdef>The type of PLS entity whose center point was taken as the location of this fire.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>PLS Forty</edomv>
+            <edomvd>PLS Forty</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PLS Section</edomv>
+            <edomvd>PLS Section</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PLS Township</edomv>
+            <edomvd>PLS Township</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SIZE_CLASS</attrlabl>
+        <attrdef>Size class for this fire.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>A</edomv>
+            <edomvd>0 - 0.25 acres</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>B</edomv>
+            <edomvd>0.26 - 9.9 acres</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>10 - 99 acres</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>100 - 299 acres</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>300 - 999 acres</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>1000 - 2999 acres</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>G</edomv>
+            <edomvd>3000+ acres</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <resdesc>env_wildfires_tracked_by_mndnr</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <formvern>Not Applicable</formvern>
+          <transize>200</transize>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150413</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>DNR - MIS</cntorg>
+          <cntper>Ken Boss</cntper>
+        </cntperp>
+        <cntpos>Systems Analyst</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>1201 E Hwy 2</address>
+          <city>Grand Rapids</city>
+          <state>MN</state>
+          <postal>55744</postal>
+        </cntaddr>
+        <cntvoice>218-999-7860</cntvoice>
+        <cntfax>218-327-4517</cntfax>
+        <cntemail>ken.boss@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

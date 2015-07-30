@@ -1,4 +1,90 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata><idinfo><citation><citeinfo><origin>Minnesota Department of Natural Resources (MNDNR)</origin><pubdate>20070301</pubdate><title>State Boundary, Minnesota</title><mgmg1cid></mgmg1cid><pubinfo><publish>Minnesota Department of Natural Resources (MNDNR)</publish></pubinfo><onlink>http://gisdata.mn.gov/dataset/bdry-state-of-minnesota</onlink></citeinfo></citation><descript><abstract>This is the standard Minnesota State Boundary dataset that is used by MNDNR and many other state agencies.  It is derived from the related dataset "County Boundaries, Minnesota" ( http://gisdata.mn.gov/dataset/bdry-counties-in-minnesota ) and is maintained by MNDNR's Lands and Minerals Divsion.  </abstract><purpose>This data was created to provide a standard boundary layer to represent the state.  This boundary is NOT a legal document, nor is it appropriate for use on large scale or site-specific maps and applications.  Best used at 1:24,000 or smaller scales.  For more detailed data we advise you contact the specific county of interest.</purpose><supplinf>Minnesota</supplinf></descript><timeperd><timeinfo><sngdate><caldate>20130701</caldate></sngdate></timeinfo><current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset.</current></timeperd><status><progress>Complete</progress><update>As needed</update></status><spdom><bounding><westbc>-97.23</westbc><eastbc>-89.53</eastbc><northbc>49.37</northbc><southbc>43.5</southbc></bounding></spdom><keywords><theme><themekey>boundaries, state, state boundary, Minnesota</themekey><themekt>ISO 19115 Category</themekt></theme><place><placekey>Minnesota, MN</placekey></place></keywords><accconst>None</accconst><useconst>Use of the data are constrained only by the DNR GIS Data License Agreement.  See the Distribution Liability section below for a link.</useconst><native>ArcView Shapefile</native><browse><browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_state_of_minnesota/preview/preview.jpg</browsen></browse><crossref><citeinfo><title>http://gisdata.mn.gov/dataset/bdry-counties-in-minnesota</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>500 Lafayette Rd</address><city>St. Paul</city><state>MN</state><postal>55155-4011</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>Not applicable as all fields are system or derived.</attraccr></attracc><logic>Polygon(s) are coincident, verified closed, and intersect where intended.</logic><complete>Complete over the area of the State of Minnesota</complete><posacc><horizpa><horizpar>The primary full-resolution feature class in the geodatabase is called:  state_of_minnesota
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources (MNDNR)</origin>
+        <pubdate>20070301</pubdate>
+        <title>State Boundary, Minnesota</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota Department of Natural Resources (MNDNR)</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/bdry-state-of-minnesota</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This is the standard Minnesota State Boundary dataset that is used by MNDNR and many other state agencies.  It is derived from the related dataset "County Boundaries, Minnesota" ( http://gisdata.mn.gov/dataset/bdry-counties-in-minnesota ) and is maintained by MNDNR's Lands and Minerals Divsion.  </abstract>
+      <purpose>This data was created to provide a standard boundary layer to represent the state.  This boundary is NOT a legal document, nor is it appropriate for use on large scale or site-specific maps and applications.  Best used at 1:24,000 or smaller scales.  For more detailed data we advise you contact the specific county of interest.</purpose>
+      <supplinf>Minnesota</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20130701</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.23</westbc>
+        <eastbc>-89.53</eastbc>
+        <northbc>49.37</northbc>
+        <southbc>43.5</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>boundaries, state, state boundary, Minnesota</themekey>
+        <themekt>ISO 19115 Category</themekt>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Use of the data are constrained only by the DNR GIS Data License Agreement.  See the Distribution Liability section below for a link.</useconst>
+    <native>ArcView Shapefile</native>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_state_of_minnesota/preview/preview.jpg</browsen>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <title>http://gisdata.mn.gov/dataset/bdry-counties-in-minnesota</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Rd</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155-4011</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Not applicable as all fields are system or derived.</attraccr>
+    </attracc>
+    <logic>Polygon(s) are coincident, verified closed, and intersect where intended.</logic>
+    <complete>Complete over the area of the State of Minnesota</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The primary full-resolution feature class in the geodatabase is called:  state_of_minnesota
 
 There are several reduced-resolution feature classes also included in the geodatabase which are useful for fast visual display or to support generating web services designed to be displayed at small scales.  
 
@@ -6,9 +92,122 @@ The naming convention for these reduced-resoultion feature classes indicates the
 
 When in doubt, always use the full resolution feature class by default:   state_of_minnesota
 
-Source accuracies vary greatly.  Public land survey derived lines and coincident county boundaries range in expected offsets from 50 to 200 feet, with the smaller value being more common.  The most significant offsets within this category are in the northeastern portion of the state where the USGS quad sources are most tentative with regards to section corner locations.  The boundaries that are not coincident with PLS lines are typically from 1990 vintage TIGER data with many off-sets in the 100 foot range.  The international boundary should be highly accurate as it was taken directly from legislative notes.  The Lake Superior North Shore was taken from the 1980's National Wetland Inventory and will typically exhibit off-sets of about 60 feet, with generally good depictions of the shore line character.  This data is NOT to be used as a legal document, and is not accurate enough for site-level analysis.</horizpar></horizpa><vertacc><vertaccr>Not Applicable
-</vertaccr></vertacc></posacc><lineage><srcinfo><srcscale>Source layer plsctne3:  24000
-</srcscale></srcinfo><procstep><procdesc>Attribute Lineage:  Some attribute table restructuring was performing during the GIS Core Library development effort in March 1996.  This entailed bringing in selected fields from the county cross-reference table, including county names and county abbreviations.
+Source accuracies vary greatly.  Public land survey derived lines and coincident county boundaries range in expected offsets from 50 to 200 feet, with the smaller value being more common.  The most significant offsets within this category are in the northeastern portion of the state where the USGS quad sources are most tentative with regards to section corner locations.  The boundaries that are not coincident with PLS lines are typically from 1990 vintage TIGER data with many off-sets in the 100 foot range.  The international boundary should be highly accurate as it was taken directly from legislative notes.  The Lake Superior North Shore was taken from the 1980's National Wetland Inventory and will typically exhibit off-sets of about 60 feet, with generally good depictions of the shore line character.  This data is NOT to be used as a legal document, and is not accurate enough for site-level analysis.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not Applicable
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>Source layer plsctne3:  24000
+</srcscale>
+      </srcinfo>
+      <procstep>
+        <procdesc>Attribute Lineage:  Some attribute table restructuring was performing during the GIS Core Library development effort in March 1996.  This entailed bringing in selected fields from the county cross-reference table, including county names and county abbreviations.
 
-This dataset is derived from MNDNR's dataset referred to as "County Boundaries, Minnesota" (bdry_counties_in_minnesota) which can also be found on the Minnesota Geospatial Commons website.  Original source data was the MNDNR's early public land survey ArcInfo spatial database referred to as plsctne3.</procdesc></procstep></lineage></dataqual><spdoinfo><indspref></indspref><direct>vector</direct><mgmg3obj>polygon</mgmg3obj><mgmg3til>state</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>Not Applicable</altdatum><altunits>Not Applicable</altunits></altsys><depthsys><depthdn>Not Applicable</depthdn><depthdu>Not Applicable</depthdu></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><distinfo><resdesc>bdry_state_of_minnesota</resdesc><distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html
-</distliab><stdorder><digform><digtinfo><formname>ArcView Shapefile</formname><formvern>Not Applicable</formvern><transize></transize></digtinfo></digform><ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>500 Lafayette Rd</address><city>St. Paul</city><state>MN</state><postal>55155-4011</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20140924</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>500 Lafayette Rd</address><city>St. Paul</city><state>MN</state><postal>55155-4011</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></metc></metainfo><eainfo><overview><eaover>The attribute table for this dataset contains only system fields or those derived from data processing.  None are of general interest.</eaover></overview></eainfo></metadata>
+This dataset is derived from MNDNR's dataset referred to as "County Boundaries, Minnesota" (bdry_counties_in_minnesota) which can also be found on the Minnesota Geospatial Commons website.  Original source data was the MNDNR's early public land survey ArcInfo spatial database referred to as plsctne3.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref/>
+    <direct>vector</direct>
+    <mgmg3obj>polygon</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <resdesc>bdry_state_of_minnesota</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html
+</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shapefile</formname>
+          <formvern>Not Applicable</formvern>
+          <transize/>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Rd</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155-4011</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20140924</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Rd</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155-4011</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <eainfo>
+    <overview>
+      <eaover>The attribute table for this dataset contains only system fields or those derived from data processing.  None are of general interest.</eaover>
+    </overview>
+  </eainfo>
+</metadata>

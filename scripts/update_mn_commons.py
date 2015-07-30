@@ -24,8 +24,11 @@ for root, dirs, files in os.walk(RESOURCES_PATH):
     if "metadata" in dirs:
         ds_name = root.split(os.path.sep)[-2] +"_"+ root.split(os.path.sep)[-1]
         if os.path.isfile(os.path.join(root, PATH_TO_METADATA_XML)):
-            shutil.copyfile(os.path.join(root, 
-                    PATH_TO_METADATA_XML), 
-                os.path.join(MN_COMMONS_PATH, 
+            shutil.copyfile(os.path.join(root,
+                    PATH_TO_METADATA_XML),
+                os.path.join(MN_COMMONS_PATH,
                     ds_name + ".xml"))
             print "copied {ds}".format(ds=ds_name)
+
+os.system("./remove_BOM_folder.py ../mn-geospatial-commons")
+os.system("./prettify_folder.py ../mn-geospatial-commons")
