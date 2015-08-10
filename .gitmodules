@@ -1,0 +1,3 @@
+[submodule "scripts/OGP-metadata-py"]
+	path = scripts/OGP-metadata-py
+	url = https://github.com/krdyke/OGP-metadata-py.git
