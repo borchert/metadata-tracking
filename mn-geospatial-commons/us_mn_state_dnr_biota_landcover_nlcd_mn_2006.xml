@@ -1,8 +1,336 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata><idinfo><citation><citeinfo><origin>U.S. Geological Survey</origin><pubdate>2011-02-16</pubdate><title>NLCD 2006 Land Cover</title><pubinfo><publish>Minnesota Department of Natural Resources (DNR)</publish><pubplace>Sioux Falls, SD</pubplace></pubinfo><onlink>http://gisdata.mn.gov/dataset/biota-landcover-nlcd-mn-2006</onlink></citeinfo></citation><descript><abstract>This Minnesota NLCD layer is derived from the full NLCD dataset. The national raster is clipped and projected to UTM Zone 15N. For the original dataset in Albers Equal Area Conic, refer to the NLCD webpage:
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>2011-02-16</pubdate>
+        <title>NLCD 2006 Land Cover</title>
+        <pubinfo>
+          <publish>Minnesota Department of Natural Resources (DNR)</publish>
+          <pubplace>Sioux Falls, SD</pubplace>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/biota-landcover-nlcd-mn-2006</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This Minnesota NLCD layer is derived from the full NLCD dataset. The national raster is clipped and projected to UTM Zone 15N. For the original dataset in Albers Equal Area Conic, refer to the NLCD webpage:
 http://www.mrlc.gov/nlcd06_data.php
 
 The National Land Cover Database products are created through a cooperative project conducted by the Multi-Resolution Land Characteristics (MRLC) Consortium.  The MRLC Consortium is a partnership of federal agencies (www.mrlc.gov), consisting of the U.S. Geological Survey (USGS), the National Oceanic and Atmospheric Administration (NOAA), the U.S. Environmental Protection Agency (EPA), the U.S. Department of Agriculture (USDA), the U.S. Forest Service (USFS), the National Park Service (NPS), the U.S. Fish and Wildlife Service (FWS), the Bureau of Land Management (BLM) and the USDA Natural Resources Conservation Service (NRCS).  Previously, NLCD consisted of three major data releases based on a 10-year cycle.  These include a circa 1992 conterminous U.S. land cover dataset with one thematic layer (NLCD 1992), a circa 2001 50-state/Puerto Rico updated U.S. land cover database (NLCD 2001) with three layers including thematic land cover, percent imperviousness, and percent tree canopy, and a 1992/2001 Land Cover Change Retrofit Product.  With these national data layers, there is often a 5-year time lag between the image capture date and product release.  In some areas, the land cover can undergo significant change during production time, resulting in products that may be perpetually out of date.  To address these issues, this circa 2006 NLCD land cover product (NLCD 2006) was conceived to meet user community needs for more frequent land cover monitoring (moving to a 5-year cycle) and to reduce the production time between image capture and product release.  NLCD 2006 is designed to provide the user both updated land cover data and additional information that can be used to identify the pattern, nature, and magnitude of changes occurring between 2001 and 2006 for the conterminous United States at medium spatial resolution.
 
-Land cover maps, derivatives and all associated documents are considered "provisional" until a formal accuracy assessment can be conducted. For further information on MRLC and the NLCD 2001 products, refer to the text file &lt;a href="metadata_nlcd2006_landcover_4-20-11.txt" target=_blank&gt;metadata_nlcd2006_landcover_4-20-11.txt&lt;/a&gt;.</abstract><purpose>The goal of this project is to provide the Nation with complete, current and consistent public domain information on its land use and land cover.</purpose><supplinf>Minnesota</supplinf></descript><timeperd><current>Ground condition</current><timeinfo><sngdate><caldate>2005-02-11 / 2007-10-03</caldate></sngdate></timeinfo></timeperd><status><progress>In work</progress><update>Every 5 Years</update></status><spdom><bounding><westbc>-96.925248</westbc><eastbc>-89.225467</eastbc><northbc>49.366186</northbc><southbc>43.375289</southbc></bounding></spdom><keywords><place><placekey>United States, U.S., US, Minnesota, MN</placekey></place><theme><themekt>ISO 19115 Topic Category</themekt><themekey>Land Cover, USGS</themekey></theme></keywords><accconst>None</accconst><useconst>None</useconst><native>ESRI File Geodatabase</native><crossref><citeinfo><title>&lt;a href="../../biota_landcover_nlcd_mn_2001/metadata/metadata.html" target=_blank&gt;NLCD 2001 Land Cover&lt;/a&gt;</title></citeinfo></crossref><browse><browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/biota_landcover_nlcd_mn_2006/metadata/preview.jpg</browsen></browse><ptcontac><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><address>500 Lafayette Rd</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><logic>Not Applicable</logic><complete>Complete over the State of Minnesota</complete><posacc><horizpa><horizpar>Not Applicable
-</horizpar></horizpa><vertacc><vertaccr>Not Applicable
-</vertaccr></vertacc></posacc></dataqual><spdoinfo><direct>raster</direct><mgmg3obj>grid</mgmg3obj><mgmg3til>state</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>Not Applicable</altdatum><altunits>Not Applicable</altunits></altsys><depthsys><depthdn>Not Applicable</depthdn><depthdu>Not Applicable</depthdu></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu><coordrep><absres>0.00001</absres><ordres>0.00001</ordres></coordrep></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>nlcd_mn_2006_land_cover</enttypl></enttyp><attr><attrlabl>VALUE</attrlabl><attrdef>Land Cover Class Code Value</attrdef><attrdefs>USGS</attrdefs><attrdomv><edom><edomv>11</edomv><edomvd>Open Water - All areas of open water, generally with less than 25% cover or vegetation or soil</edomvd></edom></attrdomv><attrdomv><edom><edomv>21</edomv><edomvd>Developed, Open Space - Includes areas with a mixture of some constructed materials, but mostly vegetation in the form of lawn grasses. Impervious surfaces account for less than 20 percent of total cover. These areas most commonly include large-lot single-family housing units, parks, golf courses, and vegetation planted in developed settings for recreation, erosion control, or aesthetic purposes.</edomvd></edom></attrdomv><attrdomv><edom><edomv>22</edomv><edomvd>Developed, Low Intensity - Includes areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 20-49 percent of total cover. These areas most commonly include single-family housing units.</edomvd></edom></attrdomv><attrdomv><edom><edomv>23</edomv><edomvd>Developed, Medium Intensity - Includes areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 50-79 percent of the total cover. These areas most commonly include single-family housing units.</edomvd></edom></attrdomv><attrdomv><edom><edomv>24</edomv><edomvd>Developed, High Intensity - Includes highly developed areas where people reside or work in high numbers. Examples include apartment complexes, row houses and commercial/industrial. Impervious surfaces account for 80 to 100 percent of the total cover.</edomvd></edom></attrdomv><attrdomv><edom><edomv>31</edomv><edomvd>Barren Land (Rock/Sand/Clay) - Barren areas of bedrock, desert pavement, scarps, talus, slides, volcanic material, glacial debris, sand dunes, strip mines, gravel pits and other accumulations of earthen material. Generally, vegetation accounts for less than 15% of total cover.</edomvd></edom></attrdomv><attrdomv><edom><edomv>41</edomv><edomvd>Deciduous Forest - Areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75 percent of the tree species shed foliage simultaneously in response to seasonal change.</edomvd></edom></attrdomv><attrdomv><edom><edomv>42</edomv><edomvd>Evergreen Forest - Areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75 percent of the tree species maintain their leaves all year. Canopy is never without green foliage.</edomvd></edom></attrdomv><attrdomv><edom><edomv>43</edomv><edomvd>Mixed Forest - Areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. Neither deciduous nor evergreen species are greater than 75 percent of total tree cover.</edomvd></edom></attrdomv><attrdomv><edom><edomv>52</edomv><edomvd>Shrub/Scrub - Areas dominated by shrubs; less than 5 meters tall with shrub canopy typically greater than 20% of total vegetation. This class includes true shrubs, young trees in an early successional stage or trees stunted from environmental conditions.</edomvd></edom></attrdomv><attrdomv><edom><edomv>71</edomv><edomvd>Grassland/Herbaceous - Areas dominated by grammanoid or herbaceous vegetation, generally greater than 80% of total vegetation. These areas are not subject to intensive management such as tilling, but can be utilized for grazing.</edomvd></edom></attrdomv><attrdomv><edom><edomv>81</edomv><edomvd>Pasture/Hay - Areas of grasses, legumes, or grass-legume mixtures planted for livestock grazing or the production of seed or hay crops, typically on a perennial cycle. Pasture/hay vegetation accounts for greater than 20 percent of total vegetation.</edomvd></edom></attrdomv><attrdomv><edom><edomv>82</edomv><edomvd>Cultivated Crops - Areas used for the production of annual crops, such as corn, soybeans, vegetables, tobacco, and cotton, and also perennial woody crops such as orchards and vineyards. Crop vegetation accounts for greater than 20 percent of total vegetation. This class also includes all land being actively tilled.</edomvd></edom></attrdomv><attrdomv><edom><edomv>90</edomv><edomvd>Woody Wetlands - Areas where forest or shrub land vegetation accounts for greater than 20 percent of vegetative cover and the soil or substrate is periodically saturated with or covered with water.</edomvd></edom></attrdomv><attrdomv><edom><edomv>95</edomv><edomvd>Emergent Herbaceous Wetlands - Areas where perennial herbaceous vegetation accounts for greater than 80 percent of vegetative cover and the soil or substrate is periodically saturated with or covered with water.</edomvd></edom></attrdomv></attr><attr><attrlabl>COUNT</attrlabl><attrdef>A nominal integer value that designates the number of pixels that have each value in the file; histogram column in ERDAS Imagine raster attributes table</attrdef></attr><attr><attrlabl>SHORT_DEF</attrlabl><attrdef>Land Cover Class Code Short Description</attrdef><attrdefs>USGS</attrdefs></attr><attr><attrlabl>LONG_DEF</attrlabl><attrdef>Land Cover Class Code Long Description</attrdef><attrdefs>USGS</attrdefs></attr></detailed></eainfo><distinfo><resdesc>biota_landcover_nlcd_mn_2006</resdesc><distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab><stdorder><digform><digtinfo><formname>ESRI File Geodatabase</formname><formvern>10</formvern><transize>116582</transize></digtinfo></digform><ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><address>500 Lafayette Rd</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20141023</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><address>500 Lafayette Rd</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></metc></metainfo><dataIdInfo><idPurp>The goal of this project is to provide the Nation with complete, current and consistent public domain information on its land use and land cover.</idPurp><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;The National Land Cover Database 2006 land cover layer for Minnesota (mapping zones 31-51) was produced through a cooperative project conducted by the Multi-Resolution Land Characteristics (MRLC) Consortium. One of the primary goals of the project is to generate a current, consistent, seamless, and accurate National Land cover Database (NLCD) circa 2001 for the United States at medium spatial resolution. This landcover map and all documents pertaining to it are considered "provisional" until a formal accuracy assessment can be conducted. For a detailed definition and discussion on MRLC and the NLCD 2001 products, refer to Homer et al. (2004).&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><idCitation><resTitle>NLCD 2006 Land Cover</resTitle></idCitation><searchKeys><keyword>Land Cover</keyword><keyword>GIS</keyword><keyword>U.S. Geological Survey</keyword><keyword>USGS</keyword><keyword>digital spatial data</keyword><keyword>Base Maps</keyword><keyword>Land Cover</keyword><keyword>Earth Cover</keyword><keyword>biota</keyword></searchKeys><resConst><Consts><useLimit>None</useLimit></Consts></resConst><tpCat><TopicCatCd value="002"></TopicCatCd></tpCat></dataIdInfo><Esri><ArcGISProfile>FGDC</ArcGISProfile></Esri></metadata>
+Land cover maps, derivatives and all associated documents are considered "provisional" until a formal accuracy assessment can be conducted. For further information on MRLC and the NLCD 2001 products, refer to the text file &lt;a href="metadata_nlcd2006_landcover_4-20-11.txt" target=_blank&gt;metadata_nlcd2006_landcover_4-20-11.txt&lt;/a&gt;.</abstract>
+      <purpose>The goal of this project is to provide the Nation with complete, current and consistent public domain information on its land use and land cover.</purpose>
+      <supplinf>Minnesota</supplinf>
+    </descript>
+    <timeperd>
+      <current>Ground condition</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>2005-02-11 / 2007-10-03</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Every 5 Years</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-96.925248</westbc>
+        <eastbc>-89.225467</eastbc>
+        <northbc>49.366186</northbc>
+        <southbc>43.375289</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <place>
+        <placekey>United States, U.S., US, Minnesota, MN</placekey>
+      </place>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>Land Cover, USGS</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>ESRI File Geodatabase</native>
+    <crossref>
+      <citeinfo>
+        <title>&lt;a href="../../biota_landcover_nlcd_mn_2001/metadata/metadata.html" target=_blank&gt;NLCD 2001 Land Cover&lt;/a&gt;</title>
+      </citeinfo>
+    </crossref>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/biota_landcover_nlcd_mn_2006/metadata/preview.jpg</browsen>
+    </browse>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Not Applicable</logic>
+    <complete>Complete over the State of Minnesota</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Not Applicable
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not Applicable
+</vertaccr>
+      </vertacc>
+    </posacc>
+  </dataqual>
+  <spdoinfo>
+    <direct>raster</direct>
+    <mgmg3obj>grid</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+          <coordrep>
+            <absres>0.00001</absres>
+            <ordres>0.00001</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>nlcd_mn_2006_land_cover</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>VALUE</attrlabl>
+        <attrdef>Land Cover Class Code Value</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>Open Water - All areas of open water, generally with less than 25% cover or vegetation or soil</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>21</edomv>
+            <edomvd>Developed, Open Space - Includes areas with a mixture of some constructed materials, but mostly vegetation in the form of lawn grasses. Impervious surfaces account for less than 20 percent of total cover. These areas most commonly include large-lot single-family housing units, parks, golf courses, and vegetation planted in developed settings for recreation, erosion control, or aesthetic purposes.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>22</edomv>
+            <edomvd>Developed, Low Intensity - Includes areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 20-49 percent of total cover. These areas most commonly include single-family housing units.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>23</edomv>
+            <edomvd>Developed, Medium Intensity - Includes areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 50-79 percent of the total cover. These areas most commonly include single-family housing units.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>24</edomv>
+            <edomvd>Developed, High Intensity - Includes highly developed areas where people reside or work in high numbers. Examples include apartment complexes, row houses and commercial/industrial. Impervious surfaces account for 80 to 100 percent of the total cover.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>31</edomv>
+            <edomvd>Barren Land (Rock/Sand/Clay) - Barren areas of bedrock, desert pavement, scarps, talus, slides, volcanic material, glacial debris, sand dunes, strip mines, gravel pits and other accumulations of earthen material. Generally, vegetation accounts for less than 15% of total cover.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>41</edomv>
+            <edomvd>Deciduous Forest - Areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75 percent of the tree species shed foliage simultaneously in response to seasonal change.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>42</edomv>
+            <edomvd>Evergreen Forest - Areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75 percent of the tree species maintain their leaves all year. Canopy is never without green foliage.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>43</edomv>
+            <edomvd>Mixed Forest - Areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. Neither deciduous nor evergreen species are greater than 75 percent of total tree cover.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>52</edomv>
+            <edomvd>Shrub/Scrub - Areas dominated by shrubs; less than 5 meters tall with shrub canopy typically greater than 20% of total vegetation. This class includes true shrubs, young trees in an early successional stage or trees stunted from environmental conditions.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>71</edomv>
+            <edomvd>Grassland/Herbaceous - Areas dominated by grammanoid or herbaceous vegetation, generally greater than 80% of total vegetation. These areas are not subject to intensive management such as tilling, but can be utilized for grazing.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>81</edomv>
+            <edomvd>Pasture/Hay - Areas of grasses, legumes, or grass-legume mixtures planted for livestock grazing or the production of seed or hay crops, typically on a perennial cycle. Pasture/hay vegetation accounts for greater than 20 percent of total vegetation.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>82</edomv>
+            <edomvd>Cultivated Crops - Areas used for the production of annual crops, such as corn, soybeans, vegetables, tobacco, and cotton, and also perennial woody crops such as orchards and vineyards. Crop vegetation accounts for greater than 20 percent of total vegetation. This class also includes all land being actively tilled.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>90</edomv>
+            <edomvd>Woody Wetlands - Areas where forest or shrub land vegetation accounts for greater than 20 percent of vegetative cover and the soil or substrate is periodically saturated with or covered with water.</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>95</edomv>
+            <edomvd>Emergent Herbaceous Wetlands - Areas where perennial herbaceous vegetation accounts for greater than 80 percent of vegetative cover and the soil or substrate is periodically saturated with or covered with water.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNT</attrlabl>
+        <attrdef>A nominal integer value that designates the number of pixels that have each value in the file; histogram column in ERDAS Imagine raster attributes table</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SHORT_DEF</attrlabl>
+        <attrdef>Land Cover Class Code Short Description</attrdef>
+        <attrdefs>USGS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LONG_DEF</attrlabl>
+        <attrdef>Land Cover Class Code Long Description</attrdef>
+        <attrdefs>USGS</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <resdesc>biota_landcover_nlcd_mn_2006</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI File Geodatabase</formname>
+          <formvern>10</formvern>
+          <transize>116582</transize>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141023</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <dataIdInfo>
+    <idPurp>The goal of this project is to provide the Nation with complete, current and consistent public domain information on its land use and land cover.</idPurp>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;The National Land Cover Database 2006 land cover layer for Minnesota (mapping zones 31-51) was produced through a cooperative project conducted by the Multi-Resolution Land Characteristics (MRLC) Consortium. One of the primary goals of the project is to generate a current, consistent, seamless, and accurate National Land cover Database (NLCD) circa 2001 for the United States at medium spatial resolution. This landcover map and all documents pertaining to it are considered "provisional" until a formal accuracy assessment can be conducted. For a detailed definition and discussion on MRLC and the NLCD 2001 products, refer to Homer et al. (2004).&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idCitation>
+      <resTitle>NLCD 2006 Land Cover</resTitle>
+    </idCitation>
+    <searchKeys>
+      <keyword>Land Cover</keyword>
+      <keyword>GIS</keyword>
+      <keyword>U.S. Geological Survey</keyword>
+      <keyword>USGS</keyword>
+      <keyword>digital spatial data</keyword>
+      <keyword>Base Maps</keyword>
+      <keyword>Land Cover</keyword>
+      <keyword>Earth Cover</keyword>
+      <keyword>biota</keyword>
+    </searchKeys>
+    <resConst>
+      <Consts>
+        <useLimit>None</useLimit>
+      </Consts>
+    </resConst>
+    <tpCat>
+      <TopicCatCd value="002"/>
+    </tpCat>
+  </dataIdInfo>
+  <Esri>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+  </Esri>
+</metadata>

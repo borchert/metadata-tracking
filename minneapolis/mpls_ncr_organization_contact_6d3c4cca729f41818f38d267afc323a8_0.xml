@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -99,23 +99,15 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>&lt;div&gt;&lt;p style='line-height: 1.5em; padding: 0px; font-size: 12px; font-family: Verdana, Helvetica, sans-serif; background-color: rgb(255, 255, 255);'&gt;&lt;span style='overflow: auto;'&gt;For questions about this data please contact&#160;&lt;a href='mailto:NeighborhoodandCommunityRelationsOpenData@minneapolismn.gov' style='font-family: Verdana; font-size: 13px; line-height: 1.38461538461538; background-color: transparent;' target='_blank'&gt;NCROpenData@minneapolismn.gov&lt;/a&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;General locations of the Neighborhood Organizations in the City of Minneapolis and their contact information.&#160;&lt;div&gt;&lt;u&gt;&lt;span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-mso-hansi-font-family:Calibri;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-color:black'&gt;&lt;br /&gt;&lt;/span&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;span style='line-height: normal;'&gt;&lt;span style='color: black;'&gt;Explanation of data provided in the &lt;b&gt;&lt;i&gt;Neighborhood Organization Contact&#13;
-Information&lt;/i&gt;&lt;/b&gt; report:&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;&lt;span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-mso-hansi-font-family:Calibri;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-color:black'&gt;NCR Neighborhood Specialist&lt;/span&gt;&lt;/i&gt;&lt;/b&gt;&lt;span style='line-height: normal; color: black;'&gt; - The City of Minneapolis&#13;
+            <gco:CharacterString>For questions about this data please contact&#160;NCROpenData@minneapolismn.gov&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;General locations of the Neighborhood Organizations in the City of Minneapolis and their contact information.&#160;&amp;#xD;&amp;#xA;Explanation of data provided in the Neighborhood Organization Contact&#13;
+Information report:NCR Neighborhood Specialist - The City of Minneapolis&#13;
 Neighborhood and Community Relations department staff assigned to work with&#13;
 each Minneapolis neighborhood.&#160; Neighborhood&#13;
 Specialists provide support for neighborhood planning and community engagement&#13;
 efforts, oversee the tracking and administrative functions associated with&#13;
 implementing neighborhood plans, and oversee additional administrative&#13;
 functions to support the financial and organizational capacity of neighborhood&#13;
-groups. Column name NCR_N_SPEC.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;&lt;span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-mso-hansi-font-family:Calibri;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-color:black'&gt;&lt;br /&gt;&lt;/span&gt;&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;&lt;span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-mso-hansi-font-family:Calibri;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-color:black'&gt;NCR Community Specialist&lt;/span&gt;&lt;/i&gt;&lt;/b&gt;&lt;span style='line-height: normal; color: black;'&gt; - The City of Minneapolis&#13;
+groups. Column name NCR_N_SPEC.&amp;#xD;&amp;#xA;NCR Community Specialist - The City of Minneapolis&#13;
 Neighborhood and Community Relations department staff also assigned to work&#13;
 with each Minneapolis neighborhood.&#160;&#13;
 These staff provide support for neighborhood planning and community&#13;
@@ -125,13 +117,9 @@ current neighborhood planning and engagement activities or are generally harder&
 to reach on an ongoing basis.&#160; Community&#13;
 Specialists also work with other non-geographically-based community&#13;
 organizations throughout Minneapolis to more fully engage target populations&#13;
-throughout the city. Column name NCR_C_SPEC.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;&lt;span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-mso-hansi-font-family:Calibri;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-color:black'&gt;&lt;br /&gt;&lt;/span&gt;&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;&lt;span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-mso-hansi-font-family:Calibri;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-color:black'&gt;PlanNet Neighborhood Name (for sorting with other PlanNet info)&lt;/span&gt;&lt;/i&gt;&lt;/b&gt;&lt;span style='line-height: normal; color: black;'&gt; &#8211; This is a field used in PlanNet &#8211; the City&#8217;s information system&#13;
+throughout the city. Column name NCR_C_SPEC.&amp;#xD;&amp;#xA;PlanNet Neighborhood Name (for sorting with other PlanNet info) &#8211; This is a field used in PlanNet &#8211; the City&#8217;s information system&#13;
 used for tracking NRP and CPP neighborhood initiatives.&#160; It is included for use in conjunction with&#13;
-other PlanNet-derived data. Column name SYSNAME.&lt;/span&gt;&lt;/div&gt;</gco:CharacterString>
+other PlanNet-derived data. Column name SYSNAME.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -255,7 +243,7 @@ other PlanNet-derived data. Column name SYSNAME.&lt;/span&gt;&lt;/div&gt;</gco:C
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/OPENDATA_NCR_ORGCONTACT/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/OPENDATA_NCR_ORGCONTACT/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

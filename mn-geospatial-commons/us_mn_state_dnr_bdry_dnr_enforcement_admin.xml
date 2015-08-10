@@ -18,7 +18,7 @@
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20150630</caldate>
+          <caldate>20150717</caldate>
         </sngdate>
       </timeinfo>
       <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset.</current>
@@ -48,7 +48,7 @@
     <useconst>Use of the data are constrained only by the DNR GIS Data License Agreement. See the Distribution Liability section below for a link.</useconst>
     <native>ESRI Shapefile</native>
     <browse>
-      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/bdry_dnr_enforcement_admin/preview/preview.jpg</browsen>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_dnr_enforcement_admin/preview/preview.jpg</browsen>
     </browse>
     <crossref>
       <citeinfo>

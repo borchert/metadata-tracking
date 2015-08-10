@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -99,7 +99,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>&lt;font size='3'&gt;Map service showing the&#160;&lt;a href='http://www.minneapolismn.gov/hpc/' target='_blank'&gt;Heritage Preservation Commission Districts&lt;/a&gt;&lt;span style='color: rgb(0, 51, 102); line-height: normal;'&gt;&#160;in Minneapolis.&lt;/span&gt;&lt;/font&gt;</gco:CharacterString>
+            <gco:CharacterString>Map service showing the&#160;Heritage Preservation Commission Districts&#160;in Minneapolis.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -229,7 +229,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Minneapolis_HPC_District/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Minneapolis_HPC_District/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

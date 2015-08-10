@@ -83,7 +83,7 @@ Re-delineations and edits (to the waterbody delineations) are frequent and occur
     <useconst>None</useconst>
     <native>Shapefile</native>
     <browse>
-      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/env_designated_infested_waters/metadata/preview.jpg</browsen>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_designated_infested_waters/metadata/preview.jpg</browsen>
     </browse>
     <crossref>
       <citeinfo>

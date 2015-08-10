@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -99,9 +99,9 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>&lt;p style='margin-bottom:0in;margin-bottom:.0001pt'&gt;&lt;font size='3'&gt;&lt;span style='line-height: 115%; color: rgb(77, 77, 77); background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;'&gt;The major water bodies within the Minneapolis&#160;&lt;/span&gt;city limits.&#13;
-Includes polygons for the Mississippi River, major lakes, and streams.&#160;&lt;span style='background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;'&gt;If there are any issues with the&#13;
-data in this map, service, or shp file please contact the Minneapolis&lt;/span&gt;&lt;span style='line-height: 115%; color: rgb(77, 77, 77); background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;'&gt;&#160;&lt;/span&gt;&lt;a href='mailto:gis@minneapolismn.gov' style='outline: none !important;' target='_self'&gt;&lt;span style='line-height: 115%; color: rgb(33, 117, 155); background: white;'&gt;GIS office&lt;/span&gt;&lt;/a&gt;&lt;span style='line-height: 115%;'&gt;.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;</gco:CharacterString>
+            <gco:CharacterString>The major water bodies within the Minneapolis&#160;city limits.&#13;
+Includes polygons for the Mississippi River, major lakes, and streams.&#160;If there are any issues with the&#13;
+data in this map, service, or shp file please contact the Minneapolis&#160;GIS office.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -231,7 +231,7 @@ data in this map, service, or shp file please contact the Minneapolis&lt;/span&g
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Water_Bodies/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Water_Bodies/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

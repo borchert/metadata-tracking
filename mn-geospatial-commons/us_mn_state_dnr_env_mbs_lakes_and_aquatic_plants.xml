@@ -1,3 +1,171 @@
-<metadata><idinfo><citation><citeinfo><origin>Minnesota Department of Natural Resources (DNR)</origin><pubdate>20140328</pubdate><title>Minnesota Biological Survey Lakes and Aquatic Plant Data</title><pubinfo><publish>Minnesota DNR - Division of Ecological Resources</publish></pubinfo><onlink>http://gisdata.mn.gov/dataset/env-mbs-lakes-and-aquatic-plants</onlink></citeinfo></citation><descript><abstract>This data set is a GIS point feature class derived from the Minnesota Biological Survey Lakes Database. Each point in this layer is located within a lake in which a search for rare aquatic plant species was conducted by the Minnesota Biological Survey. In the course of these surveys, every aquatic and emergent plant species observed in the lake was recorded, as well as a limited number of shoreline species. Each plant species is listed by common and scientific name. Rare, exotic and collected species are noted in the attribute table including annotations of collections of these species by authorities. The area surveyed, the location of the lake and a brief description of the lake are also included in the attribute table.
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources (DNR)</origin>
+        <pubdate>20140328</pubdate>
+        <title>Minnesota Biological Survey Lakes and Aquatic Plant Data</title>
+        <pubinfo>
+          <publish>Minnesota DNR - Division of Ecological Resources</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/env-mbs-lakes-and-aquatic-plants</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set is a GIS point feature class derived from the Minnesota Biological Survey Lakes Database. Each point in this layer is located within a lake in which a search for rare aquatic plant species was conducted by the Minnesota Biological Survey. In the course of these surveys, every aquatic and emergent plant species observed in the lake was recorded, as well as a limited number of shoreline species. Each plant species is listed by common and scientific name. Rare, exotic and collected species are noted in the attribute table including annotations of collections of these species by authorities. The area surveyed, the location of the lake and a brief description of the lake are also included in the attribute table.
 
-The point listed for the lake is near the point of access and not necessarily an indicator of the precise location of any rare aquatic species present in the lake. When a rare species is indicated, it has been observed to occur within the lake and documented with a herbarium collection which has been submitted to the University of Minnesota Herbarium.</abstract><purpose>To make available results of Minnesota Biological Aquatic Plant Survey for reference and research.</purpose></descript><timeperd><timeinfo><sngdate><caldate>20141204</caldate></sngdate></timeinfo><current>1995 to 2014. Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset.</current></timeperd><status><progress>Minnesota Biological Survey is ongoing with data to be added after each field season.</progress><update>Annually</update></status><spdom><bounding><westbc>-97.23</westbc><eastbc>-89.53</eastbc><northbc>49.37</northbc><southbc>43.5</southbc></bounding></spdom><keywords><theme><themekey>Lakes, aquatic plant survey, rare species</themekey></theme><place><placekey>Minnesota</placekey></place></keywords><accconst>None</accconst><useconst>Users must include in any product derived from this GIS data set an acknowledgment of the Minnesota Biological Survey as the source of information. In addition, in order to protect DNR's copyright interest in these data, the user must also include an appropriate copyright notice in the name of the DNR or the user.</useconst><native>ArcView Shapefile</native><browse><browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_mbs_lakes_and_aquatic_plants/metadata/preview.jpg</browsen></browse><ptcontac><cntinfo><cntperp><cntorg>Minnesota DNR - Division of Ecological and Water Resources</cntorg><cntper>Karen Myhre, botanist; Carmen Converse, supervisor Minnesota Biological Survey</cntper></cntperp><cntaddr><addrtype>Mailing and Physical</addrtype><address>Box 25 500 Lafayette Road</address><city>St Paul</city><state>MN</state><postal>55155-4025</postal></cntaddr><cntvoice>(651) 259-5083</cntvoice><cntemail>karen.myhre@state.mn.us; caremen.converse@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><complete>Data continues to be collected. Data recorded here includes 2013 survey results.</complete><posacc><horizpa><horizpar>No quantitative studies of horizontal positional accuracy exist for the data. Positional accuracy can be reasonably estimated based on the characteristics of source materials and processing techniques to be 45-60 feet (14-18 meters) from correct position.</horizpar></horizpa></posacc></dataqual><spdoinfo><indspref>Aquatic Invasives </indspref><direct>point</direct><mgmg3obj>point</mgmg3obj><mgmg3til>state</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>Not Applicable</altdatum><altunits>Not Applicable</altunits></altsys><depthsys><depthdn>Not Applicable</depthdn><depthdu>Not Applicable</depthdu></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><distinfo><resdesc>env_mbs_lakes_and_aquatic_plants</resdesc><distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab><stdorder><digform><digtinfo><formname>ArcView Shapefile</formname><formvern>N/A</formvern><transize>1024</transize></digtinfo></digform><ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota DNR - Division of Ecological and Water Resources</cntorg><cntper>Karen Myhre, botanist; Carmen Converse, supervisor Minnesota Biological Survey</cntper></cntperp><cntaddr><addrtype>Mailing and Physical</addrtype><address>Box 25 500 Lafayette Road</address><city>St Paul</city><state>MN</state><postal>55155-4025</postal></cntaddr><cntvoice>(651) 259-5083</cntvoice><cntemail>karen.myhre@state.mn.us; caremen.converse@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20141209</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota DNR - Division of Ecological and Water Resources</cntorg><cntper>Karen Myhre, botanist; Carmen Converse, supervisor Minnesota Biological Survey</cntper></cntperp><cntaddr><addrtype>Mailing and Physical</addrtype><address>Box 25 500 Lafayette Road</address><city>St Paul</city><state>MN</state><postal>55155-4025</postal></cntaddr><cntvoice>(651) 259-5083</cntvoice><cntemail>karen.myhre@state.mn.us; caremen.converse@state.mn.us</cntemail></cntinfo></metc></metainfo></metadata>
+The point listed for the lake is near the point of access and not necessarily an indicator of the precise location of any rare aquatic species present in the lake. When a rare species is indicated, it has been observed to occur within the lake and documented with a herbarium collection which has been submitted to the University of Minnesota Herbarium.</abstract>
+      <purpose>To make available results of Minnesota Biological Aquatic Plant Survey for reference and research.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20141204</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>1995 to 2014. Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset.</current>
+    </timeperd>
+    <status>
+      <progress>Minnesota Biological Survey is ongoing with data to be added after each field season.</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.23</westbc>
+        <eastbc>-89.53</eastbc>
+        <northbc>49.37</northbc>
+        <southbc>43.5</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Lakes, aquatic plant survey, rare species</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Users must include in any product derived from this GIS data set an acknowledgment of the Minnesota Biological Survey as the source of information. In addition, in order to protect DNR's copyright interest in these data, the user must also include an appropriate copyright notice in the name of the DNR or the user.</useconst>
+    <native>ArcView Shapefile</native>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_mbs_lakes_and_aquatic_plants/metadata/preview.jpg</browsen>
+    </browse>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Ecological and Water Resources</cntorg>
+          <cntper>Karen Myhre, botanist; Carmen Converse, supervisor Minnesota Biological Survey</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>Box 25 500 Lafayette Road</address>
+          <city>St Paul</city>
+          <state>MN</state>
+          <postal>55155-4025</postal>
+        </cntaddr>
+        <cntvoice>(651) 259-5083</cntvoice>
+        <cntemail>karen.myhre@state.mn.us; caremen.converse@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <complete>Data continues to be collected. Data recorded here includes 2013 survey results.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No quantitative studies of horizontal positional accuracy exist for the data. Positional accuracy can be reasonably estimated based on the characteristics of source materials and processing techniques to be 45-60 feet (14-18 meters) from correct position.</horizpar>
+      </horizpa>
+    </posacc>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Aquatic Invasives </indspref>
+    <direct>point</direct>
+    <mgmg3obj>point</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <resdesc>env_mbs_lakes_and_aquatic_plants</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shapefile</formname>
+          <formvern>N/A</formvern>
+          <transize>1024</transize>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Ecological and Water Resources</cntorg>
+          <cntper>Karen Myhre, botanist; Carmen Converse, supervisor Minnesota Biological Survey</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>Box 25 500 Lafayette Road</address>
+          <city>St Paul</city>
+          <state>MN</state>
+          <postal>55155-4025</postal>
+        </cntaddr>
+        <cntvoice>(651) 259-5083</cntvoice>
+        <cntemail>karen.myhre@state.mn.us; caremen.converse@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141209</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Ecological and Water Resources</cntorg>
+          <cntper>Karen Myhre, botanist; Carmen Converse, supervisor Minnesota Biological Survey</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>Box 25 500 Lafayette Road</address>
+          <city>St Paul</city>
+          <state>MN</state>
+          <postal>55155-4025</postal>
+        </cntaddr>
+        <cntvoice>(651) 259-5083</cntvoice>
+        <cntemail>karen.myhre@state.mn.us; caremen.converse@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

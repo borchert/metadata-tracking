@@ -1,17 +1,98 @@
-<?xml version="1.0"?><!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  --><metadata><idinfo><citation><citeinfo><origin>Minnesota Geospatial Information Office (MnGeo)</origin><pubdate>2004</pubdate><title>Minnesota's Original Public Land Survey (PLS) Maps - Conversion to Digital Images (TIFF, JPEG and PDF formats)</title><mgmg1cid></mgmg1cid><pubinfo><publish>Minnesota Office of the Secretary of State and MnGeo</publish></pubinfo><onlink>http://www.lmic.state.mn.us/glo</onlink></citeinfo></citation><descript><abstract>This dataset includes high quality (800 Dots Per Inch - DPI), 24 bit color images of Minnesota's original Public Land Survey (PLS) plats created during the first government land survey of the state from 1848 to 1907. Currently housed at the Office of the Secretary of State, these plats were created by the U.S. Surveyor General's Office. This collection of more than 3,600 maps also includes later General Land Office (GLO) and the Bureau of Land Management (BLM) maps - up to the year 2001. 
+<!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  -->
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Geospatial Information Office (MnGeo)</origin>
+        <pubdate>2004</pubdate>
+        <title>Minnesota's Original Public Land Survey (PLS) Maps - Conversion to Digital Images (TIFF, JPEG and PDF formats)</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota Office of the Secretary of State and MnGeo</publish>
+        </pubinfo>
+        <onlink>http://www.lmic.state.mn.us/glo</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset includes high quality (800 Dots Per Inch - DPI), 24 bit color images of Minnesota's original Public Land Survey (PLS) plats created during the first government land survey of the state from 1848 to 1907. Currently housed at the Office of the Secretary of State, these plats were created by the U.S. Surveyor General's Office. This collection of more than 3,600 maps also includes later General Land Office (GLO) and the Bureau of Land Management (BLM) maps - up to the year 2001. 
 
 Minnesota's survey plat maps serve as the fundamental legal records for real estate in the state; all property titles and descriptions stem from them. They also serve as an essential resource for surveyors and as an analytical tool for the state's physical geography prior to European settlement. Finally, they serve as a testimony to years and years of hard work by the surveying community, often under challenging conditions. 
 
-In recent years the deteriorating physical condition of the older maps and the needs of technologically more sophisticated researchers, who require access to the maps, have made handling the original paper records increasingly less practical. To meet this challenge, the Office of the Secretary of State, the State Archives of the Minnesota Historical Society, the Minnesota Department of Transportation, MnGeo (formerly the Land Management Information Center - LMIC) and the Minnesota Association of County Surveyors collaborated in a digitization project which produced images of the maps in standard TIFF, JPEG and PDF formats - nearly 1.5 terabytes worth of data.   Funding was provided by the Minnesota Department of Transportation.</abstract><purpose>Minnesota's Public Land Survey maps were converted to digital imagery due to: 
+In recent years the deteriorating physical condition of the older maps and the needs of technologically more sophisticated researchers, who require access to the maps, have made handling the original paper records increasingly less practical. To meet this challenge, the Office of the Secretary of State, the State Archives of the Minnesota Historical Society, the Minnesota Department of Transportation, MnGeo (formerly the Land Management Information Center - LMIC) and the Minnesota Association of County Surveyors collaborated in a digitization project which produced images of the maps in standard TIFF, JPEG and PDF formats - nearly 1.5 terabytes worth of data.   Funding was provided by the Minnesota Department of Transportation.</abstract>
+      <purpose>Minnesota's Public Land Survey maps were converted to digital imagery due to: 
 
 1. Protect the original maps from further deterioration.
 2. Meet the needs of the more technologically sophisticated researchers by providing direct access to digital images.
-3. Provide greater public access to the maps and the information they convey.</purpose><supplinf>Minnesota, Statewide</supplinf></descript><timeperd><current>The original map documents (3,609) were scanned and saved in a variety of digital formats (TIFF, JPEG and PDF) formats during the period of May through August, 2003. These maps range in date from 1848 through 2002.</current></timeperd><status><progress>Complete</progress><update>Irregular</update></status><spdom><bounding><westbc>-97.5</westbc><eastbc>-89.0</eastbc><northbc>49.5</northbc><southbc>43.0</southbc></bounding></spdom><keywords><theme><themekt>ISO 19115 Topic Category</themekt><themekey>planningCadastre, Original Survey Maps, GLO Maps, Plat Maps, Public Land Survey,  Cultural Features, General Land Office</themekey></theme><place><placekey>Minnesota, MN, Statewide, Township, Range</placekey></place></keywords><accconst>None</accconst><useconst>These images have NOT been certified by the Minnesota Office of the Secretary of State as exact, digital copies of the original source documents. These images are NOT geo-referenced.</useconst><browse><browsen>ftp://ftp.lmic.state.mn.us/pub/data/admin_poli/browseglo.gif</browsen><browsed>A portion of Township 48, Range 16 W. (Jay Cook State Park) at 800 DPI, dated 1858 (MHS ID: 390)</browsed></browse><native>TIFF</native><crossref><citeinfo><title>1. The original survey maps (paper, linen, etc.,) of Minnesota are currently housed at the Minnesota Office of the Secretary of State.
+3. Provide greater public access to the maps and the information they convey.</purpose>
+      <supplinf>Minnesota, Statewide</supplinf>
+    </descript>
+    <timeperd>
+      <current>The original map documents (3,609) were scanned and saved in a variety of digital formats (TIFF, JPEG and PDF) formats during the period of May through August, 2003. These maps range in date from 1848 through 2002.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.5</westbc>
+        <eastbc>-89.0</eastbc>
+        <northbc>49.5</northbc>
+        <southbc>43.0</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>planningCadastre, Original Survey Maps, GLO Maps, Plat Maps, Public Land Survey,  Cultural Features, General Land Office</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN, Statewide, Township, Range</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>These images have NOT been certified by the Minnesota Office of the Secretary of State as exact, digital copies of the original source documents. These images are NOT geo-referenced.</useconst>
+    <browse>
+      <browsen>ftp://ftp.lmic.state.mn.us/pub/data/admin_poli/browseglo.gif</browsen>
+      <browsed>A portion of Township 48, Range 16 W. (Jay Cook State Park) at 800 DPI, dated 1858 (MHS ID: 390)</browsed>
+    </browse>
+    <native>TIFF</native>
+    <crossref>
+      <citeinfo>
+        <title>1. The original survey maps (paper, linen, etc.,) of Minnesota are currently housed at the Minnesota Office of the Secretary of State.
 2. The original surveyors field notes are housed at the Minnesota Historical Society
 3. GIS files derived from original survey information are available from the Minnesota Department of Natural Resources:
 a.)  Bearing trees used as references of landmarks during the original Minnesota Public Land Survey http://deli.dnr.state.mn.us/metadata/pveg_btreept3.html 
 b.) Public Land Survey Corners with Presettlement Vegetation information - http://deli.dnr.state.mn.us/metadata/pveg_btvegpt3.html 
-c.) Marschner's Original Presettlement Vegetation Map of Minnesota - http://deli.dnr.state.mn.us/metadata/pveg_mrschpy1.html</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>Minnesota Historical Society (MHS)</cntorg></cntperp><cntaddr><addrtype>Mailing and Physical</addrtype><address>345 Kellogg Blvd W</address><city>St. Paul</city><state>MN</state><postal>55102</postal></cntaddr><cntvoice>651-259-3300</cntvoice><cntfax>651-297-7436</cntfax><cntemail>reference@mnhs.org</cntemail></cntinfo></ptcontac></idinfo><dataqual><complete>Every effort was made to ensure that all available PLS plat maps for Minnesota were scanned and that every township in the state was accounted for. For townships in adjacent states that border Minnesota, please contact the appropriate state agency.</complete><lineage><srcinfo><srcscale></srcscale></srcinfo><procstep><procdesc>Step 1. MAP INVENTORY AND PROJECT MANAGEMENT 
+c.) Marschner's Original Presettlement Vegetation Map of Minnesota - http://deli.dnr.state.mn.us/metadata/pveg_mrschpy1.html</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Historical Society (MHS)</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>345 Kellogg Blvd W</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55102</postal>
+        </cntaddr>
+        <cntvoice>651-259-3300</cntvoice>
+        <cntfax>651-297-7436</cntfax>
+        <cntemail>reference@mnhs.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <complete>Every effort was made to ensure that all available PLS plat maps for Minnesota were scanned and that every township in the state was accounted for. For townships in adjacent states that border Minnesota, please contact the appropriate state agency.</complete>
+    <lineage>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+      <procstep>
+        <procdesc>Step 1. MAP INVENTORY AND PROJECT MANAGEMENT 
 
 The digitization process began first with an inventory of the map collection currently stored at the Minnesota Office of the Secretary of State (SOS). The inventory was conducted by the Minnesota Historical Society's (MHS) State Archives staff during the summer of 2002. Each map was examined and assigned (and marked - on the back) a unique MHS ID. 
 
@@ -149,7 +230,33 @@ File Processing PDF: Two programs were used to convert the JPEG images a PDF for
 
 File Storage - PDF: Images were saved on a Maxtor 250 gigabyte portable hard drive and later written to a DVD (four copies) using a Primera Composer Pro DVD writer, Prassi version 2 software. DVD Media was Mitsui 4x speed, 4.7GB, white, inkjet printable, general purpose, silver DVD-R (Mitsui Part# 00041752). DVDs were labeled using a Primera's Signature Pro labeler. 
 
-QA/QC: MnGeo staff visually reviewed 2% random sample of 3,609 PDF images. All 3,609 PDF images were opened with Adobe PhotoShop 6.0 in a batch operation.</procdesc></procstep></lineage></dataqual><spdoinfo><indspref></indspref><direct>Raster</direct><mgmg3obj></mgmg3obj><mgmg3til>Public Land Survey Township</mgmg3til></spdoinfo><eainfo><overview><eaover>The file is an image made up of a combination of features arranged cartographically. The individual elements such as roads and section lines cannot be extracted from the image.  See the lineage section of this document, step 1, for a description of the image attributes.</eaover></overview></eainfo><distinfo><resdesc>GLO Plat Maps</resdesc><distliab>MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html </distliab><stdorder><digform><digtinfo><formname>JPEG, PDF</formname><formvern></formvern><transize></transize></digtinfo></digform><ordering>1. Electronic PDF files of all images are available for download through an interactive selection tool at: www.lmic.state.mn.us/glo. 
+QA/QC: MnGeo staff visually reviewed 2% random sample of 3,609 PDF images. All 3,609 PDF images were opened with Adobe PhotoShop 6.0 in a batch operation.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref/>
+    <direct>Raster</direct>
+    <mgmg3obj/>
+    <mgmg3til>Public Land Survey Township</mgmg3til>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>The file is an image made up of a combination of features arranged cartographically. The individual elements such as roads and section lines cannot be extracted from the image.  See the lineage section of this document, step 1, for a description of the image attributes.</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>GLO Plat Maps</resdesc>
+    <distliab>MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html </distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>JPEG, PDF</formname>
+          <formvern/>
+          <transize/>
+        </digtinfo>
+      </digform>
+      <ordering>1. Electronic PDF files of all images are available for download through an interactive selection tool at: www.lmic.state.mn.us/glo. 
 
 2. For bulk downloads using FTP tools, browse:  ftp://ftp.lmic.state.mn.us/pub/data/basemaps/glo/
 
@@ -161,4 +268,51 @@ Files are organized by county.  Each directory contains:
 
 Note that there may be multiple versions per township in each of the above folders.
 
-3. For printed copies or to order DVD collections, see details at:  http://www.mngeo.state.mn.us/glo/Order.htm</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>John Hoshal</cntper></cntperp><cntpos>Supervisor - GIS Project Services</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>658 Cedar Street</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2482</cntvoice><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20141009</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>658 Cedar Street</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></metc></metainfo></metadata>
+3. For printed copies or to order DVD collections, see details at:  http://www.mngeo.state.mn.us/glo/Order.htm</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>John Hoshal</cntper>
+        </cntperp>
+        <cntpos>Supervisor - GIS Project Services</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2482</cntvoice>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141009</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Tracy Tisbo</gco:CharacterString>
+                        <gco:CharacterString>Hennepin County</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -101,7 +101,7 @@
          <abstract>
             <gco:CharacterString>The GIS layer contains locations of homeless shelters that offer emergency temporary shelter and possibly Pay-For-Stay options. Please note that age restrictions may apply. This does not include day time homeless shelter services and referral offices.&#160; Created by the GIS Office, July 2014 based on internet searches and published locations of homeless shelters.&#13;
 &#13;
- &lt;br /&gt;&lt;br /&gt;Link to Attribute Table Information: &lt;a href='http://gis.hennepin.us/OpenData/Metadata/Homeless%20Shelters.pdf ' target='_blank'&gt;http://gis.hennepin.us/OpenData/Metadata/Homeless%20Shelters.pdf &lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Data updated: 07/01/2014&lt;br /&gt;&lt;br /&gt;Use Limitations: This data (i) is furnished &amp;quot;AS IS&amp;quot; with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. General questions about this data set, including errors, omissions, corrections and/or updates should be directed to the Hennepin County GIS Office at 612-596-9484.</gco:CharacterString>
+ &amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/Homeless%20Shelters.pdf &amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Data updated: 07/01/2014&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Use Limitations: This data (i) is furnished "AS IS" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. General questions about this data set, including errors, omissions, corrections and/or updates should be directed to the Hennepin County GIS Office at 612-596-9484.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>

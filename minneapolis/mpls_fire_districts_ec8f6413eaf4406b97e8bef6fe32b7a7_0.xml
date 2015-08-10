@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -99,7 +99,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>&lt;div&gt;&lt;span style='color: rgb(77, 77, 77); font-family: '&gt;&lt;span style='font-family: Verdana, Helvetica, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);'&gt;For questions about this data please contact&#160;&lt;/span&gt;&lt;a href='mailto:FireOpenData@minneapolismn.gov' style='color: rgb(33, 117, 155); text-decoration: none; line-height: 1.38461538461538; outline: none !important;' target='_blank'&gt;FireOpenData@minneapolismn.gov&lt;/a&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;span style='color: rgb(77, 77, 77); font-family: '&gt;Map service showing the Fire Districts for the Minneapolis Fire Department.&lt;/span&gt;</gco:CharacterString>
+            <gco:CharacterString>For questions about this data please contact&#160;FireOpenData@minneapolismn.gov&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Map service showing the Fire Districts for the Minneapolis Fire Department.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -226,7 +226,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/FireDistricts/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/FireDistricts/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

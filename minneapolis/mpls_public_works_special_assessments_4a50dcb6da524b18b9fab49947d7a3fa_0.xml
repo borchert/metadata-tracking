@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -99,7 +99,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Public Works special assessments to begin collection on 2015 property taxes.&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;For more information on the special assessment process in Minneapolis, see the&#160;&lt;a href='http://www.ci.minneapolis.mn.us/assessments/special-assessments_index' target='_blank'&gt;City website&lt;/a&gt;.&lt;/div&gt;</gco:CharacterString>
+            <gco:CharacterString>Public Works special assessments to begin collection on 2015 property taxes.&amp;#xD;&amp;#xA;For more information on the special assessment process in Minneapolis, see the&#160;City website.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -223,7 +223,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/PW_SpecialAssessments/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/PW_SpecialAssessments/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

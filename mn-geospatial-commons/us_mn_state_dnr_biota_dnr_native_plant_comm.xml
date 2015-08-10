@@ -21,7 +21,7 @@
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20150713</caldate>
+          <caldate>20150724</caldate>
         </sngdate>
       </timeinfo>
       <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset. See the attribute field OBSERVATION_YEAR which indicates when specific features were observed.</current>
@@ -51,7 +51,7 @@
     <useconst>Use of the data are constrained only by the DNR GIS Data License Agreement. See the Distribution Liability section below for a link.  Users must also include an acknowledgment of the Minnesota Biological Survey as the source of information to any derived products.</useconst>
     <native>ArcGIS File Geodatabase</native>
     <browse>
-      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/biota_dnr_native_plant_comm/preview/preview.jpg</browsen>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/biota_dnr_native_plant_comm/preview/preview.jpg</browsen>
     </browse>
     <crossref>
       <citeinfo>
@@ -178,7 +178,7 @@
     </distrib>
   </distinfo>
   <metainfo>
-    <metd>20141204</metd>
+    <metd>20150715</metd>
     <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
     <metstdv>1.2</metstdv>
     <metextns>

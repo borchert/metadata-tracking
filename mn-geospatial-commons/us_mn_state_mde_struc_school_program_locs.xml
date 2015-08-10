@@ -1,9 +1,114 @@
-<?xml version="1.0"?><!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  --><metadata><idinfo><citation><citeinfo><origin>Minnesota Department of Education</origin><pubdate>20141013</pubdate><title>School Program Locations, Minnesota, SY2014-2015</title><mgmg1cid></mgmg1cid><pubinfo><publish>Minnesota Department of Education</publish></pubinfo><ftname Sync="TRUE">schools1011</ftname><geoform Sync="TRUE">vector digital data</geoform><onlink>https://gisdata.mn.gov/dataset/struc-school-program-locs</onlink></citeinfo></citation><descript><abstract>The point locations of school programs are a result of an ongoing project to identify current school program locations where Food and Nutrition Services Office (FNS) programs are utilized. The FNS Office is in the Minnesota Department of Education (MDE).  GIS at MDE modified the data set using school building locations provided by the school districts and program locations from an MDE database. School District buildings are annually updated but there may remain errors due to the amount of program locations and the frequency with which they move from building to building in a District.
+<!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  -->
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Education</origin>
+        <pubdate>20141013</pubdate>
+        <title>School Program Locations, Minnesota, SY2014-2015</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota Department of Education</publish>
+        </pubinfo>
+        <ftname Sync="TRUE">schools1011</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <onlink>https://gisdata.mn.gov/dataset/struc-school-program-locs</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The point locations of school programs are a result of an ongoing project to identify current school program locations where Food and Nutrition Services Office (FNS) programs are utilized. The FNS Office is in the Minnesota Department of Education (MDE).  GIS at MDE modified the data set using school building locations provided by the school districts and program locations from an MDE database. School District buildings are annually updated but there may remain errors due to the amount of program locations and the frequency with which they move from building to building in a District.
 
-The records in this shapefile cover all school program locations that MDE currently has in a spatial format. Beginning in SY2009-10, separate files for different school programs (public, nonpublic, and charter, and public school district center) were combined into one file and attributes are used to distinguish the school types.  Note that multiple programs may occur at the same location and are represented as separate points. For example, a junior and a senior high school may be in the same building, but each has a separate record and point in the data layer.</abstract><purpose>MnGeo (formerly LMIC) and the Minnesota Department of Education have been in contact with Minnesota school districts since 1998, identifying school program locations. These locations are used by MDE to help identify where appropriate funds should be used for that school year. Beginning in 2006, MDE took over sole responsibility for all editing and metadata.</purpose><supplinf>Minnesota</supplinf><langdata Sync="TRUE">en</langdata></descript><timeperd><current>School year 2014-2015</current><timeinfo><sngdate><caldate>2014</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>Annually</update></status><spdom><lboundng><leftbc Sync="TRUE">190972.952900</leftbc><rightbc Sync="TRUE">747256.479300</rightbc><bottombc Sync="TRUE">4817260.998400</bottombc><topbc Sync="TRUE">5468873.997700</topbc></lboundng><bounding><westbc>-97.250680</westbc><eastbc>-89.597207</eastbc><northbc>49.372570</northbc><southbc>43.444465</southbc></bounding></spdom><keywords><theme><themekey>structure, school, public school, nonpublic school, non-public school, charter school, public school district center</themekey><themekt>ISO 19115 Topic Category</themekt></theme><place><placekey>Minnesota, MN</placekey></place></keywords><accconst>None</accconst><useconst>In obtaining this data from MDE and MnGeo, it is understood that you and/or your organization have the right to use it for any purpose.  If you modify it, you are encouraged to apply responsible best practices by documenting those changes in a metadata record.  If you transmit or provide the data to another user, it is your responsibility to provide appropriate content, limitation, warranty and liability information as you see fit.</useconst><browse><browsen>None available</browsen></browse><native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native><crossref><citeinfo><title>See related school datasets at:
-http://www.mngeo.state.mn.us/chouse/metalong.html#admin</title></citeinfo></crossref><natvform Sync="TRUE">Shapefile</natvform><ptcontac><cntinfo><cntperp><cntorg>Minnesota Department of Education</cntorg><cntper>Scott Freburg</cntper></cntperp><cntpos>GIS Administrator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>1500 Hwy 36 W.</address><city>Roseville</city><state>MN</state><postal>55113</postal></cntaddr><cntvoice>651-582-8789</cntvoice><cntemail>scott.freburg@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>Each school district checks the previous year's map for accuracy of school names, district boundaries and public school building locations. Locations are modified per request by the school district or through a process of checking locations against various sources (aerial photography, geocoding).
+The records in this shapefile cover all school program locations that MDE currently has in a spatial format. Beginning in SY2009-10, separate files for different school programs (public, nonpublic, and charter, and public school district center) were combined into one file and attributes are used to distinguish the school types.  Note that multiple programs may occur at the same location and are represented as separate points. For example, a junior and a senior high school may be in the same building, but each has a separate record and point in the data layer.</abstract>
+      <purpose>MnGeo (formerly LMIC) and the Minnesota Department of Education have been in contact with Minnesota school districts since 1998, identifying school program locations. These locations are used by MDE to help identify where appropriate funds should be used for that school year. Beginning in 2006, MDE took over sole responsibility for all editing and metadata.</purpose>
+      <supplinf>Minnesota</supplinf>
+      <langdata Sync="TRUE">en</langdata>
+    </descript>
+    <timeperd>
+      <current>School year 2014-2015</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>2014</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <lboundng>
+        <leftbc Sync="TRUE">190972.952900</leftbc>
+        <rightbc Sync="TRUE">747256.479300</rightbc>
+        <bottombc Sync="TRUE">4817260.998400</bottombc>
+        <topbc Sync="TRUE">5468873.997700</topbc>
+      </lboundng>
+      <bounding>
+        <westbc>-97.250680</westbc>
+        <eastbc>-89.597207</eastbc>
+        <northbc>49.372570</northbc>
+        <southbc>43.444465</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>structure, school, public school, nonpublic school, non-public school, charter school, public school district center</themekey>
+        <themekt>ISO 19115 Topic Category</themekt>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>In obtaining this data from MDE and MnGeo, it is understood that you and/or your organization have the right to use it for any purpose.  If you modify it, you are encouraged to apply responsible best practices by documenting those changes in a metadata record.  If you transmit or provide the data to another user, it is your responsibility to provide appropriate content, limitation, warranty and liability information as you see fit.</useconst>
+    <browse>
+      <browsen>None available</browsen>
+    </browse>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
+    <crossref>
+      <citeinfo>
+        <title>See related school datasets at:
+http://www.mngeo.state.mn.us/chouse/metalong.html#admin</title>
+      </citeinfo>
+    </crossref>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Education</cntorg>
+          <cntper>Scott Freburg</cntper>
+        </cntperp>
+        <cntpos>GIS Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1500 Hwy 36 W.</address>
+          <city>Roseville</city>
+          <state>MN</state>
+          <postal>55113</postal>
+        </cntaddr>
+        <cntvoice>651-582-8789</cntvoice>
+        <cntemail>scott.freburg@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Each school district checks the previous year's map for accuracy of school names, district boundaries and public school building locations. Locations are modified per request by the school district or through a process of checking locations against various sources (aerial photography, geocoding).
 
-All other school locations (charters, nonpublic, post-secondary, etc.) were brought forward from database records at MDE and spatially located using address matching techniques and most current aerial photography (per previous paragraph).</attraccr></attracc><logic>Not applicable</logic><complete>Public and non-public school program locations in Minnesota.</complete><posacc><horizpa><horizpar>See Lineage.</horizpar></horizpa></posacc><lineage><srcinfo><srcscale></srcscale></srcinfo><procstep><procdesc>The Land Management Information Center (LMIC, now MnGeo) created this data set for the Food and Nutrition Services Office (FNS) of the Minnesota Department of Education to help MDE determine eligibility status in the FNS food programs.
+All other school locations (charters, nonpublic, post-secondary, etc.) were brought forward from database records at MDE and spatially located using address matching techniques and most current aerial photography (per previous paragraph).</attraccr>
+    </attracc>
+    <logic>Not applicable</logic>
+    <complete>Public and non-public school program locations in Minnesota.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>See Lineage.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+      <procstep>
+        <procdesc>The Land Management Information Center (LMIC, now MnGeo) created this data set for the Food and Nutrition Services Office (FNS) of the Minnesota Department of Education to help MDE determine eligibility status in the FNS food programs.
 
 In 1998-99, LMIC provided maps to school districts and asked the districts to locate school buildings.  LMIC then digitized these points and added the school names that appeared on the maps to the database.  In order to add the ID used by CFL, LMIC obtained the public school database from the CFL webpage, rawdata.html, on 6/19/99.  It contained 2192 school site records.  The schools that were digitized from the maps were matched to the records in the public school database.  For those records that did not match any point, a point location was determined.  A variety of methods were used to locate these records including phone calls to the schools and address matching.
 
@@ -37,7 +142,267 @@ SY2012-2013 Summary: Modified 40-50 district attendance boundaries based on annu
 
 SY2013-2014 Summary: Modified around 60 district attendance boundaries based on annual district review and county parcel information.
 
-SY2014-2015 Summary: Modified around 45 district attendance boundaries based on annual district review. No parcel data was used in this update.</procdesc><proccont><cntinfo><cntperp><cntper>Scott Freburg</cntper><cntorg>Land Management Information Center</cntorg></cntperp><cntpos>Senior GIS Specialist</cntpos><cntaddr><addrtype>mailing address</addrtype><address>658 Cedar Street</address><city>St. Paul</city><state>MN</state><postal>55155</postal><country>USA</country></cntaddr><cntvoice>651-201-2485</cntvoice><cntemail>scott.freburg@state.mn.us</cntemail><hours>0700 - 1530</hours></cntinfo></proccont><procsv>ArcMAP 9.1</procsv><procdate>May 2006</procdate></procstep></lineage></dataqual><spdoinfo><direct>Point</direct><mgmg3obj>Point</mgmg3obj><mgmg3til>State</mgmg3til><ptvctinf><esriterm Name="schools1011"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Point</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">4244</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><sdtsterm Name="schools1011"><sdtstype Sync="TRUE">Entity point</sdtstype><ptvctcnt Sync="TRUE">4244</ptvctcnt></sdtsterm></ptvctinf><indspref></indspref></spdoinfo><spref><vertdef><altsys><altdatum>not applicable</altdatum></altsys><depthsys><depthdn>not applicable</depthdn></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>schools1314</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">4244</enttypc></enttyp><attr><attrlabl>SCH_TYPE</attrlabl><attalias Sync="TRUE">SCH_TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth></attr><attr><attrlabl>SCH_TYPE1</attrlabl><attalias Sync="TRUE">SCH_TYPE1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth></attr><attr><attrlabl>SOURCE</attrlabl><attalias Sync="TRUE">SOURCE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth></attr><attr><attrlabl>UNI_TYPE</attrlabl><attalias Sync="TRUE">UNI_TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth></attr><attr><attrlabl>UNI_MAJ</attrlabl><attalias Sync="TRUE">UNI_MAJ</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth></attr><attr><attrlabl>UNI_IMD</attrlabl><attalias Sync="TRUE">UNI_IMD</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth></attr><attr><attrlabl>FID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>ORGID_REL</attrlabl><attalias Sync="TRUE">ORGID_REL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth></attr><attr><attrlabl>SCHNAME</attrlabl><attalias Sync="TRUE">SCHNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth></attr><attr><attrlabl>ADDRESS</attrlabl><attalias Sync="TRUE">ADDRESS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth></attr><attr><attrlabl>CITY</attrlabl><attalias Sync="TRUE">CITY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">24</attwidth></attr><attr><attrlabl>STATE</attrlabl><attalias Sync="TRUE">STATE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth></attr><attr><attrlabl>Shape</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>ZIP</attrlabl><attalias Sync="TRUE">ZIP</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth></attr><attr><attrlabl>GRADE</attrlabl><attalias Sync="TRUE">GRADE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth></attr><attr><attrlabl>SCH_CLASS</attrlabl><attalias Sync="TRUE">SCH_CLASS</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr><attr><attrlabl>SDNUM</attrlabl><attalias Sync="TRUE">SDNUM</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr><attr><attrlabl>SDNAME</attrlabl><attalias Sync="TRUE">SDNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth></attr><attr><attrlabl>ORGID</attrlabl><attalias Sync="TRUE">ORGID</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl>DATE_ENTRY</attrlabl><attalias Sync="TRUE">DATE_ENTRY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth></attr><attr><attrlabl>CTYNUM</attrlabl><attalias Sync="TRUE">CTYNUM</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr><attr><attrlabl>FIPSNUM</attrlabl><attalias Sync="TRUE">FIPSNUM</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr><attr><attrlabl>CTYNAME</attrlabl><attalias Sync="TRUE">CTYNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth></attr><attr><attrlabl>MAGNET</attrlabl><attalias Sync="TRUE">MAGNET</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth></attr><attr><attrlabl>WEB_URL</attrlabl><attalias Sync="TRUE">WEB_URL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">150</attwidth></attr><attr><attrlabl>FED_SCHNUM</attrlabl><attalias Sync="TRUE">FED_SCHNUM</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl>SCH_LEVEL</attrlabl><attalias Sync="TRUE">SCH_LEVEL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth></attr></detailed><overview><eaover>UNI_TYPE (2,2,C)
+SY2014-2015 Summary: Modified around 45 district attendance boundaries based on annual district review. No parcel data was used in this update.</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Scott Freburg</cntper>
+              <cntorg>Land Management Information Center</cntorg>
+            </cntperp>
+            <cntpos>Senior GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>658 Cedar Street</address>
+              <city>St. Paul</city>
+              <state>MN</state>
+              <postal>55155</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>651-201-2485</cntvoice>
+            <cntemail>scott.freburg@state.mn.us</cntemail>
+            <hours>0700 - 1530</hours>
+          </cntinfo>
+        </proccont>
+        <procsv>ArcMAP 9.1</procsv>
+        <procdate>May 2006</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <mgmg3obj>Point</mgmg3obj>
+    <mgmg3til>State</mgmg3til>
+    <ptvctinf>
+      <esriterm Name="schools1011">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Point</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">4244</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="schools1011">
+        <sdtstype Sync="TRUE">Entity point</sdtstype>
+        <ptvctcnt Sync="TRUE">4244</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+    <indspref/>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>not applicable</altdatum>
+      </altsys>
+      <depthsys>
+        <depthdn>not applicable</depthdn>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>schools1314</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">4244</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl>SCH_TYPE</attrlabl>
+        <attalias Sync="TRUE">SCH_TYPE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>SCH_TYPE1</attrlabl>
+        <attalias Sync="TRUE">SCH_TYPE1</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE</attrlabl>
+        <attalias Sync="TRUE">SOURCE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>UNI_TYPE</attrlabl>
+        <attalias Sync="TRUE">UNI_TYPE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>UNI_MAJ</attrlabl>
+        <attalias Sync="TRUE">UNI_MAJ</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>UNI_IMD</attrlabl>
+        <attalias Sync="TRUE">UNI_IMD</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">3</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>ORGID_REL</attrlabl>
+        <attalias Sync="TRUE">ORGID_REL</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">12</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>SCHNAME</attrlabl>
+        <attalias Sync="TRUE">SCHNAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">40</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS</attrlabl>
+        <attalias Sync="TRUE">ADDRESS</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">40</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>CITY</attrlabl>
+        <attalias Sync="TRUE">CITY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">24</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attalias Sync="TRUE">STATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>ZIP</attrlabl>
+        <attalias Sync="TRUE">ZIP</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>GRADE</attrlabl>
+        <attalias Sync="TRUE">GRADE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>SCH_CLASS</attrlabl>
+        <attalias Sync="TRUE">SCH_CLASS</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>SDNUM</attrlabl>
+        <attalias Sync="TRUE">SDNUM</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>SDNAME</attrlabl>
+        <attalias Sync="TRUE">SDNAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">40</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>ORGID</attrlabl>
+        <attalias Sync="TRUE">ORGID</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl>DATE_ENTRY</attrlabl>
+        <attalias Sync="TRUE">DATE_ENTRY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>CTYNUM</attrlabl>
+        <attalias Sync="TRUE">CTYNUM</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>FIPSNUM</attrlabl>
+        <attalias Sync="TRUE">FIPSNUM</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>CTYNAME</attrlabl>
+        <attalias Sync="TRUE">CTYNAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>MAGNET</attrlabl>
+        <attalias Sync="TRUE">MAGNET</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">3</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>WEB_URL</attrlabl>
+        <attalias Sync="TRUE">WEB_URL</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">150</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>FED_SCHNUM</attrlabl>
+        <attalias Sync="TRUE">FED_SCHNUM</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl>SCH_LEVEL</attrlabl>
+        <attalias Sync="TRUE">SCH_LEVEL</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>UNI_TYPE (2,2,C)
 UNI_MAJ (4,4,C)
 UNI_IMD (3,3,C)
 ORGID (12, 12, I)
@@ -63,7 +428,8 @@ WEB_URL (100,100,C)
 FED_SCHNUM (10,10,I)
 SCH_LEVEL (10,10,C)
 ALT_NAME (50,50,C)
-YEAR (10,10,C)</eaover><eadetcit>UNI_TYPE - MDE classification.
+YEAR (10,10,C)</eaover>
+      <eadetcit>UNI_TYPE - MDE classification.
    1 - Independent districts
    2 - Common districts
    3 - Special Districts (Minneapolis and South St. Paul only)
@@ -237,11 +603,170 @@ There are other schools with a "District' designation but District offices and C
 
 ALT_NAME - If a building has a name (such as XXX Early Childhood Center), it may be easier for labeling purposes to label using this field versus labeling individual points. In some locations there are 2, 3, 4 or more programs at one location.
 
-YEAR - School year of data.</eadetcit></overview></eainfo><distinfo><resdesc>School program locations 2014-15</resdesc><distliab>The Minnesota Department of Education (MDE) does not warrant the results you may obtain by using this dataset. This dataset is provided ''as is'' without express or implied warranties, including warranties of merchantability and fitness. In no event will MDE be liable for any consequential, incidental or special damages, including any lost profits or lost savings, even if an MDE  representative has been advised of the possibility of such damages or any other claim by any third party.
+YEAR - School year of data.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>School program locations 2014-15</resdesc>
+    <distliab>The Minnesota Department of Education (MDE) does not warrant the results you may obtain by using this dataset. This dataset is provided ''as is'' without express or implied warranties, including warranties of merchantability and fitness. In no event will MDE be liable for any consequential, incidental or special damages, including any lost profits or lost savings, even if an MDE  representative has been advised of the possibility of such damages or any other claim by any third party.
 
 In obtaining this data from MDE and MnGeo, it is understood that you and/or your organization have the right to use it for any purpose.  If you modify it, you are encouraged to apply responsible best practices by documenting those changes in a metadata record.  If you transmit or provide the data to another user, it is your responsibility to provide appropriate content, limitation, warranty and liability information as you see fit.
 
-MnGeo's disclaimer is online:  http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab><stdorder><digform><digtinfo><formname>Shapefile</formname><transize>less than 1 megabyte</transize><dssize Sync="TRUE">0.113</dssize><formvern></formvern></digtinfo></digform><ordering>1.  GIS data:  this data set is distributed on the internet by clicking below after Online Linkage.
+MnGeo's disclaimer is online:  http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <transize>less than 1 megabyte</transize>
+          <dssize Sync="TRUE">0.113</dssize>
+          <formvern/>
+        </digtinfo>
+      </digform>
+      <ordering>1.  GIS data:  this data set is distributed on the internet by clicking below after Online Linkage.
 
 2.  School district maps:  These maps show district and attendance boundaries, and public and non-public school program locations.  Download in PDF format or order printed wallmaps from:
-   http://www.gda.state.mn.us/maps/SchoolDistricts/</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Department of Education</cntorg><cntper>Scott Freburg</cntper></cntperp><cntpos>GIS Administrator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>1500 Hwy 36 W.</address><city>Roseville</city><state>MN</state><postal>55113</postal></cntaddr><cntvoice>651-582-8789</cntvoice><cntemail>scott.freburg@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20141224</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><langmeta Sync="TRUE">en</langmeta><mettc Sync="TRUE">local time</mettc><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Department of Education</cntorg><cntper>Scott Freburg</cntper></cntperp><cntpos>GIS Administrator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>1500 Hwy 36 W.</address><city>Roseville</city><state>MN</state><postal>55113</postal></cntaddr><cntvoice>651-582-8789</cntvoice><cntemail>scott.freburg@state.mn.us</cntemail></cntinfo></metc></metainfo><Esri><ModDate>20110923</ModDate><ModTime>11091800</ModTime><CreaDate>20100913</CreaDate><CreaTime>14593300</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20100913</SyncDate><SyncTime>15163400</SyncTime><MetaID>{51BD1B95-1CE3-4118-B365-E1AB0E3BE08A}</MetaID></Esri><mdDateSt Sync="TRUE">20110923</mdDateSt><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">schools1011</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">190972.9529</westBL><eastBL Sync="TRUE">747256.4793</eastBL><northBL Sync="TRUE">5468873.9977</northBL><southBL Sync="TRUE">4817260.9984</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-97.25068</westBL><eastBL Sync="TRUE">-89.597207</eastBL><northBL Sync="TRUE">49.37257</northBL><southBL Sync="TRUE">43.444465</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\8HP25J1\E$\MDEFNS_Data\Spatial_Data\SD_Data\SY2010-11\Final_Datasets\MNGEO\schools1011.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.113</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="schools1011"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">4244</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_UTM_Zone_15N</identCode></refSysID></RefSystem></refSysInfo></metadata>
+   http://www.gda.state.mn.us/maps/SchoolDistricts/</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Education</cntorg>
+          <cntper>Scott Freburg</cntper>
+        </cntperp>
+        <cntpos>GIS Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1500 Hwy 36 W.</address>
+          <city>Roseville</city>
+          <state>MN</state>
+          <postal>55113</postal>
+        </cntaddr>
+        <cntvoice>651-582-8789</cntvoice>
+        <cntemail>scott.freburg@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141224</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <langmeta Sync="TRUE">en</langmeta>
+    <mettc Sync="TRUE">local time</mettc>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Education</cntorg>
+          <cntper>Scott Freburg</cntper>
+        </cntperp>
+        <cntpos>GIS Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1500 Hwy 36 W.</address>
+          <city>Roseville</city>
+          <state>MN</state>
+          <postal>55113</postal>
+        </cntaddr>
+        <cntvoice>651-582-8789</cntvoice>
+        <cntemail>scott.freburg@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20110923</ModDate>
+    <ModTime>11091800</ModTime>
+    <CreaDate>20100913</CreaDate>
+    <CreaTime>14593300</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20100913</SyncDate>
+    <SyncTime>15163400</SyncTime>
+    <MetaID>{51BD1B95-1CE3-4118-B365-E1AB0E3BE08A}</MetaID>
+  </Esri>
+  <mdDateSt Sync="TRUE">20110923</mdDateSt>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en"/>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">schools1011</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005"/>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001"/>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">190972.9529</westBL>
+          <eastBL Sync="TRUE">747256.4793</eastBL>
+          <northBL Sync="TRUE">5468873.9977</northBL>
+          <southBL Sync="TRUE">4817260.9984</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-97.25068</westBL>
+      <eastBL Sync="TRUE">-89.597207</eastBL>
+      <northBL Sync="TRUE">49.37257</northBL>
+      <southBL Sync="TRUE">43.444465</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en"/>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004"/>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005"/>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\8HP25J1\E$\MDEFNS_Data\Spatial_Data\SD_Data\SY2010-11\Final_Datasets\MNGEO\schools1011.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.113</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001"/>
+      </topLvl>
+      <geometObjs Name="schools1011">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="004"/>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">4244</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">NAD_1983_UTM_Zone_15N</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+</metadata>

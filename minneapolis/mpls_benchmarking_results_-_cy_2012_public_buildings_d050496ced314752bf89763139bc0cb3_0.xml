@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -99,7 +99,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Energy and water benchmarking results from CY 2012 for public buildings. Includes City, Park Board, Hennepin County and Minneapolis Public Schools.&lt;div&gt;&lt;p&gt;&lt;span style='font-family:&amp;quot;Arial&amp;quot;,&amp;quot;sans-serif&amp;quot;;color:black'&gt;In&#13;
+            <gco:CharacterString>Energy and water benchmarking results from CY 2012 for public buildings. Includes City, Park Board, Hennepin County and Minneapolis Public Schools.In&#13;
 Minneapolis, large commercial buildings make up almost 50% of the city's energy&#13;
 use.&#160; This provides a tremendous opportunity for identifying&#160;areas&#13;
 with the largest potential for energy&#160;savings. In February of 2013, the&#13;
@@ -109,19 +109,15 @@ square feet and over to annually benchmark their energy consumption and report&#
 this information to the City. This ordinance will allow building owners and the&#13;
 City to track energy and water usage year to year to determine opportunities&#13;
 for improvement, recognize high performers, and determine progress towards the&#13;
-City's&lt;span&gt;&#160;&lt;/span&gt;&lt;/span&gt;&lt;a href='http://www.minneapolismn.gov/sustainability/climate/index.htm'&gt;&lt;span style='font-family:&amp;quot;Arial&amp;quot;,&amp;quot;sans-serif&amp;quot;;color:windowtext'&gt;Climate Action Plan&lt;/span&gt;&lt;/a&gt;&lt;span&gt;&lt;span style='font-family:&amp;quot;Arial&amp;quot;,&amp;quot;sans-serif&amp;quot;;&#13;
-color:black'&gt;&#160;&lt;/span&gt;&lt;/span&gt;&lt;span style='font-family:&amp;quot;Arial&amp;quot;,&amp;quot;sans-serif&amp;quot;;&#13;
-color:black'&gt;goals.&lt;/span&gt;&lt;/p&gt;&#13;
-&#13;
-&lt;p&gt;&lt;span style='font-family:&amp;quot;Arial&amp;quot;,&amp;quot;sans-serif&amp;quot;;color:black'&gt;&#160;&lt;/span&gt;&lt;/p&gt;&#13;
-&#13;
-&lt;p&gt;&lt;span style='font-family:&amp;quot;Arial&amp;quot;,&amp;quot;sans-serif&amp;quot;;color:black'&gt;This&#13;
+City's&#160;Climate Action Plan&#160;goals.
+&#160;
+This&#13;
 data shows the results of the energy benchmarking conducted by buildings in&#13;
 Minneapolis. Calendar year 2013 and 2014 data include only information on&#13;
 buildings owned by the City of Minneapolis, Hennepin County, the Minneapolis&#13;
 Public Schools and the Minneapolis Park and Recreation Board. More information&#13;
 about the ordinance and the full report on benchmarking results is available&#13;
-here: &lt;/span&gt;&lt;span style='color:#1F497D'&gt;&lt;a href='http://minneapolismn.gov/environment/energy/index.htm'&gt;http://minneapolismn.gov/environment/energy/index.htm&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</gco:CharacterString>
+here: http://minneapolismn.gov/environment/energy/index.htm</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -248,7 +244,7 @@ here: &lt;/span&gt;&lt;span style='color:#1F497D'&gt;&lt;a href='http://minneapo
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Benchmarking_Results_-_CY_2012_Public_Buildings/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Benchmarking_Results_-_CY_2012_Public_Buildings/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

@@ -18,7 +18,7 @@
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20150708</caldate>
+          <caldate>20150722</caldate>
         </sngdate>
       </timeinfo>
       <current>Initial data was provided by the Hydro rivers centerline data and has since been edited with use of 2003 and 2008 aerial photography.  In March 2010 the trails were edited with the use of 2009 FSA aerial imagery. These edits were made to all Minnesota Water Trails. </current>
@@ -49,7 +49,7 @@
     <useconst>Free for public use, cannot be sold or used as legal information and should be understood as an approximation of the water trail location.</useconst>
     <native>ArcView Shapefile</native>
     <browse>
-      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/trans_water_trails_minnesota/metadata/preview.jpg</browsen>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/trans_water_trails_minnesota/metadata/preview.jpg</browsen>
     </browse>
     <crossref>
       <citeinfo>

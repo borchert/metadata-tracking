@@ -21,7 +21,7 @@
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20150710</caldate>
+          <caldate>20150724</caldate>
         </sngdate>
       </timeinfo>
       <current>Data are verified current as of the "Time Period of Content Date" given above and are updated regularly - collected legal descriptions using the best possible monument spatial information.  As the Department's monument data become more accurate, spatial accuracy of this dataset will increase.</current>
@@ -52,7 +52,7 @@
 </useconst>
     <native>ArcView Shapefile</native>
     <browse>
-      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/bdry_dnr_lrs_prk/preview/preview.jpg</browsen>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_dnr_lrs_prk/preview/preview.jpg</browsen>
     </browse>
     <crossref>
       <citeinfo>

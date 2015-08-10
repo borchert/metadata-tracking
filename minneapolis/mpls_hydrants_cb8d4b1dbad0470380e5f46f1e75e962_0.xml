@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -99,9 +99,9 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>&lt;p&gt;&lt;font color='#000000'&gt;For questions about this dataset please contact&#160;&lt;/font&gt;&lt;a href='mailto:PublicWorksOpenData@minneapolismn.gov' target='_blank'&gt;PublicWorksOpenData@minneapolismn.gov&lt;/a&gt;&lt;font color='#000000'&gt;&#160;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color='#000000'&gt;The hydrant data is created&#13;
+            <gco:CharacterString>For questions about this dataset please contact&#160;PublicWorksOpenData@minneapolismn.gov&#160;The hydrant data is created&#13;
 using engineering drawings (as-builts), field measurements, GPS (survey&#13;
-shots-0.5 inch accuracy) or ortho photos (6 in accuracy). The data is updated annually.&#160;&lt;/font&gt;&lt;/p&gt;</gco:CharacterString>
+shots-0.5 inch accuracy) or ortho photos (6 in accuracy). The data is updated annually.&#160;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -225,7 +225,7 @@ shots-0.5 inch accuracy) or ortho photos (6 in accuracy). The data is updated an
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Hydrants/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Hydrants/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

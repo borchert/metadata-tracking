@@ -1,4 +1,17 @@
-<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><title>LiDAR Elevation, Stearns County, Minnesota, 2006</title><pubinfo><publish>Minnesota Department of Natural Resources</publish></pubinfo><origin>Stearns County, Minnesota</origin><onlink>http://www.dnr.state.mn.us/maps/mntopo/index.html</onlink></citeinfo></citation><descript><abstract>The LiDAR data for Stearns County was collected under contract by the county. Thus, the data format is not entirely consistent with some of the other LiDAR data collected by the State of Minnesota. Specifically, the Stearns County collect required classification of only Bare Earth returns in the LiDAR LAS files, so there is no information on buildings, vegetation, or model key points.
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>LiDAR Elevation, Stearns County, Minnesota, 2006</title>
+        <pubinfo>
+          <publish>Minnesota Department of Natural Resources</publish>
+        </pubinfo>
+        <origin>Stearns County, Minnesota</origin>
+        <onlink>http://www.dnr.state.mn.us/maps/mntopo/index.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The LiDAR data for Stearns County was collected under contract by the county. Thus, the data format is not entirely consistent with some of the other LiDAR data collected by the State of Minnesota. Specifically, the Stearns County collect required classification of only Bare Earth returns in the LiDAR LAS files, so there is no information on buildings, vegetation, or model key points.
 
 Breaklines captured as part of this effort are also a bit different. In Stearns County, the breaklines are 3D Polyline features rather than 3D Polygon features. They also include road centerlines, stream courses and other features that are not part of the Statewide collect specifications.
 
@@ -10,11 +23,73 @@ The following data was delivered to the Minnesota Department of Natural Resource
 
 DNR staff created the two-foot contours.
 
-Note: This metadata record was created at the Minnesota Geospatial Information Office using information supplied by DNR.</abstract><supplinf>Stearns County, Minnesota</supplinf></descript><crossref><citeinfo><title>For more information about elevation data for Minnesota, see: http://www.mngeo.state.mn.us/chouse/elevation/index.html</title></citeinfo></crossref><keywords><place><placekey>Minnesota, MN, Stearns County</placekey></place><theme><themekt>ISO 19115</themekt><themekey>elevation, LiDAR, DEM, digital elevation model, contour, topographic, topo, DTM, LAS, breakline</themekey></theme></keywords><useconst>This data was purchased from Stearns County by the State of Minnesota to put it into the public domain. This data can be shared and distributed free of charge.
+Note: This metadata record was created at the Minnesota Geospatial Information Office using information supplied by DNR.</abstract>
+      <supplinf>Stearns County, Minnesota</supplinf>
+    </descript>
+    <crossref>
+      <citeinfo>
+        <title>For more information about elevation data for Minnesota, see: http://www.mngeo.state.mn.us/chouse/elevation/index.html</title>
+      </citeinfo>
+    </crossref>
+    <keywords>
+      <place>
+        <placekey>Minnesota, MN, Stearns County</placekey>
+      </place>
+      <theme>
+        <themekt>ISO 19115</themekt>
+        <themekey>elevation, LiDAR, DEM, digital elevation model, contour, topographic, topo, DTM, LAS, breakline</themekey>
+      </theme>
+    </keywords>
+    <useconst>This data was purchased from Stearns County by the State of Minnesota to put it into the public domain. This data can be shared and distributed free of charge.
 
-See Disclaimer field for complete use conditions.</useconst><status><progress>Complete</progress><update>Unknown</update></status><spdom><bounding><westbc>-95.13</westbc><eastbc>-94.05</eastbc><northbc>45.79</northbc><southbc>45.27</southbc></bounding></spdom><timeperd><timeinfo><sngdate><caldate>2006</caldate></sngdate></timeinfo></timeperd><accconst>None.</accconst><ptcontac><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Tim Loesch</cntper></cntperp><cntpos>GIS Section Manager</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>500 Lafayette Rd</address><address>Box 11</address><city>St. Paul</city><state>MN</state><postal>551554011</postal></cntaddr><cntvoice>651-259-5475</cntvoice><cntemail>tim.loesch@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><distinfo><resdesc>Stearns LiDAR 2006</resdesc><distliab>1. Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html
+See Disclaimer field for complete use conditions.</useconst>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-95.13</westbc>
+        <eastbc>-94.05</eastbc>
+        <northbc>45.79</northbc>
+        <southbc>45.27</southbc>
+      </bounding>
+    </spdom>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2006</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <accconst>None.</accconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Tim Loesch</cntper>
+        </cntperp>
+        <cntpos>GIS Section Manager</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Rd</address>
+          <address>Box 11</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>551554011</postal>
+        </cntaddr>
+        <cntvoice>651-259-5475</cntvoice>
+        <cntemail>tim.loesch@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <resdesc>Stearns LiDAR 2006</resdesc>
+    <distliab>1. Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html
 
-2. MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab><stdorder><ordering>The LiDAR data provided by DNR may be viewed online or downloaded in several ways:
+2. MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab>
+    <stdorder>
+      <ordering>The LiDAR data provided by DNR may be viewed online or downloaded in several ways:
 
 1. MnTOPO website: http://www.dnr.state.mn.us/maps/mntopo/index.html
 
@@ -32,7 +107,59 @@ The county mosaic is named elevation_data.gdb.zip  For details of its contents a
 b. In the 250k tiles folder: ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/q250k/
 
 
-For more help with Minnesota's LiDAR data, see http://www.mngeo.state.mn.us/chouse/elevation/lidar.html</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>658 Cedar Street, Room 300</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntfax>651-296-6398</cntfax><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20140429</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>658 Cedar Street, Room 300</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntfax>651-296-6398</cntfax><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></metc></metainfo><dataqual><lineage><procstep><procdesc>The data was delivered to the DNR in 2K by 2K tiles that were referenced to the Stearns County coordinate system. This included:
+For more help with Minnesota's LiDAR data, see http://www.mngeo.state.mn.us/chouse/elevation/lidar.html</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>658 Cedar Street, Room 300</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntfax>651-296-6398</cntfax>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20140429</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>658 Cedar Street, Room 300</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntfax>651-296-6398</cntfax>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>The data was delivered to the DNR in 2K by 2K tiles that were referenced to the Stearns County coordinate system. This included:
 
 Bare Earth LAS files
 1-foot DEMs
@@ -91,4 +218,27 @@ Processing Summary:
 All DEMS are hydro-flattened and enforced using the breakline features.
 
 All processing was done using ESRI ArcGIS V10 software and LP360 Extensions software by QCoherent.
-</procdesc></procstep></lineage></dataqual><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>
+</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

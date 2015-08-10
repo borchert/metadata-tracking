@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  -->
 <metadata>
 <idinfo>
@@ -10,7 +9,7 @@ Geological Survey (USGS), and Keystone Aerial Surveys Inc.</origin>
 <pubdate>200912</pubdate>
 <title>Digital Orthoimagery, North Central Minnesota and Duluth,
 Spring 2009, 0.3-m Resolution</title>
-<mgmg1cid></mgmg1cid>
+<mgmg1cid/>
 <pubinfo>
 <publish>Minnesota Department of Natural Resources</publish>
 </pubinfo>
@@ -156,7 +155,7 @@ accuracy standard for 1:6000 scale maps.</horizpar>
 </posacc>
 <lineage>
 <srcinfo>
-<srcscale></srcscale>
+<srcscale/>
 </srcinfo>
 <procstep>
 <procdesc>Keystone Aerial Surveys Inc. acquired new vertical,
@@ -204,7 +203,7 @@ mapping service) layer that is available online.</procdesc>
 <spdoinfo>
 <indspref>NA</indspref>
 <direct>Raster</direct>
-<mgmg3obj></mgmg3obj>
+<mgmg3obj/>
 <mgmg3til>3.75 minute quarter quadrangles (USGS)</mgmg3til>
 </spdoinfo>
 <spref>
@@ -253,8 +252,8 @@ http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab>
 <stdorder>
 <digform>
 <digtinfo>
-<formname></formname>
-<formvern></formvern>
+<formname/>
+<formvern/>
 <transize>Varies</transize>
 </digtinfo>
 </digform>

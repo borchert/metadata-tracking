@@ -1,4 +1,19 @@
-<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>Minnesota Department of Natural Resources (MNDNR)</origin><pubdate>20140710</pubdate><title>MNDNR Watershed Suite</title><mgmg1cid></mgmg1cid><pubinfo><publish>MNDNR - Division of Ecological and Water Resources - Watershed Delineation Project</publish></pubinfo><onlink>http://gisdata.mn.gov/dataset/geos-dnr-watersheds</onlink></citeinfo></citation><descript><abstract>The MNDNR Watershed Suite is a collection of watershed delineations at various levels, flow network lines, and pour points. Follow the links below to the individual metadata pages for each layer:
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources (MNDNR)</origin>
+        <pubdate>20140710</pubdate>
+        <title>MNDNR Watershed Suite</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>MNDNR - Division of Ecological and Water Resources - Watershed Delineation Project</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/geos-dnr-watersheds</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The MNDNR Watershed Suite is a collection of watershed delineations at various levels, flow network lines, and pour points. Follow the links below to the individual metadata pages for each layer:
 
 &lt;b&gt;MNDNR Watersheds&lt;/b&gt;
 MNDNR Level 01 - HUC 02: &lt;a href="dnr_watersheds_dnr_level_01_huc_02.html"&gt;dnr_watersheds_dnr_level_01_huc_02.html&lt;/a&gt;
@@ -10,13 +25,47 @@ MNDNR Level 09 - DNR AutoCatchments: &lt;a href="dnr_watersheds_auto_catchments.
 
 &lt;b&gt;Minnesota Hydrologic Units&lt;/b&gt;
 Flow Network Lines: &lt;a href="dnr_watersheds_catchment_flow_lines.html"&gt;dnr_watersheds_catchment_flow_lines.html&lt;/a&gt;
-Pour Points: &lt;a href="dnr_watersheds_catchment_pour_points.html"&gt;dnr_watersheds_catchment_pour_points.html&lt;/a&gt;</abstract><purpose>These watershed delineations are suitable for regional and statewide GIS analysis, database tiling, reference, business reporting, small scale mapping and other business needs associated with hydrologic systems.
+Pour Points: &lt;a href="dnr_watersheds_catchment_pour_points.html"&gt;dnr_watersheds_catchment_pour_points.html&lt;/a&gt;</abstract>
+      <purpose>These watershed delineations are suitable for regional and statewide GIS analysis, database tiling, reference, business reporting, small scale mapping and other business needs associated with hydrologic systems.
 
 These polygons provide a means for organizing land use and related data in a manner which is useful for hydrologic studies and watershed based decision-making.
 
-Flow Network Lines and Pour Points were created to aid in lake watershed management, from fish and game habitat management to calculating storm water run-off and water quality.</purpose><supplinf>State of Minnesota</supplinf></descript><timeperd><timeinfo><sngdate><caldate>20140710</caldate></sngdate></timeinfo><current>Time Period of Content Date indicates when dataset was last updated.
+Flow Network Lines and Pour Points were created to aid in lake watershed management, from fish and game habitat management to calculating storm water run-off and water quality.</purpose>
+      <supplinf>State of Minnesota</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20140710</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Time Period of Content Date indicates when dataset was last updated.
 
-The geometry of this data vary widely as to their currentness.  The parent dataset, MNDNR Catchments, is the maintenance version of the MNDNR Major Watershed dataset.  The user of this data is encouraged to review the metadata entry for the MNDNR Watersheds Level 08 - All Catchments dataset for more detailed information concerning the currentness of this dataset.</current></timeperd><status><progress>Complete</progress><update>Yearly</update></status><spdom><bounding><westbc>-97.23</westbc><eastbc>-89.53</eastbc><northbc>49.37</northbc><southbc>43.5</southbc></bounding></spdom><keywords><theme><themekey>geoscientificInformation, water, watershed, drainage area, major watershed, minor watershed, contributing area, hydrologic unit, hydrologic unit level, HUC, region, sub-region, catchment, hydrology, hydrography, watershed ratio</themekey><themekt>ISO 19115 Category</themekt></theme><place><placekey>Minnesota, MN</placekey></place></keywords><accconst>None</accconst><useconst>Use of the data are constrained only by the MNDNR GIS Data License Agreement. See the Distribution Liability section below for a link.
+The geometry of this data vary widely as to their currentness.  The parent dataset, MNDNR Catchments, is the maintenance version of the MNDNR Major Watershed dataset.  The user of this data is encouraged to review the metadata entry for the MNDNR Watersheds Level 08 - All Catchments dataset for more detailed information concerning the currentness of this dataset.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Yearly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.23</westbc>
+        <eastbc>-89.53</eastbc>
+        <northbc>49.37</northbc>
+        <southbc>43.5</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>geoscientificInformation, water, watershed, drainage area, major watershed, minor watershed, contributing area, hydrologic unit, hydrologic unit level, HUC, region, sub-region, catchment, hydrology, hydrography, watershed ratio</themekey>
+        <themekt>ISO 19115 Category</themekt>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Use of the data are constrained only by the MNDNR GIS Data License Agreement. See the Distribution Liability section below for a link.
 
 &lt;i&gt;ACKNOWLEDGMENTS:&lt;/i&gt;&lt;br&gt;
 - As defined in the MNDNR License Agreement, users of this data must credit the &lt;i&gt; Originator &lt;/i&gt; on published maps and analysis.&lt;br&gt;
@@ -29,5 +78,143 @@ The geometry of this data vary widely as to their currentness.  The parent datas
 &lt;i&gt;USE CONSTRAINT COMMENTS:&lt;/i&gt;&lt;br&gt; 
 - See Cartographic Lineage, Logical Consistency, Positional Accuracy, and Currentness Reference for further discussion of data capture. &lt;br&gt;
 - This data is not the same as any MNDNR legacy dataset.  This modern MNDNR Level 02 dataset was derived directly from the MNDNR Catchment layer.  The user of this data is encouraged to review the metadata entry for the MNDNR Watersheds Level 08 - All Catchments dataset for more detailed information.  &lt;br&gt;
-- The MNDNR Level 02 Watershed dataset is specific to the state of Minnesota and is not part of the NRCS Watershed Boundary Dataset (WBD).</useconst><native>ArcGIS File Geodatabase</native><browse><browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/geos_dnr_watersheds/preview/preview.jpg</browsen></browse><ptcontac><cntinfo><cntperp><cntorg>Minnesota DNR - Division of Waters</cntorg><cntper>Sean Vaughn</cntper></cntperp><cntpos>GIS Hydrologist</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>800 Oak Savanna Lane SW</address><city>Cambridge</city><state>MN</state><postal>55088</postal></cntaddr><cntvoice>763-689-7106</cntvoice><cntfax>763-689-7120</cntfax><cntemail>sean.vaughn@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><logic>Catchment data were originally digitized heads-up in ArcView 3.x as polyline shapefiles. These data were then incorporated into ArcINFO 7.0.3 for data scrubbing and attribute assembly. An initial ARC CLEAN was run on the data with a fuzzy tolerance of 0.1. Lines were intersected and then built into polygons. In 2008, the data was migrated into ArcGIS 9.3 where all DNR Catchment polygons were assembled into a statewide-seamless watershed dataset using ArcGIS 9.3 ArcGIS File Geodatabase topology rules and editing tools. These DNR Catchment data are topologically correct, all polygons are closed and lines intersect where intended. Data have been tested for completeness and attribute coding correctness.</logic><complete>Complete over the area of the State of Minnesota</complete><posacc><horizpa><horizpar>No quantitative studies of horizontal positional accuracy exist for the data. Although positional accuracy of watershed delineations can be arbitrary, accuracy of these data can be reasonably estimated based on the characteristics of all source materials and processing techniques to be 100 feet (30 meters) from correct position.</horizpar></horizpa><vertacc><vertaccr>No quantitative studies of vertical positional accuracy exist for the data.</vertaccr></vertacc></posacc><lineage><srcinfo><srcscale>Source layer wshd_lev02py3:  24000
-</srcscale></srcinfo></lineage></dataqual><spdoinfo><indspref>DNR Level 02 Watershed Polygons</indspref><direct>vector</direct><mgmg3obj>polygon</mgmg3obj><mgmg3til>state</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>Not Applicable</altdatum><altunits>Not Applicable</altunits></altsys><depthsys><depthdn>Not Applicable</depthdn><depthdu>Not Applicable</depthdu></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><distinfo><distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab><stdorder><digform><digtinfo><formname>ArcView Shapefile</formname><formvern>9.3</formvern><transize>1024</transize></digtinfo></digform><ordering>See Online Linkage or Distribution Contact</ordering></stdorder><resdesc>geos_dnr_watersheds</resdesc><distrib><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><address>500 Lafayette Rd</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20140612</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><address>500 Lafayette Rd</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></metc></metainfo><eainfo><overview><eaover>See attribute descriptions in the sub-metadata records for specific feature classes included in this dateset</eaover></overview></eainfo></metadata>
+- The MNDNR Level 02 Watershed dataset is specific to the state of Minnesota and is not part of the NRCS Watershed Boundary Dataset (WBD).</useconst>
+    <native>ArcGIS File Geodatabase</native>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/geos_dnr_watersheds/preview/preview.jpg</browsen>
+    </browse>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Waters</cntorg>
+          <cntper>Sean Vaughn</cntper>
+        </cntperp>
+        <cntpos>GIS Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>800 Oak Savanna Lane SW</address>
+          <city>Cambridge</city>
+          <state>MN</state>
+          <postal>55088</postal>
+        </cntaddr>
+        <cntvoice>763-689-7106</cntvoice>
+        <cntfax>763-689-7120</cntfax>
+        <cntemail>sean.vaughn@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Catchment data were originally digitized heads-up in ArcView 3.x as polyline shapefiles. These data were then incorporated into ArcINFO 7.0.3 for data scrubbing and attribute assembly. An initial ARC CLEAN was run on the data with a fuzzy tolerance of 0.1. Lines were intersected and then built into polygons. In 2008, the data was migrated into ArcGIS 9.3 where all DNR Catchment polygons were assembled into a statewide-seamless watershed dataset using ArcGIS 9.3 ArcGIS File Geodatabase topology rules and editing tools. These DNR Catchment data are topologically correct, all polygons are closed and lines intersect where intended. Data have been tested for completeness and attribute coding correctness.</logic>
+    <complete>Complete over the area of the State of Minnesota</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No quantitative studies of horizontal positional accuracy exist for the data. Although positional accuracy of watershed delineations can be arbitrary, accuracy of these data can be reasonably estimated based on the characteristics of all source materials and processing techniques to be 100 feet (30 meters) from correct position.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No quantitative studies of vertical positional accuracy exist for the data.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>Source layer wshd_lev02py3:  24000
+</srcscale>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>DNR Level 02 Watershed Polygons</indspref>
+    <direct>vector</direct>
+    <mgmg3obj>polygon</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shapefile</formname>
+          <formvern>9.3</formvern>
+          <transize>1024</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage or Distribution Contact</ordering>
+    </stdorder>
+    <resdesc>geos_dnr_watersheds</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20140612</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <eainfo>
+    <overview>
+      <eaover>See attribute descriptions in the sub-metadata records for specific feature classes included in this dateset</eaover>
+    </overview>
+  </eainfo>
+</metadata>

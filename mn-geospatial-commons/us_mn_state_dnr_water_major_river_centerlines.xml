@@ -1,6 +1,262 @@
-<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><pubdate>20131101</pubdate><title>Stream Routes - Major River Centerlines</title><mgmg1cid /><pubinfo><publish>Minnesota DNR - Division of Fisheries</publish></pubinfo><origin>Minnesota Department of Natural Resources (DNR)</origin><onlink>http://gisdata.mn.gov/dataset/water-major-river-centerlines</onlink></citeinfo></citation><descript><abstract>This data layer represents stream centerlines for major rivers in Minnesota.
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>20131101</pubdate>
+        <title>Stream Routes - Major River Centerlines</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota DNR - Division of Fisheries</publish>
+        </pubinfo>
+        <origin>Minnesota Department of Natural Resources (DNR)</origin>
+        <onlink>http://gisdata.mn.gov/dataset/water-major-river-centerlines</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data layer represents stream centerlines for major rivers in Minnesota.
 
-Major River Centerlines are maintained as tabular data and displayed as linear events on the &lt;a href="../../water_measured_kittle_routes/metadata/metadata.html" target=_blank&gt;&lt;b&gt;Stream Routes with Kittle Numbers and Mile Measures&lt;/b&gt;&lt;/a&gt; layer.  In the attribute table, designated segments extend from the FROM_MEAS (mile) to the TO_MEAS (mile) and have a total length = [LENGTH_MI] on a route with total length = [ROUTE_MI].</abstract><purpose>Cartographic purposes only.</purpose><supplinf>State of Minnesota, plus some streams in WI, ND, SD, IA</supplinf></descript><timeperd><timeinfo><sngdate><caldate>20131030</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>As needed</update></status><spdom><bounding><westbc>-97.252252</westbc><eastbc>-89.406737</eastbc><northbc>49.340250</northbc><southbc>43.098198</southbc></bounding></spdom><keywords><theme><themekey>inland Waters</themekey></theme><place><placekey>Minnesota</placekey></place></keywords><native>Arc/Info 8.0</native><crossref><citeinfo><title>&lt;a href="../../water_measured_kittle_routes/metadata/metadata.html" target=_blank&gt;&lt;b&gt;Stream Routes with Kittle Numbers and Mile Measures&lt;/b&gt;&lt;/a&gt;</title></citeinfo></crossref><browse><browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/water_major_river_centerlines/metadata/preview.jpg</browsen></browse><ptcontac><cntinfo><cntperp><cntorg>Minnesota DNR - Fisheries Unit</cntorg><cntper>Jamie Schulz</cntper></cntperp><cntpos>GIS Data Contact</cntpos><cntaddr><address>3555 9th St. NW Suite 350</address><city>Rochester</city><state>MN</state><postal>55901</postal></cntaddr><cntvoice>507-206-2830</cntvoice><cntemail>jamie.schulz@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><complete>statewide</complete><posacc><horizpa><horizpar>Source layer DNR Hydrography SDE\strm_ctrln_rte </horizpar></horizpa><vertacc><vertaccr>Not Applicable</vertaccr></vertacc></posacc><lineage><srcinfo><srcscale>Source layer dnrstln3:  24000
-</srcscale></srcinfo><procstep><procdesc>Original source of linear features is MNDOT 1:24K Basemap features (circa 1980's). Many stream features have been re-digitized over time to match current air photos. However, feature accuracy is highly variable and may not accurately reflect real-world conditions.
+Major River Centerlines are maintained as tabular data and displayed as linear events on the &lt;a href="../../water_measured_kittle_routes/metadata/metadata.html" target=_blank&gt;&lt;b&gt;Stream Routes with Kittle Numbers and Mile Measures&lt;/b&gt;&lt;/a&gt; layer.  In the attribute table, designated segments extend from the FROM_MEAS (mile) to the TO_MEAS (mile) and have a total length = [LENGTH_MI] on a route with total length = [ROUTE_MI].</abstract>
+      <purpose>Cartographic purposes only.</purpose>
+      <supplinf>State of Minnesota, plus some streams in WI, ND, SD, IA</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20131030</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.252252</westbc>
+        <eastbc>-89.406737</eastbc>
+        <northbc>49.340250</northbc>
+        <southbc>43.098198</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>inland Waters</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota</placekey>
+      </place>
+    </keywords>
+    <native>Arc/Info 8.0</native>
+    <crossref>
+      <citeinfo>
+        <title>&lt;a href="../../water_measured_kittle_routes/metadata/metadata.html" target=_blank&gt;&lt;b&gt;Stream Routes with Kittle Numbers and Mile Measures&lt;/b&gt;&lt;/a&gt;</title>
+      </citeinfo>
+    </crossref>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/water_major_river_centerlines/metadata/preview.jpg</browsen>
+    </browse>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Fisheries Unit</cntorg>
+          <cntper>Jamie Schulz</cntper>
+        </cntperp>
+        <cntpos>GIS Data Contact</cntpos>
+        <cntaddr>
+          <address>3555 9th St. NW Suite 350</address>
+          <city>Rochester</city>
+          <state>MN</state>
+          <postal>55901</postal>
+        </cntaddr>
+        <cntvoice>507-206-2830</cntvoice>
+        <cntemail>jamie.schulz@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <complete>statewide</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Source layer DNR Hydrography SDE\strm_ctrln_rte </horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not Applicable</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>Source layer dnrstln3:  24000
+</srcscale>
+      </srcinfo>
+      <procstep>
+        <procdesc>Original source of linear features is MNDOT 1:24K Basemap features (circa 1980's). Many stream features have been re-digitized over time to match current air photos. However, feature accuracy is highly variable and may not accurately reflect real-world conditions.
 
-Accuracy of original MNDOT Basemap features:  Horizontal positional accuracy is highly variable.  Rectilinear features are probably accurate to 55 feet (based on estimated production errors and a mean sum square estimation).  Feature representation of sinuous streams is especially variable, with accuracies in the 55 foot range present in some areas, and non-systematic offsets (especially as coarse generalizations) present in other areas of up to 150 feet.  Quality typically varies along 7 1/2 quandrangle borders, with the most significant and consistent offsets observed in the northeastern portion of the state, and the best representations found in Southern Minnesota.</procdesc></procstep></lineage></dataqual><spdoinfo><indspref /><direct>vector</direct><mgmg3obj>line</mgmg3obj><mgmg3til>state</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>Not Applicable</altdatum><altunits>Not Applicable</altunits></altsys><depthsys><depthdn>Not Applicable</depthdn><depthdu>Not Applicable</depthdu></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>major_river_centerline_traces_mn</enttypl><enttypd>Stream Routes - Major River Centerlines</enttypd></enttyp><attr><attrlabl>DNR_HYDRO_ID</attrlabl><attrdef>Unique GIS record number for each stream route feature in DNR Hydrography SDE - Stream Route Centerlines   (GIS-calculated.)</attrdef><attrdefs>DNR Fisheries</attrdefs></attr><attr><attrlabl>FW_ID</attrlabl><attrdef>Unique Fisheries Watercourse ID for joining/linking stream routes to DNR Fisheries Stream Survey Oracle DB. FW_IDs are assigned based on how the watercourse is managed by DNR Fisheries (an FW_ID may correspond to an entire stream or portion of a stream.)  Dummy (invalid) Kittle Numbers have FW_ID = 0.</attrdef><attrdefs>DNR Fisheries Stream Survey DB</attrdefs></attr><attr><attrlabl>KITTLE_NBR</attrlabl><attrdef>Watercourse ID per DNR Fisheries Stream Survey database.  A valid KITTLE_NBR has a drainage-branching format 'X-000-000-000...' (See VALID = Y, below).  A dummy KITTLE_NBR has the format 'MAJXXXX-xxxxx' (See VALID = N, below).</attrdef><attrdefs>DNR Fisheries Stream Survey DB</attrdefs></attr><attr><attrlabl>KITTLE_NAME</attrlabl><attrdef>Stream Name per DNR Fisheries Stream Survey database</attrdef><attrdefs>DNR Fisheries Stream Survey DB</attrdefs></attr><attr><attrlabl>ROUTE_MI</attrlabl><attrdef>Length of entire stream route in miles.  (GIS-calculated.)</attrdef><attrdefs>DNR Fisheries</attrdefs></attr><attr><attrlabl>FROM_MEAS</attrlabl><attrdef>Mile measure for starting (downstream) location of linear feature.  (GIS-calculated.)</attrdef><attrdefs>DNR Fisheries</attrdefs></attr><attr><attrlabl>TO_MEAS</attrlabl><attrdef>Mile measure for ending (upstream) location of linear feature.  (GIS-calculated.)</attrdef><attrdefs>DNR Fisheries</attrdefs></attr><attr><attrlabl>LENGTH_MI</attrlabl><attrdef>Length of linear feature in miles.  (GIS-calculated.)</attrdef><attrdefs>DNR Fisheries</attrdefs></attr><attr><attrlabl>START_UTM_X</attrlabl><attrdef>UTM X coordinate for starting location of linear feature.  (GIS-calculated.)</attrdef><attrdefs>DNR Fisheries</attrdefs></attr><attr><attrlabl>START_UTM_Y</attrlabl><attrdef>UTM Y coordinate for starting location of linear feature.  (GIS-calculated.)</attrdef><attrdefs>DNR Fisheries</attrdefs></attr><attr><attrlabl>END_UTM_X</attrlabl><attrdef>UTM X coordinate for ending location of linear feature.  (GIS-calculated.)</attrdef><attrdefs>DNR Fisheries</attrdefs></attr><attr><attrlabl>END_UTM_Y</attrlabl><attrdef>UTM Y coordinate for ending location of linear feature.  (GIS-calculated.)</attrdef><attrdefs>DNR Fisheries</attrdefs></attr><attr><attrlabl>PUBLISH_DATE</attrlabl><attrdef>Date the GIS layer was published or updated and re-published.</attrdef><attrdefs>DNR Fisheries</attrdefs></attr></detailed></eainfo><distinfo><resdesc>water_major_river_centerlines.gdb\major_river_centerline_traces_mn</resdesc><distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab><stdorder><digform><digtinfo><formname>Shapefile</formname><formvern>Not Applicable</formvern><transize /></digtinfo></digform><ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><address>500 Lafayette Rd</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20141007</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota DNR - Fisheries Unit</cntorg><cntper>Jamie Schulz</cntper></cntperp><cntpos>GIS Data Contact</cntpos><cntaddr><address>3555 9th St. NW Suite 350</address><city>Rochester</city><state>MN</state><postal>55901</postal></cntaddr><cntvoice>507-206-2830</cntvoice><cntemail>jamie.schulz@state.mn.us</cntemail></cntinfo></metc></metainfo></metadata>
+Accuracy of original MNDOT Basemap features:  Horizontal positional accuracy is highly variable.  Rectilinear features are probably accurate to 55 feet (based on estimated production errors and a mean sum square estimation).  Feature representation of sinuous streams is especially variable, with accuracies in the 55 foot range present in some areas, and non-systematic offsets (especially as coarse generalizations) present in other areas of up to 150 feet.  Quality typically varies along 7 1/2 quandrangle borders, with the most significant and consistent offsets observed in the northeastern portion of the state, and the best representations found in Southern Minnesota.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref/>
+    <direct>vector</direct>
+    <mgmg3obj>line</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>major_river_centerline_traces_mn</enttypl>
+        <enttypd>Stream Routes - Major River Centerlines</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>DNR_HYDRO_ID</attrlabl>
+        <attrdef>Unique GIS record number for each stream route feature in DNR Hydrography SDE - Stream Route Centerlines   (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FW_ID</attrlabl>
+        <attrdef>Unique Fisheries Watercourse ID for joining/linking stream routes to DNR Fisheries Stream Survey Oracle DB. FW_IDs are assigned based on how the watercourse is managed by DNR Fisheries (an FW_ID may correspond to an entire stream or portion of a stream.)  Dummy (invalid) Kittle Numbers have FW_ID = 0.</attrdef>
+        <attrdefs>DNR Fisheries Stream Survey DB</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>KITTLE_NBR</attrlabl>
+        <attrdef>Watercourse ID per DNR Fisheries Stream Survey database.  A valid KITTLE_NBR has a drainage-branching format 'X-000-000-000...' (See VALID = Y, below).  A dummy KITTLE_NBR has the format 'MAJXXXX-xxxxx' (See VALID = N, below).</attrdef>
+        <attrdefs>DNR Fisheries Stream Survey DB</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>KITTLE_NAME</attrlabl>
+        <attrdef>Stream Name per DNR Fisheries Stream Survey database</attrdef>
+        <attrdefs>DNR Fisheries Stream Survey DB</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ROUTE_MI</attrlabl>
+        <attrdef>Length of entire stream route in miles.  (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FROM_MEAS</attrlabl>
+        <attrdef>Mile measure for starting (downstream) location of linear feature.  (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TO_MEAS</attrlabl>
+        <attrdef>Mile measure for ending (upstream) location of linear feature.  (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH_MI</attrlabl>
+        <attrdef>Length of linear feature in miles.  (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>START_UTM_X</attrlabl>
+        <attrdef>UTM X coordinate for starting location of linear feature.  (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>START_UTM_Y</attrlabl>
+        <attrdef>UTM Y coordinate for starting location of linear feature.  (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>END_UTM_X</attrlabl>
+        <attrdef>UTM X coordinate for ending location of linear feature.  (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>END_UTM_Y</attrlabl>
+        <attrdef>UTM Y coordinate for ending location of linear feature.  (GIS-calculated.)</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PUBLISH_DATE</attrlabl>
+        <attrdef>Date the GIS layer was published or updated and re-published.</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <resdesc>water_major_river_centerlines.gdb\major_river_centerline_traces_mn</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <formvern>Not Applicable</formvern>
+          <transize/>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141007</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Fisheries Unit</cntorg>
+          <cntper>Jamie Schulz</cntper>
+        </cntperp>
+        <cntpos>GIS Data Contact</cntpos>
+        <cntaddr>
+          <address>3555 9th St. NW Suite 350</address>
+          <city>Rochester</city>
+          <state>MN</state>
+          <postal>55901</postal>
+        </cntaddr>
+        <cntvoice>507-206-2830</cntvoice>
+        <cntemail>jamie.schulz@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

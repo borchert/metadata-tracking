@@ -38,7 +38,7 @@ Extensive information regarding the source data can be found in these two docume
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20150709</caldate>
+          <caldate>20150723</caldate>
         </sngdate>
       </timeinfo>
       <current>FEMA DFIRM CD-ROM Release Date for each county, 2006-Present.  Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset, through our direct work with FEMA.</current>
@@ -69,7 +69,7 @@ Extensive information regarding the source data can be found in these two docume
 
 No warranty expressed or implied is made by FEMA regarding the utility of the data on any other system nor shall the act of distribution constitute any such warranty. For the purposes of the National Flood Insurance Program (NFIP), changes to the flood risk information published by FEMA may only be performed by FEMA and through the mechanisms established in the NFIP regulation (44 CFR Parts 59-78). These digital data are produced in conjunction with the hardcopy FIRMs and generally match the hardcopy map exactly. However the hardcopy flood maps and flood profiles are the authoritative documents for the NFIP. Acknowledgement of FEMA would be appreciated in products derived from these data. </useconst>
     <browse>
-      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/water_dnr_fema_dfirm/preview/preview.jpg</browsen>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/water_dnr_fema_dfirm/preview/preview.jpg</browsen>
     </browse>
     <crossref>
       <citeinfo>

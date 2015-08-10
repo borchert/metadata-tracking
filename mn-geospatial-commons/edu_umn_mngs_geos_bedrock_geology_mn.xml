@@ -1,6 +1,3 @@
-<?xml version="1.0"?>
-
-
 <metadata>
 
 
@@ -11,7 +8,7 @@
         <origin>Minnesota Geological Survey, modified by MNDNR, Lands and Minerals</origin>
         <pubdate>2000-01-01 00:00:00.0</pubdate>
         <title>Bedrock Geology from MGS State Map Series S-20 2000 (Digital Version 3) - Line</title>
-        <mgmg1cid></mgmg1cid>
+        <mgmg1cid/>
           <pubinfo>
             <publish>Minnesota Geological Survey</publish>
           </pubinfo>
@@ -40,7 +37,7 @@ The Arc/INFO coverage, bgpg2000, was downloaded from the MGS ftp site by DNR, Di
 
     <status>
       <progress>Complete</progress>
-      <update></update>
+      <update/>
     </status>
     
     <spdom>
@@ -86,14 +83,14 @@ The Arc/INFO coverage, bgpg2000, was downloaded from the MGS ftp site by DNR, Di
 
     <browse>
       <browsen>http://jmaps.dnr.state.mn.us/gis/dp_datasample.jsp?mpid=39000178&amp;ptid=2&amp;fcid=2&amp;lname=Bedrock Geology from MGS State Map Series S-20 2000 (Digital Version 3) - Line</browsen>
-      <browsed></browsed>
+      <browsed/>
     </browse>
 
     <native>Arc/INFO 7.04</native>
     
     <crossref>
       <citeinfo>
-        <title></title>
+        <title/>
       </citeinfo>
     </crossref>
 
@@ -103,7 +100,7 @@ The Arc/INFO coverage, bgpg2000, was downloaded from the MGS ftp site by DNR, Di
   <dataqual>
 
     <attracc>
-      <attraccr></attraccr>
+      <attraccr/>
     </attracc>
 
     <logic>No topological problems noted.</logic>
@@ -126,7 +123,7 @@ The Arc/INFO coverage, bgpg2000, was downloaded from the MGS ftp site by DNR, Di
 </srcscale>
       </srcinfo>
       <procstep>
-        <procdesc></procdesc>
+        <procdesc/>
       </procstep>
     </lineage>
 
@@ -147,8 +144,8 @@ The Arc/INFO coverage, bgpg2000, was downloaded from the MGS ftp site by DNR, Di
 
     <horizsys>
       <geograph>
-        <latres></latres>
-        <longres></longres>
+        <latres/>
+        <longres/>
       </geograph>
       <planar>
         <mapproj>
@@ -162,18 +159,18 @@ The Arc/INFO coverage, bgpg2000, was downloaded from the MGS ftp site by DNR, Di
             <utmzone>15</utmzone>
           </utm>
           <spcs>
-            <spcszone></spcszone>
+            <spcszone/>
           </spcs>
-          <mgmg4coz></mgmg4coz>
+          <mgmg4coz/>
           <mgmg4adj>Not Applicable</mgmg4adj>
         </gridsys>
         <planci>
           <coordrep>
-            <absres></absres>
-            <ordres></ordres>
+            <absres/>
+            <ordres/>
           </coordrep>
           <distbrep>
-            <distres></distres>
+            <distres/>
           </distbrep>
           <plandu>meters</plandu>
         </planci>
@@ -202,8 +199,8 @@ The Arc/INFO coverage, bgpg2000, was downloaded from the MGS ftp site by DNR, Di
 
 
     <overview>
-      <eaover></eaover>
-      <eadetcit></eadetcit>
+      <eaover/>
+      <eadetcit/>
     </overview>
 
   </eainfo>
@@ -214,30 +211,30 @@ The Arc/INFO coverage, bgpg2000, was downloaded from the MGS ftp site by DNR, Di
     <distrib>
       <cntinfo>
         <cntperp>
-          <cntper></cntper>
-          <cntorg></cntorg>
+          <cntper/>
+          <cntorg/>
         </cntperp>
-        <cntpos></cntpos>
+        <cntpos/>
         <cntaddr>
           <addrtype>Mailing and Physical</addrtype>
-          <address></address>
-          <city></city>
-          <state></state>
-          <postal></postal>
+          <address/>
+          <city/>
+          <state/>
+          <postal/>
         </cntaddr>
-        <cntvoice></cntvoice>
-        <cntfax></cntfax>
-        <cntemail></cntemail>
+        <cntvoice/>
+        <cntfax/>
+        <cntemail/>
       </cntinfo>
     </distrib>
     <resdesc>lfrm_bdrkgln2</resdesc>
-    <distliab>The Minnesota Department of Natural Resources makes no representation or warranties, express or implied, with respect to the reuse of data provided herewith, regardless of its format or the means of its transmission. There is no guarantee or representation to the user as to the accuracy, currency, suitability, or reliability of this data for any purpose. The user accepts the data &apos;as is&apos;, and assumes all risks associated with its use. By accepting this data, the user agrees not to transmit this data or provide access to it or any part of it to another party unless the user shall include with the data a copy of this disclaimer. The Minnesota Department of Natural Resources assumes no responsibility for actual or consequential damage incurred as a result of any user&apos;s reliance on this data.</distliab>
+    <distliab>The Minnesota Department of Natural Resources makes no representation or warranties, express or implied, with respect to the reuse of data provided herewith, regardless of its format or the means of its transmission. There is no guarantee or representation to the user as to the accuracy, currency, suitability, or reliability of this data for any purpose. The user accepts the data 'as is', and assumes all risks associated with its use. By accepting this data, the user agrees not to transmit this data or provide access to it or any part of it to another party unless the user shall include with the data a copy of this disclaimer. The Minnesota Department of Natural Resources assumes no responsibility for actual or consequential damage incurred as a result of any user's reliance on this data.</distliab>
     <stdorder>
       <digform>
         <digtinfo>
           <formname>Shapefile</formname>
           <formvern>Not applicable</formvern>
-          <transize></transize>
+          <transize/>
         </digtinfo>
       </digform>
       <ordering>See Online Linkage or Distribution Contact</ordering>
@@ -277,4 +274,3 @@ The Arc/INFO coverage, bgpg2000, was downloaded from the MGS ftp site by DNR, Di
   </metainfo>
 
 </metadata>
-

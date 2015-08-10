@@ -27,7 +27,7 @@ For more information about AMA's, see the following:
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20150709</caldate>
+          <caldate>20150723</caldate>
         </sngdate>
       </timeinfo>
       <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset.</current>
@@ -57,7 +57,7 @@ For more information about AMA's, see the following:
     <useconst>Parcel delineations are generally representative of acquired lands, but they are not of survey-grade accuracy.  Do not use for boundary disputes or legal applications.  Use of the data are constrained only by the DNR GIS Data License Agreement. See the Distribution Liability section below for a link.</useconst>
     <native>shapefile</native>
     <browse>
-      <browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/plan_mndnr_fisheries_acquisition/preview/preview.jpg</browsen>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/plan_mndnr_fisheries_acquisition/preview/preview.jpg</browsen>
     </browse>
     <crossref>
       <citeinfo>

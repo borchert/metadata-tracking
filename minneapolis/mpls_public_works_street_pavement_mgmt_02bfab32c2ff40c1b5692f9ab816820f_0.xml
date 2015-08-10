@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -99,187 +99,184 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Describes a variety of factors for each street segment including its type, its condition, and when it was last resurfaced. The Public Works department prioritizes repaving based on several factors. For more questions about the pavement condition data, contact&#160;&lt;a href='mailto:PublicWorksOpenData@minneapolismn.gov' target='_blank'&gt;PublicWorksOpenData@minneapolismn.gov&lt;/a&gt;&lt;div&gt;&lt;table border='0' cellpadding='0' cellspacing='0' style='border-collapse:&#13;
- collapse;width:1204pt' width='1606'&gt;&#13;
- &#13;
- &#13;
- &lt;tbody&gt;&lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;width:143pt' width='191'&gt;&lt;br /&gt;&lt;br /&gt;FIELD&#13;
-  NAME&lt;/td&gt;&#13;
-  &lt;td style='border-left:none;width:1061pt' width='1415'&gt;&lt;br /&gt;&lt;br /&gt;DESCRIPTION&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;OFT&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;Unique 12 digit&#13;
-  number, it is the link to the centerline.&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;STREET_O_NAME&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The name of the&#13;
-  street on.&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;STREET_F_NAME&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The name of the&#13;
-  street from.&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;STREET_T_NAME&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The name of the&#13;
-  street to.&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;NETWORK&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The network of&#13;
-  streets.&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;BRANCH&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The branch of the&#13;
-  street.&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;SECTION&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The section of the&#13;
-  street.&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;PAVEMENT&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The type of pavement.&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;BASE&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The type of aggregate&#13;
-  base.&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;CONST_YR&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The year the street&#13;
-  was constructed.&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;RENOVATION_YR&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The year the street&#13;
-  was renovated.&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;SEALCOAT_YR&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The last year the&#13;
-  street was sealcoated.&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;SEALCOAT_COUNT&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The number of times&#13;
-  the street has been sealcoated.&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;OVERLAY_YR&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The year the street&#13;
-  was overlaid.&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;PCI&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The PCI of linear&#13;
-  grouped streets, (MSA, Local and PrkBd networks).&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;PCI_BRANCH_AVG&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The PCI of area&#13;
-  grouped streets, (Residential Paving Projects, (RES network).&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;LENGTH&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The length of the&#13;
-  block.&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;COMMENTS&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;Sealcoating and&#13;
-  Pavement Comments&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;COMMENTS_2&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;Misc comments&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;INSPECTION_DATE&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The date of the last&#13;
-  inspection.&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt;border-top:none'&gt;REFNO_ALL&lt;/td&gt;&#13;
-  &lt;td style='border-top:none;border-left:none'&gt;The reference number,&#13;
+            <gco:CharacterString>Describes a variety of factors for each street segment including its type, its condition, and when it was last resurfaced. The Public Works department prioritizes repaving based on several factors. For more questions about the pavement condition data, contact&#160;PublicWorksOpenData@minneapolismn.gov
+
+&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;FIELD&#13;
+  NAME
+&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;DESCRIPTION
+
+
+OFT
+Unique 12 digit&#13;
+  number, it is the link to the centerline.
+
+
+STREET_O_NAME
+The name of the&#13;
+  street on.
+
+
+STREET_F_NAME
+The name of the&#13;
+  street from.
+
+
+STREET_T_NAME
+The name of the&#13;
+  street to.
+
+
+NETWORK
+The network of&#13;
+  streets.
+
+
+BRANCH
+The branch of the&#13;
+  street.
+
+
+SECTION
+The section of the&#13;
+  street.
+
+
+PAVEMENT
+The type of pavement.
+
+
+BASE
+The type of aggregate&#13;
+  base.
+
+
+CONST_YR
+The year the street&#13;
+  was constructed.
+
+
+RENOVATION_YR
+The year the street&#13;
+  was renovated.
+
+
+SEALCOAT_YR
+The last year the&#13;
+  street was sealcoated.
+
+
+SEALCOAT_COUNT
+The number of times&#13;
+  the street has been sealcoated.
+
+
+OVERLAY_YR
+The year the street&#13;
+  was overlaid.
+
+
+PCI
+The PCI of linear&#13;
+  grouped streets, (MSA, Local and PrkBd networks).
+
+
+PCI_BRANCH_AVG
+The PCI of area&#13;
+  grouped streets, (Residential Paving Projects, (RES network).
+
+
+LENGTH
+The length of the&#13;
+  block.
+
+
+COMMENTS
+Sealcoating and&#13;
+  Pavement Comments
+
+
+COMMENTS_2
+Misc comments
+
+
+INSPECTION_DATE
+The date of the last&#13;
+  inspection.
+
+
+REFNO_ALL
+The reference number,&#13;
   it orders the blocks by street name and then in geographic order, south to&#13;
-  north or west to east.&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt'&gt;&lt;/td&gt;&#13;
-  &lt;td&gt;&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt'&gt;&lt;/td&gt;&#13;
-  &lt;td&gt;&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt'&gt;&lt;/td&gt;&#13;
-  &lt;td&gt;&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt'&gt;&lt;/td&gt;&#13;
-  &lt;td&gt;&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt'&gt;&lt;/td&gt;&#13;
-  &lt;td&gt;&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt'&gt;&lt;/td&gt;&#13;
-  &lt;td&gt;&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt'&gt;&lt;/td&gt;&#13;
-  &lt;td&gt;&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt'&gt;&lt;/td&gt;&#13;
-  &lt;td&gt;&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt'&gt;&lt;/td&gt;&#13;
-  &lt;td&gt;&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt'&gt;&lt;/td&gt;&#13;
-  &lt;td&gt;&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt'&gt;&lt;/td&gt;&#13;
-  &lt;td&gt;&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt'&gt;&lt;/td&gt;&#13;
-  &lt;td&gt;&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt'&gt;&lt;/td&gt;&#13;
-  &lt;td&gt;&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt'&gt;&lt;/td&gt;&#13;
-  &lt;td&gt;&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt'&gt;&lt;/td&gt;&#13;
-  &lt;td&gt;&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt'&gt;&lt;/td&gt;&#13;
-  &lt;td&gt;&lt;/td&gt;&#13;
- &lt;/tr&gt;&#13;
- &lt;tr height='26' style='mso-height-source:userset;height:20.1pt'&gt;&#13;
-  &lt;td height='26' style='height:20.1pt'&gt;&lt;/td&gt;&#13;
-  &lt;td&gt;&lt;/td&gt;&#13;
- &lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</gco:CharacterString>
+  north or west to east.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -406,7 +403,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/PWStreetPavementMgmt/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/PWStreetPavementMgmt/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

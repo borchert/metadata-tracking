@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -99,7 +99,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>This is the feature service for the City of Minneapolis's primary Zoning layer. &#160;Please refer to the City's&#160;&lt;a href='http://www.minneapolismn.gov/zoning/' target='_blank'&gt;Zoning&lt;/a&gt;&#160;webpage for more details about what the zoning codes mean and the types of uses allowed in the designated zoning area. &#160;While variance updates made to this layer occur often, this dataset will be updated quarterly.&#160;</gco:CharacterString>
+            <gco:CharacterString>This is the feature service for the City of Minneapolis's primary Zoning layer. &#160;Please refer to the City's&#160;Zoning&#160;webpage for more details about what the zoning codes mean and the types of uses allowed in the designated zoning area. &#160;While variance updates made to this layer occur often, this dataset will be updated quarterly.&#160;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -244,7 +244,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Primary_Zoning_Areas/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Primary_Zoning_Areas/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

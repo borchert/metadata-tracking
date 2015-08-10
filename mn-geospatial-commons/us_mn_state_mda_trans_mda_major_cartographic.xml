@@ -1,9 +1,200 @@
-﻿<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>MN Department of Agriculture - IT Division</origin><pubdate>20071029</pubdate><title>Major Roads - MDA Cartographic</title><pubinfo><publish>MN Department of Agriculture</publish></pubinfo><onlink>http://http://gisdata.mn.gov/dataset/trans-mda-major-cartographic</onlink></citeinfo></citation><descript><abstract>This layer contains small scale cartographic representations of Interstates, Federal Trunk Highways, and State Trunk Highways, most of which are found in the Mn/DOT Basemap.  In contrast to that data, this layer represents each highway centerline pair with a single line, thereby simplifying labeling and identification.  The features have also been simplified in that where highways from different systems are coincident, they were consolidated into a single representation following a hierarchy of Interstates, then Federal Trunk Highways, and then State Trunk Highways.  For example, where US Highway 10 is coincident with Interstate 35W, only one segment exists and it is identified only as Interstate 35W.
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>MN Department of Agriculture - IT Division</origin>
+        <pubdate>20071029</pubdate>
+        <title>Major Roads - MDA Cartographic</title>
+        <pubinfo>
+          <publish>MN Department of Agriculture</publish>
+        </pubinfo>
+        <onlink>http://http://gisdata.mn.gov/dataset/trans-mda-major-cartographic</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This layer contains small scale cartographic representations of Interstates, Federal Trunk Highways, and State Trunk Highways, most of which are found in the Mn/DOT Basemap.  In contrast to that data, this layer represents each highway centerline pair with a single line, thereby simplifying labeling and identification.  The features have also been simplified in that where highways from different systems are coincident, they were consolidated into a single representation following a hierarchy of Interstates, then Federal Trunk Highways, and then State Trunk Highways.  For example, where US Highway 10 is coincident with Interstate 35W, only one segment exists and it is identified only as Interstate 35W.
 
-In some rare cases, county roads were included where they were natural extensions of existing state highways.</abstract><purpose>Basemap preparation, cartographic products, registration, control</purpose><supplinf>Statewide</supplinf></descript><timeperd><current>Data is current as of May 2010, when compared to Mn/DOT's Basemap map services and road data.</current><timeinfo><sngdate><caldate>20101029</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>As needed</update></status><spdom><bounding><westbc>-96.831385</westbc><eastbc>-89.515716</eastbc><northbc>49.024538</northbc><southbc>43.435549</southbc></bounding></spdom><keywords><theme><themekey>Major Roads, MnDOT, transportation</themekey></theme><place><placekey>Minnesota</placekey></place></keywords><accconst>None.</accconst><useconst>By acceptance of this data, the user agrees to include a copy of this metadata record, including the liability disclaimer, whenever the user transmits or provides the GIS Data (or any portion of it) to another user.</useconst><ptcontac><cntinfo><cntperp><cntorg>Minnesota Department of Agriculture</cntorg><cntper>Karl Hillstrom</cntper></cntperp><cntpos>GIS Specialist, MN.IT</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>625 Robert Street North</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-6087</cntvoice><cntfax>651-201-6102</cntfax><cntemail>Karl.Hillstrom@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>Attributes have been randomly checked for consistency against Mn/DOT's Basemap.
-			</attraccr></attracc><!--<logic>Attributes follow a consistent hierarchy of Interstates, Federal Trunk Highways, and State Trunk Highways where coincident road systems exist.  In three records where more than one interstate coincide, the following choices were made:
+In some rare cases, county roads were included where they were natural extensions of existing state highways.</abstract>
+      <purpose>Basemap preparation, cartographic products, registration, control</purpose>
+      <supplinf>Statewide</supplinf>
+    </descript>
+    <timeperd>
+      <current>Data is current as of May 2010, when compared to Mn/DOT's Basemap map services and road data.</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20101029</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-96.831385</westbc>
+        <eastbc>-89.515716</eastbc>
+        <northbc>49.024538</northbc>
+        <southbc>43.435549</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Major Roads, MnDOT, transportation</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota</placekey>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>By acceptance of this data, the user agrees to include a copy of this metadata record, including the liability disclaimer, whenever the user transmits or provides the GIS Data (or any portion of it) to another user.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Agriculture</cntorg>
+          <cntper>Karl Hillstrom</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist, MN.IT</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>625 Robert Street North</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-6087</cntvoice>
+        <cntfax>651-201-6102</cntfax>
+        <cntemail>Karl.Hillstrom@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Attributes have been randomly checked for consistency against Mn/DOT's Basemap.
+			</attraccr>
+    </attracc>
+    <!--<logic>Attributes follow a consistent hierarchy of Interstates, Federal Trunk Highways, and State Trunk Highways where coincident road systems exist.  In three records where more than one interstate coincide, the following choices were made:
 I694 and I35E: Labeled I35E
 I94 and I35W: Labeled I94
 I94 and I35E: Labeled I94
-While topological rules were used to create this hierarchy, the dataset has not been reviewed for topological consistency.</logic>--><complete>This data set generally does not include county roads, CSAH's, ramps, or other features that can be typically included with Major Roads layers. To make up for gaps created by these omissions, the linework has been generalized in some locations.</complete><posacc><horizpa><horizpar>Shapes were randomly checked at scales of up to 1:24,000, but this layer is best used at scales of 1:100,000 and beyond.
-				</horizpar></horizpa></posacc></dataqual><eainfo><detailed><enttyp><enttypl>Attributes for Major Roads Cartographic Layer developed by MDA.</enttypl><!--<enttypd>Attributes for Major Roads Cartographic Layer developed by MDA.</enttypd>--></enttyp><attr><attrlabl>ROAD_NUM</attrlabl><attrdef>This displays the number of the road. As this data layer is meant to be used at small scales, the ROAD_NUM does not include trailing letters. For example, the road number for "Interstate 35W" would be "35".</attrdef></attr><attr><attrlabl>ROAD_NAME</attrlabl><attrdef>This displays the Highway name of the road. For example, the road name for "Interstate 35W" would be "I35W".</attrdef></attr><attr><attrlabl>ROAD_CLASS</attrlabl><attrdef>A field that defines highway or surface street type. Valid values include: 1 - Interstate Trunk Highway;  2 - U.S. Trunk Highway; and 3 - Minnesota Trunk Highway</attrdef><attrdomv><edom><edomv>1</edomv><edomvd>Interstate Trunk Highway</edomvd></edom></attrdomv><attrdomv><edom><edomv>2</edomv><edomvd>U.S. Trunk Highway</edomvd></edom></attrdomv><attrdomv><edom><edomv>3</edomv><edomvd>Minnesota Trunk Highway</edomvd></edom></attrdomv></attr><attr><attrlabl>LENGTH</attrlabl><attrdef>Length of the road segment in meters</attrdef></attr></detailed></eainfo><distinfo><resdesc>trans_mda_major_cartographic</resdesc><distliab>This data was developed by the Minnesota Department of Agriculture (MDA) for its own internal business purposes. MDA DOES NOT REPRESENT OR WARRANT THAT THE DATA OR DOCUMENTATION ARE ERROR-FREE, COMPLETE, CURRENT, OR ACCURATE. The user accepts the data 'as is', and is responsible for any consequences resulting from its use. The user should consult the data documentation for this particular data to determine its limitations and the precision with which it may depict distance, direction, location, or other geographic features. By accepting this data, the user agrees not to transmit this data or provide access to it or any part of it to another party unless the user shall include with the data a copy of this disclaimer.</distliab><distrib><cntinfo><cntperp><cntorg>Minnesota Department of Agriculture</cntorg><cntper>Karl Hillstrom</cntper></cntperp><cntpos>GIS Specialist, MN.IT</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>625 Robert Street North</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-6087</cntvoice><cntfax>651-201-6102</cntfax><cntemail>Karl.Hillstrom@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20141029</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Department of Agriculture</cntorg><cntper>Karl Hillstrom</cntper></cntperp><cntpos>GIS Specialist, MN.IT</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>625 Robert Street North</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-6087</cntvoice><cntfax>651-201-6102</cntfax><cntemail>Karl.Hillstrom@state.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>
+While topological rules were used to create this hierarchy, the dataset has not been reviewed for topological consistency.</logic>-->
+    <complete>This data set generally does not include county roads, CSAH's, ramps, or other features that can be typically included with Major Roads layers. To make up for gaps created by these omissions, the linework has been generalized in some locations.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Shapes were randomly checked at scales of up to 1:24,000, but this layer is best used at scales of 1:100,000 and beyond.
+				</horizpar>
+      </horizpa>
+    </posacc>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Attributes for Major Roads Cartographic Layer developed by MDA.</enttypl>
+        <!--<enttypd>Attributes for Major Roads Cartographic Layer developed by MDA.</enttypd>-->
+      </enttyp>
+      <attr>
+        <attrlabl>ROAD_NUM</attrlabl>
+        <attrdef>This displays the number of the road. As this data layer is meant to be used at small scales, the ROAD_NUM does not include trailing letters. For example, the road number for "Interstate 35W" would be "35".</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ROAD_NAME</attrlabl>
+        <attrdef>This displays the Highway name of the road. For example, the road name for "Interstate 35W" would be "I35W".</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ROAD_CLASS</attrlabl>
+        <attrdef>A field that defines highway or surface street type. Valid values include: 1 - Interstate Trunk Highway;  2 - U.S. Trunk Highway; and 3 - Minnesota Trunk Highway</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Interstate Trunk Highway</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>U.S. Trunk Highway</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Minnesota Trunk Highway</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+        <attrdef>Length of the road segment in meters</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <resdesc>trans_mda_major_cartographic</resdesc>
+    <distliab>This data was developed by the Minnesota Department of Agriculture (MDA) for its own internal business purposes. MDA DOES NOT REPRESENT OR WARRANT THAT THE DATA OR DOCUMENTATION ARE ERROR-FREE, COMPLETE, CURRENT, OR ACCURATE. The user accepts the data 'as is', and is responsible for any consequences resulting from its use. The user should consult the data documentation for this particular data to determine its limitations and the precision with which it may depict distance, direction, location, or other geographic features. By accepting this data, the user agrees not to transmit this data or provide access to it or any part of it to another party unless the user shall include with the data a copy of this disclaimer.</distliab>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Agriculture</cntorg>
+          <cntper>Karl Hillstrom</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist, MN.IT</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>625 Robert Street North</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-6087</cntvoice>
+        <cntfax>651-201-6102</cntfax>
+        <cntemail>Karl.Hillstrom@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141029</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Agriculture</cntorg>
+          <cntper>Karl Hillstrom</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist, MN.IT</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>625 Robert Street North</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-6087</cntvoice>
+        <cntfax>651-201-6102</cntfax>
+        <cntemail>Karl.Hillstrom@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -99,9 +99,9 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>&lt;font size='3'&gt;&lt;span style='background-color: rgb(255, 255, 255);'&gt;&lt;font color='#4d4d4d'&gt;&lt;span style='line-height: 22px;'&gt;After the 2010 US Census, voting precincts were redistricted in April of 2012. &#160;Several of the&#160;precincts&#160;were updated in the Spring of 2014 and were officially adopted on April 25, 2014. &#160;W&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style='background-color: rgb(255, 255, 255);'&gt;&lt;font color='#4d4d4d'&gt;&lt;span style='line-height: 22px;'&gt;here you vote may have changed. &#160;Please reference the&#160;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;a href='http://vote.minneapolismn.gov/' target='_blank'&gt;Elections Office page&lt;/a&gt;&lt;/font&gt;&lt;span style='background-color: rgb(255, 255, 255);'&gt;&lt;font color='#4d4d4d'&gt;&lt;span style='line-height: 22px;'&gt;&lt;font size='3'&gt;&#160;for further&#160;information&#160;regarding upcoming elections.&lt;/font&gt;&lt;br /&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;p&gt;&lt;font size='3'&gt;This map service uses a REST end point and can be consumed&#13;
-in a web application by making a call to this web URL: &lt;a href='http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Minneapolis_Election_Precincts/FeatureServer/'&gt;http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Minneapolis_Election_Precincts/FeatureServer/&lt;/a&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size='3'&gt;For more information about the ArcGIS REST API please to Esri&#8217;s&#13;
-ArcGIS Resources&#160;&lt;a href='http://resources.arcgis.com/en/help/arcgis-rest-api/index.html#/Getting_started/02r3000000sq000000/' target='_blank'&gt;page&lt;/a&gt;. &#160;I&lt;/font&gt;&lt;span style='font-size: medium; line-height: 1.3846153846153846; background-color: rgb(255, 255, 255);'&gt;&lt;font color='#4d4d4d'&gt;&lt;span style='line-height: 22px;'&gt;f there are questions about the data or the related map service please contact the&#160;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;a href='mailto:gis@minneapolismn.gov' style='font-size: medium; line-height: 1.3846153846153846; color: rgb(33, 117, 155);' target='_self'&gt;GIS office&lt;/a&gt;&lt;span style='font-size: medium; line-height: 1.3846153846153846;'&gt;.&lt;/span&gt;&lt;/p&gt;</gco:CharacterString>
+            <gco:CharacterString>After the 2010 US Census, voting precincts were redistricted in April of 2012. &#160;Several of the&#160;precincts&#160;were updated in the Spring of 2014 and were officially adopted on April 25, 2014. &#160;Where you vote may have changed. &#160;Please reference the&#160;Elections Office page&#160;for further&#160;information&#160;regarding upcoming elections.&amp;#xD;&amp;#xA;This map service uses a REST end point and can be consumed&#13;
+in a web application by making a call to this web URL: http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Minneapolis_Election_Precincts/FeatureServer/For more information about the ArcGIS REST API please to Esri&#8217;s&#13;
+ArcGIS Resources&#160;page. &#160;If there are questions about the data or the related map service please contact the&#160;GIS office.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -240,7 +240,7 @@ ArcGIS Resources&#160;&lt;a href='http://resources.arcgis.com/en/help/arcgis-res
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Minneapolis_Election_Precincts/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Minneapolis_Election_Precincts/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

@@ -1,0 +1,296 @@
+<!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  -->
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Geological Survey (MGS) and Minnesota Department of Natural Resources (DNR)</origin>
+        <pubdate>1993</pubdate>
+        <title>Regional Hydrogeologic Assessment - Anoka Sand Plain, Minnesota</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://conservancy.umn.edu/handle/11299/59762</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>A County Geologic Atlas is a systematic study of a county's geologic and ground water resources. Geologic studies include both near-surface deposits and bedrock.  Ground water studies include flow systems, aquifer capacity, and ground water chemistry.  In some areas sand and gravel deposits, sinkholes, or other features are studied.  Interpretation of sensitivity to pollution is also part of an atlas.  The information is organized, analyzed, and displayed using geographic information technology.
+
+A Regional Hydrogeologic Assessment (RHA) is similar to a County Geologic Atlas in that both geology and ground water are studied.  However, a Regional Hydrogeologic Assessment covers a larger area, typically four to nine counties, in less detail.  The  RHA emphasizes near-surface geologic, ground water, and pollution sensitivity mapping.</abstract>
+      <purpose>County Geologic Atlas and Regional Hydrogeologic Assessment information is used in planning and environmental protection efforts at all levels of government.  Wellhead protection and well-sealing programs are examples of local programs that need geologic and ground water information. The information is also used by businesses and the general public.</purpose>
+      <supplinf>Anoka Sand Plain Area of Minnesota, comprising all or portions of the counties of Anoka, Chisago, Isanti, and Sherburne.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1993</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Geologic Maps were derived based on information available during the period 1991-1993.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.17</westbc>
+        <eastbc>-92.5</eastbc>
+        <northbc>45.75</northbc>
+        <southbc>45.00</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificInformation, Geology, Hydrogeology, Surficial Geology, Pollution Sensitivity, Regional Hydrogeologic Assessment</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN, Anoka Sand Plain, Anoka County, Chisago County, Isanti County, Sherburne County</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <browse>
+      <browsed>.pdf file representing one of the map plates for the RHA</browsed>
+    </browse>
+    <native>Arc/INFO</native>
+    <crossref>
+      <citeinfo>
+        <title>Map Series and Report:  Anoka Sand Plain Regional Hydrogeologic Assessment, Report RHA-1, Meyer, G.N., Patterson, C.J., Hobbs, H.C., Lehr, J.d., (Minnesota Geological Survey, 1993). Report is out of print. 
+
+There is no "Part B" for this Atlas.  Both geology and hydrogeology are included in this map product. 
+
+For a listing of Maps and Data published by the Minnesota Geological Survey, see U of M Library Digital Conservancy: http://conservancy.umn.edu/handle/11299/708
+
+For additional information on the DNR Ground Water Mapping Program, visit: 
+http://www.dnr.state.mn.us/waters/groundwater_section/mapping/index.html</title>
+      </citeinfo>
+    </crossref>
+    <useconst>Credit should be given to the Minnesota Geological Survey and the Minnesota Department of Natural Resources for any use of the given digital data in any publication.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>Gary N. Meyer</cntper>
+        </cntperp>
+        <cntpos>Quaternary Geology</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>2609 Territorial Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55114</postal>
+        </cntaddr>
+        <cntvoice>612-626-1741</cntvoice>
+        <cntemail>meyer015@umn.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srcscale>200000</srcscale>
+      </srcinfo>
+      <procstep>
+        <procdesc>Investigations begin with a review of existing information, such as earlier geologic maps, soil maps, and hydrologic reports. Drillers send water well logs to the Minnesota Geological Survey, where they are reviewed, interpreted, and entered into the County Well Index (CWI), an interactive data base of water-well information.  Building on the previous data, field studies are conducted to improve the understanding of local geologic and hydrologic conditions.
+
+Data was originally digitized in UTM Coordinates, Zone 15, NAD27, with a y-shift of 4,700,000. In 1999 the data was converted to UTM, Zone 15, NAD83, unshifted.
+
+There is no layer-specific metadata for this data set. </procdesc>
+      </procstep>
+    </lineage>
+    <logic>Not available</logic>
+    <complete>Not available</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Not available</horizpar>
+      </horizpa>
+    </posacc>
+    <attracc>
+      <attraccr>Not available</attraccr>
+    </attracc>
+  </dataqual>
+  <spdoinfo>
+    <indspref/>
+    <direct>Vector</direct>
+    <mgmg3obj>Point, Vector</mgmg3obj>
+    <mgmg3til>Anoka Sand Plain Study Area; some overlay files are in county tiles.</mgmg3til>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>The Anoka Sand Plain Regional Hydrogeologic Assessment consists of 23 separate GIS data layers. Five were created by the Minnesota Geological Survey especially for this assessment; the others are background layers from various sources used as reference and for cartography.  Much of the background information is from the Bureau of the Census TIGER Line files. 
+
+The geology work was based on creating a map series at 1:200,000. Some of the background layers consist of larger-scale data. (TIGER data is scaled at 1:100,000).  An overall scale of 1:200,000 is assigned to the dataset. 
+
+The data is accompanied by two text files, describing Pollution Sensitivity and Surficial Geology.</eaover>
+      <eadetcit>ANOKA SAND PLAIN REGIONAL ASSESSMENT DATA:
+
+Covers created by the Minnesota Geological Survey:
+
+ aspmw.e00 Anoka Sand Plain Monitoring Wells
+ aspps.e00 Anoka Sand Plain Pollution Sensitivity
+ aspsg.e00 Anoka Sand Plain Surficial Geology
+ aspwt.e00 Anoka Sand Plain Water Table
+ aspww.e00 Anoka Sand Plain Water Wells 
+
+Covers from other sources representing background cartographic information. (These are largely derived from Census TIGER-Line data):
+ 
+ asphydro.e00 Anoka Sand Plain Area Surface Hydrology 
+ asproads.e00 Anoka Sand Plain Area Roads 
+ c02bord.e00 Anoka County Border
+ c02quad.e00 Anoka County Quad Borders
+ c02sec.e00 Anoka County Section Lines
+ c02tr.e00 Anoka County Township Lines
+ c13bord.e00 Chisago County Border
+ c13quad.e00 Chisago CountyQuad Borders
+ c13sec.e00 Chisago County Section Lines
+ c13tr.e00 Chisago County Township Lines
+ c30bord.e00 Isanti County Border
+ c30quad.e00 Isanti County Quad Borders 
+ c30sec.e00 Isanti County Section Lines
+ c30tr.e00 Isanti County Township Lines
+ c71bord.e00 Sherburne County Border
+ c71quad.e00 Sherburne County Quad Borders
+ c71sec.e00 Sherburne County Section Lines
+ c71tr.e00 Sherburne County Township Lines
+
+ Text Files:
+
+ aspps.txt Text for Pollution Sensitivity Cover
+ aspsg.txt Text for Surficial Geology Cover
+
+
+ASPPS.TXT . . CODE FILE FOR ANOKA SAND PLAIN POLLUTION SENSITIVITY COVER (ASPPS)
+
+MGSCODE ** DEFINITION OF CODE ** TRAVEL TIME
+
+(Travel time represents the estimated time of travel for contamination to reach the uppermost aquifer).
+
+421** water
+440051** low ** Decades to a century
+440052**moderate** Years to a decade
+440053** high** Weeks to years
+440054** very high** Hours to minutes
+
+
+ASPSG.TXT . . CODE FILE FOR ANOKA SAND PLAIN SURFICIAL GEOLOGY COVER (ASPSG)
+ 
+Postglacial Deposits
+ 
+ MGSCODE** DEFINITION
+ 
+ 421** water
+ 443001** organic deposits
+ 443002** alluvium
+ 443003** eolian sand
+ 443004** terrace deposits
+ 443005** lake silt and clay
+ 
+Grantsburg Sublobe Deposits
+
+ MGSCODE** DEFINITION
+ 
+ 443101**  lake sand
+ 443107**  lake silt and clay
+ 443102**  outwash deposits
+ 443103**  ice-contact deposits
+ 443106**  till
+ 443104**  till - yellow-brown (oxidized)
+ 443105**  till of mixed composition
+
+Superior Lobe Deposits
+
+ MGSCODE** DEFINITION
+
+ 443205**  lake silt and clay
+ 443202**  outwash deposits
+ 443203**  ice-contact deposits
+ 443204**  till- red brown
+
+Bedrock
+
+ MGSCODE** DEFINITION
+ 
+ 442001**  ordovician, cambrian, or precambrian</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>rha-1 (asp) (http://conservancy.umn.edu/handle/11299/59762)</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Arc Export</formname>
+          <formvern>Arc 7.2.1</formvern>
+          <transize>5.9 MB in self-extracting zipfile (.exe) format</transize>
+        </digtinfo>
+      </digform>
+      <ordering>Digital data and PDF files representing map plates are available for download from the University of Minnesota Libraries Digital Conservancy.  The direct Digital Conservancy Link to this product is http://conservancy.umn.edu/handle/11299/59762
+
+</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>Timothy E. Wahl</cntper>
+        </cntperp>
+        <cntpos>Geologic Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2609 Territorial Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55114</postal>
+        </cntaddr>
+        <cntvoice>612-626-0992</cntvoice>
+        <cntemail>tewahl@umn.edu</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150418</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm
+</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15E</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

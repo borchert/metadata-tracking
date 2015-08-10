@@ -1,1 +1,147 @@
-﻿<metadata><idinfo><citation><citeinfo><origin>Minnesota Department of Natural Resources (DNR)</origin><title>Wildlife Refuge Inventory</title><pubinfo><publish>Minnesota DNR - Fish and Wildlife</publish></pubinfo><pubdate>20120320</pubdate><onlink>http://gisdata.mn.gov/dataset/bdry-wildlife-refuge-inventory</onlink></citeinfo></citation><descript><abstract>This polygon theme contains boundaries for 167 Refuges across the state. Refuges are acquired to improve land for public hunting, game refuges, and food and cover planting.</abstract><supplinf>Statewide</supplinf><purpose>provide boundaries of DNR's wildlife refuges</purpose></descript><status><progress>In work</progress><update>As needed</update></status><spdom><bounding><westbc>-96.334818</westbc><eastbc>-89.798111</eastbc><northbc>48.999133</northbc><southbc>43.533645</southbc></bounding></spdom><accconst>Public</accconst><useconst>The Minnesota Department of Natural Resources (MNDNR) grants to you a personal, non-exclusive, non-transferrable, limited license to extract information from, use, reproduce, distribute, and modify data and/or software, in source and binary forms, with the acceptance of the following: Terms and Conditions of Use. 1.	Data and/or software may be used for the creation of derivative works; however data and/or software in its entirety may not be resold, distributed or displayed for commercial purposes or otherwise. 2.	In the event that another more specific license agreement issued by the MNDNR is expressly associated with the data and/or software, the terms of the other license agreement prevail, and the terms expressed in this more general license agreement are null and void. 3.	The entire right, title and interest, including without limitation, all ownership rights and intellectual property rights in and to the data and/or software shall remain with the MNDNR. You agree to abide by copyright law and all other applicable laws of the United States as they apply to the data and software. An MNDNR copyright notice will be included, as appropriate; or MNDNR must be acknowledged as having contributed to any derivative work. 4.	MNDNR is not obligated to provide updates to the data and/or software whether or not other or newer versions become available. 5.	The use of the data or software for contract work with MNDNR does not relieve the contractor from any obligations assumed by the contract, or from complete and proper fulfillment of the terms of the contract. 6.	Map and geographic data should not be interpreted as establishing or describing legal boundaries or legal access and should not be used for navigational purposes. Map and geographic data should be used for reference only. Users of the data are responsible for verifying public land or water boundaries by observing boundary signs and markers, consulting official surveys and maps, and contacting local MNDNR offices. 7.	This license does not give the right to use the MNDNR name, marks, or any of its logos and is not an endorsement of the user's products.  8.	In States that do not allow the exclusion or limitation of incidental or consequential damages, you may not use these data and/or software.</useconst><timeperd><timeinfo><sngdate><caldate>20120320</caldate></sngdate></timeinfo></timeperd><keywords><place><placekey>Minnesota</placekey></place><theme><themekey>wildlife refuge, hunting, wildlife</themekey></theme></keywords><browse><browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_wildlife_refuge_inventory/metadata/preview.jpg</browsen></browse><ptcontac><cntinfo><cntperp><cntorg>Minnesota DNR</cntorg><cntper>Julie Hines</cntper></cntperp><cntpos>Wildlife GIS Support Specialist</cntpos><cntaddr><addrtype>mailing</addrtype><address>1201 East Hwy 2</address><city>Grand Rapids</city><state>MN</state><postal>55744</postal></cntaddr><cntvoice>218-327-4455</cntvoice><cntemail>julie.hines@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><complete>Data are incomplete</complete></dataqual><distinfo><distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab><stdorder><ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering></stdorder><resdesc>bdry_wildlife_refuge_inventory</resdesc><distrib><cntinfo><cntperp><cntorg>Minnesota DNR</cntorg><cntper>Julie Hines</cntper></cntperp><cntpos>Wildlife GIS Support Specialist</cntpos><cntaddr><addrtype>mailing</addrtype><address>1201 East Hwy 2</address><city>Grand Rapids</city><state>MN</state><postal>55744</postal></cntaddr><cntvoice>218-327-4455</cntvoice><cntemail>julie.hines@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20141217</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota DNR</cntorg><cntper>Julie Hines</cntper></cntperp><cntpos>Wildlife GIS Support Specialist</cntpos><cntaddr><addrtype>mailing</addrtype><address>1201 East Hwy 2</address><city>Grand Rapids</city><state>MN</state><postal>55744</postal></cntaddr><cntvoice>218-327-4455</cntvoice><cntemail>julie.hines@state.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu><coordrep><absres>0.00001</absres><ordres>0.00001</ordres></coordrep></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources (DNR)</origin>
+        <title>Wildlife Refuge Inventory</title>
+        <pubinfo>
+          <publish>Minnesota DNR - Fish and Wildlife</publish>
+        </pubinfo>
+        <pubdate>20120320</pubdate>
+        <onlink>http://gisdata.mn.gov/dataset/bdry-wildlife-refuge-inventory</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This polygon theme contains boundaries for 167 Refuges across the state. Refuges are acquired to improve land for public hunting, game refuges, and food and cover planting.</abstract>
+      <supplinf>Statewide</supplinf>
+      <purpose>provide boundaries of DNR's wildlife refuges</purpose>
+    </descript>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-96.334818</westbc>
+        <eastbc>-89.798111</eastbc>
+        <northbc>48.999133</northbc>
+        <southbc>43.533645</southbc>
+      </bounding>
+    </spdom>
+    <accconst>Public</accconst>
+    <useconst>The Minnesota Department of Natural Resources (MNDNR) grants to you a personal, non-exclusive, non-transferrable, limited license to extract information from, use, reproduce, distribute, and modify data and/or software, in source and binary forms, with the acceptance of the following: Terms and Conditions of Use. 1.	Data and/or software may be used for the creation of derivative works; however data and/or software in its entirety may not be resold, distributed or displayed for commercial purposes or otherwise. 2.	In the event that another more specific license agreement issued by the MNDNR is expressly associated with the data and/or software, the terms of the other license agreement prevail, and the terms expressed in this more general license agreement are null and void. 3.	The entire right, title and interest, including without limitation, all ownership rights and intellectual property rights in and to the data and/or software shall remain with the MNDNR. You agree to abide by copyright law and all other applicable laws of the United States as they apply to the data and software. An MNDNR copyright notice will be included, as appropriate; or MNDNR must be acknowledged as having contributed to any derivative work. 4.	MNDNR is not obligated to provide updates to the data and/or software whether or not other or newer versions become available. 5.	The use of the data or software for contract work with MNDNR does not relieve the contractor from any obligations assumed by the contract, or from complete and proper fulfillment of the terms of the contract. 6.	Map and geographic data should not be interpreted as establishing or describing legal boundaries or legal access and should not be used for navigational purposes. Map and geographic data should be used for reference only. Users of the data are responsible for verifying public land or water boundaries by observing boundary signs and markers, consulting official surveys and maps, and contacting local MNDNR offices. 7.	This license does not give the right to use the MNDNR name, marks, or any of its logos and is not an endorsement of the user's products.  8.	In States that do not allow the exclusion or limitation of incidental or consequential damages, you may not use these data and/or software.</useconst>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20120320</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <keywords>
+      <place>
+        <placekey>Minnesota</placekey>
+      </place>
+      <theme>
+        <themekey>wildlife refuge, hunting, wildlife</themekey>
+      </theme>
+    </keywords>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_wildlife_refuge_inventory/metadata/preview.jpg</browsen>
+    </browse>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR</cntorg>
+          <cntper>Julie Hines</cntper>
+        </cntperp>
+        <cntpos>Wildlife GIS Support Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>1201 East Hwy 2</address>
+          <city>Grand Rapids</city>
+          <state>MN</state>
+          <postal>55744</postal>
+        </cntaddr>
+        <cntvoice>218-327-4455</cntvoice>
+        <cntemail>julie.hines@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <complete>Data are incomplete</complete>
+  </dataqual>
+  <distinfo>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <resdesc>bdry_wildlife_refuge_inventory</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR</cntorg>
+          <cntper>Julie Hines</cntper>
+        </cntperp>
+        <cntpos>Wildlife GIS Support Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>1201 East Hwy 2</address>
+          <city>Grand Rapids</city>
+          <state>MN</state>
+          <postal>55744</postal>
+        </cntaddr>
+        <cntvoice>218-327-4455</cntvoice>
+        <cntemail>julie.hines@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141217</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR</cntorg>
+          <cntper>Julie Hines</cntper>
+        </cntperp>
+        <cntpos>Wildlife GIS Support Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>1201 East Hwy 2</address>
+          <city>Grand Rapids</city>
+          <state>MN</state>
+          <postal>55744</postal>
+        </cntaddr>
+        <cntvoice>218-327-4455</cntvoice>
+        <cntemail>julie.hines@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+          <coordrep>
+            <absres>0.00001</absres>
+            <ordres>0.00001</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

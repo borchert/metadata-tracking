@@ -1,11 +1,256 @@
-﻿<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>Minnesota Department of Natural Resources (DNR)</origin><pubdate>2010-11-18 00:00:00.0</pubdate><title>Prairie Change Analysis 1991-2008</title><mgmg1cid></mgmg1cid><pubinfo><publish>Minnesota DNR - Division of Ecological Resources</publish></pubinfo><onlink>http://gisdata.mn.gov/dataset/env-prairie-change-analysis-2008</onlink></citeinfo></citation><descript><abstract>This dataset displays the results of a prairie/savanna change analysis study completed in May 2010.  The area reviewed consists of 1,521 sites identified by Minnesota County Biological Survey as prairie or savanna habitat prior to 1994 as well as a predetermined buffer area. Data is made up of landuse codes and descriptions for 1991 and 2008 (as determined from aerial photography).</abstract><purpose>Data was developed to assess the current extent and condition of native prairie habitat identified by Minnesota County Biological Survey in 1993 or earlier.  Methods and results will be used to develop protocols for future rapid change analysis procedures.</purpose><supplinf>Minnesota</supplinf></descript><timeperd><current>Based on air photo dates:&lt;br&gt;
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources (DNR)</origin>
+        <pubdate>2010-11-18 00:00:00.0</pubdate>
+        <title>Prairie Change Analysis 1991-2008</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota DNR - Division of Ecological Resources</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/env-prairie-change-analysis-2008</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset displays the results of a prairie/savanna change analysis study completed in May 2010.  The area reviewed consists of 1,521 sites identified by Minnesota County Biological Survey as prairie or savanna habitat prior to 1994 as well as a predetermined buffer area. Data is made up of landuse codes and descriptions for 1991 and 2008 (as determined from aerial photography).</abstract>
+      <purpose>Data was developed to assess the current extent and condition of native prairie habitat identified by Minnesota County Biological Survey in 1993 or earlier.  Methods and results will be used to develop protocols for future rapid change analysis procedures.</purpose>
+      <supplinf>Minnesota</supplinf>
+    </descript>
+    <timeperd>
+      <current>Based on air photo dates:&lt;br&gt;
 1991 Air Photos (1 meter DOQs)&lt;br&gt;
-2008 FSA Color Infrared (CIR) Imagery</current><timeinfo><sngdate><caldate>2008</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>None Planned</update></status><spdom><bounding><westbc>-96.720359</westbc><eastbc>-91.597360</eastbc><northbc>49.050237</northbc><southbc>43.646481</southbc></bounding></spdom><keywords><theme><themekey>Prairie, Change Analysis, Land Use</themekey></theme><place><placekey>Minnesota, Kittson, Marshall, Pennington, Red Lake, Mahnomen, Clay, Wilkin, Morrison, Grant, Traverse, Benton, Pope, Isanti, Chisago, Big Stone, Sherburne, Anoka, Lac Qui Parle, Washington, Chippewa, Ramsey, Yellow Medicine, Dakota, Renville, Redwood, Rice, Brown, Wabasha, Nicollet, Olmsted, Fillmore</placekey></place></keywords><accconst>None</accconst><useconst>None</useconst><browse><browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_prairie_change_analysis_2008/metadata/preview.jpg</browsen><browsed></browsed></browse><native>ArcView Shapefile</native><ptcontac><cntinfo><cntperp><cntorg>Minnesota DNR - Division of Ecological Resources</cntorg><cntper>Daren Carlson</cntper></cntperp><cntpos> Ecologist / GIS Analyst</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>500 Lafayette Rd</address><city>St Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5079</cntvoice><cntemail>daren.carlson@dnr.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>Source table NRA_PCA9108PY3.DBF:  Attributes have been spot checked for validity.
-</attraccr></attracc><logic>Data are topologically correct using ESRI ArcGIS 9.x software. All polygons are closed and lines intersect where intended.</logic><complete>The counties of Goodhue, Winona, and Houston were removed from analysis for the following reasons: 1)aerial photography for these counties had heavy shadows, due to both the time of day the photos were taken and the highly dissected terrain of the area, rendering image analysis unfeasible, 2) many sites were located in oak savanna habitat making precise verification of site boundaries difficult due to woody vegetation cover present in 2008 aerial photos but not visible in the 1991 leaf-off imagery and 3) the mean size for these prairie polygons was 7 acres, well below the rest of the state, reducing the accuracy of polygon boundaries.</complete><posacc><horizpa><horizpar>Source layer nra_pca9108py3:  Horizontal position based on USGS 1991 and 2008 FSA aerial photography. Accuracy of those imagery sources applies to this data as well.
-</horizpar></horizpa><vertacc><vertaccr>Source layer nra_pca9108py3:  Not Applicable
-</vertaccr></vertacc></posacc><lineage><srcinfo><srcscale>Source layer nra_pca9108py3:  6000
-</srcscale></srcinfo><procstep><procdesc>Attribute Lineage for source table NRA_PCA9108PY3.DBF:  N/A
-</procdesc></procstep></lineage></dataqual><spdoinfo><indspref>Land use categories</indspref><direct>vector</direct><mgmg3obj>polygon</mgmg3obj><mgmg3til>state</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>Not Applicable</altdatum><altunits>Not Applicable</altunits></altsys><depthsys><depthdn>Not Applicable</depthdn><depthdu>Not Applicable</depthdu></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>prairie_change_analysis_2008</enttypl><enttypd>This attribute table provides detail for the Prairie Change Analysis shapefile.</enttypd></enttyp><attr><attrlabl>BufferDist</attrlabl><attrdef>Buffer scheme applied to original prairie/savanna site.
+2008 FSA Color Infrared (CIR) Imagery</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>2008</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-96.720359</westbc>
+        <eastbc>-91.597360</eastbc>
+        <northbc>49.050237</northbc>
+        <southbc>43.646481</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Prairie, Change Analysis, Land Use</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota, Kittson, Marshall, Pennington, Red Lake, Mahnomen, Clay, Wilkin, Morrison, Grant, Traverse, Benton, Pope, Isanti, Chisago, Big Stone, Sherburne, Anoka, Lac Qui Parle, Washington, Chippewa, Ramsey, Yellow Medicine, Dakota, Renville, Redwood, Rice, Brown, Wabasha, Nicollet, Olmsted, Fillmore</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_prairie_change_analysis_2008/metadata/preview.jpg</browsen>
+      <browsed/>
+    </browse>
+    <native>ArcView Shapefile</native>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Ecological Resources</cntorg>
+          <cntper>Daren Carlson</cntper>
+        </cntperp>
+        <cntpos> Ecologist / GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Rd</address>
+          <city>St Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5079</cntvoice>
+        <cntemail>daren.carlson@dnr.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Source table NRA_PCA9108PY3.DBF:  Attributes have been spot checked for validity.
+</attraccr>
+    </attracc>
+    <logic>Data are topologically correct using ESRI ArcGIS 9.x software. All polygons are closed and lines intersect where intended.</logic>
+    <complete>The counties of Goodhue, Winona, and Houston were removed from analysis for the following reasons: 1)aerial photography for these counties had heavy shadows, due to both the time of day the photos were taken and the highly dissected terrain of the area, rendering image analysis unfeasible, 2) many sites were located in oak savanna habitat making precise verification of site boundaries difficult due to woody vegetation cover present in 2008 aerial photos but not visible in the 1991 leaf-off imagery and 3) the mean size for these prairie polygons was 7 acres, well below the rest of the state, reducing the accuracy of polygon boundaries.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Source layer nra_pca9108py3:  Horizontal position based on USGS 1991 and 2008 FSA aerial photography. Accuracy of those imagery sources applies to this data as well.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Source layer nra_pca9108py3:  Not Applicable
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>Source layer nra_pca9108py3:  6000
+</srcscale>
+      </srcinfo>
+      <procstep>
+        <procdesc>Attribute Lineage for source table NRA_PCA9108PY3.DBF:  N/A
+</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Land use categories</indspref>
+    <direct>vector</direct>
+    <mgmg3obj>polygon</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>prairie_change_analysis_2008</enttypl>
+        <enttypd>This attribute table provides detail for the Prairie Change Analysis shapefile.</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>BufferDist</attrlabl>
+        <attrdef>Buffer scheme applied to original prairie/savanna site.
 "0"=polygon is inside original MCBS mapped prairie/savanna.
 "100"=polygon is within the 100 meter buffer of MCBS mapped prairie/savanna sites where only a 100m buffer was assessed.
-"500"=polygon is within the 500 meter buffer of MCBS mapped prairie/savanna habitat.</attrdef></attr><attr><attrlabl>County</attrlabl><attrdef>County Name</attrdef></attr><attr><attrlabl>Acres</attrlabl><attrdef>Acres</attrdef></attr><attr><attrlabl>Comments</attrlabl><attrdef>Comments</attrdef></attr><attr><attrlabl>Chng_Code</attrlabl><attrdef>Code combination of 1991 land use based on air photo and 2008 land use based on airphoto.  See "Chng_Text" for detailed description.</attrdef></attr><attr><attrlabl>Site</attrlabl><attrdef>Links polygons located inside MCBS mapped prairie/savanna habitat with the unique identifier labled as "Site" within attribute table of MCBS Native Plant Community Layer</attrdef></attr><attr><attrlabl>Prairie_id</attrlabl><attrdef>Links polygons located inside MCBS mapped prairie/savanna habitat with the unique identifier labled as "Object ID" within attribute table of MCBS Native Plant Community Layer</attrdef></attr><attr><attrlabl>91_LU_Code</attrlabl><attrdef>1991 Land Use Code derived from 1991 airphoto.  See "91_LU_Text" for detailed description.</attrdef></attr><attr><attrlabl>91_LU_Text</attrlabl><attrdef>1991 Land Use Text describing "91_LU_Code"</attrdef></attr><attr><attrlabl>08_LU_Code</attrlabl><attrdef>2008 Land Use Code derived from 2008 airphoto.  See "91_LU_Text" for detailed description.</attrdef></attr><attr><attrlabl>08_LU_Text</attrlabl><attrdef>2008 Land Use Text describing "08_LU_Code"</attrdef></attr><attr><attrlabl>Chng_Text</attrlabl><attrdef>Text describing land use changes listed in "Chng_Code"</attrdef></attr></detailed></eainfo><distinfo><resdesc>env_prairie_change_analysis_2008</resdesc><distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab><stdorder><digform><digtinfo><formname>ArcView Shapefile</formname><formvern>Not Applicable</formvern><transize>1024</transize></digtinfo></digform><ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota DNR - Division of Ecological Resources</cntorg><cntper>Daren Carlson</cntper></cntperp><cntpos> Ecologist / GIS Analyst</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>500 Lafayette Rd</address><city>St Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5079</cntvoice><cntemail>daren.carlson@dnr.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150713</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota DNR - Division of Ecological Resources</cntorg><cntper>Daren Carlson</cntper></cntperp><cntpos> Ecologist / GIS Analyst</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>500 Lafayette Rd</address><city>St Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5079</cntvoice><cntemail>daren.carlson@dnr.state.mn.us</cntemail></cntinfo></metc></metainfo></metadata>
+"500"=polygon is within the 500 meter buffer of MCBS mapped prairie/savanna habitat.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+        <attrdef>County Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Acres</attrlabl>
+        <attrdef>Acres</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Comments</attrlabl>
+        <attrdef>Comments</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Chng_Code</attrlabl>
+        <attrdef>Code combination of 1991 land use based on air photo and 2008 land use based on airphoto.  See "Chng_Text" for detailed description.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Site</attrlabl>
+        <attrdef>Links polygons located inside MCBS mapped prairie/savanna habitat with the unique identifier labled as "Site" within attribute table of MCBS Native Plant Community Layer</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Prairie_id</attrlabl>
+        <attrdef>Links polygons located inside MCBS mapped prairie/savanna habitat with the unique identifier labled as "Object ID" within attribute table of MCBS Native Plant Community Layer</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>91_LU_Code</attrlabl>
+        <attrdef>1991 Land Use Code derived from 1991 airphoto.  See "91_LU_Text" for detailed description.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>91_LU_Text</attrlabl>
+        <attrdef>1991 Land Use Text describing "91_LU_Code"</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>08_LU_Code</attrlabl>
+        <attrdef>2008 Land Use Code derived from 2008 airphoto.  See "91_LU_Text" for detailed description.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>08_LU_Text</attrlabl>
+        <attrdef>2008 Land Use Text describing "08_LU_Code"</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Chng_Text</attrlabl>
+        <attrdef>Text describing land use changes listed in "Chng_Code"</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <resdesc>env_prairie_change_analysis_2008</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shapefile</formname>
+          <formvern>Not Applicable</formvern>
+          <transize>1024</transize>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Ecological Resources</cntorg>
+          <cntper>Daren Carlson</cntper>
+        </cntperp>
+        <cntpos> Ecologist / GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Rd</address>
+          <city>St Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5079</cntvoice>
+        <cntemail>daren.carlson@dnr.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150713</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Ecological Resources</cntorg>
+          <cntper>Daren Carlson</cntper>
+        </cntperp>
+        <cntpos> Ecologist / GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Rd</address>
+          <city>St Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5079</cntvoice>
+        <cntemail>daren.carlson@dnr.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

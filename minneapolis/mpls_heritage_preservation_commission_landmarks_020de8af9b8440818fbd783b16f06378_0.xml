@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -99,68 +99,13 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>&lt;div&gt;&lt;span style='line-height: normal; color: black;'&gt;&lt;font size='3'&gt;Location of properties in the City of Minneapolis with local&#13;
-historic district&#160;&lt;/font&gt;&lt;/span&gt;&lt;a href='http://www.ci.minneapolis.mn.us/hpc/' style='line-height: normal;' target='_blank'&gt;&lt;font size='3'&gt;designation&lt;/font&gt;&lt;/a&gt;&lt;span style='line-height: normal; color: black;'&gt;&lt;font size='3'&gt;.&lt;/font&gt;&lt;/span&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&#13;
-&#13;
-&lt;p&gt;&#160;&lt;/p&gt;&#13;
-&#13;
-&lt;p style='margin-bottom:0in;margin-bottom:.0001pt;line-height:&#13;
-normal'&gt;&lt;b&gt;&lt;u&gt;&lt;span style='mso-ascii-font-family:&#13;
-Calibri;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;mso-hansi-font-family:Calibri;&#13;
-mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;color:black'&gt;Field Descriptions&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style='margin-bottom:0in;margin-bottom:.0001pt;line-height:&#13;
-normal'&gt;&lt;span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:&#13;
-&amp;quot;Times New Roman&amp;quot;;mso-hansi-font-family:Calibri;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-color:black'&gt;HIST_NAME = historic name&lt;/span&gt;&lt;/p&gt;&lt;p style='margin-bottom:0in;margin-bottom:.0001pt;line-height:&#13;
-normal'&gt;&lt;span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:&#13;
-&amp;quot;Times New Roman&amp;quot;;mso-hansi-font-family:Calibri;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-color:black'&gt;HIST_USE = historic use;&lt;/span&gt;&lt;/p&gt;&lt;p style='margin-bottom:0in;margin-bottom:.0001pt;line-height:&#13;
-normal'&gt;&lt;span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:&#13;
-&amp;quot;Times New Roman&amp;quot;;mso-hansi-font-family:Calibri;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-color:black'&gt;CUR_NAME = current name;&lt;/span&gt;&lt;/p&gt;&lt;p style='margin-bottom:0in;margin-bottom:.0001pt;line-height:&#13;
-normal'&gt;&lt;span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:&#13;
-&amp;quot;Times New Roman&amp;quot;;mso-hansi-font-family:Calibri;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-color:black'&gt;CUR_USE = current use;&lt;/span&gt;&lt;/p&gt;&lt;p style='margin-bottom:0in;margin-bottom:.0001pt;line-height:&#13;
-normal'&gt;&lt;span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:&#13;
-&amp;quot;Times New Roman&amp;quot;;mso-hansi-font-family:Calibri;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-color:black'&gt;CONST_YEAR = year constructed (if known);&lt;/span&gt;&lt;/p&gt;&lt;p style='margin-bottom:0in;margin-bottom:.0001pt;line-height:&#13;
-normal'&gt;&lt;span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:&#13;
-&amp;quot;Times New Roman&amp;quot;;mso-hansi-font-family:Calibri;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-color:black'&gt;ARCHITECTS = architects who designed project;&lt;/span&gt;&lt;/p&gt;&lt;p style='margin-bottom:0in;margin-bottom:.0001pt;line-height:&#13;
-normal'&gt;&lt;span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:&#13;
-&amp;quot;Times New Roman&amp;quot;;mso-hansi-font-family:Calibri;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-color:black'&gt;CONTRACTOR = contractor who worked on project;&lt;/span&gt;&lt;/p&gt;&lt;p style='margin-bottom:0in;margin-bottom:.0001pt;line-height:&#13;
-normal'&gt;&lt;span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:&#13;
-&amp;quot;Times New Roman&amp;quot;;mso-hansi-font-family:Calibri;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-color:black'&gt;STYLE = architectural style&lt;/span&gt;&lt;/p&gt;&lt;p style='margin-bottom:0in;margin-bottom:.0001pt;line-height:&#13;
-normal'&gt;&lt;span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:&#13;
-&amp;quot;Times New Roman&amp;quot;;mso-hansi-font-family:Calibri;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-color:black'&gt;&#160;LOCAL_DESI = year locally&#13;
-designated&lt;/span&gt;&lt;/p&gt;&lt;p style='margin-bottom:0in;margin-bottom:.0001pt;line-height:&#13;
-normal'&gt;&#13;
-&#13;
-&#13;
-&#13;
-&#13;
-&#13;
-&#13;
-&#13;
-&#13;
-&#13;
-&#13;
-&#13;
-&#13;
-&#13;
-&#13;
-&#13;
-&#13;
-&#13;
-&#13;
-&#13;
-&lt;/p&gt;&lt;p style='margin-bottom:0in;margin-bottom:.0001pt;line-height:&#13;
-normal'&gt;&lt;span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:&#13;
-&amp;quot;Times New Roman&amp;quot;;mso-hansi-font-family:Calibri;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&#13;
-color:black'&gt;&#160;SIGNIFICAN = historic&#13;
-criteria in which it is significant&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</gco:CharacterString>
+            <gco:CharacterString>Location of properties in the City of Minneapolis with local&#13;
+historic district&#160;designation.&amp;#xD;&amp;#xA;
+&#160;
+Field DescriptionsHIST_NAME = historic nameHIST_USE = historic use;CUR_NAME = current name;CUR_USE = current use;CONST_YEAR = year constructed (if known);ARCHITECTS = architects who designed project;CONTRACTOR = contractor who worked on project;STYLE = architectural style&#160;LOCAL_DESI = year locally&#13;
+designated
+&#160;SIGNIFICAN = historic&#13;
+criteria in which it is significant</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -290,7 +235,7 @@ criteria in which it is significant&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</gco:Char
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Minneapolis_HPC_Landmarks/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Minneapolis_HPC_Landmarks/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

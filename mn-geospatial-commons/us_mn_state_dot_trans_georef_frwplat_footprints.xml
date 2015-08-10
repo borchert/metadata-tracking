@@ -1,18 +1,69 @@
-<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>Minnesota Department of Transportation, Office of Land Management</origin><title>Right of Way Plat and Commissioner's Graphic Order - Raster Image File Footprints, Minnesota</title><pubinfo><publish>Minnesota Department of Transportation, Office of Land Management</publish></pubinfo><pubdate>periodically revised</pubdate><onlink>https://gisdata.mn.gov/dataset/trans-georef-frwplat-footprints</onlink></citeinfo></citation><descript><abstract>The Right of Way Plat and Commissioner's Graphic Orders footprints layer is a statewide data set.  The footprints are constructed from the scanned right of way plat images (raster data) that were georeferenced using the Department of Natural Resource's Control Point Generated Public Land Survey Coverage (vector data), MnDOT's Statewide Basemap (vector data), and other reference data sets as necessary to support the positioning of the images.</abstract><purpose>The data set was created to enhance the accessibility to right of way plats by enabling the use of spatial indexing tools.  Georeferencing right of way plats is helping to assist the transition toward a more automated land information system.  Footprints are created to represent the extent of the Plats and have the advantage of shortening load time.</purpose><supplinf>Statewide</supplinf></descript><browse><browsen>None available</browsen></browse><crossref><citeinfo><title>Right of Way Map - Raster Image Files 
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Transportation, Office of Land Management</origin>
+        <title>Right of Way Plat and Commissioner's Graphic Order - Raster Image File Footprints, Minnesota</title>
+        <pubinfo>
+          <publish>Minnesota Department of Transportation, Office of Land Management</publish>
+        </pubinfo>
+        <pubdate>periodically revised</pubdate>
+        <onlink>https://gisdata.mn.gov/dataset/trans-georef-frwplat-footprints</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Right of Way Plat and Commissioner's Graphic Orders footprints layer is a statewide data set.  The footprints are constructed from the scanned right of way plat images (raster data) that were georeferenced using the Department of Natural Resource's Control Point Generated Public Land Survey Coverage (vector data), MnDOT's Statewide Basemap (vector data), and other reference data sets as necessary to support the positioning of the images.</abstract>
+      <purpose>The data set was created to enhance the accessibility to right of way plats by enabling the use of spatial indexing tools.  Georeferencing right of way plats is helping to assist the transition toward a more automated land information system.  Footprints are created to represent the extent of the Plats and have the advantage of shortening load time.</purpose>
+      <supplinf>Statewide</supplinf>
+    </descript>
+    <browse>
+      <browsen>None available</browsen>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <title>Right of Way Map - Raster Image Files 
 Right of Way Map - Raster Image File Footprints
 Right of Way Map - Vector (CAD) Files
 Right of Way Map - Vector (CAD) File Footprints
 Original Highway Right of Way Plat Maps
 Commissioner's Orders
 Control Point Generated Public Land Survey 
-</title></citeinfo></crossref><timeperd><current>The highway right of way plat and graphic commissioner's order documents are used as the basis for the footprints. The outer border of the document's electronic file image defines the footprint's shape. MnDOT's Office of Land Management LIS and Right of Way Mapping Unit intermittently geo-references and footprints batches of these documents and they become finalized by the Office's Platting Unit. This collection may not include recently completed plat or order footprints and is dependent upon work schedules and the available resources that are required to update the data set. For a current plat or graphic order listing see Contact Person Information in this document.</current><timeinfo><sngdate><caldate>Continuous</caldate></sngdate></timeinfo></timeperd><status><progress>In work</progress><update>As needed</update></status><spdom><bounding><westbc>-97.5</westbc><eastbc>-89.0</eastbc><northbc>49.5</northbc><southbc>43.0</southbc></bounding></spdom><keywords><place><placekey>County,
+</title>
+      </citeinfo>
+    </crossref>
+    <timeperd>
+      <current>The highway right of way plat and graphic commissioner's order documents are used as the basis for the footprints. The outer border of the document's electronic file image defines the footprint's shape. MnDOT's Office of Land Management LIS and Right of Way Mapping Unit intermittently geo-references and footprints batches of these documents and they become finalized by the Office's Platting Unit. This collection may not include recently completed plat or order footprints and is dependent upon work schedules and the available resources that are required to update the data set. For a current plat or graphic order listing see Contact Person Information in this document.</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>Continuous</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.5</westbc>
+        <eastbc>-89.0</eastbc>
+        <northbc>49.5</northbc>
+        <southbc>43.0</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <place>
+        <placekey>County,
 Section,
 Township,
 Range,
 Minnesota,
 Control Section,
 Minnesota State Highway
-</placekey></place><theme><themekey>transportation,
+</placekey>
+      </place>
+      <theme>
+        <themekey>transportation,
 MnDOT Right of Way Plat,
 Trunk Highway,
 Parcel,
@@ -24,7 +75,48 @@ Highway Right of Way,
 State Highway,
 US Highway,
 Interstate Highway,
-Statewide_PLAT_FP</themekey></theme></keywords><accconst>USE OF THIS DOCUMENT IS SUBJECT TO MNDOT'S DISCLAIMERS, LEGAL NOTICES AND POLICIES FOUND AT http://www.dot.state.mn.us/information/disclaimer.html</accconst><useconst>USE OF THIS DOCUMENT IS SUBJECT TO MNDOT'S DISCLAIMERS, LEGAL NOTICES AND POLICIES FOUND AT http://www.dot.state.mn.us/information/disclaimer.html</useconst><ptcontac><cntinfo><cntperp><cntorg>MN Department of Transportation, Office of Land Management</cntorg><cntper>Ralph Spude</cntper></cntperp><cntpos>Engineering Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>395 John Ireland Blvd., M.S. 643</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-366-3505</cntvoice><cntfax>651-366-3450</cntfax><cntemail>Ralph.Spude@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>Attributes programmatically generated include: OBJECTID, ID, PERIMETER, FILE_NAME, SHEET_NUMBER, SHAPE, SHAPE_AREA, and SHAPE_FILE.  The following attributes are created by a combination of hand entry and copied by cut and paste from the existing database record for the map involved: ROLL_NUMBER, SHEET_NUMBER, COUNTY_NUM, SPLIT_SHEET, COUNTY_SRING, and IMAGE_PATH.</attraccr></attracc><logic>Polygons for footprint representations are created using a fully automated process to ensure 100% polygon closure.  The plat and graphic order images are geo-referenced using the Plat_Update_9.3.mxd program followed by the XX_RollShape.py script to automatically generate the polygon based on the physical extent of the map image file.  The Scan_ReadTFW_10.mxd program is used next to load the created polygon to ArcMap for appending to the Statewide_RW_FP data set.  Foot-print labeling is directly passed from the attribute table entries.  In rare instances due to unique properties of a particular map's content the geo-referencing may be handled in a manually where insufficient information was available to scale and place the map.  In such cases errors may exist but are corrected when discovered.  </logic><complete>A visual inspection for completeness of all placed items is performed using a standard checklist.</complete><posacc><horizpa><horizpar>The spatial placement of the footprint is based entirely on the geographic scale and coordinate reference system of the content of the map.  In rare cases where the scale and coordinate system are limited or unknown, hand placement of the plat or order representation is used based the location of roads and landmarks found in the MnDOT Base Map.</horizpar></horizpa><vertacc><vertaccr>N/A</vertaccr></vertacc></posacc><lineage><procstep><procdesc>The images that were used for this georeferencing process originated as a result of a photographic to scanning process made MnDOT's copy of the Right of Way Plat map mylar collection.
+Statewide_PLAT_FP</themekey>
+      </theme>
+    </keywords>
+    <accconst>USE OF THIS DOCUMENT IS SUBJECT TO MNDOT'S DISCLAIMERS, LEGAL NOTICES AND POLICIES FOUND AT http://www.dot.state.mn.us/information/disclaimer.html</accconst>
+    <useconst>USE OF THIS DOCUMENT IS SUBJECT TO MNDOT'S DISCLAIMERS, LEGAL NOTICES AND POLICIES FOUND AT http://www.dot.state.mn.us/information/disclaimer.html</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>MN Department of Transportation, Office of Land Management</cntorg>
+          <cntper>Ralph Spude</cntper>
+        </cntperp>
+        <cntpos>Engineering Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>395 John Ireland Blvd., M.S. 643</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-366-3505</cntvoice>
+        <cntfax>651-366-3450</cntfax>
+        <cntemail>Ralph.Spude@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Attributes programmatically generated include: OBJECTID, ID, PERIMETER, FILE_NAME, SHEET_NUMBER, SHAPE, SHAPE_AREA, and SHAPE_FILE.  The following attributes are created by a combination of hand entry and copied by cut and paste from the existing database record for the map involved: ROLL_NUMBER, SHEET_NUMBER, COUNTY_NUM, SPLIT_SHEET, COUNTY_SRING, and IMAGE_PATH.</attraccr>
+    </attracc>
+    <logic>Polygons for footprint representations are created using a fully automated process to ensure 100% polygon closure.  The plat and graphic order images are geo-referenced using the Plat_Update_9.3.mxd program followed by the XX_RollShape.py script to automatically generate the polygon based on the physical extent of the map image file.  The Scan_ReadTFW_10.mxd program is used next to load the created polygon to ArcMap for appending to the Statewide_RW_FP data set.  Foot-print labeling is directly passed from the attribute table entries.  In rare instances due to unique properties of a particular map's content the geo-referencing may be handled in a manually where insufficient information was available to scale and place the map.  In such cases errors may exist but are corrected when discovered.  </logic>
+    <complete>A visual inspection for completeness of all placed items is performed using a standard checklist.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The spatial placement of the footprint is based entirely on the geographic scale and coordinate reference system of the content of the map.  In rare cases where the scale and coordinate system are limited or unknown, hand placement of the plat or order representation is used based the location of roads and landmarks found in the MnDOT Base Map.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>N/A</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>The images that were used for this georeferencing process originated as a result of a photographic to scanning process made MnDOT's copy of the Right of Way Plat map mylar collection.
 
 The georeferencing process was handled on a county-by-county basis. These plats were converted to single-sheet TIF files, one file per sheet. The images were georeferenced one at a time. There were two main pre-georeferencing processes. The following process consists of the georeferencing itself. 
 
@@ -62,7 +154,19 @@ The primary focus was to match the road centerlines between the plat or order an
 Creating Footprints
 
 Images were loaded into the Footprint tool one county at a time.  The tool found the extent of the image and drew a box around it, creating the footprint.  The FILE_NAME and CNTYFD_NU fields were automatically populated during this process.  The other fields (ROLL_NUM, SHEET_NUM, SPLIT_SHT, CNTYFD_STR and GEOR_PATH) were populated using data derived from these fields.  All county footprint shapefiles were then appended to each other to create a statewide footprint shapefile.
-</procdesc></procstep></lineage></dataqual><eainfo><detailed><enttyp><enttypl>Statewide_PLAT_FP</enttypl><enttypd>Feature Class Name</enttypd></enttyp></detailed><overview><eaover>The Right of Way Plat Image data set contains the following attribute data fields:
+</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Statewide_PLAT_FP</enttypl>
+        <enttypd>Feature Class Name</enttypd>
+      </enttyp>
+    </detailed>
+    <overview>
+      <eaover>The Right of Way Plat Image data set contains the following attribute data fields:
    OBJECTID - data system file number, polygon identifier
    AREA - area of the footprint
    PERIMETER - perimeter of the footprint
@@ -74,11 +178,86 @@ Images were loaded into the Footprint tool one county at a time.  The tool found
    COUNTY_STR - the MNDOT county number zero filled for single digits.
    IMAGE_PATH - full path name for image
    SHAPE_Leng - length value of the map image
-   SHAPE_Area - area value of the map image</eaover></overview></eainfo><distinfo><resdesc>Right of Way Plat and Commissioner's Graphic Order Raster Image File Footprints</resdesc><distliab>USE OF THIS DOCUMENT IS SUBJECT TO MNDOT'S DISCLAIMERS, LEGAL NOTICES AND POLICIES FOUND AT http://www.dot.state.mn.us/information/disclaimer.html</distliab><stdorder><ordering>Download the footprint shapefile via the Minnesota Geospatial Commons (click "I AGREE" in the Online Linkage field below). The footprints shapefile transfer size is 2.66 MB. 
+   SHAPE_Area - area value of the map image</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>Right of Way Plat and Commissioner's Graphic Order Raster Image File Footprints</resdesc>
+    <distliab>USE OF THIS DOCUMENT IS SUBJECT TO MNDOT'S DISCLAIMERS, LEGAL NOTICES AND POLICIES FOUND AT http://www.dot.state.mn.us/information/disclaimer.html</distliab>
+    <stdorder>
+      <ordering>Download the footprint shapefile via the Minnesota Geospatial Commons (click "I AGREE" in the Online Linkage field below). The footprints shapefile transfer size is 2.66 MB. 
 
 All plat and graphic order and raster image files can be downloaded directly from Right of WAY MAPPING AND MONITORING or ELECTRONIC DOCUMENT ACCESS. See this CHART for a comparison between these delivery sites. For other information or assistance complete the on-line request FORM by including your contact information and telephone number or send the same information to lisrwmap.dot@state.mn.us
               
                 RIGHT OF WAY MAPPING &amp; MONITORING - http://www.dot.state.mn.us/maps/gisweb/row/
                 ELECTRONIC DOCUMENT ACCESS - http://dotapp7.dot.state.mn.us/cyberdocs_guest/Libraries/Default_Library/Groups/GUESTS/frameset.asp
                 CHART - http://gisservices.dot.state.mn.us/mndot-rwmm/Right%20of%20Way%20Mapping.docx
-                FORM - http://olmwebservices.dot.state.mn.us/maprequest/requestmain.aspx</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>MN Department of Transportation, Office of Land Management</cntorg><cntper>Jay Krafthefer</cntper></cntperp><cntpos>LIS and R/W Mapping Supervisor</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>395 John Ireland Blvd., M.S. 643</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-366-3463</cntvoice><cntfax>651-366-3450</cntfax><cntemail>jay.krafthefer@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metd>20150311</metd><metc><cntinfo><cntperp><cntorg>MN Department of Transportation, Office of Land Management</cntorg><cntper>Jay Krafthefer</cntper></cntperp><cntpos>LIS and R/W Mapping Supervisor</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>395 John Ireland Blvd., M.S. 643</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-366-3463</cntvoice><cntfax>651-366-3450</cntfax><cntemail>jay.krafthefer@state.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>
+                FORM - http://olmwebservices.dot.state.mn.us/maprequest/requestmain.aspx</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>MN Department of Transportation, Office of Land Management</cntorg>
+          <cntper>Jay Krafthefer</cntper>
+        </cntperp>
+        <cntpos>LIS and R/W Mapping Supervisor</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>395 John Ireland Blvd., M.S. 643</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-366-3463</cntvoice>
+        <cntfax>651-366-3450</cntfax>
+        <cntemail>jay.krafthefer@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metd>20150311</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>MN Department of Transportation, Office of Land Management</cntorg>
+          <cntper>Jay Krafthefer</cntper>
+        </cntperp>
+        <cntpos>LIS and R/W Mapping Supervisor</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>395 John Ireland Blvd., M.S. 643</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-366-3463</cntvoice>
+        <cntfax>651-366-3450</cntfax>
+        <cntemail>jay.krafthefer@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -99,7 +99,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>&lt;font size='3'&gt;Data extracted from the Davey Tree database on 5/1/2012. &#160;&lt;span style='line-height: 115%; color: rgb(77, 77, 77); background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;'&gt;If there are any questions with the information represented in this service please contact the MPRB Forestry Division at&#160;&lt;/span&gt;&lt;span style='color: rgb(0, 51, 0); line-height: normal; text-align: -webkit-center; background-color: rgb(255, 255, 255);'&gt;612-313-7710 or&#160;&lt;/span&gt;&lt;a href='mailto:forestry@minneapolisparks.org' target='_blank'&gt;email&lt;/a&gt;&lt;span style='color: rgb(0, 51, 0); line-height: normal; text-align: -webkit-center; background-color: rgb(255, 255, 255);'&gt;.&lt;/span&gt;&lt;/font&gt;&lt;p style='margin-bottom:0in;margin-bottom:.0001pt'&gt;&lt;/p&gt;</gco:CharacterString>
+            <gco:CharacterString>Data extracted from the Davey Tree database on 5/1/2012. &#160;If there are any questions with the information represented in this service please contact the MPRB Forestry Division at&#160;612-313-7710 or&#160;email.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -229,7 +229,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Trees/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Trees/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

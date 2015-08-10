@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -99,7 +99,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>&lt;div&gt;&lt;p style='line-height: 1.5em; padding: 0px; font-size: 12px; font-family: Verdana, Helvetica, sans-serif; background-color: rgb(255, 255, 255);'&gt;&lt;span style='overflow: auto;'&gt;For questions about this data please contact&#160;&lt;a href='mailto:CPEDOpenData@minneapolismn.gov' style='font-family: Verdana; font-size: 13px; line-height: 1.38461538461538; background-color: transparent;' target='_blank'&gt;CPEDOpenData@minneapolismn.gov&lt;/a&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;span style='color: rgb(0, 0, 0); font-size: 15px; line-height: 20.3076915740967px;'&gt;Designated land use features from the City's adopted comprehensive plan.&lt;/span&gt;</gco:CharacterString>
+            <gco:CharacterString>For questions about this data please contact&#160;CPEDOpenData@minneapolismn.gov&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Designated land use features from the City's adopted comprehensive plan.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -226,7 +226,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Activity_Centers/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Activity_Centers/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

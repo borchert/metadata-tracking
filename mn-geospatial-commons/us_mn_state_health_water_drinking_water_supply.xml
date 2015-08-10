@@ -1,4 +1,20 @@
-﻿<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>Minnesota Department of Health</origin><title>Drinking Water Supply Management Areas</title><pubdate>20140901</pubdate><pubinfo><publish>Minnesota Department of Health</publish></pubinfo><onlink>https://gisdata.mn.gov/dataset/water-drinking-water-supply</onlink></citeinfo></citation><descript><purpose>This dataset was developed with the intention of protecting the public drinking water supply and complies with the federal Safe Drinking Water Act, United States Code, title 42 and the State of Minnesota Rule (parts 4720.5100 to 4720.5590).</purpose><supplinf>Minnesota</supplinf><abstract>These sets of data include the drinking water supply management area boundaries and the vulnerability levels within each management area in Minnesota.
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Health</origin>
+        <title>Drinking Water Supply Management Areas</title>
+        <pubdate>20140901</pubdate>
+        <pubinfo>
+          <publish>Minnesota Department of Health</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/water-drinking-water-supply</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <purpose>This dataset was developed with the intention of protecting the public drinking water supply and complies with the federal Safe Drinking Water Act, United States Code, title 42 and the State of Minnesota Rule (parts 4720.5100 to 4720.5590).</purpose>
+      <supplinf>Minnesota</supplinf>
+      <abstract>These sets of data include the drinking water supply management area boundaries and the vulnerability levels within each management area in Minnesota.
 
 More information can be found at: http://www.health.state.mn.us/divs/eh/water/swp/maps/index.htm 
 
@@ -6,4 +22,128 @@ Follow the links below to the access the individual metadata pages for each laye
 
 &lt;b&gt;Drinking Water Supply Management Areas:&lt;/b&gt; &lt;a href="drinking_water_supply_management_areas.html"&gt;drinking_water_supply_management_areas.html&lt;/a&gt;
 
-&lt;b&gt;Drinking Water Supply Management Areas Vulnerability:&lt;/b&gt; &lt;a href="drinking_water_supply_management_area_vulnerability.html"&gt;drinking_water_supply_management_area_vulnerability.html&lt;/a&gt;</abstract></descript><timeperd><current>publication date; data capture represents the period 07/11/1995 - 09/01/2014</current><timeinfo><sngdate><caldate>20140901</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>Quarterly</update></status><spdom><bounding><westbc>-97.072169</westbc><eastbc>-91.139865</eastbc><northbc>48.805032</northbc><southbc>43.432979</southbc></bounding></spdom><keywords><theme><themekt>MDH GID Data Keyword Thesaurus</themekt><themekey>Drinking Water Supply Management Area, Groundwatershed, Vulnerability, Drinking water, Capture zone, Wellhead Protection</themekey></theme><place><placekey>Minnesota</placekey></place></keywords><accconst>None</accconst><useconst>Geospatial data is provided "as-is". MDH makes no warranty, expressed or implied, and disclaims all implied warranties of the data for any purpose. MDH also does not warrant that the geospatial data is error free. The geospatial data was developed for MDH internal business purposes. MDH shall not be liable for any activity involving the geospatial data with respect to the following: a.) Lost profits, lost savings or any other consequential damages; b.) The fitness of the geospatial data for a particular purpose; or c.) The installation of the geospatial data, its use or the results obtained.</useconst><ptcontac><cntinfo><cntperp><cntorg>Minnesota Department of Health - Environmental Health Division</cntorg><cntper>Source Water Protection Unit Staff</cntper></cntperp><cntaddr><addrtype>Mailing</addrtype><address>P.O box 64975</address><city>St. Paul</city><state>MN</state><postal>55164-0975</postal></cntaddr><cntvoice>(651) 201-4700</cntvoice><cntfax>(651) 201-4701</cntfax><cntemail>health.drinkingwater@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><eainfo><overview><eaover>See individual dataset metadata records.</eaover></overview></eainfo><metainfo><metd>20150205</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>MN Geospatial Information Office</cntorg><cntper>Hollie Auchterlonie</cntper></cntperp><cntpos>Student Worker</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>658 Cedar St.</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>(651) 201-2496</cntvoice><cntemail>hollie.auchterlonie@state.mn.us</cntemail></cntinfo></metc></metainfo><distinfo><distliab>Geospatial data is provided "as-is". MDH makes no warranty, expressed or implied, and disclaims all implied warranties of the data for any purpose. MDH also does not warrant that the geospatial data is error free. The geospatial data was developed for MDH internal business purposes. MDH shall not be liable for any activity involving the geospatial data with respect to the following: a.) Lost profits, lost savings or any other consequential damages; b.) The fitness of the geospatial data for a particular purpose; or c.) The installation of the geospatial data, its use or the results obtained.</distliab><distrib><cntinfo><cntperp><cntorg>Minnesota Department of Health</cntorg><cntper>Michael Baker</cntper></cntperp><cntpos>GIS Data Administrator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>625 N Robert St.</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>(651) 201-4651</cntvoice><cntfax>(651) 201-4701</cntfax><cntemail>michael.baker@state.mn.us</cntemail></cntinfo></distrib></distinfo><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>
+&lt;b&gt;Drinking Water Supply Management Areas Vulnerability:&lt;/b&gt; &lt;a href="drinking_water_supply_management_area_vulnerability.html"&gt;drinking_water_supply_management_area_vulnerability.html&lt;/a&gt;</abstract>
+    </descript>
+    <timeperd>
+      <current>publication date; data capture represents the period 07/11/1995 - 09/01/2014</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20140901</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Quarterly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.072169</westbc>
+        <eastbc>-91.139865</eastbc>
+        <northbc>48.805032</northbc>
+        <southbc>43.432979</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>MDH GID Data Keyword Thesaurus</themekt>
+        <themekey>Drinking Water Supply Management Area, Groundwatershed, Vulnerability, Drinking water, Capture zone, Wellhead Protection</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Geospatial data is provided "as-is". MDH makes no warranty, expressed or implied, and disclaims all implied warranties of the data for any purpose. MDH also does not warrant that the geospatial data is error free. The geospatial data was developed for MDH internal business purposes. MDH shall not be liable for any activity involving the geospatial data with respect to the following: a.) Lost profits, lost savings or any other consequential damages; b.) The fitness of the geospatial data for a particular purpose; or c.) The installation of the geospatial data, its use or the results obtained.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Health - Environmental Health Division</cntorg>
+          <cntper>Source Water Protection Unit Staff</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing</addrtype>
+          <address>P.O box 64975</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55164-0975</postal>
+        </cntaddr>
+        <cntvoice>(651) 201-4700</cntvoice>
+        <cntfax>(651) 201-4701</cntfax>
+        <cntemail>health.drinkingwater@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <eainfo>
+    <overview>
+      <eaover>See individual dataset metadata records.</eaover>
+    </overview>
+  </eainfo>
+  <metainfo>
+    <metd>20150205</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>MN Geospatial Information Office</cntorg>
+          <cntper>Hollie Auchterlonie</cntper>
+        </cntperp>
+        <cntpos>Student Worker</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar St.</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>(651) 201-2496</cntvoice>
+        <cntemail>hollie.auchterlonie@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <distliab>Geospatial data is provided "as-is". MDH makes no warranty, expressed or implied, and disclaims all implied warranties of the data for any purpose. MDH also does not warrant that the geospatial data is error free. The geospatial data was developed for MDH internal business purposes. MDH shall not be liable for any activity involving the geospatial data with respect to the following: a.) Lost profits, lost savings or any other consequential damages; b.) The fitness of the geospatial data for a particular purpose; or c.) The installation of the geospatial data, its use or the results obtained.</distliab>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Health</cntorg>
+          <cntper>Michael Baker</cntper>
+        </cntperp>
+        <cntpos>GIS Data Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>625 N Robert St.</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>(651) 201-4651</cntvoice>
+        <cntfax>(651) 201-4701</cntfax>
+        <cntemail>michael.baker@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

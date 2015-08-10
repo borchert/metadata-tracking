@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Tracy Tisbo</gco:CharacterString>
+                        <gco:CharacterString>Hennepin County</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -101,9 +101,8 @@
          <abstract>
             <gco:CharacterString>This table contains park agency names and contact information.&#160; The field AGENCY_NAME is the park agency contact name.&#13;
 &#13;
-&lt;br /&gt;&lt;br /&gt;Link to Attribute Table Information: &lt;a href='http://gis.hennepin.us/OpenData/Metadata/ParksContact.pdf' target='_blank'&gt;http://gis.hennepin.us/OpenData/Metadata/ParksContact.pdf&lt;/a&gt;&#13;
-&#13;
-&lt;br /&gt;&lt;br /&gt;Data updated: 08/20/2014&lt;br /&gt;&lt;br /&gt;Use Limitations: This data (i) is furnished &amp;quot;AS IS&amp;quot; with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data.</gco:CharacterString>
+&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/ParksContact.pdf
+&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Data updated: 08/20/2014&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Use Limitations: This data (i) is furnished "AS IS" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -165,16 +164,16 @@
                <geographicElement>
                   <EX_GeographicBoundingBox>
                      <westBoundLongitude>
-                        <gco:Decimal>0</gco:Decimal>
+                        <gco:Decimal>-180.0</gco:Decimal>
                      </westBoundLongitude>
                      <eastBoundLongitude>
-                        <gco:Decimal>0</gco:Decimal>
+                        <gco:Decimal>180.0</gco:Decimal>
                      </eastBoundLongitude>
                      <southBoundLatitude>
-                        <gco:Decimal>0</gco:Decimal>
+                        <gco:Decimal>-90.0</gco:Decimal>
                      </southBoundLatitude>
                      <northBoundLatitude>
-                        <gco:Decimal>0</gco:Decimal>
+                        <gco:Decimal>90.0</gco:Decimal>
                      </northBoundLatitude>
                   </EX_GeographicBoundingBox>
                </geographicElement>
@@ -187,7 +186,7 @@
          <distributionFormat>
             <MD_Format>
                <name>
-                  <gco:CharacterString>shapefile</gco:CharacterString>
+                  <gco:CharacterString>Shapefile</gco:CharacterString>
                </name>
                <version gco:nilReason="missing"/>
             </MD_Format>
@@ -213,7 +212,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://gis.hennepin.opendata.arcgis.com/datasets/8877183c2cb14837a3e4c60a3f0ac087_10.zip</URL>
+                        <URL/>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>

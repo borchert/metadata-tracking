@@ -1,5 +1,1334 @@
-﻿<metadata><idinfo><citation><citeinfo><origin>Minnesota Department of Natural Resources (DNR)</origin><pubdate>20150309</pubdate><title>Watershed Health Assessment Scores</title><pubinfo><publish>Minnesota DNR - Ecological and Water Resources</publish></pubinfo><onlink>http://gisdata.mn.gov/dataset/env-watershed-health-assessment</onlink></citeinfo></citation><descript><abstract>The Watershed Health Index approach identifies and analyzes data that characterizes the principal components of watershed health at the Major Watershed and Catchment scales. For each of the principal components (Geomorphology, Connectivity, Hydrology, Biology, and Water Quality) indices and underlying metrics have been developed that describe the relative health of the system. The generated values are scaled from 0 to 100 to provide a statewide comparable index of relative health risk.</abstract><purpose>The watershed assessment scores in this dataset can help in making decisions for watershed health management.</purpose></descript><timeperd><timeinfo><sngdate><caldate>20150309</caldate></sngdate></timeinfo><current>Time Period of Content date indicates the date that changes were last made to this dataset. Development of indices is ongoing. Every effort is made to use the most current data available, the exact date will vary from one index score to another. The acquisition date for data used to develop a particular metric or index can be found in the online documentation: http://www.dnr.state.mn.us/whaf/about/scores/index.html</current></timeperd><status><progress>In work</progress><update>Continually</update></status><spdom><bounding><westbc>-98</westbc><eastbc>-89.4</eastbc><northbc>49.5</northbc><southbc>43.1</southbc></bounding></spdom><keywords><theme><themekey>Watershed, Health, Assessment, WHAF</themekey></theme><place><placekey>State of Minnesota</placekey></place></keywords><accconst>none</accconst><useconst>none</useconst><native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native><browse><browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/env_watershed_health_assessment/metadata/preview.jpg</browsen></browse><crossref><citeinfo><title>This dataset is managed as a table joined to the MNDNR Watershed Suite. For information on attributes associated with the watershed suite refer to the &lt;a href="../../geos_dnr_watersheds/metadata/metadata.html" target=_blank&gt;watershed metadata&lt;/a&gt;</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>DNR-Ecological and Water Resources</cntorg><cntper>Beth Knudsen</cntper></cntperp><cntpos>Watershed Assessment Coordinator</cntpos><cntaddr><addrtype>mailing and physical address</addrtype><address>1801 South Oak St.</address><city>Lake City</city><state>MN</state><postal>55041</postal></cntaddr><cntvoice>651-345-5226, ext.228</cntvoice><cntemail>beth.knudsen@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><logic>Data have been checked using ESRI ArcView 10.2.x</logic><complete>Data exist statewide.</complete><posacc><horizpa><horizpar>Source layer wshd_lev04py3 and wshd_lev08py3: No quantitative studies of horizontal positional accuracy exist for the data.  Although positional accuracy of watershed delineations can be arbitrary, accuracy of these data can be reasonably estimated based on the characteristics of all source materials and processing techniques to be 100 feet (30 meters) from correct position.</horizpar></horizpa><vertacc><vertaccr>Source layer wshd_lev04py3 and wshd_lev08py3:  No quantitative studies of vertical positional accuracy exist for the data.</vertaccr></vertacc></posacc><lineage><procstep><procdesc>The base attributes were copied from wshd_lev04py3. AREA attribute was calculated  using ArcView 9.3.x's "Calculate Geometry" function. 
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources (DNR)</origin>
+        <pubdate>20150309</pubdate>
+        <title>Watershed Health Assessment Scores</title>
+        <pubinfo>
+          <publish>Minnesota DNR - Ecological and Water Resources</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/env-watershed-health-assessment</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Watershed Health Index approach identifies and analyzes data that characterizes the principal components of watershed health at the Major Watershed and Catchment scales. For each of the principal components (Geomorphology, Connectivity, Hydrology, Biology, and Water Quality) indices and underlying metrics have been developed that describe the relative health of the system. The generated values are scaled from 0 to 100 to provide a statewide comparable index of relative health risk.</abstract>
+      <purpose>The watershed assessment scores in this dataset can help in making decisions for watershed health management.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150309</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Time Period of Content date indicates the date that changes were last made to this dataset. Development of indices is ongoing. Every effort is made to use the most current data available, the exact date will vary from one index score to another. The acquisition date for data used to develop a particular metric or index can be found in the online documentation: http://www.dnr.state.mn.us/whaf/about/scores/index.html</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-98</westbc>
+        <eastbc>-89.4</eastbc>
+        <northbc>49.5</northbc>
+        <southbc>43.1</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Watershed, Health, Assessment, WHAF</themekey>
+      </theme>
+      <place>
+        <placekey>State of Minnesota</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_watershed_health_assessment/metadata/preview.jpg</browsen>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <title>This dataset is managed as a table joined to the MNDNR Watershed Suite. For information on attributes associated with the watershed suite refer to the &lt;a href="../../geos_dnr_watersheds/metadata/metadata.html" target=_blank&gt;watershed metadata&lt;/a&gt;</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>DNR-Ecological and Water Resources</cntorg>
+          <cntper>Beth Knudsen</cntper>
+        </cntperp>
+        <cntpos>Watershed Assessment Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>1801 South Oak St.</address>
+          <city>Lake City</city>
+          <state>MN</state>
+          <postal>55041</postal>
+        </cntaddr>
+        <cntvoice>651-345-5226, ext.228</cntvoice>
+        <cntemail>beth.knudsen@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Data have been checked using ESRI ArcView 10.2.x</logic>
+    <complete>Data exist statewide.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Source layer wshd_lev04py3 and wshd_lev08py3: No quantitative studies of horizontal positional accuracy exist for the data.  Although positional accuracy of watershed delineations can be arbitrary, accuracy of these data can be reasonably estimated based on the characteristics of all source materials and processing techniques to be 100 feet (30 meters) from correct position.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Source layer wshd_lev04py3 and wshd_lev08py3:  No quantitative studies of vertical positional accuracy exist for the data.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>The base attributes were copied from wshd_lev04py3. AREA attribute was calculated  using ArcView 9.3.x's "Calculate Geometry" function. 
 
-Each of the index and metric attributes were copied from component scores shapefiles to create this master table. Please have a look at the entity attribute section for explanation of what each attribute name represents. Details on the methods used to calculate indices and metrics can be found at the Watershed Health Assessment website: http://www.dnr.state.mn.us/whaf/about/scores/index.html</procdesc></procstep></lineage><attracc><attraccr>Base attributes were derived from wshd_lev04py3.</attraccr></attracc></dataqual><spdoinfo><direct>Vector</direct><mgmg3obj>grid</mgmg3obj><mgmg3til>qq024k</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>NGVD88</altdatum><altunits>meters</altunits></altsys><depthsys><depthdn>NGVD88</depthdn><depthdu>meters</depthdu></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu><coordrep><absres>0.000000</absres><ordres>0.000000</ordres></coordrep></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>Major_Scores</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">81</enttypc></enttyp><attr><attrlabl>OBJECTID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><rdom><rdommin>1</rdommin><rdommax>81</rdommax></rdom></attrdomv><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>MAJOR</attrlabl><attrdef>Major Watershed ID</attrdef><attrdomv><rdom><rdommin>1</rdommin><rdommax>81</rdommax></rdom></attrdomv><attalias Sync="TRUE">MAJOR</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">5</attwidth><atnumdec Sync="TRUE">2</atnumdec></attr><attr><attrlabl>MAJNAME</attrlabl><attrdef>Major Watershed Name</attrdef><attalias Sync="TRUE">MAJNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl>HUC_4</attrlabl><attrdef>DNR Hydrologic Unit Level 2, 4 digit Administrative Watershed.</attrdef></attr><attr><attrlabl>HUC_8</attrlabl><attrdef>DNR Hydrologic Unit Level 4, 8 digit Administrative Watershed.</attrdef></attr><attr><attrlabl>H_I_MEAN</attrlabl><attrdef>Hyd Index  - Mean Index;  Hydrology component mean score. This is the average of 5 hydrology indices: Hydrologic Storage, Imperviousness, Water Withdrawal, Perennial  Cover, and Flow Variability.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_I_PC_11</attrlabl><attrdef>Hyd Index  - Perennial Cover; Hydrology component index based on the amount of perennial cover on the landscape calculated from 2011 NLCD.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_I_PC_06</attrlabl><attrdef>Hyd Index  - Perennial Cover; Hydrology component index based on the amount of perennial cover on the landscape calculated from 2006 NLCD.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_I_PC_01</attrlabl><attrdef>Hyd Index  - Perennial Cover; Hydrology component index based on the amount of perennial cover on the landscape calculated from 2001 NLCD.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_I_IC_11</attrlabl><attrdef>Hyd Index  - Impervious Cover; Hydrology component index based the percentage of impervious area in the watershed, calculated from the 2011 NLCD impervious surface dataset.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_I_IC_06</attrlabl><attrdef>Hyd Index  - Impervious Cover; Hydrology component index based the percentage of impervious area in the watershed, calculated from the 2006 NLCD impervious surface dataset.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_I_IC_01</attrlabl><attrdef>Hyd Index  - Impervious Cover; Hydrology component index based the percentage of impervious area in the watershed, calculated from the 2001 NLCD impervious surface dataset.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_I_WW</attrlabl><attrdef>Hyd Index  - Water Withdrawal;  Hydrology component index based on the volume of total permitted water use (millions of gallons per year, mgy) from all surface and groundwater sources, and its relationship to volume of available surface water from landscape runoff.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_I_FV</attrlabl><attrdef>Hyd Index  - Flow Variability; Hydrology component index based on the degree of deviation from expected stream flow patterns  (based on historic stream gage records and indicators of hydrologic alterations (IHA)).</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_ M_FV_MM</attrlabl><attrdef>Hyd Metric - Flow Variability, Monthly Magnitude</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_M_FV_RFC</attrlabl><attrdef>Hyd Metric - Flow Variability, Rate and Frequency of Change</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_M_FV_MDX</attrlabl><attrdef>Hyd Metric - Flow Variability, Magn. and Duration of Annual Extremes</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_M_FV_TX</attrlabl><attrdef>Hyd Metric - Flow Variability, Timing of Annual Extremes</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_M_FV_FDP</attrlabl><attrdef>Hyd Metric - Flow Variability, Freq. and Dur. of High/Low Pulse</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_I_LHS</attrlabl><attrdef>Hyd Index  - Loss of Hydrologic Storage;  Hydrology component index based on the average of Straightened-Meandering Stream Ratio metric and Surface Water Storage metric.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_M_LHS_WS</attrlabl><attrdef>Hyd Metric - Loss of Hydrologic Storage, Surface Water Storage metric.  This metric is part of Loss of Hydrologic Storage Index and is based on the percentage of remaining presettlement surface water features (includes hydric soils, representing wetlands, and open water).</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_M_LHS_SM</attrlabl><attrdef>Hyd Metric  - Loss of Hydrologic Storage; Straightened-Meandering Stream Ratio metric.  This metric is part of the Loss of Hydrologic Storage Index and is the ratio of unaltered, meandering perennial stream miles to altered stream miles; indicates loss of channel storage.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>G_I_MEAN</attrlabl><attrdef>Geo Index  - Mean Index; This is the average of 3 geomorphology indices: Soil Erodability, Groundwater Contamination Susceptibility, and Climate Vulnerability</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>G_I_SEP</attrlabl><attrdef>Geo Index  - Soil Erosion Potential;  Geomorphology component index, calculated based on the soil k-factor and 4 slope classes (providing scoring weights: 0-1% slope = 1x weight factor, 1-2% slope = 2x weight factor, 2-3% slope = 3x weight factor, &gt;3% slope = 4x weight factor).</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>G_I_GWCS</attrlabl><attrdef>Geo Index  - Ground Water Contamination Susceptibility;  Geomorphology component index, calculated based on area-weighted mean of groundwater contamination risk value (as assigned in 1978 PCA/DNR assessment).</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>G_I CV</attrlabl><attrdef>Geo Index  - Climate Vulnerability; Geomorphology component index based on the 30-year mean balance of precipitation and evapotranspiration.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_I_MEAN</attrlabl><attrdef>Bio Index  - Mean Index;  Biology component mean score. This is the average of 5 biology indices: Terrestrial Habitat Quality Index, Species Richness Index, At-Risk Species Index, Stream Species Quality Index</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_I_TH</attrlabl><attrdef>Bio Index  - Terrestrial Habitat Quality. Biology component index that ranks the quality of terrestrial habitats within each watershed.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_I_SR</attrlabl><attrdef>Bio Index  - Species Richness; Biology Component index based on ranking the richness (count) of species present in each watershed.  Available species counts used are fish, aquatic macro invertebrates, mussels and birds.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_M_SR_I</attrlabl><attrdef>Bio Index - Species Richness, Invertebrate Richness</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_M_SR_F</attrlabl><attrdef>Bio Index - Species Richness, Fish Richness</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_M_SR_B</attrlabl><attrdef>Bio Index - Species Richness, Bird Richness</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_M_SR_M</attrlabl><attrdef>Bio Index - Species Richness, Mussel Richness</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_I_ARSR</attrlabl><attrdef>Bio Index  - At Risk Species Richness; Biology component index based on ranking the richness (count) of at-risk species present within each watershed. The more at-risk species, the higher the score.  Available species counts used are fish, mussels and birds on the Species of Greatest Conservation Need list.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_M_ARSR_M</attrlabl><attrdef>Bio Index - At Risk Species Richness, Mussel Species</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_M_ARSR_B</attrlabl><attrdef>Bio Index - At Risk Species Richness, Avian Species</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_M_ARSR_F</attrlabl><attrdef>Bio Index - At Risk Species Richness, Fish Species</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_I_SSQ</attrlabl><attrdef>Bio Index  - Stream Species Quality;  Biology component index ranking stream species quality based on the mean of means for observed and expected (o/e) values for fish, o/e values for aquatic macro invertebrates; and percent of mussel species found live.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_M_SSQ_FS</attrlabl><attrdef>Bio Index - Stream Species Quality, Fish Survey</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_M_SSQ_IS</attrlabl><attrdef>Bio Metric - Stream Species Quality, Aquatic Invertebrates Survey</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_M_SSQ_MS</attrlabl><attrdef>Bio Metric - Stream Species Quality, Mussel Score</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>C_I_MEAN</attrlabl><attrdef>Con Index  - Mean Index; Connectivity component index based on the average of 3 connectivity indices: Aquatic Connectivity Index, Riparian Connectivity Index, and Terrestrial Habitat Connectivity Index.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>C_I_TC</attrlabl><attrdef>Con Index  - Terrestrial Habitat Connectivity;  Connectivity component index based on land area of terrestrial habitat patches and area of potential connections (corridors).</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>C_I_RC</attrlabl><attrdef>Con Index  - Riparian Connectivity; Connectivity component index based on the amount of development or cropland within riparian zones.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>C_I_AC</attrlabl><attrdef>Con Index  - Aquatic Connectivity;  Connectivity component index based on a density of aquatic disruptions per mile of stream length within each watershed.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>W_I_MEAN</attrlabl><attrdef>WQ Index  - Mean Index; WQ component, This is the average of 3 water quality indices: Non-point Sources, Point Sources, and Water Quality Assessments</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>W_I_PS</attrlabl><attrdef>WQ Index  - Point Sources; WQ component index based on the mean of the following metrics: superfund sites, potential contaminants sites, feedlots, open mine pits, and waste water discharge permits (per watershed).</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>W_I_NPS</attrlabl><attrdef>Non-Point Sources, a Water Quality index. This is the average of the 2 metrics: impervious surface in riparian areas and application rates of agricultural chemicals.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>W_M_NPS_IS</attrlabl><attrdef>WQ Metric - Non-Point Sources, Impervious Surfaces within Riparian Areas,  a metric component of Non-Point Sources Index. Based on the percentage of impervious surface within a 200-meter riparian zone</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>W_M_NPS_CA</attrlabl><attrdef>WQ Metric - Non-Point Sources, Rate of Ag. Chemical Application, a metric component of Non-Point Sources Index. Based on rates of chemical applications in agricultural areas.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>W_I_WQA</attrlabl><attrdef>Water Quality Assessments, a Water Quality index. The mean of the percentage of streams and lakes assessed that were found to be impaired.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>W_M_WQA_SA</attrlabl><attrdef>WQ Index - Water Quality Assessments, Stream Assessments</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>W_M_WQA_LA</attrlabl><attrdef>WQ Index - Water Quality Assessments, Lake Assessments</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>A_I_MEAN</attrlabl><attrdef>Overall Watershed Health Ranking. This is the average of the 5 component health rankings: Biology, Connectivty, Geomorphology, Hydrology, and Water Quality.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv><attalias Sync="TRUE">COMP_SCORE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr><attr><attrlabl>H_MIN_SCR</attrlabl><attrdef>Hydrology component minimum score. This is the lowest index score in the hydrology component.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv><attalias Sync="TRUE">HYD_MIN</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr><attr><attrlabl>H_MIN_IDX</attrlabl><attrdef>Name of the index that gives the lowest component score.</attrdef><attalias Sync="TRUE">HYD_IDX</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl>H_MAX_SCR</attrlabl><attrdef>Hydrology component maximum score. This is the highest index score in the hydrology component.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_MAX_IDX</attrlabl><attrdef>The index that gives the highest hydrology component score.</attrdef></attr><attr><attrlabl>G_MIN_SCR</attrlabl><attrdef>Geomorphology component minimum score. This is the lowest index score in the geomorphology component.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv><attalias Sync="TRUE">GEO_MIN</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr><attr><attrlabl>G_MIN_IDX</attrlabl><attrdef>Name of the index that gives the lowest geomorphology component score.</attrdef><attalias Sync="TRUE">GEO_IDX</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl>G_MAX_SCR</attrlabl><attrdef>Geomorphology component maximum score. This is the highest index score in the geomorphology component.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>G_MAX_IDX</attrlabl><attrdef>The index that gives the highest geomorphology component score.</attrdef></attr><attr><attrlabl>B_MIN_SCR</attrlabl><attrdef>Biology component minimum score. This is the lowest index score in the biology component.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv><attalias Sync="TRUE">BIO_MIN</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr><attr><attrlabl>B_MIN_IDX</attrlabl><attrdef>The index that gives the lowest biology component score.</attrdef><attalias Sync="TRUE">BIO_IDX</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl>B_MAX_SCR</attrlabl><attrdef>Biology component maximum score. This is the highest index score in the biology component.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_MAX_IDX</attrlabl><attrdef>The index that gives the highest biology component score.</attrdef></attr><attr><attrlabl>C_MIN_SCR</attrlabl><attrdef>Connectivity component minimum score. This is the lowest index score in the connectivity component.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv><attalias Sync="TRUE">CON_MIN</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr><attr><attrlabl>C_MIN_IDX</attrlabl><attrdef>The index that gives the lowest connectivity component score.</attrdef><attalias Sync="TRUE">CON_IDX</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl>C_MAX_SCR</attrlabl><attrdef>Connectivity component maximum score. This is the highest index score in the connectivity component.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>C_MAX_IDX</attrlabl><attrdef>The index that gives the highest connectivity component score.</attrdef></attr><attr><attrlabl>W_MIN_SCR</attrlabl><attrdef>Water Quality component minimum score. This is the lowest index score in the water quality component.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv><attalias Sync="TRUE">WQ_MIN</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth><atnumdec Sync="TRUE">6</atnumdec></attr><attr><attrlabl>W_MIN_IDX</attrlabl><attrdef>The index that gives the lowest water quality component score.</attrdef><attalias Sync="TRUE">WQ_IDX</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl>W_MAX_SCR</attrlabl><attrdef>Water Quality component maximum score. This is the highest index score in the water quality component.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>W_MAX_IDX</attrlabl><attrdef>The index that gives the highest water quality component score.</attrdef></attr><attr><attrlabl>A_MIN_SCR</attrlabl><attrdef>Overall minimum score. This is the lowest index score in the watershed</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>A_MIN_IDX</attrlabl><attrdef>The index that gives the lowest overall watershed score.</attrdef></attr><attr><attrlabl>A_MAX_SCR</attrlabl><attrdef>The highest component score in the watershed.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>A_MAX_IDX</attrlabl><attrdef>The component that gives the highest watershed score.</attrdef></attr><attr><attrlabl>A_AVG_MIN</attrlabl><attrdef>This is the lowest component score in the watershed (derived from the mean component scores).</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv><attalias Sync="TRUE">AVG_MIN</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr><attr><attrlabl>A_AVG_MAX</attrlabl><attrdef>This is the highest component score in the watershed (derived from the mean component scores)</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv><attalias Sync="TRUE">AVG_MAX</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr></detailed><detailed><enttyp><enttypl>Catchment_Scores</enttypl></enttyp><attr><attrlabl>OBJECTID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><rdom><rdommin>1</rdommin><rdommax>10018</rdommax></rdom></attrdomv></attr><attr><attrlabl>CATCH_ID</attrlabl><attrdef>Primary ID field for DNR catchments.</attrdef></attr><attr><attrlabl>UP_POP</attrlabl><attrdef>Sum of population within the catchment and upstream areas.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>961151</rdommax></rdom></attrdomv></attr><attr><attrlabl>UP_AU</attrlabl><attrdef>Sum of animal units within the catchment and upstream areas.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>4299988</rdommax></rdom></attrdomv></attr><attr><attrlabl>UP_FL</attrlabl><attrdef>Sum of feedlots within the catchment and upstream areas</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>23293</rdommax></rdom></attrdomv></attr><attr><attrlabl>UP_MAX_AU</attrlabl><attrdef>The count of animal units at the largest upstream feedlot.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>10500</rdommax></rdom></attrdomv></attr><attr><attrlabl>UP_OPN_WAT</attrlabl><attrdef>Percent of upstream area occupied by open water.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>UP_CLT_LND</attrlabl><attrdef>Percent of upstream area occupied by cultivated land.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>UP_PRN_CVR</attrlabl><attrdef>Percent of upstream area occupied by perennial cover.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>UP_OTHER</attrlabl><attrdef>Percent of upstream area accupied by land uses other than open water, cultivated land, or perennial cover.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_I_PC_11</attrlabl><attrdef>Hyd Index  - Perennial Cover; Hydrology component index based on the amount of perennial cover on the landscape calculated from 2011 NLCD.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_I_PC_06</attrlabl><attrdef>Hyd Index  - Perennial Cover; Hydrology component index based on the amount of perennial cover on the landscape calculated from 2006 NLCD.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_I_PC_01</attrlabl><attrdef>Hyd Index  - Perennial Cover; Hydrology component index based on the amount of perennial cover on the landscape calculated from 2001 NLCD.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_I_IC_11</attrlabl><attrdef>Hyd Index  - Impervious Cover; Hydrology component index based the percentage of impervious area in the watershed, calculated from the 2011 NLCD impervious surface dataset.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_I_IC_06</attrlabl><attrdef>Hyd Index  - Impervious Cover; Hydrology component index based the percentage of impervious area in the watershed, calculated from the 2006 NLCD impervious surface dataset.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_I_IC_01</attrlabl><attrdef>Hyd Index  - Impervious Cover; Hydrology component index based the percentage of impervious area in the watershed, calculated from the 2001 NLCD impervious surface dataset.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_I_WW</attrlabl><attrdef>Hyd Index - Water Withdrawal; Hydrology component index based on the volume of total permitted water use (millions of gallons per year, mgy) from all surface and groundwater sources, and its relationship to volume of available surface water from landscape runoff.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_I_WW_PV</attrlabl><attrdef>Hyd Index - Water Withdrawal; Predicted vulnerability from current trends in water withdrawal  based on the volume of total permitted water use (millions of gallons per year, mgy) from all surface and groundwater sources, and its relationship to volume of available surface water from landscape runoff.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>H_M_LHS_SM</attrlabl><attrdef>Hyd Metric - Loss of Hydrologic Storage; Straightened-Meandering Stream Ratio metric. This metric is part of the Loss of Hydrologic Storage Index and is the ratio of unaltered, meandering perennial stream miles to altered stream miles; indicates loss of channel storage.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>G_I_SEP</attrlabl><attrdef>Geo Index - Soil Erosion Potential; Geomorphology component index, calculated based on the soil k-factor and 4 slope classes (providing scoring weights: 0-1% slope = 1x weight factor, 1-2% slope = 2x weight factor, 2-3% slope = 3x weight factor, &gt;3% slope = 4x weight factor).</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_I_TH</attrlabl><attrdef>Bio Index - Terrestrial Habitat Quality. Biology component index that ranks the quality of terrestrial habitats within each watershed.</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_M_SSQ_FI</attrlabl><attrdef>Bio Index - Stream Species Quality, metric values base on the fish Index of Biotic Integrity (IBI).</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_M_SSQ_FX</attrlabl><attrdef>Bio Index - Stream Species Quality, extrapolated metric value base on the fish Index of Biotic Integrity (IBI).</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_M_SSQ_II</attrlabl><attrdef>Bio Metric  - Stream Species Quality, metric based on Aquatic Invertebrate Index of Biological Integrity (IBI).</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_M_SSQ_IX</attrlabl><attrdef>Bio Metric  - Stream Species Quality, extrapolated metric based on Aquatic Invertebrate Index of Bioticl Integrity</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_M_SSQ_MS</attrlabl><attrdef>Bio Metric  - Stream Species Quality, Mussel Score</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>B_M_SSQ_MX</attrlabl><attrdef>Bio Metric  - Stream Species Quality, Extrapolated Mussel Score</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>C_I_RC</attrlabl><attrdef>Con Index  - Riparian Connectivity</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>C_I_AC</attrlabl><attrdef>Con Index  - Aquatic Connectivity</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>W_M_PS_A</attrlabl><attrdef>WQ Metric  - Point Sources, Animal Units</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>W_M_PS_PC</attrlabl><attrdef>WQ Metric - Point Source, Potential Conataminants</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>W_M_PS_SF</attrlabl><attrdef>WQ Metric - Point Source, Superfund Sites</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>W_M_PS_WTP</attrlabl><attrdef>WQ Metric - Point Source, Wastewater Treatment Plants</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>W_M_PS_SS</attrlabl><attrdef>WQ Metric - Point Source, Septic Systems</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>W_M_PS_OPM</attrlabl><attrdef>WQ Metric - Point Source, Open Pit Mines</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>W_I_PS</attrlabl><attrdef>WQ Index - Point Source</attrdef><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr></detailed><overview><eaover>This dataset is managed as a join to the MNDNR watershed suite. The Major_Scores table is joined to dnr_watersheds_dnr_level_04_huc_08_majors on the MAJOR field. The Catchment_Scores table is joined to dnr_watersheds_dnr_level_08_all_catchments on the CATCH_ID field. Attribute descriptions for fields associated with the watershed feature data can be found at: ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/geos_dnr_watersheds/metadata/metadata.html
+Each of the index and metric attributes were copied from component scores shapefiles to create this master table. Please have a look at the entity attribute section for explanation of what each attribute name represents. Details on the methods used to calculate indices and metrics can be found at the Watershed Health Assessment website: http://www.dnr.state.mn.us/whaf/about/scores/index.html</procdesc>
+      </procstep>
+    </lineage>
+    <attracc>
+      <attraccr>Base attributes were derived from wshd_lev04py3.</attraccr>
+    </attracc>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <mgmg3obj>grid</mgmg3obj>
+    <mgmg3til>qq024k</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>NGVD88</altdatum>
+        <altunits>meters</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>NGVD88</depthdn>
+        <depthdu>meters</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+          <coordrep>
+            <absres>0.000000</absres>
+            <ordres>0.000000</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Major_Scores</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">81</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>81</rdommax>
+          </rdom>
+        </attrdomv>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>MAJOR</attrlabl>
+        <attrdef>Major Watershed ID</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>81</rdommax>
+          </rdom>
+        </attrdomv>
+        <attalias Sync="TRUE">MAJOR</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+        <atnumdec Sync="TRUE">2</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl>MAJNAME</attrlabl>
+        <attrdef>Major Watershed Name</attrdef>
+        <attalias Sync="TRUE">MAJNAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>HUC_4</attrlabl>
+        <attrdef>DNR Hydrologic Unit Level 2, 4 digit Administrative Watershed.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HUC_8</attrlabl>
+        <attrdef>DNR Hydrologic Unit Level 4, 8 digit Administrative Watershed.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>H_I_MEAN</attrlabl>
+        <attrdef>Hyd Index  - Mean Index;  Hydrology component mean score. This is the average of 5 hydrology indices: Hydrologic Storage, Imperviousness, Water Withdrawal, Perennial  Cover, and Flow Variability.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_I_PC_11</attrlabl>
+        <attrdef>Hyd Index  - Perennial Cover; Hydrology component index based on the amount of perennial cover on the landscape calculated from 2011 NLCD.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_I_PC_06</attrlabl>
+        <attrdef>Hyd Index  - Perennial Cover; Hydrology component index based on the amount of perennial cover on the landscape calculated from 2006 NLCD.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_I_PC_01</attrlabl>
+        <attrdef>Hyd Index  - Perennial Cover; Hydrology component index based on the amount of perennial cover on the landscape calculated from 2001 NLCD.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_I_IC_11</attrlabl>
+        <attrdef>Hyd Index  - Impervious Cover; Hydrology component index based the percentage of impervious area in the watershed, calculated from the 2011 NLCD impervious surface dataset.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_I_IC_06</attrlabl>
+        <attrdef>Hyd Index  - Impervious Cover; Hydrology component index based the percentage of impervious area in the watershed, calculated from the 2006 NLCD impervious surface dataset.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_I_IC_01</attrlabl>
+        <attrdef>Hyd Index  - Impervious Cover; Hydrology component index based the percentage of impervious area in the watershed, calculated from the 2001 NLCD impervious surface dataset.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_I_WW</attrlabl>
+        <attrdef>Hyd Index  - Water Withdrawal;  Hydrology component index based on the volume of total permitted water use (millions of gallons per year, mgy) from all surface and groundwater sources, and its relationship to volume of available surface water from landscape runoff.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_I_FV</attrlabl>
+        <attrdef>Hyd Index  - Flow Variability; Hydrology component index based on the degree of deviation from expected stream flow patterns  (based on historic stream gage records and indicators of hydrologic alterations (IHA)).</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_ M_FV_MM</attrlabl>
+        <attrdef>Hyd Metric - Flow Variability, Monthly Magnitude</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_M_FV_RFC</attrlabl>
+        <attrdef>Hyd Metric - Flow Variability, Rate and Frequency of Change</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_M_FV_MDX</attrlabl>
+        <attrdef>Hyd Metric - Flow Variability, Magn. and Duration of Annual Extremes</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_M_FV_TX</attrlabl>
+        <attrdef>Hyd Metric - Flow Variability, Timing of Annual Extremes</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_M_FV_FDP</attrlabl>
+        <attrdef>Hyd Metric - Flow Variability, Freq. and Dur. of High/Low Pulse</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_I_LHS</attrlabl>
+        <attrdef>Hyd Index  - Loss of Hydrologic Storage;  Hydrology component index based on the average of Straightened-Meandering Stream Ratio metric and Surface Water Storage metric.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_M_LHS_WS</attrlabl>
+        <attrdef>Hyd Metric - Loss of Hydrologic Storage, Surface Water Storage metric.  This metric is part of Loss of Hydrologic Storage Index and is based on the percentage of remaining presettlement surface water features (includes hydric soils, representing wetlands, and open water).</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_M_LHS_SM</attrlabl>
+        <attrdef>Hyd Metric  - Loss of Hydrologic Storage; Straightened-Meandering Stream Ratio metric.  This metric is part of the Loss of Hydrologic Storage Index and is the ratio of unaltered, meandering perennial stream miles to altered stream miles; indicates loss of channel storage.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>G_I_MEAN</attrlabl>
+        <attrdef>Geo Index  - Mean Index; This is the average of 3 geomorphology indices: Soil Erodability, Groundwater Contamination Susceptibility, and Climate Vulnerability</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>G_I_SEP</attrlabl>
+        <attrdef>Geo Index  - Soil Erosion Potential;  Geomorphology component index, calculated based on the soil k-factor and 4 slope classes (providing scoring weights: 0-1% slope = 1x weight factor, 1-2% slope = 2x weight factor, 2-3% slope = 3x weight factor, &gt;3% slope = 4x weight factor).</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>G_I_GWCS</attrlabl>
+        <attrdef>Geo Index  - Ground Water Contamination Susceptibility;  Geomorphology component index, calculated based on area-weighted mean of groundwater contamination risk value (as assigned in 1978 PCA/DNR assessment).</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>G_I CV</attrlabl>
+        <attrdef>Geo Index  - Climate Vulnerability; Geomorphology component index based on the 30-year mean balance of precipitation and evapotranspiration.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_I_MEAN</attrlabl>
+        <attrdef>Bio Index  - Mean Index;  Biology component mean score. This is the average of 5 biology indices: Terrestrial Habitat Quality Index, Species Richness Index, At-Risk Species Index, Stream Species Quality Index</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_I_TH</attrlabl>
+        <attrdef>Bio Index  - Terrestrial Habitat Quality. Biology component index that ranks the quality of terrestrial habitats within each watershed.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_I_SR</attrlabl>
+        <attrdef>Bio Index  - Species Richness; Biology Component index based on ranking the richness (count) of species present in each watershed.  Available species counts used are fish, aquatic macro invertebrates, mussels and birds.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_M_SR_I</attrlabl>
+        <attrdef>Bio Index - Species Richness, Invertebrate Richness</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_M_SR_F</attrlabl>
+        <attrdef>Bio Index - Species Richness, Fish Richness</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_M_SR_B</attrlabl>
+        <attrdef>Bio Index - Species Richness, Bird Richness</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_M_SR_M</attrlabl>
+        <attrdef>Bio Index - Species Richness, Mussel Richness</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_I_ARSR</attrlabl>
+        <attrdef>Bio Index  - At Risk Species Richness; Biology component index based on ranking the richness (count) of at-risk species present within each watershed. The more at-risk species, the higher the score.  Available species counts used are fish, mussels and birds on the Species of Greatest Conservation Need list.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_M_ARSR_M</attrlabl>
+        <attrdef>Bio Index - At Risk Species Richness, Mussel Species</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_M_ARSR_B</attrlabl>
+        <attrdef>Bio Index - At Risk Species Richness, Avian Species</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_M_ARSR_F</attrlabl>
+        <attrdef>Bio Index - At Risk Species Richness, Fish Species</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_I_SSQ</attrlabl>
+        <attrdef>Bio Index  - Stream Species Quality;  Biology component index ranking stream species quality based on the mean of means for observed and expected (o/e) values for fish, o/e values for aquatic macro invertebrates; and percent of mussel species found live.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_M_SSQ_FS</attrlabl>
+        <attrdef>Bio Index - Stream Species Quality, Fish Survey</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_M_SSQ_IS</attrlabl>
+        <attrdef>Bio Metric - Stream Species Quality, Aquatic Invertebrates Survey</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_M_SSQ_MS</attrlabl>
+        <attrdef>Bio Metric - Stream Species Quality, Mussel Score</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>C_I_MEAN</attrlabl>
+        <attrdef>Con Index  - Mean Index; Connectivity component index based on the average of 3 connectivity indices: Aquatic Connectivity Index, Riparian Connectivity Index, and Terrestrial Habitat Connectivity Index.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>C_I_TC</attrlabl>
+        <attrdef>Con Index  - Terrestrial Habitat Connectivity;  Connectivity component index based on land area of terrestrial habitat patches and area of potential connections (corridors).</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>C_I_RC</attrlabl>
+        <attrdef>Con Index  - Riparian Connectivity; Connectivity component index based on the amount of development or cropland within riparian zones.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>C_I_AC</attrlabl>
+        <attrdef>Con Index  - Aquatic Connectivity;  Connectivity component index based on a density of aquatic disruptions per mile of stream length within each watershed.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>W_I_MEAN</attrlabl>
+        <attrdef>WQ Index  - Mean Index; WQ component, This is the average of 3 water quality indices: Non-point Sources, Point Sources, and Water Quality Assessments</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>W_I_PS</attrlabl>
+        <attrdef>WQ Index  - Point Sources; WQ component index based on the mean of the following metrics: superfund sites, potential contaminants sites, feedlots, open mine pits, and waste water discharge permits (per watershed).</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>W_I_NPS</attrlabl>
+        <attrdef>Non-Point Sources, a Water Quality index. This is the average of the 2 metrics: impervious surface in riparian areas and application rates of agricultural chemicals.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>W_M_NPS_IS</attrlabl>
+        <attrdef>WQ Metric - Non-Point Sources, Impervious Surfaces within Riparian Areas,  a metric component of Non-Point Sources Index. Based on the percentage of impervious surface within a 200-meter riparian zone</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>W_M_NPS_CA</attrlabl>
+        <attrdef>WQ Metric - Non-Point Sources, Rate of Ag. Chemical Application, a metric component of Non-Point Sources Index. Based on rates of chemical applications in agricultural areas.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>W_I_WQA</attrlabl>
+        <attrdef>Water Quality Assessments, a Water Quality index. The mean of the percentage of streams and lakes assessed that were found to be impaired.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>W_M_WQA_SA</attrlabl>
+        <attrdef>WQ Index - Water Quality Assessments, Stream Assessments</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>W_M_WQA_LA</attrlabl>
+        <attrdef>WQ Index - Water Quality Assessments, Lake Assessments</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A_I_MEAN</attrlabl>
+        <attrdef>Overall Watershed Health Ranking. This is the average of the 5 component health rankings: Biology, Connectivty, Geomorphology, Hydrology, and Water Quality.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+        <attalias Sync="TRUE">COMP_SCORE</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl>H_MIN_SCR</attrlabl>
+        <attrdef>Hydrology component minimum score. This is the lowest index score in the hydrology component.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+        <attalias Sync="TRUE">HYD_MIN</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl>H_MIN_IDX</attrlabl>
+        <attrdef>Name of the index that gives the lowest component score.</attrdef>
+        <attalias Sync="TRUE">HYD_IDX</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>H_MAX_SCR</attrlabl>
+        <attrdef>Hydrology component maximum score. This is the highest index score in the hydrology component.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_MAX_IDX</attrlabl>
+        <attrdef>The index that gives the highest hydrology component score.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>G_MIN_SCR</attrlabl>
+        <attrdef>Geomorphology component minimum score. This is the lowest index score in the geomorphology component.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+        <attalias Sync="TRUE">GEO_MIN</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl>G_MIN_IDX</attrlabl>
+        <attrdef>Name of the index that gives the lowest geomorphology component score.</attrdef>
+        <attalias Sync="TRUE">GEO_IDX</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>G_MAX_SCR</attrlabl>
+        <attrdef>Geomorphology component maximum score. This is the highest index score in the geomorphology component.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>G_MAX_IDX</attrlabl>
+        <attrdef>The index that gives the highest geomorphology component score.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>B_MIN_SCR</attrlabl>
+        <attrdef>Biology component minimum score. This is the lowest index score in the biology component.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+        <attalias Sync="TRUE">BIO_MIN</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl>B_MIN_IDX</attrlabl>
+        <attrdef>The index that gives the lowest biology component score.</attrdef>
+        <attalias Sync="TRUE">BIO_IDX</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>B_MAX_SCR</attrlabl>
+        <attrdef>Biology component maximum score. This is the highest index score in the biology component.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_MAX_IDX</attrlabl>
+        <attrdef>The index that gives the highest biology component score.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>C_MIN_SCR</attrlabl>
+        <attrdef>Connectivity component minimum score. This is the lowest index score in the connectivity component.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+        <attalias Sync="TRUE">CON_MIN</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl>C_MIN_IDX</attrlabl>
+        <attrdef>The index that gives the lowest connectivity component score.</attrdef>
+        <attalias Sync="TRUE">CON_IDX</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>C_MAX_SCR</attrlabl>
+        <attrdef>Connectivity component maximum score. This is the highest index score in the connectivity component.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>C_MAX_IDX</attrlabl>
+        <attrdef>The index that gives the highest connectivity component score.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>W_MIN_SCR</attrlabl>
+        <attrdef>Water Quality component minimum score. This is the lowest index score in the water quality component.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+        <attalias Sync="TRUE">WQ_MIN</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl>W_MIN_IDX</attrlabl>
+        <attrdef>The index that gives the lowest water quality component score.</attrdef>
+        <attalias Sync="TRUE">WQ_IDX</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>W_MAX_SCR</attrlabl>
+        <attrdef>Water Quality component maximum score. This is the highest index score in the water quality component.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>W_MAX_IDX</attrlabl>
+        <attrdef>The index that gives the highest water quality component score.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>A_MIN_SCR</attrlabl>
+        <attrdef>Overall minimum score. This is the lowest index score in the watershed</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A_MIN_IDX</attrlabl>
+        <attrdef>The index that gives the lowest overall watershed score.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>A_MAX_SCR</attrlabl>
+        <attrdef>The highest component score in the watershed.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A_MAX_IDX</attrlabl>
+        <attrdef>The component that gives the highest watershed score.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>A_AVG_MIN</attrlabl>
+        <attrdef>This is the lowest component score in the watershed (derived from the mean component scores).</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+        <attalias Sync="TRUE">AVG_MIN</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>A_AVG_MAX</attrlabl>
+        <attrdef>This is the highest component score in the watershed (derived from the mean component scores)</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+        <attalias Sync="TRUE">AVG_MAX</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Catchment_Scores</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>10018</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CATCH_ID</attrlabl>
+        <attrdef>Primary ID field for DNR catchments.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>UP_POP</attrlabl>
+        <attrdef>Sum of population within the catchment and upstream areas.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>961151</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UP_AU</attrlabl>
+        <attrdef>Sum of animal units within the catchment and upstream areas.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>4299988</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UP_FL</attrlabl>
+        <attrdef>Sum of feedlots within the catchment and upstream areas</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>23293</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UP_MAX_AU</attrlabl>
+        <attrdef>The count of animal units at the largest upstream feedlot.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>10500</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UP_OPN_WAT</attrlabl>
+        <attrdef>Percent of upstream area occupied by open water.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UP_CLT_LND</attrlabl>
+        <attrdef>Percent of upstream area occupied by cultivated land.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UP_PRN_CVR</attrlabl>
+        <attrdef>Percent of upstream area occupied by perennial cover.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UP_OTHER</attrlabl>
+        <attrdef>Percent of upstream area accupied by land uses other than open water, cultivated land, or perennial cover.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_I_PC_11</attrlabl>
+        <attrdef>Hyd Index  - Perennial Cover; Hydrology component index based on the amount of perennial cover on the landscape calculated from 2011 NLCD.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_I_PC_06</attrlabl>
+        <attrdef>Hyd Index  - Perennial Cover; Hydrology component index based on the amount of perennial cover on the landscape calculated from 2006 NLCD.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_I_PC_01</attrlabl>
+        <attrdef>Hyd Index  - Perennial Cover; Hydrology component index based on the amount of perennial cover on the landscape calculated from 2001 NLCD.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_I_IC_11</attrlabl>
+        <attrdef>Hyd Index  - Impervious Cover; Hydrology component index based the percentage of impervious area in the watershed, calculated from the 2011 NLCD impervious surface dataset.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_I_IC_06</attrlabl>
+        <attrdef>Hyd Index  - Impervious Cover; Hydrology component index based the percentage of impervious area in the watershed, calculated from the 2006 NLCD impervious surface dataset.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_I_IC_01</attrlabl>
+        <attrdef>Hyd Index  - Impervious Cover; Hydrology component index based the percentage of impervious area in the watershed, calculated from the 2001 NLCD impervious surface dataset.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_I_WW</attrlabl>
+        <attrdef>Hyd Index - Water Withdrawal; Hydrology component index based on the volume of total permitted water use (millions of gallons per year, mgy) from all surface and groundwater sources, and its relationship to volume of available surface water from landscape runoff.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_I_WW_PV</attrlabl>
+        <attrdef>Hyd Index - Water Withdrawal; Predicted vulnerability from current trends in water withdrawal  based on the volume of total permitted water use (millions of gallons per year, mgy) from all surface and groundwater sources, and its relationship to volume of available surface water from landscape runoff.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H_M_LHS_SM</attrlabl>
+        <attrdef>Hyd Metric - Loss of Hydrologic Storage; Straightened-Meandering Stream Ratio metric. This metric is part of the Loss of Hydrologic Storage Index and is the ratio of unaltered, meandering perennial stream miles to altered stream miles; indicates loss of channel storage.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>G_I_SEP</attrlabl>
+        <attrdef>Geo Index - Soil Erosion Potential; Geomorphology component index, calculated based on the soil k-factor and 4 slope classes (providing scoring weights: 0-1% slope = 1x weight factor, 1-2% slope = 2x weight factor, 2-3% slope = 3x weight factor, &gt;3% slope = 4x weight factor).</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_I_TH</attrlabl>
+        <attrdef>Bio Index - Terrestrial Habitat Quality. Biology component index that ranks the quality of terrestrial habitats within each watershed.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_M_SSQ_FI</attrlabl>
+        <attrdef>Bio Index - Stream Species Quality, metric values base on the fish Index of Biotic Integrity (IBI).</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_M_SSQ_FX</attrlabl>
+        <attrdef>Bio Index - Stream Species Quality, extrapolated metric value base on the fish Index of Biotic Integrity (IBI).</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_M_SSQ_II</attrlabl>
+        <attrdef>Bio Metric  - Stream Species Quality, metric based on Aquatic Invertebrate Index of Biological Integrity (IBI).</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_M_SSQ_IX</attrlabl>
+        <attrdef>Bio Metric  - Stream Species Quality, extrapolated metric based on Aquatic Invertebrate Index of Bioticl Integrity</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_M_SSQ_MS</attrlabl>
+        <attrdef>Bio Metric  - Stream Species Quality, Mussel Score</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>B_M_SSQ_MX</attrlabl>
+        <attrdef>Bio Metric  - Stream Species Quality, Extrapolated Mussel Score</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>C_I_RC</attrlabl>
+        <attrdef>Con Index  - Riparian Connectivity</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>C_I_AC</attrlabl>
+        <attrdef>Con Index  - Aquatic Connectivity</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>W_M_PS_A</attrlabl>
+        <attrdef>WQ Metric  - Point Sources, Animal Units</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>W_M_PS_PC</attrlabl>
+        <attrdef>WQ Metric - Point Source, Potential Conataminants</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>W_M_PS_SF</attrlabl>
+        <attrdef>WQ Metric - Point Source, Superfund Sites</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>W_M_PS_WTP</attrlabl>
+        <attrdef>WQ Metric - Point Source, Wastewater Treatment Plants</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>W_M_PS_SS</attrlabl>
+        <attrdef>WQ Metric - Point Source, Septic Systems</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>W_M_PS_OPM</attrlabl>
+        <attrdef>WQ Metric - Point Source, Open Pit Mines</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>W_I_PS</attrlabl>
+        <attrdef>WQ Index - Point Source</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>This dataset is managed as a join to the MNDNR watershed suite. The Major_Scores table is joined to dnr_watersheds_dnr_level_04_huc_08_majors on the MAJOR field. The Catchment_Scores table is joined to dnr_watersheds_dnr_level_08_all_catchments on the CATCH_ID field. Attribute descriptions for fields associated with the watershed feature data can be found at: ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/geos_dnr_watersheds/metadata/metadata.html
 
-If working with this  data in the file geodatabase structure with the provided layer files, a number of the fields have been hidden from view to reduce clutter. These fields can be made visible again through the "Layer Properties" window within the "Fields" menu. </eaover></overview></eainfo><distinfo><resdesc>env_watershed_health_assessment</resdesc><distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab><stdorder><digform><digtinfo><formname>Shapefile</formname><transize>1024</transize></digtinfo></digform><ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>DNR- Ecological Resources</cntorg><cntper>Beth Knudsen</cntper></cntperp><cntpos>Watershed Assessment Coordinator</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>500 Lafayette Road, Box 11</address><city>St. Paul</city><state>MN</state><postal>55155-4011</postal></cntaddr><cntvoice>651-345-3331, ext.228</cntvoice><cntemail>beth.knudsen@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>2014-11-12 14:46:06</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><address>500 Lafayette Rd</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></metc></metainfo></metadata>
+If working with this  data in the file geodatabase structure with the provided layer files, a number of the fields have been hidden from view to reduce clutter. These fields can be made visible again through the "Layer Properties" window within the "Fields" menu. </eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>env_watershed_health_assessment</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <transize>1024</transize>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>DNR- Ecological Resources</cntorg>
+          <cntper>Beth Knudsen</cntper>
+        </cntperp>
+        <cntpos>Watershed Assessment Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Road, Box 11</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155-4011</postal>
+        </cntaddr>
+        <cntvoice>651-345-3331, ext.228</cntvoice>
+        <cntemail>beth.knudsen@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>2014-11-12 14:46:06</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

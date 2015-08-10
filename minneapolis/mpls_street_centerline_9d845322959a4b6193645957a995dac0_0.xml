@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -99,9 +99,9 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>&lt;font size='3'&gt;&lt;span style='color: rgb(77, 77, 77); line-height: 18.3999996185303px; background-color: rgb(255, 255, 255);'&gt;Downloadable shp file of the City's road network.&#160;&lt;/span&gt;&lt;span style='line-height: 115%; color: rgb(77, 77, 77); background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;'&gt;If there are any&#13;
+            <gco:CharacterString>Downloadable shp file of the City's road network.&#160;If there are any&#13;
 issues with the data in this map, service, or shp file please contact the&#13;
-Minneapolis&lt;/span&gt;&lt;span style='line-height: 115%; color: rgb(77, 77, 77); background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;'&gt;&#160;&lt;/span&gt;&lt;span style='line-height: 115%;'&gt;&lt;a href='mailto:gis@minneapolismn.gov' style='outline: none !important;' target='_self'&gt;&lt;span style='line-height: 115%; color: rgb(33, 117, 155); background: white;'&gt;GIS office&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span style='line-height: 115%;'&gt;.&lt;/span&gt;&lt;/font&gt;</gco:CharacterString>
+Minneapolis&#160;GIS office.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -228,7 +228,7 @@ Minneapolis&lt;/span&gt;&lt;span style='line-height: 115%; color: rgb(77, 77, 77
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Street_Centerline/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Street_Centerline/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

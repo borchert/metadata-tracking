@@ -1,4 +1,19 @@
-﻿<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>DNR Division of Fish &amp; Wildlife - Fisheries Unit</origin><pubdate>20150211</pubdate><mgmg1cid></mgmg1cid><pubinfo><publish>Minnesota DNR - Division of Fisheries</publish></pubinfo><title>DNR Hydrography - Lakes with Fish-based IBI Scores (Most Recent IBI Survey)</title><onlink>http://gisdata.mn.gov/dataset/env-ibi-lakes-fisheries</onlink></citeinfo></citation><descript><abstract>This layer shows the &lt;b&gt;Fish IBI (Index of Biotic Integrity) Scores&lt;/b&gt; for MN lakes as calculated by DNR Fisheries.  Scores range from 0-100, with higher scores indicating higher biotic integrity.  Attributes correspond to the &lt;U&gt;most recent IBI survey&lt;/u&gt; for each lake.
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>DNR Division of Fish &amp; Wildlife - Fisheries Unit</origin>
+        <pubdate>20150211</pubdate>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota DNR - Division of Fisheries</publish>
+        </pubinfo>
+        <title>DNR Hydrography - Lakes with Fish-based IBI Scores (Most Recent IBI Survey)</title>
+        <onlink>http://gisdata.mn.gov/dataset/env-ibi-lakes-fisheries</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This layer shows the &lt;b&gt;Fish IBI (Index of Biotic Integrity) Scores&lt;/b&gt; for MN lakes as calculated by DNR Fisheries.  Scores range from 0-100, with higher scores indicating higher biotic integrity.  Attributes correspond to the &lt;U&gt;most recent IBI survey&lt;/u&gt; for each lake.
 
 An &lt;i&gt;IBI (Index of Biotic Integrity)&lt;/i&gt; is a biologically-based, multi-metric method for measuring the integrity of aquatic systems.  Minnesota DNR Fisheries Research has developed a fish-based lake IBI that incorporates fish data collected by various methods (trap nets, gill nets, shoreline seines, and backpack electrofishing units) into 8-15 metrics in three categories:  &lt;b&gt;species richness, community assemblage, and trophic composition &lt;/b&gt; &lt;i&gt;(see Section 5: Attributes)&lt;/i&gt;.  Each metric represents an aspect of the biological assemblage structure, function, or other measurable characteristic that changes in some predictable way with increased human-induced stress. Fish IBI scores respond to differences in land use patterns, trophic state, and aquatic vegetation.
 
@@ -15,13 +30,881 @@ IBI scores for additional years can be found in this table.
       &lt;li&gt; The related table will open and the corresponding records for the selected lake will be highlighted.&lt;/li&gt;
         &lt;li&gt;Note:  You can also select records from the related table and find the lakes that correspond to those records by reversing the process above (i.e., Choose &lt;i&gt;Related Tables dropdown (2nd icon)&lt;/i&gt;, choose table &lt;b&gt;Lake IBI Scores: Back to IBI Lakes&lt;/b&gt;) &lt;/li&gt;
 
-You can also access scores from all years by clicking on the lake of interest with the &lt;b&gt;Identify Tool&lt;/b&gt; and expanding the related tabular information.</abstract><purpose>This layer provides a visual representation of Fish IBI scores to help assess and monitor the condition of Minnesota lakes, and for the purposes of planning, mapping and spatial/temporal analysis. For each lake, the status of the most recent Fish IBI score is displayed by color; scores from previous years can be accessed through the related table (see tips above).</purpose><supplinf>Statewide</supplinf></descript><timeperd><timeinfo><sngdate><caldate>20141217</caldate></sngdate></timeinfo><current>Re-delineations and edits are frequent and occur as needed.  See the attributes DELINEATON_DATE and DELINEATION_SRC for date and source of each polygon.  See CONTENT_DATE for last date of attribute updates.</current><current>Fish IBI scores are updated through 2011.</current></timeperd><status><progress>Complete</progress><update>Annually</update></status><spdom><bounding><westbc>-97.23</westbc><eastbc>-89.53</eastbc><northbc>49.37</northbc><southbc>43.5</southbc></bounding></spdom><keywords><theme><themekey>Hydrography, Water, Lakes, Inland Waters, IBI, Index of Biotic Integrity, metrics, clean water, WRAPS</themekey></theme><place><placekey>Minnesota, border waters</placekey></place></keywords><accconst>None</accconst><useconst>None</useconst><native>Shapefile</native><crossref><citeinfo><title>&lt;a href="../../water_dnr_hydrography/metadata/dnr_hydrography_lakes_and_open_water.html" target=_blank&gt;&lt;b&gt; DNR Lakes and Open Water&lt;/b&gt;&lt;/a&gt;</title></citeinfo></crossref><browse><browsen>ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/env_ibi_lakes_fisheries/metadata/preview.jpg</browsen></browse><ptcontac><cntinfo><cntperp><cntorg>Minnesota DNR - Fisheries Unit</cntorg><cntper>Lyn Bergquist</cntper></cntperp><cntpos>GIS Data Contact</cntpos><cntaddr><address>500 Lafayette Rd</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5189</cntvoice><cntemail>lyn.bergquist@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><complete>Data exist statewide, excluding lake classes 1-19 in far northeastern MN.  Lakes &lt; 100 acres are also excluded.</complete><posacc><horizpa><horizpar>Polygons have been improved by on-screen digitizing over DOQ and FSA imagery.</horizpar></horizpa><vertacc><vertaccr>N/A</vertaccr></vertacc></posacc><lineage><srcinfo><srcscale>Source layer wetl_dnrpy2:  100000
-</srcscale></srcinfo><procstep><procdesc>The lake polygons are derived from the Open Water feature class of the DNR Hydrography SDE Dataset.  See metadata for DNR Water Features for more detail.</procdesc></procstep></lineage></dataqual><spdoinfo><indspref></indspref><direct>vector</direct><mgmg3obj>polygon</mgmg3obj><mgmg3til>state</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>Not Applicable</altdatum><altunits>Not Applicable</altunits></altsys><depthsys><depthdn>Not Applicable</depthdn><depthdu>Not Applicable</depthdu></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>env_ibi_lakes_fisheries</enttypl><enttypd>feature class table</enttypd><enttypds>DNR Fisheries</enttypds></enttyp><attr><attrlabl>DNR_HYDRO_ID</attrlabl><attrdef>Unique GIS record number of waterbody features in DNR Hydrography SDE - Open Water Features</attrdef><attrdefs>DNR Fisheries</attrdefs><attrdomv><rdom><rdommin>1</rdommin><rdommax>35000</rdommax></rdom></attrdomv></attr><attr><attrlabl>FW_ID</attrlabl><attrdef>A unique Fisheries Waterbody ID for joining/linking polygons to DNR Fisheries Lake Survey DB (Oracle).  FW_IDs are assigned based on how the waterbody is managed by DNR Fisheries (i.e., an FW_ID may correspond to an entire basin '00' or to a specific sub-basin '01','02',etc.</attrdef><attrdefs>DNR Fisheries</attrdefs><attrdomv><edom><edomv>1-18000</edomv><edomvd>A valid Fisheries Waterbody ID</edomvd><edomvds>DNR Fisheries Lake Survey DB</edomvds></edom></attrdomv><attrdomv><edom><edomv>88888</edomv><edomvd>A "dummy" Fisheries Waterbody ID representing an alternate representation of a basin (implemented in SDE Dataset only)</edomvd></edom></attrdomv><attrdomv><edom><edomv>99999</edomv><edomvd>A "dummy" Fisheries Waterbody ID representing a non-MN portion of a border water</edomvd></edom></attrdomv></attr><attr><attrlabl>DOWLKNUM</attrlabl><attrdef>Waterbody ID per DNR Ecological and Water Resources (EWR) Division's LAKESDB database; the DOWLKNUM may end in"00" (entire basin) or "01","02", etc. (sub-basin)</attrdef><attrdefs>DNR EWR LAKESDB</attrdefs></attr><attr><attrlabl>PW_BASIN_NAME</attrlabl><attrdef>Public Water (Lake) Name per DNR Ecological and Water Resources Division's LAKESDB database</attrdef><attrdefs>DNR EWR LAKESDB</attrdefs></attr><attr><attrlabl>SUB-FLAG</attrlabl><attrdef>Identifies whether basin is a sub-basin of a larger complex of basins</attrdef><attrdefs>DNR EWR LAKESDB</attrdefs><attrdomv><edom><edomv>Y</edomv><edomvd>Yes, is a sub-basin; DOWLKNUM  usually ends in '01', '02, '03, etc.</edomvd><edomvds>DNR EWR LAKESDB</edomvds></edom></attrdomv><attrdomv><edom><edomv>N</edomv><edomvd>No,  is not a sub-basin; DOWLKNUM  usually ends in '01', '02, '03, etc.</edomvd><edomvds>DNR EWR LAKESDB</edomvds></edom></attrdomv></attr><attr><attrlabl>WB_CLASS</attrlabl><attrdef>Hydrologic feature type; based on original USCLASS attribute from USGS 100K DLG dataset; some polygons have been reclassified to better indicate their current hydrologic state</attrdef><attrdefs>USGS 100K DLG data</attrdefs><attrdomv><edom><edomv>Artificial Basin</edomv></edom></attrdomv><attrdomv><edom><edomv>Fish Hatchery or Pond</edomv></edom></attrdomv><attrdomv><edom><edomv>Industrial Waste Pond</edomv></edom></attrdomv><attrdomv><edom><edomv>Innundation Area</edomv></edom></attrdomv><attrdomv><edom><edomv>Intermittent Water</edomv></edom></attrdomv><attrdomv><edom><edomv>Island or land</edomv></edom></attrdomv><attrdomv><edom><edomv>Lake</edomv></edom></attrdomv><attrdomv><edom><edomv>Mine or gravel pit</edomv></edom></attrdomv><attrdomv><edom><edomv>Riverine polygon</edomv></edom></attrdomv><attrdomv><edom><edomv>Sewage Pond/Filtration Bed</edomv></edom></attrdomv><attrdomv><edom><edomv>Tailings Pond</edomv></edom></attrdomv><attrdomv><edom><edomv>Wetland</edomv></edom></attrdomv></attr><attr><attrlabl>LAKE_CLASS</attrlabl><attrdef>Lake Class per DNR Fisheries Investigational Report #417 - Schupp 1992   http://files.dnr.state.mn.us/publications/fisheries/investigational_reports/417.pdf</attrdef><attrdefs>DNR Fisheries</attrdefs></attr><attr><attrlabl>ACRES</attrlabl><attrdef>Surface area of waterbody in acres</attrdef><attrdefs>ESRI auto-calculated</attrdefs></attr><attr><attrlabl>SHORE_MI</attrlabl><attrdef>Perimeter of shoreline in miles (includes island shoreline)</attrdef><attrdefs>ESRI auto-calculated</attrdefs></attr><attr><attrlabl>CENTER_UTM_X</attrlabl><attrdef>UTM Easting (X) of waterbody center</attrdef><attrdefs>ESRI auto-calculated</attrdefs></attr><attr><attrlabl>CENTER_UTM_Y</attrlabl><attrdef>UTM Northing (Y) of waterbody center</attrdef><attrdefs>ESRI auto-calculated</attrdefs></attr><attr><attrlabl>CTY_NAME</attrlabl><attrdef>County Name</attrdef></attr><attr><attrlabl>DNR_REGION</attrlabl><attrdef>DNR Administrative Region</attrdef><attrdefs>bdry_dnr_admin_regions.gdb\dnr_admin_regions</attrdefs><attrdomv><edom><edomv>1</edomv><edomvd>Northwest Region (Bemidji)</edomvd></edom></attrdomv><attrdomv><edom><edomv>2</edomv><edomvd>Northeast Region (Grand Rapids)</edomvd></edom></attrdomv><attrdomv><edom><edomv>3</edomv><edomvd>Central Region (St. Paul)</edomvd></edom></attrdomv><attrdomv><edom><edomv>4</edomv><edomvd>Southern Region (New Ulm)</edomvd></edom></attrdomv></attr><attr><attrlabl>FSH_OFFICE</attrlabl><attrdef>DNR Fisheries Administrative Areas (Fisheries Office)</attrdef><attrdefs>bdry_dnr_fisheries_admin.gdb\dnr_fisheries_admin</attrdefs></attr><attr><attrlabl>OUTSIDE_MN</attrlabl><attrdef>Identifies border waters</attrdef><attrdomv><edom><edomv>Y</edomv><edomvd>Polygon (portion of border lake) that is outside of MN</edomvd></edom></attrdomv><attrdomv><edom><edomv>N</edomv><edomvd>Lake is not a border lake (outside of MN)</edomvd></edom></attrdomv></attr><attr><attrlabl>DELINEATED_BY</attrlabl><attrdef>Person/unit/source of polygon delineation</attrdef></attr><attr><attrlabl>DELINEATION_DATE</attrlabl><attrdef>Date of polygon delineation or shape update.</attrdef></attr><attr><attrlabl>DELINEATION_SRC</attrlabl><attrdef>Photo imagery source used for digitizing polygon feature</attrdef><attrdefs>DNR Fisheries</attrdefs><attrdomv><edom><edomv>1991 DOQ</edomv><edomvd>1991 black &amp; white digital ortho photoquad</edomvd></edom></attrdomv><attrdomv><edom><edomv>2004 FSA</edomv><edomvd>2004 color Farm Service Adminstration photo</edomvd></edom></attrdomv><attrdomv><edom><edomv>2005 FSA</edomv><edomvd>2005 color Farm Service Adminstration photo</edomvd></edom></attrdomv><attrdomv><edom><edomv>2006 FSA</edomv><edomvd>2006 color Farm Service Adminstration photo</edomvd></edom></attrdomv><attrdomv><edom><edomv>2008 FSA</edomv><edomvd>2008 color Farm Service Adminstration photo</edomvd></edom></attrdomv><attrdomv><edom><edomv>2009 FSA</edomv><edomvd>2009 color Farm Service Adminstration photo</edomvd></edom></attrdomv><attrdomv><edom><edomv>2010 FSA</edomv><edomvd>2010 color Farm Service Adminstration photo</edomvd></edom></attrdomv><attrdomv><edom><edomv>2011 FSA</edomv><edomvd>2011 color Farm Service Adminstration photo</edomvd></edom></attrdomv><attrdomv><edom><edomv>LAM</edomv><edomvd>DNR Lands and Minerals polygon</edomvd></edom></attrdomv><attrdomv><edom><edomv>ORIG DLG</edomv><edomvd>Original USGS DLG 100K polygon</edomvd></edom></attrdomv><attrdomv><edom><edomv>PWI</edomv><edomvd>Public Water (PWI) polygon representing the Ordinary High Water Level (OHWL)</edomvd></edom></attrdomv></attr><attr><attrlabl>DELINEATION_NOTES</attrlabl><attrdef>Any notes related to the delineation.</attrdef></attr><attr><attrlabl>APPROVED_BY</attrlabl></attr><attr><attrlabl>APPROVAL_DATE</attrlabl></attr><attr><attrlabl>APPROVAL_NOTES</attrlabl></attr><attr><attrlabl>PUBLISH_DATE</attrlabl><attrdef>Date the GIS layer was published or updated and re-published.</attrdef><attrdefs>DNR Fisheries</attrdefs></attr><attr><attrlabl>IBI_LAKE</attrlabl><attrdef>Flag indicating whether the lake is an IBI lake.</attrdef><attrdefs>DNR Fisheries</attrdefs><attrdomv><edom><edomv>Y</edomv><edomvd>Yes, the lake is an IBI lake</edomvd></edom></attrdomv><attrdomv><edom><edomv>N</edomv><edomvd>No, the lake is not an IBIlake</edomvd></edom></attrdomv></attr><attr><attrlabl>ID</attrlabl><attrdef>A unique ID for each IBI survey (matches original IBI database)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>REPEAT</attrlabl><attrdef>Flag indicating whether an IBI survey is a repeat survey</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><edom><edomv>0</edomv><edomvd>IBI survey is not a repeat survey (is initial survey)</edomvd><edomvds>DNR Fisheries IBI Database (J. Bacigalupi)</edomvds></edom></attrdomv><attrdomv><edom><edomv>1</edomv><edomvd>IBI survey is a repeat survey (is not an initial survey)</edomvd><edomvds>DNR Fisheries IBI Database (J. Bacigalupi)</edomvds></edom></attrdomv></attr><attr><attrlabl>SOURCE</attrlabl><attrdef>Source of IBI Survey (DNR Unit that performed the survey)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><edom><edomv>EWR</edomv><edomvd>DNR Ecological and Water Resources Division</edomvd><edomvds>DNR Fisheries IBI Database (J. Bacigalupi)</edomvds></edom></attrdomv><attrdomv><edom><edomv>Fisheries</edomv><edomvd>DNR Fisheries Section</edomvd><edomvds>DNR Fisheries IBI Database (J. Bacigalupi)</edomvds></edom></attrdomv></attr><attr><attrlabl>YEAR</attrlabl><attrdef>Year of IBI Survey</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><edom><edomv>1997-present year</edomv><edomvd>Note: There were no IBI surveys in 2000, 2004</edomvd><edomvds>DNR Fisheries IBI Database (J. Bacigalupi)</edomvds></edom></attrdomv></attr><attr><attrlabl>SURVEY_DATE</attrlabl><attrdef>Date of IBI Survey</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><edom><edomv>6/6/1997 - present</edomv></edom></attrdomv></attr><attr><attrlabl>IBI_SCORE</attrlabl><attrdef>A total score based on summation of 16 weighted metrics. Higher IBI scores indicate better lake quality (as determined by watershed land use, trophic state and aquatic vegetation).  Lake characteristics associated with higher IBI scores are low percent littoral area, high maximum depth, high Secchi depth transparency and high latitude.</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>160</rdommax></rdom></attrdomv></attr><attr><attrlabl>NUM_NAT_SP</attrlabl><attrdef>Metric Score: Number of Native Species.  This metric is (+) correlated with lake quality.</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>NUM_INT_SP</attrlabl><attrdef>Metric Score: Number of Intolerant Species.  This metric is (+) correlated with lake quality.</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>NUM_TOL_SP</attrlabl><attrdef>Metric Score: Number of Tolerant Species.  This metric is (-) correlated with lake quality.</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>NUM_INSTVR</attrlabl><attrdef>Metric Score: Number of Insectivores.  This metric is (+) correlated with lake quality.</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>NUM_OMNIV</attrlabl><attrdef>Metric Score: Number of Omnivores.  This metric is (-) correlated with lake quality.</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>NUM_CYPR</attrlabl><attrdef>Metric Score: Number of Cyprinids.  This metric is (+) correlated with lake quality.</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>NUM_SBD</attrlabl><attrdef>Metric Score: Number of Small Benthic Dwellers.  This metric is (+) correlated with lake quality.</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>NUM_VEGDW</attrlabl><attrdef>Metric Score: Number of Vegetation Dwellers.  This metric is (+) correlated with lake quality.</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>RAT_INT_NS</attrlabl><attrdef>Metric Score: Ratio of Intolerants in Nearshore.  This metric is (+) correlated with lake quality.</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>RAT_SBD_NS</attrlabl><attrdef>Metric Score: Ratio of Small Benthic Dwellers in Nearshore.  This metric is (+) correlated with lake quality.</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>RAT_VGD_NS</attrlabl><attrdef>Metric Score: Ratio of Vegetation Dwellers in Nearshore.  This metric is (+) correlated with lake quality.</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>RAT_INS_BM</attrlabl><attrdef>Metric Score: Ratio of Insectivore Biomass in Trapnet</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>RAT_OMV_BM</attrlabl><attrdef>Metric Score: Ratio of Omnivore Biomass in Trapnet.  This metric is (-) correlated with lake quality.</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>RAT_TOL_BM</attrlabl><attrdef>Metric Score: Ratio of Tolerant Biomass in Trapnet.  This metric is (-) correlated with lake quality.</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>RAT_CRV_BM</attrlabl><attrdef>Metric Score: Ratio of Carnivore Biomass in Gillnet.  This metric is (+) correlated with lake quality.</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>RAT_INT_BM</attrlabl><attrdef>Metric Score: Presence or absence of intolerant fish species in the Gillnet. This metric is (+) correlated with lake quality.</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>NUM_IBI</attrlabl><attrdef>Number of IBI surveys performed on this lake</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr><attr><attrlabl>MAX_DATE</attrlabl><attrdef>Flag denoting whether an IBI survey is the most recent for a lake</attrdef><attrdomv><edom><edomv>N</edomv><edomvd>IBI survey is not the most recent survey</edomvd><edomvds>Calculated</edomvds></edom></attrdomv><attrdomv><edom><edomv>Y</edomv><edomvd>IBI survey is the most recent survey</edomvd><edomvds>Calculated</edomvds></edom></attrdomv></attr><attr><attrlabl>IBI_1997</attrlabl><attrdef>IBI Score from 1997 survey (if there were multiple surveys in this year, the score is an average value)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>IBI_1998</attrlabl><attrdef>IBI Score from 1998 survey (if there were multiple surveys in this year, the score is an average value)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>IBI_1999</attrlabl><attrdef>IBI Score from 1999 survey (if there were multiple surveys in this year, the score is an average value)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>IBI_2001</attrlabl><attrdef>IBI Score from 2001 survey (if there were multiple surveys in this year, the score is an average value)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>IBI_2002</attrlabl><attrdef>IBI Score from 2002 survey (if there were multiple surveys in this year, the score is an average value)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>IBI_2003</attrlabl><attrdef>IBI Score from 2003 survey (if there were multiple surveys in this year, the score is an average value)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>IBI_2005</attrlabl><attrdef>IBI Score from 2005 survey (if there were multiple surveys in this year, the score is an average value)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>10</rdommax></rdom></attrdomv></attr><attr><attrlabl>IBI_2006</attrlabl><attrdef>IBI Score from 2006 survey (if there were multiple surveys in this year, the score is an average value)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>IBI_2007</attrlabl><attrdef>IBI Score from 2007 survey (if there were multiple surveys in this year, the score is an average value)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>IBI_2008</attrlabl><attrdef>IBI Score from 2008 survey (if there were multiple surveys in this year, the score is an average value)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>IBI_2009</attrlabl><attrdef>IBI Score from 2009 survey (if there were multiple surveys in this year, the score is an average value)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>IBI_2010</attrlabl><attrdef>IBI Score from 2010 survey (if there were multiple surveys in this year, the score is an average value)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>IBI_2011</attrlabl><attrdef>IBI Score from 2011 survey (if there were multiple surveys in this year, the score is an average value)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>IBI_2012</attrlabl><attrdef>IBI Score from 2012 survey (if there were multiple surveys in this year, the score is an average value)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>IBI_2013</attrlabl><attrdef>IBI Score from 2012 survey (if there were multiple surveys in this year, the score is an average value)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>IBI_2014</attrlabl><attrdef>IBI Score from 2014 survey (if there were multiple surveys in this year, the score is an average value)</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>100</rdommax></rdom></attrdomv></attr><attr><attrlabl>MULT_IBI</attrlabl><attrdef>An * indicates whether the lake has more than one IBI score. In ArcMap, click on a lake with the Identify Tool to access records from all years (related table).</attrdef></attr><attr><attrlabl>CONTENT_DATE</attrlabl><attrdef>Date the layer-specific attributes were last updated</attrdef></attr><attr><attrlabl>IBI_Tool</attrlabl><attrdef>Indicates which IBI Tool was used to generate a score for the lake, also referred to as Lake Group.  The Tool is based on lake class and some are adjusted for lake size.</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><udom>2,4,5,7</udom></attrdomv></attr><attr><attrlabl>Status</attrlabl><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs><attrdomv><edom><edomv>BelowImpairmentThreshold</edomv><edomvd>At or Below the Impairment Threshold for the Group</edomvd><edomvds>DNR Fisheries IBI Database (J. Bacigalupi)</edomvds></edom></attrdomv><attrdomv><edom><edomv>MeetingStandard</edomv><edomvd>Above the Impairment Threshold for the Group, this also includes lakes within, but above a CI for impairment</edomvd><edomvds>DNR Fisheries IBI Database (J. Bacigalupi)</edomvds></edom></attrdomv><attrdomv><edom><edomv>Exceptional</edomv><edomvd>Above an Exceptional Threshold for the Group</edomvd><edomvds>DNR Fisheries IBI Database (J. Bacigalupi)</edomvds></edom></attrdomv><attrdomv><edom><edomv>Mixed Results - Below/Meeting</edomv><edomvd>Mixed Results</edomvd></edom></attrdomv><attrdomv><edom><edomv>Mixed Results - Meeting/Exceptional</edomv><edomvd>Mixed Results</edomvd></edom></attrdomv></attr><attr><attrlabl>Data_conditions</attrlabl><attrdef>Describes any conditions with data quality or quantity, or limitations for use</attrdef><attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs></attr></detailed><detailed><enttyp><enttypl>env_ibi_lakes_all_surveys_events_polygon_relate</enttypl><enttypd>related table  -- same attributes as above</enttypd><enttypds>DNR Fisheries</enttypds></enttyp></detailed><overview><eaover>&lt;b&gt;env_ibi_lakes_fisheries&lt;/b&gt; (feature class attribute table):  The first set of attributes (DNR_HYDRO_ID through PUBLISH_DATE) are derived from and consistent with the Open Water feature class of the &lt;i&gt;DNR Hydrography SDE Dataset&lt;/i&gt;.  See &lt;a href="../../water_dnr_hydrography/metadata/dnr_hydrography_lakes_open_water_basins.html" target=_blank&gt;&lt;b&gt;DNR Hydrography - All Water Features&lt;/b&gt;&lt;/a&gt; The remaining attributes are specific to this layer. This layer shows the &lt;u&gt;most recent&lt;/u&gt; IBI score for each lake
+You can also access scores from all years by clicking on the lake of interest with the &lt;b&gt;Identify Tool&lt;/b&gt; and expanding the related tabular information.</abstract>
+      <purpose>This layer provides a visual representation of Fish IBI scores to help assess and monitor the condition of Minnesota lakes, and for the purposes of planning, mapping and spatial/temporal analysis. For each lake, the status of the most recent Fish IBI score is displayed by color; scores from previous years can be accessed through the related table (see tips above).</purpose>
+      <supplinf>Statewide</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20141217</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Re-delineations and edits are frequent and occur as needed.  See the attributes DELINEATON_DATE and DELINEATION_SRC for date and source of each polygon.  See CONTENT_DATE for last date of attribute updates.</current>
+      <current>Fish IBI scores are updated through 2011.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.23</westbc>
+        <eastbc>-89.53</eastbc>
+        <northbc>49.37</northbc>
+        <southbc>43.5</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Hydrography, Water, Lakes, Inland Waters, IBI, Index of Biotic Integrity, metrics, clean water, WRAPS</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota, border waters</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Shapefile</native>
+    <crossref>
+      <citeinfo>
+        <title>&lt;a href="../../water_dnr_hydrography/metadata/dnr_hydrography_lakes_and_open_water.html" target=_blank&gt;&lt;b&gt; DNR Lakes and Open Water&lt;/b&gt;&lt;/a&gt;</title>
+      </citeinfo>
+    </crossref>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_ibi_lakes_fisheries/metadata/preview.jpg</browsen>
+    </browse>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Fisheries Unit</cntorg>
+          <cntper>Lyn Bergquist</cntper>
+        </cntperp>
+        <cntpos>GIS Data Contact</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5189</cntvoice>
+        <cntemail>lyn.bergquist@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <complete>Data exist statewide, excluding lake classes 1-19 in far northeastern MN.  Lakes &lt; 100 acres are also excluded.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Polygons have been improved by on-screen digitizing over DOQ and FSA imagery.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>N/A</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>Source layer wetl_dnrpy2:  100000
+</srcscale>
+      </srcinfo>
+      <procstep>
+        <procdesc>The lake polygons are derived from the Open Water feature class of the DNR Hydrography SDE Dataset.  See metadata for DNR Water Features for more detail.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref/>
+    <direct>vector</direct>
+    <mgmg3obj>polygon</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>env_ibi_lakes_fisheries</enttypl>
+        <enttypd>feature class table</enttypd>
+        <enttypds>DNR Fisheries</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>DNR_HYDRO_ID</attrlabl>
+        <attrdef>Unique GIS record number of waterbody features in DNR Hydrography SDE - Open Water Features</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>35000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FW_ID</attrlabl>
+        <attrdef>A unique Fisheries Waterbody ID for joining/linking polygons to DNR Fisheries Lake Survey DB (Oracle).  FW_IDs are assigned based on how the waterbody is managed by DNR Fisheries (i.e., an FW_ID may correspond to an entire basin '00' or to a specific sub-basin '01','02',etc.</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1-18000</edomv>
+            <edomvd>A valid Fisheries Waterbody ID</edomvd>
+            <edomvds>DNR Fisheries Lake Survey DB</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>88888</edomv>
+            <edomvd>A "dummy" Fisheries Waterbody ID representing an alternate representation of a basin (implemented in SDE Dataset only)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>99999</edomv>
+            <edomvd>A "dummy" Fisheries Waterbody ID representing a non-MN portion of a border water</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DOWLKNUM</attrlabl>
+        <attrdef>Waterbody ID per DNR Ecological and Water Resources (EWR) Division's LAKESDB database; the DOWLKNUM may end in"00" (entire basin) or "01","02", etc. (sub-basin)</attrdef>
+        <attrdefs>DNR EWR LAKESDB</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PW_BASIN_NAME</attrlabl>
+        <attrdef>Public Water (Lake) Name per DNR Ecological and Water Resources Division's LAKESDB database</attrdef>
+        <attrdefs>DNR EWR LAKESDB</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SUB-FLAG</attrlabl>
+        <attrdef>Identifies whether basin is a sub-basin of a larger complex of basins</attrdef>
+        <attrdefs>DNR EWR LAKESDB</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Yes, is a sub-basin; DOWLKNUM  usually ends in '01', '02, '03, etc.</edomvd>
+            <edomvds>DNR EWR LAKESDB</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>No,  is not a sub-basin; DOWLKNUM  usually ends in '01', '02, '03, etc.</edomvd>
+            <edomvds>DNR EWR LAKESDB</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WB_CLASS</attrlabl>
+        <attrdef>Hydrologic feature type; based on original USCLASS attribute from USGS 100K DLG dataset; some polygons have been reclassified to better indicate their current hydrologic state</attrdef>
+        <attrdefs>USGS 100K DLG data</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Artificial Basin</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Fish Hatchery or Pond</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Industrial Waste Pond</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Innundation Area</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Intermittent Water</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Island or land</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Lake</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Mine or gravel pit</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Riverine polygon</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Sewage Pond/Filtration Bed</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Tailings Pond</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Wetland</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LAKE_CLASS</attrlabl>
+        <attrdef>Lake Class per DNR Fisheries Investigational Report #417 - Schupp 1992   http://files.dnr.state.mn.us/publications/fisheries/investigational_reports/417.pdf</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>Surface area of waterbody in acres</attrdef>
+        <attrdefs>ESRI auto-calculated</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SHORE_MI</attrlabl>
+        <attrdef>Perimeter of shoreline in miles (includes island shoreline)</attrdef>
+        <attrdefs>ESRI auto-calculated</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CENTER_UTM_X</attrlabl>
+        <attrdef>UTM Easting (X) of waterbody center</attrdef>
+        <attrdefs>ESRI auto-calculated</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CENTER_UTM_Y</attrlabl>
+        <attrdef>UTM Northing (Y) of waterbody center</attrdef>
+        <attrdefs>ESRI auto-calculated</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CTY_NAME</attrlabl>
+        <attrdef>County Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DNR_REGION</attrlabl>
+        <attrdef>DNR Administrative Region</attrdef>
+        <attrdefs>bdry_dnr_admin_regions.gdb\dnr_admin_regions</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Northwest Region (Bemidji)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Northeast Region (Grand Rapids)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Central Region (St. Paul)</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Southern Region (New Ulm)</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FSH_OFFICE</attrlabl>
+        <attrdef>DNR Fisheries Administrative Areas (Fisheries Office)</attrdef>
+        <attrdefs>bdry_dnr_fisheries_admin.gdb\dnr_fisheries_admin</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OUTSIDE_MN</attrlabl>
+        <attrdef>Identifies border waters</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Polygon (portion of border lake) that is outside of MN</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Lake is not a border lake (outside of MN)</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DELINEATED_BY</attrlabl>
+        <attrdef>Person/unit/source of polygon delineation</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DELINEATION_DATE</attrlabl>
+        <attrdef>Date of polygon delineation or shape update.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DELINEATION_SRC</attrlabl>
+        <attrdef>Photo imagery source used for digitizing polygon feature</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1991 DOQ</edomv>
+            <edomvd>1991 black &amp; white digital ortho photoquad</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2004 FSA</edomv>
+            <edomvd>2004 color Farm Service Adminstration photo</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2005 FSA</edomv>
+            <edomvd>2005 color Farm Service Adminstration photo</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2006 FSA</edomv>
+            <edomvd>2006 color Farm Service Adminstration photo</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2008 FSA</edomv>
+            <edomvd>2008 color Farm Service Adminstration photo</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2009 FSA</edomv>
+            <edomvd>2009 color Farm Service Adminstration photo</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2010 FSA</edomv>
+            <edomvd>2010 color Farm Service Adminstration photo</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2011 FSA</edomv>
+            <edomvd>2011 color Farm Service Adminstration photo</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>LAM</edomv>
+            <edomvd>DNR Lands and Minerals polygon</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ORIG DLG</edomv>
+            <edomvd>Original USGS DLG 100K polygon</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PWI</edomv>
+            <edomvd>Public Water (PWI) polygon representing the Ordinary High Water Level (OHWL)</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DELINEATION_NOTES</attrlabl>
+        <attrdef>Any notes related to the delineation.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>APPROVED_BY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>APPROVAL_DATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>APPROVAL_NOTES</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PUBLISH_DATE</attrlabl>
+        <attrdef>Date the GIS layer was published or updated and re-published.</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>IBI_LAKE</attrlabl>
+        <attrdef>Flag indicating whether the lake is an IBI lake.</attrdef>
+        <attrdefs>DNR Fisheries</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Yes, the lake is an IBI lake</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>No, the lake is not an IBIlake</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>A unique ID for each IBI survey (matches original IBI database)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>REPEAT</attrlabl>
+        <attrdef>Flag indicating whether an IBI survey is a repeat survey</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>IBI survey is not a repeat survey (is initial survey)</edomvd>
+            <edomvds>DNR Fisheries IBI Database (J. Bacigalupi)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>IBI survey is a repeat survey (is not an initial survey)</edomvd>
+            <edomvds>DNR Fisheries IBI Database (J. Bacigalupi)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE</attrlabl>
+        <attrdef>Source of IBI Survey (DNR Unit that performed the survey)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>EWR</edomv>
+            <edomvd>DNR Ecological and Water Resources Division</edomvd>
+            <edomvds>DNR Fisheries IBI Database (J. Bacigalupi)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Fisheries</edomv>
+            <edomvd>DNR Fisheries Section</edomvd>
+            <edomvds>DNR Fisheries IBI Database (J. Bacigalupi)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YEAR</attrlabl>
+        <attrdef>Year of IBI Survey</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1997-present year</edomv>
+            <edomvd>Note: There were no IBI surveys in 2000, 2004</edomvd>
+            <edomvds>DNR Fisheries IBI Database (J. Bacigalupi)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVEY_DATE</attrlabl>
+        <attrdef>Date of IBI Survey</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>6/6/1997 - present</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBI_SCORE</attrlabl>
+        <attrdef>A total score based on summation of 16 weighted metrics. Higher IBI scores indicate better lake quality (as determined by watershed land use, trophic state and aquatic vegetation).  Lake characteristics associated with higher IBI scores are low percent littoral area, high maximum depth, high Secchi depth transparency and high latitude.</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>160</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NUM_NAT_SP</attrlabl>
+        <attrdef>Metric Score: Number of Native Species.  This metric is (+) correlated with lake quality.</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NUM_INT_SP</attrlabl>
+        <attrdef>Metric Score: Number of Intolerant Species.  This metric is (+) correlated with lake quality.</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NUM_TOL_SP</attrlabl>
+        <attrdef>Metric Score: Number of Tolerant Species.  This metric is (-) correlated with lake quality.</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NUM_INSTVR</attrlabl>
+        <attrdef>Metric Score: Number of Insectivores.  This metric is (+) correlated with lake quality.</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NUM_OMNIV</attrlabl>
+        <attrdef>Metric Score: Number of Omnivores.  This metric is (-) correlated with lake quality.</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NUM_CYPR</attrlabl>
+        <attrdef>Metric Score: Number of Cyprinids.  This metric is (+) correlated with lake quality.</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NUM_SBD</attrlabl>
+        <attrdef>Metric Score: Number of Small Benthic Dwellers.  This metric is (+) correlated with lake quality.</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NUM_VEGDW</attrlabl>
+        <attrdef>Metric Score: Number of Vegetation Dwellers.  This metric is (+) correlated with lake quality.</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RAT_INT_NS</attrlabl>
+        <attrdef>Metric Score: Ratio of Intolerants in Nearshore.  This metric is (+) correlated with lake quality.</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RAT_SBD_NS</attrlabl>
+        <attrdef>Metric Score: Ratio of Small Benthic Dwellers in Nearshore.  This metric is (+) correlated with lake quality.</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RAT_VGD_NS</attrlabl>
+        <attrdef>Metric Score: Ratio of Vegetation Dwellers in Nearshore.  This metric is (+) correlated with lake quality.</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RAT_INS_BM</attrlabl>
+        <attrdef>Metric Score: Ratio of Insectivore Biomass in Trapnet</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RAT_OMV_BM</attrlabl>
+        <attrdef>Metric Score: Ratio of Omnivore Biomass in Trapnet.  This metric is (-) correlated with lake quality.</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RAT_TOL_BM</attrlabl>
+        <attrdef>Metric Score: Ratio of Tolerant Biomass in Trapnet.  This metric is (-) correlated with lake quality.</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RAT_CRV_BM</attrlabl>
+        <attrdef>Metric Score: Ratio of Carnivore Biomass in Gillnet.  This metric is (+) correlated with lake quality.</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RAT_INT_BM</attrlabl>
+        <attrdef>Metric Score: Presence or absence of intolerant fish species in the Gillnet. This metric is (+) correlated with lake quality.</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NUM_IBI</attrlabl>
+        <attrdef>Number of IBI surveys performed on this lake</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MAX_DATE</attrlabl>
+        <attrdef>Flag denoting whether an IBI survey is the most recent for a lake</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>IBI survey is not the most recent survey</edomvd>
+            <edomvds>Calculated</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>IBI survey is the most recent survey</edomvd>
+            <edomvds>Calculated</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBI_1997</attrlabl>
+        <attrdef>IBI Score from 1997 survey (if there were multiple surveys in this year, the score is an average value)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBI_1998</attrlabl>
+        <attrdef>IBI Score from 1998 survey (if there were multiple surveys in this year, the score is an average value)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBI_1999</attrlabl>
+        <attrdef>IBI Score from 1999 survey (if there were multiple surveys in this year, the score is an average value)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBI_2001</attrlabl>
+        <attrdef>IBI Score from 2001 survey (if there were multiple surveys in this year, the score is an average value)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBI_2002</attrlabl>
+        <attrdef>IBI Score from 2002 survey (if there were multiple surveys in this year, the score is an average value)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBI_2003</attrlabl>
+        <attrdef>IBI Score from 2003 survey (if there were multiple surveys in this year, the score is an average value)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBI_2005</attrlabl>
+        <attrdef>IBI Score from 2005 survey (if there were multiple surveys in this year, the score is an average value)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>10</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBI_2006</attrlabl>
+        <attrdef>IBI Score from 2006 survey (if there were multiple surveys in this year, the score is an average value)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBI_2007</attrlabl>
+        <attrdef>IBI Score from 2007 survey (if there were multiple surveys in this year, the score is an average value)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBI_2008</attrlabl>
+        <attrdef>IBI Score from 2008 survey (if there were multiple surveys in this year, the score is an average value)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBI_2009</attrlabl>
+        <attrdef>IBI Score from 2009 survey (if there were multiple surveys in this year, the score is an average value)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBI_2010</attrlabl>
+        <attrdef>IBI Score from 2010 survey (if there were multiple surveys in this year, the score is an average value)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBI_2011</attrlabl>
+        <attrdef>IBI Score from 2011 survey (if there were multiple surveys in this year, the score is an average value)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBI_2012</attrlabl>
+        <attrdef>IBI Score from 2012 survey (if there were multiple surveys in this year, the score is an average value)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBI_2013</attrlabl>
+        <attrdef>IBI Score from 2012 survey (if there were multiple surveys in this year, the score is an average value)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBI_2014</attrlabl>
+        <attrdef>IBI Score from 2014 survey (if there were multiple surveys in this year, the score is an average value)</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MULT_IBI</attrlabl>
+        <attrdef>An * indicates whether the lake has more than one IBI score. In ArcMap, click on a lake with the Identify Tool to access records from all years (related table).</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CONTENT_DATE</attrlabl>
+        <attrdef>Date the layer-specific attributes were last updated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>IBI_Tool</attrlabl>
+        <attrdef>Indicates which IBI Tool was used to generate a score for the lake, also referred to as Lake Group.  The Tool is based on lake class and some are adjusted for lake size.</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <udom>2,4,5,7</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Status</attrlabl>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>BelowImpairmentThreshold</edomv>
+            <edomvd>At or Below the Impairment Threshold for the Group</edomvd>
+            <edomvds>DNR Fisheries IBI Database (J. Bacigalupi)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MeetingStandard</edomv>
+            <edomvd>Above the Impairment Threshold for the Group, this also includes lakes within, but above a CI for impairment</edomvd>
+            <edomvds>DNR Fisheries IBI Database (J. Bacigalupi)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Exceptional</edomv>
+            <edomvd>Above an Exceptional Threshold for the Group</edomvd>
+            <edomvds>DNR Fisheries IBI Database (J. Bacigalupi)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Mixed Results - Below/Meeting</edomv>
+            <edomvd>Mixed Results</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Mixed Results - Meeting/Exceptional</edomv>
+            <edomvd>Mixed Results</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Data_conditions</attrlabl>
+        <attrdef>Describes any conditions with data quality or quantity, or limitations for use</attrdef>
+        <attrdefs>DNR Fisheries IBI Database (J. Bacigalupi)</attrdefs>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>env_ibi_lakes_all_surveys_events_polygon_relate</enttypl>
+        <enttypd>related table  -- same attributes as above</enttypd>
+        <enttypds>DNR Fisheries</enttypds>
+      </enttyp>
+    </detailed>
+    <overview>
+      <eaover>&lt;b&gt;env_ibi_lakes_fisheries&lt;/b&gt; (feature class attribute table):  The first set of attributes (DNR_HYDRO_ID through PUBLISH_DATE) are derived from and consistent with the Open Water feature class of the &lt;i&gt;DNR Hydrography SDE Dataset&lt;/i&gt;.  See &lt;a href="../../water_dnr_hydrography/metadata/dnr_hydrography_lakes_open_water_basins.html" target=_blank&gt;&lt;b&gt;DNR Hydrography - All Water Features&lt;/b&gt;&lt;/a&gt; The remaining attributes are specific to this layer. This layer shows the &lt;u&gt;most recent&lt;/u&gt; IBI score for each lake
 
 &lt;b&gt;env_ibi_lakes_all_surveys_events_polygon_relate&lt;/b&gt; (related table):
-Attributes are the same as for the GIS polygon layer, except that the related table shows &lt;u&gt;all IBI scores&lt;/u&gt;(all years) for each lake</eaover><eadetcit>For more detailed information about the fish-based IBI and IBI metrics, consult the following sources:
+Attributes are the same as for the GIS polygon layer, except that the related table shows &lt;u&gt;all IBI scores&lt;/u&gt;(all years) for each lake</eaover>
+      <eadetcit>For more detailed information about the fish-based IBI and IBI metrics, consult the following sources:
 
-Bacigalupi, Jacquelyn, 2014.  Fish-Based IBI Development for Minnesota Lakes &amp; Use in the Watershed Assessment Process – Status Report.  Minnesota Department of Natural Resources Report
+Bacigalupi, Jacquelyn, 2014.  Fish-Based IBI Development for Minnesota Lakes &amp; Use in the Watershed Assessment Process &#8211; Status Report.  Minnesota Department of Natural Resources Report
 &lt;b&gt;Contact&lt;/b&gt;: Jacquelyn Bacigalupi, MNDNR Lake IBI Coordinator, Jacquelyn.bacigalupi@state.mn.us, 218-833-8613
 
 
@@ -31,4 +914,63 @@ Drake M. T. and D.L. Pereira, 2002.  Development of a Fish-Based Index of Biotic
 Drake, M., and R. Valley. 2005. Validation and Application of a Fish-based Index of Biotic Integrity for Small Central Minnesota lakes. North American Journal of Fisheries Management 25:1095-1111.
 
 Schupp D.H. 1992.  An Ecological Classification of Minnesota Lakes with Associated Fish Communities.  Minnesota Department of Natural Resources Investigational Report 417: 27pp.
-http://files.dnr.state.mn.us/publications/fisheries/investigational_reports/417.pdf</eadetcit></overview></eainfo><distinfo><distliab>Please read accompanying document: Minnesota DNR Data and Software License Agreement.pdf</distliab><stdorder><digform><digtinfo><formname>Shapefile</formname><formvern></formvern><transize></transize></digtinfo></digform><ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering></stdorder><resdesc>env_ibi_lakes_fisheries.gdb\env_ibi_lakes_fisheries</resdesc><distrib><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><address>500 Lafayette Rd</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150211</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota DNR - Fisheries Unit</cntorg><cntper>Lyn Bergquist</cntper></cntperp><cntpos>GIS Data Contact</cntpos><cntaddr><address>500 Lafayette Rd</address><city>Saint Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5189</cntvoice><cntemail>lyn.bergquist@state.mn.us</cntemail></cntinfo></metc></metainfo></metadata>
+http://files.dnr.state.mn.us/publications/fisheries/investigational_reports/417.pdf</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>Please read accompanying document: Minnesota DNR Data and Software License Agreement.pdf</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <formvern/>
+          <transize/>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <resdesc>env_ibi_lakes_fisheries.gdb\env_ibi_lakes_fisheries</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150211</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Fisheries Unit</cntorg>
+          <cntper>Lyn Bergquist</cntper>
+        </cntperp>
+        <cntpos>GIS Data Contact</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5189</cntvoice>
+        <cntemail>lyn.bergquist@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

@@ -76,7 +76,7 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
-                        <gco:CharacterString>Tracy Tisbo</gco:CharacterString>
+                        <gco:CharacterString>Hennepin County</gco:CharacterString>
                      </organisationName>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
@@ -101,7 +101,7 @@
          <abstract>
             <gco:CharacterString>This dataset shows the location of community gardens in Hennepin County, as they are currently known to the Garden Matters organization. It classifies each of the gardens as to its purpose: Beautification, Food Production, or Youth-Oriented. It also indicates whether the garden is Faith-Based. Created July 2014 and updated with some contact information by the GIS Office August 2014.Please refer to the Gardening Matters community garden directory for the most up-to-date information. (http://www.gardeningmatters.org/garden-directory)&#13;
 &#13;
-&lt;br /&gt;&lt;br /&gt;Link to Attribute Table Information: &lt;a href='http://gis.hennepin.us/OpenData/Metadata/Community%20Gardens.pdf ' target='_blank'&gt;http://gis.hennepin.us/OpenData/Metadata/Community%20Gardens.pdf &lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Data updated: 05/22/2014&lt;br /&gt;&lt;br /&gt;Use Limitations: This data (i) is furnished &amp;quot;AS IS&amp;quot; with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. General questions about this data set, including errors, omissions, corrections and/or updates should be directed to the Hennepin County GIS Office at 612-596-9484.</gco:CharacterString>
+&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/Community%20Gardens.pdf &amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Data updated: 05/22/2014&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Use Limitations: This data (i) is furnished "AS IS" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. General questions about this data set, including errors, omissions, corrections and/or updates should be directed to the Hennepin County GIS Office at 612-596-9484.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
