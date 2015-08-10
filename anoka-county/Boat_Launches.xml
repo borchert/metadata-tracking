@@ -1,10 +1,284 @@
-﻿<metadata><idinfo><citation><citeinfo><title>Boat_Launches</title><geoform>vector digital data</geoform><origin>Anoka County</origin><pubinfo><publish>Anoka County</publish></pubinfo><pubdate>20150729</pubdate><onlink>ftp://gisdata.co.anoka.mn.us/Boat_Launches.zip</onlink></citeinfo></citation><spdom><bounding><westbc>-93.505747</westbc><eastbc>-93.068551</eastbc><northbc>45.406028</northbc><southbc>45.042772</southbc></bounding></spdom><accconst>None</accconst><useconst>None</useconst><native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native><descript><supplinf>Anoka County</supplinf></descript><keywords><place><placekey>Anoka County (Minn.)</placekey></place><theme><themekt>ISO 19115 Topic Categories</themekt><themekey>location</themekey></theme></keywords><timeperd><timeinfo><sngdate><caldate>20140423</caldate></sngdate></timeinfo></timeperd></idinfo><spdoinfo><direct>Vector</direct><ptvctinf><sdtsterm><sdtstype>Entity point</sdtstype><ptvctcnt>31</ptvctcnt></sdtsterm></ptvctinf></spdoinfo><spref><horizsys><planar><mapproj><mapprojn>NAD 1983 Lambert Conformal Conic</mapprojn><lambertc><stdparll>45.06666666666667</stdparll><stdparll>45.36666666666667</stdparll><longcm>-93.26666666666667</longcm><latprjo>45.03527777777778</latprjo><feast>499999.999998</feast><fnorth>100000.0001308333</fnorth></lambertc></mapproj><planci><plance>coordinate pair</plance><coordrep><absres>0.000000026540991626689</absres><ordres>0.000000026540991626689</ordres></coordrep><plandu>foot_us</plandu></planci></planar><geodetic><horizdn>D North American 1983</horizdn><ellips>GRS 1980</ellips><semiaxis>6378137.0</semiaxis><denflat>298.257222101</denflat></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>Boat_Launches</enttypl></enttyp><attr><attrlabl>FID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>Esri</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>OBJECTID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>RAMPTYPE</attrlabl></attr><attr><attrlabl>LAUNCHTYPE</attrlabl></attr><attr><attrlabl>FAC_NAME</attrlabl></attr><attr><attrlabl>DATE_DEV</attrlabl></attr><attr><attrlabl>COUNTYNAME</attrlabl></attr><attr><attrlabl>LAKENAME</attrlabl></attr><attr><attrlabl>LKID_NUM</attrlabl></attr><attr><attrlabl>LKID_TXT</attrlabl></attr><attr><attrlabl>NUMRAMPS</attrlabl></attr><attr><attrlabl>RAMPCOMM</attrlabl></attr><attr><attrlabl>NUMDOCKS</attrlabl></attr><attr><attrlabl>NUMTOILETS</attrlabl></attr><attr><attrlabl>NUMCARS</attrlabl></attr><attr><attrlabl>NUMCARTRLR</attrlabl></attr><attr><attrlabl>NUMADA</attrlabl></attr><attr><attrlabl>LOT_SURF</attrlabl></attr><attr><attrlabl>LOT_COMM</attrlabl></attr><attr><attrlabl>ADM_DESCRI</attrlabl></attr><attr><attrlabl>COMMENTS</attrlabl></attr><attr><attrlabl>X_COORD</attrlabl></attr><attr><attrlabl>Y_COORD</attrlabl></attr><attr><attrlabl>DATASOURCE</attrlabl></attr><attr><attrlabl>DATAUPDATE</attrlabl></attr><attr><attrlabl>FISHPIER</attrlabl></attr><attr><attrlabl>SHOREFISH</attrlabl></attr><attr><attrlabl>DIRECTIONS</attrlabl></attr><attr><attrlabl>ANNOUN</attrlabl></attr><attr><attrlabl>FID_2</attrlabl></attr><attr><attrlabl>FID_100kLa</attrlabl></attr><attr><attrlabl>USCLASS</attrlabl></attr><attr><attrlabl>DOWLKNUM</attrlabl></attr><attr><attrlabl>MAIN_DOW</attrlabl></attr><attr><attrlabl>DOW_VERIF</attrlabl></attr><attr><attrlabl>LAKE_NAME</attrlabl></attr><attr><attrlabl>ALT_NAME</attrlabl></attr><attr><attrlabl>LAKE_CLASS</attrlabl></attr><attr><attrlabl>SRCVERSION</attrlabl></attr><attr><attrlabl>ACRES</attrlabl></attr><attr><attrlabl>PERFEET</attrlabl></attr><attr><attrlabl>RIVNAME</attrlabl></attr><attr><attrlabl>LENGTH</attrlabl></attr><attr><attrlabl>LFEET</attrlabl></attr><attr><attrlabl>Distance</attrlabl></attr><attr><attrlabl>Area_ID</attrlabl></attr><attr><attrlabl>URL_1</attrlabl></attr><attr><attrlabl>Shape</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl>GlobalID</attrlabl></attr></detailed></eainfo><distinfo><distliab>Anoka County GIS Data Disclaimer
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Boat_Launches</title>
+        <geoform>vector digital data</geoform>
+        <origin>Anoka County</origin>
+        <pubinfo>
+          <publish>Anoka County</publish>
+        </pubinfo>
+        <pubdate>20150729</pubdate>
+        <onlink>ftp://gisdata.co.anoka.mn.us/Boat_Launches.zip</onlink>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-93.505747</westbc>
+        <eastbc>-93.068551</eastbc>
+        <northbc>45.406028</northbc>
+        <southbc>45.042772</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <descript>
+      <supplinf>Anoka County</supplinf>
+    </descript>
+    <keywords>
+      <place>
+        <placekey>Anoka County (Minn.)</placekey>
+      </place>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>location</themekey>
+      </theme>
+    </keywords>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20140423</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>31</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>45.06666666666667</stdparll>
+            <stdparll>45.36666666666667</stdparll>
+            <longcm>-93.26666666666667</longcm>
+            <latprjo>45.03527777777778</latprjo>
+            <feast>499999.999998</feast>
+            <fnorth>100000.0001308333</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026540991626689</absres>
+            <ordres>0.000000026540991626689</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Boat_Launches</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RAMPTYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LAUNCHTYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FAC_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DATE_DEV</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNTYNAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LAKENAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LKID_NUM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LKID_TXT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NUMRAMPS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RAMPCOMM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NUMDOCKS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NUMTOILETS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NUMCARS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NUMCARTRLR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NUMADA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LOT_SURF</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LOT_COMM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ADM_DESCRI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COMMENTS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>X_COORD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Y_COORD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DATASOURCE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DATAUPDATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FISHPIER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHOREFISH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DIRECTIONS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ANNOUN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FID_2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FID_100kLa</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>USCLASS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DOWLKNUM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MAIN_DOW</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DOW_VERIF</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LAKE_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ALT_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LAKE_CLASS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SRCVERSION</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERFEET</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RIVNAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LFEET</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Distance</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Area_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>URL_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GlobalID</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>Anoka County GIS Data Disclaimer
 
 The information provided on this site is for reference purposes only. The information is not suitable for legal, 
 engineering or surveying purposes. Anoka County does not guarantee the accuracy of the information contained herein. 
-The Information is furnished on an ‘as is’ basis with no representation or warranties, either express or implied, 
+The Information is furnished on an &#8216;as is&#8217; basis with no representation or warranties, either express or implied, 
 for the merchantability or fitness of the information provided on this site for a particular purpose. The preceding 
-disclaimer is provided pursuant to Minnesota Statutes §466.03, Sub. 21, and the user of the information provided 
+disclaimer is provided pursuant to Minnesota Statutes &#167;466.03, Sub. 21, and the user of the information provided 
 herein acknowledges that Anoka County shall not be liable for any damages, and expressly waives all claims, and 
 agrees to defend, indemnify, and hold harmless Anoka County from any and all claims brought by anyone who uses 
-the information provided for herein, its employees or agents, or third parties which arise out of user's access. </distliab><stdorder><digform><digtinfo><formname>SDE Feature Class</formname></digtinfo><digtopt /></digform></stdorder></distinfo><metainfo><metd>20150729</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><mettc>local time</mettc><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns></metainfo></metadata>
+the information provided for herein, its employees or agents, or third parties which arise out of user's access. </distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+        </digtinfo>
+        <digtopt/>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20150729</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+  </metainfo>
+</metadata>
