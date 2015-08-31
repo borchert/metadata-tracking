@@ -1,138 +1,16 @@
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <title catid="8ae02e9f-e436-4cd0-b134-f94639801534">Municipal Boundaries</title>
-        <geoform>vector digital data</geoform>
-		<onlink>http://gis.co.dakota.mn.us/websitegisdata/politicaladmin/shp/Municipalities.zip</onlink>
-		<pubdate>2014</pubdate><origin>Dakota County</origin><pubinfo><publish>Dakota County</publish></pubinfo></citeinfo>
-		
-    </citation>
-    <spdom>
-      <bounding>
-        <westbc>-93.329706</westbc>
-        <eastbc>-92.729113</eastbc>
-        <northbc>44.923499</northbc>
-        <southbc>44.469877</southbc>
-      </bounding>
-    </spdom>
-    <accconst>None</accconst>
-    <useconst>None</useconst>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
-  </idinfo>
-  <spdoinfo>
-    <direct>Vector</direct>
-    <ptvctinf>
-      <sdtsterm>
-        <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>46</ptvctcnt>
-      </sdtsterm>
-    </ptvctinf>
-  </spdoinfo>
-  <spref>
-    <horizsys>
-      <planar>
-        <mapproj>
-          <mapprojn>MN Dakota Lambert Conformal Conic</mapprojn>
-          <lambertc>
-            <stdparll>44.51666666666667</stdparll>
-            <stdparll>44.91666666666666</stdparll>
-            <longcm>-93.31666666666666</longcm>
-            <latprjo>44.47194444444445</latprjo>
-            <feast>500000.0</feast>
-            <fnorth>100000.0</fnorth>
-          </lambertc>
-        </mapproj>
-        <planci>
-          <plance>coordinate pair</plance>
-          <coordrep>
-            <absres>0.000000026575186495847457</absres>
-            <ordres>0.000000026575186495847457</ordres>
-          </coordrep>
-          <plandu>foot_us</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>D MN Dakota</horizdn>
-        <ellips>MN Dakota</ellips>
-        <semiaxis>6378421.989</semiaxis>
-        <denflat>298.2572133677353</denflat>
-      </geodetic>
-    </horizsys>
-  </spref>
-  <eainfo>
-    <detailed>
-      <enttyp>
-        <enttypl>
-Municipal Boundary</enttypl>
-      </enttyp>
-      <attr>
-        <attrlabl>SHAPE</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
-        <attrdefs>ESRI</attrdefs>
-        <attrdomv>
-          <udom>Coordinates defining the features.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>FID</attrlabl>
-        <attrdef>Internal feature number.</attrdef>
-        <attrdefs>ESRI</attrdefs>
-        <attrdomv>
-          <udom>Sequential unique whole numbers that are automatically generated.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>DCCODE</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>CITYNAME</attrlabl>
-        <attrdef>Name of city or township</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>STCODE</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>FIPSCODE</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>SHAPE_area</attrlabl>
-        <attrdef>Area of feature in internal units squared.</attrdef>
-        <attrdefs>ESRI</attrdefs>
-        <attrdomv>
-          <udom>Positive real numbers that are automatically generated.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>SHAPE_len</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>COMM_N</attrlabl>
-      </attr>
-      <attr>
-        <attrlabl>CID</attrlabl>
-      </attr>
-    </detailed>
-    <overview>
-      <eaover>Location and address information for the city halls in Dakota County.</eaover>
-    </overview>
-  </eainfo>
-  <distinfo>
-    <distliab>See access and use constraints information.</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>Shapefile</formname>
-          <transize>0.116</transize>
-        </digtinfo>
-        <digtopt />
-      </digform>
-    </stdorder>
-  </distinfo>
-  <metainfo>
-    <metd>20140926</metd>
-    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
-    <metstdv>FGDC-STD-001-1998</metstdv>
-    <mettc>local time</mettc>
-  </metainfo>
-</metadata>
+﻿<metadata><idinfo><citation><citeinfo><title>Municipal Boundary</title><geoform>vector digital data</geoform><origin>Dakota Countty</origin><pubinfo><publish>Dakota County</publish></pubinfo><pubdate>20150818</pubdate></citeinfo></citation><descript><abstract>Cities and townships in Dakota County.</abstract><purpose>For general use.</purpose><supplinf>Dakota County</supplinf></descript><status><progress>Complete</progress><update>As needed</update></status><spdom><bounding><westbc>-93.329706</westbc><eastbc>-92.729113</eastbc><northbc>44.923499</northbc><southbc>44.469877</southbc></bounding></spdom><accconst>Access via online applications.</accconst><useconst>For informational purposes only.</useconst><datacred>Dakota County Office of GIS</datacred><native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native><keywords><place><placekey>Dakota Co., Minn.</placekey></place><theme><themekt>ISO 19115</themekt><themekey>boundaries, location</themekey></theme></keywords><ptcontac><cntinfo><cntorgp><cntorg>Dakota County Office of GIS</cntorg></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>14955 Galaxie Ave</address><city>Apple Valley</city><state>Minnesota</state><postal>55124</postal></cntaddr><cntvoice>9528917081</cntvoice><cntfax>9528917097</cntfax><cntemail>GIS@co.dakota.mn.us</cntemail></cntinfo></ptcontac></idinfo><spdoinfo><direct>Vector</direct><ptvctinf><sdtsterm><sdtstype>GT-polygon composed of chains</sdtstype><ptvctcnt>46</ptvctcnt></sdtsterm></ptvctinf></spdoinfo><spref><horizsys><planar><mapproj><mapprojn>MN Dakota Lambert Conformal Conic</mapprojn><lambertc><stdparll>44.51666666666667</stdparll><stdparll>44.91666666666666</stdparll><longcm>-93.31666666666666</longcm><latprjo>44.47194444444445</latprjo><feast>500000.0</feast><fnorth>100000.0</fnorth></lambertc></mapproj><planci><plance>coordinate pair</plance><coordrep><absres>0.000000026575186495847457</absres><ordres>0.000000026575186495847457</ordres></coordrep><plandu>foot_us</plandu></planci></planar><geodetic><horizdn>D MN Dakota</horizdn><ellips>MN Dakota</ellips><semiaxis>6378421.989</semiaxis><denflat>298.2572133677353</denflat></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>MUNBNDP</enttypl></enttyp><attr><attrlabl>SHAPE</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl>FID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>DCCODE</attrlabl></attr><attr><attrlabl>CITYNAME</attrlabl><attrdef>Name of city or township</attrdef></attr><attr><attrlabl>STCODE</attrlabl></attr><attr><attrlabl>FIPSCODE</attrlabl></attr><attr><attrlabl>SHAPE_area</attrlabl><attrdef>Area of feature in internal units squared.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>SHAPE_len</attrlabl></attr><attr><attrlabl>COMM_N</attrlabl></attr><attr><attrlabl>CID</attrlabl></attr></detailed><overview><eaover>Location and address information for the city halls in Dakota County.</eaover></overview></eainfo><distinfo><resdesc>View data online</resdesc><distliab>DAKOTA COUNTY GIS DATABASE DISCLAIMER
+
+NOTICE: Dakota County Geographic Information System (GIS) Data are made available
+pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13)
+THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE,
+MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by
+Dakota County (“County”) for their own internal business purposes. The County does not
+represent or warrant that the GIS Data or the data documentation are error-free, complete,
+current, or accurate. You are responsible for any consequences resulting from your use of
+the GIS Data or your reliance on the GIS Data. You should consult the data documentation
+for this particular GIS Data to determine the limitations of the GIS Data and the precision
+with which the GIS Data may depict distance, direction, location, or other geographic
+features. If you transmit or provide the GIS Data (or any portion of it) to another user,
+you must provide a copy of this disclaimer and the accompanying metadata for this dataset
+to the user.
+</distliab><distrib><cntinfo><cntorgp><cntorg>Dakota County Office of GIS</cntorg></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>14955 Galaxie Ave</address><city>Apple Valley</city><state>Minnesota</state><postal>55124</postal></cntaddr><cntvoice>9528917081</cntvoice><cntfax>9528917097</cntfax><cntemail>GIS@co.dakota.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150818</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><mettc>local time</mettc><metac>Open</metac><metuc>Open</metuc><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntorgp><cntorg>Dakota County Office of GIS</cntorg><cntper>Dakota County GIS Staff</cntper></cntorgp><cntaddr><addrtype>mailing and physical</addrtype><address>14955 Galaxie Ave</address><city>Apple Valley</city><state>Minnesota</state><postal>55124</postal></cntaddr><cntvoice>9528917081</cntvoice><cntfax>9528917097</cntfax><cntemail>GIS@co.dakota.mn.us</cntemail></cntinfo></metc></metainfo></metadata>
