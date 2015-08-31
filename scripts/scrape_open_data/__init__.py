@@ -77,7 +77,9 @@ def get_fields(dataset):
 
 
 def parse_webservice(dataset):
-    url = dataset["webService"]
+    distrib = dataset["distribution"]
+    for i in distrib:
+        if i
     return url
 
 def parse_datatype(dataset):
