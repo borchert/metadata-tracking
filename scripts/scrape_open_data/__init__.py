@@ -77,10 +77,12 @@ def get_fields(dataset):
 
 
 def parse_webservice(dataset):
-    distrib = dataset["distribution"]
-    for i in distrib:
-        if i
-    return url
+    url = dataset["webService"]
+
+    ##distrib = dataset["distribution"]
+    ##for i in distrib:
+    ##    if i
+    ##return url
 
 def parse_datatype(dataset):
 
@@ -139,13 +141,17 @@ def main(url, prefix, output_path):
 
         distribution_list = dataset["distribution"]
         for dist in distribution_list:
-            if dist["title"] == "Shapefile":
+            if dist["format"] == "ZIP":
                 elements["onlink"][0].text = dist["downloadURL"]
                 elements["formname"][0].text = "shapefile"
+            elif dist["format"] == "Esri REST":
+                elements["onlink"][1].text = dist["accessURL"]
+                elements["formname"][1].text = "Esri REST Service"
+           
 
 
         # REST service link
-        elements["onlink"][1].text = parse_webservice(dataset)
+        #elements["onlink"][1].text = parse_webservice(dataset)
 
         elements["datatype"][0].set("codeListValue", parse_datatype(dataset))
 
@@ -225,6 +231,7 @@ FIELDS = [
 PATHS = {
     "title"    : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString",
     "onlink"   : "gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/gmd:URL",
+    "formname" : "gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:name/gco:CharacterString",
     "origin"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString",
     "publish"  : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString",
     "pubdate"  : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:editionDate/gco:Date",
@@ -237,7 +244,6 @@ PATHS = {
     "abstract" : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract/gco:CharacterString",
     "accconst" : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:otherConstraints/gco:CharacterString",
     "useconst" : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString",
-    "formname" : "gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat/gmd:MD_Format/gmd:name/gco:CharacterString",
     "id"       : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
     "datatype" : "gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectType/gmd:MD_GeometricObjectTypeCode"
 }

@@ -230,7 +230,7 @@
          <transferOptions>
             <MD_DigitalTransferOptions>
                <transferSize>
-                  <gco:Real>0.29</gco:Real>
+                  <gco:Real></gco:Real>
                </transferSize>
                <onLine>
                   <CI_OnlineResource>
@@ -240,6 +240,13 @@
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
                      </protocol>
+                     <name>
+                        <gco:CharacterString></gco:CharacterString>
+                     </name>
+                     <description>
+                        <gco:CharacterString></gco:CharacterString>
+                     </description>
+
                   </CI_OnlineResource>
                </onLine>
             </MD_DigitalTransferOptions>
