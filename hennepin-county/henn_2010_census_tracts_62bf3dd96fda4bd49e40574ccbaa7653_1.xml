@@ -1,0 +1,246 @@
+<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
+  <fileIdentifier>
+      <gco:CharacterString>=</gco:CharacterString>
+  </fileIdentifier>
+  <language>
+      <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
+  </language>
+  <characterSet>
+      <MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+  </characterSet>
+  <hierarchyLevel>
+      <MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115"/>
+  </hierarchyLevel>
+  <hierarchyLevelName>
+      <gco:CharacterString>dataset</gco:CharacterString>
+  </hierarchyLevelName>
+  <contact gco:nilReason="missing"/>
+  <dateStamp>
+      <gco:DateTime/>
+  </dateStamp>
+  <metadataStandardName>
+      <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+  </metadataStandardName>
+  <metadataStandardVersion>
+      <gco:CharacterString>2007</gco:CharacterString>
+  </metadataStandardVersion>
+  <spatialRepresentationInfo>
+      <MD_VectorSpatialRepresentation>
+         <topologyLevel>
+            <MD_TopologyLevelCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115"/>
+         </topologyLevel>
+         <geometricObjects>
+            <MD_GeometricObjects>
+               <geometricObjectType>
+                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
+               </geometricObjectType>
+               <geometricObjectCount>
+                  <gco:Integer/>
+               </geometricObjectCount>
+            </MD_GeometricObjects>
+         </geometricObjects>
+      </MD_VectorSpatialRepresentation>
+  </spatialRepresentationInfo>
+  <referenceSystemInfo>
+      <MD_ReferenceSystem>
+         <referenceSystemIdentifier>
+            <RS_Identifier>
+               <code>
+                  <gco:CharacterString>4326</gco:CharacterString>
+               </code>
+               <codeSpace>
+                  <gco:CharacterString>EPSG</gco:CharacterString>
+               </codeSpace>
+               <version>
+                  <gco:CharacterString>8.2.6</gco:CharacterString>
+               </version>
+            </RS_Identifier>
+         </referenceSystemIdentifier>
+      </MD_ReferenceSystem>
+  </referenceSystemInfo>
+  <identificationInfo>
+      <MD_DataIdentification>
+         <citation>
+            <CI_Citation>
+               <title>
+                  <gco:CharacterString>2010 Census Tracts</gco:CharacterString>
+               </title>
+               <identifier>
+                 <MD_Identifier>
+                   <code>
+                     <gco:CharacterString>62bf3dd96fda4bd49e40574ccbaa7653_1</gco:CharacterString>
+                   </code>
+                 </MD_Identifier>
+               </identifier>
+               <date gco:nilReason="missing"/>
+               <citedResponsibleParty>
+                  <CI_ResponsibleParty>
+                     <organisationName>
+                        <gco:CharacterString>Hennepin County</gco:CharacterString>
+                     </organisationName>
+                     <role>
+                        <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
+                     </role>
+                  </CI_ResponsibleParty>
+               </citedResponsibleParty>
+               <citedResponsibleParty>
+                  <CI_ResponsibleParty>
+                     <organisationName>
+                        <gco:CharacterString/>
+                     </organisationName>
+                     <role>
+                        <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115"/>
+                     </role>
+                  </CI_ResponsibleParty>
+               </citedResponsibleParty>
+               <presentationForm>
+                  <CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115"/>
+               </presentationForm>
+            </CI_Citation>
+         </citation>
+         <abstract>
+            <gco:CharacterString>2010 US Census Tracts for Hennepin County with subset of PL94-171 demographic data.&#160;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;The Hennepin County GIS Office downloaded US Census data from the following sites:&#160;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Shapefiles: http://www.census.gov/cgi-bin/geo/shapefiles2010/main&#160;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;PL94-171: http://www.census.gov/rdo/data/2010_census_redistricting_data_pl_94-171_summary_files.html&#160;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;PL94-171 tabular data was post processed per instructions and stored in an Access database. Records and a subset of the 290 plus fields were extracted from the master tables using SQL statements. A copy of the statement has been included in the Lineage section of metadata. Tables were registered as a geodatabase and copied to a File Geodatabase. Shapefiles were imported into the File Geodatabase and projected to UTM Zone 15 N. The feature classes were joined to the tabular data and saved as the final US Census layer. The feature classes underwent visual inspection. The number of records were compared and checked. The attribute values were compared to existing Maptitude US Census data. Please contact the Hennepin GIS Office if you require additional PL94-171 fields. Hennepin County GIS Office A-705 Government Center Minneapolis, Minnesota 55487-075 GIS.Info@co.hennepin.mn.us Phone: 612-596-9484 FAX: 612-348-2837 The original metadata is contained below. The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. Census tracts are small, relatively permanent statistical subdivisions of a county or equivalent entity, and were defined by local participants as part of the 2010 Census Participant Statistical Areas Program. The Census Bureau delineated the census tracts in situations where no local participant existed or where all the potential participants declined to participate. The primary purpose of census tracts is to provide a stable set of geographic units for the presentation of census data and comparison back to previous decennial censuses. Census tracts generally have a population size between 1,200 and 8,000 people, with an optimum size of 4,000 people. When first delineated, census tracts were designed to be homogeneous with respect to population characteristics, economic status, and living conditions. The spatial size of census tracts varies widely depending on the density of settlement. Physical changes in street patterns caused by highway construction, new development, and so forth, may require boundary revisions. In addition, census tracts occasionally are split due to population growth, or combined as a result of substantial population decline. Census tract boundaries generally follow visible and identifiable features. They may follow legal boundaries such as minor civil division (MCD) or incorporated place boundaries in some States and situations to allow for census tract-to-governmental unit relationships where the governmental boundaries tend to remain unchanged between censuses. State and county boundaries always are census tract boundaries in the standard census geographic hierarchy. In a few rare instances, a census tract may consist of noncontiguous areas. These noncontiguous areas may occur where the census tracts are coextensive with all or parts of legal entities that are themselves noncontiguous. For the 2010 Census, the census tract code range of 9400 through 9499 was enforced for census tracts that include a majority American Indian population according to Census 2000 data and/or their area was primarily covered by federally recognized American Indian reservations and/or off-reservation trust lands; the code range 9800 through 9899 was enforced for those census tracts that contained little or no population and represented a relatively large special land use area such as a National Park, military installation, or a business/industrial park; and the code range 9900 through 9998 was enforced for those census tracts that contained only water area, no land area.&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Link to Attribute Table Information:&#160;http://gis.hennepin.us/OpenData/Metadata/2010%20Census%20Tracts.pdf&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Data updated: 04/08/2011&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Use Limitations: This data (i) is furnished "AS IS" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data.</gco:CharacterString>
+         </abstract>
+         <descriptiveKeywords>
+            <MD_Keywords>
+               <keyword>
+                  <gco:CharacterString/>
+               </keyword>
+               <type>
+                  <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
+               </type>
+            </MD_Keywords>
+         </descriptiveKeywords>
+         <descriptiveKeywords>
+            <MD_Keywords>
+               <keyword>
+                  <gco:CharacterString>open data</gco:CharacterString>
+               </keyword>
+               <type>
+                  <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
+               </type>
+            <keyword>
+                  <gco:CharacterString>census</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>demographics</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>people and society</gco:CharacterString>
+               </keyword>
+               </MD_Keywords>
+         </descriptiveKeywords>
+         <resourceConstraints>
+            <MD_Constraints>
+               <useLimitation>
+                  <gco:CharacterString>http://gis.hennepin.opendata.arcgis.com/datasets/62bf3dd96fda4bd49e40574ccbaa7653_1/license.json</gco:CharacterString>
+               </useLimitation>
+            </MD_Constraints>
+         </resourceConstraints>
+         <resourceConstraints>
+            <MD_LegalConstraints>
+               <otherConstraints>
+                  <gco:CharacterString>public</gco:CharacterString>
+               </otherConstraints>
+            </MD_LegalConstraints>
+         </resourceConstraints>
+         <spatialRepresentationType>
+            <MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115"/>
+         </spatialRepresentationType>
+         <language>
+            <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
+         </language>
+         <characterSet>
+            <MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+         </characterSet>
+         <topicCategory>
+            <MD_TopicCategoryCode/>
+         </topicCategory>
+         <environmentDescription>
+            <gco:CharacterString>Version 6.2 (Build 9200) ; Esri ArcGIS 10.2.2.3574</gco:CharacterString>
+         </environmentDescription>
+         <extent>
+            <EX_Extent>
+               <geographicElement>
+                  <EX_GeographicBoundingBox>
+                     <westBoundLongitude>
+                        <gco:Decimal>-93.772</gco:Decimal>
+                     </westBoundLongitude>
+                     <eastBoundLongitude>
+                        <gco:Decimal>-93.1769</gco:Decimal>
+                     </eastBoundLongitude>
+                     <southBoundLatitude>
+                        <gco:Decimal>44.7834</gco:Decimal>
+                     </southBoundLatitude>
+                     <northBoundLatitude>
+                        <gco:Decimal>45.2477</gco:Decimal>
+                     </northBoundLatitude>
+                  </EX_GeographicBoundingBox>
+               </geographicElement>
+            </EX_Extent>
+         </extent>
+      </MD_DataIdentification>
+  </identificationInfo>
+  <distributionInfo>
+      <MD_Distribution>
+         <distributionFormat>
+            <MD_Format>
+               <name>
+                  <gco:CharacterString>shapefile</gco:CharacterString>
+               </name>
+               <version gco:nilReason="missing"/>
+            </MD_Format>
+         </distributionFormat>
+         <distributor>
+            <MD_Distributor>
+               <distributorContact gco:nilReason="missing"/>
+               <distributorFormat>
+                  <MD_Format>
+                     <name>
+                        <gco:CharacterString>Shapefile</gco:CharacterString>
+                     </name>
+                     <version gco:nilReason="missing"/>
+                  </MD_Format>
+               </distributorFormat>
+            </MD_Distributor>
+         </distributor>
+         <transferOptions>
+            <MD_DigitalTransferOptions>
+               <transferSize>
+                  <gco:Real>0.29</gco:Real>
+               </transferSize>
+               <onLine>
+                  <CI_OnlineResource>
+                     <linkage>
+                        <URL>http://gis.hennepin.opendata.arcgis.com/datasets/62bf3dd96fda4bd49e40574ccbaa7653_1.zip</URL>
+                     </linkage>
+                     <protocol>
+                        <gco:CharacterString>download</gco:CharacterString>
+                     </protocol>
+                  </CI_OnlineResource>
+               </onLine>
+            </MD_DigitalTransferOptions>
+         </transferOptions>
+         <transferOptions>
+            <MD_DigitalTransferOptions>
+               <onLine>
+                  <CI_OnlineResource>
+                     <linkage>
+                        <URL/>
+                     </linkage>
+                     <protocol>
+                        <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
+                     </protocol>
+                     <name>
+                        <gco:CharacterString/>
+                     </name>
+                     <description>
+                        <gco:CharacterString/>
+                     </description>
+                  </CI_OnlineResource>
+               </onLine>
+            </MD_DigitalTransferOptions>
+         </transferOptions>
+      </MD_Distribution>
+  </distributionInfo>
+</MD_Metadata>
