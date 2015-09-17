@@ -186,7 +186,7 @@
          <distributionFormat>
             <MD_Format>
                <name>
-                  <gco:CharacterString>shapefile</gco:CharacterString>
+                  <gco:CharacterString>Shapefile</gco:CharacterString>
                </name>
                <version gco:nilReason="missing"/>
             </MD_Format>
@@ -207,7 +207,7 @@
          <transferOptions>
             <MD_DigitalTransferOptions>
                <transferSize>
-                  <gco:Real>0.29</gco:Real>
+                  <gco:Real/>
                </transferSize>
                <onLine>
                   <CI_OnlineResource>
@@ -217,6 +217,13 @@
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
                      </protocol>
+                     <name>
+                        <gco:CharacterString>shapefile</gco:CharacterString>
+                     </name>
+                     <description>
+                        <gco:CharacterString/>
+                     </description>
+
                   </CI_OnlineResource>
                </onLine>
             </MD_DigitalTransferOptions>
@@ -226,13 +233,13 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL/>
+                        <URL>http://gis.hennepin.us/arcgis/rest/services/HennepinData/LAND_PROPERTY/MapServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
                      </protocol>
                      <name>
-                        <gco:CharacterString/>
+                        <gco:CharacterString>Esri REST Service</gco:CharacterString>
                      </name>
                      <description>
                         <gco:CharacterString/>
