@@ -32,7 +32,7 @@
          <geometricObjects>
             <MD_GeometricObjects>
                <geometricObjectType>
-                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
+                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="curve" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
                   <gco:Integer/>
@@ -63,12 +63,12 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Park &amp;amp; Recreation Areas</gco:CharacterString>
+                  <gco:CharacterString>Hydrography | NonPublic Tiles</gco:CharacterString>
                </title>
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>083b5a356c184f5d898f632e96fbc21b_4</gco:CharacterString>
+                     <gco:CharacterString>a3ff6c0a00e44a2ca0b110332925cff5_6</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
@@ -99,7 +99,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Park and recreation areas within Carver County.&#160; This is a collection of city and county data.&#160; Updated as the GIS Office becomes aware of new recreation areas.</gco:CharacterString>
+            <gco:CharacterString>Nonpublic tiles within Carver County.&amp;#xD;&amp;#xA;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -114,23 +114,32 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>Park</gco:CharacterString>
+                  <gco:CharacterString>Carver County</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>Carver County</gco:CharacterString>
+                  <gco:CharacterString>Public</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Recreation</gco:CharacterString>
+                  <gco:CharacterString>Tile</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Stream</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Hydro</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Hydrography</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://data.carver.opendata.arcgis.com/datasets/083b5a356c184f5d898f632e96fbc21b_4/license.json</gco:CharacterString>
+                  <gco:CharacterString>http://data.carver.opendata.arcgis.com/datasets/a3ff6c0a00e44a2ca0b110332925cff5_6/license.json</gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -161,16 +170,16 @@
                <geographicElement>
                   <EX_GeographicBoundingBox>
                      <westBoundLongitude>
-                        <gco:Decimal>-93.9741</gco:Decimal>
+                        <gco:Decimal>-94.0251</gco:Decimal>
                      </westBoundLongitude>
                      <eastBoundLongitude>
-                        <gco:Decimal>-93.3086</gco:Decimal>
+                        <gco:Decimal>-93.5088</gco:Decimal>
                      </eastBoundLongitude>
                      <southBoundLatitude>
-                        <gco:Decimal>44.5411</gco:Decimal>
+                        <gco:Decimal>44.6312</gco:Decimal>
                      </southBoundLatitude>
                      <northBoundLatitude>
-                        <gco:Decimal>44.9805</gco:Decimal>
+                        <gco:Decimal>44.9872</gco:Decimal>
                      </northBoundLatitude>
                   </EX_GeographicBoundingBox>
                </geographicElement>
@@ -209,7 +218,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://data.carver.opendata.arcgis.com/datasets/083b5a356c184f5d898f632e96fbc21b_4.zip</URL>
+                        <URL>http://data.carver.opendata.arcgis.com/datasets/a3ff6c0a00e44a2ca0b110332925cff5_6.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -230,7 +239,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>https://gis.co.carver.mn.us/arcgis_ea/rest/services/OpenAccess/CC_OpenDataStandards/MapServer/4</URL>
+                        <URL>https://gis.co.carver.mn.us/arcgis_ea/rest/services/OpenAccess/CC_Hydrography/MapServer/6</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

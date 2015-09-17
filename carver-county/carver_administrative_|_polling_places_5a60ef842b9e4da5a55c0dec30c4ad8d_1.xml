@@ -32,7 +32,7 @@
          <geometricObjects>
             <MD_GeometricObjects>
                <geometricObjectType>
-                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
+                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
                   <gco:Integer/>
@@ -63,12 +63,12 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Park &amp;amp; Recreation Areas</gco:CharacterString>
+                  <gco:CharacterString>Administrative | Polling Places</gco:CharacterString>
                </title>
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>083b5a356c184f5d898f632e96fbc21b_4</gco:CharacterString>
+                     <gco:CharacterString>5a60ef842b9e4da5a55c0dec30c4ad8d_1</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
@@ -99,7 +99,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Park and recreation areas within Carver County.&#160; This is a collection of city and county data.&#160; Updated as the GIS Office becomes aware of new recreation areas.</gco:CharacterString>
+            <gco:CharacterString>A polling place or polling location is where voters cast their ballots in elections.  The relationship between voting precincts and polling places is maintained in the PrecinctPollingPlace table and this table should be used to manage the unique occurrence of polling places to precincts; as well as occurrences that require many voting precincts to be related to a single polling place.  </gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -114,23 +114,23 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>Park</gco:CharacterString>
+                  <gco:CharacterString>Carver County</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>Carver County</gco:CharacterString>
+                  <gco:CharacterString>Election</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Recreation</gco:CharacterString>
+                  <gco:CharacterString>Polling</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://data.carver.opendata.arcgis.com/datasets/083b5a356c184f5d898f632e96fbc21b_4/license.json</gco:CharacterString>
+                  <gco:CharacterString>http://data.carver.opendata.arcgis.com/datasets/5a60ef842b9e4da5a55c0dec30c4ad8d_1/license.json</gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -161,16 +161,16 @@
                <geographicElement>
                   <EX_GeographicBoundingBox>
                      <westBoundLongitude>
-                        <gco:Decimal>-93.9741</gco:Decimal>
+                        <gco:Decimal>-93.9719</gco:Decimal>
                      </westBoundLongitude>
                      <eastBoundLongitude>
-                        <gco:Decimal>-93.3086</gco:Decimal>
+                        <gco:Decimal>-93.532</gco:Decimal>
                      </eastBoundLongitude>
                      <southBoundLatitude>
-                        <gco:Decimal>44.5411</gco:Decimal>
+                        <gco:Decimal>44.6887</gco:Decimal>
                      </southBoundLatitude>
                      <northBoundLatitude>
-                        <gco:Decimal>44.9805</gco:Decimal>
+                        <gco:Decimal>44.9616</gco:Decimal>
                      </northBoundLatitude>
                   </EX_GeographicBoundingBox>
                </geographicElement>
@@ -209,7 +209,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://data.carver.opendata.arcgis.com/datasets/083b5a356c184f5d898f632e96fbc21b_4.zip</URL>
+                        <URL>http://data.carver.opendata.arcgis.com/datasets/5a60ef842b9e4da5a55c0dec30c4ad8d_1.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -230,7 +230,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>https://gis.co.carver.mn.us/arcgis_ea/rest/services/OpenAccess/CC_OpenDataStandards/MapServer/4</URL>
+                        <URL>https://gis.co.carver.mn.us/arcgis_ea/rest/services/OpenAccess/CC_Administrative/MapServer/1</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

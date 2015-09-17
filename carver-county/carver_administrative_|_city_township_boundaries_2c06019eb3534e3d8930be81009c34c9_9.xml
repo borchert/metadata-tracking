@@ -63,12 +63,12 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Park &amp;amp; Recreation Areas</gco:CharacterString>
+                  <gco:CharacterString>Administrative | City Township Boundaries</gco:CharacterString>
                </title>
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>083b5a356c184f5d898f632e96fbc21b_4</gco:CharacterString>
+                     <gco:CharacterString>2c06019eb3534e3d8930be81009c34c9_9</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
@@ -99,7 +99,11 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Park and recreation areas within Carver County.&#160; This is a collection of city and county data.&#160; Updated as the GIS Office becomes aware of new recreation areas.</gco:CharacterString>
+            <gco:CharacterString>Summary&#13;
+Carver County City and Township Boundary file.&#13;
+
+Description&#13;
+This is a polygon dataset for the city and township boundaries within Carver County derived from the County Surveryor's base map.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -114,23 +118,26 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>Park</gco:CharacterString>
+                  <gco:CharacterString>Carver County</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>Carver County</gco:CharacterString>
+                  <gco:CharacterString>City</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Recreation</gco:CharacterString>
+                  <gco:CharacterString>Township</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Boundary</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://data.carver.opendata.arcgis.com/datasets/083b5a356c184f5d898f632e96fbc21b_4/license.json</gco:CharacterString>
+                  <gco:CharacterString>http://data.carver.opendata.arcgis.com/datasets/2c06019eb3534e3d8930be81009c34c9_9/license.json</gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -161,16 +168,16 @@
                <geographicElement>
                   <EX_GeographicBoundingBox>
                      <westBoundLongitude>
-                        <gco:Decimal>-93.9741</gco:Decimal>
+                        <gco:Decimal>-94.0129</gco:Decimal>
                      </westBoundLongitude>
                      <eastBoundLongitude>
-                        <gco:Decimal>-93.3086</gco:Decimal>
+                        <gco:Decimal>-93.5108</gco:Decimal>
                      </eastBoundLongitude>
                      <southBoundLatitude>
-                        <gco:Decimal>44.5411</gco:Decimal>
+                        <gco:Decimal>44.6347</gco:Decimal>
                      </southBoundLatitude>
                      <northBoundLatitude>
-                        <gco:Decimal>44.9805</gco:Decimal>
+                        <gco:Decimal>44.9788</gco:Decimal>
                      </northBoundLatitude>
                   </EX_GeographicBoundingBox>
                </geographicElement>
@@ -209,7 +216,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://data.carver.opendata.arcgis.com/datasets/083b5a356c184f5d898f632e96fbc21b_4.zip</URL>
+                        <URL>http://data.carver.opendata.arcgis.com/datasets/2c06019eb3534e3d8930be81009c34c9_9.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -230,7 +237,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>https://gis.co.carver.mn.us/arcgis_ea/rest/services/OpenAccess/CC_OpenDataStandards/MapServer/4</URL>
+                        <URL>https://gis.co.carver.mn.us/arcgis_ea/rest/services/OpenAccess/CC_Administrative/MapServer/9</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

@@ -32,7 +32,7 @@
          <geometricObjects>
             <MD_GeometricObjects>
                <geometricObjectType>
-                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
+                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
                   <gco:Integer/>
@@ -63,12 +63,12 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Park &amp;amp; Recreation Areas</gco:CharacterString>
+                  <gco:CharacterString>OpenDataStandards | Address Points</gco:CharacterString>
                </title>
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>083b5a356c184f5d898f632e96fbc21b_4</gco:CharacterString>
+                     <gco:CharacterString>f52d0d79746c453abb7f2a9a9cc714b4_0</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
@@ -99,7 +99,14 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Park and recreation areas within Carver County.&#160; This is a collection of city and county data.&#160; Updated as the GIS Office becomes aware of new recreation areas.</gco:CharacterString>
+            <gco:CharacterString>Summary&#13;
+Carver County address point dataset.&#13;
+&#13;
+Description&#13;
+Address points are maintained by different addressing authorities within Carver County. The dataset is based upon the MetroGIS Address Points Standards,&#13;
+ derived from the National Address Standard. This dataset contains situs&#13;
+ addresses, they are not used for contact of individuals, but instead &#13;
+for the relating of features to a specific location.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -114,23 +121,32 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>Park</gco:CharacterString>
+                  <gco:CharacterString>Carver County</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>Carver County</gco:CharacterString>
+                  <gco:CharacterString>Address</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Recreation</gco:CharacterString>
+                  <gco:CharacterString>Point</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Open</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Standard</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>MetroGIS</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://data.carver.opendata.arcgis.com/datasets/083b5a356c184f5d898f632e96fbc21b_4/license.json</gco:CharacterString>
+                  <gco:CharacterString>http://data.carver.opendata.arcgis.com/datasets/f52d0d79746c453abb7f2a9a9cc714b4_0/license.json</gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -161,16 +177,16 @@
                <geographicElement>
                   <EX_GeographicBoundingBox>
                      <westBoundLongitude>
-                        <gco:Decimal>-93.9741</gco:Decimal>
+                        <gco:Decimal>-94.0277</gco:Decimal>
                      </westBoundLongitude>
                      <eastBoundLongitude>
-                        <gco:Decimal>-93.3086</gco:Decimal>
+                        <gco:Decimal>-93.51</gco:Decimal>
                      </eastBoundLongitude>
                      <southBoundLatitude>
-                        <gco:Decimal>44.5411</gco:Decimal>
+                        <gco:Decimal>44.6423</gco:Decimal>
                      </southBoundLatitude>
                      <northBoundLatitude>
-                        <gco:Decimal>44.9805</gco:Decimal>
+                        <gco:Decimal>44.9814</gco:Decimal>
                      </northBoundLatitude>
                   </EX_GeographicBoundingBox>
                </geographicElement>
@@ -209,7 +225,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://data.carver.opendata.arcgis.com/datasets/083b5a356c184f5d898f632e96fbc21b_4.zip</URL>
+                        <URL>http://data.carver.opendata.arcgis.com/datasets/f52d0d79746c453abb7f2a9a9cc714b4_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -230,7 +246,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>https://gis.co.carver.mn.us/arcgis_ea/rest/services/OpenAccess/CC_OpenDataStandards/MapServer/4</URL>
+                        <URL>https://gis.co.carver.mn.us/arcgis_ea/rest/services/OpenAccess/CC_OpenDataStandards/MapServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
