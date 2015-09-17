@@ -191,7 +191,7 @@ data in this map, service, or shp file please contact the Minneapolis&#160;GIS o
          <distributionFormat>
             <MD_Format>
                <name>
-                  <gco:CharacterString>shapefile</gco:CharacterString>
+                  <gco:CharacterString>Shapefile</gco:CharacterString>
                </name>
                <version gco:nilReason="missing"/>
             </MD_Format>
@@ -212,7 +212,7 @@ data in this map, service, or shp file please contact the Minneapolis&#160;GIS o
          <transferOptions>
             <MD_DigitalTransferOptions>
                <transferSize>
-                  <gco:Real>0.29</gco:Real>
+                  <gco:Real/>
                </transferSize>
                <onLine>
                   <CI_OnlineResource>
@@ -222,6 +222,13 @@ data in this map, service, or shp file please contact the Minneapolis&#160;GIS o
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
                      </protocol>
+                     <name>
+                        <gco:CharacterString>shapefile</gco:CharacterString>
+                     </name>
+                     <description>
+                        <gco:CharacterString/>
+                     </description>
+
                   </CI_OnlineResource>
                </onLine>
             </MD_DigitalTransferOptions>
@@ -237,7 +244,7 @@ data in this map, service, or shp file please contact the Minneapolis&#160;GIS o
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
                      </protocol>
                      <name>
-                        <gco:CharacterString/>
+                        <gco:CharacterString>Esri REST Service</gco:CharacterString>
                      </name>
                      <description>
                         <gco:CharacterString/>

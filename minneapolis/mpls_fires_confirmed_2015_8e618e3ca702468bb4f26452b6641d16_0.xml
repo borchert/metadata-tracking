@@ -63,12 +63,12 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Police Stations</gco:CharacterString>
+                  <gco:CharacterString>Fires Confirmed 2015</gco:CharacterString>
                </title>
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>cb05984116c146cfa6ee35d32f664bd7_0</gco:CharacterString>
+                     <gco:CharacterString>8e618e3ca702468bb4f26452b6641d16_0</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
@@ -99,7 +99,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Map service showing the locations of the Police Stations and sub-stations in Minneapolis.</gco:CharacterString>
+            <gco:CharacterString>For questions about this data please contact&#160;FireOpenData@minneapolismn.gov</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -114,23 +114,23 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>Minneapolis</gco:CharacterString>
+                  <gco:CharacterString>open data</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>Police Stations</gco:CharacterString>
+                  <gco:CharacterString>fire</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Assets</gco:CharacterString>
+                  <gco:CharacterString>Fire Department</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/cb05984116c146cfa6ee35d32f664bd7_0/license.json</gco:CharacterString>
+                  <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/8e618e3ca702468bb4f26452b6641d16_0/license.json</gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -161,16 +161,16 @@
                <geographicElement>
                   <EX_GeographicBoundingBox>
                      <westBoundLongitude>
-                        <gco:Decimal>-93.3051475315409</gco:Decimal>
+                        <gco:Decimal>-93.32904299999997</gco:Decimal>
                      </westBoundLongitude>
                      <eastBoundLongitude>
-                        <gco:Decimal>-93.2342923951286</gco:Decimal>
+                        <gco:Decimal>-93.19858399999998</gco:Decimal>
                      </eastBoundLongitude>
                      <southBoundLatitude>
-                        <gco:Decimal>44.9464332875385</gco:Decimal>
+                        <gco:Decimal>44.868162000000005</gco:Decimal>
                      </southBoundLatitude>
                      <northBoundLatitude>
-                        <gco:Decimal>45.0123583514198</gco:Decimal>
+                        <gco:Decimal>45.05121299999997</gco:Decimal>
                      </northBoundLatitude>
                   </EX_GeographicBoundingBox>
                </geographicElement>
@@ -209,7 +209,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/cb05984116c146cfa6ee35d32f664bd7_0.zip</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/8e618e3ca702468bb4f26452b6641d16_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -230,7 +230,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Police_Stations/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/FiresConfirmed2015/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>

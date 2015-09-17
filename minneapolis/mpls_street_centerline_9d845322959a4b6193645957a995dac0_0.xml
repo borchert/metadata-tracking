@@ -188,7 +188,7 @@ Minneapolis&#160;GIS office.</gco:CharacterString>
          <distributionFormat>
             <MD_Format>
                <name>
-                  <gco:CharacterString>shapefile</gco:CharacterString>
+                  <gco:CharacterString>Shapefile</gco:CharacterString>
                </name>
                <version gco:nilReason="missing"/>
             </MD_Format>
@@ -209,7 +209,7 @@ Minneapolis&#160;GIS office.</gco:CharacterString>
          <transferOptions>
             <MD_DigitalTransferOptions>
                <transferSize>
-                  <gco:Real>0.29</gco:Real>
+                  <gco:Real/>
                </transferSize>
                <onLine>
                   <CI_OnlineResource>
@@ -219,6 +219,13 @@ Minneapolis&#160;GIS office.</gco:CharacterString>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
                      </protocol>
+                     <name>
+                        <gco:CharacterString>shapefile</gco:CharacterString>
+                     </name>
+                     <description>
+                        <gco:CharacterString/>
+                     </description>
+
                   </CI_OnlineResource>
                </onLine>
             </MD_DigitalTransferOptions>
@@ -234,7 +241,7 @@ Minneapolis&#160;GIS office.</gco:CharacterString>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
                      </protocol>
                      <name>
-                        <gco:CharacterString/>
+                        <gco:CharacterString>Esri REST Service</gco:CharacterString>
                      </name>
                      <description>
                         <gco:CharacterString/>
