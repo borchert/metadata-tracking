@@ -104,7 +104,7 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString/>
+                  <gco:CharacterString>Scott County (Minn.)</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
@@ -131,7 +131,7 @@
             <MD_Constraints>
                <useLimitation>
                   <gco:CharacterString>http://data.scottcounty.opendata.arcgis.com/datasets/2b6307c6761a446fa4e64f9a308df87d_0/license.json</gco:CharacterString>
-               </useLimitation>
+                  </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
          <resourceConstraints>
@@ -159,20 +159,20 @@
          <extent>
             <EX_Extent>
                <geographicElement>
-                  <EX_GeographicBoundingBox>
-                     <westBoundLongitude>
-                        <gco:Decimal>-93.8930875723643</gco:Decimal>
-                     </westBoundLongitude>
-                     <eastBoundLongitude>
-                        <gco:Decimal>-93.27838247486117</gco:Decimal>
-                     </eastBoundLongitude>
-                     <southBoundLatitude>
-                        <gco:Decimal>44.54224666768193</gco:Decimal>
-                     </southBoundLatitude>
-                     <northBoundLatitude>
-                        <gco:Decimal>44.805517558498245</gco:Decimal>
-                     </northBoundLatitude>
-                  </EX_GeographicBoundingBox>
+                   <EX_GeographicBoundingBox>
+                      <westBoundLongitude>
+                         <gco:Decimal>-93.8930875723643</gco:Decimal>
+                      </westBoundLongitude>
+                      <eastBoundLongitude>
+                         <gco:Decimal>-93.27838247486117</gco:Decimal>
+                      </eastBoundLongitude>
+                      <southBoundLatitude>
+                         <gco:Decimal>44.54224666768193</gco:Decimal>
+                      </southBoundLatitude>
+                      <northBoundLatitude>
+                         <gco:Decimal>44.805517558498245</gco:Decimal>
+                      </northBoundLatitude>
+                   </EX_GeographicBoundingBox>
                </geographicElement>
             </EX_Extent>
          </extent>
