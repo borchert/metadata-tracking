@@ -1,6 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <fileIdentifier>
-      <gco:CharacterString>=</gco:CharacterString>
+      <gco:CharacterString/>
   </fileIdentifier>
   <language>
       <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -32,7 +32,7 @@
          <geometricObjects>
             <MD_GeometricObjects>
                <geometricObjectType>
-                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="curve" codeSpace="ISOTC211/19115"/>
+                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
                   <gco:Integer/>
@@ -63,16 +63,31 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>OpenDataStandards | Centerline</gco:CharacterString>
+                  <gco:CharacterString>Administrative | Fire Districts</gco:CharacterString>
                </title>
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>6bf6cb73bb5f4802a93ed70ac1a3340e_1</gco:CharacterString>
+                     <gco:CharacterString>39063ddf89984c20b3a41e68d73c4f76_6</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
-               <date gco:nilReason="missing"/>
+               <date>
+                   <CI_Date>
+                      <date>2014-05-29T19:51:13.000Z<gco:Date/>
+                      </date>
+                     <dateType>
+                     <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                    </dateType>
+                  </CI_Date>
+                  <CI_Date>
+                     <date>2015-09-15T19:19:39.425Z<gco:Date/>
+                     </date>
+                    <dateType>
+                    <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+                   </dateType>
+                 </CI_Date>
+               </date>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
@@ -99,12 +114,12 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Summary&amp;#xD;&amp;#xA;Centerline data was developed for cartographic and geocoding purposes.&#160; The attributes of the centerline data are in the MetroGIS Standard format.&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Description&amp;#xD;&amp;#xA;The geometry of the centerline data is created and maintained by the Carver County's Survey Department.&#160; The attribution of the centerline data is a collaborative effort between the Survey Office and GIS Office.</gco:CharacterString>
+            <gco:CharacterString>Fire Districts were created by the Sheriff's Office and the local Fire Departments.&amp;#xD;&amp;#xA;</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString/>
+                  <gco:CharacterString>Carver County (Minn.)</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
@@ -120,27 +135,21 @@
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>Centerline</gco:CharacterString>
+                  <gco:CharacterString>Fire</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Road</gco:CharacterString>
+                  <gco:CharacterString>District</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Transportion</gco:CharacterString>
-               </keyword>
-               <keyword>
-                  <gco:CharacterString>MetroGIS</gco:CharacterString>
-               </keyword>
-               <keyword>
-                  <gco:CharacterString>Standard</gco:CharacterString>
+                  <gco:CharacterString>Boundary</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://data.carver.opendata.arcgis.com/datasets/6bf6cb73bb5f4802a93ed70ac1a3340e_1/license.json</gco:CharacterString>
-               </useLimitation>
+                  <gco:CharacterString>The information provided on this site is for reference purposes only. The information is not suitable for legal, engineering, surveying, etc. purposes. Carver County does not guarantee the accuracy of the information contained herein. The Information is furnished on an &#8216;as is&#8217; basis with and Carver County is making no representation or providing any warranties, either express or implied, for the merchantability or fitness of the information provided on this site for any purpose. The preceding disclaimer is provided pursuant to Minnesota Statutes &#167;466.03, Sub. 21, and the user of the information provided herein acknowledges that Carver County shall not be liable for any damages, and by using this data in any way expressly waives all claims, and agrees to defend, indemnify, and hold harmless Carver County, its officials, officers, agents, employees, etc. from any and all claims brought by anyone who uses the information provided for herein, its employees or agents, or third parties which arise out of user's access.</gco:CharacterString>
+                  </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
          <resourceConstraints>
@@ -162,26 +171,23 @@
          <topicCategory>
             <MD_TopicCategoryCode/>
          </topicCategory>
-         <environmentDescription>
-            <gco:CharacterString>Version 6.2 (Build 9200) ; Esri ArcGIS 10.2.2.3574</gco:CharacterString>
-         </environmentDescription>
          <extent>
             <EX_Extent>
                <geographicElement>
-                  <EX_GeographicBoundingBox>
-                     <westBoundLongitude>
-                        <gco:Decimal>-94.0126</gco:Decimal>
-                     </westBoundLongitude>
-                     <eastBoundLongitude>
-                        <gco:Decimal>-93.5109</gco:Decimal>
-                     </eastBoundLongitude>
-                     <southBoundLatitude>
-                        <gco:Decimal>44.6424</gco:Decimal>
-                     </southBoundLatitude>
-                     <northBoundLatitude>
-                        <gco:Decimal>44.9787</gco:Decimal>
-                     </northBoundLatitude>
-                  </EX_GeographicBoundingBox>
+                   <EX_GeographicBoundingBox>
+                      <westBoundLongitude>
+                         <gco:Decimal>-94.013</gco:Decimal>
+                      </westBoundLongitude>
+                      <eastBoundLongitude>
+                         <gco:Decimal>-93.5106</gco:Decimal>
+                      </eastBoundLongitude>
+                      <southBoundLatitude>
+                         <gco:Decimal>44.6346</gco:Decimal>
+                      </southBoundLatitude>
+                      <northBoundLatitude>
+                         <gco:Decimal>45.007</gco:Decimal>
+                      </northBoundLatitude>
+                   </EX_GeographicBoundingBox>
                </geographicElement>
             </EX_Extent>
          </extent>
@@ -218,7 +224,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://data.carver.opendata.arcgis.com/datasets/6bf6cb73bb5f4802a93ed70ac1a3340e_1.zip</URL>
+                        <URL>http://data.carver.opendata.arcgis.com/datasets/39063ddf89984c20b3a41e68d73c4f76_6.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -239,7 +245,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>https://gis.co.carver.mn.us/arcgis_ea/rest/services/OpenAccess/CC_OpenDataStandards/MapServer/1</URL>
+                        <URL>https://gis.co.carver.mn.us/arcgis_ea/rest/services/OpenAccess/CC_Administrative/MapServer/6</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
@@ -256,4 +262,12 @@
          </transferOptions>
       </MD_Distribution>
   </distributionInfo>
+  <metadataMaintenance>
+      <MD_MaintenanceInformation>
+         <maintenanceNote>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from {url}, orignally in the Project Open Data Metadata Schema.</gco:CharacterString>
+         </maintenanceNote>
+    </MD_MaintenanceInformation>
+</metadataMaintenance>
+
 </MD_Metadata>

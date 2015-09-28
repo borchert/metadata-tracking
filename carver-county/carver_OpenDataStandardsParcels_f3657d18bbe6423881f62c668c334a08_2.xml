@@ -1,6 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <fileIdentifier>
-      <gco:CharacterString>=</gco:CharacterString>
+      <gco:CharacterString/>
   </fileIdentifier>
   <language>
       <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -63,16 +63,31 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Administrative | County Boundary</gco:CharacterString>
+                  <gco:CharacterString>OpenDataStandards | Parcels</gco:CharacterString>
                </title>
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>f8f50203413a49178aa051536083d1b0_10</gco:CharacterString>
+                     <gco:CharacterString>f3657d18bbe6423881f62c668c334a08_2</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
-               <date gco:nilReason="missing"/>
+               <date>
+                   <CI_Date>
+                      <date>2014-11-26T17:51:39.000Z<gco:Date/>
+                      </date>
+                     <dateType>
+                     <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                    </dateType>
+                  </CI_Date>
+                  <CI_Date>
+                     <date>2015-09-15T19:18:34.814Z<gco:Date/>
+                     </date>
+                    <dateType>
+                    <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+                   </dateType>
+                 </CI_Date>
+               </date>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
@@ -99,12 +114,22 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Summary Carver County&#160;Boundary file. Description This is a polygon dataset for the&#160;County Boundary derived from the County Surveryor's base map.&amp;#xD;&amp;#xA;</gco:CharacterString>
+            <gco:CharacterString>Summary&#13;
+Parcel data was developed to map and track property boundaries.  The attributes of the parcel data are in the MetroGIS Standard format.&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;
+
+DescriptionThe geometry of parcels&#13;
+ were created by Carver County's Survey department using COGO in an &#13;
+AutoCad environment. The AutoCad lines have been imported into a ArcGIS &#13;
+Geodatabase and polygons built. These polygons are attributed with a &#13;
+Parcel Identification Number (PID). The GIS polygons are joined by PID &#13;
+to the Assessor's CAMA system and Taxpayer Services tax database to show&#13;
+ attributes of the property.
+</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString/>
+                  <gco:CharacterString>Carver County (Minn.)</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
@@ -120,18 +145,45 @@
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
+                  <gco:CharacterString>Parcel</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Property</gco:CharacterString>
+               </keyword>
+               <keyword>
                   <gco:CharacterString>Boundary</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>County</gco:CharacterString>
+                  <gco:CharacterString>Survey</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>MetroGIS</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Standard</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://data.carver.opendata.arcgis.com/datasets/f8f50203413a49178aa051536083d1b0_10/license.json</gco:CharacterString>
-               </useLimitation>
+                  <gco:CharacterString>The&#13;
+ information provided on this site is for reference purposes only. The &#13;
+information is not suitable for legal, engineering, surveying, etc. &#13;
+purposes. Carver County does not guarantee the accuracy of the &#13;
+information contained herein. The Information is furnished on an &#8216;as is&#8217;&#13;
+ basis with and Carver County is making no representation or providing &#13;
+any warranties, either express or implied, for the merchantability or &#13;
+fitness of the information provided on this site for any purpose. The &#13;
+preceding disclaimer is provided pursuant to Minnesota Statutes &#167;466.03,&#13;
+ Sub. 21, and the user of the information provided herein acknowledges &#13;
+that Carver County shall not be liable for any damages, and by using &#13;
+this data in any way expressly waives all claims, and agrees to defend, &#13;
+indemnify, and hold harmless Carver County, its officials, officers, &#13;
+agents, employees, etc. from any and all claims brought by anyone who &#13;
+uses the information provided for herein, its employees or agents, or &#13;
+third parties which arise out of user's access.</gco:CharacterString>
+                  </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
          <resourceConstraints>
@@ -153,26 +205,23 @@
          <topicCategory>
             <MD_TopicCategoryCode/>
          </topicCategory>
-         <environmentDescription>
-            <gco:CharacterString>Version 6.2 (Build 9200) ; Esri ArcGIS 10.2.2.3574</gco:CharacterString>
-         </environmentDescription>
          <extent>
             <EX_Extent>
                <geographicElement>
-                  <EX_GeographicBoundingBox>
-                     <westBoundLongitude>
-                        <gco:Decimal>-94.0129</gco:Decimal>
-                     </westBoundLongitude>
-                     <eastBoundLongitude>
-                        <gco:Decimal>-93.5194</gco:Decimal>
-                     </eastBoundLongitude>
-                     <southBoundLatitude>
-                        <gco:Decimal>44.6347</gco:Decimal>
-                     </southBoundLatitude>
-                     <northBoundLatitude>
-                        <gco:Decimal>44.9788</gco:Decimal>
-                     </northBoundLatitude>
-                  </EX_GeographicBoundingBox>
+                   <EX_GeographicBoundingBox>
+                      <westBoundLongitude>
+                         <gco:Decimal>-94.0151</gco:Decimal>
+                      </westBoundLongitude>
+                      <eastBoundLongitude>
+                         <gco:Decimal>-93.5185</gco:Decimal>
+                      </eastBoundLongitude>
+                      <southBoundLatitude>
+                         <gco:Decimal>44.6336</gco:Decimal>
+                      </southBoundLatitude>
+                      <northBoundLatitude>
+                         <gco:Decimal>44.9818</gco:Decimal>
+                      </northBoundLatitude>
+                   </EX_GeographicBoundingBox>
                </geographicElement>
             </EX_Extent>
          </extent>
@@ -209,7 +258,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://data.carver.opendata.arcgis.com/datasets/f8f50203413a49178aa051536083d1b0_10.zip</URL>
+                        <URL>http://data.carver.opendata.arcgis.com/datasets/f3657d18bbe6423881f62c668c334a08_2.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -230,7 +279,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>https://gis.co.carver.mn.us/arcgis_ea/rest/services/OpenAccess/CC_Administrative/MapServer/10</URL>
+                        <URL>https://gis.co.carver.mn.us/arcgis_ea/rest/services/OpenAccess/CC_OpenDataStandards/MapServer/2</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
@@ -247,4 +296,12 @@
          </transferOptions>
       </MD_Distribution>
   </distributionInfo>
+  <metadataMaintenance>
+      <MD_MaintenanceInformation>
+         <maintenanceNote>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from {url}, orignally in the Project Open Data Metadata Schema.</gco:CharacterString>
+         </maintenanceNote>
+    </MD_MaintenanceInformation>
+</metadataMaintenance>
+
 </MD_Metadata>

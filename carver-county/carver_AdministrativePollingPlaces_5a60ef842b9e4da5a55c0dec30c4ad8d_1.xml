@@ -1,6 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <fileIdentifier>
-      <gco:CharacterString>=</gco:CharacterString>
+      <gco:CharacterString/>
   </fileIdentifier>
   <language>
       <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -72,7 +72,22 @@
                    </code>
                  </MD_Identifier>
                </identifier>
-               <date gco:nilReason="missing"/>
+               <date>
+                   <CI_Date>
+                      <date>2014-05-29T18:43:18.000Z<gco:Date/>
+                      </date>
+                     <dateType>
+                     <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                    </dateType>
+                  </CI_Date>
+                  <CI_Date>
+                     <date>2015-09-15T19:20:19.392Z<gco:Date/>
+                     </date>
+                    <dateType>
+                    <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+                   </dateType>
+                 </CI_Date>
+               </date>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
@@ -104,7 +119,7 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString/>
+                  <gco:CharacterString>Carver County (Minn.)</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
@@ -130,8 +145,8 @@
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://data.carver.opendata.arcgis.com/datasets/5a60ef842b9e4da5a55c0dec30c4ad8d_1/license.json</gco:CharacterString>
-               </useLimitation>
+                  <gco:CharacterString>The information provided on this site is for reference purposes only. The information is not suitable for legal, engineering, surveying, etc. purposes. Carver County does not guarantee the accuracy of the information contained herein. The Information is furnished on an &#8216;as is&#8217; basis with and Carver County is making no representation or providing any warranties, either express or implied, for the merchantability or fitness of the information provided on this site for any purpose. The preceding disclaimer is provided pursuant to Minnesota Statutes &#167;466.03, Sub. 21, and the user of the information provided herein acknowledges that Carver County shall not be liable for any damages, and by using this data in any way expressly waives all claims, and agrees to defend, indemnify, and hold harmless Carver County, its officials, officers, agents, employees, etc. from any and all claims brought by anyone who uses the information provided for herein, its employees or agents, or third parties which arise out of user's access.</gco:CharacterString>
+                  </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
          <resourceConstraints>
@@ -153,26 +168,23 @@
          <topicCategory>
             <MD_TopicCategoryCode/>
          </topicCategory>
-         <environmentDescription>
-            <gco:CharacterString>Version 6.2 (Build 9200) ; Esri ArcGIS 10.2.2.3574</gco:CharacterString>
-         </environmentDescription>
          <extent>
             <EX_Extent>
                <geographicElement>
-                  <EX_GeographicBoundingBox>
-                     <westBoundLongitude>
-                        <gco:Decimal>-93.9719</gco:Decimal>
-                     </westBoundLongitude>
-                     <eastBoundLongitude>
-                        <gco:Decimal>-93.532</gco:Decimal>
-                     </eastBoundLongitude>
-                     <southBoundLatitude>
-                        <gco:Decimal>44.6887</gco:Decimal>
-                     </southBoundLatitude>
-                     <northBoundLatitude>
-                        <gco:Decimal>44.9616</gco:Decimal>
-                     </northBoundLatitude>
-                  </EX_GeographicBoundingBox>
+                   <EX_GeographicBoundingBox>
+                      <westBoundLongitude>
+                         <gco:Decimal>-93.9719</gco:Decimal>
+                      </westBoundLongitude>
+                      <eastBoundLongitude>
+                         <gco:Decimal>-93.532</gco:Decimal>
+                      </eastBoundLongitude>
+                      <southBoundLatitude>
+                         <gco:Decimal>44.6887</gco:Decimal>
+                      </southBoundLatitude>
+                      <northBoundLatitude>
+                         <gco:Decimal>44.9616</gco:Decimal>
+                      </northBoundLatitude>
+                   </EX_GeographicBoundingBox>
                </geographicElement>
             </EX_Extent>
          </extent>
@@ -247,4 +259,12 @@
          </transferOptions>
       </MD_Distribution>
   </distributionInfo>
+  <metadataMaintenance>
+      <MD_MaintenanceInformation>
+         <maintenanceNote>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from {url}, orignally in the Project Open Data Metadata Schema.</gco:CharacterString>
+         </maintenanceNote>
+    </MD_MaintenanceInformation>
+</metadataMaintenance>
+
 </MD_Metadata>
