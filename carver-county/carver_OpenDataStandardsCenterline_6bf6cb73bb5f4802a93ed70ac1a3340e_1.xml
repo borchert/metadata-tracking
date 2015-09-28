@@ -286,9 +286,8 @@ third parties which arise out of user's access.</gco:CharacterString>
   <metadataMaintenance>
       <MD_MaintenanceInformation>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from {url}, orignally in the Project Open Data Metadata Schema.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.carver.opendata.arcgis.com/datasets/6bf6cb73bb5f4802a93ed70ac1a3340e_1, orignally in the Project Open Data Metadata Schema, at Mon Sep 28 16:09:51 2015.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>
-
 </MD_Metadata>

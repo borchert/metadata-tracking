@@ -268,9 +268,8 @@
   <metadataMaintenance>
       <MD_MaintenanceInformation>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from {url}, orignally in the Project Open Data Metadata Schema.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.carver.opendata.arcgis.com/datasets/ce4fdaf6e33541a69be07f0191c9f5fe_1, orignally in the Project Open Data Metadata Schema, at Mon Sep 28 16:09:51 2015.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>
-
 </MD_Metadata>
