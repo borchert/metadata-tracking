@@ -63,16 +63,31 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Wooded Areas</gco:CharacterString>
+                  <gco:CharacterString>Split Zoning</gco:CharacterString>
                </title>
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>a8eb3e26bfe546fcb97e6be8b64e2cfb_0</gco:CharacterString>
+                     <gco:CharacterString>498d2c66540d45a3b2c4e813878f23cb_0</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
-               <date gco:nilReason="missing"/>
+               <date>
+                   <CI_Date>
+                      <date>2015-09-03T21:36:08.000Z<gco:Date/>
+                      </date>
+                     <dateType>
+                     <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                    </dateType>
+                  </CI_Date>
+                  <CI_Date>
+                     <date>2015-09-17T21:49:55.000Z<gco:Date/>
+                     </date>
+                    <dateType>
+                    <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+                   </dateType>
+                 </CI_Date>
+               </date>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
@@ -99,7 +114,21 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Wooded Areas within Scott County. This planimetric data was collected in 2003.</gco:CharacterString>
+            <gco:CharacterString>Scott County Split Zoning. Zoning data falls into 1 of 12 categories:&#13;
+A-1 = Agricultural Preservation District&#13;
+A-2 = Agricultural Woodlands District&#13;
+A-3 = Agricultural Preservation Density District&#13;
+C-1 = General Commercial District&#13;
+I-1 = Rural Industrial District&#13;
+RR-1 = Rural Residential Reserve District&#13;
+RR-1C = Rural Residential Reserve Cluster District&#13;
+RR-2 = Rural Residential Single Family District&#13;
+RR-3 = Residential Suburban Single Family District&#13;
+UBR = Urban Business Reserve District&#13;
+UER = Urban Expansion Reserve District&#13;
+UERC = Urban Expansion Reserve Cluster District&#13;
+UTR = Urban Transition Reserve District&#13;
+UTR-C = Urban Transition Reserve Cluster District</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -120,10 +149,7 @@
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>Wooded Areas</gco:CharacterString>
-               </keyword>
-               <keyword>
-                  <gco:CharacterString>Safe</gco:CharacterString>
+                  <gco:CharacterString>Zoning</gco:CharacterString>
                </keyword>
                <keyword>
                   <gco:CharacterString>Livable</gco:CharacterString>
@@ -133,7 +159,7 @@
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://data.scottcounty.opendata.arcgis.com/datasets/a8eb3e26bfe546fcb97e6be8b64e2cfb_0/license.json</gco:CharacterString>
+                  <gco:CharacterString>Disclaimer: This information is to be used for reference purposes only. Scott County does not guarantee accuracy of the material contained herein and is not responsible for misuse or misinterpretation. The preceding disclaimer is provided pursuant to Minnesota Statutes&#160;&lt;a href="https://www.revisor.leg.state.mn.us/statutes/?id=466.03" target="_blank"&gt;466.03, Subd. 21&lt;/a&gt;, and the user of this service acknowledges that Scott County shall not be liable for any damages, and expressly waives all claims, and agrees to defend, indemnify, and hold harmless Scott County from any and all claims brought by User, its employees or agents, or third parties which arise out of the user's access or use of data provided.</gco:CharacterString>
                   </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -164,16 +190,16 @@
                <geographicElement>
                    <EX_GeographicBoundingBox>
                       <westBoundLongitude>
-                         <gco:Decimal>-93.91321995101463</gco:Decimal>
+                         <gco:Decimal>-93.91463871337429</gco:Decimal>
                       </westBoundLongitude>
                       <eastBoundLongitude>
-                         <gco:Decimal>-93.27762686974171</gco:Decimal>
+                         <gco:Decimal>-93.27761642693484</gco:Decimal>
                       </eastBoundLongitude>
                       <southBoundLatitude>
-                         <gco:Decimal>44.54233163375147</gco:Decimal>
+                         <gco:Decimal>44.541978569853455</gco:Decimal>
                       </southBoundLatitude>
                       <northBoundLatitude>
-                         <gco:Decimal>44.8133009337009</gco:Decimal>
+                         <gco:Decimal>44.81327564981401</gco:Decimal>
                       </northBoundLatitude>
                    </EX_GeographicBoundingBox>
                </geographicElement>
@@ -212,7 +238,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://data.scottcounty.opendata.arcgis.com/datasets/a8eb3e26bfe546fcb97e6be8b64e2cfb_0.zip</URL>
+                        <URL>http://data.scottcounty.opendata.arcgis.com/datasets/498d2c66540d45a3b2c4e813878f23cb_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -233,7 +259,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>https://services.arcgis.com/DqIh9WAsIZcPlBEF/arcgis/rest/services/Wooded_Areas/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/DqIh9WAsIZcPlBEF/arcgis/rest/services/Split_Zoning/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
@@ -250,4 +276,12 @@
          </transferOptions>
       </MD_Distribution>
   </distributionInfo>
+  <metadataMaintenance>
+      <MD_MaintenanceInformation>
+         <maintenanceNote>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/498d2c66540d45a3b2c4e813878f23cb_0, orignally in the Project Open Data Metadata Schema, at Mon Sep 28 16:11:16 2015.</gco:CharacterString>
+         </maintenanceNote>
+    </MD_MaintenanceInformation>
+  </metadataMaintenance>
+
 </MD_Metadata>

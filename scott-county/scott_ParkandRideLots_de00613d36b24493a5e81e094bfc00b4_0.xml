@@ -32,7 +32,7 @@
          <geometricObjects>
             <MD_GeometricObjects>
                <geometricObjectType>
-                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
+                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
                   <gco:Integer/>
@@ -63,16 +63,31 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Open Water</gco:CharacterString>
+                  <gco:CharacterString>Park and Ride Lots</gco:CharacterString>
                </title>
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>a2d0744ac0554fa3a998a375d8cd22cc_0</gco:CharacterString>
+                     <gco:CharacterString>de00613d36b24493a5e81e094bfc00b4_0</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
-               <date gco:nilReason="missing"/>
+               <date>
+                   <CI_Date>
+                      <date>2015-09-17T21:41:16.000Z<gco:Date/>
+                      </date>
+                     <dateType>
+                     <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                    </dateType>
+                  </CI_Date>
+                  <CI_Date>
+                     <date>2015-09-17T21:43:25.000Z<gco:Date/>
+                     </date>
+                    <dateType>
+                    <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+                   </dateType>
+                 </CI_Date>
+               </date>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
@@ -99,7 +114,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Open Water within Scott County. This planimetric data was collected in 2003.</gco:CharacterString>
+            <gco:CharacterString>Park &amp; Ride Lots within Scott County. For more information, visit the&#160;SmarkLink Transit&#160;website.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -114,35 +129,32 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>Scott County Minnesota</gco:CharacterString>
+                  <gco:CharacterString>Park and Ride</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>Open Water</gco:CharacterString>
+                  <gco:CharacterString>Scott County Minnesota</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Rivers</gco:CharacterString>
-               </keyword>
-               <keyword>
-                  <gco:CharacterString>Lakes</gco:CharacterString>
-               </keyword>
-               <keyword>
-                  <gco:CharacterString>Streams</gco:CharacterString>
-               </keyword>
-               <keyword>
-                  <gco:CharacterString>Livable</gco:CharacterString>
+                  <gco:CharacterString>Transportation</gco:CharacterString>
                </keyword>
                <keyword>
                   <gco:CharacterString>Safe</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Healthy</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Livable</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://data.scottcounty.opendata.arcgis.com/datasets/a2d0744ac0554fa3a998a375d8cd22cc_0/license.json</gco:CharacterString>
+                  <gco:CharacterString>Disclaimer: This information is to be used for reference purposes only. Scott County does not guarantee accuracy of the material contained herein and is not responsible for misuse or misinterpretation. The preceding disclaimer is provided pursuant to Minnesota Statutes&#160;&lt;a href="https://www.revisor.leg.state.mn.us/statutes/?id=466.03" target="_blank"&gt;466.03, Subd. 21&lt;/a&gt;, and the user of this service acknowledges that Scott County shall not be liable for any damages, and expressly waives all claims, and agrees to defend, indemnify, and hold harmless Scott County from any and all claims brought by User, its employees or agents, or third parties which arise out of the user's access or use of data provided.</gco:CharacterString>
                   </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -173,16 +185,16 @@
                <geographicElement>
                    <EX_GeographicBoundingBox>
                       <westBoundLongitude>
-                         <gco:Decimal>-93.91442870919357</gco:Decimal>
+                         <gco:Decimal>-93.76991127218233</gco:Decimal>
                       </westBoundLongitude>
                       <eastBoundLongitude>
-                         <gco:Decimal>-93.27772978043392</gco:Decimal>
+                         <gco:Decimal>-93.33150758240241</gco:Decimal>
                       </eastBoundLongitude>
                       <southBoundLatitude>
-                         <gco:Decimal>44.54222984125315</gco:Decimal>
+                         <gco:Decimal>44.62487358074655</gco:Decimal>
                       </southBoundLatitude>
                       <northBoundLatitude>
-                         <gco:Decimal>44.81353821736063</gco:Decimal>
+                         <gco:Decimal>44.78252239863632</gco:Decimal>
                       </northBoundLatitude>
                    </EX_GeographicBoundingBox>
                </geographicElement>
@@ -221,7 +233,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://data.scottcounty.opendata.arcgis.com/datasets/a2d0744ac0554fa3a998a375d8cd22cc_0.zip</URL>
+                        <URL>http://data.scottcounty.opendata.arcgis.com/datasets/de00613d36b24493a5e81e094bfc00b4_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -242,7 +254,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>https://services.arcgis.com/DqIh9WAsIZcPlBEF/arcgis/rest/services/Open_Water/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/DqIh9WAsIZcPlBEF/arcgis/rest/services/Park_and_Ride_Lots/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
@@ -259,4 +271,12 @@
          </transferOptions>
       </MD_Distribution>
   </distributionInfo>
+  <metadataMaintenance>
+      <MD_MaintenanceInformation>
+         <maintenanceNote>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/de00613d36b24493a5e81e094bfc00b4_0, orignally in the Project Open Data Metadata Schema, at Mon Sep 28 16:11:16 2015.</gco:CharacterString>
+         </maintenanceNote>
+    </MD_MaintenanceInformation>
+  </metadataMaintenance>
+
 </MD_Metadata>

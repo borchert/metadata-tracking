@@ -63,16 +63,31 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Split Zoning</gco:CharacterString>
+                  <gco:CharacterString>2030 Comprehensive Landuse</gco:CharacterString>
                </title>
                <identifier>
                  <MD_Identifier>
                    <code>
-                     <gco:CharacterString>498d2c66540d45a3b2c4e813878f23cb_0</gco:CharacterString>
+                     <gco:CharacterString>dca222d80b1846158e23b6c5fdf24c3c_0</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
-               <date gco:nilReason="missing"/>
+               <date>
+                   <CI_Date>
+                      <date>2015-09-03T21:44:37.000Z<gco:Date/>
+                      </date>
+                     <dateType>
+                     <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                    </dateType>
+                  </CI_Date>
+                  <CI_Date>
+                     <date>2015-09-17T21:48:52.000Z<gco:Date/>
+                     </date>
+                    <dateType>
+                    <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+                   </dateType>
+                 </CI_Date>
+               </date>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <organisationName>
@@ -99,7 +114,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Scott County Split Zoning. Zoning data falls into 1 of 12 categories:&#13;
+            <gco:CharacterString>2030 Comprehensive Landuse Plan for Scott County. For more information, please visit Scott County's 2030 Comprehensive Plan Implementation webpage. Zoning data falls into 1 of 12 categories:&#13;
 A-1 = Agricultural Preservation District&#13;
 A-2 = Agricultural Woodlands District&#13;
 A-3 = Agricultural Preservation Density District&#13;
@@ -134,17 +149,20 @@ UTR-C = Urban Transition Reserve Cluster District</gco:CharacterString>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>Zoning</gco:CharacterString>
+                  <gco:CharacterString>Landuse</gco:CharacterString>
                </keyword>
                <keyword>
                   <gco:CharacterString>Livable</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Healthy</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>http://data.scottcounty.opendata.arcgis.com/datasets/498d2c66540d45a3b2c4e813878f23cb_0/license.json</gco:CharacterString>
+                  <gco:CharacterString>Disclaimer: This information is to be used for reference purposes only. Scott County does not guarantee accuracy of the material contained herein and is not responsible for misuse or misinterpretation. The preceding disclaimer is provided pursuant to Minnesota Statutes&#160;&lt;a href="https://www.revisor.leg.state.mn.us/statutes/?id=466.03" target="_blank"&gt;466.03, Subd. 21&lt;/a&gt;, and the user of this service acknowledges that Scott County shall not be liable for any damages, and expressly waives all claims, and agrees to defend, indemnify, and hold harmless Scott County from any and all claims brought by User, its employees or agents, or third parties which arise out of the user's access or use of data provided.</gco:CharacterString>
                   </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -223,7 +241,7 @@ UTR-C = Urban Transition Reserve Cluster District</gco:CharacterString>
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://data.scottcounty.opendata.arcgis.com/datasets/498d2c66540d45a3b2c4e813878f23cb_0.zip</URL>
+                        <URL>http://data.scottcounty.opendata.arcgis.com/datasets/dca222d80b1846158e23b6c5fdf24c3c_0.zip</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -244,7 +262,7 @@ UTR-C = Urban Transition Reserve Cluster District</gco:CharacterString>
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>https://services.arcgis.com/DqIh9WAsIZcPlBEF/arcgis/rest/services/Split_Zoning/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/DqIh9WAsIZcPlBEF/arcgis/rest/services/2030_Comprehensive_Landuse/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
@@ -261,4 +279,12 @@ UTR-C = Urban Transition Reserve Cluster District</gco:CharacterString>
          </transferOptions>
       </MD_Distribution>
   </distributionInfo>
+  <metadataMaintenance>
+      <MD_MaintenanceInformation>
+         <maintenanceNote>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/dca222d80b1846158e23b6c5fdf24c3c_0, orignally in the Project Open Data Metadata Schema, at Mon Sep 28 16:11:16 2015.</gco:CharacterString>
+         </maintenanceNote>
+    </MD_MaintenanceInformation>
+  </metadataMaintenance>
+
 </MD_Metadata>
