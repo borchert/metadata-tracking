@@ -190,6 +190,8 @@ def main(url, prefix, output_path, template):
         tree.write(os.path.join(output_path, new_xml_filename + ".xml"), pretty_print=True)
 
 
+RE = re.compile('\w')
+
 NSMAP = {
    "srv":"http://www.isotc211.org/2005/srv",
    "gco":"http://www.isotc211.org/2005/gco",
@@ -244,7 +246,7 @@ PATHS = {
     "metadata_source": "gmd:metadataMaintenance/gmd:MD_MaintenanceInformation/gmd:maintenanceNote/gco:CharacterString"
 }
 
-RE = re.compile('\w')
+
 
 if __name__ == "__main__":
     import sys
