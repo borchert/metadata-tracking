@@ -8,7 +8,7 @@
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <fileIdentifier>
-      <gco:CharacterString>=</gco:CharacterString>
+      <gco:CharacterString></gco:CharacterString>
   </fileIdentifier>
   <language>
       <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng"
@@ -103,7 +103,7 @@
                        <gco:Date></gco:Date>
                      </date>
                     <dateType>
-                        <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+                    <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
                    </dateType>
                  </CI_Date>
                </date>
@@ -168,14 +168,16 @@
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString></gco:CharacterString>
-               </useLimitation>
+                  <gco:CharacterString>This information is to be used for reference purposes only.</gco:CharacterString>
+                  </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
          <resourceConstraints>
             <MD_LegalConstraints>
                <otherConstraints>
-                  <gco:CharacterString></gco:CharacterString>
+                  <gco:CharacterString>
+
+                  </gco:CharacterString>
                </otherConstraints>
             </MD_LegalConstraints>
          </resourceConstraints>
@@ -196,26 +198,23 @@
          <topicCategory>
             <MD_TopicCategoryCode></MD_TopicCategoryCode>
          </topicCategory>
-         <environmentDescription>
-            <gco:CharacterString>Version 6.2 (Build 9200) ; Esri ArcGIS 10.2.2.3574</gco:CharacterString>
-         </environmentDescription>
          <extent>
             <EX_Extent>
                <geographicElement>
-                  <EX_GeographicBoundingBox>
-                     <westBoundLongitude>
-                        <gco:Decimal></gco:Decimal>
-                     </westBoundLongitude>
-                     <eastBoundLongitude>
-                        <gco:Decimal></gco:Decimal>
-                     </eastBoundLongitude>
-                     <southBoundLatitude>
-                        <gco:Decimal></gco:Decimal>
-                     </southBoundLatitude>
-                     <northBoundLatitude>
-                        <gco:Decimal></gco:Decimal>
-                     </northBoundLatitude>
-                  </EX_GeographicBoundingBox>
+                   <EX_GeographicBoundingBox>
+                      <westBoundLongitude>
+                         <gco:Decimal></gco:Decimal>
+                      </westBoundLongitude>
+                      <eastBoundLongitude>
+                         <gco:Decimal></gco:Decimal>
+                      </eastBoundLongitude>
+                      <southBoundLatitude>
+                         <gco:Decimal></gco:Decimal>
+                      </southBoundLatitude>
+                      <northBoundLatitude>
+                         <gco:Decimal></gco:Decimal>
+                      </northBoundLatitude>
+                   </EX_GeographicBoundingBox>
                </geographicElement>
             </EX_Extent>
          </extent>
@@ -290,4 +289,11 @@
          </transferOptions>
       </MD_Distribution>
   </distributionInfo>
+  <metadataMaintenance>
+      <MD_MaintenanceInformation>
+         <maintenanceNote>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from {url}, orignally in the Project Open Data Metadata Schema, at {datetime}.</gco:CharacterString>
+         </maintenanceNote>
+    </MD_MaintenanceInformation>
+</metadataMaintenance>
 </MD_Metadata>

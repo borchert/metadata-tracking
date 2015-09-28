@@ -6,6 +6,9 @@ from bs4 import BeautifulSoup
 from copy import deepcopy
 import os, os.path
 import json
+import pdb
+import re
+import datetime
 
 """
 Script for writing ISO 19139 metadata for Esri Open Data datasets. Work in progress...
@@ -14,17 +17,21 @@ Script for writing ISO 19139 metadata for Esri Open Data datasets. Work in progr
 def get_list_of_datasets(root_data_json):
     return [i.identifier for i in root_data_json]
 
-def request_data_json(url, prefix):
-    print "remote request for data.json"
+
+def request_data_json(url):
     try:
+        print "requesting data.json..."
         j = requests.get(url).json()
+        print "data.json received..."
     except requests.exceptions.HTTPError as e:
         sys.exit(e.message)
     else:
         return j["dataset"]
 
-def get_data_json(prefix, url):
-    return request_data_json(url, prefix)
+
+def get_data_json(url):
+    return request_data_json(url)
+
 
 def get_elements_for_open_data(tree):
     field_map = {}
@@ -32,63 +39,38 @@ def get_elements_for_open_data(tree):
         field_map[field] = tree.findall(PATHS[field],NSMAP)
     return field_map
 
+
 def parse_template_into_tree(template_name="scrape_open_data/opendata_iso_template_gmd_gone.xml"):
     return etree.parse(template_name)
 
-def get_bbox(dataset):
-    return dataset["spatial"].split(",")
 
-def check_for_landing_page_json(dataset):
-    if landing_page_json is not None:
-        return True
-    else:
+def get_bbox(dataset):
+    """
+    Function that reads a dataset record from data.json and if the key 'spatial' exists, splits
+    it into a list and returns it. If 'spatial' is null or equivalent to a global scale, returns False
+    """
+    # we don't want null bboxes or "global" datasets, which are most likely just incorrect bboxes
+    if not dataset["spatial"] or dataset["spatial"] == "-180.0,-90.0,180.0,90.0":
         return False
+    else:
+        return dataset["spatial"].split(",")
+
 
 def get_dataset_json(dataset_id):
     try:
         r = requests.get(dataset_id + ".json")
     except requests.exceptions.HTTPError as e:
         sys.exit(e.message)
-    finally:
+    else:
+
         if "json" in r.headers["content-type"]:
             json = r.json()
             return json["data"]
-        return None
-
-def get_landing_page_json(dataset):
-    if not check_for_landing_page_json(dataset):
-        try:
-            r = requests.get(dataset["landingPage"]+".json")
-        except requests.exceptions.HTTPError as e:
-            sys.exit(e.message)
-        finally:
-            if "json" in r.headers["content-type"]:
-                landing_page_json = r.json()
-                return landing_page_json
-            return None
-
-def clear_landing_page_json():
-    landing_page_json = None
-
-def get_fields(dataset):
-    #dataset_details = get_landing_page_json(dataset)
-    #load local for now
-    dataset_details = json.load(open("dataset_detail.json"))
 
 
-def parse_webservice(dataset):
-    url = dataset["webService"]
-
-    ##distrib = dataset["distribution"]
-    ##for i in distrib:
-    ##    if i
-    ##return url
-
-def parse_datatype(dataset):
-
+def parse_datatype(dataset_detail):
     try:
-        geometryType = get_landing_page_json(dataset)["data"]["geometry_type"]
-        print "geometryType: ", geometryType
+        geometryType = dataset_detail["geometry_type"]
     except (KeyError,TypeError) as e:
         print "couldn't get geometry type for {title}".format(title=dataset["title"])
         return "undefined"
@@ -104,8 +86,12 @@ def parse_datatype(dataset):
     else:
         return "nonspatial"
 
+def get_date_tag_from_code_tag(code_tag):
+    for element in code_tag.getparent().getparent().getchildren():
+        if element.tag == "{http://www.isotc211.org/2005/gmd}date":
+            return element
 
-def main(url, prefix, output_path):
+def main(url, prefix, output_path, template):
     """
         url = Esri Open Data root url (like opendata.minneapolismn.gov)
         prefix = what to put in front of each file name that gets written out
@@ -115,71 +101,74 @@ def main(url, prefix, output_path):
     if not os.path.exists(output_path):
         os.mkdir(output_path)
 
-    data_json = get_data_json(prefix, url)
+    if not url.endswith("data.json"):
+        url = url.rstrip("/") + "/data.json"
+
+    data_json = get_data_json(url)
 
     for dataset in data_json:
+
+        if dataset["webService"].endswith(".pdf"):
+            print "skipping {d} cuz it's a PDF!".format(d=dataset['title'])
+            continue
+
         dataset_detail = get_dataset_json(dataset["identifier"])
         print "Now on:", dataset_detail["name"]
-        tree = parse_template_into_tree()
+
+        tree = parse_template_into_tree(template)
         elements = get_elements_for_open_data(tree)
 
         if len(elements["title"]) > 0:
             elements["title"][0].text = dataset["title"]
 
-        if len(elements["pubdate"]) > 0:
-            elements["pubdate"][0].text = dataset["modified"]
+        if len(elements["date_revised"]) > 0:
+            date_revised = elements["date_revised"][0]
+            revised_tag = get_date_tag_from_code_tag(date_revised)
+            revised_tag.text = dataset["modified"]
+
+        if len(elements["date_published"]) > 0:
+            date_published_code = elements["date_published"][0]
+            published_tag = get_date_tag_from_code_tag(date_published_code)
+            published_tag.text = dataset["issued"]
 
         if len(elements["title"]) > 0:
             elements["origin"][0].text = elements["publish"][0].text = dataset["publisher"]["name"]
 
         # bounding coordinates
         bbox = get_bbox(dataset)
-        elements["westbc"][0].text = bbox[0]
-        elements["southbc"][0].text = bbox[1]
-        elements["eastbc"][0].text = bbox[2]
-        elements["northbc"][0].text = bbox[3]
+        if bbox:
+            elements["westbc"][0].text = bbox[0]
+            elements["southbc"][0].text = bbox[1]
+            elements["eastbc"][0].text = bbox[2]
+            elements["northbc"][0].text = bbox[3]
 
+        #TODO make more dynamic, eg clone CI_OnlineResource for each distribution option
         distribution_list = dataset["distribution"]
         for dist in distribution_list:
             if dist["format"] == "ZIP":
                 elements["onlink"][0].text = dist["downloadURL"]
                 elements["formname"][0].text = "shapefile"
             elif dist["format"] == "Esri REST":
-                elements["onlink"][1].text = dist["accessURL"]
+                elements["onlink"][1].text = dist["accessUrl"]
                 elements["formname"][1].text = "Esri REST Service"
-           
 
-
-        # REST service link
-        #elements["onlink"][1].text = parse_webservice(dataset)
-
-        elements["datatype"][0].set("codeListValue", parse_datatype(dataset))
-
-
+        elements["datatype"][0].set("codeListValue", parse_datatype(dataset_detail))
         elements["id"][0].text = dataset["identifier"].split("/")[-1]
         elements["accconst"][0].text = dataset["accessLevel"]
 
-        # description and license oftentimes have HTML contents,
+        # description oftentimes has HTML contents,
         # so use Beautiful Soup to get the plain text
-
-
-
         if dataset["description"]:
             abstract_soup = BeautifulSoup(dataset["description"])
             linebreaks = abstract_soup.findAll("br")
             [br.replace_with("&#xD;&#xA;") for br in linebreaks]
-
             elements["abstract"][0].text = abstract_soup.text
-            #elements["abstract"][0].text = dataset["description"]
         else:
             elements["abstract"][0].text = "No description provided"
 
-        elements["useconst"][0].text = dataset["license"]
-
-
+        elements["useconst"][0].text = dataset_detail["license"]
 
         keywords_list = dataset["keyword"]
-
         keywords_element = elements["themekey"][0].getparent().getparent()
         keyword_element = keywords_element.find("gmd:keyword",NSMAP)
 
@@ -189,12 +178,15 @@ def main(url, prefix, output_path):
             if index != len(keywords_list) - 1:
                 keywords_element.append(deepcopy(keyword_element))
 
+        elements["metadata_source"][0].text = elements["metadata_source"][0].text.format(url=dataset["identifier"],
+            datetime=datetime.datetime.now().strftime("%c")
+        )
 
         new_xml_filename = "{prefix}_{title}_{id}".format(prefix=prefix,
-                                                          title=dataset["title"].replace(" ", "_").replace("/","_").lower(),
-                                                          id=dataset["identifier"].split("/")[-1])
+              title="".join(RE.findall(dataset["title"])).replace("__","_"),
+              id=dataset["identifier"].split("/")[-1])
 
-        print os.path.join(output_path, new_xml_filename + ".xml")
+        #print os.path.join(output_path, new_xml_filename + ".xml")
         tree.write(os.path.join(output_path, new_xml_filename + ".xml"), pretty_print=True)
 
 
@@ -210,7 +202,8 @@ NSMAP = {
 
 FIELDS = [
     "title",
-    "pubdate" ,
+    "date_published" ,
+    "date_revised",
     "onlink"  ,
     "origin"  ,
     "publish" ,
@@ -225,7 +218,8 @@ FIELDS = [
     "useconst",
     "formname",
     "id",
-    "datatype"
+    "datatype",
+    "metadata_source"
 ]
 
 PATHS = {
@@ -234,7 +228,8 @@ PATHS = {
     "formname" : "gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:name/gco:CharacterString",
     "origin"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString",
     "publish"  : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString",
-    "pubdate"  : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:editionDate/gco:Date",
+    "date_published"       : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode[@codeListValue='publication']",
+    "date_revised"  : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode[@codeListValue='revision']",
     "westbc"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:westBoundLongitude/gco:Decimal",
     "eastbc"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:eastBoundLongitude/gco:Decimal",
     "northbc"  : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:northBoundLatitude/gco:Decimal",
@@ -245,11 +240,12 @@ PATHS = {
     "accconst" : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:otherConstraints/gco:CharacterString",
     "useconst" : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString",
     "id"       : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
-    "datatype" : "gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectType/gmd:MD_GeometricObjectTypeCode"
+    "datatype" : "gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectType/gmd:MD_GeometricObjectTypeCode",
+    "metadata_source": "gmd:metadataMaintenance/gmd:MD_MaintenanceInformation/gmd:maintenanceNote/gco:CharacterString"
 }
 
-landing_page_json = None
+RE = re.compile('\w')
 
 if __name__ == "__main__":
     import sys
-    main(sys.argv[1], sys.argv[2], sys.argv[3])
+    main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
