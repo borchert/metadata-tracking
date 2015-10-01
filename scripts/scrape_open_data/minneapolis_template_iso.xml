@@ -80,38 +80,56 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString></gco:CharacterString>
+                  <gco:CharacterString>{title}</gco:CharacterString>
                </title>
-               <identifier>
-                 <MD_Identifier>
-                   <code>
-                     <gco:CharacterString></gco:CharacterString>
-                   </code>
-                 </MD_Identifier>
-               </identifier>
+               <date>
+                 <CI_Date>
+                   <date>
+                     <gco:Date>2015</gco:Date>
+                   </date>
+                 <dateType>
+                        <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                     </dateType>
+                  </CI_Date>
+               </date>
                <date>
                    <CI_Date>
                       <date>
-                        <gco:Date></gco:Date>
+                        <gco:Date>2015</gco:Date>
                       </date>
                      <dateType>
-                     <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                     <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
                     </dateType>
                   </CI_Date>
-                  <CI_Date>
-                     <date>
-                       <gco:Date></gco:Date>
-                     </date>
-                    <dateType>
-                    <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
-                   </dateType>
-                 </CI_Date>
-               </date>
+                  </date>
+               <identifier>
+                  <MD_Identifier>
+                     <code>
+                    <gco:CharacterString>{uri}</gco:CharacterString>
+                   </code>
+                 </MD_Identifier>
+               </identifier>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
+                     <individualName>
+                          <gco:CharacterString></gco:CharacterString>
+                      </individualName>
                      <organisationName>
-                        <gco:CharacterString></gco:CharacterString>
+                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
                      </organisationName>
+                     <contactInfo>
+                         <CI_Contact>
+                            <address>
+                               <CI_Address>
+                                  <electronicMailAddress>
+                                     <gco:CharacterString>
+                                        gis@minneapolismn.gov
+                                     </gco:CharacterString>
+                                  </electronicMailAddress>
+                               </CI_Address>  
+                            </address>
+                         </CI_Contact>
+                     </contactInfo>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
                                          codeListValue="originator"
@@ -121,9 +139,22 @@
                </citedResponsibleParty>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
+                     <individualName>
+                         <gco:CharacterString></gco:CharacterString>
+                     </individualName>
                      <organisationName>
                         <gco:CharacterString></gco:CharacterString>
                      </organisationName>
+                     <contactInfo>
+                        <CI_Contact>
+                           <address>
+                              <CI_Address>
+                                 <electronicMailAddress>
+                                 </electronicMailAddress>
+                              </CI_Address> 
+                           </address>
+                        </CI_Contact>
+                     </contactInfo>
                      <role>
                         <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
                                          codeListValue="publisher"
@@ -144,13 +175,41 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>Carver County (Minn.)</gco:CharacterString>
+                  <gco:CharacterString>Minneapolis (Minn.)</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"
                                           codeListValue="place"
                                           codeSpace="ISOTC211/19115"/>
                </type>
+            <thesaurusName>
+                 <CI_Citation>
+                   <title>
+                     <gco:CharacterString>LC Name Authority File</gco:CharacterString>
+                   </title>
+                   <date>
+                       <CI_Date>
+                         <date>
+                           <gco:Date>
+                              2013-12-15
+                           </gco:Date>
+                         </date>
+                         <dateType>
+                           <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                         </dateType>
+                       </CI_Date>
+                   </date>
+                    <identifier>
+                       <MD_Identifier>
+                          <code>
+                             <gco:CharacterString>
+                                http://id.loc.gov/authorities/names/n79003965
+                             </gco:CharacterString>
+                          </code>
+                       </MD_Identifier>
+                    </identifier>
+                 </CI_Citation>
+               </thesaurusName>
             </MD_Keywords>
          </descriptiveKeywords>
          <descriptiveKeywords>
@@ -168,15 +227,17 @@
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>This information is to be used for reference purposes only.</gco:CharacterString>
-                  </useLimitation>
+                  <gco:CharacterString>
+                     This information is to be used for reference purposes only.
+                  </gco:CharacterString>
+               </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
          <resourceConstraints>
             <MD_LegalConstraints>
                <otherConstraints>
                   <gco:CharacterString>
-                        The information provided on this site is for reference purposes only. The information is not suitable for legal, engineering, surveying, etc. purposes. Carver County does not guarantee the accuracy of the information contained herein. The Information is furnished on an ‘as is’ basis with and Carver County is making no representation or providing any warranties, either express or implied, for the merchantability or fitness of the information provided on this site for any purpose. The preceding disclaimer is provided pursuant to Minnesota Statutes §466.03, Sub. 21, and the user of the information provided herein acknowledges that Carver County shall not be liable for any damages, and by using this data in any way expressly waives all claims, and agrees to defend, indemnify, and hold harmless Carver County, its officials, officers, agents, employees, etc. from any and all claims brought by anyone who uses the information provided for herein, its employees or agents, or third parties which arise out of user's access.
+                     The maps provided by the City of Minneapolis are compilations of records, information and data from various sources, and they are to be used for reference purposes only. The City of Minneapolis does not warrant or guarantee that the Geographic Information Systems (GIS) data or maps are complete, current, or accurate. The City of Minneapolis does not represent that the GIS data can be used for navigational, tracking, legal, engineering, surveying, or any other purpose requiring exacting measurement of distance or direction or precision in the depiction of geographic features. Pursuant to Minnesota Statutes, Section 466.03, Subdivision 21, the City of Minneapolis disclaims any liability for claims based on alleged or actual inaccuracies in the GIS data or maps. This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
                   </gco:CharacterString>
                </otherConstraints>
             </MD_LegalConstraints>
@@ -203,16 +264,16 @@
                <geographicElement>
                    <EX_GeographicBoundingBox>
                       <westBoundLongitude>
-                         <gco:Decimal>-94.0129</gco:Decimal>
+                         <gco:Decimal>-93.32913577</gco:Decimal>
                       </westBoundLongitude>
                       <eastBoundLongitude>
-                         <gco:Decimal>-93.5194</gco:Decimal>
+                         <gco:Decimal>-93.1938489</gco:Decimal>
                       </eastBoundLongitude>
                       <southBoundLatitude>
-                         <gco:Decimal>44.6347</gco:Decimal>
+                         <gco:Decimal>44.89047145</gco:Decimal>
                       </southBoundLatitude>
                       <northBoundLatitude>
-                         <gco:Decimal>44.9788</gco:Decimal>
+                         <gco:Decimal>45.05125116</gco:Decimal>
                       </northBoundLatitude>
                    </EX_GeographicBoundingBox>
                </geographicElement>
@@ -245,9 +306,6 @@
          </distributor>
          <transferOptions>
             <MD_DigitalTransferOptions>
-               <transferSize>
-                  <gco:Real></gco:Real>
-               </transferSize>
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
@@ -291,6 +349,12 @@
   </distributionInfo>
   <metadataMaintenance>
       <MD_MaintenanceInformation>
+         <maintenanceAndUpdateFrequency>
+            <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">
+              
+            </MD_MaintenanceFrequencyCode>
+            
+         </maintenanceAndUpdateFrequency>
          <maintenanceNote>
             <gco:CharacterString>This metadata was generated from the Esri Open Data item from {url}, orignally in the Project Open Data Metadata Schema, at {datetime}.</gco:CharacterString>
          </maintenanceNote>

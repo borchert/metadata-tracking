@@ -154,6 +154,7 @@ def main(url, prefix, output_path, template):
 
         elements["datatype"][0].set("codeListValue", parse_datatype(dataset_detail))
         elements["id"][0].text = dataset["identifier"].split("/")[-1]
+        elements["fileIdentifier"][0].text = dataset["identifer"]
         elements["accconst"][0].text = dataset["accessLevel"]
 
         # description oftentimes has HTML contents,
@@ -178,9 +179,11 @@ def main(url, prefix, output_path, template):
             if index != len(keywords_list) - 1:
                 keywords_element.append(deepcopy(keyword_element))
 
+        timestamp = datetime.datetime.now().isoformat()
         elements["metadata_source"][0].text = elements["metadata_source"][0].text.format(url=dataset["identifier"],
-            datetime=datetime.datetime.now().strftime("%c")
+            datetime=timestamp
         )
+        elements["metadata_timestamp"][0].text = timestamp
 
         new_xml_filename = "{prefix}_{title}_{id}".format(prefix=prefix,
               title="".join(RE.findall(dataset["title"])).replace("__","_"),
@@ -202,28 +205,6 @@ NSMAP = {
    "gmd":"http://www.isotc211.org/2005/gmd"
 }
 
-FIELDS = [
-    "title",
-    "date_published" ,
-    "date_revised",
-    "onlink"  ,
-    "origin"  ,
-    "publish" ,
-    "westbc"  ,
-    "eastbc"  ,
-    "northbc" ,
-    "southbc" ,
-    "themekey",
-    "placekey",
-    "abstract",
-    "accconst",
-    "useconst",
-    "formname",
-    "id",
-    "datatype",
-    "metadata_source"
-]
-
 PATHS = {
     "title"    : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString",
     "onlink"   : "gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/gmd:URL",
@@ -243,10 +224,12 @@ PATHS = {
     "useconst" : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString",
     "id"       : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
     "datatype" : "gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectType/gmd:MD_GeometricObjectTypeCode",
-    "metadata_source": "gmd:metadataMaintenance/gmd:MD_MaintenanceInformation/gmd:maintenanceNote/gco:CharacterString"
+    "metadata_source": "gmd:metadataMaintenance/gmd:MD_MaintenanceInformation/gmd:maintenanceNote/gco:CharacterString",
+    "metadata_timestamp":"gmd:dateStamp/gco:DateTime",
+    "fileIdentifier": "gmd:fileIdentifier"
 }
 
-
+FIELDS = PATHS.keys()
 
 if __name__ == "__main__":
     import sys

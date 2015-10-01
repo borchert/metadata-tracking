@@ -112,10 +112,10 @@
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
                      <individualName>
-                          <gco:CharacterString>{contact_name_individual}</gco:CharacterString>
+                          <gco:CharacterString>GIS Admin</gco:CharacterString>
                       </individualName>
                      <organisationName>
-                        <gco:CharacterString>{contact_name_organization}</gco:CharacterString>
+                        <gco:CharacterString></gco:CharacterString>
                      </organisationName>
                      <contactInfo>
                          <CI_Contact>
@@ -123,7 +123,7 @@
                                <CI_Address>
                                   <electronicMailAddress>
                                      <gco:CharacterString>
-                                        {contact_email}
+                                        RCGISMetaData@Co.Ramsey.MN.US
                                      </gco:CharacterString>
                                   </electronicMailAddress>
                                </CI_Address>  
@@ -175,7 +175,7 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>{place_name_loc_auth_name}</gco:CharacterString>
+                  <gco:CharacterString>Ramsey County (Minn.)</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"
@@ -191,7 +191,7 @@
                        <CI_Date>
                          <date>
                            <gco:Date>
-                              {place_name_loc_auth_name_date}
+                              2010-05-13
                            </gco:Date>
                          </date>
                          <dateType>
@@ -203,7 +203,7 @@
                        <MD_Identifier>
                           <code>
                              <gco:CharacterString>
-                                {place_name_loc_auth_name_uri}
+                                http://id.loc.gov/authorities/names/n81056706
                              </gco:CharacterString>
                           </code>
                        </MD_Identifier>
@@ -228,7 +228,7 @@
             <MD_Constraints>
                <useLimitation>
                   <gco:CharacterString>
-                     {use_constraints}
+                     This information is to be used for reference purposes only.
                   </gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
@@ -237,7 +237,7 @@
             <MD_LegalConstraints>
                <otherConstraints>
                   <gco:CharacterString>
-                     {legal_disclaimer}
+                     
                   </gco:CharacterString>
                </otherConstraints>
             </MD_LegalConstraints>
@@ -264,16 +264,16 @@
                <geographicElement>
                    <EX_GeographicBoundingBox>
                       <westBoundLongitude>
-                         <gco:Decimal>{west_bounding_coordinate}</gco:Decimal>
+                         <gco:Decimal>-93.2285</gco:Decimal>
                       </westBoundLongitude>
                       <eastBoundLongitude>
-                         <gco:Decimal>{east_bounding_coordinate}</gco:Decimal>
+                         <gco:Decimal>-92.9826</gco:Decimal>
                       </eastBoundLongitude>
                       <southBoundLatitude>
-                         <gco:Decimal>{south_bounding_coordinate}</gco:Decimal>
+                         <gco:Decimal>44.8869</gco:Decimal>
                       </southBoundLatitude>
                       <northBoundLatitude>
-                         <gco:Decimal>{north_bounding_coordinate}</gco:Decimal>
+                         <gco:Decimal>45.1245</gco:Decimal>
                       </northBoundLatitude>
                    </EX_GeographicBoundingBox>
                </geographicElement>
