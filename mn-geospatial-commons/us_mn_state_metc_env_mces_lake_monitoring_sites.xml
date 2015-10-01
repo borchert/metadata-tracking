@@ -1,0 +1,221 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Metropolitan Council</origin>
+        <pubdate>20130522</pubdate>
+        <title>MCES Lake Monitoring Sites</title>
+        <mgmg1cid>N/A</mgmg1cid>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-env-mces-lake-monitoring-sites</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This layer contains point locations for each of the Metropolitan Council's  lake monitoring sites.  Many of the sites are inactive but historic data is still available on the Council's Environmental Information Management System (EIMS).
+
+MCES monitors lakes to obtain and provide information that enable cities, counties, lake associations, and watershed management districts to better manage TCMA lakes, thereby protecting and improving lake water quality.  Monitoring is conducted by Metropolitan Council staff and by citizen volunteers as part of the MCES Citizen-Assisted Monitoring Program (CAMP).</abstract>
+      <purpose>To show the location of lake monitoring sites in the CAMP program and Council's own monitoring program.</purpose>
+      <supplinf>Generally the Twin Cities 7 County Metropolitan Area. This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.  Some monitored lakes lie outside the 7 county metropolitan area border and are also included.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>Current</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>This dataset shows all lake sampling sites in the Council's Environmental Information Management System (EIMS), and is synced with the EIMS system weekly.   </current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Weekly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.022</westbc>
+        <eastbc>-92.789</eastbc>
+        <northbc>45.381</northbc>
+        <southbc>44.464</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>surface water, water quality, water monitoring, monitoring sites, lakes, CAMP, monitoring points, water resources</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota, Twin Cities, Mississippi River, Minnesota River, St. Croix River, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>ArcView Version 9x</native>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Emily Resseger</cntper>
+        </cntperp>
+        <cntpos>Principal Environmental Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1033</cntvoice>
+        <cntemail>emily.resseger@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>The dataset is topologically 'clean'.</logic>
+    <complete>This dataset shows all lake monitoring sites included in the Council's Environmental Information Management System (EIMS).  It is synced with the EIMS system weekly to ensure completeness.  </complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The positional accuracy of the dataset has not been tested under the National Standards for Spatial Data Accuracy.  The positional accuracy of the dataset is estimated to be generally between 15-50 meters depending on source.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>NA</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+      <procstep>
+        <procdesc>The monitoring site locations for lakes were historically determined by estimation referencing physical features on a map, but more recently have been determined by GPS receiver with a horizontal positional accuracy of 3-5 meters. As sites are resampled they will be GPSed for greater accuracy.  All site coordinates were visually compared to the Metropolitan Council's Master Open Water Features dataset and other reference themes such as the MNDOT roads layer.  The position of the sites were manually adjusted as needed to maintain appropriate relationships to the reference themes.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>None</indspref>
+    <direct>Point</direct>
+    <mgmg3obj>points</mgmg3obj>
+    <mgmg3til>One layer for entire region.</mgmg3til>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>MAP_CODE1: A code identifying a particular sampling location.  It is equivalent to the  lake&#8217;s SITE_CODE concatenated with LAKE_SITE_NUMBER with leading zero and a hyphen.
+
+MAP_CODE2: A code identifying a particular lake basin as a polygon, equivalent to EIMS_MAPCODE2 in the Council&#8217;s Master Open Water Features GIS dataset.  It is equivalent to the lake&#8217;s SITE_CODE concatenated with a unique basin number with leading zero and a &#8220;-P&#8221; (polygon) preceding the basin number.
+
+STATE: The two letter abbreviation for the state within which the monitoring site is located.
+
+COUNTY:The name of the county within which the monitoring site is located.
+
+CITY:The name of the city or township within which the monitoring site is located.
+
+X_COORDINATE: X coordinate of the monitoring site (east-west axis) using UTM meters, Zone 15, NAD83.
+
+Y_COORDINATE: Y coordinate of the monitoiring site (north-south axis) using UTM meters, Zone 15, NAD83.
+
+MAJOR_WATERSHED: The Department of Natural Resources (DNR) major watershed within which the site is located.
+
+SECONDARY_WATERSHED: The Metropolitan Council Environmental Services (MCES) secondary watershed within which the site is located. 
+
+SEWERSHED: The name of the sewershed (the Waste Water Treatment Plant (WWTP)) with which the site is associated.
+
+SITE_NAME:  The name of the sampling location, may include lake name, sub-basin name, and other location information.
+ 
+SITE_DESCR: A longer description of the sampling location.
+
+SITE_CODE: The eight digit Department of Natural Resources (DNR) lake basin idenfication subdivision number (if one exists) or whole lake number.
+
+SITE_TYPE: The type or category of monitoring site.  All are categorized as Surface Water.
+ 
+SITE_SUBTYPE: The subtype or category of monitoring site.  All are categorized as Lake.
+
+LAKE_NAME: The name of the lake that contains the monitoring site.
+
+LAKE_CITY: The name of the city or township that contains the center of the monitored lake.
+
+LAKE_SITE_NUMBER: A sequentially assigned number indicating a specific sampling location within a lake.
+</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>MCESLakeMonitoringSites</resdesc>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shape files</formname>
+          <formvern>ArcView: 9x</formvern>
+          <transize>Less than 1 MB for zip file.</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Jon Hoekenga</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1561</cntvoice>
+        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20130522</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Jon Hoekenga</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1561</cntvoice>
+        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20110215</ModDate>
+    <ModTime>13563400</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20110215</mdDateSt>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

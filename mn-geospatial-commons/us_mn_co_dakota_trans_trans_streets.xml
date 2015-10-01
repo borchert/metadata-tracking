@@ -1,0 +1,424 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Dakota County GIS, Dakota County GIS, Staff</origin>
+        <pubdate>20150924</pubdate>
+        <title>Road Centerlines, Dakota County, Minnesota</title>
+        <edition>1</edition>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>14955 Galaxie Ave, Apple Valley, Minnesota, 55124, US</pubplace>
+          <publish>Dakota County GIS</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-co-dakota-trans-trans-streets</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This layer contains lines showing all public (and many private) roads in Dakota County, Minnesota. The lines are generally collected from plats and aerial photography.</abstract>
+      <purpose>A road centerline database that can be used for assigning addresses, geocoding, labeling and general cartographic dispaly.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150924</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Dakota County</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.329853</westbc>
+        <eastbc>-92.729236</eastbc>
+        <northbc>44.923499</northbc>
+        <southbc>44.468748</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>transportation, centerline, street, streets, road, roads, address, addressing</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Dakota County, Minnesota,</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Dakota County GIS Database DisclaimerNOTICE: Dakota County Geographic Information System (GIS) Data are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13) THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by Dakota County (&#8220;County&#8221;) for their own internal business purposes. The County does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, you must provide a copy of this disclaimer and the accompanying metadata for this dataset to the user.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Dakota County GIS</cntorg>
+          <cntper>Dakota County GIS</cntper>
+        </cntperp>
+        <cntpos>Staff</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>14955 Galaxie Ave</address>
+          <city>Apple Valley</city>
+          <state>Minnesota</state>
+          <postal>55124</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>9528917000</cntvoice>
+        <cntemail>gis@co.dakota.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</native>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>Dakota County maintains road centerline data for internal purposes.  General sources of information are plat centerlines and heads-up digitizing using aerial photography.</procdesc>
+        <procdate>20150924</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>22559</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>MN Dakota Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>44.51666666666667</stdparll>
+            <stdparll>44.91666666666666</stdparll>
+            <longcm>-93.31666666666666</longcm>
+            <latprjo>44.47194444444445</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>100000.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00008202083333333338</absres>
+            <ordres>0.00008202083333333338</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D MN Dakota</horizdn>
+        <ellips>MN Dakota</ellips>
+        <semiaxis>6378421.989</semiaxis>
+        <denflat>298.2572133677353</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>TRANS_Streets</enttypl>
+        <enttypd>Road centerlines</enttypd>
+        <enttypds>Dakota County GIS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PREDIR</attrlabl>
+        <attrdef>Road predirection for geocoding purposes.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PRETYPE</attrlabl>
+        <attrdef>Road pretype for geocoding purposes.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STREET</attrlabl>
+        <attrdef>Street name (non-concatenated) for geocoding purposes.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+        <attrdef>Road type for geocoding purposes.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SUFDIR</attrlabl>
+        <attrdef>Road suffix direction for geocoding purposes.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STREET_NAME</attrlabl>
+        <attrdef>Fully concatenated road name.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ALT_NAM1</attrlabl>
+        <attrdef>Alternate name 1.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ALT_NAM2</attrlabl>
+        <attrdef>Alternate name 2</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CITY_L</attrlabl>
+        <attrdef>Municipality on left side of line.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CITY_R</attrlabl>
+        <attrdef>Municipality on right side of line.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FEATURE</attrlabl>
+        <attrdef>Interal code for tracking the source of the line.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OVRLAP</attrlabl>
+        <attrdef>Internal code for tracking down overlapping address ranges.  Not curently used.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>EDIT_FLAG</attrlabl>
+        <attrdef>A flag for tracking what type of edit was made to a line.
+1 - Positional change only.
+2 - Positional change and attribute change.
+5 - Attribute change only.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ZIP5_L</attrlabl>
+        <attrdef>Zip code on the left side of the line.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ZIP5_R</attrlabl>
+        <attrdef>Zip code on the right side of the line.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PCITY_L</attrlabl>
+        <attrdef>Postal (mailing) municipality on the left side of the line.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PCITY_R</attrlabl>
+        <attrdef>Postal (mailing) city on the right side of the line.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LEFT_FROM_ADD</attrlabl>
+        <attrdef>Left side FROM address range.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LEFT_TO_ADD</attrlabl>
+        <attrdef>Left side TO address range.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RIGHT_FROM_ADD</attrlabl>
+        <attrdef>Right side FROM address range.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RIGHT_TO_ADD</attrlabl>
+        <attrdef>Right side TO address range.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MSAG_STREET</attrlabl>
+        <attrdef>Street name formatted for MSAG purposes.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MSAG_TYPE</attrlabl>
+        <attrdef>Road type formatted for MSAG purposes.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MSAG_DIR</attrlabl>
+        <attrdef>Suffix directional formatted for MSAG purposes.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MSAG_STREET_NAME</attrlabl>
+        <attrdef>Fully concatenated road name for MSAG purposes.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ROADNUM1</attrlabl>
+        <attrdef>Primary road number designation.  Can be used for creating highway shield labels and more sophisticated labeling.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ROADNUM2</attrlabl>
+        <attrdef>Secondary road number designation.  Can be used for creating highway shield labels and more sophisticated labeling.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ROADNUM3</attrlabl>
+        <attrdef>Tertiary road number designation.  Can be used for creating highway shield labels and more sophisticated labeling.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ROADTYPE1</attrlabl>
+        <attrdef>Primary road type designation.  Can be used for distinguishing the different types of road and applying advanced cartographic techniques.
+1 - Interstate Highway
+2 - US Highway
+3 - State Highway
+4 - County State Aid Highway - Through Route
+5 - County State Aid Highway
+6 - County Road
+7 - Private Road
+8 - Ramp
+9 - Local Road
+10 - Private Access
+</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>CODE</codesetn>
+            <codesets>Dakota County GIS</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ROADTYPE2</attrlabl>
+        <attrdef>Secondary road type designation.  Can be used for distinguishing the different types of road and applying advanced cartographic techniques.
+3 - State Highway
+4 - County State Aid Highway - Through Route
+8 - Ramp
+9 - Local Road
+10 - Private Access
+99 - None</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>CODE</codesetn>
+            <codesets>Dakota County GIS</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ROADTYPE3</attrlabl>
+        <attrdef>Tertiary road type designation.  Can be used for distinguishing the different types of road and applying advanced cartographic techniques.
+3 - State Highway
+9 - Local Road
+10 - Private Access
+99 - None</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>CODE</codesetn>
+            <codesets>Dakota County GIS</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ELEVATION</attrlabl>
+        <attrdef>Code for creating complex symbology for over/underpasses.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>EDITDATE</attrlabl>
+        <attrdef>The date of the last edit made to the a segment.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>EDITBY</attrlabl>
+        <attrdef>The person who made the last edit to the segment.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>GlobalID</attrlabl>
+        <attrdef>GUID generated by software.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>StreetID</attrlabl>
+        <attrdef>Unique ID for road segment.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NameID</attrlabl>
+        <attrdef>Value used for linking to alternated names table.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Shape.len</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Dakota County GIS</cntorg>
+          <cntper>Dakota County GIS</cntper>
+        </cntperp>
+        <cntpos>Staff</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>14955 Galaxie Ave</address>
+          <city>Apple Valley</city>
+          <state>Minnesota</state>
+          <postal>55124</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>9528917000</cntvoice>
+        <cntemail>gis@co.dakota.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See General Constraints</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20150924</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Dakota County GIS</cntorg>
+          <cntper>Dakota County GIS</cntper>
+        </cntperp>
+        <cntpos>Staff</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>14955 Galaxie Ave</address>
+          <city>Apple Valley</city>
+          <state>Minnesota</state>
+          <postal>55124</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>9528917000</cntvoice>
+        <cntemail>gis@co.dakota.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

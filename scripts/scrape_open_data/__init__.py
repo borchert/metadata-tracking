@@ -154,7 +154,7 @@ def main(url, prefix, output_path, template):
 
         elements["datatype"][0].set("codeListValue", parse_datatype(dataset_detail))
         elements["id"][0].text = dataset["identifier"].split("/")[-1]
-        elements["fileIdentifier"][0].text = dataset["identifer"]
+        elements["fileIdentifier"][0].text = dataset["identifier"]
         elements["accconst"][0].text = dataset["accessLevel"]
 
         # description oftentimes has HTML contents,

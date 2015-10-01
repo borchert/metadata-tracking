@@ -8,7 +8,7 @@
           <publish>Metropolitan Council</publish>
         </pubinfo>
         <pubdate>periodically revised</pubdate>
-        <onlink>https://gisdata.mn.gov/dataset/trans-park-and-ride-lots</onlink>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-trans-park-and-ride-lots</onlink>
       </citeinfo>
     </citation>
     <descript>
@@ -23,10 +23,10 @@ Attribute information is considered current to the metadata date and will be upd
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20131031</caldate>
+          <caldate>20150915</caldate>
         </sngdate>
       </timeinfo>
-      <current>Park-and-ride locations are accurate as of the above date for the Twin Cities Metropolitan Area.</current>
+      <current>Park-and-ride locations are accurate as of the Time Period of Content date for the Twin Cities Metropolitan Area.</current>
     </timeperd>
     <status>
       <progress>Complete</progress>
@@ -45,38 +45,38 @@ Attribute information is considered current to the metadata date and will be upd
         <placekey>Twin Cities, Minnesota, Anoka County, Carver County, Chisago County, Dakota County, Goodhue County, Hennepin County, Isanti County, Le Sueur County, Mille Lacs County, Ramsey County, Rice County, Scott County, Sherburne County, Stearns County, Washington County, Wright County, Dunn County, St. Croix County</placekey>
       </place>
       <theme>
-        <themekey>park-and-ride, park-and-ride lots,  transit, buses, nodes, stops, transportation</themekey>
+        <themekey>Transit Centers, Transit Stops, Transit Routes, Transit Patterns by Node Segments, transit, buses, nodes, stops, transportation</themekey>
         <themekt>None</themekt>
       </theme>
     </keywords>
     <accconst>None</accconst>
     <useconst>None</useconst>
     <browse>
-      <browsen>http://www.datafinder.org/metadata/bg/ParkAndRideLots.jpg</browsen>
-      <browsed>Sample map showing the ParkAndRideLots layer.</browsed>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/trans_park_and_ride_lots/metadata/preview.jpg</browsen>
+      <browsed>Sample map showing the Park and Ride Lots layer.</browsed>
     </browse>
     <crossref>
       <citeinfo>
-        <title>transit centers, bus stops, bus routes</title>
+        <title>Transit Centers, Transit Stops, Transit Routes</title>
       </citeinfo>
     </crossref>
     <native>ArcGIS 9x</native>
     <ptcontac>
       <cntinfo>
         <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Elaine Koutsoukos</cntper>
+          <cntorg>Metropolitan Council - Metro Transit</cntorg>
+          <cntper>Julie Quinn</cntper>
         </cntperp>
-        <cntpos>Senior Transportation Planner</cntpos>
+        <cntpos>Associate Planner, Engineering and Facilities</cntpos>
         <cntaddr>
           <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
+          <address>560 6th Ave N</address>
+          <city>Minneapolis</city>
           <state>MN</state>
-          <postal>55101-1805</postal>
+          <postal>55411</postal>
         </cntaddr>
-        <cntvoice>651-602-1717</cntvoice>
-        <cntemail>elaine.koutsoukos@metc.state.mn.us</cntemail>
+        <cntvoice>612.349.7333</cntvoice>
+        <cntemail>julie.quinn@metc.state.mn.us</cntemail>
       </cntinfo>
     </ptcontac>
   </idinfo>
@@ -88,7 +88,7 @@ Attribute information is considered current to the metadata date and will be upd
     <complete>All active park-and-rides in the metropolitan area are covered.</complete>
     <posacc>
       <horizpa>
-        <horizpar>Orthophotos were used in referencing the park-and-ride lot locations. Positional accuracy varies throughout the dataset. In some cases, locations outside the seven county metro area were located using TLG roads where available and not have been referenced to aerial photos.</horizpar>
+        <horizpar>Orthophotos were used in referencing the park-and-ride lot locations. Positional accuracy varies throughout the dataset. In some cases, locations outside the seven county metro area were located using NCompass Technologies Street Centerline and Address Ranges dataset where available and not have been referenced to aerial photos.</horizpar>
       </horizpa>
     </posacc>
   </dataqual>
@@ -203,7 +203,7 @@ Transitway corridor identified in the 2030 TPP</eadetcit>
     </distrib>
   </distinfo>
   <metainfo>
-    <metd>20131031</metd>
+    <metd>20150915</metd>
     <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
     <metstdv>1.2</metstdv>
     <metextns>

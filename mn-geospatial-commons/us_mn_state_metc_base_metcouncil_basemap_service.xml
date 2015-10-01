@@ -8,7 +8,7 @@
           <publish>Metropolitan Council</publish>
         </pubinfo>
         <pubdate>periodically revised</pubdate>
-        <onlink>http://gis2.metc.state.mn.us/ArcGIS/rest/services/BaseLayer/UTMBaseMap/MapServer</onlink>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-base-metcouncil-basemap-service</onlink>
       </citeinfo>
     </citation>
     <descript>
@@ -48,7 +48,7 @@
     <accconst>None</accconst>
     <useconst>None</useconst>
     <browse>
-      <browsen>http://www.datafinder.org/metadata/bg/MetropolitanCouncilBaseMap.jpg</browsen>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/base_metcouncil_basemap_service/metadata/preview.jpg</browsen>
       <browsed>Base Map Image Example</browsed>
     </browse>
     <native>ArcGIS Server</native>
@@ -60,11 +60,11 @@
         </cntperp>
         <cntpos>GIS Web Administrator</cntpos>
         <cntaddr>
+          <addrtype>mailing and physical</addrtype>
           <address>390 Robert Street North</address>
           <city>St. Paul</city>
           <state>Minnesota</state>
           <postal>55101-1805</postal>
-          <addrtype>mailing and physical</addrtype>
         </cntaddr>
         <cntemail>matt.mcguire@metc.state.mn.us</cntemail>
       </cntinfo>
@@ -79,18 +79,15 @@
     <lineage>
       <procstep>
         <procdesc>This service consists of data from several layers.  These include (with metadata links):
--	County Boundaries - http://www.datafinder.org/metadata/CountiesAndCTUs.htm
--	City, Townships and Unorganized Territory Boundaries - http://www.datafinder.org/metadata/CountiesAndCTUs.htm
--	Lakes and Rivers  - http://www.datafinder.org/metadata/LakesAndRivers.htm
--	State and Regional Trails - http://www.datafinder.org/metadata/TrailsRegional.htm
--	State and Regional Parks - http://www.datafinder.org/metadata/ParksRegional.htm
--	Roads (NCompass Local Roads) - http://www.datafinder.org/metadata/NCompassRoads.htm
--	Highways - http://www.datafinder.org/metadata/Highways.htm
--	Airports - http://www.datafinder.org/metadata/Airports.htm
--	Railroads - http://www.datafinder.org/metadata/Railroads.htm
--	Light Rail Line - http://www.datafinder.org/metadata/HiawathaLRTAlignment.htm
--	Transit Centers - http://www.datafinder.org/metadata/TransitCenters.htm
--	Landmarks: including schools, college campuses, hospitals, golf courses, commentaries, and other major destinations.  -http://www.datafinder.org/metadata/NCompassLandmarks.htm
+-	Counties and Cities &amp; Townships, Twin Cities Metropolitan Area
+-	Lakes and Rivers - Open Water Features
+-	Regional Trails - Existing and Planned
+-	Regional Recreation Open Space Features
+-	NCompass Technologies Street Centerline and Address Ranges
+-	Transitway Alignments
+-	Transit Centers
+-	NCompass Technologies Landmarks: including schools, college campuses, hospitals, golf courses, commentaries, and other major destinations 
+
 
 This base map web service consists of 10 different levels of detail that are displayed at 10 different map scale ranges.
 Scales:
@@ -126,40 +123,6 @@ Scales:
     <mgmg3obj>cached web service</mgmg3obj>
     <mgmg3til>Cached tiles for 10 scale levels, each tile 256x256 pixels, DPI 96.</mgmg3til>
   </spdoinfo>
-  <spref>
-    <horizsys>
-      <geograph>
-        <latres/>
-        <longres/>
-        <geogunit/>
-      </geograph>
-      <planar>
-        <gridsys>
-          <gridsysn>UTM</gridsysn>
-          <utm>
-            <utmzone>15</utmzone>
-          </utm>
-          <spcs>
-            <spcszone/>
-          </spcs>
-          <mgmg4coz/>
-          <mgmg4adj/>
-        </gridsys>
-        <mapproj>
-          <mapprojn/>
-          <mgmg4par/>
-          <otherprj/>
-        </mapproj>
-        <planci>
-          <plandu>Meters</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <ellips>GRS80</ellips>
-        <horizdn>NAD83</horizdn>
-      </geodetic>
-    </horizsys>
-  </spref>
   <eainfo>
     <overview>
       <eaover>None</eaover>
@@ -187,11 +150,11 @@ Scales:
         </cntperp>
         <cntpos>GIS Web Administrator</cntpos>
         <cntaddr>
+          <addrtype>mailing and physical</addrtype>
           <address>390 Robert Street North</address>
           <city>St. Paul</city>
           <state>Minnesota</state>
           <postal>55101-1805</postal>
-          <addrtype>mailing and physical</addrtype>
         </cntaddr>
         <cntemail>matt.mcguire@metc.state.mn.us</cntemail>
       </cntinfo>
@@ -212,11 +175,11 @@ Scales:
         </cntperp>
         <cntpos>GIS Web Administrator</cntpos>
         <cntaddr>
+          <addrtype>mailing and physical</addrtype>
           <address>390 Robert Street North</address>
           <city>St. Paul</city>
           <state>Minnesota</state>
           <postal>55101-1805</postal>
-          <addrtype>mailing and physical</addrtype>
         </cntaddr>
         <cntvoice>651-602-1964</cntvoice>
         <cntemail>matt.mcguire@metc.state.mn.us</cntemail>
@@ -228,4 +191,23 @@ Scales:
     <ModTime>14444700</ModTime>
   </Esri>
   <mdDateSt Sync="TRUE">20110729</mdDateSt>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
 </metadata>

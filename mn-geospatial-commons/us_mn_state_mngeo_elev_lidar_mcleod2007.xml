@@ -4,17 +4,14 @@
       <citeinfo>
         <origin>McLeod County Highway Department</origin>
         <title>LiDAR Elevation, McLeod County, Minnesota, 2007</title>
+        <pubinfo>
+          <publish>Minnesota Department of Natural Resources</publish>
+        </pubinfo>
         <onlink>http://www.dnr.state.mn.us/maps/mntopo/index.html</onlink>
       </citeinfo>
     </citation>
     <descript>
-      <abstract>One-foot contours in ESRI file geodatabase format divided into files sized approximately to 1/4 township areas. Bare-earth and first-return LiDAR data divided into 5000' X 5000' sheet tiles named according to the Lower Left XY coordinate value in LAS format. Five foot posted raster bare-earth DEM divided into 5000' X 5000' sheet tiles. Raster DEM in ArcGrid format, Countywide breaklines compiled as needed using synthetic stereopairs generated from the LiDAR intensity data in ESRI file geodatabase and ESRI shape file format.
-
-The LiDAR data for McLeod County was collected under contract by the county. Thus, the data format is not entirely consistent with some of the other LiDAR data collected by the State of Minnesota. Specifically, the McLeod County collect required classification of only Bare Earth in the LiDAR LAS files, so there is no information on buildings, vegetation, or model key points.
-
-The LAS data used for this process were acquired from the U.S. Geological Survey.
-
-No breaklines were available for processing this data.
+      <abstract>The LiDAR data for McLeod County was collected under contract by the county. Thus, the data format is not entirely consistent with some of the other LiDAR data collected by the State of Minnesota. Specifically, the McLeod County collect required classification of only Bare Earth in the LiDAR LAS files, so there is no information on buildings, vegetation, or model key points. The LAS data used for this process were acquired from the U.S. Geological Survey. No breaklines were available for processing this data.
 
 Note: This metadata record was created at the Minnesota Geospatial Information Office using information supplied by McLeod County and the Minnesota Department of Natural Resources.</abstract>
       <purpose>The bare-earth data and breakline data was utilized to produce terrain surface models for the generation of the one-foot contours and the raster DEM.</purpose>
@@ -68,12 +65,13 @@ See Disclaimer field for complete use conditions.
         <cntpos>GIS Director</cntpos>
         <cntaddr>
           <addrtype>Mailing and Physical</addrtype>
-          <address>1400 Adams St. SE</address>
+          <address>1400 Adams Street SE</address>
           <city>Hutchinson</city>
           <state>MN</state>
           <postal>55350</postal>
         </cntaddr>
         <cntvoice>320-234-0230</cntvoice>
+        <cntemail>christy.christensen@co.mcleod.mn.us</cntemail>
       </cntinfo>
     </ptcontac>
   </idinfo>
@@ -101,6 +99,7 @@ Intermediate Depression Contour: Depression Contours depicted between Index Cont
 
 Strips were imported into a project using TerraScan (Terrasolid, Ltd.) and the project management tool GeoCue (GeoCue Corp.). By creating a project the various flightlines are combined while breaking the dataset as a whole into manageable pieces. This process also converted the dataset from geographic coordinates to the Minnesota County Coordinate System (NAD83), McLeod Co utilizing NADCON. The ellipsoid height values were converted to NAVD88 orthometric values using Geoid03, provided by NGS. Individual lines were then checked against adjacent lines to ensure a cohesive dataset. The data from each line were then combined and a classification routine was then run to determine the initial surface model. This initial surface model was then reduced using Optimal Geomatics' proprietary methods to create the final bare-earth dataset. A Triangular Irregular Network (TIN) was generated using the final surface data. Contours were then created from the TIN. The bare-earth data were then checked against the validation points across the project area. The results of these checks showed the DEM fitting the validation points well (see LIDAR DEM Quality Control Report for results). Stereo pairs were generated from the LIDAR intensity data using Geocue and LIDAR1CuePac (Geocue Corp.). LIDARgrammetry was then utilized to collect breaklines where necessary along hydro features to support the contour generation. These breaklines were collected as a 3D element in the MicroStation (Bentley Systems, Inc.) environment utilizing ISSD (Z/I Imaging). The deliverables constituted: LIDAR bare-earth in .LAS format, LIDAR first-return in .LAS format, raster bare-earth DEM in ESRI ArcGRID format at 5-foot resolution, and an ArcGIS File Geodatabase containing one-foot topographic contour data, breaklines, and control points as 3D feature classes. 
 
+Additional information:  One-foot contours in ESRI file geodatabase format divided into files sized approximately to 1/4 township areas. Bare-earth and first-return LiDAR data divided into 5000' X 5000' sheet tiles named according to the Lower Left XY coordinate value in LAS format. Five foot posted raster bare-earth DEM divided into 5000' X 5000' sheet tiles. Raster DEM in ArcGrid format, Countywide breaklines compiled as needed using synthetic stereopairs generated from the LiDAR intensity data in ESRI file geodatabase and ESRI shape file format.
 
 Minnesota Department of Natural Resources Processing Steps:
 
@@ -126,10 +125,18 @@ All processing was done using ArcGIS V10 and LP360 Extensions
 </procdesc>
       </procstep>
     </lineage>
+    <posacc>
+      <horizpa>
+        <horizpar>Not available</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not available</vertaccr>
+      </vertacc>
+    </posacc>
   </dataqual>
   <distinfo>
-    <resdesc>McLeod County LiDAR</resdesc>
-    <distliab>1. The digital vector data represents the results of data collection/processing for McLeod County, MN and indicates the general conditions existing at the time of flight. As such, it is only valid for its intended use, content, time and accuracy specifications. The user is responsible for the results of any application of the data other than for its intended purpose. 
+    <resdesc>McLeod County LiDAR (elev_lidar_mcleod2007)</resdesc>
+    <distliab>1. McLeod County disclaimer: The digital vector data represents the results of data collection/processing for McLeod County, MN and indicates the general conditions existing at the time of flight. As such, it is only valid for its intended use, content, time and accuracy specifications. The user is responsible for the results of any application of the data other than for its intended purpose. 
 
 2. Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html
 
@@ -142,6 +149,7 @@ All processing was done using ArcGIS V10 and LP360 Extensions
 - view data online
 - download data in Esri and open formats (tiles for most data formats will be mosaicked together during download)
 - see the help file for details: http://files.dnr.state.mn.us/aboutdnr/gis/mntopo/mntopo_help_document.pdf
+- the online linkage below links to this site
 
 
 2. MnGeo's FTP site
@@ -163,7 +171,7 @@ For more help with Minnesota's LiDAR data, see http://www.mngeo.state.mn.us/chou
         </cntperp>
         <cntpos>GIS Data Coordinator</cntpos>
         <cntaddr>
-          <addrtype>Mailing and Physical</addrtype>
+          <addrtype>mailing and physical</addrtype>
           <address>658 Cedar Street, Room 300</address>
           <city>St. Paul</city>
           <state>MN</state>
@@ -176,7 +184,7 @@ For more help with Minnesota's LiDAR data, see http://www.mngeo.state.mn.us/chou
     </distrib>
   </distinfo>
   <metainfo>
-    <metd>20140429</metd>
+    <metd>20150831</metd>
     <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
     <metstdv>1.2</metstdv>
     <metextns>
@@ -190,7 +198,7 @@ For more help with Minnesota's LiDAR data, see http://www.mngeo.state.mn.us/chou
         </cntperp>
         <cntpos>GIS Data Coordinator</cntpos>
         <cntaddr>
-          <addrtype>Mailing and Physical</addrtype>
+          <addrtype>mailing and physical</addrtype>
           <address>658 Cedar Street, Room 300</address>
           <city>St. Paul</city>
           <state>MN</state>

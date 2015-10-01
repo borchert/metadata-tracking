@@ -1,0 +1,245 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>2030 Transitway System</title>
+        <origin>Metropolitan Transportation Services - Metropolitan Council</origin>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <pubdate>20130717</pubdate>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-trans-transitway2030</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The 2030 Transitway System dataset contains the transit corridors planned for 2030 as outlined in the 2030 Transportation Policy Plan (TPP) adopted November 2010 and amended  May 2013. 
+
+The transitway system contains four types of corridors: 
+
+Complete, In Construction, Final Design or Preliminary Engineering -  Eight transitway corridors: Hiawatha LRT (Blue Line), I-35W BRT, Cedar Avenue BRT (Red Line), I-394 HOT Lane, Northstar Commuter Rail, Central LRT (Green Line),  Southwest LRT (Green Line extension)  and Bottineau LRT (Blue Line extension) ) are complete, in construction, final design or preliminary engineering.
+
+Develop LRT/Busway/BRT/Commuter Rail - Seven corridors:  I-35W North, Central Ave/TH 65/BNSF, Rush Line, TH36/NE, Red Rock, I-94 East (Gateway), and  Midtown should continue in development and are recommended as potential transitways by 2030.  Planning and development studies, conducted and funded in cooperation with county regional railway authorities and Mn/DOT, will determine the specific alignment, mode and schedule for each corridor.
+
+Develop as Arterial Street BRT Corridors- Nine arterial corridors are recommended as potential BRT facilities by 2030.  Three additional corridors may be implemented after 2030. Twelve potential corridors are included in this dataset. 
+
+Express Bus Corridors with Transit Advantages - Various Corridors
+
+More information about these types of corridors can be found in the 2030 Transportation Policy Plan - Chapter 7 / 2030 Regional Transportation Plan.
+
+This data was digitized at approximately 1:100,000 scale using TLG streets, regional highways, and Minnesota railroads as "snap-to" base files. It is to be used at a regional scale for planning purposes only and is not intended for site specific uses. Some alignments have been shifted for cartographic display purposes. It is strongly recommended that the data is displayed using the associated Transitways2030 layer file.
+
+NOTE: After importing the layer file, select "Use Symbol Levels" from the layer options menu. 
+
+The data determinations were made on a subjective basis by managers at Metropolitan Transportation Services and Metro Transit. 
+
+Data reflect planned corridors and are subject to changes of the TPP.</abstract>
+      <purpose>Overview of regional transitway corridors as outlined in the 2030 TPP</purpose>
+      <supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20130717</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Transitway System Planned for 2030 as of the Time Period of Content date.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.012</westbc>
+        <eastbc>-92.732</eastbc>
+        <northbc>45.415</northbc>
+        <southbc>44.471</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+      </place>
+      <theme>
+        <themekey>Transit, transportation, transitways, transit planning, transportation policy plan, BRT, LRT, Commuter Rail, Express Bus Corridors, Arterial Street Corridors</themekey>
+        <themekt>None</themekt>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/trans_transitway2030/metadata/preview.jpg</browsen>
+      <browsed>Sample map showing the 2030 Transitway System layer.</browsed>
+    </browse>
+    <native>ArcView 9x</native>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Rachel Wiken</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1572</cntvoice>
+        <cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>This is regional planning level data and is not intended to be used for anything but regional planning.  Some alignments have been shifted for cartographic display purposes.</attraccr>
+    </attracc>
+    <logic>The dataset is topologically 'clean'.</logic>
+    <complete>Entire seven county geographic area is covered.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Unknown - This is regional planning level data and is not intended for site specific purposes.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>This data was digitized at approximately 1:100,000 scale using TLG streets, regional highways, and Minnesota railroads as "snap-to" base files. It is to be used at a regional scale for planning purposes only and is not intended for site specific uses. The data determinations were made on a subjective basis by managers at Metropolitan Transportation Services and Metro Transit.</procdesc>
+      </procstep>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>None</indspref>
+    <direct>Vector</direct>
+    <mgmg3obj>line shapes</mgmg3obj>
+    <mgmg3til>One layer for entire seven county region.</mgmg3til>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>Attribute information taken from TPP Figure 7-43 (page 148)
+
+A layer file is available for this data to correctly display the 4 different categories of transitways. 
+It is strongly recommended this data only be displayed using the associated layer file. 
+
+NOTE: After importing the layer file, select "Use Symbol Levels" from the layer options menu. 
+
+Attributes included in shapefile:
+
+NAME
+CLASS
+LAYER
+LABEL</eaover>
+      <eadetcit>NAME: Corridor name (not included for Express Bus Corridors) 
+
+CLASS: The classification of the corridor
+
+"Complete-PE"      =  Complete, In Construction, Final Design or Preliminary Engineering
+"Develop Other"    =  Develop LRT/Busway/BRT/Commuter Rail
+"Develop BRT"     =  Develop as Arterial Street BRT
+"Express Bus"        =  Express Bus Corridor with Transit Advantages 
+
+LAYER = "1" or  "2" - used only for symbolization with associated layer file (transitways_2030.lyr). DOES NOT designate importance or any sort of timeline.
+
+LABEL = if labeling the corridors, the text in this column should be used.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>Transitways2030</resdesc>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shape file</formname>
+          <formvern>ArcView: 9x</formvern>
+          <transize>0.1 MB for Zip file.</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Jon Hoekenga</cntper>
+        </cntperp>
+        <cntpos>GIS System Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1561</cntvoice>
+        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20130717</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Rachel Wiken</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1572</cntvoice>
+        <cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20110721</ModDate>
+    <ModTime>16044100</ModTime>
+    <CreaDate>20130717</CreaDate>
+    <CreaTime>14085700</CreaTime>
+    <SyncOnce>TRUE</SyncOnce>
+    <DataProperties>
+      <itemProps>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\rafs2a.mc.local\Wikenrl\2030 transit\data\Transitways2030</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+      </itemProps>
+      <copyHistory>
+        <copy source="L:\Metadata\Layers\Transitways2030" dest="\\rafs2a.mc.local\Wikenrl\2030 transit\data\Transitways2030" date="20130717" time="14085700"/>
+      </copyHistory>
+    </DataProperties>
+  </Esri>
+  <mdDateSt Sync="TRUE">20110721</mdDateSt>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

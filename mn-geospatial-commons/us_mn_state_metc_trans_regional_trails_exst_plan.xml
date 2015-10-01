@@ -1,0 +1,214 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>The Metropolitan Council</origin>
+        <pubdate>20150908</pubdate>
+        <title>Regional Trails - Existing and Planned</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-trans-regional-trails-exst-plan</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This is a compilation of alignments for existing and planned regional trails for the 7 county Twin Cities metroplitan area.</abstract>
+      <purpose>This dataset is intended to be used for regional planning and portraying the general alignment of existing and planned regional trails.</purpose>
+      <supplinf>Twin Cities Metropolitan Area, including the seven Minnesota counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott, and Washington.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150908</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Data current to August 2015; updated as additional/corrected information is made available from the operating agencies.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.017</westbc>
+        <eastbc>-92.135</eastbc>
+        <northbc>45.414</northbc>
+        <southbc>44.471</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>trails, bike trails, bike paths, recreation, biking, cycling, hiking, recreation, recreational facilities, trail networks, regional trails</themekey>
+      </theme>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County, City of Minneapolis, City of St. Paul, City of Bloomington</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/trans_regional_trails_exst_plan/metadata/preview.jpg</browsen>
+      <browsed>Sample map showing the trails layer.</browsed>
+    </browse>
+    <native>ArcGIS 9x</native>
+    <crossref>
+      <citeinfo>
+        <title>Regional Parks (Metro Council), State Trails (DNR GDRS), State Parks (DNR GDRS)</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Craig Skone</cntper>
+        </cntperp>
+        <cntpos>Senior GIS Technician</cntpos>
+        <cntaddr>
+          <addrtype> mailing and physical address </addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651-602-1328</cntvoice>
+        <cntfax>651-602-1674</cntfax>
+        <cntemail>craig.skone@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <complete>Data complete and current to August 2015; updated as additional/corrected information is made available from the operating agencies.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The positional accuracy of the dataset has not been tested under the National Standards for Spatial Data Accuracy.  Existing and planned trail alignments were supplied digitally by the following parks operating agencies: Anoka Co., Carver Co., Dakota Co., Scott Co., the City of St. Paul, Three Rivers Park District (suburban Hennepin Co.) and Washington Co.  Existing alignments from the Metopolitan Council were used for the Cities of Bloomington and Minneapolis and suburban Ramsey Co.  In these areas, alignment of existing trails was determined using 2010 digtal imagery.  On-road planned trails were aligned to the NCompass Street Centerline dataset (2012) where appropriate. Planned off-road trails were placed according to source information which varied in accuracy.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not applicable</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+      <procstep>
+        <procdesc>Data Sources: Various: Seven of the ten regional park park operating agencies, 2010 color aerial photography, Metropolitan Council. 
+
+Accuracy: Various: No estimate will be made in determining accuracy of data supplied digitally (as ArcGIS shapefiles) by the operating agencies.  See "Horizontal Positional Accuracy" for additional information.</procdesc>
+      </procstep>
+    </lineage>
+    <logic>None</logic>
+  </dataqual>
+  <spdoinfo>
+    <indspref/>
+    <direct>Vector</direct>
+    <mgmg3obj>Line</mgmg3obj>
+    <mgmg3til>One layer for entire seven county region.</mgmg3til>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>LINE ATTRIBUTES for regional_trails:
+  
+STATUS:	Trail status
+Existing = Trails open to the public.
+Planned = Trails with master plans and known alignments; trails under construction, not yet open to the public.
+
+NAME:  Trail Name
+
+SHAPE_LENG:  Length of trail segments in meters
+
+FEET: Length of trail segments in US feet
+
+MILES: Length of trail segments in US miles
+
+AGENCY: Operating agency
+
+LABEL: [NAME] for map labeling (excludes parallel segments, river crossings and other areas where labeling conflicts are most likely to occur).</eaover>
+      <eadetcit>None</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>regional_trails_exst_plan</resdesc>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shape file</formname>
+          <formvern>ArcGIS 9x</formvern>
+          <transize>Less than one MB for zip file.</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Jon Hoekenga</cntper>
+        </cntperp>
+        <cntpos>GIS System Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1561</cntvoice>
+        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150908</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Craig Skone</cntper>
+        </cntperp>
+        <cntpos>Senior GIS Technician</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651-602-1328</cntvoice>
+        <cntfax>651-602-1674</cntfax>
+        <cntemail>craig.skone@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20110802</ModDate>
+    <ModTime>14261800</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20110802</mdDateSt>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

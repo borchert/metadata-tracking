@@ -1,0 +1,403 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>NCompass Technologies (formerly The Lawrence Group)</origin>
+        <pubdate>periodically revised</pubdate>
+        <title>NCompass Technologies Street Centerline and Address Ranges -  Licensed Dataset</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>NCompass Technologies</publish>
+        </pubinfo>
+        <onlink>http://www.metrogis.org/how-do-i-get/street-centerlines.aspx</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This is a street centerline and address range dataset for the Twin Cities Metropolitan Area and beyond (See Place Keywords for list of counties covered by this dataset) as well as three Wisconsin counties (Pierce, Polk, and St. Croix).
+
+As of the December 1st, 2006 release, the annotation feature class has been dropped for the roads data.  Additional related datasets provided with the street centerline data include landmark information such as schools, shopping centers, hospitals, cemeteries, lakes, streams, railroads and various other areas and points of interest. Metadata for the related datasets is provided separately. The centerline dataset is in Arc/Info, double precision format and was developed for use in a variety of GIS applications. Some typical applications that utilize the dataset are automated routing and address matching applications. The delivered output format of the file can be utilized by a variety of software systems. This dataset was not developed from a TIGER base, rather, it is a composite from numerous resources.
+
+A unique identification number is maintained by NCompass Technologies to allow data files to be related which refer to a unique road segment for use with road maintenance link node modeling and other applications. Changes to this unique identifier is recorded in the &lt;a href="NCompassEdits.html" target=_blank&gt; NCompass  Edits Table&lt;/a&gt; which is included within this resource.  The unique identification number may be attached to end user data files and distributed without violating the license.  
+
+An agreement has been entered into by the Metropolitan Council and NCompass (formerly The Lawrence Group-TLG) that provides access to the NCompass Street Centerline and Landmarks data, at no fee, to all State and Local Government agencies and Colleges and Universities in the State of Minnesota. The Metropolitan Council has funded the licensing of these data for use by these organizations to promote standardization and sharing of geographic information. 
+
+Notes:
+- Other counties are currently under development throughout Minnesota and portions of western Wisconsin.
+- A landmarks dataset is also included as part of the this resource.  Please review the &lt;a href="NCompassLandmarks.html" target="_blank"&gt;metadata&lt;/a&gt; for addtional information</abstract>
+      <purpose>This dataset was developed for use in automated routing, address matching, and other GIS applications as well as to allow for the integration of relational datasets</purpose>
+      <supplinf>24 Minnesota counties and 3 Wisconsin counties.  See Abstract for details.</supplinf>
+    </descript>
+    <timeperd>
+      <current>Dataset is updated monthly
+
+Features and their attributes are added and updated in NCompass Technologies internal dataset on a daily basis. Updating occurs on a city by city basis; therefore, data currency varies. Throughout the course of a year, NCompass Technologies completes an update of the entire 7 county Twin Cities Metro Area. On a monthly basis, NCompass Technologies updates approximately one quarter of all street information - including the addition of street geometry and attribute updates.
+
+Users are encouraged to submit perceived data omissions or errors to NCompass Technologies by sending an email describing them to Dan Och, Senior GIS Analyst (dan@ncompasstech.com).  Additions and changes submitted to NCompass Technologies by Minnesota public users will be available in the first monthly update that occurs 90 days after the changes are submitted.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Monthly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-95.14</westbc>
+        <eastbc>-92.135</eastbc>
+        <northbc>45.734</northbc>
+        <southbc>44.470</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>NCompass Landmarks, NCompass Edits, NCompass, centerlines, address ranges, streets, roads, highways, transportation</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota, Twin Cities, Anoka County, Benton County, Blue Earth County, Carlton County, Carver County, Chisago County, Dakota County, Goodhue County, Hennepin County, Isanti County, McLeod County, Morrison, Olmsted County, Pierce County, Polk County, Ramsey County, Rice County, St. Croix, St. Louis County, Scott County, Sherburne County, Sibley, Stearns County, Washington County, Wright County</placekey>
+      </place>
+    </keywords>
+    <accconst>In May of 1997, an agreement for the use of NCompass Technologies Street Centerline data was completed by Metropolitan Council, Minnesota Department of Transportation (Mn/DOT) and NCompass Technologies. The agreement makes NCompass Technologies Street Centerline data available to all State and Local Government agencies and Colleges and Universities in the State of Minnesota. Mn/DOT and the Metropolitan Council have funded the licensing of the NCompass Technologies Street Centerline data for use by these organizations to promote standardization and sharing of geographic information.</accconst>
+    <useconst>All users are licensees and the dataset may be used within the licensee's business, organization, or agency only. A licensee may alter the data if records of updates and changes are provided to the Licensing Agent. Altered data may not be otherwise distributed. NCompass Technologies will be the maintenance provider for the street centerline dataset agreements for specific information.
+
+While for the Minnesota public users mentioned in 'Access Constraints' there is no charge for the license, there are some responsibilities by which users agree to abide. These include:
+- Submit roadway and address information additions and changes to NCompass Technologies so that they may be incorporated into the street centerline dataset and made available in future monthly updates. 
+- Take measures to prevent the distribution of the NCompass Technologies data to unauthorized users since it is proprietary trade secret information, making it non-public data. 
+- Determining appropriate applications for the use of the data are the responsibility of the user.</useconst>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metrogis/trans_ncompass_roads_landmarks/metadata/preview.jpg</browsen>
+      <browsed>Sample view of NCompass Technologies roads layer.</browsed>
+    </browse>
+    <native>ARC/INFO UNIX platform, various versions</native>
+    <crossref>
+      <citeinfo>
+        <title>1)&lt;a href="NCompassLandmarks.html" target=_blank&gt; NCompass Landmarks&lt;/a&gt;
+
+2)&lt;a href="NCompassEdits.html" target=_blank&gt; NCompass Street Centerline Edits Table&lt;/a&gt;  </title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>NCompass Technologies</cntorg>
+          <cntper>Dan Och</cntper>
+        </cntperp>
+        <cntpos>Sr. GIS Analyst/Consultant</cntpos>
+        <cntaddr>
+          <address>9855 West 78th Street, Suite 50</address>
+          <city>Eden Prairie</city>
+          <state>MN</state>
+          <postal>55344</postal>
+          <addrtype>mailing and physical</addrtype>
+        </cntaddr>
+        <cntvoice>612.598.0435</cntvoice>
+        <cntemail>dan.och@guidek12.com</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Address Range information was taken from several sources. Primarily, they reflect plat and half section maps with addresses written in each parcel. Cities and counties provided these maps with property addresses primarily being provided by building inspectors. Other methods of address acquisition include: field verification and theoretical ranges. Theoretical ranges may exist when precise addresses were not available or field verified. Additionally, theoretical ranges may exist on street segments even though an actual address property does not exist for that segment. 
+
+NCompass Technologies uses extensive address lists as a means for checking address range completeness and currency. Address matches are used to target new areas as well as existing areas in need of update.
+
+Street Naming exists in two manners: 1) As a comprehensive name field that includes all of the street naming components; and 2) as parsed street name components including prefix direction, street name portion, street type, and suffix direction. Street types meet United States Postal Service standards. In instances where the street type is not covered by the USPS, NCompass Technologies has developed it's own standard. This standard will be easily modified if the USPS releases a different standard in the future for those street types. Currently, NCompass Technologies uses its best efforts to establish the proper street name for a given segment. We do not use a name which we have sufficient reason to believe is incorrect. Therefore, since no one resource for street names is correct in all cases, NCompass Technologies uses multiple references in efforts to achieve the correct name. 
+
+Municipal and County attributes are encoded based on boundary information provided by cities, counties and the Minnesota Department of Transportation. In order to provide uniformity between the NCompass Technologies dataset and other digital files available, NCompass Technologies started using MnDOT as the source for boundary information in late 1997.
+
+Also see Completeness below</attraccr>
+    </attracc>
+    <logic>Some important issues follow in regards to the structure of this dataset:
+- Nodes (ends of arcs) will exist whenever a change in any attribute is required
+- Nodes will also exist at true street intersections
+- Nodes will not exist when a street segment passes over another but the two segments do not intersect each other in a navigable way
+- This dataset should not be 'cleaned' within ARC/INFO. Doing so will corrupt the attributes and provide unnecessary difficulties in routing applications. The 'build' command with the 'line' option may be used within ARC/INFO.</logic>
+    <complete>Due to continual construction, the area may never be truly complete. However, NCompass Technologies attempts to maintain 99% completeness on public street centerline development and 99% address range matching capabilities -- assuming a 100% accurate address data file is used when matching.
+
+NCompass Technologies maintains private streets as well. The completeness of these streets is unknown. As NCompass Technologies becomes aware of their existence, they are added to the database.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>NCompass Technologies has a representative on the MN Governors Council Positional Accuracy Workgroup. As part of this group, NCompass Technologies has reviewed this regional dataset using the National Standards for Spatial Data Accuracy. This positional accuracy analysis revealed some issues pertaining to the data standards that have limited a definitive statistical report on the data at this time. Until such time that an NSSDA statistical report can be developed, NCompass Technologies is following the NSSDA guideline by using a descriptive definition of the positional accuracy.
+
+There are differing degrees of positional accuracy throughout the file. NCompass Technologies adjusts the positional accuracy of the data to available sources known to have a greater degrees of accuracy then those used to generate the existing data. However, in all cases (including instances where COGO line work has been the reference) NCompass Technologies generalizes the street segments to at least 4 feet in order to greatly reduce the number of vertices - thus reducing unnecessary file size and allowing for faster analysis.
+The goal of NCompass Technologies is to have 95% of roads located to within the approximate center of digital right-of-way data or pavement centerlines provided from counties, where such digital data is available. In other areas, 95% of roads are intended to be within ten meters of the road or right-of-way center.
+
+For the counties of Dakota and Washington, NCompass Technologies has adjusted the positional alignment of its centerlines by referencing the Washington and Dakota County Surveyors department geospatial dataset. Positional adjustments were also made to data supplied by the Ramsey County Public Works department in May 1998. These adjustments were made relative to each county's centerline dataset. NCompass Technologiese was informed that Ramsey County was continuing to review their own data for positional accuracy; however, the adjustment made by NCompass Technologies was necessary in order that users could more efficiently utilize both datasets concurrently. Due to the large number of changes, the Ramsey County adjustments are noted here in the metadata rather than being reflected in the monthly change report as individual segment changes. 
+
+Additionally, positional adjustments were made as of July 31, 1998 to street centerlines within the city of Minneapolis. These changes were made relative to street centerlines provided by the city of Minneapolis. Again, due to the large number of changes, these positional adjustments are noted here rather than in the monthly change report.
+
+Further positional adjustments were begun in 2002 as NCompass Technologies began aligning roads to county supplied parcel data and 2000 aerial photography.  As of March 1, 2002, Anoka, Carver, Hennepin, Ramsey, and Washington had recieved major updates, effectively modifying the positional accuracy of the entire database. These positional changes have not been individually tracked in the tlgedits.dbf file since they are being changed entirely and the delay to the system would have been too time consuming. Users should make note of this.
+
+For all other areas, various resources were used. For more information please review the section on lineage that follows. 
+Again, as datasets of greater known accuracy become available, NCompass Technologies goal is to adjust its centerline database based on those reference sources.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not applicable</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+      <procstep>
+        <procdesc>Sources used in the development of the data include hardcopy and digital references including: half section maps, plat maps, county supplied COGO line work, county supplied digitized line work, Metropolitan Council 2000 orthophotos, USGS maps, USGS digital orthophoto quads and USGS digital raster graphs. These various sources have been used since 1988 in the development of the data; and, in most cases, multiple sets of data were referenced in order to justify the existence, location, and attributes. The range of reference sources used extends from COGO centerline references in the counties of Dakota and Washington to USGS 7.5 minute quadrangle maps in portions of Chisago, Isanti, Scott and Carver Counties. Typically, the USGS reference sources were used in rural areas and were only used when other sources were unavailable. This dataset was created over the period of 10 years and much of the older developed data has undocumented source reference.
+For Wright County, NCompass Technologies utilized existing street centerline attributes made available by Wright County for all Township areas.  NCompass Technologies added the city information for the completion of Wright County.
+
+NCompass Technologies uses several large address datasets as well as municipally provided address files to cross reference against the street centerline data. These have been extremely beneficial for updating and improving address range and street segment information. Feedback from our current users (both public and private sector) has always been important as well.
+
+The provided attribute items have been in place since 1991 and have only changed slightly since that time. 
+
+Should the original source be hardcopy, NCompass Technologies digitizes (via a tablet) new street centerlines. If the data is in a vector or raster format, NCompass Technologies projects or registers the source to fit the working coordinate system of Minnesota South State Plane (feet). Linear features are then entered by heads-up digitizing means. Should we be referencing accurate centerline files provided to us, we utilize snapping techniques to adjust the positional accuracy.
+
+Attributes are then gathered from numerous sources. Municipalities are the primary source of the address information populating the four address fields. When unavailable, NCompass Technologies uses known street ranges to populate these fields. 
+
+In 1997, NCompass Technologies incorporated a greatly modified data tracking and reporting procedure for internal use as well as for user assistance in tracking changes to the dataset.  See metadata for the ''NCompass Technologies Street Centerline Edits Table'' for details.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">L:\Metadata\Layers\tlg_roads</srcused>
+        <date Sync="TRUE">20080310</date>
+        <time Sync="TRUE">10273600</time>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Address Ranges</indspref>
+    <direct>Vector</direct>
+    <mgmg3obj>arcs, nodes</mgmg3obj>
+    <mgmg3til>One file of the 19 county area</mgmg3til>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>Field Definitions:
+ 
+The street centerline attributes are outlined below as shown in the shapefile version of the dataset.
+ 
+LENGTH:     Length of arc in meters. 
+ 
+L_F_ADD:    Left from node address
+ 
+R_F_ADD:    Right from node address
+ 
+L_T_ADD:    Left to node address
+ 
+R_T_ADD:    Right to node address
+ 
+STREETALL:  Full street name
+ 
+F_CLASS:    Feature class code
+
+RD_CHAR:  Road Character (see note l)
+ 
+ALT_NAM1:   Alternate street name 1
+
+ALT_NAM2:   Alternate street name 2
+ 
+F_XSTREET:  From cross street
+ 
+T_XSTREET:  To cross street
+ 
+CENST_L:    State code (left side)
+ 
+CENCTY_L:   County code (left side)
+
+CENMUN_L:   Municipal code (left side)
+
+GNIS_L:     GNIS code (left side)
+ 
+CENST_R:    State code (right side)
+ 
+CENCTY_R:   County code (right side)
+ 
+CENMUN_R:   Municipal code (right side)
+
+GNIS_R:     GNIS code (right side)
+ 
+FIPS5_L:    5 Digit FIPS municipal or place code (left side)
+ 
+FIPS5_R:    5 Digit FIPS municipal or place code (right side)
+ 
+ZIP5_L:     5 Digit Zip Code (left side)
+ 
+ZIP5_R:     5 Digit Zip Code (right side)
+ 
+CITYLEFTL:  Alpha city name (left side)
+ 
+CITYRIGHT:   Alpha city name (right side)
+ 
+PREDIR:     Prefix street direction
+ 
+STREETNAME: Street name portion of entire street name
+ 
+TYPE:       Street type.  A list of most of these is available from the USPS
+            web site at http://pe.usps.gov/text/pub28/pub28apc.html#508hdr2 .
+ 
+SUFDIR:     Suffix street direction
+ 
+CTYLABRV:   City name abbreviation (left)
+ 
+CTYRABRV:   City name abbreviation (right)
+ 
+SPEED_LIM:  Generalized speed limits
+ 
+ONEWAY:     One way status
+ 
+HIGHWAYNUM: Highway/County road number or letter
+ 
+TLGID:      Unique identification number
+ 
+ 
+Street centerline attribute notes:
+ 
+a. - The first seven fields represent standard Arc/Info items
+b. - Street address ranges do not necessarily exist where only theoretical 
+     ranges exist; however, in many cases they do.
+c. - Feature class codes (f_class) are generalized versions of the U.S. census 
+     bureau standards. Namely: Typical Interstates are labeled A10, Interstate 
+     HOV lanes are labeled A15 (new with Dec. '98 release), US highways A20, 
+     State highways A25, County Roads A30, City Streets A40, Ramps and Loops 
+     A63, Service Drives A64, Private Roads A66, School driveway's
+    (where school buses would travel) A67, Dormitory Walkways A71, and 
+     Restricted Access A98. As of release 2.2b (a mid-quarter update on August 
+     5, 1998), US highways and State Highways were split into two distinct 
+     feature class codes of A20 (US Highways) and A25 (State Highways).
+d. - Streetall represents the full street name. Predir, Streetname, Type, and 
+     Sufdir represent parsed components of streetall as parsed to standard USPS 
+     types and USPS standard direction names.
+e. - F_xstreet and T_xstreet are the values for streetall of the from and to 
+     cross streets for each segment based on the from and to nodes.  (new item 
+     with Dec. '98 release - currently only populated in the 7 county metro 
+     area)
+f. - Due to address matching and parsing issues, street directions are always 
+     placed in the suffix direction field. Street names containing direction 
+     names as part of their actual street name are originally parsed and then 
+     incorporated back into the street item and removed from the predir item.
+g. - Fips5_l and Fips5_r are unique 5 digit numeric Federal Information
+     Processing Standards (FIPS) cods.
+h. - Citylabrv and Cityrabrv are unique alpha city name abbreviations as 
+     produced by NCompass Technologies. These fields are named in conjunction with 
+     Twin Cities metro area street atlas produced by NCompass Technologies.
+h. - Speed_lim is a generalized field where speed limits are populated at this 
+     time based only on the f_class of a given segment.
+i. - Oneway is a field which is encoded with a 2 if the street is two-way, a 1 
+     if the segment represents a one-way street on which traffic moves in the 
+     direction of the flow of the segment; and -1 if the segment represents a 
+     one-way street on which traffic moves in the opposite direction of the 
+     flow of the segment.
+j. - Highway_num is the primary highway or county road number or letter, this 
+     number is taken from the name with the highest feature class code on each 
+     street segment. (new item with Dec. '98 release)
+k. - The TLGID (and &lt;cover&gt;-id) are the same value per segment and these 
+     identification numbers remain consistent for each release of the database.
+l. - RD_CHAR field values: 
+     RC10 = Freeway, 
+     RC20 = Trunk Highway, 
+     RC30 = Primary Highway,
+     RC40 = Major Road,
+     RC50 = Residential and other paved roads,
+     RC60 = Ramps, 
+     RC70 = Gravel and unpaved roads,
+     RC80 = Walkways that have addresses
+
+For additional information related to the RD_CHAR field see the &lt;a href="RoadCharacterDefinition.pdf" target="_blank"&gt;Road Character documentation&lt;/a&gt;
+</eaover>
+      <eadetcit>None</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>NCompassRoads</resdesc>
+    <distliab>NCompass Technologies and Metropolitan Council shall use its best efforts to ensure the dataset is delivered free of physical defect and shall have sole authority to determine whether the dataset was free of any physical defect at the time of delivery. The dataset and associated manuals, reference materials, and technical documentation (if any) are provided 'as is', without warranty as to their performance, merchantability, or fitness for any particular purpose. The entire risk as to the results and performance of the dataset is assumed by the user. The Metropolitan Council and NCompass Technologies shall not be liable for indirect, special, incidental, compensatory, or consequential damages or third party claims which may result from the use of the dataset, even if the Council or NCompass Technologies has been advised of the possibility of such potential loss or damage. 
+
+See license agreement for complete information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView shapefile</formname>
+          <formvern>ArcGIS 10.x</formvern>
+          <transize>Approximate size for Arc export format: 185 Mb</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Tanya Mayer</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1604</cntvoice>
+        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20130201</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Tanya Mayer</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1604</cntvoice>
+        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20111207</ModDate>
+    <ModTime>09495800</ModTime>
+    <MetaID>{C61A03FE-A3B7-42C7-B0B5-10ECD802A11D}</MetaID>
+    <CreaDate>20080310</CreaDate>
+    <CreaTime>10273600</CreaTime>
+    <SyncOnce>TRUE</SyncOnce>
+  </Esri>
+  <mdDateSt Sync="TRUE">20111207</mdDateSt>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <linkage Sync="TRUE">file://\\rafs\gis\devel\staff\gu_jessica\Temp_for_data_updates\tlg_roads</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+      </distorTran>
+    </distributor>
+  </distInfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

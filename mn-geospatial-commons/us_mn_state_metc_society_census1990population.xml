@@ -1,0 +1,266 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Decennial Census 1990</title>
+        <origin>U.S. Census Bureau</origin>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <pubdate>19920101</pubdate>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-society-census1990population</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Decennial Census 1990 includes tabulations of housing units, total population and adult population by race and Hispanicity. Geographies nationwide can be obtained from Census, with disaggregate geographic detail down to Block-level. Metropolitan Council is publishing files for 1990 Blocks, Block Groups and Tracts.</abstract>
+      <purpose>Decennial Census 1990 includes tabulations of housing units, total population and adult population by race and Hispanicity. Data are population and housing from a "100% count." The Census Bureau attempts to survey or interview all known addresses. Geographies nationwide can be obtained from Census, with disaggregate geographic detail down to Block-level.  Metropolitan Council is publishing files for 1990 Blocks, Block Groups and Tracts.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1990</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>1990</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.23</westbc>
+        <eastbc>-89.53</eastbc>
+        <northbc>49.37</northbc>
+        <southbc>43.5</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Census, demographic, population, tracts, block groups, blocks</themekey>
+        <themekt>None</themekt>
+      </theme>
+      <place>
+        <placekey>Minnesota, Twin Cities</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+      <browsen>None available</browsen>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <title>Census Geography 1990 - Tiger, Census Geography 1990 - TLG Aligned </title>
+      </citeinfo>
+    </crossref>
+    <native>Oracle Version 10g, Release 2</native>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Matt Schroeder</cntper>
+        </cntperp>
+        <cntpos>Senior Researcher</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1513</cntvoice>
+        <cntemail>matt.schroeder@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The Decennial Census, SF1, reports population and housing from a "100% count." The Census Bureau attempts to survey or interview all known addresses. Still, the data are subject to error. The errors derive from survey data collection (response errors, field follow-up for missing cases) and processing by the Census Bureau (geolocation of population and housing, data coding, compilation processes, and imputation of missing cases).</attraccr>
+    </attracc>
+    <lineage>
+      <procstep>
+        <procdesc>Data presented were compiled by US Census Bureau. </procdesc>
+      </procstep>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+    </lineage>
+    <logic>Data presented were compiled by US Census Bureau. Data presented have been assigned new field names by Metroplitan Council in order to aid usability.</logic>
+    <complete>Entire state is covered.</complete>
+  </dataqual>
+  <spdoinfo>
+    <mgmg3obj/>
+    <mgmg3til/>
+    <indspref/>
+    <direct/>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>not applicable</altdatum>
+        <altunits>NA</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>NA</depthdn>
+        <depthdu>NA</depthdu>
+      </depthsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>Attributes for table: 
+
+The following appear as labels or headings in tables compiled by Metropolitan Council:
+
+GEOG_UNIT= Metropolitan Council-provided identifier (for Tracts and Block Groups this is identical to field GEOID2); 
+GEOG_LEVEL= Metropolitan Council-provided summarization level; 
+GEONAME= Name label for geographic area; 
+GEOID= Census-provided 20-digit string identifying the Census geography sum level and type, FIPS codes, Tract and Block Group identifiers; 
+SUMLEV= Census-provided summarization level; 
+GEOCOMP= Census-provided summarization type ('00' denotes total, other codes denote urban and rural subtotals); 
+STATE= State FIPS code; 
+COUNTY= County FIPS code; 
+GEOID2= Census-provided 12-digit code identifying the FIPS codes, Tract and Block Group identifiers;  
+
+B00001e1= n people in the area;  
+B00002e1= n housing units represented in the area;  
+POPTOTAL= Total number of people; 
+LIVEDALONE= households with 1 person alone;
+MARRKIDS= family households with children and headed by a married couple; 
+UNMARRKIDS= family households with children and headed by a single person or unmarried people; 
+FAMNOKIDS= family households with no children; 
+NONFAMILY= other households that are not families and with more than 1 person;  
+M_0_4=   males in this age range; 
+M_5_9=   males in this age range; 
+M_10_14= males in this age range; 
+M_15_19= males in this age range; 
+M_20_24= males in this age range; 
+M_25_29= males in this age range; 
+M_30_34= males in this age range; 
+M_35_39= males in this age range; 
+M_40_44= males in this age range;
+M_45_49= males in this age range; 
+M_50_54= males in this age range; 
+M_55_59= males in this age range;
+M_60_64= males in this age range; 
+M_65_69= males in this age range; 
+M_70_74= males in this age range; 
+M_75_79= males in this age range; 
+M_80_84= males in this age range; 
+M_OVER85= males in this age range;  
+F_0_4=   females in this age range; 
+F_5_9=   females in this age range; 
+F_10_14= females in this age range; 
+F_15_19= females in this age range;
+F_20_24= females in this age range;
+F_25_29= females in this age range; 
+F_30_34= females in this age range; 
+F_35_39= females in this age range; 
+F_40_44= females in this age range; 
+F_45_49= females in this age range; 
+F_50_54= females in this age range; 
+F_55_59= females in this age range; 
+F_60_64= females in this age range;
+F_65_69= females in this age range; 
+F_70_74= females in this age range; 
+F_75_79= females in this age range; 
+F_80_84= females in this age range; 
+F_OVER85= females in this age range;  
+WHITENH= population that identifies as white only and non-Hispanic;  
+BLACKNH= population that identifies as black only and non-Hispanic;  
+AMINDNH= population that identifies as American Indian only and non-Hispanic;  
+ASPACISNH= population that identifies as Asian/Asian-American or Pacific Islander and non-Hispanic;  
+PACIFICNH= population that identifies as Pacific Islander only and non-Hispanic;  
+OTHERNH= population that identifies as other race and non-Hispanic;  
+HISPPOP= population that identifies as Hispanic in combination with any race;  
+NOTHISPPOP= population that identifies as non-Hispanic;   
+
+HUTOTAL= total housing units; 
+HHTOTAL= total households, also number of occupied housing units;  
+POPINHH= population in households and not in GQ; 
+AVGHHSIZE= average household size;  
+POPINGQ= population in group quarters;
+HOMEOWNPCT= share of households that own their housing; 
+OWNEROCC= owner households or owner-occupied units; 
+RENTEROCC= renter households or renter-occupied units; 
+VACANT= vacant housing units; 
+POPOVER5=  population (age 5+) used as denominator in % calculations; 
+POPOVER16= population age 16+; 
+POPOVER18= population age 18+; 
+POPOVER65= population age 65+; 
+
+HH_UNDER18= housieholds with children ages 0-17 present;
+HH_65OVER= households with senior citizens ages 65+ present;
+
+CENSUS_SOURCE= Description of data source; 
+YEAR= Year of data collection;
+TCFLAG= Met Council-assigned code identifying location in the Met Council region (1), an adjacent MN county (2), or an adjacent WI county (3).
+</eaover>
+      <eadetcit>None</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>Decennial Census 1990</resdesc>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>csv file</formname>
+          <formvern>NA</formvern>
+          <transize>Less than 10 MB for zip file</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Matt Schroeder</cntper>
+        </cntperp>
+        <cntpos>Senior Researcher</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1513</cntvoice>
+        <cntemail>matt.schroeder@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20140416</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Todd Graham</cntper>
+        </cntperp>
+        <cntpos>Principal Forecaster</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651-602-1322</cntvoice>
+        <cntemail>todd.graham@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20110726</ModDate>
+    <ModTime>12064400</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20110726</mdDateSt>
+</metadata>

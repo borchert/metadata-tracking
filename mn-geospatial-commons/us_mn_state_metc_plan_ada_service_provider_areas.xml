@@ -1,0 +1,198 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Metropolitan Council - Metropolitan Transportation Services (Metro Mobility)</origin>
+        <pubdate>periodically revised</pubdate>
+        <title>Metro Mobility Americans with Diabilities Act (ADA) Service Provider Areas</title>
+        <mgmg1cid>N/A</mgmg1cid>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-plan-ada-service-provider-areas</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This layer represents the demand responsive services (Dial-a-Ride) provided for the Americans with Disabilities Act (ADA) by Metro Mobility. 
+
+Dial-a-ride service for the general public is available through the Transit Link Dial-a-Ride program.  (see Transit Link Dial-a-Ride Service Areas)
+
+ADA service areas are defined by complete cities or townships.  </abstract>
+      <purpose>The pupose of the is layer is to show the service provder areas boundaries. Metro Mobility dispatchers use this layer when making reservations with customers.  </purpose>
+      <supplinf>Twin Cities 7 county metropolitan area. This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott Twin Cities 7 county metropolitan area. This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150701</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Service Provider Area boundaries are defined by municipality and effective starting on 8/30/2015 
+
+Updates to this data since then reflect only minor updates to municipal boundaries, reflected in the Time Period of Content.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.012</westbc>
+        <eastbc>-92.732</eastbc>
+        <northbc>45.415</northbc>
+        <southbc>44.471</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Transportation, Transit Services, Metro Mobility, Senior Transportation, Dial-a-ride, demand response</themekey>
+      </theme>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+      <browsen>None available</browsen>
+    </browse>
+    <native>dBASE IV (DBF 4)</native>
+    <crossref>
+      <citeinfo>
+        <title>Counties and Cities &amp; Townships, Twin Cities Metropolitan Area  </title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Rachel Wiken</cntper>
+        </cntperp>
+        <cntpos>GIS Technician</cntpos>
+        <cntaddr>
+          <addrtype> mailing and physical address </addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>Minnesota</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1572</cntvoice>
+        <cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Attributes provided by MTS Metro Mobility staff. Eash Sevice Provider Area was defined by a list of municipalities.  Each service area is served by 1 provider designated by Metro Mobility.</attraccr>
+    </attracc>
+    <complete>7 County Metropolitan Area of the Twin Cities. (Anoka, Carver, Dakota, Hennepin, Ramsey, Scott, and Washington Counties)</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Because this dataset is derived directly from the MetroGIS regional municipal boundary layer, it's positional accuracy is identical to that dataset. </horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>This layer was created by Metro Mobility staff  identifying the municipalities that are served by each service provider.  The layer is created by relating the COCTU Lookup Table to the current municpal boundary layer and dissolving  on the METMO_SA field, then adding the Provider field with the current provider names. This layer is updated quarterly to reflect the most current municipal boundaries.   </procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>COCTU_CODE:  8 digit code that is a concatenation of the 3-digit FIPS county code and 5-digit FIPS place code</indspref>
+    <direct/>
+    <mgmg3obj/>
+    <mgmg3til>One file for entire Twin Cities Metropolitan Area</mgmg3til>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>METMO_SA - Metro Mobility ADA Service Provider Area Name:
+- Metro East
+- Metro South
+- Metro West
+
+Provider - Metro Mobility Service Provider Name
+
+Phone - Metro Mobility Service Provider Phone Number
+
+TTY - Metro Mobility Service Provide TTY Phone Number</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>MetroMobilityADAServiceProviderAreas</resdesc>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>dBASE IV</formname>
+          <formvern>DBF 4</formvern>
+          <transize>Less than 1 MB for zip file.</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Tanya Mayer</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1604</cntvoice>
+        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150817</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Tanya Mayer</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1604</cntvoice>
+        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

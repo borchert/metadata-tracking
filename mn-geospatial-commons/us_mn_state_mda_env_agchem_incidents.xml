@@ -7,7 +7,7 @@
         <pubinfo>
           <publish>Minnesota Department of Agriculture</publish>
         </pubinfo>
-        <pubdate>20150309</pubdate>
+        <pubdate>20150924</pubdate>
         <onlink>http://gisdata.mn.gov/dataset/env-agchem-incidents</onlink>
       </citeinfo>
     </citation>
@@ -84,7 +84,7 @@ For more information on the layers included, see the following layer specific me
     <metextns>
       <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
     </metextns>
-    <metd>20150309</metd>
+    <metd>20150924</metd>
     <metc>
       <cntinfo>
         <cntperp>

@@ -13,7 +13,9 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This layer shows legally designated trout streams and trout stream tributaries as identified in &lt;B&gt;Minnesota Rules Chapter 6264&lt;/B&gt;. See http://www.revisor.leg.state.mn.us/arule/6264/0050.html for legal descriptions and restrictions associated with designated trout waters.
+      <abstract>&lt;B&gt;Data is currently being updated.  See Completeness Section below for more information.&lt;/B&gt;
+
+This layer shows legally designated trout streams and trout stream tributaries as identified in &lt;B&gt;Minnesota Rules Chapter 6264&lt;/B&gt;. See http://www.revisor.leg.state.mn.us/arule/6264/0050.html for legal descriptions and restrictions associated with designated trout waters.
 
 This data set includes designated trout streams and their protected tributaries only. Users are encouraged to use the full resolution &lt;b&gt;Stream Routes with Kittle Numbers and Mile Measures&lt;/b&gt; layer ( http://gisdata.mn.gov/dataset/water-measured-kittle-routes ) as a base layer to visualize all streams (designated and not) to fully understand hydrological connectivity and impacts to trout resources. 
 
@@ -25,12 +27,12 @@ Designated segments are maintained as tabular data and displayed as linear event
       <current>Time Period of Content Date indicates when dataset was last updated.  Please submit redigitized linework, errors or requests for new features to Contact Person (below).</current>
       <timeinfo>
         <sngdate>
-          <caldate>20141101</caldate>
+          <caldate>20150821</caldate>
         </sngdate>
       </timeinfo>
     </timeperd>
     <status>
-      <progress>Complete</progress>
+      <progress>Planned</progress>
       <update>Annually</update>
     </status>
     <spdom>
@@ -78,7 +80,7 @@ Designated segments are maintained as tabular data and displayed as linear event
     </ptcontac>
   </idinfo>
   <dataqual>
-    <complete>Data are completed for designated trout streams and protected tributaries statewide. However, this layer is still under review and subject to future revision. Most recent updates were completed in 2013.</complete>
+    <complete>Data are completed for designated trout streams and protected tributaries statewide. However, this layer is still under review and subject to future revision. As of spring 2015, errors were noted due to changes in the PLS section layer. A large update effort has been underway to check the layer statewide so all errors can be corrected. Expected completion of the update process is summer of 2016.  Please check https://www.revisor.mn.gov/rules/?id=6264.0050 for the legal designated trout stream list. The most recent updates were completed in 2013.</complete>
     <posacc>
       <horizpa>
         <horizpar>Source layer: DNR Hydrography SDE\strm_ctrln_rte </horizpar>
@@ -221,8 +223,7 @@ Accuracy of original MNDOT Basemap features: Horizontal positional accuracy is h
   </eainfo>
   <distinfo>
     <resdesc>env_trout_stream_designations</resdesc>
-    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html
-</distliab>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
     <stdorder>
       <digform>
         <digtinfo>
@@ -253,7 +254,7 @@ Accuracy of original MNDOT Basemap features: Horizontal positional accuracy is h
     </distrib>
   </distinfo>
   <metainfo>
-    <metd>20140724</metd>
+    <metd>20150821</metd>
     <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
     <metstdv>1.2</metstdv>
     <metextns>

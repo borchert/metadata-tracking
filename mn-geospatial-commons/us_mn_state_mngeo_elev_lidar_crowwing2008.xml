@@ -2,9 +2,12 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>Merrick &amp; Company</origin>
+        <origin>Crow Wing County (Merrick &amp; Company)</origin>
         <title>LiDAR Elevation, Crow Wing County, Minnesota, 2008</title>
         <pubdate>20080205</pubdate>
+        <pubinfo>
+          <publish>Minnesota Department of Natural Resources</publish>
+        </pubinfo>
         <onlink>http://www.dnr.state.mn.us/maps/mntopo/index.html</onlink>
       </citeinfo>
     </citation>
@@ -17,10 +20,10 @@
     </timeperd>
     <spdom>
       <bounding>
-        <westbc>-94.396394</westbc>
-        <eastbc>-93.794358</eastbc>
-        <northbc>46.350879</northbc>
-        <southbc>46.153896</southbc>
+        <westbc>-94.40</westbc>
+        <eastbc>-93.77</eastbc>
+        <northbc>46.81</northbc>
+        <southbc>46.15</southbc>
       </bounding>
     </spdom>
     <descript>
@@ -30,6 +33,7 @@
 Breaklines captured as part of this effort are also a bit different. In Crow Wing County the breaklines are 3D Polyline features rather than 3D Polygon features. They also include road centerlines, stream courses and other features that are not part of the Statewide collect specifications. However, the breaklines do not have z-values associated with them so the DEMs have not been hydro-flattened.
 
 Note: This metadata record was created at the Minnesota Geospatial Information Office by combining information supplied by Merrick &amp; Company, Crow Wing County, and the Minnesota Department of Natural Resources. </abstract>
+      <purpose>To produce high-resolution elevation and contour data for the county.</purpose>
     </descript>
     <accconst>None</accconst>
     <crossref>
@@ -61,6 +65,7 @@ Note: This metadata record was created at the Minnesota Geospatial Information O
         </cntperp>
         <cntpos>Director of Projects / Project Manager</cntpos>
         <cntaddr>
+          <addrtype>mailing and physical</addrtype>
           <address>2450 South Peoria Street</address>
           <city>Aurora</city>
           <state>CO</state>
@@ -143,7 +148,7 @@ All processing was done using ArcGIS V10 and LP360 Extensions
     <metextns>
       <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
     </metextns>
-    <metd>20140429</metd>
+    <metd>20150902</metd>
     <metc>
       <cntinfo>
         <cntperp>
@@ -152,7 +157,7 @@ All processing was done using ArcGIS V10 and LP360 Extensions
         </cntperp>
         <cntpos>GIS Data Coordinator</cntpos>
         <cntaddr>
-          <addrtype>Mailing and Physical</addrtype>
+          <addrtype>mailing and physical</addrtype>
           <address>658 Cedar Street, Room 300</address>
           <city>St. Paul</city>
           <state>MN</state>
@@ -165,10 +170,12 @@ All processing was done using ArcGIS V10 and LP360 Extensions
     </metc>
   </metainfo>
   <distinfo>
-    <resdesc>Crow Wing County LiDAR</resdesc>
+    <resdesc>Crow Wing County LiDAR (elev_lidar_crowwing2008)</resdesc>
     <distliab>1. Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html
 
-2. MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab>
+2. MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html
+
+3. Crow Wing County's disclaimer is online: http://gis.co.crow-wing.mn.us/link/jsfe/index.aspx .  This disclaimer is displayed before users get access to the county's public online mapping service.</distliab>
     <stdorder>
       <ordering>The LiDAR data provided by DNR may be viewed online or downloaded in several ways:
 
@@ -177,7 +184,7 @@ All processing was done using ArcGIS V10 and LP360 Extensions
 - view data online
 - download data in Esri and open formats (tiles for most data formats will be mosaicked together during download)
 - see the help file for details: http://files.dnr.state.mn.us/aboutdnr/gis/mntopo/mntopo_help_document.pdf
-
+- the online linkage below links to this website. 
 
 2. MnGeo's FTP site
 Use the tile_index.pdf maps to locate the tiles you need. Except for the county file, tiles will not be mosaicked.
@@ -186,7 +193,6 @@ a. From the county folder: ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/c
 The county mosaic is named elevation_data.gdb.zip  For details of its contents and size, see this table: http://geoint.lmic.state.mn.us/lidar.php
 
 b. In the 250k tiles folder: ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/q250k/
-
 
 For more help with Minnesota's LiDAR data, see http://www.mngeo.state.mn.us/chouse/elevation/lidar.html</ordering>
     </stdorder>
@@ -198,7 +204,7 @@ For more help with Minnesota's LiDAR data, see http://www.mngeo.state.mn.us/chou
         </cntperp>
         <cntpos>GIS Data Coordinator</cntpos>
         <cntaddr>
-          <addrtype>Mailing and Physical</addrtype>
+          <addrtype>mailing and physical</addrtype>
           <address>658 Cedar Street, Room 300</address>
           <city>St. Paul</city>
           <state>MN</state>

@@ -5,7 +5,6 @@
         <origin>Minnesota Department of Natural Resources (MNDNR)</origin>
         <pubdate>20090424</pubdate>
         <title>MNDNR Administered State Forest Roads</title>
-        <mgmg1cid/>
         <pubinfo>
           <publish>MNDNR - Division of Forestry</publish>
         </pubinfo>
@@ -15,15 +14,14 @@
     <descript>
       <abstract>Roads administered by the Commissioner of Natural Resources to provide access to lands administered by the Division of Forestry. These roads are generally open to the public for recreational use. Some of the segments in this shapefile are components of County administered forest road systems which cross State land. State Forest Roads are classified as either system roads or minimum maintenance roads. System roads are generally well maintained and capable of supporting low-clearance highway licensed vehicles. Minimum maintenance roads are not capable of sustaining routine traffic by highway licensed vehicles. They are posted with signs which state "Road may be impassable. Travel at your own risk".</abstract>
       <purpose>To provide an inventory of the the State Forest Road system for  access to perform resource management activities and as a reference for recreational activities.</purpose>
-      <supplinf>There are 29 counties in Minnesota which contain at least one designated forest road segment.</supplinf>
     </descript>
     <timeperd>
-      <current>Time Period of Content Date indicates when dataset was last updated.  These data are pulled regularly from the DNR's WHEELS database and should be considered up-to-date.</current>
       <timeinfo>
         <sngdate>
-          <caldate>20140725</caldate>
+          <caldate>20150929</caldate>
         </sngdate>
       </timeinfo>
+      <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset.  These data are pulled regularly from the DNR's WHEELS database and should be considered up-to-date.</current>
     </timeperd>
     <status>
       <progress>Complete</progress>
@@ -52,6 +50,12 @@
     <browse>
       <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/trans_state_forest_roads_wheels/preview/preview.jpg</browsen>
     </browse>
+    <crossref>
+      <citeinfo>
+        <title>
+          </title>
+      </citeinfo>
+    </crossref>
     <ptcontac>
       <cntinfo>
         <cntperp>
@@ -87,18 +91,17 @@
       </vertacc>
     </posacc>
     <lineage>
-      <srcinfo>
-        <srcscale>Source layer road_wtfrln3:  12000
-</srcscale>
-      </srcinfo>
       <procstep>
         <procdesc>Derived from the WHEELS.TREADWAY feature class in the MNDNR's enterprise geodatabase.
 </procdesc>
       </procstep>
     </lineage>
+    <attracc>
+      <attraccr>
+        </attraccr>
+    </attracc>
   </dataqual>
   <spdoinfo>
-    <indspref/>
     <direct>vector</direct>
     <mgmg3obj>line</mgmg3obj>
     <mgmg3til>state</mgmg3til>
@@ -139,7 +142,7 @@
         <enttypd>Attribute table for DNR State Forest Roads - WHEELS Database</enttypd>
       </enttyp>
       <attr>
-        <attrlabl>TREADCLASS</attrlabl>
+        <attrlabl>road_class</attrlabl>
         <attrdef>Treadway Class</attrdef>
         <attrdomv>
           <edom>
@@ -151,6 +154,30 @@
           <edom>
             <edomv>2</edomv>
             <edomvd>Minimum Maintenance Road</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Resource Management Route</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>98</edomv>
+            <edomvd>Other</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>99</edomv>
+            <edomvd>Unknown</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Temporary Access Route</edomvd>
           </edom>
         </attrdomv>
       </attr>
@@ -165,6 +192,63 @@
       <attr>
         <attrlabl>LEN_MILES</attrlabl>
         <attrdef>Length of feature in miles, as calculated by the GIS</attrdef>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>legal_easements_wheels_database</enttypl>
+        <enttypd>Attribute table for Wheels Legal Easements</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>leg_ease_type</attrlabl>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Prescriptive</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Granted</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>98</edomv>
+            <edomvd>Other</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>99</edomv>
+            <edomvd>Unknown</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Township Agreement</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>grant_perm_desc</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ease_row_wid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>leg_ease_coun</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ease_coun_doc</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ease_state_doc</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>owner_id</attrlabl>
       </attr>
     </detailed>
   </eainfo>

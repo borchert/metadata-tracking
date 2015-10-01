@@ -3,13 +3,13 @@
     <citation>
       <citeinfo>
         <origin>Metropolitan Council</origin>
-        <pubdate>20141204</pubdate>
+        <pubdate>20150923</pubdate>
         <title>ThriveMSP 2040 Community Designations</title>
         <mgmg1cid>N/A</mgmg1cid>
         <pubinfo>
           <publish>Metropolitan Council</publish>
         </pubinfo>
-        <onlink>https://gisdata.mn.gov/dataset/society-thrive-msp2040-com-des</onlink>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-society-thrive-msp2040-com-des</onlink>
       </citeinfo>
     </citation>
     <descript>
@@ -24,10 +24,10 @@ See Currentness Reference and Lineage in Data Quality Section of this metadata f
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20141204</caldate>
+          <caldate>20150923</caldate>
         </sngdate>
       </timeinfo>
-      <current>Planning areas were first defined to analyze land use and development trends and socio-economic characteristics to assist in preparing the Council's 1975 Metropolitan Development Framework.  They have subsequently been used for a wide range of general analysis purposes.  These areas were defined to reflect stages of development of metropolitan area communities.  A major factor in their determination has been the proportion of land developed.  As such, these areas have been periodically adjusted to reflect the continued outward growth of the region. The Metropolitan Council originally approval the 2040 community designations on May 28, 2014. Community designations reflect municipal boundaries and Metropolitan Urban Service Areas (MUSA) as of Nov. 14 2014. </current>
+      <current>Planning areas were first defined to analyze land use and development trends and socio-economic characteristics to assist in preparing the Council's 1975 Metropolitan Development Framework.  They have subsequently been used for a wide range of general analysis purposes.  These areas were defined to reflect stages of development of metropolitan area communities.  A major factor in their determination has been the proportion of land developed.  As such, these areas have been periodically adjusted to reflect the continued outward growth of the region. The Metropolitan Council originally approval the 2040 community designations on May 28, 2014. Community designations reflect municipal boundaries and Metropolitan Urban Service Areas (MUSA) as of Sept. 23 2015. </current>
     </timeperd>
     <status>
       <progress>Complete</progress>
@@ -52,26 +52,23 @@ See Currentness Reference and Lineage in Data Quality Section of this metadata f
     </keywords>
     <accconst>None</accconst>
     <useconst>None</useconst>
-    <browse>
-      <browsen>http://www.datafinder.org/metadata/bg/ThriveMSP_2040_CommunityDesignations.jpg</browsen>
-      <browsed>Sample map showing the 2030 framework planning areas layer.</browsed>
-    </browse>
     <native>ArcView 9.3</native>
     <ptcontac>
       <cntinfo>
         <cntperp>
           <cntorg>Metropolitan Council</cntorg>
-          <cntper>Paul E. Hanson</cntper>
+          <cntper>Paul Hanson</cntper>
         </cntperp>
-        <cntpos>GIS Specialist</cntpos>
+        <cntpos>GIS Coordinator - Community Development</cntpos>
         <cntaddr>
+          <addrtype> mailing and physical address </addrtype>
           <address>390 Robert Street North</address>
           <city>St. Paul</city>
-          <state>MN</state>
+          <state>Minnesota</state>
           <postal>55101-1805</postal>
-          <addrtype>mailing and physical</addrtype>
         </cntaddr>
         <cntvoice>651.602.1642</cntvoice>
+        <cntfax>651.602.1674</cntfax>
         <cntemail>paul.hanson@metc.state.mn.us</cntemail>
       </cntinfo>
     </ptcontac>
@@ -222,11 +219,11 @@ COMDES2040 : COMDESNAME : URB_RURAL
         </cntperp>
         <cntpos>GIS System Administrator</cntpos>
         <cntaddr>
+          <addrtype>mailing and physical</addrtype>
           <address>390 Robert Street North</address>
           <city>St. Paul</city>
           <state>MN</state>
           <postal>55101-1805</postal>
-          <addrtype>mailing and physical</addrtype>
         </cntaddr>
         <cntvoice>651.602.1561</cntvoice>
         <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
@@ -234,27 +231,28 @@ COMDES2040 : COMDESNAME : URB_RURAL
     </distrib>
   </distinfo>
   <metainfo>
-    <metd>20141204</metd>
+    <metd>20150923</metd>
     <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
     <metstdv>1.2</metstdv>
     <metextns>
-      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
     </metextns>
     <metc>
       <cntinfo>
         <cntperp>
           <cntorg>Metropolitan Council</cntorg>
-          <cntper>Paul E. Hanson</cntper>
+          <cntper>Paul Hanson</cntper>
         </cntperp>
-        <cntpos>GIS Specialist</cntpos>
+        <cntpos>GIS Coordinator - Community Development</cntpos>
         <cntaddr>
+          <addrtype>mailing and physical</addrtype>
           <address>390 Robert Street North</address>
           <city>St. Paul</city>
-          <state>MN</state>
+          <state>Minnesota</state>
           <postal>55101-1805</postal>
-          <addrtype>mailing and physical</addrtype>
         </cntaddr>
         <cntvoice>651.602.1642</cntvoice>
+        <cntfax>651.602.1674</cntfax>
         <cntemail>paul.hanson@metc.state.mn.us</cntemail>
       </cntinfo>
     </metc>

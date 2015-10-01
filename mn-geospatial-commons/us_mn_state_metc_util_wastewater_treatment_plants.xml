@@ -1,0 +1,210 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Metropolitan Council</origin>
+        <pubdate>unpublished material</pubdate>
+        <title>Waste Water Treatment Plants</title>
+        <mgmg1cid>N/A</mgmg1cid>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-util-wastewater-treatment-plants</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This layer contains a point location for each of the waste water treatment plants in the Twin Cities metropolitan area.</abstract>
+      <purpose>Used to show general location of waste water treatment plants</purpose>
+      <supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2002</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Dataset is up-to-date as of August, 2002.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.012</westbc>
+        <eastbc>-92.732</eastbc>
+        <northbc>45.415</northbc>
+        <southbc>44.471</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>waste water treatment plant, waste water, sewage treatment plant, sewage, sewer, sewerage, utilities</themekey>
+      </theme>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/util_wastewater_treatment_plants/metadata/preview.jpg</browsen>
+      <browsed>Sample map showing the Waste Water Treatment Plants layer.</browsed>
+    </browse>
+    <native>ArcGIS 8x</native>
+    <crossref>
+      <citeinfo>
+        <title>Sewer Interceptor System, Sewersheds</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Lori Sand</cntper>
+        </cntperp>
+        <cntpos>Environmental Services Division</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>3565 Kennebec Drive</address>
+          <city>Eagan</city>
+          <state>MN</state>
+          <postal>55122</postal>
+        </cntaddr>
+        <cntvoice>651.602.4516</cntvoice>
+        <cntemail>lori.sand@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>The dataset is topologically 'clean'.</logic>
+    <complete>Entire seven county geographic area is covered.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The positional accuracy of the dataset has not been tested under the National Standards for Spatial Data Accuracy.  The positional accuracy of the dataset is UNKNOWN.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+      <procstep>
+        <procdesc>Derived from plan drawings and located on census centerline dataset.
+</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>None</indspref>
+    <direct>Point</direct>
+    <mgmg3obj>points</mgmg3obj>
+    <mgmg3til>One layer for entire seven county region.</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>not applicable</altdatum>
+      </altsys>
+      <depthsys>
+        <depthdn>not applicable</depthdn>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>Point Attributes
+ 
+NAME:     Treatment plant name.
+ 
+ADDRESS:  Treatment plant street address.
+ 
+CITY:     Treatment plant city.
+ 
+ZIP:      Treatment plant zip code.
+
+MAP_CODE: Synergen relate item.</eaover>
+      <eadetcit>None</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>TreatmentPlants</resdesc>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shape file</formname>
+          <formvern>ArcGIS 8</formvern>
+          <transize>0.1 meg. for zip file.</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Lori Sand</cntper>
+        </cntperp>
+        <cntpos>Environmental Services Division</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>3565 Kennebec Drive</address>
+          <city>Eagan</city>
+          <state>MN</state>
+          <postal>55122</postal>
+        </cntaddr>
+        <cntvoice>651.602.4516</cntvoice>
+        <cntemail>lori.sand@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20030324</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Lori Sand</cntper>
+        </cntperp>
+        <cntpos>Environmental Services Division</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>3565 Kennebec Drive</address>
+          <city>Eagan</city>
+          <state>MN</state>
+          <postal>55122</postal>
+        </cntaddr>
+        <cntvoice>651.602.4516</cntvoice>
+        <cntemail>lori.sand@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20060210</ModDate>
+    <ModTime>14244600</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20060210</mdDateSt>
+</metadata>

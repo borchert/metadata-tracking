@@ -1,0 +1,369 @@
+<metadata>
+  <eainfo>
+    <overview>
+      <eaover>Polygon Attributes for MUSA_composite.shp: 
+  
+BENCHMARK: Alphanumeric code for year of Comprehensive Plan (i.e., 2030) 
+ 
+MC_PLANT:  Indicates whether the area is serviced by Metropolitan 
+Council Environmental Services' sewer system (i.e., 'Y') or by a local 
+sewer system (i.e., 'N'). 
+ 
+MUSA_CODE:   A code that indicates the urban service area category for 
+the polygon. NOTE:  The preferred names for these categories are 
+subject to change. 
+ 
+                 00 = 2000 MUSA 
+                 05 = 2005 Staging Area 
+                 10 = 2010 MUSA 
+                 15 = 2015 Staging Area 
+                 20 = 2020 MUSA 
+                 25 = 2025 Staging Area 
+                 30 = 2030 MUSA 
+                 35 = 2035 Staging Area 
+                 40 = 2040 MUSA 
+                 PM = Post-2030 MUSA 
+                 UM = Undesignated MUSA 
+                 UR = Undesignated MUSA Reserve 
+                 UE = Urban Expansion 
+                 SM = Shakopee Mdewakanton Sioux Community  
+                 PS = Private System 
+                 US = Unsewered 
+                 NM = Non-Metropolitan areas communities that are exempt 
+                      from submitting Comprehensive Plans (Hanover, New 
+                      Prague, Northfield and Rockford). 
+ 
+GENERALIZE: Grouping MUSA_CODE into aggregated MUSA 2010, 2020, 2030, 2040,
+Undesignated MUSA, and Undesignated MUSA Reserve areas 
+ 
+ 
+Polygon Attributes for MUSA2010.shp: 
+ 
+BENCHMARK: Alphanumeric code for year of Comprehensive Plan (i.e., 2030) 
+ 
+MC_PLANT:  Indicates whether the area is serviced by Metropolitan 
+Council Environmental Services' sewer system (i.e., 'Y') or by a local 
+sewer system (i.e., 'N'). 
+ 
+MUSA_2010:  'Y' = All records have this value.  2010 MUSA is derived 
+from the following MUSA_CODE categories from the Metropolitan Urban 
+Service Area data set: Urban Area (00), 2005 Staging Area (05), and 2010 
+MUSA (10). 
+ 
+ 
+Polygon Attributes for MUSA2010Outline.shp: 
+ 
+MUSA_2010:  'Y' = All records have this value.  2010 MUSA is derived 
+from the following MUSA_CODE categories from the Metropolitan Urban 
+Service Area data set: Urban Area (00), 2005 Staging Area (05), and 2010 
+MUSA (10). 
+ 
+ 
+Polygon Attributes for MUSA2020.shp: 
+ 
+BENCHMARK: Alphanumeric code for year of Comprehensive Plan (i.e., 2030) 
+ 
+MC_PLANT:  Indicates whether the area is serviced by Metropolitan 
+Council Environmental Services' sewer system (i.e., 'Y') or by a local 
+sewer system (i.e., 'N'). 
+ 
+MUSA_2020:  'Y' = All records have this value.  2020 MUSA is derived 
+from the following MUSA_CODE categories from the Metropolitan Urban 
+Service Area data set: Urban Area (00), 2005 Staging Area (05), 2010 
+MUSA (10), 2015 Staging Area (15), and 2020 MUSA (20). 
+ 
+Polygon Attributes for MUSA2020Outline.shp: 
+ 
+MUSA_2020:  'Y' = All records have this value.  2020 MUSA is derived 
+from the following MUSA_CODE categories from the Metropolitan Urban 
+Service Area data set: Urban Area (00), 2005 Staging Area (05), 2010 
+MUSA (10), 2015 Staging Area (15), and 2020 MUSA (20). 
+ 
+ 
+Polygon Attributes for MUSA2030.shp: 
+ 
+BENCHMARK: Alphanumeric code for year of Comprehensive Plan (i.e., 2030) 
+ 
+MC_PLANT:  Indicates whether the area is serviced by Metropolitan 
+Council Environmental Services' sewer system (i.e., 'Y') or by a local 
+sewer system (i.e., 'N'). 
+ 
+MUSA_2030:  'Y' = All records have this value.  2030 MUSA is derived 
+from the following MUSA_CODE categories from the Metropolitan Urban 
+Service Area data set: Urban Area (00), 2005 Staging Area (05), 2010 
+MUSA (10), 2015 Staging Area (15), 2020 MUSA (20), 2025 Staging Area 
+(25), and 2030 MUSA (30). 
+ 
+ 
+Polygon Attributes for MUSA2030Outline.shp: 
+ 
+MUSA_2030:  'Y' = All records have this value.  2030 MUSA is derived 
+from the following MUSA_CODE categories from the Metropolitan Urban 
+Service Area data set: Urban Area (00), 2005 Staging Area (05), 2010 
+MUSA (10), 2015 Staging Area (15), 2020 MUSA (20), 2025 Staging Area 
+(25), and 2030 MUSA (30). 
+
+
+Polygon Attributes for MUSA2040.shp: 
+ 
+BENCHMARK: Alphanumeric code for year of Comprehensive Plan (i.e., 2040) 
+ 
+MC_PLANT:  Indicates whether the area is serviced by Metropolitan 
+Council Environmental Services' sewer system (i.e., 'Y') or by a local 
+sewer system (i.e., 'N'). 
+ 
+MUSA_2040:  'Y' = All records have this value.  2040 MUSA is derived 
+from the following MUSA_CODE categories from the Metropolitan Urban 
+Service Area data set: Urban Area (00), 2005 Staging Area (05), 2010 
+MUSA (10), 2015 Staging Area (15), 2020 MUSA (20), 2025 Staging Area 
+(25), 2030 MUSA (30), 2035 Staging Area 
+(35), and 2040 MUSA (40). 
+ 
+ 
+Polygon Attributes for MUSA2040Outline.shp: 
+ 
+MUSA_2040:  'Y' = All records have this value.  2040 MUSA is derived 
+from the following MUSA_CODE categories from the Metropolitan Urban 
+Service Area data set: Urban Area (00), 2005 Staging Area (05), 2010 
+MUSA (10), 2015 Staging Area (15), 2020 MUSA (20), 2025 Staging Area 
+(25), 2030 MUSA (30), 2035 Staging Area 
+(35), and 2040 MUSA (40). 
+
+
+Polygon Attributes for MUSAUndesignated.shp: 
+ 
+BENCHMARK: Alphanumeric code for year of Comprehensive Plan (i.e., 2030) 
+ 
+MC_PLANT:  Indicates whether the area is serviced by Metropolitan 
+Council Environmental Services' sewer system (i.e., 'Y') or by a local 
+sewer system (i.e., 'N'). 
+ 
+MUSA_UNDES: 'Y' = All records have this value.  An agreed upon acreage 
+within these areas is to be added to the current MUSA and will be 
+updated by the community on an annual basis. 
+ 
+ 
+Polygon Attributes for MUSAUndesignatedReserve.shp: 
+ 
+BENCHMARK: Alphanumeric code for year of Comprehensive Plan (i.e., 2030) 
+ 
+MC_PLANT:  Indicates whether the area is serviced by Metropolitan 
+Council Environmental Services' sewer system (i.e., 'Y') or by a local 
+sewer system (i.e., 'N'). 
+ 
+MUSA_RESER: 'Y' = All records have this value.  An agreed upon acreage 
+within an area in New Market Township surrounding the City of Elko New 
+Market is to be added to the current MUSA by 2030 as the land in New  
+Market Township is annexed by Elko New Market.
+</eaover>
+      <eadetcit>None</eadetcit>
+    </overview>
+  </eainfo>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Metropolitan Council</origin>
+        <title>Metropolitan Urban Service Areas (MUSA) Composite</title>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <pubdate>20150923</pubdate>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-plan-musa-composite</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The MUSA Composite dataset depicts current and future boundaries of the Urban Service Areas (sewer service areas) based on communities' comprehensive plans for the seven-county metropolitan area of the Twin Cities of Minneapolis and Saint Paul. The dataset does not depict the precise location of current urban services (Sewer service). In other words, the Urban Service Areas designate areas that might be serviced, it does not represent the urban areas that are serviced. The depiction of Urban Service Areas provides a framework in which known urban development and anticipated future development can exist with adequate sewer capacity at efficient service levels. Eleven other datasets are derived from these data: MUSA_2010, MUSA_2010_Outline, MUSA_2020, MUSA_2020_Outline, MUSA_2030, MUSA_2030_Outline, MUSA_2040, MUSA_Undesignated (Previously known as Flexible or Floating MUSA), MUSA Undesignated_Reserve (see below). 
+
+Each community (city or township) in the seven-county Twin Cities metropolitan area is required to complete a comprehensive plan for approval by the Metropolitan Council per the Metropolitan Land Planning Act of 1995 (Minn. Stat 473.864, Subd 2 and 473.175, Subd 1). The comprehensive plan must include a depiction of current and future boundaries of the Urban Service Areas (i.e., 2020, 2030, 2040, Post MUSA Urban Reserve). 
+
+The Metropolitan Urban Service Areas (MUSA) shown are compiled from each community's comprehensive plan. It may or may not include amendments to the comprehensive plan. Also, this map shows areas of 'Undesignated MUSA' found in some communities. Undesignated MUSA represents an areas where an agreed upon acreage of urban sewer service can be added to the current MUSA by 2030. Area added to the current MUSA is to be reported to the Metropolitan Council on an annual basis. 
+
+As of March 2011, a new designation area was created specifically to address the agreed upon development plan for southeastern Scott County between the county, the city of Elko New Market and the town of New Market : 'Undesignated MUSA Reserve.' Similar to 'Undesignated MUSA,' this is an area where an agreed upon acreage of urban sewer service can be added to the current MUSA by 2030. The distinction between 'Undesignated MUSA' and 'Undesignated MUSA Reserve' is that 'Undesignated MUSA' is an area within a municipal boundary defined by that municipality's comprehensive plan, whereas, 'Undesignated MUSA Reserve' is an area beyond the current municipal boundary (i.e., surrounding township) that is designated in a joint agreement by the city, town, and county to accommodate future municipal growth. Urban sewer services will not be provided to these areas until they have been annexed by the municipality (i.e., Elko New Market). 
+
+Although the Metropolitan Council provides the majority of the urban sewer service in the seven-county metropolitan area, several smaller, free-standing rural communities in the region (primarily in Carver and Scott Counties), private systems, and independent nations (Shakopee Mdewakanton Sioux Community) provide their own urban services. Where information on their urban service areas are available, it is included in this dataset. 
+
+Although the information included in this dataset is derived from the communities' 1998 and 2008 comprehensive plans, subsequent plan amendments, annual reporting of MUSA additions from Undesignated MUSA, and is intended to be current within 4 months, for exact MUSA information, please contact the community. 
+
+When referring to CURRENT MUSA extent, this includes areas up to 2020 MUSA. 
+
+These data were previously incorporated in the Comprehensive Plan Composite dataset</abstract>
+      <purpose>To show the urban services areas in the seven-county metropolitan area for display and analysis. </purpose>
+      <supplinf>Twin Cities 7 county metropolitan area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington.</supplinf>
+    </descript>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/plan_musa_composite/metadata/preview.jpg</browsen>
+    </browse>
+    <timeperd>
+      <current>Initial Metropolitan Urban Service Areas data was derived from communities 1998 Comprehensive Plans. Council planning staff, working with communities, defined urban service area boundaries between June, 2000 and April, 2002. The actual date of a community's locally adopted plan is not known but the regional data are current as of the date that the Comprehensive Plan was reviewed and subsequent amendments by the Metropolitan Council per the Metropolitan Land Planning Act of 1995 (Minn. Stat 473.864, Subd 2 and 473.175, Subd 1). The Metropolitan Land Planning Act of 1995 requires communities in the seven-county Twin Cities metropolitan area to submit a Comprehensive Plan and subsequent plan amendments to the Metropolitan Council for review and consideration of the impact, if any the plan or plan amendment may have on the regional systems (i.e., roads, parks, wastewater collection and treatment. The data does not depict actual sewer service. 
+
+Communities in the metropolitan area were required to update their Comprehensive Plan in 2008. Not all communities have finalized the 2008 plan. These communities can be determined through the 'BENCHMARK' field in the database (i.e., '2030'). The following communities have been added since the previous MUSA release (5/26/2015): 
+
+Dayton
+Elko New Market
+Lakeville
+Waconia
+
+The following communities are still recorded with their 1998 Comprehensive Plan and plan amendments: 
+
+Fort Snelling
+Landfall
+Lexington 
+
+</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150923</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Quarterly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.012</westbc>
+        <eastbc>-92.732</eastbc>
+        <northbc>45.415</northbc>
+        <southbc>44.471</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <keywords>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+      </place>
+      <theme>
+        <themekey>MUSA, metropolitan urban service area, 2010 MUSA, 2020 MUSA, 2030 MUSA, 2040 MUSA, Post MUSA Urban Reserve</themekey>
+      </theme>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Paul E. Hanson</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1642</cntvoice>
+        <cntemail>paul.hanson@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>The data set is topologically 'clean'</logic>
+    <complete>Entire seven-county geographic area is covered.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Horizontal positional accuracy is unknown, but is thought to be quite variable throughout the data set. </horizpar>
+      </horizpa>
+    </posacc>
+    <attracc>
+      <attraccr>These data were derived from maps submitted with each city or township's Comprehensive Plan, plan amendment or annual service area report. Data are current based on the above information.</attraccr>
+    </attracc>
+    <lineage>
+      <procstep>
+        <procdesc>The MUSA dataset depicts current and future boundaries of the Urban Service Areas (sewer service areas) based on communities' comprehensive plans for the seven-county metropolitan area of the Twin Cities of Minneapolis and Saint Paul. The dataset does not depict the precise location of current urban services (Sewer service). In other words, the Urban Service Areas designate areas that might be serviced, it does not represent the urban areas that are serviced. The depiction of Urban Service Areas provides a framework in which known urban development and anticipated future development can exist with adequate sewer capacity at efficient service levels. Seven other datasets are derived from these data: MUSA_2010, MUSA_2010_Outline, MUSA_2020, MUSA_2020_Outline, MUSA_2030, MUSA_2030_Outline, MUSA_2040, MUSA_2040_Outline, and Undesignated MUSA (Previously known as Flexible or Floating MUSA). 
+
+These data were initially collected as part of the Comprehensive Plan Composite dataset as derived from each community's 1998 Comprehensive Plan. Council planning staff interpreted the submitted maps and defined the urban service area boundaries in terms of the Regional Growth Strategy (RGS) categories used for regional planning at that time. RGS boundaries were defined based on county parcel boundaries and TLG Street Centerline data (now owned by NCompass Technologies). This information was then updated into the Growth Management Policy Areas (1996 gmpa layer). This process was done initially on a coverage, then brought in to ArcView as a shape file and updates have been made in ArcGIS. These data became known as the Comprehensive Plan Composite dataset. The Comprehensive Plan Composite dataset not only included information regarding metropolitan urban services areas but also included information pertaining to rural and agricultural communities planning area designation and information concerning lands enrolled in the Agricultural Preserve program. 
+
+In 2004, the Metropolitan Council adopted the 2030 Regional Framework. The Framework outlines the Metropolitan Council's development policies, goals, and guidelines for the region. It reinforced many previously defined policies and development goals while outlining several new ones. Uncertain how best to handle changes that affect the recording and tracking of metropolitan urban services, the Comprehensive Plan Composite dataset remained unchanged. 
+
+October 2006, two new RGS categories were added: 2025 and 2030. As a result, a new derivitive dataset was been added to the collection of derivitive products of the Comprehensive Plan Composite data. 
+
+In October 2009, with the influx of comprehensive plan updates (i.e., communites' 2008 Comprehensive Plans), it became prudent to address the growing need to modify how MUSA information was being recorded and tracked. Several changes were made to the dataset, however, most are transparent the data users. 
+- The most significant modification was the divorce of MUSA information from rural and agricultural policy information. As a result, either land is in the current MUSA, planned for some future service at some level (i.e., 2030 MUSA), or not planned for any service in the foreseeable future based on information derived from communities' comprehensive plans, plan amendments or annual service reports (see Entities and Attributes for valid MUSA codes). 
+- Another noticable change in the MUSA data is the removal of the 'Unsewered Urban' MUSA designation. This designation had been used for large developed areas that currently do not have nor are planning to have any long-term urban services and are completely surrounded by areas with metropolitan urban services. The general purpose of this designation was mainly cartographic - so MUSA boundary areas (i.e. 2020) would not display large 'donut' holes that could be interrupted as undeveloped lands. It was felt this designation was misleading and should be removed. The result of this change will affect some of the deriviative products (e.g., 2010 MUSA, 2020 MUSA, 2030 MUSA). 
+- The final noticable change in the MUSA data layer and deriviative products (i.e., 2020 MUSA, 2030 MUSA, etc.) is the removal of the RG_CENTER (Rural Growth Center) designation - a planning policy designation - and the addition of MC_PLANT designation. MC_PLANT (Metropolitan Council Treatment Plant) indicates whether the MUSA is being services by a Metropolitan Council system ('Y') or by a local municipal sewer system ('N') such as the community of Belle Plaine. 
+
+In March 2011, a series of changes were made to the MUSA categories primarily as a result of the completion of the Scott County and it's communities' comprehensive plans. 
+- 'Post-2030' MUSA: The two-character code for this category was change from 'UR' to 'PM' 
+- 'Urban Expansion' : A new category. Scott County has planning authority for towns (townships) within the county. 'Urban Expansion' are areas surrounding municipalities that are designed to accommodate future growth and the expansion of urban sewer services through municipal annexations. These areas are encourage low-density (one unit per 40 acres) residential development to facilitate logical, orderly, and efficient urban expansion in the future. The two-character code for this category is 'UE.' 
+- 'SMSC' : A new category. In 2006 the Shakopee Mwedwakaton Sioux Community began running their own private sewer system and treatment facility. Previous to this time, sewered areas on the tribal reservation were part of the Metropolitan Council's regional system. The new category is designed to recognize their atonomy. The area recoginized includes both 'Trust' (Reservation) and 'In Fee' (tribal owned, non-reservation) lands and may or may not be actually serviced. This category is not all encompassing of Sioux Community owned land, but rather those lands that seem reasonable to be served by their private service. The two-character code for this category is 'SM.' 
+- 'Private System' : A new category. With the creation of the SMSC category, the private system existing on the 3M facility in Cottage Grove was also deemed large enough to merit the addition of a 'Private System' category. This category is meant to recoginize that this area is served but not on the Metropolitan Council system. The two-character code for this category is 'PS.' 
+- 'Undesignated MUSA Reserve' : A new category created specifically to address the agreed upon development plan for southeastern Scott County between the county, the city of Elko New Market and the town of New Market. Similar to 'Undesignated MUSA,' this is an area where an agreed upon acreage of urban sewer service can be added to the current MUSA by 2030. The distinction between 'Undesignated MUSA' and 'Undesignated MUSA Reserve' is that 'Undesignated MUSA' is an area within a municipal boundary defined by that municipality's comprehensive plan, whereas, 'Undesignated MUSA Reserve' is an area beyond the current municipal boundary (i.e., surrounding township) that is designated in a joint agreement by the city, town, and county to accommodate future municipal growth. Urban sewer services will not be provided to these areas until they have been annexed by the municipality (i.e., Elko New Market). The two-character code for this category is 'UR' (Note: 'UR' was previously used for 'Post-2030' MUSA. 
+
+In September 2015, with the Council adoption of ThriveMSP 2040, the regional plan and the release of System Statements, the MUSA categories were expanded to include MUSA 2040 and Post-2030 MUSA (PM) category and been changed to Post MUSA Urban Reserve (PM) and acknowledge the changing planning horizon.
+
+For exact MUSA information, please contact the communities directly</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <distinfo>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <resdesc>metropolitan_urban_service_areas</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Jon Hoekenga</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1561</cntvoice>
+        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150923</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Paul E. Hanson</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1642</cntvoice>
+        <cntemail>paul.hanson@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

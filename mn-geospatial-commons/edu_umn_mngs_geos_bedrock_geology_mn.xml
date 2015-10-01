@@ -1,276 +1,215 @@
 <metadata>
-
-
   <idinfo>
-
     <citation>
       <citeinfo>
-        <origin>Minnesota Geological Survey, modified by MNDNR, Lands and Minerals</origin>
-        <pubdate>2000-01-01 00:00:00.0</pubdate>
-        <title>Bedrock Geology from MGS State Map Series S-20 2000 (Digital Version 3) - Line</title>
-        <mgmg1cid/>
-          <pubinfo>
-            <publish>Minnesota Geological Survey</publish>
-          </pubinfo>
-        <onlink>http://www.geo.umn.edu/mgs/</onlink>
+        <origin>Minnesota Geological Survey</origin>
+        <title>Geologic Map of Minnesota - Bedrock Geology (MGS Map S-21)</title>
+        <pubinfo>
+          <publish>Minnesota Geological Survey</publish>
+        </pubinfo>
+        <pubdate>2011</pubdate>
+        <onlink>http://conservancy.umn.edu/handle/11299/101466</onlink>
       </citeinfo>
     </citation>
-
     <descript>
-      <abstract>Bedrock Geology of Minnesota, compiled by G.B. Morey and Joyce Meints, 2000. This is the digital version of the Minnesota Geological Survey State Map Series S-20 (Geologic Map of Minnesota: Bedrock Geology), 3rd edition. Scale is 1:1,000,000.
+      <supplinf>Minnesota, statewide</supplinf>
+      <abstract>This map is a new construct that incorporates existing geologic maps where prior mappers had adequate ground control, and new interpretations based on drill hole, geophysical, and unpublished data where they did not. The interpretation differs significantly from previous maps to reflect new data and accommodate scale. It portrays our current geologic understanding of the temporal and geographic distribution of units within major Precambrian terranes and of the Phanerozoic strata. The western part of the mapped Precambrian terrane is inferred largely from geophysical maps, anchored locally by drilling. In many places, contacts are drawn between units of the same or similar apparent rock type (and same unit label); these are recognized as geometrically distinct, though geophysically or lithologically similar. Digital files corresponding to this map allow removal of Cretaceous, Paleozoic, and some parts of Mesoproterozoic strata to reveal an interpretation of the underlying Precambrian bedrock.
 
-The 1st edition was done by G.B. Morey, 1994. The 2nd edition was revised in 1996.
-
-The Arc/INFO coverage, bgpg2000, was downloaded from the MGS ftp site by DNR, Division of Lands and Minerals, in the fall of 2000. To make the coverage match the DNR's GIS core library, it was renamed to bg2kxpy2 and projected into UTM, extended zone 15, NAD83, units meters, from the Lambert projection it was created in. Several additional attributes were added to the coverage?s attribute table to enable users to see more of the information that was included on the map created by MGS, specifically, the detailed legend descriptions and the correlation of map units.  This information was not included in the digital data that is available for download.  These additional attributes will be described more fully in the Lineage and Entity and Attribute sections.</abstract>
-      <purpose>To produce a general descriptive layer of bedrock geology for the state.</purpose>
-      <supplinf>Minnesota, Statewide</supplinf>
+Note: This publication supersedes the bedrock geologic map elements of MGS Open-File OF10-02. Other components of OF10-02 are still valid, including the state-wide maps of bedrock topography, depth to bedrock, and outcrop locations, and the geochronology shapefiles.</abstract>
+      <purpose>To produce a general descriptive layer of bedrock geology for the state, based on best available information as of 2011. </purpose>
     </descript>
-
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <keywords>
+      <place>
+        <placekey>Minnesota</placekey>
+      </place>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificInformation, bedrock, geology, bedrock geology, compilation, Precambrian, Paleozoic</themekey>
+      </theme>
+    </keywords>
+    <accconst>None.</accconst>
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>10/04/2000</caldate>
+          <caldate>2011</caldate>
         </sngdate>
       </timeinfo>
-      <current>Map was delineated in 1994, and revised as of July 1, 1996, based on the subsurface information available at the time. This version, October 1999 - October 2000 includes the addition of recent geologic data and recompilation of state bedrock geology by the MGS authors.</current>
+      <current>Based on best available information as of 2011.</current>
     </timeperd>
+    <useconst>Credit given to the Minnesota Geological Survey.  Suggested Citation: Jirsa, Mark A.; Boerboom, Terrence J.; Chandler, V.W.; Mossler, John H.; Runkel, Anthony C.; Setterholm, Dale R. (2011). S-21 Geologic Map of Minnesota-Bedrock Geology. Minnesota Geological Survey. Retrieved from the University of Minnesota Digital Conservancy, http://purl.umn.edu/101466.  </useconst>
+    <crossref>
+      <citeinfo>
+        <title>Map: 'Geologic Map of Minnesota - Bedrock Geology', Minnesota Geological Survey Map S-21, 2011,  is the basis for this data set.
 
-    <status>
-      <progress>Complete</progress>
-      <update/>
-    </status>
-    
+For a complete listing of MGS State Map Series Maps, Reports, and GIS Data, see http://conservancy.umn.edu/handle/11299/59725
+
+ U of M Digital Conservancy information on this map is at http://conservancy.umn.edu/handle/11299/101466</title>
+      </citeinfo>
+    </crossref>
     <spdom>
       <bounding>
-        <westbc>-96.832973</westbc>
-        <eastbc>-89.397201</eastbc>
-        <northbc>49.347640</northbc>
-        <southbc>43.435431</southbc>
+        <westbc>-97.23</westbc>
+        <eastbc>-89.53</eastbc>
+        <northbc>49.37</northbc>
+        <southbc>43.5</southbc>
       </bounding>
     </spdom>
-
-    <keywords>
-      <theme>
-        <themekey>Geology, Bedrock Geology, Subsurface, geoscientificInformation</themekey>
-      </theme>
-      <place>
-        <placekey>Minnesota, Statewide</placekey>
-      </place>
-    </keywords>
-
-    <accconst>Not for distribution beyond the DNR.</accconst>
-    <useconst>Credit given to Minnesota Geological Survey</useconst>
-    
     <ptcontac>
       <cntinfo>
         <cntperp>
-          <cntper>Greg Spoden</cntper>
-          <cntorg>DNR-Waters, Climatology Group</cntorg>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>Richard S. Lively</cntper>
         </cntperp>
-        <cntpos>Assistant State Climatologist</cntpos>
+        <cntpos>Geologic Information Systems</cntpos>
         <cntaddr>
           <addrtype>Mailing and Physical</addrtype>
-          <address>DNR Waters, 500 Lafayette Road</address>
+          <address>2609 Territorial Road</address>
           <city>St. Paul</city>
           <state>MN</state>
-          <postal>55155-4032</postal>
+          <postal>55114</postal>
         </cntaddr>
-        <cntvoice>(651) 296-4214</cntvoice>
-        <cntfax>651-296-0445</cntfax>
-        <cntemail>greg.spoden@state.mn.us</cntemail>
+        <cntvoice>612-626-3103</cntvoice>
+        <cntemail>lively@umn.edu</cntemail>
       </cntinfo>
     </ptcontac>
-
-    <browse>
-      <browsen>http://jmaps.dnr.state.mn.us/gis/dp_datasample.jsp?mpid=39000178&amp;ptid=2&amp;fcid=2&amp;lname=Bedrock Geology from MGS State Map Series S-20 2000 (Digital Version 3) - Line</browsen>
-      <browsed/>
-    </browse>
-
-    <native>Arc/INFO 7.04</native>
-    
-    <crossref>
-      <citeinfo>
-        <title/>
-      </citeinfo>
-    </crossref>
-
   </idinfo>
+  <distinfo>
+    <stdorder>
+      <ordering>Primary distribution of PDF Map, GIS data, report, and supplementary information is through the University of Minnesota Libraries Digital Conservancy http://conservancy.umn.edu/handle/11299/101466 (also available through Online Linkage below. 
 
+GIS Data Distribution is also available through the Minnesota Geospatial Commons. See https://gisdata.mn.gov/geos-bedrock-geology-mn
 
+Commons download includes an additional GIS .lyr file created by the Minnesota DNR. 
+
+Paper map product is available from the Minnesota Geological Survey Map Store (612) 626-2969.</ordering>
+    </stdorder>
+    <resdesc>MGS State Map Series S-21 (geos-bedrock-geology-mn)</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>Richard S. Lively</cntper>
+        </cntperp>
+        <cntpos>Geologic Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2609 Territorial Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55114</postal>
+        </cntaddr>
+        <cntvoice>612-626-3103</cntvoice>
+        <cntemail>lively@umn.edu</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metd>20150901</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>Richard S. Lively</cntper>
+        </cntperp>
+        <cntpos>Geologic Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2609 Territorial Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55114</postal>
+        </cntaddr>
+        <cntvoice>612-626-3103</cntvoice>
+        <cntemail>lively@umn.edu</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <eainfo>
+    <overview>
+      <eaover>Files available include:
+
+PDF files:
+
+metadata folder contains pdf files of metadata for each major gis file of S21
+S21.pdf -- a PDF file of the S21 map plate including explanatory text and ancillary graphics. Scaled to 1:500,000.
+S21text.pdf -- a PDF file of the text and graphics on the map plate
+
+GIS data files:
+
+dikes -- dike l ocations (line) 
+form_line -- linear features derived from aeromagnetic data (line) 
+ju_pg -- Jurassic units (polygon) 
+ka_pg -- Cretaceous Albian unit (polygon) 
+kc_pg -- Cretaceous Coleraine formation  (polygon) 
+kew_pg_under_lksup -- igneous units projected under Lake Superior (polygon) 
+kew_sed_cover -- Keweenawan sediment cover under Lake Superior (polygon)
+ku_pg --  Cretaceous sediments, undivided (polygon) 
+mncomdt -- Minnesota Counties (polygon) 
+mnoutln -- Outline of the state of Minnesota (polygon) 
+pz_fault -- Paleozoic faults (line) 
+pz_pg -- Paleozoic geologic units (polygon) 
+s21_pcln -- Precambrian contacts and faults (line) 
+s21_pcpg -- Precambrian geologic units (polygon) 
+
+GIS .lyr files:
+
+dikes.lyr -- Esri legend file to color dikes
+form_line.lyr -- Esri legend file to color the form lines
+kew_pg_under_lksup.lyr -- Esri legend file to color igneous units under Lake Superior
+Paleozoic bedrock.lyr -- Esri legend file to color the Paleozoic geology
+Precambrian bedrock.lyr -- Esri legend file to color the Precambrian geology map
+Precambrian Contacts; Faults.lyr -- Esri legend file to set the line style for contacts and faults
+
+</eaover>
+      <eadetcit>For more description on map units depicted on the map, see S21_text.pdf.  For description of attributes included in the individual data sets see the appropriate .pdf file under the "metadata" folder.</eadetcit>
+    </overview>
+  </eainfo>
   <dataqual>
-
-    <attracc>
-      <attraccr/>
-    </attracc>
-
-    <logic>No topological problems noted.</logic>
-    <complete>Complete to currently available data</complete>
-    
+    <logic>Not available</logic>
+    <complete>Complete</complete>
     <posacc>
       <horizpa>
-        <horizpar>Source layer bg2kxpy2:  The horizontal error complies with national map accuracy standards at 1:1,000,000, approx. 500 meters.
-</horizpar>
+        <horizpar>See metadata .pdfs for individual GIS layers for information on how the layers were produced.  See the sections entitled "Accuracy of Map Units" and "Horizontal Positional Accuracy".</horizpar>
       </horizpa>
       <vertacc>
-        <vertaccr>Source layer bg2kxpy2:  Not Applicable
-</vertaccr>
+        <vertaccr>See metadata .pdfs for individual GIS layers for information on how the layers were produced.  See the section entitled "Summary of procedures for compiling data used to create map".</vertaccr>
       </vertacc>
     </posacc>
-     
+    <attracc>
+      <attraccr>See metadata .pdfs for individual GIS layers for information on how the layers were produced.  See the section entitled "Accuracy of Map Units".</attraccr>
+    </attracc>
     <lineage>
-      <srcinfo>
-        <srcscale>Source layer bg2kxpy2:  1000000
-</srcscale>
-      </srcinfo>
       <procstep>
-        <procdesc/>
+        <procdesc>See metadata .pdfs for individual GIS layers for information on how the layers were produced.  See the section entitled "Summary of procedures for compiling data used to create map".</procdesc>
       </procstep>
     </lineage>
-
   </dataqual>
-
-
-  <spdoinfo>
-
-    <indspref>Not Applicable</indspref>
-    <direct>vector</direct>
-    <mgmg3obj>line</mgmg3obj>
-    <mgmg3til>state</mgmg3til>
-
-  </spdoinfo>
-
-
   <spref>
-
     <horizsys>
-      <geograph>
-        <latres/>
-        <longres/>
-      </geograph>
       <planar>
-        <mapproj>
-          <mapprojn>Transverse Mercator</mapprojn>
-          <mgmg4par>Not Applicable</mgmg4par>
-          <otherprj>Not Applicable</otherprj>
-        </mapproj>
         <gridsys>
-          <gridsysn>UTM</gridsysn>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
           <utm>
             <utmzone>15</utmzone>
           </utm>
-          <spcs>
-            <spcszone/>
-          </spcs>
-          <mgmg4coz/>
-          <mgmg4adj>Not Applicable</mgmg4adj>
         </gridsys>
         <planci>
-          <coordrep>
-            <absres/>
-            <ordres/>
-          </coordrep>
-          <distbrep>
-            <distres/>
-          </distbrep>
           <plandu>meters</plandu>
         </planci>
       </planar>
       <geodetic>
         <horizdn>NAD83</horizdn>
-        <ellips>GRS1980</ellips>
+        <ellips>GRS80</ellips>
       </geodetic>
     </horizsys>
-    <vertdef>
-      <altsys>
-        <altdatum>Not Applicable</altdatum>
-        <altunits>Not Applicable</altunits>
-      </altsys>
-      <depthsys>
-        <depthdn>Not Applicable</depthdn>
-        <depthdu>Not Applicable</depthdu>
-      </depthsys>
-    </vertdef>
-
   </spref>
-
-
-  <eainfo>
-
-
-
-    <overview>
-      <eaover/>
-      <eadetcit/>
-    </overview>
-
-  </eainfo>
-
-
-  <distinfo>
-
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntper/>
-          <cntorg/>
-        </cntperp>
-        <cntpos/>
-        <cntaddr>
-          <addrtype>Mailing and Physical</addrtype>
-          <address/>
-          <city/>
-          <state/>
-          <postal/>
-        </cntaddr>
-        <cntvoice/>
-        <cntfax/>
-        <cntemail/>
-      </cntinfo>
-    </distrib>
-    <resdesc>lfrm_bdrkgln2</resdesc>
-    <distliab>The Minnesota Department of Natural Resources makes no representation or warranties, express or implied, with respect to the reuse of data provided herewith, regardless of its format or the means of its transmission. There is no guarantee or representation to the user as to the accuracy, currency, suitability, or reliability of this data for any purpose. The user accepts the data 'as is', and assumes all risks associated with its use. By accepting this data, the user agrees not to transmit this data or provide access to it or any part of it to another party unless the user shall include with the data a copy of this disclaimer. The Minnesota Department of Natural Resources assumes no responsibility for actual or consequential damage incurred as a result of any user's reliance on this data.</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>Shapefile</formname>
-          <formvern>Not applicable</formvern>
-          <transize/>
-        </digtinfo>
-      </digform>
-      <ordering>See Online Linkage or Distribution Contact</ordering>
-    </stdorder>
-
-  </distinfo>
-
-
-  <metainfo>
-
-    <metd>2006-08-09 09:15:07.0</metd>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntper>Renee Johnson</cntper>
-          <cntorg>DNR-Lands and Minerals</cntorg>
-        </cntperp>
-        <cntpos>ITS 3</cntpos>
-        <cntaddr>
-	  <addrtype>Mailing and Physical</addrtype>
-          <address>500 Lafayette Road - Box 45</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55155</postal>
-        </cntaddr>
-        <cntvoice>(651) 259-5396</cntvoice>
-        <cntfax>(651) 296-5939</cntfax>
-        <cntemail>renee.johnson@state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
-    </metextns>
-
-  </metainfo>
-
 </metadata>
