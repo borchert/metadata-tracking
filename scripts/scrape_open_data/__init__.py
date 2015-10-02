@@ -9,6 +9,8 @@ import json
 import pdb
 import re
 import datetime
+from operator import itemgetter
+
 
 """
 Script for writing ISO 19139 metadata for Esri Open Data datasets. Work in progress...
@@ -89,7 +91,31 @@ def parse_datatype(dataset_detail):
 def get_date_tag_from_code_tag(code_tag):
     for element in code_tag.getparent().getparent().getchildren():
         if element.tag == "{http://www.isotc211.org/2005/gmd}date":
-            return element
+            return element.find("gco:DateTime", NSMAP)
+
+
+def guess_iso_topic_categories(keywords_list):
+    categories_dict = {}
+    final_categories = []
+    for keyword in keywords_list:
+        kw = keyword.lower()
+        for topic in ISO_TOPIC_CATEGORIES:
+            if kw in ISO_TOPIC_CATEGORIES[topic]:
+                if categories_dict.has_key(topic):
+                    categories_dict[topic] = categories_dict[topic] + 1
+                else:
+                    categories_dict[topic] = 1
+    categories_list = categories_dict.items()
+    if len(categories_list) == 0:
+        return False
+    sorted_categories = sorted(categories_list, key=itemgetter(1), reverse=True)
+    top_category = sorted_categories[0]
+    top_category_val = top_category[1]
+    for i in sorted_categories:
+        if i[1] == top_category_val:
+            final_categories.append(i)
+    return [i[0] for i in final_categories]
+
 
 def main(url, prefix, output_path, template):
     """
@@ -153,9 +179,12 @@ def main(url, prefix, output_path, template):
                 elements["formname"][1].text = "Esri REST Service"
 
         elements["datatype"][0].set("codeListValue", parse_datatype(dataset_detail))
-        elements["id"][0].text = dataset["identifier"].split("/")[-1]
+        elements["id"][0].text = dataset["identifier"]
         elements["fileIdentifier"][0].text = dataset["identifier"]
         elements["accconst"][0].text = dataset["accessLevel"]
+
+        if dataset_detail["record_count"]:
+            elements["feature_count"][0].text = unicode((dataset_detail["record_count"]))
 
         # description oftentimes has HTML contents,
         # so use Beautiful Soup to get the plain text
@@ -167,17 +196,30 @@ def main(url, prefix, output_path, template):
         else:
             elements["abstract"][0].text = "No description provided"
 
-        elements["useconst"][0].text = dataset_detail["license"]
+        #rely on template version for this
+        #elements["useconst"][0].text = dataset_detail["license"]
 
         keywords_list = dataset["keyword"]
         keywords_element = elements["themekey"][0].getparent().getparent()
-        keyword_element = keywords_element.find("gmd:keyword",NSMAP)
+        keyword_element = keywords_element.find("gmd:keyword", NSMAP)
 
         for index, keyword in enumerate(keywords_list):
             keywords_element.findall("gmd:keyword", NSMAP)[index].find("gco:CharacterString", NSMAP).text = keyword
 
             if index != len(keywords_list) - 1:
                 keywords_element.append(deepcopy(keyword_element))
+
+        topic_categories = guess_iso_topic_categories(keywords_list)
+        if topic_categories:
+            if len(topic_categories) == 1:
+                elements["topic_categories"][0].find("gmd:MD_TopicCategoryCode", NSMAP).text = topic_categories[0]
+            else:
+                for topic in topic_categories:
+                    parent = elements["topic_categories"][0].getparent()
+                    index = parent.index(elements["topic_categories"][0])
+                    copy = deepcopy(elements["topic_categories"][0])
+                    copy.find("gmd:MD_TopicCategoryCode", NSMAP).text = topic
+                    parent.insert(index, copy)
 
         timestamp = datetime.datetime.now().isoformat()
         elements["metadata_source"][0].text = elements["metadata_source"][0].text.format(url=dataset["identifier"],
@@ -226,8 +268,33 @@ PATHS = {
     "datatype" : "gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectType/gmd:MD_GeometricObjectTypeCode",
     "metadata_source": "gmd:metadataMaintenance/gmd:MD_MaintenanceInformation/gmd:maintenanceNote/gco:CharacterString",
     "metadata_timestamp":"gmd:dateStamp/gco:DateTime",
-    "fileIdentifier": "gmd:fileIdentifier"
+    "fileIdentifier": "gmd:fileIdentifier/gco:CharacterString",
+    "feature_count": "gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectCount/gco:Integer",
+    "topic_categories": "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:topicCategory"
 }
+
+ISO_TOPIC_CATEGORIES = {
+    "farming" : "farming: rearing of animals or cultivation of plants. for example, resources describing irrigation, aquaculture, herding, and pests and diseases affecting crops and livestock.",
+    "biota" : "biota: naturally occurring flora and fauna. for example, resources describing wildlife, biological sciences, ecology, wilderness, sea life, wetlands, and habitats.",
+    "boundaries" : "boundaries: legal land descriptions.",
+    "climatologyMeteorologyAtmosphere" : "climatology/meteorology/atmosphere: atmospheric processes and phenomena. for example, resources describing cloud cover, weather, atmospheric conditions, climate change, and precipitation.",
+    "economy" : "economy: economic activities or employment. for example, resources describing labor, revenue, commerce, industry, tourism and ecotourism, forestry, fisheries, commercial or subsistence hunting, and exploration and exploitation of resources such as minerals, oil, and gas.",
+    "elevation" : "elevation: height above or below sea level. for example, resources describing altitude, bathymetry, digital elevation models, slope, and products derived from this information.",
+    "environment" : "environment: environmental resources, protection, and conservation. for example, resources describing pollution, waste storage and treatment, environmental impact assessment, environmental risk, and nature reserves.",
+    "geoscientificinformation" : "geoscientific information: earth sciences. for example, resources describing geophysical features and processes, minerals, the composition, structure and origin of the earth’s rocks, earthquakes, volcanic activity, landslides, gravity information, soils, permafrost, hydrogeology, and erosion.",
+    "health" : "health: health services,human ecology, and safety. for example, resources describing human disease and illness, factors affecting health, hygiene, mental and physical health, substance abuse, and health services.",
+    "imageryBaseMapsEarthCover" : "imagery/base maps/earth cover: base maps. for example, resources describing land cover, topographic maps, and classified and unclassified images.",
+    "intelligenceMilitary" : "intelligence/military: military bases, structures, and activities. for example, resources describing barracks, training grounds, military transportation, and information collection.",
+    "inlandWaters" : "inland waters: inland water features, drainage systems, and their characteristics. for example, resources describing rivers and glaciers, salt lakes, water use plans, dams, currents, floods, water quality, and hydrographic charts.",
+    "location" : "location: positional information and services. for example, resources describing addresses, geodetic networks, postal zones and services, control points, and place names.",
+    "oceans" : "oceans: features and characteristics of salt water bodies excluding inland waters. for example, resources describing tides, tidal waves, coastal information, and reefs.",
+    "planningCadastre" : "planning cadastre:land use. for example, resources describing zoning maps, cadastral surveys, and land ownership.",
+    "society" : "society: characteristics of societies and cultures. for example, resources describing natural settlements, anthropology, archaeology, education, traditional beliefs, manners and customs, demographic data, crime and justice, recreational areas and activities, social impact assessments, and census information.",
+    "structure" : "structure: man-made construction. for example, resources describing buildings, museums, churches, factories, housing, monuments, and towers.",
+    "transportation" : "transportation: means and aids for conveying people and goods. for example, resources describing roads, airports and airstrips, shipping routes, tunnels, nautical charts, vehicle or vessel location, aeronautical charts, and railways.",
+    "utilitiesCommunications" : "utilities/communications: energy, water and waste systems, and communications infrastructure and services. for example, resources describing hydroelectricity, geothermal, solar, and nuclear sources of energy, water purification and distribution, sewage collection and disposal, electricity and gas distribution, data communication, telecommunication, radio, and communication networks."
+}
+
 
 FIELDS = PATHS.keys()
 

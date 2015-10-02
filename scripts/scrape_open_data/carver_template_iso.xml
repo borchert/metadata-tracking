@@ -27,7 +27,34 @@
   <hierarchyLevelName>
       <gco:CharacterString>dataset</gco:CharacterString>
   </hierarchyLevelName>
-  <contact gco:nilReason="missing"/>
+  <contact>
+     <CI_ResponsibleParty>
+        <individualName>
+           <gco:CharacterString></gco:CharacterString>
+        </individualName>
+        <organisationName>
+           <gco:CharacterString>Carver County GIS</gco:CharacterString>
+        </organisationName>
+        <contactInfo>
+           <CI_Contact>
+              <address>
+                 <CI_Address>
+                    <electronicMailAddress>
+                       <gco:CharacterString>
+                          gis@co.carver.mn.us
+                       </gco:CharacterString>
+                    </electronicMailAddress>
+                 </CI_Address>  
+              </address>
+           </CI_Contact>
+        </contactInfo>
+        <role>
+           <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+              codeListValue="originator"
+              codeSpace="ISOTC211/19115"/>
+        </role>
+     </CI_ResponsibleParty>
+  </contact>
   <dateStamp>
       <gco:DateTime></gco:DateTime>
   </dateStamp>
@@ -85,7 +112,7 @@
                <date>
                  <CI_Date>
                    <date>
-                     <gco:Date>2015</gco:Date>
+                      <gco:DateTime></gco:DateTime>
                    </date>
                  <dateType>
                         <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
@@ -95,10 +122,10 @@
                <date>
                    <CI_Date>
                       <date>
-                        <gco:Date>2015</gco:Date>
+                         <gco:DateTime></gco:DateTime>
                       </date>
                      <dateType>
-                     <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                     <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
                     </dateType>
                   </CI_Date>
                   </date>
