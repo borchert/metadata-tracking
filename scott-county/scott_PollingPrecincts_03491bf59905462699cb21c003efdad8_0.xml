@@ -1,5 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
-  <fileIdentifier>http://data.scottcounty.opendata.arcgis.com/datasets/03491bf59905462699cb21c003efdad8_0<gco:CharacterString/>
+  <fileIdentifier>
+      <gco:CharacterString>http://data.scottcounty.opendata.arcgis.com/datasets/03491bf59905462699cb21c003efdad8_0</gco:CharacterString>
   </fileIdentifier>
   <language>
       <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -13,9 +14,34 @@
   <hierarchyLevelName>
       <gco:CharacterString>dataset</gco:CharacterString>
   </hierarchyLevelName>
-  <contact gco:nilReason="missing"/>
+  <contact>
+     <CI_ResponsibleParty>
+        <individualName>
+           <gco:CharacterString/>
+        </individualName>
+        <organisationName>
+           <gco:CharacterString>Scott County GIS</gco:CharacterString>
+        </organisationName>
+        <contactInfo>
+           <CI_Contact>
+              <address>
+                 <CI_Address>
+                    <electronicMailAddress>
+                       <gco:CharacterString>
+                          gis@co.scott.mn.us
+                       </gco:CharacterString>
+                    </electronicMailAddress>
+                 </CI_Address>  
+              </address>
+           </CI_Contact>
+        </contactInfo>
+        <role>
+           <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
+        </role>
+     </CI_ResponsibleParty>
+  </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-01T15:51:34.143979</gco:DateTime>
+      <gco:DateTime>2015-10-02T10:12:33.716591</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -34,7 +60,7 @@
                   <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
-                  <gco:Integer/>
+                  <gco:Integer>49</gco:Integer>
                </geometricObjectCount>
             </MD_GeometricObjects>
          </geometricObjects>
@@ -66,7 +92,8 @@
                </title>
                <date>
                  <CI_Date>
-                   <date>2015-09-08T20:40:50.000Z<gco:Date>2015</gco:Date>
+                   <date>
+                      <gco:DateTime>2015-09-08T20:40:50.000Z</gco:DateTime>
                    </date>
                  <dateType>
                         <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
@@ -75,17 +102,18 @@
                </date>
                <date>
                    <CI_Date>
-                      <date>2015-09-17T21:51:36.000Z<gco:Date>2015</gco:Date>
+                      <date>
+                         <gco:DateTime>2015-09-17T21:51:36.000Z</gco:DateTime>
                       </date>
                      <dateType>
-                     <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                     <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
                     </dateType>
                   </CI_Date>
                   </date>
                <identifier>
                   <MD_Identifier>
                      <code>
-                    <gco:CharacterString>03491bf59905462699cb21c003efdad8_0</gco:CharacterString>
+                    <gco:CharacterString>http://data.scottcounty.opendata.arcgis.com/datasets/03491bf59905462699cb21c003efdad8_0</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
@@ -206,7 +234,9 @@
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>Disclaimer: This information is to be used for reference purposes only. Scott County does not guarantee accuracy of the material contained herein and is not responsible for misuse or misinterpretation. The preceding disclaimer is provided pursuant to Minnesota Statutes&#160;&lt;a href="https://www.revisor.leg.state.mn.us/statutes/?id=466.03" target="_blank"&gt;466.03, Subd. 21&lt;/a&gt;, and the user of this service acknowledges that Scott County shall not be liable for any damages, and expressly waives all claims, and agrees to defend, indemnify, and hold harmless Scott County from any and all claims brought by User, its employees or agents, or third parties which arise out of the user's access or use of data provided.</gco:CharacterString>
+                  <gco:CharacterString>
+                     This information is to be used for reference purposes only.
+                  </gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -326,7 +356,7 @@
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/03491bf59905462699cb21c003efdad8_0, orignally in the Project Open Data Metadata Schema, at 2015-10-01T15:51:34.143979.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/03491bf59905462699cb21c003efdad8_0, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:12:33.716591.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

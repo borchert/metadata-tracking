@@ -1,5 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
-  <fileIdentifier>http://gis.hennepin.opendata.arcgis.com/datasets/90b2cef147c94a3f9fc0011aae0fa39c_11<gco:CharacterString/>
+  <fileIdentifier>
+      <gco:CharacterString>http://gis.hennepin.opendata.arcgis.com/datasets/90b2cef147c94a3f9fc0011aae0fa39c_11</gco:CharacterString>
   </fileIdentifier>
   <language>
       <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -13,9 +14,34 @@
   <hierarchyLevelName>
       <gco:CharacterString>dataset</gco:CharacterString>
   </hierarchyLevelName>
-  <contact gco:nilReason="missing"/>
+  <contact>
+     <CI_ResponsibleParty>
+        <individualName>
+           <gco:CharacterString>Tracy Tisbo</gco:CharacterString>
+        </individualName>
+        <organisationName>
+           <gco:CharacterString/>
+        </organisationName>
+        <contactInfo>
+           <CI_Contact>
+              <address>
+                 <CI_Address>
+                    <electronicMailAddress>
+                       <gco:CharacterString>
+                          gis.info@hennepin.us
+                       </gco:CharacterString>
+                    </electronicMailAddress>
+                 </CI_Address>  
+              </address>
+           </CI_Contact>
+        </contactInfo>
+        <role>
+           <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
+        </role>
+     </CI_ResponsibleParty>
+  </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-01T15:43:49.423597</gco:DateTime>
+      <gco:DateTime>2015-10-02T10:07:44.121032</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -34,7 +60,7 @@
                   <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
-                  <gco:Integer/>
+                  <gco:Integer>47</gco:Integer>
                </geometricObjectCount>
             </MD_GeometricObjects>
          </geometricObjects>
@@ -66,7 +92,8 @@
                </title>
                <date>
                  <CI_Date>
-                   <date>2015-09-14T18:16:12.000Z<gco:Date>2015</gco:Date>
+                   <date>
+                      <gco:DateTime>2015-09-14T18:16:12.000Z</gco:DateTime>
                    </date>
                  <dateType>
                         <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
@@ -75,17 +102,18 @@
                </date>
                <date>
                    <CI_Date>
-                      <date>2015-09-30T23:06:07.858Z<gco:Date>2015</gco:Date>
+                      <date>
+                         <gco:DateTime>2015-09-30T23:06:07.858Z</gco:DateTime>
                       </date>
                      <dateType>
-                     <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                     <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
                     </dateType>
                   </CI_Date>
                   </date>
                <identifier>
                   <MD_Identifier>
                      <code>
-                    <gco:CharacterString>90b2cef147c94a3f9fc0011aae0fa39c_11</gco:CharacterString>
+                    <gco:CharacterString>http://gis.hennepin.opendata.arcgis.com/datasets/90b2cef147c94a3f9fc0011aae0fa39c_11</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
@@ -206,11 +234,9 @@
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>&lt;p&gt;This data (i)&#13;
-is furnished &amp;quot;AS IS&amp;quot; with no representation as to completeness or&#13;
-accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not&#13;
-suitable for legal, engineering or surveying purposes. Hennepin County shall&#13;
-not be liable for any damage, injury or loss resulting from this data.&#160;&lt;/p&gt;</gco:CharacterString>
+                  <gco:CharacterString>
+                     This information is to be used for reference purposes only.
+                  </gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -231,7 +257,7 @@ not be liable for any damage, injury or loss resulting from this data.&#160;&lt;
             <MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
          </characterSet>
          <topicCategory>
-            <MD_TopicCategoryCode/>
+            <MD_TopicCategoryCode>boundaries</MD_TopicCategoryCode>
          </topicCategory>
          <extent>
             <EX_Extent>
@@ -330,7 +356,7 @@ not be liable for any damage, injury or loss resulting from this data.&#160;&lt;
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.hennepin.opendata.arcgis.com/datasets/90b2cef147c94a3f9fc0011aae0fa39c_11, orignally in the Project Open Data Metadata Schema, at 2015-10-01T15:43:49.423597.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.hennepin.opendata.arcgis.com/datasets/90b2cef147c94a3f9fc0011aae0fa39c_11, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:07:44.121032.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>
