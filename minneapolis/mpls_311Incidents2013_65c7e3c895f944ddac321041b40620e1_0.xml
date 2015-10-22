@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:07:33.647123</gco:DateTime>
+      <gco:DateTime>2015-10-02T15:53:34.502841</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -356,7 +356,7 @@
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/65c7e3c895f944ddac321041b40620e1_0, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:07:33.647123.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/65c7e3c895f944ddac321041b40620e1_0, orignally in the Project Open Data Metadata Schema, at 2015-10-02T15:53:34.502841.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

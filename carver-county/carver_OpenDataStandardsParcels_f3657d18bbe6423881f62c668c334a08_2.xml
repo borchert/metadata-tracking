@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:07:56.756532</gco:DateTime>
+      <gco:DateTime>2015-10-22T13:32:49.738308</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -375,7 +375,7 @@ to the Assessor's CAMA system and Taxpayer Services tax database to show&#13;
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.carver.opendata.arcgis.com/datasets/f3657d18bbe6423881f62c668c334a08_2, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:07:56.756532.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.carver.opendata.arcgis.com/datasets/f3657d18bbe6423881f62c668c334a08_2, orignally in the Project Open Data Metadata Schema, at 2015-10-22T13:32:49.738308.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

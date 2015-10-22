@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:07:34.811426</gco:DateTime>
+      <gco:DateTime>2015-10-22T13:33:11.399783</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -415,7 +415,7 @@ other PlanNet-derived data. Column name SYSNAME.</gco:CharacterString>
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/45162ef5dd4b495dbf5b1f875219571c_0, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:07:34.811426.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/45162ef5dd4b495dbf5b1f875219571c_0, orignally in the Project Open Data Metadata Schema, at 2015-10-22T13:33:11.399783.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

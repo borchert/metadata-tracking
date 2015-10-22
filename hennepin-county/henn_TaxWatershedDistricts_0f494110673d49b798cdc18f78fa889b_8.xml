@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:07:46.361955</gco:DateTime>
+      <gco:DateTime>2015-10-22T13:32:54.478283</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -60,7 +60,7 @@
                   <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
-                  <gco:Integer>13</gco:Integer>
+                  <gco:Integer>8</gco:Integer>
                </geometricObjectCount>
             </MD_GeometricObjects>
          </geometricObjects>
@@ -103,7 +103,7 @@
                <date>
                    <CI_Date>
                       <date>
-                         <gco:DateTime>2015-09-14T22:55:42.000Z</gco:DateTime>
+                         <gco:DateTime>2015-10-16T19:27:36.268Z</gco:DateTime>
                       </date>
                      <dateType>
                      <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
@@ -259,9 +259,6 @@
          <topicCategory>
             <MD_TopicCategoryCode>environment</MD_TopicCategoryCode>
          </topicCategory>
-         <topicCategory>
-            <MD_TopicCategoryCode/>
-         </topicCategory>
          <extent>
             <EX_Extent>
                <geographicElement>
@@ -359,7 +356,7 @@
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.hennepin.opendata.arcgis.com/datasets/0f494110673d49b798cdc18f78fa889b_8, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:07:46.361955.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.hennepin.opendata.arcgis.com/datasets/0f494110673d49b798cdc18f78fa889b_8, orignally in the Project Open Data Metadata Schema, at 2015-10-22T13:32:54.478283.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

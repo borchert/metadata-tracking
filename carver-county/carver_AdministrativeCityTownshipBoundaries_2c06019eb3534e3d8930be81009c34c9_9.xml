@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:07:56.136798</gco:DateTime>
+      <gco:DateTime>2015-10-22T13:32:49.200630</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -360,7 +360,7 @@ This is a polygon dataset for the city and township boundaries within Carver Cou
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.carver.opendata.arcgis.com/datasets/2c06019eb3534e3d8930be81009c34c9_9, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:07:56.136798.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.carver.opendata.arcgis.com/datasets/2c06019eb3534e3d8930be81009c34c9_9, orignally in the Project Open Data Metadata Schema, at 2015-10-22T13:32:49.200630.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

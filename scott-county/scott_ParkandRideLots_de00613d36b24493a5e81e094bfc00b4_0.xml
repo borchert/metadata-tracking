@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:12:34.386394</gco:DateTime>
+      <gco:DateTime>2015-10-22T13:33:25.653847</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -271,9 +271,6 @@
          <topicCategory>
             <MD_TopicCategoryCode>transportation</MD_TopicCategoryCode>
          </topicCategory>
-         <topicCategory>
-            <MD_TopicCategoryCode/>
-         </topicCategory>
          <extent>
             <EX_Extent>
                <geographicElement>
@@ -371,7 +368,7 @@
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/de00613d36b24493a5e81e094bfc00b4_0, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:12:34.386394.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/de00613d36b24493a5e81e094bfc00b4_0, orignally in the Project Open Data Metadata Schema, at 2015-10-22T13:33:25.653847.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

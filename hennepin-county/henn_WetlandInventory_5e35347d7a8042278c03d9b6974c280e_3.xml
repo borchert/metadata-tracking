@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:07:46.485201</gco:DateTime>
+      <gco:DateTime>2015-10-22T13:32:55.224716</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -60,7 +60,7 @@
                   <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
-                  <gco:Integer>92213</gco:Integer>
+                  <gco:Integer>91952</gco:Integer>
                </geometricObjectCount>
             </MD_GeometricObjects>
          </geometricObjects>
@@ -259,9 +259,6 @@
          <topicCategory>
             <MD_TopicCategoryCode>biota</MD_TopicCategoryCode>
          </topicCategory>
-         <topicCategory>
-            <MD_TopicCategoryCode/>
-         </topicCategory>
          <extent>
             <EX_Extent>
                <geographicElement>
@@ -359,7 +356,7 @@
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.hennepin.opendata.arcgis.com/datasets/5e35347d7a8042278c03d9b6974c280e_3, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:07:46.485201.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.hennepin.opendata.arcgis.com/datasets/5e35347d7a8042278c03d9b6974c280e_3, orignally in the Project Open Data Metadata Schema, at 2015-10-22T13:32:55.224716.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

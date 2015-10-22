@@ -220,6 +220,10 @@ def main(url, prefix, output_path, template):
                     copy = deepcopy(elements["topic_categories"][0])
                     copy.find("gmd:MD_TopicCategoryCode", NSMAP).text = topic
                     parent.insert(index, copy)
+                all_topic_codes = parent.findall("gmd:topicCategory/gmd:MD_TopicCategoryCode",NSMAP)
+                for i in all_topic_codes:
+                    if i.text is None:
+                        parent.remove(i.getparent())
 
         timestamp = datetime.datetime.now().isoformat()
         elements["metadata_source"][0].text = elements["metadata_source"][0].text.format(url=dataset["identifier"],

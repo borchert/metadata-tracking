@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:07:45.569992</gco:DateTime>
+      <gco:DateTime>2015-10-22T13:32:52.613990</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -60,7 +60,7 @@
                   <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
-                  <gco:Integer>455557</gco:Integer>
+                  <gco:Integer>455781</gco:Integer>
                </geometricObjectCount>
             </MD_GeometricObjects>
          </geometricObjects>
@@ -103,7 +103,7 @@
                <date>
                    <CI_Date>
                       <date>
-                         <gco:DateTime>2015-09-30T22:55:50.609Z</gco:DateTime>
+                         <gco:DateTime>2015-10-16T19:29:42.545Z</gco:DateTime>
                       </date>
                      <dateType>
                      <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
@@ -359,7 +359,7 @@
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.hennepin.opendata.arcgis.com/datasets/be9e6207001345c0a7559d4221e861b5_2, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:07:45.569992.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.hennepin.opendata.arcgis.com/datasets/be9e6207001345c0a7559d4221e861b5_2, orignally in the Project Open Data Metadata Schema, at 2015-10-22T13:32:52.613990.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

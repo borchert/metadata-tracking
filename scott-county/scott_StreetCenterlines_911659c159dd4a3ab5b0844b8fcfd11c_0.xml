@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:12:35.114293</gco:DateTime>
+      <gco:DateTime>2015-10-22T13:33:25.927766</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -360,7 +360,7 @@ well as an alternate name field.</gco:CharacterString>
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/911659c159dd4a3ab5b0844b8fcfd11c_0, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:12:35.114293.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/911659c159dd4a3ab5b0844b8fcfd11c_0, orignally in the Project Open Data Metadata Schema, at 2015-10-22T13:33:25.927766.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:10:36.781049</gco:DateTime>
+      <gco:DateTime>2015-10-22T13:33:16.866523</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -353,7 +353,7 @@
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://openramsey.ramseygis.opendata.arcgis.com/datasets/3877e404a0db4eb79ccba1795fda5529_0, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:10:36.781049.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://openramsey.ramseygis.opendata.arcgis.com/datasets/3877e404a0db4eb79ccba1795fda5529_0, orignally in the Project Open Data Metadata Schema, at 2015-10-22T13:33:16.866523.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

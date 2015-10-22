@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:12:33.481691</gco:DateTime>
+      <gco:DateTime>2015-10-22T13:33:24.207329</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -103,7 +103,7 @@
                <date>
                    <CI_Date>
                       <date>
-                         <gco:DateTime>2015-09-29T21:23:49.839Z</gco:DateTime>
+                         <gco:DateTime>2015-10-20T14:15:09.430Z</gco:DateTime>
                       </date>
                      <dateType>
                      <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
@@ -370,7 +370,7 @@ UTR-C = Urban Transition Reserve Cluster District</gco:CharacterString>
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/dca222d80b1846158e23b6c5fdf24c3c_0, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:12:33.481691.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/dca222d80b1846158e23b6c5fdf24c3c_0, orignally in the Project Open Data Metadata Schema, at 2015-10-22T13:33:24.207329.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

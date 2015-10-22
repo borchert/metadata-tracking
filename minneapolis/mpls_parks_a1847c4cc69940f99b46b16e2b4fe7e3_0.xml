@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:07:29.838569</gco:DateTime>
+      <gco:DateTime>2015-10-22T13:33:07.965526</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -269,9 +269,6 @@ map, service, or shp file please contact the Minneapolis&#160;GIS office.</gco:C
          <topicCategory>
             <MD_TopicCategoryCode>environment</MD_TopicCategoryCode>
          </topicCategory>
-         <topicCategory>
-            <MD_TopicCategoryCode/>
-         </topicCategory>
          <extent>
             <EX_Extent>
                <geographicElement>
@@ -369,7 +366,7 @@ map, service, or shp file please contact the Minneapolis&#160;GIS office.</gco:C
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/a1847c4cc69940f99b46b16e2b4fe7e3_0, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:07:29.838569.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/a1847c4cc69940f99b46b16e2b4fe7e3_0, orignally in the Project Open Data Metadata Schema, at 2015-10-22T13:33:07.965526.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

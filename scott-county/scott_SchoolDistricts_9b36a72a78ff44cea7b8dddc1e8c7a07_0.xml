@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:12:33.849262</gco:DateTime>
+      <gco:DateTime>2015-10-22T13:33:24.574287</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -103,7 +103,7 @@
                <date>
                    <CI_Date>
                       <date>
-                         <gco:DateTime>2015-09-17T21:51:16.000Z</gco:DateTime>
+                         <gco:DateTime>2015-10-05T21:37:43.000Z</gco:DateTime>
                       </date>
                      <dateType>
                      <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
@@ -261,16 +261,16 @@
                <geographicElement>
                    <EX_GeographicBoundingBox>
                       <westBoundLongitude>
-                         <gco:Decimal>-93.91463871</gco:Decimal>
+                         <gco:Decimal>-93.932</gco:Decimal>
                       </westBoundLongitude>
                       <eastBoundLongitude>
-                         <gco:Decimal>-93.27761643</gco:Decimal>
+                         <gco:Decimal>-93.259</gco:Decimal>
                       </eastBoundLongitude>
                       <southBoundLatitude>
-                         <gco:Decimal>44.54197857</gco:Decimal>
+                         <gco:Decimal>44.482</gco:Decimal>
                       </southBoundLatitude>
                       <northBoundLatitude>
-                         <gco:Decimal>44.81327565</gco:Decimal>
+                         <gco:Decimal>44.822</gco:Decimal>
                       </northBoundLatitude>
                    </EX_GeographicBoundingBox>
                </geographicElement>
@@ -353,7 +353,7 @@
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/9b36a72a78ff44cea7b8dddc1e8c7a07_0, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:12:33.849262.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/9b36a72a78ff44cea7b8dddc1e8c7a07_0, orignally in the Project Open Data Metadata Schema, at 2015-10-22T13:33:24.574287.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

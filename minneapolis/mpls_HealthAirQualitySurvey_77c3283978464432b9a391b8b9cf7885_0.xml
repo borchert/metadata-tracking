@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:07:34.478291</gco:DateTime>
+      <gco:DateTime>2015-10-22T13:33:11.066591</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -262,9 +262,6 @@
          <topicCategory>
             <MD_TopicCategoryCode>health</MD_TopicCategoryCode>
          </topicCategory>
-         <topicCategory>
-            <MD_TopicCategoryCode/>
-         </topicCategory>
          <extent>
             <EX_Extent>
                <geographicElement>
@@ -362,7 +359,7 @@
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/77c3283978464432b9a391b8b9cf7885_0, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:07:34.478291.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/77c3283978464432b9a391b8b9cf7885_0, orignally in the Project Open Data Metadata Schema, at 2015-10-22T13:33:11.066591.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>
