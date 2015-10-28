@@ -29,9 +29,9 @@
   </hierarchyLevelName>
   <contact>
      <CI_ResponsibleParty>
-        <individualName>
+       <!-- <individualName>
            <gco:CharacterString></gco:CharacterString>
-        </individualName>
+        </individualName>-->
         <organisationName>
            <gco:CharacterString>Scott County GIS</gco:CharacterString>
         </organisationName>
@@ -138,9 +138,9 @@
                </identifier>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
-                     <individualName>
+<!--                     <individualName>
                           <gco:CharacterString></gco:CharacterString>
-                      </individualName>
+                      </individualName>-->
                      <organisationName>
                         <gco:CharacterString>Scott County GIS</gco:CharacterString>
                      </organisationName>

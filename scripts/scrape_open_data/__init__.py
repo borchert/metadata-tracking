@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 from lxml import etree
@@ -192,7 +193,7 @@ def main(url, prefix, output_path, template):
             abstract_soup = BeautifulSoup(dataset["description"])
             linebreaks = abstract_soup.findAll("br")
             [br.replace_with("&#xD;&#xA;") for br in linebreaks]
-            elements["abstract"][0].text = abstract_soup.text
+            elements["abstract"][0].text = abstract_soup.text.replace("\"","'")
         else:
             elements["abstract"][0].text = "No description provided"
 

@@ -29,11 +29,11 @@
   </hierarchyLevelName>
   <contact>
      <CI_ResponsibleParty>
-        <individualName>
-           <gco:CharacterString>Tracy Tisbo</gco:CharacterString>
-        </individualName>
-        <organisationName>
+       <!-- <individualName>
            <gco:CharacterString></gco:CharacterString>
+        </individualName>-->
+        <organisationName>
+           <gco:CharacterString>Hennepin County GIS</gco:CharacterString>
         </organisationName>
         <contactInfo>
            <CI_Contact>
@@ -138,11 +138,11 @@
                </identifier>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
-                     <individualName>
-                          <gco:CharacterString>Tracy Tisbo</gco:CharacterString>
-                      </individualName>
+<!--                     <individualName>
+                          <gco:CharacterString></gco:CharacterString>
+                      </individualName>-->
                      <organisationName>
-                        <gco:CharacterString></gco:CharacterString>
+                        <gco:CharacterString>Hennepin County GIS</gco:CharacterString>
                      </organisationName>
                      <contactInfo>
                          <CI_Contact>

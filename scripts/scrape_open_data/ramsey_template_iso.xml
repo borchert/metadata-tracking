@@ -29,11 +29,11 @@
   </hierarchyLevelName>
   <contact>
      <CI_ResponsibleParty>
-        <individualName>
-           <gco:CharacterString>GIS Admin</gco:CharacterString>
-        </individualName>
-        <organisationName>
+       <!-- <individualName>
            <gco:CharacterString></gco:CharacterString>
+        </individualName>-->
+        <organisationName>
+           <gco:CharacterString>Ramsey County GIS</gco:CharacterString>
         </organisationName>
         <contactInfo>
            <CI_Contact>
@@ -138,11 +138,11 @@
                </identifier>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
-                     <individualName>
-                          <gco:CharacterString>GIS Admin</gco:CharacterString>
-                      </individualName>
+<!--                     <individualName>
+                          <gco:CharacterString></gco:CharacterString>
+                      </individualName>-->
                      <organisationName>
-                        <gco:CharacterString></gco:CharacterString>
+                        <gco:CharacterString>Ramsey County GIS</gco:CharacterString>
                      </organisationName>
                      <contactInfo>
                          <CI_Contact>

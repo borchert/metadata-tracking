@@ -1,10 +1,10 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 import csv
 import codecs
 import string
 import pdb
-import pprint
 TEMPLATE_SOURCE_FILE_NAME = "template_info.csv"
 
 base_template = codecs.open("_opendata_iso_template.xml", "rU", "utf-8")
@@ -24,7 +24,6 @@ class CustomFormatter(string.Formatter):
 with open(TEMPLATE_SOURCE_FILE_NAME, "rU") as template_info:
     reader = csv.DictReader(template_info)
     for row in reader:
-        pprint.pprint(row)
         output_template_name = row.pop('output_template_name')
         output_template_string = CustomFormatter().format(base_string, **row)
         output_file = codecs.open(output_template_name, "w", "utf-8")
