@@ -16,9 +16,9 @@
   </hierarchyLevelName>
   <contact>
      <CI_ResponsibleParty>
-        <individualName>
-           <gco:CharacterString/>
-        </individualName>
+       <!-- <individualName>
+           <gco:CharacterString></gco:CharacterString>
+        </individualName>-->
         <organisationName>
            <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
         </organisationName>
@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-22T13:33:09.823806</gco:DateTime>
+      <gco:DateTime>2015-10-29T14:36:37.738102</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -119,9 +119,9 @@
                </identifier>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
-                     <individualName>
-                          <gco:CharacterString/>
-                      </individualName>
+<!--                     <individualName>
+                          <gco:CharacterString></gco:CharacterString>
+                      </individualName>-->
                      <organisationName>
                         <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
@@ -130,9 +130,7 @@
                             <address>
                                <CI_Address>
                                   <electronicMailAddress>
-                                     <gco:CharacterString>
-                                        gis@minneapolismn.gov
-                                     </gco:CharacterString>
+                                     <gco:CharacterString>gis@minneapolismn.gov</gco:CharacterString>
                                   </electronicMailAddress>
                                </CI_Address>  
                             </address>
@@ -145,17 +143,18 @@
                </citedResponsibleParty>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
-                     <individualName>
-                         <gco:CharacterString/>
-                     </individualName>
+<!--                     <individualName>
+                         <gco:CharacterString></gco:CharacterString>
+                     </individualName>-->
                      <organisationName>
-                        <gco:CharacterString/>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
                      <contactInfo>
                         <CI_Contact>
                            <address>
                               <CI_Address>
                                  <electronicMailAddress>
+                                    <gco:CharacterString>gis@minneapolismn.gov</gco:CharacterString>
                                  </electronicMailAddress>
                               </CI_Address> 
                            </address>
@@ -192,9 +191,7 @@ ArcGIS Resources&#160;page. &#160;If there are questions about the data or the r
                    <date>
                        <CI_Date>
                          <date>
-                           <gco:Date>
-                              2013-12-15
-                           </gco:Date>
+                           <gco:Date>2013-12-15</gco:Date>
                          </date>
                          <dateType>
                            <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
@@ -204,9 +201,7 @@ ArcGIS Resources&#160;page. &#160;If there are questions about the data or the r
                     <identifier>
                        <MD_Identifier>
                           <code>
-                             <gco:CharacterString>
-                                http://id.loc.gov/authorities/names/n79003965
-                             </gco:CharacterString>
+                             <gco:CharacterString>http://id.loc.gov/authorities/names/n79003965</gco:CharacterString>
                           </code>
                        </MD_Identifier>
                     </identifier>
@@ -248,9 +243,7 @@ ArcGIS Resources&#160;page. &#160;If there are questions about the data or the r
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>
-                     This information is to be used for reference purposes only.
-                  </gco:CharacterString>
+                  <gco:CharacterString>This information is to be used for reference purposes only.</gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -291,6 +284,13 @@ ArcGIS Resources&#160;page. &#160;If there are questions about the data or the r
                       </northBoundLatitude>
                    </EX_GeographicBoundingBox>
                </geographicElement>
+               <temporalElement>
+                  <EX_TemporalExtent>
+                     <extent>
+                        <gml:TimeInstant>2015-08-19T20:51:59.000Z</gml:TimeInstant>
+                     </extent>
+                  </EX_TemporalExtent>
+               </temporalElement>
             </EX_Extent>
          </extent>
       </MD_DataIdentification>
@@ -370,7 +370,7 @@ ArcGIS Resources&#160;page. &#160;If there are questions about the data or the r
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/80ddd4422d9e4737b843a20778653da9_0, orignally in the Project Open Data Metadata Schema, at 2015-10-22T13:33:09.823806.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/80ddd4422d9e4737b843a20778653da9_0, orignally in the Project Open Data Metadata Schema, at 2015-10-29T14:36:37.738102.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

@@ -16,9 +16,9 @@
   </hierarchyLevelName>
   <contact>
      <CI_ResponsibleParty>
-        <individualName>
-           <gco:CharacterString/>
-        </individualName>
+       <!-- <individualName>
+           <gco:CharacterString></gco:CharacterString>
+        </individualName>-->
         <organisationName>
            <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
         </organisationName>
@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-22T13:33:10.152685</gco:DateTime>
+      <gco:DateTime>2015-10-29T14:36:38.050272</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -119,9 +119,9 @@
                </identifier>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
-                     <individualName>
-                          <gco:CharacterString/>
-                      </individualName>
+<!--                     <individualName>
+                          <gco:CharacterString></gco:CharacterString>
+                      </individualName>-->
                      <organisationName>
                         <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
@@ -130,9 +130,7 @@
                             <address>
                                <CI_Address>
                                   <electronicMailAddress>
-                                     <gco:CharacterString>
-                                        gis@minneapolismn.gov
-                                     </gco:CharacterString>
+                                     <gco:CharacterString>gis@minneapolismn.gov</gco:CharacterString>
                                   </electronicMailAddress>
                                </CI_Address>  
                             </address>
@@ -145,17 +143,18 @@
                </citedResponsibleParty>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
-                     <individualName>
-                         <gco:CharacterString/>
-                     </individualName>
+<!--                     <individualName>
+                         <gco:CharacterString></gco:CharacterString>
+                     </individualName>-->
                      <organisationName>
-                        <gco:CharacterString/>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </organisationName>
                      <contactInfo>
                         <CI_Contact>
                            <address>
                               <CI_Address>
                                  <electronicMailAddress>
+                                    <gco:CharacterString>gis@minneapolismn.gov</gco:CharacterString>
                                  </electronicMailAddress>
                               </CI_Address> 
                            </address>
@@ -190,9 +189,7 @@
                    <date>
                        <CI_Date>
                          <date>
-                           <gco:Date>
-                              2013-12-15
-                           </gco:Date>
+                           <gco:Date>2013-12-15</gco:Date>
                          </date>
                          <dateType>
                            <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
@@ -202,9 +199,7 @@
                     <identifier>
                        <MD_Identifier>
                           <code>
-                             <gco:CharacterString>
-                                http://id.loc.gov/authorities/names/n79003965
-                             </gco:CharacterString>
+                             <gco:CharacterString>http://id.loc.gov/authorities/names/n79003965</gco:CharacterString>
                           </code>
                        </MD_Identifier>
                     </identifier>
@@ -228,9 +223,7 @@
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>
-                     This information is to be used for reference purposes only.
-                  </gco:CharacterString>
+                  <gco:CharacterString>This information is to be used for reference purposes only.</gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -271,6 +264,13 @@
                       </northBoundLatitude>
                    </EX_GeographicBoundingBox>
                </geographicElement>
+               <temporalElement>
+                  <EX_TemporalExtent>
+                     <extent>
+                        <gml:TimeInstant>2015-07-28T16:29:52.979Z</gml:TimeInstant>
+                     </extent>
+                  </EX_TemporalExtent>
+               </temporalElement>
             </EX_Extent>
          </extent>
       </MD_DataIdentification>
@@ -350,7 +350,7 @@
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/8baeeaebfd9d489d9ee6c9ae0fed3988_0, orignally in the Project Open Data Metadata Schema, at 2015-10-22T13:33:10.152685.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/8baeeaebfd9d489d9ee6c9ae0fed3988_0, orignally in the Project Open Data Metadata Schema, at 2015-10-29T14:36:38.050272.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>
