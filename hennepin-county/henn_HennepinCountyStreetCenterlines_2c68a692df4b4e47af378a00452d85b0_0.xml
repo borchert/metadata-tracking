@@ -16,11 +16,11 @@
   </hierarchyLevelName>
   <contact>
      <CI_ResponsibleParty>
-        <individualName>
-           <gco:CharacterString>Tracy Tisbo</gco:CharacterString>
-        </individualName>
+       <!-- <individualName>
+           <gco:CharacterString></gco:CharacterString>
+        </individualName>-->
         <organisationName>
-           <gco:CharacterString/>
+           <gco:CharacterString>Hennepin County GIS</gco:CharacterString>
         </organisationName>
         <contactInfo>
            <CI_Contact>
@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-22T13:32:56.475133</gco:DateTime>
+      <gco:DateTime>2015-10-28T10:44:13.294351</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -60,7 +60,7 @@
                   <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="curve" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
-                  <gco:Integer>53442</gco:Integer>
+                  <gco:Integer>53468</gco:Integer>
                </geometricObjectCount>
             </MD_GeometricObjects>
          </geometricObjects>
@@ -103,7 +103,7 @@
                <date>
                    <CI_Date>
                       <date>
-                         <gco:DateTime>2015-09-14T22:54:39.000Z</gco:DateTime>
+                         <gco:DateTime>2015-10-27T12:58:05.905Z</gco:DateTime>
                       </date>
                      <dateType>
                      <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
@@ -119,9 +119,9 @@
                </identifier>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
-                     <individualName>
-                          <gco:CharacterString>Tracy Tisbo</gco:CharacterString>
-                      </individualName>
+<!--                     <individualName>
+                          <gco:CharacterString></gco:CharacterString>
+                      </individualName>-->
                      <organisationName>
                         <gco:CharacterString>Hennepin County</gco:CharacterString>
                      </organisationName>
@@ -130,9 +130,7 @@
                             <address>
                                <CI_Address>
                                   <electronicMailAddress>
-                                     <gco:CharacterString>
-                                        gis.info@hennepin.us
-                                     </gco:CharacterString>
+                                     <gco:CharacterString>gis.info@hennepin.us</gco:CharacterString>
                                   </electronicMailAddress>
                                </CI_Address>  
                             </address>
@@ -145,17 +143,18 @@
                </citedResponsibleParty>
                <citedResponsibleParty>
                   <CI_ResponsibleParty>
-                     <individualName>
-                         <gco:CharacterString/>
-                     </individualName>
+<!--                     <individualName>
+                         <gco:CharacterString></gco:CharacterString>
+                     </individualName>-->
                      <organisationName>
-                        <gco:CharacterString/>
+                        <gco:CharacterString>Hennepin County</gco:CharacterString>
                      </organisationName>
                      <contactInfo>
                         <CI_Contact>
                            <address>
                               <CI_Address>
                                  <electronicMailAddress>
+                                    <gco:CharacterString>gis.info@hennepin.us</gco:CharacterString>
                                  </electronicMailAddress>
                               </CI_Address> 
                            </address>
@@ -172,7 +171,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>This dataset contains the street centerlines of roadways in Hennepin County and is primarily used for geocoding purposes. Divided highways are represented by a single line feature within this data. The attribute table includes road names and geocoding ranges for each road feature. The associated Street Aliases table can be joined to this data via the JOIN_ID field.&#160;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Link to Attribute Table Information:&#160;http://gis.hennepin.us/OpenData/Metadata/Street%20Centerline.pdf&#160;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Data updated: daily&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Use Limitations: This data (i) is furnished "AS IS" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. General questions about this dataset, including errors, omissions, corrections and/or updates should be directed to the Survey Division, Resident and Real Estate Services Department, Hennepin County at 612-348-3131.</gco:CharacterString>
+            <gco:CharacterString>This dataset contains the street centerlines of roadways in Hennepin County and is primarily used for geocoding purposes. Divided highways are represented by a single line feature within this data. The attribute table includes road names and geocoding ranges for each road feature. The associated Street Aliases table can be joined to this data via the JOIN_ID field.&#160;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Link to Attribute Table Information:&#160;http://gis.hennepin.us/OpenData/Metadata/Street%20Centerline.pdf&#160;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Data updated: daily&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Use Limitations: This data (i) is furnished 'AS IS' with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. General questions about this dataset, including errors, omissions, corrections and/or updates should be directed to the Survey Division, Resident and Real Estate Services Department, Hennepin County at 612-348-3131.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -190,9 +189,7 @@
                    <date>
                        <CI_Date>
                          <date>
-                           <gco:Date>
-                              2010-05-13
-                           </gco:Date>
+                           <gco:Date>2010-05-13</gco:Date>
                          </date>
                          <dateType>
                            <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
@@ -202,9 +199,7 @@
                     <identifier>
                        <MD_Identifier>
                           <code>
-                             <gco:CharacterString>
-                                http://id.loc.gov/authorities/names/n81054142
-                             </gco:CharacterString>
+                             <gco:CharacterString>http://id.loc.gov/authorities/names/n81054142</gco:CharacterString>
                           </code>
                        </MD_Identifier>
                     </identifier>
@@ -231,9 +226,7 @@
          <resourceConstraints>
             <MD_Constraints>
                <useLimitation>
-                  <gco:CharacterString>
-                     This information is to be used for reference purposes only.
-                  </gco:CharacterString>
+                  <gco:CharacterString>This information is to be used for reference purposes only.</gco:CharacterString>
                </useLimitation>
             </MD_Constraints>
          </resourceConstraints>
@@ -277,6 +270,13 @@
                       </northBoundLatitude>
                    </EX_GeographicBoundingBox>
                </geographicElement>
+               <temporalElement>
+                  <EX_TemporalExtent>
+                     <extent>
+                        <gml:TimeInstant>2015-10-27T12:58:05.905Z</gml:TimeInstant>
+                     </extent>
+                  </EX_TemporalExtent>
+               </temporalElement>
             </EX_Extent>
          </extent>
       </MD_DataIdentification>
@@ -356,7 +356,7 @@
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.hennepin.opendata.arcgis.com/datasets/2c68a692df4b4e47af378a00452d85b0_0, orignally in the Project Open Data Metadata Schema, at 2015-10-22T13:32:56.475133.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.hennepin.opendata.arcgis.com/datasets/2c68a692df4b4e47af378a00452d85b0_0, orignally in the Project Open Data Metadata Schema, at 2015-10-28T10:44:13.294351.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>
