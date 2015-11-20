@@ -1,0 +1,284 @@
+<!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  -->
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin> Minnesota Geological Survey </origin>
+        <pubdate>20150418</pubdate>
+        <title>Quaternary Geology - Southern Red River Valley, Minnesota (Part A)</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://conservancy.umn.edu/handle/11299/59764</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>A County Geologic Atlas is a systematic study of a county's geologic and ground water resources. Geologic studies include both near-surface deposits and bedrock.  Ground water studies include flow systems, aquifer capacity, and ground water chemistry.  In some areas sand and gravel deposits, sinkholes, or other features are studied.  Interpretation of sensitivity to pollution is also part of an atlas.  The information is organized, analyzed, and displayed using geographic information technology.
+
+A Regional Hydrogeologic Assessment (RHA) is similar to a County Geologic Atlas in that both geology and ground water are studied.  However, a Regional Hydrogeologic Assessment covers a larger area, typically four to nine counties, in less detail.  The  RHA emphasizes near-surface geologic, ground water, and pollution sensitivity mapping.</abstract>
+      <purpose>County Geologic Atlas and Regional Hydrogeologic Assessment information is used in planning and environmental protection efforts at all levels of government.  Wellhead protection and well-sealing programs are examples of local programs that need geologic and ground water information. The information is also used by businesses and the general public.</purpose>
+      <supplinf>Southern Red River Valley, Minnesota. Includes all of Clay, Norman, and Wilkin Counties, and portions of Traverse, Grant, Ottertail, Becker, and Mahnomen Counties. 'Extended' study area includes portions of additional counties in Minnesota and North Dakota</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1995</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Geologic Maps were derived based on information available during the period 1993-95.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-98.00</westbc>
+        <eastbc>-96.00</eastbc>
+        <northbc>48.00</northbc>
+        <southbc>46.00</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificInformation, Geology, Hydrogeology, Surficial Geology, Pollution Sensitivity, Regional Hydrogeologic Assessment</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN, Red River Valley, Red River of the North
+Clay, Norman, Wilkin, Traverse, Grant, Ottertail, Becker, Mahnomen Counties (Minnesota) Polk, Red Lake, Pennington Counties (Minnesota)
+Cass, Traill, Steele, Richland, Sargent, Ransom,Barnes, Griggs, Grand Forks, Nelson Counties (North Dakota)</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Credit to Minnesota Geological Survey for use of data in map products.
+
+
+</useconst>
+    <browse>
+      <browsen>None available</browsen>
+    </browse>
+    <native>Arc/INFO</native>
+    <crossref>
+      <citeinfo>
+        <title>Map Series and Report:  Regional Hydrogeologic Assessment - southern Red River Valley, Minnesota, K.L. Harris, Project Manager. Report RHA-3, Part A, Minnesota Geological Survey, 1995.  Available from the Minnesota Geological Survey's Map Store. (612) 626-2969.
+
+Map Plates Include:
+
+Plate 1: Surficial Geologic Map
+Plate 2: Quaternary Stratigraphy
+
+For a listing of Maps and Data published by the Minnesota Geological Survey, see U of M Library Digital Conservancy: http://conservancy.umn.edu/handle/11299/708 
+
+PART B: Ground Water Sensitivity, from Minnesota Department of Natural Resources.
+
+For status of DNR Ground Water Mapping Program, see
+http://www.dnr.state.mn.us/waters/groundwater_section/mapping/index.html
+
+</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>General Information</cntper>
+        </cntperp>
+        <cntpos>Administrative Staff</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>2609 Territorial Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55114</postal>
+        </cntaddr>
+        <cntvoice>612-626-2969</cntvoice>
+        <cntemail>mgs@umn.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srcscale>200000</srcscale>
+      </srcinfo>
+      <procstep>
+        <procdesc>Investigations begin with a review of existing information, such as earlier geologic maps, soil maps, and hydrologic reports. Drillers send water well logs to the Minnesota Geological Survey, where they are reviewed, interpreted, and entered into the County Well Index (CWI), an interactive data base of water-well information.  Building on the previous data, field studies are conducted to improve the understanding of local geologic and hydrologic conditions. Linework is created based upon the field studies and base data, and digitized.  Background GIS data layers such as roads, surface hydrography, township grids, etc., are obtained from various sources.
+
+
+Base layers (except township) modified from USGS DLGs by  Dave Lorenz of USGS; further modified by Kim Esser of MGS.  Township grid &amp; annotation, line symbols, fonts, markers, and map layout and plot generation aml prepared by Kim Esser. Surficial geology and Quaternary stratigraphy coverages by MGS GIS staff  with editing &amp; cleanup by Kim Esser and Joyce Meints.
+
+The working projection for this project was Albers conformal conic with std.parallels of 29d30m and 45d30m and an origin at -97d lon. and 23d lat. Assume this projection for coverages listed below unless  otherwise indicated.</procdesc>
+      </procstep>
+    </lineage>
+    <logic>Not available</logic>
+    <complete>Not available</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Not available</horizpar>
+      </horizpa>
+    </posacc>
+    <attracc>
+      <attraccr>Not available</attraccr>
+    </attracc>
+  </dataqual>
+  <spdoinfo>
+    <indspref/>
+    <direct>Vector</direct>
+    <mgmg3obj>Point, Vector</mgmg3obj>
+    <mgmg3til>1. Southern Red River Valley Study Area. 2. Southern Red River Valley Extended Study Area.</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres/>
+        <longres/>
+      </geograph>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conformal Conic</mapprojn>
+          <mgmg4par>Standard Parallels:  29 degrees 30 minutes and 45 degrees 30 minutes
+
+Origin:  -97 degrees longitude and 23 degrees latitude</mgmg4par>
+          <otherprj/>
+        </mapproj>
+        <gridsys>
+          <gridsysn>User Specified Projection</gridsysn>
+          <utm>
+            <utmzone/>
+          </utm>
+          <spcs>
+            <spcszone/>
+          </spcs>
+          <mgmg4coz/>
+          <mgmg4adj/>
+        </gridsys>
+      </planar>
+      <geodetic>
+        <horizdn/>
+        <ellips>Clarke 1866</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>Minnesota Geological Survey - Red River Valley Regional Assessment - GIS data base. 1996
+
+This index lists the significant covers and aml's used to generate the plates for the Red River Valley Regional Hydrogeologic Assessment. Digital work was acquired and digitized from summer of 1993 - winter 1995.
+
+The covers are divided into two identifing prefix types:
+re = Red River Valley Extended, this includes eastern North Dakota
+rr = Red River Valley in Minnesota only.
+
+Base layers (except township) modified from USGS DLGs by  Dave Lorenz of USGS; further modified by Kim Esser of MGS.  Township grid &amp; annotation, line symbols, fonts, markers, and map layout and plot generation aml prepared by Kim Esser. Surficial geology and Quaternary stratigraphy coverages by MGS GIS staff 
+with editing &amp; cleanup by Kim Esser and Joyce Meints.
+
+The working projection for this project was Albers conformal conic with std.parallels of 29d30m and 45d30m and an origin at -97d lon. and 23d lat. Assume this projection for coverages listed below unless  otherwise indicated.
+
+Red River Valley (rr) Base layers:
+ 
+rrpgpa   =  project area boundary and county outlines; polygon coverage
+rrpglk   =  lakes; polygon coverage
+rrlnhy   =  rivers; line coverage
+rrlnrd   =  major highways; line coverage
+rrptrd   =  points for markersymbols with highway ids; point coverage
+rrptcity =  city location points
+rrpgur 	 =  urban outlines; polygon coverage
+rrpgtr   =  township-range grid; polygon coverage
+rrlntp   =  topographic contours; line coverage
+rrptll   =  latitude-longitude tics; point coverage
+
+
+Red River Valley Extended (re) Base layers:
+
+repgco   =  project area boundary and county outlines; polygon coverage
+relnhym  =  rivers (modified); line coverage
+relnrd   =  major highways; line coverage
+reptrd   =  markersymbols with highway ids; point coverage
+reptcity =  city location points
+repgur   =  urban area outlines; polygon coverage
+repgtr   =  township-range grid; polygon coverage
+relntp   =  topographic contours; line coverage
+reptll   =  latitude-longitude tics; point coverage
+rean     =  county names; annotation cover
+
+
+Quaternary Stratigraphy:
+
+repgqs   = quaternary statigraphy; polygon coverage  
+relnim  = ice margins; line coverage
+rectxs   = cartographic cover of cross section lines
+
+
+Surficial Geology:
+
+rrpgsg   = surficial geology; polygon coverage
+rrlnsg   = surficial geology; line coverage 
+rrlnim   = ice margins; line coverage
+rrctsg   = cartographic cross section lines
+
+</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>rha-3a (rrv) (http://conservancy.umn.edu/handle/11299/59764)</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Arc Export (Original Projection or UTM Zone 15 NAD83) or ArcView Shapefile (UTM Z15 NAD83)</formname>
+          <formvern>Arc 7.2.1</formvern>
+          <transize/>
+        </digtinfo>
+      </digform>
+      <ordering>Digital data and PDF files representing map plates are available for download from the University of Minnesota Libraries Digital Conservancy. All digital data for RHA-3A s is provided in the "Supplementary Files" download. The direct Digital Conservancy Link to this product is http://conservancy.umn.edu/handle/11299/59764  
+
+To obtain the digital data on DVD, or to obtain paper copies of the geologic map plates, contact the MGS Map Sales Office at 612-626-2969.</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geological Survey</cntorg>
+          <cntper>Timothy E. Wahl</cntper>
+        </cntperp>
+        <cntpos>Geologic Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2609 Territorial Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55114</postal>
+        </cntaddr>
+        <cntvoice>612-626-0992</cntvoice>
+        <cntemail>tewahl@umn.edu</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150418</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm
+</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

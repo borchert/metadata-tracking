@@ -1,0 +1,25 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>agri_cropland_data_layer_2012</baseName>
+    <descriptiveName>Cropland Data Layer 2012, Minnesota</descriptiveName>
+    <publisherID>us_mn_state_mda</publisherID>
+    <currentAsofDate>2015-10-22</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">farming</topicCategory>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+        <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{39ec0360-40aa-4d04-9a50-3f38cab7934e}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{8668e2ff-9f1a-43d0-8178-64501a45ebda}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

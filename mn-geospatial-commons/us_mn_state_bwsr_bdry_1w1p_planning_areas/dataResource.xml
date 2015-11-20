@@ -1,0 +1,25 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+  <baseName>bdry_1w1p_planning_areas</baseName>
+  <descriptiveName>Planning boundaries for BWSRs One Watershed One Plan Initiative</descriptiveName>
+  <publisherID>us_mn_state_bwsr</publisherID>
+  <currentAsofDate/>
+  <topicCategories>
+    <topicCategory type="ISO 19115">boundaries</topicCategory>
+    <topicCategory type="ISO 19115">environment</topicCategory>
+    <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{242bd9f1-cc87-4560-9f9d-57082d211bf5}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceName>0</subResourceName>
+      <subResourceIdentifiers>
+        <subResourceGUID>{86d0e275-d5e8-4f61-83a5-5c96a064abce}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

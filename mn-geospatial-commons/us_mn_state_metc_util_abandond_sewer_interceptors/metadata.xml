@@ -1,0 +1,231 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Metropolitan Council</origin>
+        <pubdate>periodically revised</pubdate>
+        <title>Abandoned Sewer Interceptors</title>
+        <mgmg1cid>N/A</mgmg1cid>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-util-abandond-sewer-interceptors</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This layer contains data for those parts of the sewer interceptor system in the Twin Cities metropolitan area that have been removed from service (but not removed from the ground)
+
+The interceptor system provides the link from community sewer systems to the wastewater treatment facilities in the seven county metropolitan area.</abstract>
+      <purpose>To provide a digital inventory of Metropolitan Council, Environmental Services division abandoned pipelines.</purpose>
+      <supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20120601</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>dataset is up-to-date as of specified date.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.012</westbc>
+        <eastbc>-92.732</eastbc>
+        <northbc>45.415</northbc>
+        <southbc>44.471</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>utilities, abandoned sewer interceptors, sewer, sewers, waste water, sewage, sewerage, sewer interceptors, sewer systems</themekey>
+      </theme>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/util_abandoned_sewer_interceptors/metadata/preview.jpg</browsen>
+      <browsed>Sample map showing the AbandonedInterceptors layer.</browsed>
+    </browse>
+    <native>ArcInfo Version 9.3</native>
+    <crossref>
+      <citeinfo>
+        <title>Sewer Interceptors, Sewer Interceptor Lift Stations, Sewer Interceptor Meter Stations</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Lori Sand</cntper>
+        </cntperp>
+        <cntpos>Environmental Services Division</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>3565 Kennebec Drive</address>
+          <city>Eagan</city>
+          <state>MN</state>
+          <postal>55122</postal>
+        </cntaddr>
+        <cntvoice>651.602.4516</cntvoice>
+        <cntemail>lori.sand@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>The dataset is topologically 'clean'.</logic>
+    <complete>Between 1970 (formation of Sewer Board) and 1990 (formation of ES GIS) several interceptors were abandoned or reconveyed and were not included in the original GIS inventory. This dataset is incomplete and should not be used as a definative system.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The positional accuracy of the dataset has not been tested under the National Standards for Spatial Data Accuracy.  The positional accuracy of the dataset is estimated to be 20 ft.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+      <procstep>
+        <procdesc>This dataset was derived from as-built plan drawings.  The data were transferred to ETAK street base files and later converted to match a 1992 (?) Minnesota Department of Transportation street base.
+
+The Metropolitan Council is in the process of developing parallel data using GPS locations for more accurate positioning.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <geograph/>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>LINE ATTRIBUTES
+ 
+ID-NO:      Text identifier of interceptor   
+
+PIPE-SHAPE: Pipe shape (circular, horseshoe, etc.)   
+
+PIPE-TYPE:  Pipe material   
+
+X-INCH:       Pipe dimension value (x-axis inches)   
+
+Y-INCH:       Pipe dimension value (y-axis inches)   
+
+LENGTH_FT:  Point-to-point section length (feet)   
+
+SYMBOL:     1 = gravity, 2 = force main, 3 = siphon, 4 = outfall, 5 = low-head, 6 = non-MCES pipe connecting remote MCES point to interceptors, 8 = bypass
+
+SURF-TYPE:  Surface type (bituminous, gravel, ground, etc.)   
+
+YR-BUILT:   Year constructed   
+
+PROJECT:    Construction project nomenclature
+
+ALTER-ID:   Alternate name   
+
+LS-NO:      Associated Lift Station Number (Forcemain only)
+
+NOTES:      Notes   
+
+INTERCEPT:  Numeric ID for interceptor   
+
+SECTION:    Hydraulic section ID (obsolete)  
+
+SECT_ID:    Section ID based on downstream point-to-point   
+
+INT-SECT:   Unique relate field based on INTERCEPT and SECT_ID    
+
+DIMEN:      Text version of pipe dimension   
+
+WWTP:       Treatment plant to which interceptor flows   
+
+BASIN:      MCES defined treatment plant shed  
+
+METER:      Flow meter to which the pipe is tributary   
+
+FROMPNT:    UNIQUE_ID at upstream end of section   
+
+TOPNT:      UNIQUE_ID at downstream end of section 
+
+MEAS_BEG:   Linear location of INT_SECT beginning
+
+MEAS_END:   Linear location of INT_SECT ending
+
+YR_INSP:    Year last inspected (semi-populated)
+
+MO_INSP:    Month last inspected (semi-populated)
+
+YR_ABAN:    Year abandoned or reconveyed
+</eaover>
+      <eadetcit>None</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>AbandonedInterceptors</resdesc>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shape files</formname>
+          <formvern>ArcGIS 9x</formvern>
+          <transize>0.1 meg. for ZIP file.</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Lori Sand</cntper>
+        </cntperp>
+        <cntpos>Environmental Services Division</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>3565 Kennebec Drive</address>
+          <city>Eagan</city>
+          <state>MN</state>
+          <postal>55122</postal>
+        </cntaddr>
+        <cntvoice>651.602.4516</cntvoice>
+        <cntemail>lori.sand@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20120604</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Lori Sand</cntper>
+        </cntperp>
+        <cntpos>Environmental Services Division</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>3565 Kennebec Drive</address>
+          <city>Eagan</city>
+          <state>MN</state>
+          <postal>55122</postal>
+        </cntaddr>
+        <cntvoice>651.602.4516</cntvoice>
+        <cntemail>lori.sand@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

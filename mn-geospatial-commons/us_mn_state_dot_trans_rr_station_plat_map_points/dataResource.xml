@@ -1,0 +1,31 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>trans_rr_station_plat_map_points</baseName>
+    <descriptiveName>Railroad Station Plat Map Points</descriptiveName>
+    <publisherID>us_mn_state_dot</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">transportation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{d22d3f5e-7cc1-416e-8069-916f8cf4ba74}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>shp</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{d34855a7-6cd0-4090-931b-0fa11ae6d5f9}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{8bedc601-7abe-411e-b1d1-61818979147a}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Right of Way Mapping Info Webpage" name="Right of Way Mapping Info Webpage">http://www.dot.state.mn.us/maps/gisweb/row/</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

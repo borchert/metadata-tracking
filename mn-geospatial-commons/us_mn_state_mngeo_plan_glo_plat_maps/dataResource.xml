@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>plan_glo_plat_maps</baseName>
+    <descriptiveName>Minnesota's Original Public Land Survey (PLS) Maps - conversion to Digital Images</descriptiveName>
+    <publisher>Minnesota Geospatial Information Office (MnGeo)</publisher>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID/>
+        <resourceGUID>{b3fdf619-6624-408d-a4f8-cc03e2011904}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{ce222533-eb6f-4562-ba10-902c1769e983}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Find Plat Maps and Field Notes" name="GLO Historic Plat Map Retrieval System">http://www.mngeo.state.mn.us/glo/</subResourceURL>
+                <subResourceURL type="HTML" description="Bulk Download of PDF and Georeferenced PDF by County" name="Bulk PDF Downloads by County">ftp://ftp.lmic.state.mn.us/pub/data/basemaps/glo/</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

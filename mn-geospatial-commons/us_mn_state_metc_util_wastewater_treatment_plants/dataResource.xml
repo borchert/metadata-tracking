@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>util_wastewater_treatment_plants</baseName>
+  <descriptiveName>Waste Water Treatment Plants</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-11</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">utilitiesCommunication</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{99443497-8896-48c0-8b1a-867b207487cf}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{e1b9b587-0e42-475c-9c87-ac66b3ec5def}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Utilities/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{a08c3f54-bb7d-40bc-b11f-32f21fe591ec}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

@@ -1,0 +1,185 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources (DNR)</origin>
+        <pubdate>2009-10-21 00:00:00.0</pubdate>
+        <title>Minnesota Ruffed Grouse Drumming Count Routes and Stops</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/env-mn-ruffed-grouse</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This resource contains points for census stops and lines for census routes on the Ruffed Grouse Drumming Count Survey.
+
+Each route typically includes 10 stops, numbered sequentially 1-10. This coverage is not complete, and will be updated as missing data are obtained. </abstract>
+      <purpose>This layer was created to help resource managers maintain positional consistency in the annual drumming count census, and to enable Wildlife Research to conduct habitat/population correlation analyses based upon census points.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2009</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-96.190218</westbc>
+        <eastbc>-89.667797</eastbc>
+        <northbc>48.645586</northbc>
+        <southbc>43.490648</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Ruffed,Grouse,Census,Drumming,Count,Route,Wildlife</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota,MN</placekey>
+      </place>
+    </keywords>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_mn_ruffed_grouse/metadata/preview.jpg</browsen>
+      <browsed/>
+    </browse>
+    <native>ArcView Shapefile</native>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</cntorg>
+          <cntper>Tom Engel</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>1201 E. Hwy 2</address>
+          <city>Grand Rapids</city>
+          <state>MN</state>
+          <postal>55744</postal>
+        </cntaddr>
+        <cntvoice>218-999-7936</cntvoice>
+        <cntfax>218-327-4263</cntfax>
+        <cntemail>tom.engel@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Data are topologically correct using ARCView 3.x</logic>
+    <complete>This is not yet a complete coverage of all stops and routes on the annual drumming count census.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Source layer obs_rgdcspt3:  Points were recorded on sportsman-grade (Garmin76 or equivalent) units, and are not corrected.
+
+Source layer obs_rgdcrln3: Most routes are derived from DOT roads files, or other transportation layers. The remainder were collected using Garmin76-grade gps units and/or digitized on-screen from 2008 air photos.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>Source layer obs_rgdcspt3:  24000
+</srcscale>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Census points for Ruffed Grouse Drumming Counts</indspref>
+    <direct>point</direct>
+    <mgmg3obj>point</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <resdesc>env_mn_ruffed_grouse</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shapefile</formname>
+          <formvern>"Not Applicable</formvern>
+          <transize>1024</transize>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</cntorg>
+          <cntper>Tom Engel</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>1201 E. Hwy 2</address>
+          <city>Grand Rapids</city>
+          <state>MN</state>
+          <postal>55744</postal>
+        </cntaddr>
+        <cntvoice>218-999-7936</cntvoice>
+        <cntfax>218-327-4263</cntfax>
+        <cntemail>tom.engel@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150410</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</cntorg>
+          <cntper>Tom Engel</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>1201 E. Hwy 2</address>
+          <city>Grand Rapids</city>
+          <state>MN</state>
+          <postal>55744</postal>
+        </cntaddr>
+        <cntvoice>218-999-7936</cntvoice>
+        <cntfax>218-327-4263</cntfax>
+        <cntemail>tom.engel@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

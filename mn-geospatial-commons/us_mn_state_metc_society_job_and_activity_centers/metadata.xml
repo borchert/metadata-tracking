@@ -1,0 +1,240 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Metropolitan Council</origin>
+        <pubdate>20141117</pubdate>
+        <title>Job and Activity Centers</title>
+        <mgmg1cid>N/A</mgmg1cid>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-society-job-and-activity-centers</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Job and Activity Centers describe contiguous areas where there are at least 1,000 jobs and the employment density is at least 10 jobs per net acre. The data also includes some regionally sigificant anufacturing and distribtuion centers that have at least 1,000 jobs but densities less than 10 jobs per acre. 
+One-Hundred and seven (107) centers are defined. Nearly two-thirds of all jobs in the 7-County Twin Cities Metorpolitan area of Minneapolis and St. Paul are located within the Jobs and Activity Centers. The Job and Activity Centers are classified into six Scale categories based on total employment or special recognition and five industry types (Major, Professional, Industrial, Activity, and Diversified) based on predominant industry. 
+
+The employment data is from the Minnesota Dept. of Employment and Economic Development's (DEED) 2010 Quarterly Census of Employment and Wages (QCEW). U.S. Census's, Longitudinal Employer-Household Dynamics (LEHD) Origin-Desitination Employment Statistics (LODES) data was used for centers where employment data needed to be suppressed in accordance with the data sharing agreement with Minnesota DEED. In general, Job and Activity Center boundaries follow U.S. Census block boundaries.
+</abstract>
+      <purpose>Job and Activity Centers help identify locations of concentrated jobs that benefit from existing regional and local infrastructure investment (i.e., wastewater, highways, and transit) and where the continued orderly and economic development of the region and effective stewardship of our regional investments should be encouraged.</purpose>
+      <supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2010</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>MNDEED Quarterly Census of Employment and Wages, 2010
+</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Approximately every 5 years.</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.012</westbc>
+        <eastbc>-92.732</eastbc>
+        <northbc>45.415</northbc>
+        <southbc>44.471</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Jobs, Employment, industry type, job center, employment center, activity center, QCEW, census blocks, 2010</themekey>
+      </theme>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>ArcGIS Version 10x</native>
+    <crossref>
+      <citeinfo>
+        <title>U.s. Census Blocks, 2010 and MNDEED Quarterly Census of Employment and Wages, 2010
+U.S. Census's, Longitudinal Employer-Household Dynamics (LEHD) Origin-Desitination Employment Statistics (LODES) 2010 data</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Paul E. Hanson</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1642</cntvoice>
+        <cntemail>paul.hanson@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>The dataset is topologically 'clean'.</logic>
+    <complete>Entire seven county geographic area is covered.  Incompleteness in attribute information is discussed under 'Attribute Accuracy' above.</complete>
+    <lineage>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+      <procstep>
+        <procdesc>DATA SOURCES:
+-  U.S. Census 2010 blocks
+-  Minnesota Dept. of Employment and Economic Development's (MNDEED) 2010 Quarterly Census of Employment and Wages (QCEW)
+-  U.S. Census's, Longitudinal Employer-Household Dynamics (LEHD) Origin-Destination Employment Statistics (LODES) 2010 data
+-  Metropolitan Councils 2010 Generalized Land Use
+-  Minnesota Dept. of Natural Resources National Wetland Inventory, 2000
+
+PROCESSING STEPS FOR THE JOB AND ACTIVITY CENTERS LAYER:
+Minnesota Dept. of Employment and Economic Development's (MNDEED) 2010 Quarterly Census of Employment and Wages (QCEW) is point-based, geocoded-worksite employment data. Employment totals were summarize by U.S. Census blocks. Contiguous blocks were combined into centers that consisted of at least or near 1,000 jobs and the job density at least or near10 jobs per acre.
+
+Since census block are predominantly defined based on the road network, large bodies of water or other natural features or residential land can lead to the creation of large blocks that contain significant residential  neighborhoods or other non-employment land use (i.e., open water, wetlands, or park land). The edges of the Job and Activity Centers were trimmed to exclude portions of blocks that contained residential or natural features (i.e., water of park land). Jobs within the centers were totaled and the gross employment densities calculated. 
+
+The employment density for some centers remained below 10 jobs per acre. In addition to further refinement of the center boundaries, overall land use within the centers was determined. Acknowledging that some error exists in the location of employment, assumptions were made on the type of land use most employment should exist (i.e., industrial, institutional, commercial, office, and airport). Summarizing the the acrage of employment land uses, the overall net employment densities were calculated.
+
+Only those centers with a net employment density of 10 jobs per acre were maintained. One hundred and one (101) centers are defined that have at least 1,000 jobs at a net employment density of 10 jobs per acre.
+
+Acknowledging that important manufacturing and distribution employment center to the region's economy exist that have less than 10 jobs per acre, six (6) more centers were defined throughout the region and categorized as Mfg Centers. These center either have have more than 7,000 job where at least 4,000 jobs are manufacturing and distribution (industrial) jobs or they contain at least 1,000 jobs where at least 70% of all jobs are manufacturing and distribution (industrial) jobs.
+
+Centers were characterized by the predominant industry based on the worksites North American Industry Classification System (NAICS) classification. Centers were classified as Major (Diversified workforce, more than 50,000 or major trip generator), Professional (More than 50% jobs in Professional, Education, or Health), Industrial (More than 50% jobs in Industrial, Transportation, Construction &amp; Waste Mgt.), Activity (More than 40% jobs in Retail Trade, Hospitality, or Services) or Diversified (Mixed distribution of job classification).
+
+Centers were categorized by size / function (scale) based on the total number of jobs or special recognition: 6 (50,000+ jobs or 15,000+ jobs and a significant trip generator), 5 (15,000 - 49,999 jobs), 4 (7,000 - 14,9999 jobs), 3 (3,500 - 6,999 jobs), 2 (Less than 3,500 jobs), and 1 (7,000+ jobs where 4,000+ are industrial jobs or 1,000-6,999 jobs where more than 70% are industrial).
+
+The Data sharing agreement with Minnesota Dept. of Employment and Economic Development states that only summary statistics of the Quarterly Census of Employment and Wages can be released as long as there is at least 3 worksites (i.e., employers) and no one worksite constitutes 80% or more of the total employment for any one center. Where conditions cannot be met, U.S. Census's Longitudinal Employer-Household Dynamics (LEHD) Origin-Destination Employment Statistics (LODES) data was used.
+
+Minor changes were made to center names in November 2014.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <overview>
+      <eaover>Polygon Attributes:  
+See Citation below for more information:
+
+CENTER:  Name of center
+
+TYPE: Type of center based on predominant industries
+
+SCALE: Classification of center based on total employment or speciial considers (i.e., trip generation)
+
+JOBCONS: Indicates is center is part of the Metropolitan Council ThriveMSP 2040 Job Concentrations map (Y/N)
+
+MFGCENTERS: Indicates is center is part of the Metropolitan Council ThriveMSP 2040 Manufacturing and Distribution Centers map (Y/N)
+
+ACRES: Size of center in acres
+
+JOBS: Total number of jobs (summary of MNDEED 2010 QCEQ data)
+
+G_DENS: Gross desnity (JOBS / ACRES)
+
+WORKSITES: Number of designated worksites (i.e., employers)
+
+N_DENS: Net Density (JOBS/ NRES_ ACRES) 
+
+NRES_ACRES: Number of business-oriented land uses ((i.e., airport, industrial, institutional, mixed-use, office, and retail) in acres.</eaover>
+      <eadetcit>Acceptable domains for polygon attributes:
+
+TYPE:
+- Major (Diversified employment, More than 50,000 jobs or significant trip generator ( Univ. of Minnesota &amp; MSP Int'l Airport))
+- Professional (More than 50% jobs in Professional, Education, or Health)
+- Industrial (More than 50% jobs in Industrial, Transportation, Construction &amp; Waste Mgt.)
+- Activity (More than 40% jobs in Retail Trade, Hospitality, or Services)
+- Diversified (Mixed distribution of job classification).
+
+SCALE:
+- 6 : More than 50,000 jobs or 15,000 to 49,000 jobs and a significant trip generator (i.e., MSP Internation Airport)
+- 5 : 15,000 to 49,999 jobs
+- 4 : 7,000 to 14,9999 jobs
+- 3 : 3,500 to 6,999 jobs
+- 2 : 1,000 to 3,500 jobs
+- 1 : 7,000+ jobs where 4,000+ are industrial jobs or 1,000-6,000 jobs where more than 70% are industrial jobs.
+</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>JobAndActivityCenters</resdesc>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shape File</formname>
+          <formvern>ArcGIS 10x</formvern>
+          <transize>50 MB for zip file.</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Jon Hoekenga</cntper>
+        </cntperp>
+        <cntpos>GIS System Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1561</cntvoice>
+        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141117</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Paul E. Hanson</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1642</cntvoice>
+        <cntemail>paul.hanson@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

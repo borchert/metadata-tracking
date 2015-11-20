@@ -1,0 +1,371 @@
+<!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  -->
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Geospatial Information Office (MnGeo)</origin>
+        <pubdate>200106</pubdate>
+        <title>Reports of Estimates and Appraisals of the Timber Commissioners Board, Minnesota, 1895-1905: Database Format</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota Historical Society</publish>
+        </pubinfo>
+        <onlink>http://www2.mnhs.org/library/findaids/gr00664.xml</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This database was created from surveys of state-owned timber conducted by the Minnesota Board of Timber Commissioners between 1895-1905. The surveys were conducted for a number of public land survey (PLS) sections scattered throughout the forested northern half of Minnesota, mostly comprising school, indemnity school and swamp lands.
+
+The paper records consist of approximately 2,500 pages, with plat maps and assessments indicating the extent, value and condition of timber resources for each section. Each page has a map of one PLS section accompanied by text answers to 13 standard questions about timber species, product volumes, access and susceptibility to fire. The surveyors were instructed to trace swamps, roads and lakes on the section map; occasionally, they also made supplemental text notes directly on the maps. In addition to information about tree species and volume, the surveyors often noted the location of cultural features such as sawmills. Some sections were resurveyed several times as different tree species became commercially important or as surveyors needed to assess damage from natural or human causes. The amount of detail and completeness varies from survey to survey since they were conducted by a number of people over a period of time. In addition, the resurveys often noted only what had changed and thus did not include a map or complete answers to the 13 questions.
+
+The information on the paper records has been captured in several digital formats: 1. non-georeferenced scans; 2. geo-referenced scans; 3. vector files of the polygons, lines and points on the maps; and 4. a database of the text information accompanying the maps. This metadata record applies to the database format.</abstract>
+      <purpose>Purpose of the Original Surveys:
+
+The original paper surveys were undertaken to provide the Board of Timber Commissioners with information it needed to manage timber on state lands. The Board was created by the Minnesota state legislature in 1895 and was composed of the governor, the state auditor and state treasurer. Its overall charge was the care, conservation and sale of state timber. Most of this timber was situated on school, indemnity school and swamp lands. It accomplished these functions by issuing permits to cut timber on state lands, receiving settlements for other types of authorized timber cutting, determining and penalizing instances of illegal cutting (timber trespass), and coordinating with the Surveyor General of Logs and Lumber to appraise the logs actually harvested. The law required a current (within three years) estimate and appraisal of timber prior to the issuance of a cutting permit and specified the information that was to be recorded. Timber estimators were to personally enter their reports of these examinations into a book kept by the land commissioner, to be known as the record of appraisals and to constitute 'the original record of such examinations, estimates and appraisals.'
+
+These paper records reflect the difficulties government faced in the oversight of disparate and scattered parcels of land, as well as the haphazard nature of 19th century record keeping. Within that context, the Reports of Estimates and Appraisals of the Timber Commissioners Board represent the most coherent, accurate and broadest data set available. As such, they can serve as a benchmark against which to measure other collections. Ideally, as other data sets are identified and digitized, they can together establish a critical mass of information that will allow the comparative analysis of the environment in Minnesota across time, from the 1850s to the present.
+
+Purpose of the Digital Data
+
+The digital data sets were created in several formats in order to make the paper information accessible to a wide range of applications. The original non-georeferenced scans are available as records of exactly what the surveyor recorded and for use as illustration. The georeferenced scans can also be used as illustration or as a backdrop to other georeferenced data. The vector and database information can be used in geographic information systems, and the database information can also be analyzed with database or spreadsheet software.
+
+Historical timber information can be used to build an understanding of presettlement vegetation. The volumes of forest products, i.e., board feet, logs, post and ties, can provide valuable quantitative information. When this data is used with other sources, such as bearing trees, a picture of the landscape can emerge. In addition, this data provides information on infrastructure features such as houses, saw mills and roads.</purpose>
+      <supplinf>The northeast forested area of MN. Counties containing at least one surveyed section: Aitkin, Becker, Beltrami, Carlton, Cass, Clearwater, Cook, Crow Wing, Hubbard, Itasca, Kanabec, Koochiching, Lake, Mille Lacs, Morrison, Pine, St. Louis, Todd and Wadena.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1900</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>1895 - 1905</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-95.7</westbc>
+        <eastbc>-89.9</eastbc>
+        <northbc>48.6</northbc>
+        <southbc>45.9</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota, Timber, Timberland, Lumber, Logs, Forest, Trees, Presettlement Vegetation, Historical Vegetation, Land Cover</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN, Aitkin, Becker, Beltrami, Carlton, Cass, Clearwater, Cook, Crow Wing, Hubbard, Itasca, Kanabec, Koochiching, Lake, Mille Lacs, Morrison, Pine, St. Louis, Todd, Wadena.</placekey>
+      </place>
+    </keywords>
+    <accconst>The original records (1.5 cubic feet) are held by the Minnesota Historical Society and are closed to general use.</accconst>
+    <useconst>Redistribution Conditions: In obtaining this data, it is understood that you and/or your organization have the right to use it for any purpose.  If you modify it, you are encouraged to apply responsible best practices by documenting those changes in a metadata record.  If you transmit or provide the data to another user, it is your responsibility to provide appropriate content, limitation, warranty and liability information as you see fit.</useconst>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_mngeo/biota_timber_surveys_1900s_db/metadata/preview.jpg</browsen>
+      <browsed>Example of data input screen from Aitkin Co. T47N, R25W Sec. 36; also see another example at: ftp://ftp.lmic.state.mn.us/pub/data/phys_biol/landuse/mhs_timber/section_db.gif from St. Louis Co. T58N, R21W Sec. 36.</browsed>
+    </browse>
+    <native>Arc/Info, Version 8.0.2</native>
+    <crossref>
+      <citeinfo>
+        <title>1.  The original scanned images of the timber records:  https://gisdata.mn.gov/dataset/biota-timber-surveys-1900s-image
+
+2.  The vector files digitized from the timber record maps:  https://gisdata.mn.gov/dataset/biota-timber-surveys-1900s-vec
+
+3. The original paper records of the timber surveys are held at the State Archives Department, Minnesota Historical Society.
+
+Minnesota Board of Timber Commissioners. Reports of Estimates and Appraisals, 1895-1905. Minnesota Historical Society. State Archives Microfilm 271.
+
+Library 
+Minnesota Historical Society 
+345 Kellogg Blvd. W 
+St. Paul, MN 55102 
+651-296-2143
+http://www.mnhs.org/library/
+
+4.  Control Point Generated PLS:  The Dept. of Natural Resources' 1:24,000-scale public land survey layer detailed to the quarter-quarter PLS section and government lot level.  See https://gisdata.mn.gov/dataset/plan-mndnr-public-land-survey
+
+5.  Bearing Trees:  A point database showing bearing trees used as references or landmarks during the original Minnesota Public Land Survey.  https://gisdata.mn.gov/dataset/biota-original-pls-bearing-trees
+
+6.  Presettlement Vegetation of Minnesota:  A data set based on Marschner's original analysis of Public Land Survey notes and landscape patterns.  https://gisdata.mn.gov/dataset/biota-marschner-presettle-veg</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Norman Anderson</cntper>
+        </cntperp>
+        <cntpos>Senior Research Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street, Room 300</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2483</cntvoice>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>General Notes: Some sections were surveyed up to five times in the time period of the report. Re-surveys were done when property conditions changed, for example, due to fire or logging.
+
+Township, Range, Section and Quarter-Quarter Section were reviewed to make sure that they fell within the appropriate values for Minnesota. A 2% random sample was reviewed to look for any discrepancies.
+
+Possible problem:
+A few instances were found where the filename did not match the PLS information (Township, Range, Section, Quarter-Quarter Section). The PLS information was correct in these cases and the filename was corrected. The filename might have been inadvertently copied from the previous input form. It is possible that not all of these discrepancies were caught.</attraccr>
+    </attracc>
+    <logic>N/A</logic>
+    <complete>Sections surveyed early in the process of creating the report typically had the most features that were clearly identified. As the survey continued, less information was captured. Re-surveys were done when property conditions changed, for example, due to fire or logging; some sections were surveyed up to five times in the time period of the report. Re-surveys generally only noted what had changed and typically contained text information written in the map area, such as timber product volumes or land ownership, as well as varying amounts of text information from questions 1 - 13 on the report form.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>N/A</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not applicable</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>13300</srcscale>
+      </srcinfo>
+      <procstep>
+        <procdesc>The Timberland Survey Records data set was developed at the Land Management Information Center (LMIC) (now the Minnesota Geospatial Information Office or MnGeo) for the Minnesota Historical Society. Funding was provided by the Minnesota Future Resources Fund as recommended by the Legislative Commission on Minnesota Resources.
+
+The tabular information was split into two parts: Section (Page) and Quarter-Quarter Section (Map). The section file contains textual information written on the page, such as answers to questions 1 - 13. Survey information, such as surveyor and date, was also captured.
+
+The quarter-quarter section file contains the information on the section map. Notes on the map describe forest product volumes such as 15M or 100 post. In addition, any ownership and land descriptions were entered.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Township, Range, Direction and Section</indspref>
+    <direct/>
+    <mgmg3obj/>
+    <mgmg3til/>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>not applicable</altdatum>
+        <altunits>Not applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>not applicable</depthdn>
+        <depthdu>Not applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15E</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>The textual information from each page was split into two parts: Section (Page) and Quarter-Quarter Section (Map). The section file contains the information written on the page which is mainly the answers to questions 1 - 13. Survey information, such as surveyor and date, was also captured.
+
+The quarter-quarter section file contains the information on the section map. Notes on the map describe forest product volumes such as 15M or 100 post. In addition, any ownership and land descriptions were entered.
+
+Page/Section: Questions 1 through 13.
+
+Note: Fields with asterisks denote interpreted values based on vague or non-standard answers to the questions, e.g., 'Time spent in making above appraisal was 3 1/2 days' is converted to '3.5 days'. This was done to make the numbers more usable for analysis.
+
+File_name - Name of TIF file.
+Total # feet/pine - 1. Total No. feet of pine on state land?
+no_feetpn* - Interpreted response to question #1.
+p_White_actual - 2. Percentage White (pine)?
+p_Whtpine_#* - Interpreted response to question #2.
+p_Norway_actual - 3. Percentage Norway (pine)?
+p_Nwypine_#* - Interpreted response to question #3.
+Othertimbtype* - Alternative timber type to question #1.
+Ttl_feet_other* - Alternative timber type board feet.
+no_feet_other* - Interpreted alternative timber type board feet.
+p_other* - Percentage of Alternative timber type.
+Quality - 4. Quality of Pine?
+Logs p/M - 5. Number of logs per M?
+com_log_no* - Comments on question #5.
+val_logs/M - 6. Appraised value per M?
+com_log_value* - Comments on question #6.
+no_tties - 7. Number of tamarack ties?
+no_poles - 7b. Number of poles?
+no_posts* - Number of posts.
+Posttype* - Species of post.
+Value_tie - 8. Appraised value per tie?
+no_alttie - Number of ties other than tamarack.
+Alt_typetie* - Timber type of tie, if not tamarack.
+Val_alttie* - Appraised value of alternate tie types.
+Value_p_pst* - Appraised value per post.
+Value_p_ple* - Appraised value per pole.
+no_cords* - Number of cords indicated.
+Cordtype* - Timber type of cords indicated.
+Value_cord* - Appraised value per cord.
+no_cords2* - Number of cords indicated.
+Cordtype2* - Timber type of cords indicated.
+Value_p_cord2* - Appraised value per cord.
+Dist_haul - 9. Distance to haul?
+Rd_cond - 10. Character of road?
+Gen_description - 11. Given a general description of timber, whether new or old cutting, etc.?
+Hdwd_section - 12. Does hard wood grow on this section, and what kind?
+YN_above* - Yes or No to question #12.
+Loss_damage - 13. Give specific statement as to liability of loss or damage by fire?
+Miscnotes* - miscellaneous notes
+Ttl_time_examination - Total time spent on exam.
+Daysspent* - Interpreted number of days spent on survey.
+Hours* - Interpreted number of hours spent on survey.
+Monthbegin/Examdate - Beginning month of examination.
+Daybegin/Examdate - Beginning day of examination.
+Yearbegin/Examdate - Beginning year of examination.
+Monthend/Examdate - Ending month of examination.
+Dayend/Examdate - Ending day of examination.
+Yearend/Examdate - Ending year of examination.
+LeName_First - Land Examiner Name, first.
+Le_MI - Land Examiner Name, middle initial.
+Le_Lase - Land Examiner Name, last.
+Name2-First - Land Examiner Name 2, first.
+Le2-MI - Land Examiner Name 2, middle initial.
+Le2-Last - Land Examiner Name 2, last.
+Datenotarysign_mo - Month that notary signed.
+Ns_day - Day that notary signed.
+Ns_year - Year that notary signed.
+Notaryname - name of notary.
+DateGovsign_mo - Month that governor signed.
+DsGov_day - Day that governor signed.
+DsGov_year - Year that governor signed.
+GovName - Governor's Name.
+TresName - Treasurer's Name.
+LandCommisName - Land Commissioner's Name.
+Saleindicated - Sale indicated?
+Yearofsale - Year of sale.
+Com_sale* - Comments about sale.
+Le_record# - Land Examiners record #,
+Le_book# - Land Examiners book #,
+Bk/rec/page# - Book/record page#,
+
+Map/Quarter-quarter section: Information from section map (upper left corner of page).
+
+File_name - Name of TIF file.
+Twshp_no - Township number.
+Rnge_no - Range number.
+Sec_no -  Section number.
+Qtr_no - Quarter section number.
+Qtr/40_no - Quarter-quarter section/forty number.
+Lot_no - Government lot number.
+First_species - First species listed.
+F1_Amount - First species amount.
+F1_AveAmt - First species amount average (if across multiple forties).
+F1_Type - First species type.
+Second_species - Second species.
+S2_Amount - Second species amount.
+S2_AveAmt - Second species amount average (if across multiple forties).
+S2_Type - Second species type.
+Third_species - Third species.
+T3_Amount - Third species amount.
+T3_AveAmt - Third species amount average (if across multiple forties).
+T3_Type - Third species type.
+Fourth_species - Fourth species.
+F4_Amount - Fourth species amount.
+F4_AveAmt - Fourth species amount average (if across multiple forties).
+F4_Type - Fourth species type.
+Fifth_species - Fifth species.
+F5_Amount - Fifth species amount.
+F5_AveAmt - Fifth species amount average (if across multiple forties).
+F5_Type - Fifth species type.
+Sixth_species - Sixth species.
+S6_Amount - Sixth species amount.
+S6_AveAmt - Sixth species amount average (if across multiple forties).
+S6_Type - Sixth species type.
+Burned - Burned (Yes or No).
+Cut - Cut (Yes or No).
+Dead - Dead (Yes or No).
+Dry - Dry (Yes or No).
+Old - Old (Yes or No).
+Initials -
+Initials2 - 
+Qtr/40_comments - Comments on quarter-quarter section / forties
+QtrComments - Comments on quarter sections
+SectionComments - Comments on sections</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>tmbr_db - Timber Inventory database (biota_timber_surveys_1900s_db)</resdesc>
+    <distliab>Check with the Minnesota Historical Society for their distribution liability policy http://www2.mnhs.org/library/findaids/gr00664.xml
+</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Access (.mdb), Excel (.xls) and comma-delimited (.csv)</formname>
+          <formvern/>
+          <transize>9.7 mb (Access); 10.8 mb (Excel); 2.3 mb (comma-delimited)</transize>
+        </digtinfo>
+      </digform>
+      <ordering>1. Files are free online for download from the Minnesota Historical Society's website by clicking below on the 'I AGREE' link in the Online Linkage field.
+2. A three CD set is available at no charge. Contact distributor.
+
+</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Historical Society</cntorg>
+          <cntper>Charles Rodgers</cntper>
+        </cntperp>
+        <cntpos>Government Records Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>State Archives</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55102-1906</postal>
+        </cntaddr>
+        <cntvoice>651-259-3266</cntvoice>
+        <cntfax>651-296-9961</cntfax>
+        <cntemail>charles.rodgers@mnhs.org</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20151113</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street, Room 300</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntfax>651-296-6398</cntfax>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

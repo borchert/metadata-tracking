@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>trans_transit_schedule_google_fd</baseName>
+  <descriptiveName>Metro Transit Schedule Data - General Transit Feed Specification (GTFS)</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-30</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{ff5cef71-67a8-41a0-8c10-7167efe2952b}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>csv</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{fe752fd3-195f-4749-8ac3-fd283e1e122a}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

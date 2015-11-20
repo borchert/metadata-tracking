@@ -1,0 +1,33 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>plan_ownership_parcels</baseName>
+    <descriptiveName>Generalized Land Ownership, Lake County, Minnesota</descriptiveName>
+    <publisherID>us_mn_co_lake</publisherID>
+    <currentAsofDate>7/14/2014</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{02de8e44-6934-4de5-9990-274ae0cf7d2a}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>plan_ownership_parcels</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{b5354a9f-9624-4fe9-8e2b-38659229045e}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>shp</subResourceType>
+            <subResourceName>ownership</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{6ee88ffe-1ad4-4eac-a61c-6a67040687f2}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>society_census_soclchar_muni2000</baseName>
+  <descriptiveName>Profile of Selected Social Characteristics, MN Municipalities: 2000</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-02</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">society</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{60ae03d7-85f8-4fdb-86f9-dd67b9f4ce12}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{39996f7b-ce13-4493-b284-81ce8dab6d85}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

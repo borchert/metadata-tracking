@@ -1,0 +1,204 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources (DNR)</origin>
+        <pubdate>2005-06-01 00:00:00.0</pubdate>
+        <title>Ecological Services - Terrestrial Invasives</title>
+        <pubinfo>
+          <publish>Minnesota DNR - Division of Ecological Services</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/env-invasive-terrestrial-obs</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Multi-Divisional effort to record GPS locations of selected terrestrial invasive plants on DNR lands and other selected locations.</abstract>
+      <purpose>To provide a base inventory across DNR administered lands of selected invasive terrestrial plants. A multi-divisional effort to collect consistent information accross all DNR administered lands. Provide a planning tool to help identify problem infestions and coordinate an effective response to individual species and locations for control efforts.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150813</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset. This inventory is ongoing. Some areas will be inventoried for specific plants one year and then gone through for more detail later. As control treatments are applied, later inventories should show a reduction in numbers of plants.</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Monthly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-96.624190</westbc>
+        <eastbc>-89.522951</eastbc>
+        <northbc>48.979094</northbc>
+        <southbc>43.454610</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Terrestrial Invasives, Invasives, Exotics</themekey>
+        <themekt>
+          </themekt>
+      </theme>
+      <place>
+        <placekey>Minnesota, MNDNR, State Parks, State Trails, Wildlife Management Units, WMA</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>ArcGIS Personal Geodatabase</native>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_invasive_terrestrial_obs/metadata/preview.jpg</browsen>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <title>
+          </title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Ecological and Water Resources</cntorg>
+          <cntper>Luke Skinner</cntper>
+        </cntperp>
+        <cntpos>Invasive Species Unit Supervisor</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>MNDNR-Central Office Box -25
+500 Lafayette Road</address>
+          <city>St Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>(651) 259-5140</cntvoice>
+        <cntfax>(651) 296-1811</cntfax>
+        <cntemail>Luke.Skinner@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Sportsman Grade GPS Point Data.</logic>
+    <complete>Most DNR units have done a partial inventory of their land base looking for specific plants or at specific locations.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Source layer eco_invtsppt4:  Uncorrected Sportsman grade GPS Point data. Not Averaged. + or - 30 ft.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Source layer eco_invtsppt4:  N/A
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>
+          </procdesc>
+      </procstep>
+    </lineage>
+    <attracc>
+      <attraccr>
+        </attraccr>
+    </attracc>
+  </dataqual>
+  <spdoinfo>
+    <indspref>DNR Administered Lands</indspref>
+    <direct>point</direct>
+    <mgmg3obj>point</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    </eainfo>
+  <distinfo>
+    <resdesc>env_invasive_terrestrial_obs</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shapefile</formname>
+          <formvern>Not Applicable</formvern>
+          <transize>1024</transize>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Ecological and Water Resources</cntorg>
+          <cntper>Luke Skinner</cntper>
+        </cntperp>
+        <cntpos>Invasive Species Unit Supervisor</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>MNDNR-Central Office Box -25
+500 Lafayette Road</address>
+          <city>St Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>(651) 259-5140</cntvoice>
+        <cntfax>(651) 296-1811</cntfax>
+        <cntemail>Luke.Skinner@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141006</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - Division of Ecological and Water Resources</cntorg>
+          <cntper>Luke Skinner</cntper>
+        </cntperp>
+        <cntpos>Invasive Species Unit Supervisor</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>MNDNR-Central Office Box -25
+500 Lafayette Road</address>
+          <city>St Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>(651) 259-5140</cntvoice>
+        <cntfax>(651) 296-1811</cntfax>
+        <cntemail>Luke.Skinner@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

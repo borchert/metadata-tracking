@@ -1,0 +1,23 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>bdry_cities_counties_twps_map</baseName>
+    <descriptiveName>Minnesota Cities, Townships, and Counties Reference Map</descriptiveName>
+    <publisher>Minnesota Geospatial Information Office (MnGeo)</publisher>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{62ccdc1a-50e3-45d0-8036-8f9090293aba}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>printable_map</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{19f34c32-cb6d-4b2d-be12-338a07943f51}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

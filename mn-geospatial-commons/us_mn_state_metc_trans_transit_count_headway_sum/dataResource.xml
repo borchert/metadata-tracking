@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>trans_transit_count_headway_sum</baseName>
+  <descriptiveName>Transit Count Headway Summary</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-10-19</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{16e1d6ca-8af0-4c05-ab33-c64706a4ea0a}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{4955b8dc-78be-46f8-9a87-d3251967e1d5}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

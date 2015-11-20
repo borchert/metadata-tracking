@@ -1,0 +1,361 @@
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Chisago County Surveyor's Office</origin>
+        <pubdate>2008</pubdate>
+        <pubtime>Unknown</pubtime>
+        <title>LiDAR Elevation, Chisago County, Minnesota, 2007</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>Minnesota Department of Natural Resources</publish>
+        </pubinfo>
+        <onlink>http://www.dnr.state.mn.us/maps/mntopo/index.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The LiDAR data for Chisago County was collected under contract by Chisago County. Thus, the data format is not entirely consistent with some of the other LiDAR data collected by the State of Minnesota. Specifically, the Chisago County collect did not require classification of anything other than Bare Earth in the LiDAR LAS files, so there is not information on buildings, vegetation, or model key points.
+
+Breaklines captured as part of this effort are also a bit different. In Chisago County the breaklines are 3D Polyline features vs 3D Polygon features. They also include road centerlines, stream courses and other features that are not part of the Statewide collect specifications.
+
+LiDAR was classified and stereo-pairs were generated from LiDAR intensity data which were used to collect breaklines. A surface was generated from the bare earth LiDAR DTM (digital terrain model) and the collected breakline data to produce the contours and the DEMs.
+
+Tiling:  Bare-earth and first-return LiDAR data in LAS format are divided into 5000' X 5000' sheet tiles named according to the Lower Left XY coordinate value.  Five-foot posted raster bare-earth DEMs in ArcGrid format are divided into 5000' X 5000' sheet tiles.  The contours are divided into township areas.
+
+Optimal Geomatics, Inc. collected and processed the LiDAR data, and authored the procedures quality control reports.</abstract>
+      <purpose>The bare-earth data and breakline data was utilized to produce terrain surface models for the generation of the one-foot contours and the raster DEM.</purpose>
+      <supplinf>Chisago County</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>200704</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Ground condition.  Data was collected between April 18 - 28, 2007.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.144138</westbc>
+        <eastbc>-92.641809</eastbc>
+        <northbc>45.732329</northbc>
+        <southbc>45.294135</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>elevation, LiDAR, DEM, digital elevation model, contour, topographic, topo, DTM, LAS</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Chisago County, Minnesota</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The topographic data represents the results of data collection/processing for Chisago County and indicates the existing general conditions.  As such, they are only valid for their intended use, content, time and accuracy specifications.  The user is responsible for the results of any application of data other than its intended purposes.</useconst>
+    <datacred>Optimal Geomatics, Inc.</datacred>
+    <secinfo>
+      <secsys>None</secsys>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <browse>
+      <browsen>None available</browsen>
+      <browsed/>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <title>For more information about elevation data for Minnesota, see:  http://www.mngeo.state.mn.us/chouse/elevation/index.html</title>
+      </citeinfo>
+    </crossref>
+    <native/>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Chisago County</cntorg>
+        </cntperp>
+        <cntpos>County Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>313 North Main Street</address>
+          <address>313 North Main Street</address>
+          <city>Center City</city>
+          <state>MN</state>
+          <postal>55012</postal>
+        </cntaddr>
+        <cntvoice>651-257-1300</cntvoice>
+        <cntemail>administration@co.chisago.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>0.3 foot (9.25cm) RMSE. The accuracy of the LiDAR DEM is intended to meet or exceed NSSDA Accuracy Standards for 1-foot contours.
+
+RMSE can also be expressed in NSSDA 95% accuracy terms.  This is accomplished by multiplying the root mean square error (RMSE) by 1.96.  Therefore accuracy of this product is intended to meet or exceed 0.6 foot (18cm) at 95% confidence.
+
+See the Vertical Positional Accuracy field for more information on the accuracy of the elevation values.</attraccr>
+      <qattracc>
+        <attraccv>0.3' (9.25cm) RMSE</attraccv>
+        <attracce>The accuracy of the LiDAR DEM is intended to meet or exceed NSSDA Accuracy Standards for 1' contours.  RMSE can also be expressed in NSSDA 95% accuracy terms.  This is accomplished by multiplying the root mean square error (RMSE) by 1.96.  Therefore accuracy of this product is intended to meet or exceed 0.6' (18cm) at 95% confidence.</attracce>
+      </qattracc>
+    </attracc>
+    <complete>The project area covered all of Chisago County.</complete>
+    <posacc>
+      <horizpa>
+        <qhorizpa>
+          <horizpav>1' RMSE in X or Y.</horizpav>
+          <horizpae>Horizontal accuracy; meets or exceeds ASPRS Class 1 Accuracy Standards for 1"=100' mapping.</horizpae>
+        </qhorizpa>
+        <horizpar>1 foot RMSE in X or Y. Horizontal accuracy meets or exceeds ASPRS Class 1 Accuracy Standards for 1-inch=100 foot mapping.
+
+Horizontal datum:  NAD83</horizpar>
+      </horizpa>
+      <vertacc>
+        <qvertpa>
+          <vertaccv>0.3' (9.25cm) RMSE</vertaccv>
+          <vertacce>Compiled to meet or exceed NSSDA Accuracy Standards for 1' contours.</vertacce>
+        </qvertpa>
+        <vertaccr>Vertical datum:  NAVD88 (Geoid03)
+
+0.3 foot (9.25cm) RMSE. Compiled to meet or exceed NSSDA Accuracy Standards for 1-foot contours.
+
+The DEMs for these survey areas are believed to be accurate. The inclusion of breaklines collected from the LiDAR data provides for a more accurate DEM around hydro edges than could be achieved with the LiDAR points alone.
+
+Tested 0.37 US Survey Feet fundamental vertical accuracy at 95% confidence level in open terrain using RMSE(z) x 1.96.
+
+Tested 0.55 US Survey Feet consolidated vertical accuracy at 95% confidence level in open terrain and low grass using RMSE(z) x 1.96.
+
+Tested 0.51 US Survey Feet fundamental vertical accuracy at 95% confidence level for the Chisago County 2007 adjusted HARN stations (Geoid03) using RMSE(z) x 1.96.
+
+Expected horizontal accuracy of elevation products as determined from system studies and other methods is 1/2000th of the flight height, which, in this particular project, was 850m (2788.7 US survey feet) AGL, giving a horizontal tolerance of less than 0.43m (1.39 US survey feet).
+
+Details of the comparison of validation points vs. the LiDAR DEM are provided in the LiDAR DEM Quality Control Report:  ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/county/chisago/Chisago_LiDAR_QC_Report.pdf</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>County Surveyor's Office</origin>
+            <pubdate>Unknown</pubdate>
+            <pubtime>Unknown</pubtime>
+            <title>Chisago County, MN</title>
+            <edition>1.0</edition>
+            <geoform>raster digital data</geoform>
+            <pubinfo>
+              <pubplace>Chisago County, MN</pubplace>
+              <publish>County Surveyor's Office</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>disc</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>18Apr07</begdate>
+              <enddate>28Apr07</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>LiDAR DEM, LiDARGrammetrically derived Breaklines &amp; 1' Contours.
+
+2007 LiDAR data, breaklines (compiled as needed using synthetic stereopairs generated from the LiDAR intensity data), Aerial Triangulation results, and camera calibration parameters.</srccontr>
+        <srcscale/>
+      </srcinfo>
+      <procstep>
+        <procdesc>Optimal Geomatics, Inc. collected and processed the LiDAR data, and authored the Data Processing Procedures Report and the LiDAR DEM Quality Control Report.
+
+Data collection of the survey area resulted in a total of 110 flightlines including four control lines covering the project area. The range files, flight logs, raw air and ground GPS files were then processed using REALM, a LIDAR processing software package from Optech. Processing began by downloading these files into a REALM database. For redundancy and accuracy purposes, the airborne GPS data were processed from two base stations using POSGPS from Applanix, Inc. The agreement between a minimum of two solutions checked or combined between a minimum of two stations was better than 10 cm in each of X, Y, and Z. These trajectories were used in the processing of the inertial data. The inertial data were processed using POSProc from Applanix, Inc. This software produces an SBET (smooth best estimate of trajectory) using the GPS trajectory from POSGPS and the roll, pitch and heading information recorded by the POS (Position Orientation System). REALM uses the SBET to generate a set of data points for each laser return in the LAS file format. Each data point is assigned an echo value so it can be segregated based on the first and last pulse information. This project's data were processed in strip form, meaning each flight line was processed independently. Processing the lines individually provides the data analyst with the ability to QC the overlap between lines.
+
+Strips were imported into a project using TerraScan (Terrasolid, Ltd.) and the project management tool GeoCue (GeoCue Corp.). By creating a project, the various flightlines are combined while breaking the dataset as a whole into manageable pieces. This process also converts the dataset from geographic coordinates to the Minnesota County Coordinate System (NAD83), Chisago Co utilizing NADCON. The ellipsoid height values were converted to NAVD88 orthometric values using Geoid03, provided by NGS.
+
+Individual lines were then checked against adjacent lines to ensure a cohesive dataset. The data from each line were then combined and a classification routine was then run to determine the initial surface model. This initial surface model was then reduced using Optimal Geomatics' proprietary methods to create the final bare-earth dataset. A Triangular Irregular Network (TIN) was generated using the final surface data. Contours were then created from the TIN. The bare-earth data were then checked against the validation points across the project area. The results of these checks showed the DEM fitting the validation points well (see LIDAR DEM Quality Control Report for results, as well as camera calibration parameters).
+
+Stereo pairs were generated from the LIDAR intensity data using Geocue and LIDAR1CuePac (Geocue Corp.). LIDARgrammetry was then utilized to collect breaklines where necessary along hydro features to support the contour generation. These breaklines were collected as a 3D element in the MicroStation (Bentley Systems, Inc.) environment utilizing ISSD (Z/I Imaging).
+
+The deliverables constituted: LIDAR bare-earth in .LAS format, LIDAR first-return in .LAS format, raster bare-earth DEM in ESRI ArcGRID format at 5-foot resolution, and an ArcGIS File Geodatabase containing one-foot topographic contour data, breaklines, and control points as 3D feature classes.  Deliverables were in County Coordinates (County Coordinate Zone ID 41) with elevation value units in feet.
+
+
+DNR Processing Steps
+
+The Chisago county data was processed in the following way:
+
+1) LAS files were projected from county coordinates to UTM Zone 15, NAD83, NAVD88 (Geoid03)
+2) LAS point Z values were scaled from feet to meters
+3) LAS files were retiled into the state tile scheme (1/16 of a USGS 1:24,000 scale quadrangle)
+4) Breakline features were merged together into a single feature class
+5) Breakline features were projected from county coordinates to UTM Zone 15, NAD83, NAVD88 (Geoid03)
+6) Breakline Z Values were scaled from feet to meters
+7) LAS Bare Earth Points and breaklines were used to create a Terrain data type
+8) 1-meter DEM was derived from Terrain using nearest neighbor interpolation option (DEM01)
+9) Hillshade was derived from 1-meter DEM Altitude 45, Azimuth 215 (DEM01HS)
+10) 3-meter DEM was derived from Terrain using nearest neighbor interpolation option (DEM03)
+11) Hillshade was derived from 3-meter DEM Altitude 45, Azimuth 215 (DEM03HS)
+12) Aspect was derived from 3-meter DEM (DEM03ASPECT)
+13) Slope in degrees was derived from 3-meter DEM (DEM03SLOPE_DEGREES)
+14) Slope in percent was derived from 3-meter DEM (DEM03SLOPE_PERCENT)
+15) DEM03 was smoothed using a 3x3 mean smoothing filter
+16) 2-foot contours were created from the smoothed 3-meter DEM 
+
+All DEMS are hydro flattened and enforced using the breakline features.
+
+All processing was done using ArcGIS V10 and LP360 Extensions.</procdesc>
+      </procstep>
+    </lineage>
+    <cloud>none</cloud>
+  </dataqual>
+  <spdoinfo>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Node, network</sdtstype>
+      </sdtsterm>
+    </ptvctinf>
+    <mgmg3obj/>
+    <mgmg3til>1. contours: townships; 2. Bare-earth and first-return LiDAR in LAS-format: 5000 x 5000 foot sheets named according to the Lower Left XY coordinate value; 3. DEM: 5000 x 5000 foot sheets</mgmg3til>
+    <indspref/>
+    <direct/>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>NAVD88</altdatum>
+        <altres>0.00000</altres>
+        <altunits>Meters</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>Type: Definition: String, 50
+Fcode: Double, Scale 0
+Elevation: Double, Scale 3</eaover>
+      <eadetcit>Index Contour: Every fifth contour of the one-foot contour dataset
+Intermediate Contour: Contours depicted between index contours
+
+Index Depression Contour: Every fifth depression contour of the one-foot contour dataset
+Intermediate Depression Contour: Depression contours depicted between index contours.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>1. Chisago County:  The digital vector data represents the results of data collection/processing for Chisago, MN and indicates the general conditions existing at the time of flight.  As such, it is only valid for its intended use, content, time and accuracy specifications.  The user is responsible for the results of any application of the data other than for its intended purpose.
+
+2. Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html 
+
+3. MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Geodatabase</formname>
+          <filedec>no compression applied</filedec>
+          <transize>approximately 6 gigabytes</transize>
+          <formvern/>
+        </digtinfo>
+      </digform>
+      <ordering>The LiDAR data provided by Chisago County and DNR may be viewed online or downloaded in several ways:
+
+1. MnTOPO website: http://www.dnr.state.mn.us/maps/mntopo/index.html (or click the link below in the Online Linkage field)
+
+- view data online
+- download data in Esri and open formats (tiles for most data formats will be mosaicked together during download)
+- see the help file for details: http://files.dnr.state.mn.us/aboutdnr/gis/mntopo/mntopo_help_document.pdf
+
+2. MnGeo's FTP site
+Use the tile_index.pdf maps to locate the tiles you need. Except for the county file, tiles will not be mosaicked.
+
+a. From the county folder: ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/county/chisago/
+The county mosaic is named elevation_data.gdb.zip For details of its contents and size, see this table: http://geoint.lmic.state.mn.us/lidar.php
+
+b. In the 250k tiles folder: ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/q250k/
+
+
+For more help with Minnesota's LiDAR data, see http://www.mngeo.state.mn.us/chouse/elevation/lidar.html</ordering>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>unknown</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+    <resdesc>Chisago LiDAR 2007</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>658 Cedar Street, Room 300</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntfax>651-296-6398</cntfax>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20140428</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <metprof>Chisago County, MN - Topo / DEM Metadata</metprof>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>658 Cedar Street, Room 300</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntfax>651-296-6398</cntfax>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20110420</ModDate>
+    <ModTime>15013700</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20110420</mdDateSt>
+</metadata>

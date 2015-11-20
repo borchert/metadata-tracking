@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>util_elec_trans</baseName>
+    <descriptiveName>Electric Transmission Lines and Substations, 60 Kilovolt and Greater, Minnesota</descriptiveName>
+    <publisher>Minnesota Geospatial Information Office (MnGeo)</publisher>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">utilitiesCommunication</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID/>
+        <resourceGUID>{55f4fc3f-c493-4ee1-93c6-1cb96809f365}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{de2bdf06-ac0a-4be3-bd54-d112c54b6635}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Data Request Form" name="Data Request Form">ftp://ftp.lmic.state.mn.us/pub/data/trans_util/MN_Commerce_HVTL_Data_Request.pdf</subResourceURL>
+                <subResourceURL type="HTML" description="Transmission Lines and Substations - Most Recent Published Map (2007)" name="Transmission Lines and Substations Map">http://www.mngeo.state.mn.us/maps/ElecTran07.pdf</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

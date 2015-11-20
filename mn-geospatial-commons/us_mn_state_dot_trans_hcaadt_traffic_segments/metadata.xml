@@ -1,0 +1,288 @@
+<metadata xml:lang="en">
+  <dataIdInfo>
+    <envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.3.3600</envirDesc>
+    <dataLang>
+      <languageCode value="eng"/>
+      <countryCode value="USA"/>
+    </dataLang>
+    <idCitation>
+      <resTitle>HCAADT_Current_Traffic_Segments_2013</resTitle>
+      <presForm>
+        <PresFormCd value="005"/>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd value="001"/>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="search">
+          <exTypeCode>1</exTypeCode>
+          <westBL>-97.239949</westBL>
+          <eastBL>-89.515703</eastBL>
+          <northBL>49.077276</northBL>
+          <southBL>43.435542</southBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode value="eng"/>
+    <countryCode value="USA"/>
+  </mdLang>
+  <distInfo>
+    <distFormat>
+      <formatName>Shapefile</formatName>
+    </distFormat>
+    <distTranOps>
+      <transSize>1.838</transSize>
+    </distTranOps>
+  </distInfo>
+  <mdHrLv>
+    <ScopeCd value="005"/>
+  </mdHrLv>
+  <mdHrLvName>dataset</mdHrLvName>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode code="26915"/>
+        <idCodeSpace>EPSG</idCodeSpace>
+        <idVersion>7.4.1</idVersion>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="002"/>
+        </geoObjTyp>
+        <geoObjCnt>4338</geoObjCnt>
+      </geometObjs>
+      <topLvl>
+        <TopoLevCd value="001"/>
+      </topLvl>
+    </VectSpatRep>
+  </spatRepInfo>
+  <spdoinfo>
+    <ptvctinf/>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>HCAADT_Current_Traffic_Segments_2013</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ROUTE_NAME</attrlabl>
+        <attrdef>Route naming field where I=Interstate Highway, TH=Trunk Highway, CSAH=County State Aid Highway, CR=County Road, MSAS=Municipal State Aid Street</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ROUTE_SYS</attrlabl>
+        <attrdef>Route system field where 01=Interstate Highway, 02=US Highway, 03= State Highway, 04=County State Aid Highway, 07=County Road, 05=Municipal State Aid Street</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ROUTE_NUM</attrlabl>
+        <attrdef>Roadway route number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ROUTE_ID</attrlabl>
+        <attrdef>The unique identifier for the entire route within the state, using the following format: RRJJJJNNNNA where, RR = Route_System, JJJJ = Jurisdiction, defined as below based on Route_System (01, 02, 03 = 0000; 05, 10 = City Census Code; All others = XX00 where XX is XX = TIS County Code), NNNN = Route Number padded with leading zeros, and A = Alpha code on the end of particular routes or blank if none is present.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SEQNUM</attrlabl>
+        <attrdef>A unique number that identifies the traffic segment</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LOCATION</attrlabl>
+        <attrdef>Description of the location on a traffic segment where a count was taken</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>VC_NUM</attrlabl>
+        <attrdef>Vehicle Class site number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CURR_YEAR</attrlabl>
+        <attrdef>Year of most recent heavy commercial annual average daily traffic (HCAADT).</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CURR_VOL</attrlabl>
+        <attrdef>Most recent heavy commercial annual average daily traffic (HCAADT).</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Leng</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <mdDateSt>20141001</mdDateSt>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Transportation/Office of Transportation Systems Management/Traffic Forecasting and Analysis Section</origin>
+        <title>Heavy Commercial Annual Average Daily Traffic Segments, Minnesota, 2013</title>
+        <pubinfo>
+          <publish>Minnesota Department of Transportation/Office of Transportation Systems Management/Traffic Forecasting and Analysis Section</publish>
+        </pubinfo>
+        <pubdate>06/19/2014</pubdate>
+        <onlink>https://gisdata.mn.gov/dataset/trans-hcaadt-traffic-segments</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>HCAADT is the theoretical estimate of the total number of heavy commercial vehicles using a specific segment of roadway (in both directions) on any given day of the year. This estimate represents the total number of heavy commercial vehicles per year divided by 365 and is developed using factors to adjust for season on sampled road systems in a particular given year. This information is displayed using the road centerlines within the state. This centerline layer is a subset of the State of Minnesota BaseMap which consists of a number of individual data layers originally digitized from USGS 7.5-minute quadrangles, but later updated via aerial imagery and local input.</abstract>
+      <purpose>Determine general estimates of location-specific, heavy commercial annual average daily traffic (HCAADT) on the entire trunk highway system every year. More information about the Traffic Volume and the Vehicle Classification Program can be found at: http://www.dot.state.mn.us/traffic/data/</purpose>
+      <supplinf>Minnesota</supplinf>
+    </descript>
+    <browse>
+      <browsen>http://www.dot.state.mn.us/traffic/data/tma.html</browsen>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <title>Annual Average Daily Traffic Current Traffic Segments 2013 
+Annual Average Daily Traffic 1992-2013 Count Locations 
+Heavy Commercial Annual Average Daily Traffic 1994-2013 Count Locations</title>
+      </citeinfo>
+    </crossref>
+    <timeperd>
+      <current>Year in which the most recent count data was collected.</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>2013</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.23</westbc>
+        <eastbc>-89.53</eastbc>
+        <northbc>49.37</northbc>
+        <southbc>43.5</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Transportation, HCAADT, Heavy Commercial, Truck Counts, Traffic Counts, Traffic Volumes</themekey>
+        <themekt>ISO 19115 Topic Category</themekt>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Planning level use only, not to be used for design purposes</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Transportation</cntorg>
+          <cntper>Christy Prentice</cntper>
+        </cntperp>
+        <cntaddr>
+          <address>395 John Ireland Blvd, MS 450</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+          <addrtype>mailing and physical</addrtype>
+        </cntaddr>
+        <cntvoice>651-366-3844</cntvoice>
+        <cntemail>Christy.Prentice@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <metainfo>
+    <metd>20141222</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Transportation</cntorg>
+          <cntper>Christy Prentice</cntper>
+        </cntperp>
+        <cntaddr>
+          <address>395 John Ireland Blvd, MS 450</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+          <addrtype>mailing and physical</addrtype>
+        </cntaddr>
+        <cntvoice>651-366-3844</cntvoice>
+        <cntemail>Christy.Prentice@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <distliab>The Minnesota Department of Transportation makes no representation or warranties, express or implied, with respect to the reuse of data provided herewith, regardless of its format or the means of its transmission. There is no guarantee or representation to the user as to the accuracy, currency, suitability, or reliability of this data for any purpose. The user accepts the data 'as is', and assumes all risks associated with its use. By accepting this data, the user agrees not to transmit this data or provide access to it or any part of it to another party unless the user shall include with the data a copy of this disclaimer. The Minnesota Department of Transportation assumes no responsibility for actual or consequential damage incurred as a result of any user's reliance on this data.
+
+By accepting this data, the user agrees not to transmit this data or provide access to it or any part of it to another party or the public unless the user shall include with the data a copy of the disclaimer. The disclaimer can be found in Section 6 of this document (Distribution Liability)</distliab>
+    <stdorder>
+      <ordering>This dataset is available free to the public via the Online Linkage below.
+
+Find numerous maps and reports related to this data at:
+http://www.dot.state.mn.us/traffic/data/data-products.html</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Transportation</cntorg>
+          <cntper>Christy Prentice</cntper>
+        </cntperp>
+        <cntaddr>
+          <address>395 John Ireland Blvd, MS 450</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+          <addrtype>mailing and physical</addrtype>
+        </cntaddr>
+        <cntvoice>651-366-3844</cntvoice>
+        <cntemail>Christy.Prentice@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>For a description of collection methods and accuracy considerations, see: http://www.dot.state.mn.us/traffic/data/coll-methods.html</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

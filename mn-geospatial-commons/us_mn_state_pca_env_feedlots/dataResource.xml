@@ -1,0 +1,46 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_feedlots</baseName>
+    <descriptiveName>Feedlots with Animal Counts</descriptiveName>
+    <publisher>MN Pollution Control Agency</publisher>
+    <publisherID>us_mn_state_pca</publisherID>
+    <currentAsofDate>2014-01-14</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>972</resourceID>
+        <resourceGUID>{f3b34893-25cd-4ee0-b7bd-617c493e9e88}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>env_feedlots</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{0a95541b-afb5-41ba-9cc3-8830724f6c3a}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>shp</subResourceType>
+            <subResourceName>env_feedlots</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{5d53cb43-a7ed-48d2-a6b3-00aed90668a6}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>preview</subResourceType>
+            <subResourceName>MPCA Feedlots Preview</subResourceName>
+            <subResourceDescription>A JPEG for viewing the data.</subResourceDescription>
+            <subResourceIdentifiers>
+                <subResourceGUID>{a1017c8d-d160-48fc-87bb-c3f0df741a14}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="jpeg preview" description="This snapshot preview in jpeg format allows you to see the data as it might be used in your GIS.">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_pca/env_feedlots/preview/preview.jpg</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

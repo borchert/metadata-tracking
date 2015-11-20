@@ -1,0 +1,24 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>trans_road_centerlines</baseName>
+    <descriptiveName>Road Centerlines, Lake County, Minnesota</descriptiveName>
+    <publisherID>us_mn_co_lake</publisherID>
+    <currentAsofDate>12/9/2014</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">transportation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{f66bede6-2414-4a39-b372-d46cb7a2b2d0}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>shp</subResourceType>
+            <subResourceName>road_centerlines</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{95e02ce3-2dff-4e2f-bf95-2953d97b9320}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

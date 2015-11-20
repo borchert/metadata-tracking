@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>util_sewer_interceptors</baseName>
+  <descriptiveName>Sewer Interceptor System (Limited Attributes)</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-20</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">utilitiesCommunication</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{b4df59f4-5ec6-4b3b-9250-68ebe385c7b4}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{0ee4d0e2-8b16-4f48-a97c-e47b197110b8}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{b7a561d9-3516-409d-95b4-85d467261b6d}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Utilities/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

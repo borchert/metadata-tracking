@@ -1,0 +1,42 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>util_eusa</baseName>
+    <descriptiveName>Electric Utility Service Areas, Minnesota, 2014</descriptiveName>
+    <publisher>Minnesota Geospatial Information Office (MnGeo)</publisher>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">utilitiesCommunication</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID/>
+        <resourceGUID>{8327a734-c0cf-4da6-a15d-aa23fccf5718}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{90b3b9da-e264-489e-960c-16468ab0fa28}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>kmz</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{c8d4ed93-2475-4355-a40c-53c124022788}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>web_map</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{40ad342c-d8fb-4166-a985-053755e97a83}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="" name="Electric Utility Service Areas - Web Map">http://www.mngeo.state.mn.us/eusa/</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

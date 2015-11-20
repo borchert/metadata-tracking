@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>struc_fish_hatcheries</baseName>
+    <descriptiveName>Fish Hatcheries Managed by Minnesota DNR</descriptiveName>
+    <publisher>Minnesota DNR - Division of Fish &amp; Wildlife - Fisheries Unit</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2009-03-04</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">structure</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1513</resourceID>
+        <resourceGUID>{01c5e965-7076-43a8-ba51-d826d2608c21}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>struc_fish_hatcheries</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{1b243972-3cb4-46f1-8dd4-c20bd8df5798}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

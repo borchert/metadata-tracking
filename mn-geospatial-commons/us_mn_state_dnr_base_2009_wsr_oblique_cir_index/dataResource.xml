@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>base_2009_wsr_oblique_cir_index</baseName>
+    <descriptiveName>2009 Wild and Scenic River Aerial Oblique CIR Photo Index</descriptiveName>
+    <publisher>Minnesota DNR - Division of Trails &amp; Waterways</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2009-11-01</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1586</resourceID>
+        <resourceGUID>{639e792d-2dd0-46a8-bc7a-36c82c9fc9f7}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{fbb3602d-a406-4c64-8667-0d27061219e3}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

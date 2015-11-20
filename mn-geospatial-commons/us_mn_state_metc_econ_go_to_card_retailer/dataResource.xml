@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>econ_go_to_card_retailer</baseName>
+  <descriptiveName>Metro Transit Go-To Card Retailer Locations</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-11</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">economy</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{90d7c85b-1938-4ea5-8192-3ca02664e981}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{ccb81518-f62f-4d57-bd7b-d1a1ed4ace41}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{eda3c52a-29a4-4a87-9a7f-df633a7b509c}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Transportation/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

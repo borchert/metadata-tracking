@@ -1,0 +1,225 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Metropolitan Council</origin>
+        <pubdate>20150908</pubdate>
+        <title>Regional Trail Land</title>
+        <mgmg1cid>N/A</mgmg1cid>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-trans-regional-trails-land</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This layer contains information on the land along existing regional trail corridors that is owned by the regional park operating agencies. The principal data source is the 2015 regional parcel data set (MetroGIS, Metropolitan Council).
+
+Two datasets are included:
+parks_regional.shp:  includes boundaries of parcels where they form subdivisions of parks
+parks_regional_Dissolve.shp:  derived form the other dataset, this layer dissolves the data to have just one polygon per park and fewer attributes.</abstract>
+      <purpose>This layer was created to show the Regional Park System for regional analysis and planning.</purpose>
+      <supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150908</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Data current as of the Time Period of Content Date above.  Updated as new/corrected information becomes available.</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.012</westbc>
+        <eastbc>-92.732</eastbc>
+        <northbc>45.415</northbc>
+        <southbc>44.471</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Regional Parks, Parks, Open Space, Recreation, Trails, Regional Trails</themekey>
+      </theme>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+      <browsed>Sample map showing the Regional_Trail_Land layer</browsed>
+    </browse>
+    <native>ArcGIS 9x</native>
+    <crossref>
+      <citeinfo>
+        <title>Regional Parks; Regional Trails; Regional Park Search Areas; Regional Trail Search Corridors.</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Craig Skone</cntper>
+        </cntperp>
+        <cntpos>Senior GIS Technician</cntpos>
+        <cntaddr>
+          <addrtype> mailing and physical address </addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>Minnesota</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651-602-1328</cntvoice>
+        <cntfax>651-602-1674</cntfax>
+        <cntemail>craig.skone@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>The dataset is topologically 'clean'.</logic>
+    <complete>Entire seven county geographic area is covered.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The positional accuracy of the dataset has not been tested under the National Standards for Spatial Data Accuracy.  The positional accuracy of the dataset is UNKNOWN</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+      <procstep>
+        <procdesc>Data Source: 2015 regional parcel data set (MetroGIS, Metropolitan Council).
+
+Accuracy: see "MetroGIS Regional Parcel Dataset".</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>None</indspref>
+    <direct>Vector</direct>
+    <mgmg3obj>polygon shapes</mgmg3obj>
+    <mgmg3til>One layer for entire seven county region.</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>not applicable</altdatum>
+      </altsys>
+      <depthsys>
+        <depthdn>not applicable</depthdn>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>Attributes for Regional_Trail_Land:
+ 
+COUNTY_ID:   Three-character county ID
+
+PIN:  Parcel PIN ID ("Multiple" if multiplce parcels grouped together)
+
+CITY:  City in which parcel(s) are located
+
+OWNER_NAME:  Parcel owner name
+
+TAX_NAME:  Parcel tax-payer name
+
+XUSE1_DESC:  Parcel use description
+
+NAME:  Associated regional trail name
+
+LABEL:  Map label
+
+TYPE:  "Regional Trail Corridor"
+
+ACRES:  Calculated arceage for each parcel or group of parcels</eaover>
+      <eadetcit>None</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>trans_regional_trails_land</resdesc>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shape file</formname>
+          <formvern>ArcGIS 9x</formvern>
+          <transize>1.0 Mb for zip file.</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Jon Hoekenga</cntper>
+        </cntperp>
+        <cntpos>GIS System Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1561</cntvoice>
+        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150908</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Jon Hoekenga</cntper>
+        </cntperp>
+        <cntpos>GIS System Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1561</cntvoice>
+        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20110729</ModDate>
+    <ModTime>15004800</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20110729</mdDateSt>
+</metadata>

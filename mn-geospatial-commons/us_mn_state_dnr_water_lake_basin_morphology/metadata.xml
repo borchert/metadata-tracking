@@ -1,0 +1,423 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources (DNR)</origin>
+        <pubdate>2004-06-15 00:00:00.0</pubdate>
+        <title>Lake Basin Morphology</title>
+        <pubinfo>
+          <publish>Minnesota DNR, Division of Fish and Wildlife</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/water-lake-basin-morphology</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>&lt;b&gt;Lake Basin Morphology&lt;/b&gt;
+Lake polygons with an attribute table of morphometric indices which describe the physical form and structure (morphology) of a lake.
+
+&lt;b&gt;Lake Basin Fetch and Maximum Length/Width&lt;/b&gt;
+Linear features representing the Fetch, Maximum Length and Maximum Width of a lake basin. Fetch, maximum length and average width are calcuated from the lake polygon outline. Fetch is defined as the longest unbroken stretch of open water on a lake. It may also be referred to as the "wind-effective length". Maximum Length is the longest shoreline-to-shoreline distance regardless of whether or not the line is broken by a shoreline feature or island. Maximum width is the widest section of a lake perpendicular to the axis of maximum length. These parameters were derived from individual lake bathmetry outlines where each vertex of the outline was compared to every other vertex. For calculating fetch, islands were included; for maximum length and maximum width, islands were not included.</abstract>
+      <purpose>This dataset was developed to assist in resource management and research applications by furthering the basic understanding of a basin's physical characteristics.
+
+Lake Basin Morphology includes the following morphometric indices:  surface area, perimeter, maximum depth, average depth, relative depth, average slope, volume development index, fetch, maximum length, maximum width, percent littoral zone, volume, shoreline development index (no islands), shoreline length including islands, shoreline development index including islands, fetch bearing, maximum length bearing, maximum width bearing, littoral zone acres, observed maximum depth of littoral zone vegetation, average width.  These indices are commonly used for analyses such as basin productivity, habitat suitability, wave energy dynamics, and oxygen profiles.
+
+Fetch indicates the greatest distance wind can sweep uninterrupted across a lake surface and has implications for erosion potential, wave energy, and plant habitat suitability.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20141120</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset. Morphometric indices are derived from existing Lake Bathymetry products. Lake bathymetric outlines (used for indices containing area, perimeter, length, and width) were digitized from 1991-92 aerial photography (1m DOQ's).  Lake bathymetric DEM's (used for indices containing depth, slope, volume, and % littoral zones)are based on existing lake contour maps of variable dates.  (See Quick Themes:Metadata:Lake Bathymetric Map Metadata for field work dates of individual lakes.)  Observed values for Maximum Depth of Vegetation are derived from the Lake Survey database (various dates).
+
+Fetch indicates the greatest distance wind can sweep uninterrupted across a lake surface and has implications for erosion potential, wave energy, and plant habitat suitability.</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-96.718276</westbc>
+        <eastbc>-89.998884</eastbc>
+        <northbc>48.556443</northbc>
+        <southbc>43.460469</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>hydrography, lakes, morphology, morphometric, inlandWaters, fetch, max length</themekey>
+        <themekt>
+          </themekt>
+      </theme>
+      <place>
+        <placekey>Minnesota</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Internal DNR use is unrestricted. External use is constrained by the standard, general DNR GIS Data License Agreement
+</useconst>
+    <native>MS Win NT, ArcView 3.2</native>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/water_lake_basin_morphology/metadata/preview.jpg</browsen>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <title>
+          </title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>DNR-Fisheries</cntorg>
+          <cntper>Lyn Bergquist</cntper>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Road
+Central Office - Box 20</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>(651) 259-5189</cntvoice>
+        <cntfax>(651) 297-4961</cntfax>
+        <cntemail>lyn.bergquist@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>
+      </logic>
+    <complete>GIS products have been completed for a group of selected lakes.  Work is proceeding on a lake-by-lake basis following priorities set by DNR Fisheries (funding source for this project).</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+          </horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+          </vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>
+          </procdesc>
+      </procstep>
+    </lineage>
+    <attracc>
+      <attraccr>
+        </attraccr>
+    </attracc>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Not Applicable</indspref>
+    <direct>vector</direct>
+    <mgmg3obj>polygon</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>lake_basin_morphology</enttypl>
+        <enttypd>Feature Class Attribute Table</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>ISLAND</attrlabl>
+        <attrdef>Flag indicating whether or not a polygon is an offshore island feature</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Not an island</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Yes, it is an island</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DOWLKNUM</attrlabl>
+        <attrdef>Minnesota DNR Division of Waters Lake ID (sub-basin number;may end in '01, 02, etc.; refers to a single basin)</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>010001-879999</edomv>
+            <edomvd>The first two digits (01-87) of these composite codes denote which county the lake is in.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>Surface area of lake basin in acres</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LAKE_NAME</attrlabl>
+        <attrdef>Lake Name per Division of Waters LKDBMAIN database</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_FETCH</attrlabl>
+        <attrdef>Fetch distance in feet, defined as the longest unbroken ("wind-effective") distance across the lake between the two most separated points on the shoreline that are unobstructed by land. Derived from lake bathymetric outline.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_MAXLENG</attrlabl>
+        <attrdef>Maximum length in feet, defined as the longest distance across the water between the two most separated points on the shoreline (regardless of the number of times it crosses land or the lake shoreline). Derived from lake bathymetric outline.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_FBRNG</attrlabl>
+        <attrdef>Lake fetch bearing in degrees (0-359). Derived from lake bathymetric outline.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>0-359</edomv>
+            <edomvd>Fetch bearing in degrees</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LK_MLBRNG</attrlabl>
+        <attrdef>Lake maximum length bearing in degrees (0-359). Derived from lake bathymetric outline.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>0-359</edomv>
+            <edomvd>Maximum length bearing in degrees</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LK_MWBRNG</attrlabl>
+        <attrdef>Lake maximum width bearing in degrees (0-359). Derived from lake bathymetric outline.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>0-359</edomv>
+            <edomvd>Maximum width bearing in degrees</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CTY_NAME</attrlabl>
+        <attrdef>Primary county name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_AREA</attrlabl>
+        <attrdef>Lake area in square meters; island polygon area not included.  Derived from lake bathymetric outline.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_PERIM</attrlabl>
+        <attrdef>Lake outline perimeter in meters, including shoreline lengths of all islands.  If islands exist, LK_PERIM &gt; LK_SHRLN.  Derived from lake bathymetric outline.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_MAXDEPT</attrlabl>
+        <attrdef>Maximum depth of lake in feet.  Derived from lake bathymetric DEM.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_AVDEPTH</attrlabl>
+        <attrdef>Average Depth in feet, calculated as the lake volume divided by its surface area.   Island polygon area not included.  Derived from lake bathymetric DEM.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_RELDEPT</attrlabl>
+        <attrdef>Relative Depth, calculated as the ratio of maximum depth to the average diameter of the lake surface expressed as a percentage.  Island polygon area not included.  Derived from lake bathymetric DEM.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>0-100</edomv>
+            <edomvd>Percentage</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LK_AVSLOPE</attrlabl>
+        <attrdef>Lake average slope (Sm) defined as the average change in depth per unit horizontal distance (contour to contour).  Island polygon area not included.  Derived from lake bathymetric DEM.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_VDI</attrlabl>
+        <attrdef>Volume Development Index, which compares the lake basin shape to an inverted cone with a height equal to the maximum depth and a base equal to the lake surface area.  Island polygon area not included.  Derived from lake bathymetric outline and DEM.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_MAXWIDT</attrlabl>
+        <attrdef>Maximum width in feet, defined as a line perpendicular to the Maximum Length axis that connects the greatest distance between two opposite points on the shoreline.  This line may cross land.  Derived from lake bathymetric outline.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_PCTLTRL</attrlabl>
+        <attrdef>Percentage estimated littoral zone area as compared to the total lake area.  Island polygon area not included.  Derived from lake bathymetric outline, DEM, and maximum depth of vegetation.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>0-100</edomv>
+            <edomvd>Percentage</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LK_VOLUME</attrlabl>
+        <attrdef>Lake volume in cubic feet as calculated by multiplying depth of the water column by cell area for each grid cell, then summing to get total lake volume.  Island polygon area not included.  Derived from lake bathymetric DEM.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_SDI</attrlabl>
+        <attrdef>Shoreline Development Index - a comparative figure relating the shoreline length (LK_PERIM) to the circumference of a circle that has the same area as the lake.  Island polygon area not included; island shoreline length IS included.  If islands exist, LK_SDI &gt; LK_SDISHRL.  Derived from lake bathymetric outline.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_SHRLN</attrlabl>
+        <attrdef>Lake outer shoreline length in feet, not including the shoreline length of islands.  If islands exist, LK_SHRLN &lt; LK_PERIM. Derived from lake bathymetric outline.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_SDISHRL</attrlabl>
+        <attrdef>Shoreline Development Index - a comparative figure relating the shoreline length (LK_SHRLN) to the circumference of a circle that has the same area as the lake. Island polygon area not included; island shoreline length NOT included.  If islands exist, LK_SDISHRL &lt;  LK_SDI.  Derived from lake bathymetric outline.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_LZACRES</attrlabl>
+        <attrdef>Littoral zone area expressed in acres.  Derived from lake bathymetric DEM and maximum depth of vegetation as observed during individual lake surveys.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_VEGDEPT</attrlabl>
+        <attrdef>The maximum depth of plant growth as observed along transects during individual lake surveys. Used to estimate percent littoral zone and littoral area.  Values obtained from DNR Fisheries Lake Survey database.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_LZDEPTH</attrlabl>
+        <attrdef>Depth of littoral zone</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_AVWIDTH</attrlabl>
+        <attrdef>Average width, defined as lake area/maximum length (A/l)</attrdef>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>lake_basin_fetch_max_length_width</enttypl>
+        <enttypd>Feature Class Attribute Table</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>DOWLKNUM</attrlabl>
+        <attrdef>Minnesota DNR Division of Waters Lake ID (sub-basin number;may end in '01, 02, etc.; refers to a single basin)</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>010001-879999</edomv>
+            <edomvd>The first two digits (01-87) of these composite codes denote which county the lake is in.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+        <attrdef>Length in feet</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BEARING</attrlabl>
+        <attrdef>Bearing of described line (fetch, maximum length, or maximum width) in degrees (0-359).</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DESC</attrlabl>
+        <attrdef>Type of line</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>The longest unbroken "wind-effective" distance across the lake between the two most separated points</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>The longest distance across the lake between the two most separated points on the shoreline</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>The greatest distance between two opposite points on shoreline, perpendicular to maximum length axis</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <resdesc>water_lake_basin_morphology</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <formvern>Not Applicable</formvern>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>DNR-Fisheries</cntorg>
+          <cntper>Lyn Bergquist</cntper>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Road
+Central Office - Box 20</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>(651) 259-5189</cntvoice>
+        <cntfax>(651) 297-4961</cntfax>
+        <cntemail>lyn.bergquist@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141113</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>DNR-Fisheries</cntorg>
+          <cntper>Lyn Bergquist</cntper>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Road
+Central Office - Box 20</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>(651) 259-5189</cntvoice>
+        <cntfax>(651) 297-4961</cntfax>
+        <cntemail>lyn.bergquist@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

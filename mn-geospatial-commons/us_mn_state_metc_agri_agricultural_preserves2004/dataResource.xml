@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>agri_agricultural_preserves2004</baseName>
+  <descriptiveName>Agricultural Preserves 2004</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-16</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">farming</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{ea092d1f-d924-434a-bacb-9e43b6b96f78}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{55f0b3f6-830c-4d48-ba0b-d77f5cd64d63}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

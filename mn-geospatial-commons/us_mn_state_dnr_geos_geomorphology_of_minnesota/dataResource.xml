@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>geos_geomorphology_of_minnesota</baseName>
+    <descriptiveName>Geomorphology of Minnesota</descriptiveName>
+    <publisher>Minnesota DNR - MIS Bureau</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2003-09-04</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>97</resourceID>
+        <resourceGUID>{75ae2e41-f4c9-4e38-8593-692ed6de33db}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{f5e9aa4a-ac85-4d51-8a58-2ed4cb142937}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

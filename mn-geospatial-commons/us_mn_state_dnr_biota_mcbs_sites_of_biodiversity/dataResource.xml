@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>biota_mcbs_sites_of_biodiversity</baseName>
+    <descriptiveName>MCBS Sites of Biodiversity Significance</descriptiveName>
+    <publisher>The Minnesota County Biological Survey, Minnesota Department of Natural Resources, Division of Ecological Resources</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-05-07</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">biota</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>66</resourceID>
+        <resourceGUID>{cc01256e-370b-48de-83bf-36d3e67253b2}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{62aab67d-08fb-4b2d-a8c3-eca6e372b275}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

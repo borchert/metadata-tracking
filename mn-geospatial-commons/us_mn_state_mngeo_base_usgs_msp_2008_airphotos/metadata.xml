@@ -1,0 +1,223 @@
+<!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  -->
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey (USGS)</origin>
+        <pubdate>20080821</pubdate>
+        <title>USGS High Resolution Orthoimagery, Minneapolis - St. Paul, MN, Spring, 2008</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota Geospatial Information Office (MnGeo) and USGS</publish>
+        </pubinfo>
+        <onlink>http://www.mngeo.state.mn.us/chouse/wms/geo_image_server.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset consists of 0.3-meter pixel resolution (approximately 1-foot), natural color orthoimages covering the Minneapolis-St. Paul urban area footprint.
+
+An orthoimage is remotely sensed image data in which displacement of features in the image caused by terrain relief and sensor orientation have been mathematically removed. Orthoimagery combines the image characteristics of a photograph with the geometric qualities of a map.
+
+[Note: this metadata record was reformatted at the Minnesota Geospatial Information Office (MnGeo) from the record provided by USGS - several of the fields were changed to reflect MnGeo's seamless WMS data delivery]</abstract>
+      <supplinf>Minneapolis and St. Paul, Minnesota (Twin Cities metropolitan area)</supplinf>
+      <purpose>These data have been created as a result of the need for having geospatial data immediately available and easily accessible in order to enhance the capability of Federal, State, and local emergency responders, as well as plan for homeland security efforts.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20080423</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Data collected in 2008</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.3109</westbc>
+        <eastbc>-93.0253</eastbc>
+        <northbc>45.0135</northbc>
+        <southbc>44.8384</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>imageryBaseMapsEarthCover, orthophoto, air photo, aerial photo, aerial photography, image map</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN, Twin Cities metropolitan area, Minneapolis, St. Paul, Saint Paul</placekey>
+      </place>
+    </keywords>
+    <accconst>Any downloading and use of these data signifies a user's agreement to comprehension and compliance of the USGS Standard Disclaimer. Insure all portions of metadata are read and clearly understood before using these data in order to protect both user and USGS interests.</accconst>
+    <useconst>Acknowledgement of the USGS as a data source would be appreciated in products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data. Sharing new data layers developed directly from these data would also be appreciated by USGS staff. Users should be aware that comparison with other data sets for the same area from other time periods may be inaccurate due to inconsistencies resulting from changes in photo-interpretation and mapping conventions over time. Users should be aware that temporal changes may have occurred since this data set was collected and that some parts of this data may no longer represent actual surface conditions. Users should not use this data for critical applications without a full awareness of it's limitations. These data are not legal documents and are not to be used as such.</useconst>
+    <browse>
+      <browsen>None available</browsen>
+    </browse>
+    <native/>
+    <crossref>
+      <citeinfo>
+        <title>For information on other air photos available for Minnesota, see  http://www.mngeo.state.mn.us/chouse/airphoto/index.html</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>Customer Services</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>EROS Data Center, 47914 252nd Street</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198-0001</postal>
+        </cntaddr>
+        <cntvoice>800-252-4547</cntvoice>
+        <cntfax>6055946589</cntfax>
+        <cntemail>custserv@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>GeoTIFFs conform to the specifications set forth by the USGS for the similar production of 133 Urban Areas orthophotos.</logic>
+    <complete>Orthoimages are visually inspected for completeness to ensure that no gaps or image misplacements exist within and between adjacent images. These images are derived by mosaicking multiple images to ensure complete coverage. Source imagery is cloud free.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The ortho-rectified image frames and mosaics have a horizontal positional accuracy not exceeding 3 meters root mean square error (RMSE) XY (2.12 meter RMSE x or y) for 95% of measured points according to National Standard for Spatial Data Accuracy (NSSDA) guidelines. The Band Co-Registration offsets are less than 1 pixel. No double-images or ghosts from interleaving of overlapped image frames are present.
+
+Approximately twenty (20) photo identifiable control points were measured in the orthos and compared to the surveyed locations to ensure the horizontal accuracy.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>N/A</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+      <procstep>
+        <procdesc>USGS Processing Steps, April 2008
+
+All photography was acquired using film cameras and accompanied by the collection of airborne Global Positioning System (GPS) data. All imagery was collected using Inertial Measurement Units (IMU) as a means to control the imagery. Orthorectification was performed with Intergraph's ImageStation OrthoPro software and the USGS National Elevation Dataset was used for the elevation model. Digital orthophotos were also radiometrically balanced in Intergraph's OrthoPro software.
+
+
+Land Management Information Office (LMIC), now MnGeo, Processing Steps, August 2008
+
+USGS delivered the imagery to the Land Management Information Center (now MnGeo) in TIF format in 195 tiles with no overlap. LMIC staff read them directly into a database and serves the images over the web via a WMS server in JPG format.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref/>
+    <direct>Raster</direct>
+    <mgmg3obj/>
+    <mgmg3til/>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>The original dataset consists of natural color imagery orthorectified to .3 meter pixel resolution, mosaicked into 1,500m tiles and delivered in GeoTIFF format. [Imagery delivered from MnGeo's site is in JPG format]</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>1. USGS disclaimer: Although these data have been processed successfully on a computer system at the USGS, no warranty expressed or implied is made by the USGS regarding the use of the data on any other system, nor does the act of distribution constitute any such warranty. Data may have been compiled from various outside sources. Spatial information may not meet National Map Accuracy Standards. This information may be updated without notification. The USGS shall not be liable for any activity involving these data, installation, fitness of the data for a particular purpose, its use, or analyses results.
+
+MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>JPG (from LMIC's site)</formname>
+          <formvern/>
+          <transize/>
+        </digtinfo>
+      </digform>
+      <ordering>1. MnGeo's Geospatial Image Server
+
+The imagery is available to view via WMS (Web Mapping Service) from MnGeo's Geospatial Image Server. Click on 'Online Linkage' field below to see a webpage that provides the url to connect to the Geospatial Image Server as well as information about how to use WMS services.
+
+2. NorthStar Mapper
+
+View and download imagery from MnGeo's NorthStar Mapper online interactive map at: http://www.mngeo.state.mn.us/chouse/northstarmapper.html
+
+After you click on "Start Mapping", find these photos as the "USGS Twin Cities Air Photos 2008" layer under "Air Photos and Basemaps"
+For help using NorthStar Mapper, see: http://www.mngeo.state.mn.us/chouse/northstarmapper_help.html
+
+3. EarthExplorer
+
+USGS distributes archived air photos from their EarthExplorer site at: http://earthexplorer.usgs.gov
+Search for Dataset Name: 200804_minneapolis-st_paul_mn_0x3000m_utm_clr under "Additional Criteria".
+
+For help using EarthExplorer, see: http://earthexplorer.usgs.gov/help/</ordering>
+    </stdorder>
+    <resdesc>doq_msp08, Twin Cities high resolution DOQs 2008</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141231</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+          <coordrep>
+            <absres>0.3</absres>
+            <ordres>0.3</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

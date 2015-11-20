@@ -1,0 +1,192 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Metropolitan Council - Metro Transit</origin>
+        <title>Better Bus Stops</title>
+        <pubinfo>
+          <publish>Metropolitan Council - Metro Transit</publish>
+        </pubinfo>
+        <pubdate>20151105</pubdate>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-trans-better-bus-stops</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <purpose>To identify bus stop locations in the Metro Transit service area that are considered for improvements.</purpose>
+      <abstract>Identifies the bus stops considered for improvements under Metro Transit&#8217;s Better Bus Stop program:  http://www.metrotransit.org/better-bus-stops 
+
+Bus stop improvements can be a combination of a shelter, light, or heat, or an ADA landing pad. The dataset identifies bus stops being considered for improvements, bus stops that were recently improved, and bus stops no longer under consideration for improvement.
+
+Metro Transit&#8217;s goal is to add up to 150 shelters and improve an additional 75 existing shelters with light or heat as part of the agency&#8217;s work to advance the Equity Outcome from Thrive MSP 2040, the region&#8217;s policy plan. 
+</abstract>
+      <supplinf>Metro Transit service area in the Twin Cities.</supplinf>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>Daily</update>
+    </status>
+    <keywords>
+      <theme>
+        <themekt>Twin Cities, Hennepin County, Ramsey County</themekt>
+        <themekey>transit, bus, buses, stops, riders, shelter</themekey>
+      </theme>
+      <place>
+        <placekey>Twin Cities, Hennepin County, Ramsey County</placekey>
+      </place>
+    </keywords>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20151105</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <crossref>
+      <citeinfo>
+        <title>Transit Stops,&lt;a href="BetterBusStopsNeighborhoods.html" target=_blank&gt; Better Bus Stops Neighborhoods&lt;/a&gt; (polygon), Areas of Concentrated Poverty (ACP 50), Transit Stops Boardings and Alightings (Fall 2014), Transit Shelters
+
+</title>
+      </citeinfo>
+    </crossref>
+    <spdom>
+      <bounding>
+        <westbc>-94.012</westbc>
+        <eastbc>-92.732</eastbc>
+        <northbc>45.415</northbc>
+        <southbc>44.471</southbc>
+      </bounding>
+    </spdom>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council - Metro Transit</cntorg>
+          <cntper>Berry Farrington</cntper>
+        </cntperp>
+        <cntpos>Senior Planner</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>560 6th Ave N</address>
+          <city>Minneapolis</city>
+          <state>MN</state>
+          <postal>55411</postal>
+        </cntaddr>
+        <cntvoice>612.349.7378</cntvoice>
+        <cntemail>barry.ferrington@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <eainfo>
+    <overview>
+      <eaover>As_No: The primary key field and unique stop identification number assigned by Metro Transit.
+
+Shelter: Yes/No, consider adding a shelter.
+
+ShltrRplc: Yes/No, consider replacing an old shelter with a new shelter.
+
+Light: Yes/No, consider adding light to a shelter.
+
+Heat: Yes/No, consider adding heat to a shelter.
+
+ShelterInstall: Yes/No, shelter was installed.
+
+LightInstall: Yes/No, light was installed.
+
+HeatInstall: Yes/No, heat was installed.
+
+ADAPad: Yes/No, consider adding an ADA landing pad.
+
+ADAPadInstall: Yes/No,ADA landing pad was installed.
+NoLongerConsidered: Bus stop is no longer considered for improvements.
+
+PubCommnts: Reason why a bus stop is no longer considered for improvements, or other site-specific comments.
+
+ADATarget: Target year for ADA landing pad installation, if determined. 
+
+LightTarget: Target year for lighting installation, if determined. 
+
+ShelterTarget: Target year for  shelter installation, if determined. 
+
+HeatTarget: Target year for heater installation, if determined. 
+
+</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Jon Hoekenga</cntper>
+        </cntperp>
+        <cntpos>GIS System Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1561</cntvoice>
+        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20151105</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council - Metro Transit</cntorg>
+          <cntper>Berry Farrington</cntper>
+        </cntperp>
+        <cntpos>Senior Planner</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>560 6th Ave N</address>
+          <city>Minneapolis</city>
+          <state>MN</state>
+          <postal>55411</postal>
+        </cntaddr>
+        <cntvoice>612.349.7378</cntvoice>
+        <cntemail>barry.ferrington@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>Data sources are Transit Stops, Transit Stops Boardings and Alightings (Fall 2013), and Transit Stops Boardings and Alightings (Fall 2014). Fall boardings data are used annually to help prioritize bus stops for shelter improvements.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

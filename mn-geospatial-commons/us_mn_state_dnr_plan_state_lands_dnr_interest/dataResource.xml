@@ -1,0 +1,34 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>plan_state_lands_dnr_interest</baseName>
+    <descriptiveName>State Lands with DNR Interest</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-07-16</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{ff866a8e-0580-4d7a-835e-f61dc1c23820}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{9dcaa956-9dfd-4e5f-a0f0-02377266f642}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>preview</subResourceType>
+            <subResourceDescription>Standard preview created for use by Minnesota Geospatial Commons.</subResourceDescription>
+            <subResourceIdentifiers>
+                <subResourceGUID>{f82bda9c-59dc-41b0-b5d1-9acd19cb3e76}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="jpeg preview" description="This snapshot shows the data as it might be used in your GIS." name="">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/plan_state_lands_dnr_interest/preview/</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

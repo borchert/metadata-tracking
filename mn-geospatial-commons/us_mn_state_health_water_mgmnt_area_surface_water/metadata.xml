@@ -1,0 +1,266 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Health</origin>
+        <title>Drinking Water Supply Management Area for Surface Water (DWSMA-SW)</title>
+        <pubinfo>
+          <publish>Minnesota Department of Health</publish>
+        </pubinfo>
+        <pubdate>20090520</pubdate>
+        <onlink>https://gisdata.mn.gov/dataset/water-mgmnt-area-surface-water</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Drinking water supply management area for a surface water intake (DWSMA-SW) is the Minnesota Department of Health (MDH) endorsed surface and subsurface area surrounding a public water supply intake that contains the scientifically calculated surface water protection area and is managed by the entity identified in a surface water protection plan. The boundaries of a DWSMA-SW are delineated by identifiable physical features, landmarks or political and administrative boundaries.</abstract>
+      <purpose>This dataset was developed with the intention of protecting the public drinking water supply and complies with the federal Safe Drinking Water Act, United States Code, title 42 and the Minnesota Department of Health Guidance pertaining to the development and implementation of source water protection plans for public water supplies relying on surface waters.</purpose>
+      <supplinf>Minnesota</supplinf>
+    </descript>
+    <timeperd>
+      <current>publication date; range of dates: October 31, 2008 to March 23, 2009</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>200903</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Continually</update>
+    </status>
+    <crossref>
+      <citeinfo>
+        <title>Drinking Water Supply Management Areas, DWSMA Vulnerability, Wellhead Protection Areas, Emergency Response Areas</title>
+      </citeinfo>
+    </crossref>
+    <spdom>
+      <bounding>
+        <westbc>-95.322875</westbc>
+        <eastbc>-92.867608</eastbc>
+        <northbc>46.240745</northbc>
+        <southbc>44.634733</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <place>
+        <placekey>Minnesota, MN, Minneapolis, Saint Cloud, Saint Paul</placekey>
+      </place>
+      <theme>
+        <themekt>MDH GIS Data Keyword Thesaurus</themekt>
+        <themekey>inlandWaters, health, environment, Drinking water, surface water</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+      <browsen>http://www.health.state.mn.us/divs/eh/water/swp/maps/gis/dwsmasw.pdf</browsen>
+    </browse>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Health - Environmental Health Division</cntorg>
+          <cntper>Source Water Protection Unit Staff</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing</addrtype>
+          <address>P.O box 64975</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55164-0975</postal>
+        </cntaddr>
+        <cntvoice>(651) 201-4700</cntvoice>
+        <cntfax>(651) 201-4701</cntfax>
+        <cntemail>health.drinkingwater@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <complete>All endorsed DWSMA-SWs that are active as of the publication date.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Minimum scale requirement for data and/or maps is 1:24,000.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Native Data Set Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.3.0.1770
+
+Source Scale Denominator: 1:24,000
+Type of Source Media: CD-ROM</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>water_drinking_water_supply_management_area_surface_water</enttypl>
+        <enttypd>Drinking Water Supply Management Area Surface Water</enttypd>
+        <enttypds>Minnesota Department of Health</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>Area of the DWSMA-SW in square meters (derived from software)</attrdef>
+        <attrdefs>MDH</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Perimeter of the DWSMA in meters (derived from software)</attrdef>
+        <attrdefs>MDH</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OBJECT_ID</attrlabl>
+        <attrdef>Sequential feature number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DSW_ID</attrlabl>
+        <attrdef>Drinking Water Supply Management Surface Water (DWSMA-SW) ID</attrdef>
+        <attrdefs>MDH</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>4</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DSW_Label</attrlabl>
+        <attrdef>DWSMA-SW Label (derived from DSW_ID &amp; DWS_TYPE_C)</attrdef>
+        <attrdefs>MDH</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DSW_NAME</attrlabl>
+        <attrdef>Name of Surface Water Drinking Water Supply Management</attrdef>
+        <attrdefs>MDH</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DSW_TYPE_C</attrlabl>
+        <attrdef>Type of DSWMA-SW</attrdef>
+        <attrdefs>MDH</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>A</edomv>
+            <edomvd>Priority Area A</edomvd>
+            <edomvds>Management Area to Address Acute (Immediate) and Chronic Health Concerns</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>B</edomv>
+            <edomvd>Priority Area B</edomvd>
+            <edomvds>Management Area to Address Acute (Immediate) and Chronic Health Concerns</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DSWE_D</attrlabl>
+        <attrdef>DWSMA-SW Endorsement date</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>10/31/2008</rdommin>
+            <rdommax>3/23/2009</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DSW_STAT_C</attrlabl>
+        <attrdef>DWSMA-SW Status code</attrdef>
+        <attrdefs>MDH</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>A</edomv>
+            <edomvd>Active</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>Acres of the DWSMA-SW((derived from (AREA / 4046.8717) + 0.001)</attrdef>
+        <attrdefs>MDH</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <resdesc>water_mgmnt_area_surface_water</resdesc>
+    <distliab>Geospatial data is provided "as-is". MDH makes no warranty, expressed or implied, and disclaims all implied warranties of the data for any purpose. MDH also does not warrant that the geospatial data is error free. The geospatial data was developed for MDH internal business purposes. MDH shall not be liable for any activity involving the geospatial data with respect to the following: a.) Lost profits, lost savings or any other consequential damages; b.) The fitness of the geospatial data for a particular purpose; or c.) The installation of the geospatial data, its use or the results obtained.</distliab>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Health - Environmental Health Division - Source Water Protection Unit</cntorg>
+          <cntper>Michael Baker</cntper>
+        </cntperp>
+        <cntpos>GIS Data Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>625 N Robert St.</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>(651) 201-4651</cntvoice>
+        <cntfax>(651) 201-4701</cntfax>
+        <cntemail>michael.baker@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150312</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Hollie Auchterlonie</cntper>
+        </cntperp>
+        <cntpos>Student Worker</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street, Room 300</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>(651) 201-2496</cntvoice>
+        <cntemail>hollie.auchterlonie@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

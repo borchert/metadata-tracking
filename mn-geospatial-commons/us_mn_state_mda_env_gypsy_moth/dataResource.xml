@@ -1,0 +1,50 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_gypsy_moth</baseName>
+    <descriptiveName>Gypsy Moth Treatments</descriptiveName>
+    <publisherID>us_mn_state_mda</publisherID>
+    <currentAsofDate>2015-04-20</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{990eb026-8834-411a-a65c-aaab32e07325}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{e4d8e25f-c8fb-45aa-88b4-3590c2ddcfa0}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>ags_mapserver</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{072e6d75-7d0e-4d3e-8efc-1b4d5bab5539}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="ServiceDescription" description="">http://gis.mda.state.mn.us/ArcGIS/rest/services/MN_Agriculture_GM_Treatments</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>wms</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{cadc644a-8b93-4a4b-9e11-a99f7495d214}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="ServiceGetCapabilities" description="">http://gis.mda.state.mn.us/arcgis/services/MN_Agriculture_GM_Treatments/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>preview</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{a303c5d0-c4d3-4e79-84c8-ca552026b1cf}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="jpeg preview" description="This snapshot preview in jpeg format allows you to see the data as it might be used in your GIS.">ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_mda/env_gypsy_moth/preview/preview.jpg</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>society_tbi_msp_airport2010</baseName>
+  <descriptiveName>Travel Behavior Inventory 2010 MSP Airport Survey</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-10-14</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">society</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{830f4450-30d4-413f-b6ac-31cb88fc2929}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>xlsx</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{18b56965-f063-4a54-9f23-faee88ab9112}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

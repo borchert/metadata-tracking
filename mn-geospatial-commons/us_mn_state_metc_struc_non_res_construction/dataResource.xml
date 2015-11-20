@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>struc_non_res_construction</baseName>
+  <descriptiveName>Non-Residential Construction</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-01</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">structure</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{016b9f6f-4b17-48c0-a042-babe4ddca29d}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{56be1d5b-c959-45a7-a831-16e1a4861ae3}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{48ce1752-141c-47dc-a1a7-87f2ef908e58}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Planning_Development/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

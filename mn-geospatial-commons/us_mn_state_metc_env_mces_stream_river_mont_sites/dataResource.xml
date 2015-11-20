@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>env_mces_stream_river_mont_sites</baseName>
+  <descriptiveName>MCES Stream and River Monitoring Sites</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-20</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">environment</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{c47d0fb7-c82b-46e9-bfc1-22cbf22dd93b}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{06296497-f77d-4b6a-87a7-afa2e3a5d3b9}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{adcf2586-c555-44dc-a304-be117f7ec668}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Environmental_Monitoring_Modeling/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>plan_glo_field_notes</baseName>
+    <descriptiveName>Original Public Land Survey (PLS) Field Notes, Minnesota, Digital Format</descriptiveName>
+    <publisher>Minnesota Geospatial Information Office (MnGeo)</publisher>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID/>
+        <resourceGUID>{fbdd63a7-01f3-40e8-817c-148c5a49f761}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{86b62f0f-8437-4ac4-b4b4-0047a430e17c}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Field Notes Scanning Project Home Page" name="Field Notes Scanning Project Home Page">http://www.mngeo.state.mn.us/chouse/GLO/fieldnotes/index.html</subResourceURL>
+                <subResourceURL type="HTML" description="BLM Land Records Site" name="BLM Field Note Retrieval System ">http://www.glorecords.blm.gov</subResourceURL>
+                <subResourceURL type="HTML" description="Find Plat Maps and Field Notes" name="GLO Historic Plat Map Retrieval System">http://www.mngeo.state.mn.us/glo/</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

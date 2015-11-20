@@ -1,0 +1,246 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Metropolitan Council and NCompass Technologies (formerly The Lawrence Group)</origin>
+        <pubdate>20140911</pubdate>
+        <title>Functional Class Roads Regional Solicitation 2014</title>
+        <mgmg1cid>N/A</mgmg1cid>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-trans-fnctnl-cls-rds-regsol</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Regional Solicitation Functional Class: The regional solicitation functional class roads are a specific version of the functional class roads to be used in the 2014 solicitation process. This file will not undergo the periodic update process standard to the functional class roads. It will remain as is for the entire solicitation process. Meeting minutes for the TAC Planning Committee are the official record of change requests. If errors are found in this data, they will be corrected against the minutes.
+
+The functional class roads layer contains major roads and highways in the Twin Cities seven county metropolitan area. The line work for the dataset was derived from NCompass Technologies Street Centerline and Address Ranges, formerly The Lawrence Group Street Centerlines (tlg_roads). 
+
+The specific classifications assigned to the roadways resulted from efforts of the Land Transportation Committee, Transportation Technical Advisory Committee and the Transportation Advisory Board as specified in the transportation planning process, using federal rules and guidelines. The final product was approved with Metropolitan Council concurrence. 
+
+The 'A' minor arterial network was adopted by the Transportation Advisory Board in 1993.
+
+Attributes include functional classification code and road name.
+
+Please note that changes to the status of the planned functional class roads MAY impact the classification of this layer.  Please confer with Metropolitan Council staff if you have questions.</abstract>
+      <purpose>To assist the Twin Cities Metropolitan Planning Organization with transportation planning and project programming in the Twin Cities region.</purpose>
+      <supplinf>Twin Cities seven county metropolitan area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20140911</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Includes linework from the NCompass Technologies Street Centerline and Address Ranges dataset released at the Time Period of Content date.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Quarterly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.012</westbc>
+        <eastbc>-92.732</eastbc>
+        <northbc>45.415</northbc>
+        <southbc>44.471</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>roads, streets, highways, functional class, centerlines, major roads, transportation, regional solicitation </themekey>
+      </theme>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>ArcGIS 9x</native>
+    <crossref>
+      <citeinfo>
+        <title>NCompass Technologies Street Centerline and Address Ranges. Functional Class Roads - Planned, Major Highways</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Rachel Wiken</cntper>
+        </cntperp>
+        <cntpos>GIS Technician</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1572</cntvoice>
+        <cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Functional classification values were entered and checked by Metropolitan Council GIS staff and double checked by Metropolitan Council Transportation Planning staff.
+
+Please note that changes to the status of the planned functional class roads MAY impact the classification of this layer.  Please confer with Metropolitan Council staff if you have questions.</attraccr>
+    </attracc>
+    <logic>The dataset is topologically 'clean'.</logic>
+    <complete>Entire seven county geographic area is covered.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Positional accuracy varies throughout the dataset.  Most line work in most counties falls within the road right of way, often near the center.  Anoka County data is an exception to this, with line work, in some places, being significantly off from the actual centerline.
+
+Text below taken from NCompass Technologies Street Centerline and Address Ranges metadata: 
+
+There are differing degrees of positional accuracy throughout the file. NCompass Technologies adjusts the positional accuracy of the data to available sources known to have a greater degrees of accuracy then those used to generate the existing data. However, in all cases (including instances where COGO line work has been the reference) NCompass Technologies generalizes the street segments to at least 4 feet in order to greatly reduce the number of vertices - thus reducing unnecessary file size and allowing for faster analysis. 
+
+The goal of NCompass Technologies is to have 95% of roads located to within the approximate center of digital right-of-way data or pavement centerlines provided from counties, where such digital data is available. In other areas, 95% of roads are intended to be within ten meters of the road or right-of-way center. 
+
+For the counties of Dakota and Washington, NCompass Technologies has adjusted the positional alignment of its centerlines by referencing the Washington and Dakota County Surveyors department geospatial dataset. Positional adjustments were also made to data supplied by the Ramsey County Public Works department in May 1998. These adjustments were made relative to each county's centerline dataset. NCompass Technologiese was informed that Ramsey County was continuing to review their own data for positional accuracy; however, the adjustment made by NCompass Technologies was necessary in order that users could more efficiently utilize both datasets concurrently. Due to the large number of changes, the Ramsey County adjustments are noted here in the metadata rather than being reflected in the monthly change report as individual segment changes. 
+
+Additionally, positional adjustments were made as of July 31, 1998 to street centerlines within the city of Minneapolis. These changes were made relative to street centerlines provided by the city of Minneapolis. Again, due to the large number of changes, these positional adjustments are noted here rather than in the monthly change report. 
+
+Further positional adjustments were begun in 2002 as NCompass Technologies began aligning roads to county supplied parcel data and 2000 aerial photography. As of March 1, 2002, Anoka, Carver, Hennepin, Ramsey, and Washington had recieved major updates, effectively modifying the positional accuracy of the entire database. These positional changes have not been individually tracked in the tlgedits.dbf file since they are being changed entirely and the delay to the system would have been too time consuming. Users should make note of this. 
+
+For all other areas, various resources were used. For more information please review the section on lineage that follows. 
+Again, as datasets of greater known accuracy become available, NCompass Technologies goal is to adjust its centerline database based on those reference sources.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+      <procstep>
+        <procdesc>To create this dataset, a new Metropolitan Council functional class attribute was added to the NCompass Technologies Street Centerline and Address Ranges dataset. Then lines for all roads with functional class codes were selected and coded. All roads that did not have a functional class code were then removed, as were many of the attributes from the original NCompass dataset. 
+
+This layer is updated quarterly by using the NCompassEdits table to determine if any of the functional class roads have changed.
+
+The specific classifications assigned to the roadways resulted from efforts of the Land Transportation Committee, Transportation Technical Advisory Committee and the Transportation Advisory Board as specified in the transportation planning process, using federal rules and guidelines.  The final product was approved with Metropolitan Council concurrence.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>None</indspref>
+    <direct>Vector</direct>
+    <mgmg3obj>arcs, nodes</mgmg3obj>
+    <mgmg3til>One layer for entire seven county region.</mgmg3til>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>LINE ATTRIBUTES:
+(In addition to the default ArcInfo attributes)
+
+STREETALL: Full street name.
+ 
+ALT_NAM1:  Alternate street name 1.
+ 
+ALT_NAM2:  Alternate street name 2.
+ 
+TLGID:     TLG unique identification number.
+ 
+FUN_CLAS:  (Numerical) Functional classification assigned to the road
+
+             100 = Principal Arterial 
+             211 = A-minor Augmentor
+             212 = A-Minor Reliever
+             213 = A-Minor Expander
+             214 = A-Minor Connector
+             220 = Other Arterial
+             310 = Major Collector
+             320 = Minor Collector
+             999 = New / Under Review*
+
+FC_NAME:   (Text) Functional classification assigned to the road
+
+* Several new roads, including three bridges, were added to the file in 2014 as part of the reconstruction of the 494 / 169 interchange. The functional class of these roads is under review by the cities of Edina, Bloomington, and Eden Prairie. It is anticipated these roads will be added to the A-Minor system prior to the start of the 2014 Regional Solicitation.</eaover>
+      <eadetcit>None</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>RegSolicFunctionalClassRoads2014</resdesc>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shape file</formname>
+          <formvern>ArcGIS 9x</formvern>
+          <transize>2.2 Meg. for zip file.</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Jon Hoekenga</cntper>
+        </cntperp>
+        <cntpos>GIS System Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1561</cntvoice>
+        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20140911</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Rachel Wiken</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1572</cntvoice>
+        <cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20110721</ModDate>
+    <ModTime>13152800</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20110721</mdDateSt>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

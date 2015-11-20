@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>trans_transit_pattern_stop_segs</baseName>
+  <descriptiveName>Transit Patterns By Stop Segment</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-10-01</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{0be483e8-b829-41c6-bbf8-abc2e68d7130}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{d55030e9-e30a-4f45-a9ca-60e28212bf9a}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

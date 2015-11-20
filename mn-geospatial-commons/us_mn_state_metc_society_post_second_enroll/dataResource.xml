@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>society_post_second_enroll</baseName>
+  <descriptiveName>Enrollment in a Postsecondary Educational Institution, 2013</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-19</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">society</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{36844c59-47c5-4a31-97d5-02bcd128c30b}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{c4d29953-a19e-4836-ac5f-cce7aa140542}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

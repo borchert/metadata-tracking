@@ -1,0 +1,216 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources (DNR)</origin>
+        <pubdate>2004-06-15 00:00:00.0</pubdate>
+        <title>Lake Basin Littoral Zone</title>
+        <pubinfo>
+          <publish>Minnesota DNR, Division of Fish and Wildlife</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/water-lake-basin-littoral-zones</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>&lt;b&gt;Observed:&lt;/b&gt; Polygons showing the estimated littoral zone of a lake. The littoral depth was derived from a table of maximum vegetation depths as recorded during individual Lake Surveys.
+
+&lt;b&gt;15 Foot Standard:&lt;/b&gt; Shows the DNR Fisheries calculated littoral zone based on a standard 15 foot depth contour. All lake areas 0-15 feet in depth are considered to be littoral zone. This definition is based historically on the maximum depth of light penetration to the lake bottom for plant growth (although the actual depth of light penetration varies by lake due to water clarity).</abstract>
+      <purpose>This data was developed to assist in resource management and research applications by furthering the basic understanding of the littoral zone of a lake.  Littoral area has implications for available habitat, spawning sites, productivity, oxygen levels, and erosion/sedimentation dynamics.</purpose>
+      <supplinf>Statewide, however GIS products have only been completed for selected lakes at this time.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20141113</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset. Littoral zone estimates are derived from existing Lake Bathymetry products (i.e., DEMs, contour lines and values of observed maximum depth of vegetation). Lake bathymetric contour lines and DEMs are derived from existing lake contour maps of variable dates. (See &lt;i&gt;Quick Layers:Hydrography:Lake Bathymetric Outline&lt;/i&gt; for field work dates of individual lakes.)  Values for maximum depth of vegetation come from transect observations recorded during individual Lake Surveys (various dates).  Vegetation depth values were used to estimate lake littoral zone.</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-96.719299</westbc>
+        <eastbc>-89.998661</eastbc>
+        <northbc>48.559229</northbc>
+        <southbc>43.460328</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>hydrography, lakes, littoral zone, habitat, inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Internal DNR use is unrestricted. External use is constrained by the standard, general DNR GIS Data License Agreement
+</useconst>
+    <native>MS Win NT, ArcView 3.2</native>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/water_lake_basin_littoral_zones/metadata/preview.jpg</browsen>
+    </browse>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>DNR-Fisheries</cntorg>
+          <cntper>Lyn Bergquist</cntper>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Road
+Central Office - Box 20</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>(651) 259-5189</cntvoice>
+        <cntfax>(651) 297-4961</cntfax>
+        <cntemail>lyn.bergquist@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <complete>GIS products have been completed for a group of selected lakes.  Work is proceeding on a lake-by-lake basis following priorities set by DNR Fisheries and by request.</complete>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Not applicable</indspref>
+    <direct>vector</direct>
+    <mgmg3obj>polygon</mgmg3obj>
+    <mgmg3til>state</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>lake_basin_littoral_zone_observed</enttypl>
+        <enttypd>Feature Class Attribute Table</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>DOWLKNUM</attrlabl>
+        <attrdef>Minnesota DNR Division of Waters Lake ID (sub-basin number;may end in '01, 02, etc.; refers to a single basin)</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>010001-879999</edomv>
+            <edomvd>The first two digits (01-87) of these composite codes denote which county the lake is in.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>Surface area of lake basin in acres</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_PCTLTRL</attrlabl>
+        <attrdef>Percentage estimated littoral zone area as compared to the total lake area.  Island polygon area not included.  Derived from lake bathymetric outline, DEM, and maximum depth of vegetation.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>0-100</edomv>
+            <edomvd>Percentage</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LK_LZACRES</attrlabl>
+        <attrdef>Littoral zone area expressed in acres.  Derived from lake bathymetric DEM and maximum depth of vegetation as observed during individual lake surveys.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LK_LZDEPTH</attrlabl>
+        <attrdef>Depth of littoral zone</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <resdesc>water_lake_basin_littoral_zones</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <formvern>Not Applicable</formvern>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>DNR-Fisheries</cntorg>
+          <cntper>Lyn Bergquist</cntper>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Road
+Central Office - Box 20</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>(651) 259-5189</cntvoice>
+        <cntfax>(651) 297-4961</cntfax>
+        <cntemail>lyn.bergquist@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141113</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>DNR-Fisheries</cntorg>
+          <cntper>Lyn Bergquist</cntper>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>500 Lafayette Road
+Central Office - Box 20</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>(651) 259-5189</cntvoice>
+        <cntfax>(651) 297-4961</cntfax>
+        <cntemail>lyn.bergquist@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

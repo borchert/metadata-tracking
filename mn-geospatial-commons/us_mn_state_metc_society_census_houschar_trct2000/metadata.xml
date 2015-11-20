@@ -1,0 +1,289 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Metropolitan Council and the U.S. Census Bureau</origin>
+        <pubdate>20030210</pubdate>
+        <title>Profile of Selected Housing Characteristics for Census Tracts: 2000</title>
+        <mgmg1cid>N/A</mgmg1cid>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-society-census-houschar-trct2000</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Summary File 3 Data Profile 4 (SF3 Table DP-4) for Census Tracts in the Minneapolis-St. Paul 7 County metropolitan area is a subset of the profile of selected housing characteristics for 2000 prepared by the U. S. Census Bureau.
+
+This table (DP-4) includes:  Units in Structure, Year Structure Built, Rooms, Year Householder Moved into Unit, Vehicles Available, House Heating Fuel, Selected Characteristics, Occupants per Room, Value, Mortgage  Status and Selected Monthly Owner Costs, Selected Monthly Owner Costs as a Percentage of Household Income in 1999, Gross Rent, Gross Rent as a Percentage of Household Income in 1999
+
+US Census 2000 Demographic Profiles: 100-percent and Sample Data 
+
+The profile includes four tables (DP-1 thru DP-4) that provide various demographic, social, economic, and housing characteristics for the United States, states, counties, minor civil divisions in selected states, places, metropolitan areas, American Indian and Alaska Native areas, Hawaiian home lands and congressional districts (106th Congress). It includes 100-percent and sample data from Census 2000. The DP-1 table is available as part of the Summary File 1 (SF 1) dataset, and the other three tables are available as part of the Summary File 3 (SF 3) dataset. 
+
+The US Census provides DP-1 thru DP-4 data at the Census tract level through their DataFinder search engine. However, since the Metropolitan Council and MetroGIS participants are interested in all Census tracts within the seven county metropolitan area, it was quicker to take the raw Census SF-1 and SF-3 data at tract levels and recreate the DP1-4 variables using the appropriate formula for each DP variable. This file lists the formulas used to create the DP variables.</abstract>
+      <purpose>This table can be joined to the 2000 Census Tract spatial dataset using the TRACT00 field (11 digit State,County,Tract code). This will allow users to create maps and conduct spatial analyses with the data in this table.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2000</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>2000 U.S. Census</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>demographics, society, Census, demographic profile</themekey>
+      </theme>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>dBASE IV (DBF 4)</native>
+    <crossref>
+      <citeinfo>
+        <title>Census Geography 2000 -TIGER Tracts, Census Geography 2000 - TLG Aligned Tracts</title>
+      </citeinfo>
+    </crossref>
+    <spdom>
+      <bounding>
+        <westbc>-97.23</westbc>
+        <eastbc>-89.53</eastbc>
+        <northbc>49.37</northbc>
+        <southbc>43.5</southbc>
+      </bounding>
+    </spdom>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Tanya Mayer</cntper>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype> mailing and physical address </addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>Minnesota</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1604</cntvoice>
+        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Please see the technical documentation from the Census 2000 Demographic Profiles web site:
+
+http://censtats.census.gov/pub/Profiles.shtml
+
+Please read 'DDP variable formulas for tract level data.xls' for detailed description of the formulas used to extract the raw Census data at tract levels to recreate the DP variables.</attraccr>
+    </attracc>
+    <complete>Entire seven county geographic area is covered.</complete>
+  </dataqual>
+  <spdoinfo>
+    <indspref>TRACT00: 11 character Census Tract code for 2000 Census (State FIPS, County FIPS, 6 digit Tract code).</indspref>
+    <direct/>
+    <mgmg3obj/>
+    <mgmg3til>One file for 7 county metropolitan area</mgmg3til>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>TRACT00     11 character Tract code consisting of: State FIPS code, County FIPS
+            code and 6 character Census Tract code
+STATE       2 digit FIPS State Code
+CO          3 digit FIPS county Code
+TRACT       6 digit numeric 2000 Census Tract Code
+HSGUNITS    Total housing units    DP4001	
+HUN1DET     1 unit, detached       DP4002   UNITS IN STRUCTURE
+HUN1ATT     1 unit, attached       DP4003	
+HUN2        2 units                DP4004	
+HUN3_4      3 or 4 units           DP4005	
+HUN5_9      5 to 9 units           DP4006	
+HUN10_19    10 to 19 units         DP4007	
+HUN20       20 or more units       DP4008	
+MOBILE      Mobile home            DP4009	
+BOATETC     Boat, RV, van, etc.    DP4010	
+YRBT99_00   1999 to March 2000     DP4011   YEAR STRUCTURE BUILT
+YRBT95_98   1995 to 1998           DP4012	
+
+
+YRBT90_94   1990 to 1994           DP4013	
+YRBT80_89   1980 to 1989           DP4014	
+YRBT70_79   1970 to 1979           DP4015	
+YRBT60_69   1960 to 1969           DP4016	
+YRBT40_59   1940 to 1959           DP4017	
+YRBT_39     1939 or earlier        DP4018	
+ROOM1       1 room                 DP4019   ROOMS
+ROOM2       2 rooms                DP4020	
+ROOM3       3 rooms                DP4021	
+ROOM4       4 rooms                DP4022	
+ROOM5       5 rooms                DP4023	
+ROOM6       6 rooms                DP4024	
+ROOM7       7 rooms                DP4025	
+ROOM8       8 rooms                DP4026	
+ROOM9       9 or more rooms        DP4027	
+ROOMS       Median (rooms)         DP4028
+            (1 expressed decimal)	
+HSOCC       Occupied housing units DP4029	
+MOVI99_00   1999 to March 2000     DP4030   YEAR HOUSEHOLDER MOVED INTO UNIT
+MOVI95_98   1995 to 1998           DP4031	
+MOVI90_94   1990 to 1994           DP4032	
+MOVI80_89   1980 to 1989           DP4033	
+MOVI70_79   1970 to 1979           DP4034	
+MOVI_69     1969 or earlier        DP4035	
+VEHNO       None                   DP4036   VEHICLES AVAILABLE
+VEH1        1                      DP4037	
+VEH2        2                      DP4038	
+VEH3        3 or more              DP4039	
+HEATGASUT   Utility gas            DP4040   HOUSE HEATING FUEL
+HEATGASB    Bottled, tank,         DP4041
+            or LP gas	
+HEATELEC    Electricity            DP4042	
+HEATOIL     Fuel oil, kerosene,    DP4043
+            etc.	
+HEATCOAL    Coal or coke           DP4044	
+HEATWOOD    Wood                   DP4045	
+HEATSOL     Solar energy           DP4046	
+HEATOTH     Other fuel             DP4047	
+HEATNO      No fuel used           DP4048	
+PLUMBNO     Lacking complete       DP4049   SELECTED CHARACTERISTICS
+            plumbing facilities  
+KITCHNO     Lacking complete       DP4050
+            kitchen facilities	
+TELNO       No telephone service   DP4051	
+HSGOCC      Occupied housing units DP4052   OCCUPANTS PER ROOM
+RMOCC1      1.00 or less           DP4053	
+RMOCC1_1B   1.01 to 1.50           DP4054	
+RMOCC1B     1.51 or more           DP4055	
+HSGOWNOCC   Specified owner-       DP4056
+            occupied units	
+HV_50       Less than $50,000       DP4057   VALUE
+HV50_99     $50,000 to $99,999      DP4058 
+HV100_149   $100,000 to $149,999    DP4059 
+HV150_199   $150,000 to $199,999    DP4060 
+HV200_299   $200,000 to $299,999    DP4061 
+HV300_499   $300,000 to $499,999    DP4062 
+HV500_999   $500,000 to $999,999    DP4063 
+HV1MIL      $1,000,000 or more      DP4064 
+HVMED       Median (dollars)        DP4065	
+HSGMORT     With a mortgage         DP4066   MORTGAGE STATUS AND SELECTED 
+                                             MONTHLY OWNER COSTS
+MT_300      Less than $300          DP4067	
+MT300_499   $300 to $499            DP4068 
+M500_699    $500 to $699            DP4069 
+MT700_999   $700 to $999            DP4070 
+MT1G_1GB    $1,000 to $1,499        DP4071 
+MT1GB_1GC   $1,500 to $1,999        DP4072 
+MT2G        $2,000 or more          DP4073 
+MTMED       Median (dollars)        DP4074	
+NOMORT      Not mortgaged           DP4075	
+NOMORTMED   Median (dollars)        DP4076	
+OWN_14      Less than 15.0          DP4077   SELECTED MONTHLY OWNER COSTS AS 
+            percent                          A PERCENTAGE OF HOUSEHOLD INCOME 
+                                             IN 1999
+OWN15_19    15.0 to 19.9 percent    DP4078	
+OWN20_24    20.0 to 24.9 percent    DP4079	
+OWN25_29    25.0 to 29.9 percent    DP4080	
+OWN30_34    30.0 to 34.9 percent    DP4081	
+OWN35       35.0 percent or more    DP4082	
+OWNNC       Not computed            DP4083	
+HSGRENT     Specified               DP4084
+            renter-occupied units	
+RE_199      Less than $200          DP4085   GROSS RENT
+RE200_299   $200 to $299            DP4086 
+RE300_499   $300 to $499            DP4087 
+RE500_749   $500 to $749            DP4088 
+RE750_999   $750 to $999            DP4089 
+RE1G_1GB    $1,000 to $1,499        DP4090 
+RE1GB       $1,500 or more          DP4091 
+RENTNO      No cash rent            DP4092	
+RENTMED     Median (dollars)        DP4093	
+REN_14      Less than 15.0          DP4094   GROSS RENT AS A PERCENTAGE OF 
+            percent                          HOUSEHOLD INCOME IN 1999
+REN15_19    15.0 to 19.9 percent    DP4095	
+REN20_24    20.0 to 24.9 percent    DP4096	
+REN25_29    25.0 to 29.9 percent    DP4097	
+REN30_34    30.0 to 34.9 percent    DP4098	
+RENN35      35.0 percent or more    DP4099	
+RENNC       Not computed            DP4100</eaover>
+      <eadetcit>U.S. Census Bureau, Census 2000  Table DP-4. Profile of Selected Economic Characteristics: 2000
+
+http://www.census.gov/prod/cen2000/doc/ProfileTD.pdf
+
+'DP variable formulas for tract level data.xls' describes the variables and formulas used to extract from the raw Summary File (SF) data and recreate the DP variables at the Census Tract level.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>Census2000DemProfile4HousingTract</resdesc>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>dBASE IV</formname>
+          <formvern>DBF 4</formvern>
+          <transize>0.2 MB for zip file.</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Jon Hoekenga</cntper>
+        </cntperp>
+        <cntpos>GIS System Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>Minnesota</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1644</cntvoice>
+        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20030224</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Tanya Mayer</cntper>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>Minnesota</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1604</cntvoice>
+        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20110729</ModDate>
+    <ModTime>13263800</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20110729</mdDateSt>
+</metadata>

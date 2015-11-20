@@ -1,0 +1,211 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>2000 Urbanized Area and Urban Clusters</title>
+        <origin>Census Bureau, ESRI, Metropolitan Council</origin>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <pubdate>unpublished material</pubdate>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-society-census2000tiger-uac</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Census Bureau has completed the delineation of the Census 2000 urbanized areas (UA) and urban clusters (UC). The Census Bureau identifies and tabulates data for the urban and rural populations and their associated areas solely for the presentation and comparison of census statistical data.  For Census 2000, the Census Bureau classifies as urban all territory, population, and housing units located within an urbanized area (UA) or an urban cluster (UC). It delineates UA and UC boundaries to encompass densely settled territory, which consists of: 
+
+- core census block groups or blocks that have a population density of at least 1,000 people per square mile and 
+
+- surrounding census blocks that have an overall density of at least 500 people per square mile 
+
+In addition, under certain conditions, less densely settled territory may be part of each UA or UC. 
+
+The Census Bureau's classification of rural consists of all territory, population, and housing units located outside of UAs and UCs. 
+
+For more information about the 2000 Urbanized Area please go to:
+https://www.census.gov/geo/maps-data/maps/ua2kmaps.html</abstract>
+      <purpose>The Metropolitan Council evaluates this Census data for the Twin Cities Metropolitan Area, and uses this file to display the data in GIS.</purpose>
+      <supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2000</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Census</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.949969</westbc>
+        <eastbc>-92.757345</eastbc>
+        <northbc>45.399819</northbc>
+        <southbc>44.467383</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+      </place>
+      <theme>
+        <themekey>demographics</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/society_census2000tiger_uac/metadata/preview.jpg</browsen>
+    </browse>
+    <native>ArcGIS 8x</native>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Tanya Mayer</cntper>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651-602-1604</cntvoice>
+        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Unknown</attraccr>
+    </attracc>
+    <logic>The dataset is topologically 'clean'.</logic>
+    <complete>Entire seven county geographic area is covered.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The positional accuracy of the dataset has not been tested under the National Standards for Spatial Data Accuracy.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>The Council downloaded urban area shape files from the ESRI Geography Network for each county in MN.
+
+TIGER 2000 shapefile download service:
+ http://www.census.gov/geo/maps-data/data/tiger-line.html
+
+After downloading the shapefiles, Anoka, Carver, Dakota, Hennepin, Ramsey, Scott, Washington, Sherburne counties were 'Merged' together using the geoprocessing wizard in ArcMap, then 'Dissolved' on 'ID', then the urban cluster polygons in Sherburn Co. were deleted, leaving only the small Minneapolis-St. Paul Urbanized Area polygon within Sherburne Co. in the dataset.  The geography is based on 2000 UA TIGER\Line so the source scale is 1:100,000.</procdesc>
+      </procstep>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref/>
+    <direct>Vector</direct>
+    <mgmg3obj/>
+    <mgmg3til>One layer for entire seven county region.</mgmg3til>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>Polygon Attributes:
+
+CNT_ID:     # polygons
+
+MIN_FISST:  State FIPS code (27)
+
+MIN_LSADC_: LSADC Name (urban area (UA) or urban cluster (UC))
+
+MIN_NAME:   Name of UA or UC (e.g. Minneapolis-St. Paul, MN; Belle Plaine, MN;)
+
+MIN_STATE:  State Name (Minnesota)</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>Census2000TigerUrbanAreaCluster</resdesc>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <formvern>ArcGIS 8x</formvern>
+          <transize>0.3 MB for zip file.</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Tanya Mayer</cntper>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651-602-1604</cntvoice>
+        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20021022</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Tanya Mayer</cntper>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101</postal>
+        </cntaddr>
+        <cntvoice>651-602-1604</cntvoice>
+        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20110721</ModDate>
+    <ModTime>16082600</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20110721</mdDateSt>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

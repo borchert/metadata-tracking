@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>env_mces_rain_gauge_sites</baseName>
+  <descriptiveName>MCES Rain Gauge Sites</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-27</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">environment</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{ca2f39f0-6a65-4879-a890-44771ae5fcf4}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{3bc1ed8a-1f16-45db-95aa-6940da88e4bd}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{2eece227-d9fc-43f9-a05a-4c947074d7cd}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Water_Resources/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

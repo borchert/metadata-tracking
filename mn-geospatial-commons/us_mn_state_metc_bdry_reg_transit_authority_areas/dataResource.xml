@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>bdry_reg_transit_authority_areas</baseName>
+  <descriptiveName>Regional Transit Authority Service Areas</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-19</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">boundaries</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{e0a2c022-47bd-4c76-8b50-d21545cd1c77}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{01c6d0ab-e94c-472d-a4dc-6fc8a10975d6}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

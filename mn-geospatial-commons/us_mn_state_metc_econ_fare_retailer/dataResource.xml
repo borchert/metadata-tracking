@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>econ_fare_retailer</baseName>
+  <descriptiveName>Metro Transit Fare Retailer Locations</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-05</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">economy</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{a6ac75b8-a5fb-4433-9231-d972ea0fe214}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{b87d6205-ee1f-4052-804a-bf00ff24e741}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

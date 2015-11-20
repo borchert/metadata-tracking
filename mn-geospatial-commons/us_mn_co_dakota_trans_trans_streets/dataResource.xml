@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>trans_trans_streets</baseName>
+  <descriptiveName>Road Centerlines, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate>2015-11-19</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{fab3137a-3b70-4152-b11f-970491de9fc7}</resourceGUID>
+  </resourceIdentifiers>
+<dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{8c3df806-5075-4254-b03d-c187c806336d}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

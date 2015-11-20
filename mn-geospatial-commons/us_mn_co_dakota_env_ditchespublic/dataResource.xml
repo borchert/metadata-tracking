@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>env_ditchespublic</baseName>
+  <descriptiveName>Ditches - Public, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate>2015-08-28</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">environment</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{700f59d4-0388-47bd-9116-4edbd4104936}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{f0a691ae-a8b1-4c3c-8e94-cff339d60e06}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

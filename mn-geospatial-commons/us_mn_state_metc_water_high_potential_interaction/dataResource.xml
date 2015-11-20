@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>water_high_potential_interaction</baseName>
+  <descriptiveName>Areas with Significant Potential for Groundwater Pumping to Impact Surface Waters</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-24</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">inlandWaters</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{bdded4a4-c062-4904-bc28-4eb66edd6606}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{95bb290e-6759-46aa-9678-044a6a6825d8}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

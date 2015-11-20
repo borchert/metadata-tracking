@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>trans_transit_link_srv_ar</baseName>
+  <descriptiveName>Transit Link Dial-a-Ride Service Areas</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-03</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{e101a22d-98ce-4472-8d4c-f1a2b5247824}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{57731c03-b062-49e7-9000-a9e6baab3c5a}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

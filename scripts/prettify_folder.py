@@ -19,10 +19,11 @@ def main():
         sys.exit("I need a path to a folder!")
     
     folder = sys.argv[1]
-
-    files = glob(os.path.join(folder, "*.xml"))
+    files_list = []
+    for root,dirs,files in os.walk(folder):
+        files_list = files_list + glob(os.path.join(root, "*.xml"))
     
-    for f in files:
+    for f in files_list:
         tree = etree.parse(f)
         tree.write(f, pretty_print=True)
 

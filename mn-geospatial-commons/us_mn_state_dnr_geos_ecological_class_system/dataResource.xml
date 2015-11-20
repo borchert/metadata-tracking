@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>geos_ecological_class_system</baseName>
+    <descriptiveName>Ecological Class System of Minnesota</descriptiveName>
+    <publisher>Minnesota DNR - Division of Forestry</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>1999-06-01</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>96</resourceID>
+        <resourceGUID>{818700bd-07b1-418a-96f6-e0600f9b24e0}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>geos_ecological_class_system</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{dde578f4-1af0-4f5e-9d64-babea4250a0f}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

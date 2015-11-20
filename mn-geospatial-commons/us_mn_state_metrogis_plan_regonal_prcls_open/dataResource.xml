@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>plan_regonal_prcls_open</baseName>
+  <descriptiveName>MetroGIS Regional Parcel Dataset - Free (updated quarterly)</descriptiveName>
+  <publisherID>us_mn_state_metrogis</publisherID>
+  <currentAsofDate>2015-07-31</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{46c19b8b-e3ec-432c-bee8-e2372ff4dec4}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{5fd97971-3a30-44f4-ba97-5844475474aa}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

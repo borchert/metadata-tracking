@@ -1,0 +1,228 @@
+<!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  -->
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Department of Geography, Bemidji State University; Clearwater Soil and Water Conservation District (SWCD); Beltrami Soil and Water Conservation District</origin>
+        <pubdate>1987</pubdate>
+        <title>Land Use for Clearwater and Beltrami Counties, Minnesota, 1986</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota Geospatial Information Office (MnGeo)</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/biota-landcover-beltclea-1986</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>An updated raster version of land use was created for Clearwater and Beltrami Counties in 1987, based on 1986 aerial photography.  The original Land Management Information Center 40-acre (MLMIS40) 1969 land use classification for these counties was updated by the Beltrami and Clearwater Soil and Water Conservation Districts, using air photo interpretation.  Information was updated by the Geography Department at Bemidji State University using the edit routines in the Environmental Planning Programming Language (EPPL7) software. Data was later converted to ERDAS GIS raster and Esri vector formats. </abstract>
+      <purpose>To update available land use information to create a more recent land use data layer for use in Comprehensive Local Water Planning activities.</purpose>
+      <supplinf>Beltrami and Clearwater Counties, Minnesota</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1986</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>1986, with the exception that most of the Red Lake Reservation in Clearwater and Beltrami Counties, and other portions of Beltrami County north of Red Lake, were not reinterpreted in 1987. The feeling was that in most of this area there had been little if any change in land use since 1969.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-95.60</westbc>
+        <eastbc>-94.41</eastbc>
+        <northbc>48.55</northbc>
+        <southbc>47.15</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota, imageryBaseMapsEarthCover, Land Use, Land Cover, Land Type, Vegetation Cover</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN, Clearwater County, Beltrami County</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Acknowledgement of the appropriate  developer agencies would be appreciated in products derived from these data.
+
+See Disclaimer field for complete use conditions.</useconst>
+    <native>EPPL7</native>
+    <crossref>
+      <citeinfo>
+        <title>For more information about land use/land cover data for Minnesota, see http://www.mngeo.state.mn.us/chouse/land_use.html
+
+Updates have been done by the Department of Geography at Bemidji State Iniversity for primary growth areas in Beltrami County.  Two townships around Blackduck and nine townships around Bemidji have been updated since 1995.  This data is available from Bemidji State University on a township basis. 
+</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Department of Geography, Bemidji State University</cntorg>
+          <cntper>Dr. Charles Parson</cntper>
+        </cntperp>
+        <cntpos>Professor of Geography (ret)</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>Hagg-Sauer Hall, 2nd Floor, 1500 Birchmont Drive NE</address>
+          <city>Bemidji</city>
+          <state>MN</state>
+          <postal>56601</postal>
+        </cntaddr>
+        <cntvoice>218-755-2880</cntvoice>
+        <cntfax>218-755-2822</cntfax>
+        <cntemail>charlie@vax1.bemidji.msus.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Later review of the data has indicated that the most common misclassification of data, especially in Beltrami County, which was not field-verified, occurred between the wetland and cultivated agriculture classifications: from the air photos,  wetlands containing reed canary grass were confused with wheat production.</attraccr>
+    </attracc>
+    <complete>Certain areas - comprising most of the Red Lake Indian Reservation in Clearwater and Beltrami Counties, and other portions of Beltrami County north of Red Lake, were not reinterpreted in 1987. The feeling was that in most of this area there had been little if any change in land use since 1969.  In those areas the land use classification represented is from 1969.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Interpreted to 2.5-acre (100-meter) parcel in most areas, left as 1969 40-acre parcels in other areas: see 'Currentness Reference' for full description.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>24000</srcscale>
+      </srcinfo>
+      <procstep>
+        <procdesc>1. Original 1969 land use:  Land use was updated from the original 1969 MLMIS40 land use variable (epp.luse). For the original Minnesota statewide land use file, nine land use/land cover classes, based on the Anderson classification system, were interpreted from 1:90,000-scale black and white air photos, and were recorded for each 40-acre parcel in the state.
+
+2. Georeferencing and conversion to 2.5-acre parcel: The 1987 land use update for Clearwater and Beltrami Counties was done at the 2.5-acre parcel  level of resolution. As a base map for the updates, the 1969 40-acre land use file for each county was projected against the 'GISMO' tic file for georeferencing, and broken into 100-meter (2.5-acre) cells. (In a square section, each 40-acre parcel will have 16 2.5-acre cells; in an irregular section, there may be more or fewer 2.5-acre parcels.) This procedure basically georeferenced the 40-acre data to make it better reflect real world geography. The resulting 2.5-acre county EPPL files were provided to the Geography Department of Bemidji State University, along with large-format township 2.5-acre land use plots covering each county.
+
+3. Update procedure: The 2.5-acre township plots were provided to staff of the Beltrami and Clearwater County Soil and Water Conservation Districts, who updated their respective land use maps for use in Comprehensive Local Water Planning activities. Base information for the updates were Agricultural Conservation and Stabilization Service (ASCS) 1986 air photo slides. Original slides were 33 mm. negatives for each square mile. The  data entry source was basically 1:24,000 scale. Using the section photography, staff interpreted the land use and marked changes on the 2.5-acre township plots. 
+
+The Clearwater County land use interpretation was done by SWCD staff and was field-verified. The Beltrami County land use interpretation was done by university students working under the direction of SWCD staff.  The Beltrami County land use interpretation was not field-verified.  
+
+Note that the two counties were not completely updated.  SWCD staff identified certain portions of their respective counties where little or no land use change had occurred.  These areas included most areas inside the Red Lake Reservation Boundary in both counties, and certain areas north of Red Lake in Beltrami County. These areas are distinguishable on the map as 40-acre blocks of homogeneous land use.  These 40-acre blocks represent the original 1969 land use classification.
+
+Land use classifications between 1969 and 1987 were also modified somewhat. Activities of specific interest to local water planning (such as rice paddies, farmsteads, and feedlots) were given their own categories. These are indicated by their 2-digit codes; the first digit representing the original, major category, and the second digit representing a more refined category.  Although the general land use categories are more or less the same, the 1987 land use classification  did not use the same operational definition as the 1969 land use. No operational definition or defining criteria for the land use classification remains.
+
+The township base maps, with the updated parcels indicated, were returned to the Bemidji State University Geography Department. Students recorded the updates into the county EPPL files, using the EPPL software's EDIT routines.  The updated data was re-plotted and checked.
+
+4. Conversion to ERDAS format (2000). EPPL files were converted to ERDAS format using the EPPL 3.0c export routines.
+
+5. County data sets were reprojected from NAD27 to NAD83, and converted to Esri shapefile and file geodatabase formats.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref/>
+    <direct>Raster</direct>
+    <mgmg3obj>Grid Cell</mgmg3obj>
+    <mgmg3til>County files</mgmg3til>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eadetcit>The land use files contain the following categories:
+
+ 1: Forested 
+ 2: Agricultural-related
+ 3: Water 
+ 4: Wetland
+ 5: Residential 
+ 6: Extractive 
+ 7: Parklands
+ 8: Non-Residential 
+ 9: Transportation
+21: Rice Paddies
+22: Farmsteads
+23: Feedlots
+71: Park/Open
+72: Cemeteries
+81: Institutions
+
+The first digit of the land use classification can be used to recategorize all cells in terms of the 1969 MLMIS40 land use classification.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>biota_landcover_beltclea_1986</resdesc>
+    <distliab>MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>EPPL7 or ERDAS</formname>
+          <formvern>EPPL7 vers. 3.0c</formvern>
+          <transize>0.3 MB as self-extracting zipfile; 1.4 MB ERDAS format; 0.3 MB EPPL7 format</transize>
+        </digtinfo>
+      </digform>
+      <ordering>This dataset is distributed via the Minnesota Geospatial Commons and is accessible via the Online Linkage below. </ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150324</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15E</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+          <coordrep>
+            <absres>100</absres>
+            <ordres>100</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

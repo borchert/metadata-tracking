@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>society_census_houschar_trct2000</baseName>
+  <descriptiveName>Profile of Selected Housing Characteristics, Census Tracts: 2000</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-02</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">society</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{803d8308-3329-4d44-abc6-c05fa2ac7423}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{33734b7e-6c4a-49d5-8244-a98e95f42ee4}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

@@ -1,0 +1,298 @@
+<metadata>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Attributes of saip_photo_center_points_2009-2014</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Photo_ID</attrlabl>
+        <attrdef>A character string provided by the aerial photography vendor that corresponds to the file name for each individual photo</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Date</attrlabl>
+        <attrdef>Date of aerial photo acquisition</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>X_Coord</attrlabl>
+        <attrdef>The X coordinate of the photo centerpoint in UTM meters</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Y_Coord</attrlabl>
+        <attrdef>The Y coordinate of the photo centerpoint in UTM meters</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Zft</attrlabl>
+        <attrdef>The altitude of the photo acquisition in feet</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Camera</attrlabl>
+        <attrdef>The brand/model of camera used</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Resolution</attrlabl>
+        <attrdef>The nominal ground sampling distance of the imagery in centimeters</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>30</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>50</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Region</attrlabl>
+        <attrdef>The name/description of the project region</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Central &amp; Northwest</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>East-Central</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Northeast</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>South</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Vendor</attrlabl>
+        <attrdef>The name of the aerial photography vendor</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Keystone</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Quantum</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Surdex</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Year</attrlabl>
+        <attrdef>The year of acquisition</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TextDate</attrlabl>
+        <attrdef>Date as a text field</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TextTime</attrlabl>
+        <attrdef>Time of acquisition as a text field</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minnesota Department of Natural Resources and Minnesota Geospatial Information Office</origin>
+        <title>Spring Aerial Imagery Photo Center Points and Acquisition Dates, Minnesota, 2009-2014</title>
+        <pubinfo>
+          <publish>Minnesota Department of Natural Resources</publish>
+        </pubinfo>
+        <pubdate>20150514</pubdate>
+        <onlink>https://gisdata.mn.gov/dataset/base-saip-photocenters-2009-14</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset contains the center point locations for all images acquired under the Minnesota Spring Aerial Imagery Program from 2009 through 2014. Attributes for each center point include the photo file ID, the center point location, the date of acquisition, and the vendor. Additional attributes for acquisition altitude and camera system are also provided where available.</abstract>
+      <purpose>This dataset provides photo level metadata for all imagery acquired for the Spring Aerial Imagery Program. The goal of the program was to acquire 4-band leaf-off imagery statewide at 0.5-meter resolution. The State collaborated with partners in order to acquire higher-resolution imagery (1-foot) in many areas.
+
+For more information on the program, see: http://www.mngeo.state.mn.us/chouse/airphoto/spring2009-2015.html</purpose>
+      <supplinf>Statewide for Minnesota</supplinf>
+    </descript>
+    <crossref>
+      <citeinfo>
+        <title>Digital orthophoto quarter-quadrangles (DOQQs) from the Spring Aerial Imagery Program:
+
+1. Northeast:  
+a. Half-meter resolution:  https://gisdata.mn.gov/dataset/base-saip-ne2009-50cm-airphotos
+b. One-foot resolution:  https://gisdata.mn.gov/dataset/base-saip-nc2009-30cm-airphotos
+
+2. East-Central:  
+a. Half-meter resolution:  https://gisdata.mn.gov/dataset/base-saip-ec2010-50cm-airphotos
+b. One-foot resolution:  https://gisdata.mn.gov/dataset/base-saip-ec2010tc-1ft-airphotos
+
+3. Southern:  https://gisdata.mn.gov/dataset/base-saip-so2011-50cm-airphotos
+
+4. Central &amp; Northwest: 
+a. Half-meter resolution:  http://www.mngeo.state.mn.us/chouse/airphoto/centralmn13.html (metadata forthcoming)
+b.  Polk and Beltrami Counties:  https://gisdata.mn.gov/dataset/base-saip-polkbelt2014-airphotos
+
+</title>
+      </citeinfo>
+    </crossref>
+    <timeperd>
+      <current>Acquisition dates range from April 2009 through May 2014.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <keywords>
+      <theme>
+        <themekey>imageryBaseMapsEarthCover, aerial photography, air photos, imagery</themekey>
+        <themekt>ISO 19115 Topic Category</themekt>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN</placekey>
+      </place>
+    </keywords>
+    <spdom>
+      <bounding>
+        <westbc>-97.23</westbc>
+        <eastbc>-89.53</eastbc>
+        <northbc>49.37</northbc>
+        <southbc>43.5</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <browse>
+      <browsed>Data symbolized by acquisition date for each photo.</browsed>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_mngeo/base_saip_photocenters_2009_14/metadata/preview.jpg</browsen>
+    </browse>
+    <useconst>See Distribution Liability section</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Steve Kloiber</cntper>
+        </cntperp>
+        <cntpos>Wetland Monitoring Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>500 Lafayette Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5164</cntvoice>
+        <cntemail>steve.kloiber@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <complete>All spring imagery from the statewide program are represented by a center point. All attributes are provided for each center point, except that acquisition altitude and camera system are not available for the Central &amp; Northwest region.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The positional accuracy of these center points has not been tested. The positional accuracy of the resulting DOQQs has been tested and the user should refer to the metadata for the DOQQs for the results of this testing (see Associated Datasets).</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not applicable</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Photo center points were delivered to the State of Minnesota by each vendor participating in the Spring Aerial Imagery Program:
+
+Keystone:  Northeast region (2009)
+Surdex:  East-Central (2010) and South (2011)
+Quantum:  Central &amp; Northwest region (2013 and 2014)
+
+Minnesota Department of Natural Resources staff standardized the fields from each of these individual acquisition areas and merged them into a single geodatabase at the conclusion of the statewide acquisition.</procdesc>
+      </procstep>
+    </lineage>
+    <logic>Not applicable</logic>
+    <attracc>
+      <attraccr>No information available.</attraccr>
+    </attracc>
+  </dataqual>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>not applicable</altdatum>
+      </altsys>
+      <depthsys>
+        <depthdn>not applicable</depthdn>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <resdesc>saip_photo_center_points_2009-2014.gdb</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html
+
+MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab>
+    <stdorder>
+      <ordering>This data set is distributed on the internet by clicking below after Online Linkage.</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street, Room 300</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntfax>651-296-6398</cntfax>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150515</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Steve Kloiber</cntper>
+        </cntperp>
+        <cntpos>Wetland Monitoring Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>500 Lafayette Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5164</cntvoice>
+        <cntemail>steve.kloiber@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

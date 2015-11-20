@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>bdry_dnr_parks_and_trails_admin</baseName>
+    <descriptiveName>DNR Division of Parks and Trails Administrative Areas and Districts</descriptiveName>
+    <publisher>MN DNR - Division of Parks and Trails</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2010-05-10</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1756</resourceID>
+        <resourceGUID>{c2e8dc77-1be3-4522-8a81-3f5fb3a8a2f9}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>bdry_dnr_parks_and_trails_admin</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{30b9c811-7a47-4cec-ba07-c77c22104321}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

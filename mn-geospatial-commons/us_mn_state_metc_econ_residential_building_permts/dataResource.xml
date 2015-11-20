@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>econ_residential_building_permts</baseName>
+  <descriptiveName>Residential Building Permits</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-01</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">economy</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{35523ca0-1389-4492-a0c1-462cdd24c6cc}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{9238d1dd-9017-4334-b730-74652338dea3}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

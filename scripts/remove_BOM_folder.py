@@ -14,10 +14,11 @@ def main():
         sys.exit("I need a path to a folder!")
 
     folder = sys.argv[1]
+    files_list = []
+    for root,dirs,files in os.walk(folder):
+        files_list = files_list + glob(os.path.join(root, "*.xml"))
 
-    files = glob(os.path.join(folder, "*.xml"))
-
-    for f in files:
+    for f in files_list:
         opened_file = open(f, "r")
         contents = opened_file.read()
         if contents[:3] == codecs.BOM_UTF8:

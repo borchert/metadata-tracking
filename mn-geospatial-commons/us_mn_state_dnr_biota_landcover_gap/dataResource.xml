@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>biota_landcover_gap</baseName>
+    <descriptiveName>GAP Land Cover</descriptiveName>
+    <publisher>Minnesota DNR - Division Forestry</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2002-06-06</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">biota</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>0</resourceID>
+        <resourceGUID>{5035fd98-9eb9-4f20-8def-ac934e69c2bc}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{1be5c443-dde7-40cf-a72e-eb9689ff59d0}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

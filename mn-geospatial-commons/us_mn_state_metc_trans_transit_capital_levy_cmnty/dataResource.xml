@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>trans_transit_capital_levy_cmnty</baseName>
+  <descriptiveName>Transit Capital Levy Communities</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-19</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{bf769ef2-8aa3-4759-a1a0-d3f9106248d7}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{693927df-138d-40b1-94d8-31e7c650c50c}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

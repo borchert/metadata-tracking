@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>water_metro_municpl_water_demand</baseName>
+  <descriptiveName>Public Water Supply System Demand Projections - Twin Cities Metropolitan Area, Minnesota</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-04</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">inlandWaters</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{f8f2422d-c397-45ac-9b2a-35817de5b231}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{5657dba0-aa5c-4258-bee5-3e73d71f06ea}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

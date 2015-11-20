@@ -1,0 +1,270 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<pubdate>20150101</pubdate>
+				<title>Digital Surface Model, Minnesota (2006-2012)</title>
+				<edition>1</edition>
+				<geoform>raster digital data</geoform>
+				<lworkcit>
+					<citeinfo>
+						<title>Minnesota LiDAR Solar Study</title>
+						<othercit>This dataset is the primary data product for the Minnesota LiDAR Solar Study. A full description of the project and web mapping application can be viewed at this site. </othercit>
+						<onlink>solarp.uspatial.umn.edu</onlink>
+					</citeinfo>
+				</lworkcit>
+				<origin>Brink, Christopher; Gosack, Ben;Kne, Len; Luo, Yuanyuan; Martin, Christopher; McDonald, Molly; Moore, Michael; Munsch, Andrew; Palka, Stephen; Piernot, Devon;Thiede, Dan; Xie, Yiquan; Walz, Andrew</origin>
+				<pubinfo>
+					<publish>University of Minnesota</publish>
+				</pubinfo>
+				<onlink>http://dx.doi.org/10.13020/D6SG6N</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>A 1m resolution digital surface model that was generated from raw LiDAR data.</abstract>
+			<supplinf>Minnesota</supplinf>
+			<purpose>To enable statewide analysis of solar insolation.</purpose>
+		</descript>
+		<status>
+			<update>None Planned</update>
+			<progress>Complete</progress>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-97.5</westbc>
+				<eastbc>-89</eastbc>
+				<northbc>49.5</northbc>
+				<southbc>43</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Solar Resource</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>elevation</themekey>
+			</theme>
+			<place>
+				<placekt>http://lccn.loc.gov/n79021675</placekt>
+				<placekey>Minnesota</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2008-2012</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>This data is provided "as is". Exact accuracy of the data depends on the accuracy of the input lidar data, which is variable accross the area. The data provided is an approximation, and may be subject to errors and data anomalies. We provide this data with the understanding that it is not guaranteed to be accurate, correct or complete and conclusions drawn from such information are the responsibility of the user.</useconst>
+		<datacred>This data was developed by a group of Masters of GIS students at the University of Minnesota.
+Group members: Brink, Christopher; Gosack, Ben; Luo, Yuanyuan; Martin, Christopher; McDonald, Molly; Moore, Michael; Munsch, Andrew; Palka, Stephen; Piernot, Devon; Xie, Yiquan; Walz, Andrew. Faculty support and advising from Len Kne and Dan Thiede.</datacred>
+		<native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.2.2.3574</native>
+		<browse>
+			<browsen>http://conservancy.umn.edu/bitstream/id/348908/dsm_thumb.PNG</browsen>
+			<browsed>Digital surface model (1m resolution) for the state of Minnesota</browsed>
+		</browse>
+		<crossref>
+			<citeinfo>
+				<title>Minnesota Lidar data </title>
+				<onlink>http://www.mngeo.state.mn.us/chouse/elevation/lidar.html</onlink>
+			</citeinfo>
+			<citeinfo>
+				<title>Rooftop solar capacity modeling using GIS within the city of Stillwater, MN</title>
+				<onlink>http://digital.library.wisc.edu/1793/68317</onlink>
+			</citeinfo>
+		</crossref>
+		<timeperd>
+			<current>See map included as "lidar_collection_projects_dates.pdf" with dates of data collection and areas covered. Also, the included shapefile "lidar_collection_projects_dates_shapefile.zip" includes links to project specific metadata records.
+
+Red River Basin: 2008-2009
+South Dakota: Fall 2010
+MN River Basin: Spring 2010
+Blue Earth County: Spring 2012
+Southeast: Fall 2008
+Rice: 2007
+McLeod 2007
+Metro: Spring and Fall 2011
+Stearns: 2006
+Crow Wing: 2008
+Central Lakes: Spring 2012
+Arrowhead: Spring 2011
+Pine: 2006
+Chisago: 2007
+Wright: 2008
+			</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>2012</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntorg>U-Spatial - Support for Spatial Research, University of Minnesota</cntorg>
+					<cntper>U-Spatial Help Desk</cntper>
+				</cntperp>
+				<cntaddr>
+					<addrtype>physical</addrtype>
+					<address>420 Blegen Hall, 269 19th Avenue S</address>
+					<city>Minneapolis</city>
+					<state>Minnesota</state>
+					<postal>55455</postal>
+				</cntaddr>
+				<cntvoice>612-624-7591</cntvoice>
+				<cntemail>uspatial@umn.edu</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<logic>Visual assessments have been made to the data to assure that they meet expected results. Due to variation in input data including differing collection methods and data collection specificationsm, significant variation can be found in the quality of the output generated. Prior to use, a thorough inspection of the region of interest should be made to ensure that it is free of anamolies or inconsistancies. Examples of data anomolies and errors can be found at the project website (solar.uspatial.umn.edu).</logic>
+		<lineage>
+			<procstep>
+				<procdesc>Lidar Data
+Lidar is a form of active remote sensing technology that uses light pulses, most commonly in the near-infrared wavelengths, to collected surface elevation data. A laser scanner, mounted in an aircraft and combined with high-accuracy GPS, collects light returns that are interpolated into a point cloud. Each point represents one return from a laser pulse. The laser pulse has the ability to penetrate vegetation, multiple laser returns can be gathered for each pulse including the returns from below the vegetation.The accuracy of lidar returns allow for a unique, multi-faceted analytical dataset. The first point returns can be used to interpolate a topology of Minnesota that models the objects (i.e. building, trees, etc) and geography resting upon the terrain. 
+
+The lidar point files for the state of Minnesota used in the study were collected between 2006 and 2012 through an intergovernmental initiative with the primary object of providing improved elevation data for flood mapping. In some regions, existing lidar data was acquired and transformed to new state standards. Areas where data did not exist or could not be transformed, were collected by contracted vendors. The composite data forms a seamless coverage of the state with a resolutions of at least 1.5 meters. Refer to the metadata for the state lidar dataset for full details (http://www.mngeo.state.mn.us/chouse/elevation/lidar.html).
+
+Individual lidar project metadata available from:
+
+Blue Earth County, Minnesota, 2012  |  https://gisdata.mn.gov/dataset/elev-lidar-blueearth2012
+Arrowhead Region, NE Minnesota, 2011  |  https://gisdata.mn.gov/dataset/elev-lidar-arrowhead2011
+South Dakota Portion of Minnesota River Basin, 2010  |  https://gisdata.mn.gov/dataset/elev-lidar-sdmnriver
+Twin Cities Metro Region, Minnesota, 2011  |  https://gisdata.mn.gov/dataset/elev-lidar-metro2011
+Red River of the North Basin, 2008-2010, UTM Zone 15  |  https://gisdata.mn.gov/dataset/elev-lidar-red-river-z15
+Stearns County, Minnesota, 2006  |  https://gisdata.mn.gov/dataset/elev-lidar-stearns2006
+Chisago County, Minnesota, 2007  |  https://gisdata.mn.gov/dataset/elev-lidar-chisago2007
+Southeast Minnesota, 2008  |  https://gisdata.mn.gov/dataset/elev-lidar-semn2008
+Minnesota River Basin, Southwest Minnesota, 2010  |  https://gisdata.mn.gov/dataset/elev-lidar-swmn2010
+Rice County, Minnesota, 2007  |  https://gisdata.mn.gov/dataset/elev-lidar-rice2007
+Wright County, Minnesota, 2008  |  https://gisdata.mn.gov/dataset/elev-lidar-wright2008
+Central Lakes Region, Minnesota, 2012  |  https://gisdata.mn.gov/dataset/elev-lidar-centrallakes2012
+Duluth Area, Minnesota, 2012  |  https://gisdata.mn.gov/dataset/elev-lidar-duluth2012
+Pine County, Minnesota, 2006  |  https://gisdata.mn.gov/dataset/elev-lidar-pine2006
+
+
+Seven counties (Stearns, Crow Wing, Pine, Wright, Chisago, McLeod, and Rice) required additional processing of the lidar data to create the DSM. Because the original intent of the lidar flights was to track hydrology, only bare-earth points were needed and the rest of the unclassified points were discarded. The data provided by these counties was either missing full classification of Lidar points other than "ground" (buildings, vegetations, etc), or the non-ground point returns were removed entirely. 
+
+Initial processing done by the project ignored unclassified points, resulting in a digital surface model devoid of non-ground features in these areas and creating county-wide swaths with no shading. The unclassified, "raw" lidar datasets were obtained for Stearns and Wright counties. Additionally, the unclassified points, initially discarded, were found present in Crow Wing and Pine counties. No above ground points were found in the Chisago, McLeod, and Rice county files. The lidar point cloud files for Stearns, Crow Wing, Pine, and Wright counties were reclassified and processed. Below is a table that summarizes the various issues with the re-processed and unprocessed counties.
+
+County Name	Data Issues	Corrections and Solutions.	Reprocessed (Y/N)
+Chisago	Ground returns only w/ other points removed. New data needed.	New data needed.	N
+Crow Wing	Ground returns are only points classified. Other features exist but are not classified.	Delineate tiles to reprocess, remove noise, and reclassify.	Y
+McLeod	Ground returns only w/ other points removed. New data needed.	New data needed.	N
+Pine	Ground returns are only points classified. Other features exist but are not classified. Data includes a class "10" for overlap instead of class "12" that causes stripping.	Delineate tiles to reprocess, remove noise, add reclassify "10" to "12.".	Y
+Rice	Ground returns are only points classified. Other features exist but are not classified.	New data needed.	N
+Stearns	No non-ground returns exist. Replacement flight data obtained with no classification.	Delineate replacement tiles to reprocess, remove noise, and reclassify.	Y
+Wright	Ground returns are only points classified. Other features exist but are not classified. Data has large blank areas caused by cropping to county lines.	Delineate tiles to reprocess, remove noise, and reclassify.	Y
+
+
+The reclassified counties differ from the original, pre-classified counties in the number of lidar point returns. The pre-classified counties have fewer point returns due to the professional processing they received. The point density could be corrected using the algorithms used during the initial processing (this is beyond the scope of this project). Additionally, the projects highly recommends that any future Lidar flights flown over Minnesota be processed using all points collected and not just the bare-earth points.
+
+Digital Surface Model Creation
+A Digital Surface Model (DSM) was created to represent the terrain and all object present on that terrain. This included buildings, tree cover, roads, and other natural and human-altered landscapes. In effect, the DSM is a three dimensional representation of Minnesota. It was generated using a Streaming Delauney Triangulation process through rapidlasso's LAStools software package. In this process, triangles are iteratively generated using nearby lidar returns and values for each point are determined by extracting interpolated elevation from the surface of the triangle. The result is a 1 meter resolution raster covering the state.
+
+More information can be found on the project website at http://solar.maps.umn.edu and in the accompanying scripts.zip file, which contains the scripts and detailed process steps used in the project.</procdesc>
+			</procstep>
+		</lineage>
+		<complete>The input data used for development is lidar data collected by the State of Minnesota Department of Natural Resources in cooperation with a number of other local, regional and federal agencies and organizations. These data collects have been aggregated for the state of Minnesota and distributed to the public by the Minnesota Geospatial Information Office (www.mngeo.state.mn.us).</complete>
+		<attracc>
+			<attraccr>As of 29 June 2015, no groundtruthing has been done to assess the accuracy of the DSM.</attraccr>
+		</attracc>
+	</dataqual>
+	<spdoinfo>
+		<direct>Raster</direct>
+		<rastinfo>
+			<rasttype>Grid Cell</rasttype>
+			<rowcount>1</rowcount>
+			<colcount>1</colcount>
+		</rastinfo>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+					<transmer>
+						<sfctrmer>0.9996</sfctrmer>
+						<longcm>-93.0</longcm>
+						<latprjo>0.0</latprjo>
+						<feast>500000.0</feast>
+						<fnorth>0.0</fnorth>
+					</transmer>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>1</absres>
+						<ordres>1</ordres>
+					</coordrep>
+					<plandu>meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D North American 1983</horizdn>
+				<ellips>GRS 1980</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257222101</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<distinfo>
+		<distliab>See access and use constraints information.</distliab>
+		<resdesc>doi:10.13020/D6SG6N</resdesc>
+		<stdorder>
+			<ordering>Download from the Data Repository for the University of Minnesota (DRUM)</ordering>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>University of Minnesota</cntorg>
+					<cntper>Kevin Dyke</cntper>
+				</cntperp>
+				<cntpos>Spatial Data Analyst/Curator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>309 19th Ave S, S76 O Meredith Wilson Library</address>
+					<city>Minneapolis</city>
+					<state>MN</state>
+					<postal>55455</postal>
+				</cntaddr>
+				<cntvoice>612-301-3932</cntvoice>
+				<cntemail>kevindyke@umn.edu</cntemail>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metd>20150629</metd>
+		<metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+		<metstdv>1.2</metstdv>
+		<mettc>local time</mettc>
+		<metuc>This data is provided "as is." Exact acccuracy of the data depends on the accuracy of the input LiDAR data, which is variable accross the area. The data provided is an approximation, and may be subject to errors and data anomalies. We provide this data with the understanding that it is not guaranteed to be accurate, correct or complete and conclusions drawn from such information are the responsibility of the user. </metuc>
+		<metextns>
+			<onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+		</metextns>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntorg>University of Minnesota</cntorg>
+					<cntper>Kevin Dyke</cntper>
+				</cntperp>
+				<cntpos>Spatial Data Analyst/Curator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>309 19th Ave S, S76 O Meredith Wilson Library</address>
+					<city>Minneapolis</city>
+					<state>MN</state>
+					<postal>55455</postal>
+				</cntaddr>
+				<cntvoice>612-301-3932</cntvoice>
+				<cntemail>kevindyke@umn.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+	<eainfo>
+		<overview>
+			<eaover>The raster value is a measure of elevation in meters</eaover>
+		</overview>
+	</eainfo>
+</metadata>

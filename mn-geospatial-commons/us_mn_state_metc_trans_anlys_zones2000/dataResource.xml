@@ -1,0 +1,41 @@
+<dataResource>
+  <baseName>trans_anlys_zones2000</baseName>
+  <descriptiveName>Transportation Analysis Zones 2000</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-02</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{a9ee8b2a-6b3b-4ead-ad55-bfe5e8747469}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{1e161ac9-6a80-48eb-8750-ceca7fa53b16}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Transportation/MapServer</subResourceURL>
+        <subResourceURL type="ServiceDescription" name="WMF Service" description="WMF Service">http://gis2.metc.state.mn.us/ArcGIS/services/MetroGIS/Transportation/MapServer/WFSServer?request=GetCapabilities&amp;service=WFS</subResourceURL>
+        <subResourceURL type="ServiceDescription" name="Generate KML" description="Generate KML">http://gis2.metc.state.mn.us/ArcGIS/rest/services/MetroGIS/Transportation/MapServer/generatekml</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+   <dataSubResource> 
+      <subResourceType>wms</subResourceType> 
+      <subResourceIdentifiers>
+        <subResourceGUID>{af8cc2c3-33a5-463f-b8c8-45f4d21c0b7a}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceGetCapabilities" description="WMS Service" name="WMS Service">http://gis2.metc.state.mn.us/arcgis/services/MetroGIS/Transportation/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</subResourceURL>
+      </subResourceAccess>
+   </dataSubResource>
+   <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{af8cc2c3-33a5-463f-b8c8-45f4d21c0b8a}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

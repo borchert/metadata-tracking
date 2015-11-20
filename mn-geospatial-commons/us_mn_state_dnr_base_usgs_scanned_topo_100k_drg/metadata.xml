@@ -1,0 +1,206 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey (USGS) and Minnesota Department of Natural Resources (DNR)</origin>
+        <pubdate>2010-04-22 00:00:00.0</pubdate>
+        <title>1:100k Digital Raster Graphic - Collars Removed</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota Department of Natural Resources (DNR)</publish>
+        </pubinfo>
+        <onlink>http://gisdata.mn.gov/dataset/base-usgs-scanned-topo-100k-drg</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>A digital raster graphic (DRG) is a scanned image of an U.S. Geological Survey (USGS) standard series topographic map, including all map collar information. The image inside the map neatline is georeferenced to the surface of the earth and fit to the Universal Transverse Mercator projection. The horizontal positional accuracy and datum of the DRG matches the accuracy and datum of the source map. The map is scanned at a minimum resolution of 250 dots per inch.
+
+DRG's are created by scanning published paper maps on high-resolution scanners.  The raster image is georeferenced and fit to the UTM projection.  Colors are standardized to remove scanner limitations and artifacts.  The average data set size is about 6 megabytes in Tagged Image File Format (TIFF) with PackBits compression. DRG's can be easily combined with other digital cartographic products such as digital elevation models (DEM) and digital orthophoto quadrangles (DOQ).
+
+DRG's are stored as rectified TIFF files in geoTIFF format. GeoTIFF is a relatively new TIFF image storage format that incorporates georeferencing information in the header. This allows software, such as ArcView, ARC/INFO, or EPPL7 to reference the image without an additional header or world file.
+
+Within the Minnesota Department of Natural Resources Core GIS data set the DRG's have been processed to be in compliance with departmental data standards (UTM Extended Zone 15, NAD83 datum) and the map collar information has been removed to facilitate the display of the DRG's in a seamless fashion.
+
+These DRG's were clipped and transformed to UTM Zone 15 using EPPL7 Raster GIS.</abstract>
+      <purpose>The DRG is used for validating digital line graphs (DLGs) and for DLG data collection and revision. The DRG can help assess the completeness of digital data from other mapping agencies. It can also be used to produce hybrid products. These include combined DRGs and DOQs for revising and collecting digital data, DRGs and DEMs for creating shaded-relief DRGs, and combinations of DRG, DOQ, and DLG data. Although a standard DRG is an effective mapping tool, its full potential for digital production is realized in combination with other digital data.
+
+Clipping the collar information allows seamless viewing of adjacent DRGs. Standardizing the UTM zone and the datum matches the data with many other statewide datasets available in Minnesota.</purpose>
+      <supplinf>Statewide - Minnesota</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>unknown</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Ground condition on the date of field checking or source aerial photographic materials as documented in the collar information on the printed USGS topographic map (to see the collar area, refer either to the printed topographic quad or to the original USGS DRG). Several dates appear on published USGS quads. The most prominent, and most widely referenced, is printed on the lower right corner of the map. This is usually the year the map was published or revised. In the smaller print along the bottom of the map are other dates for the year of field checking, year of photography, year of survey, or other dates for important work on the map. These dates can be same as the year of publication or up to several years earlier.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.612501</westbc>
+        <eastbc>-88.842351</eastbc>
+        <northbc>49.464145</northbc>
+        <southbc>42.906949</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>DRG, TIFF, Digital Raster Graphic, Topographic Map, imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None. Acknowledgment of the U.S. Geological Survey and the Minnesota Department of Natural Resources would be appreciated in products derived from these data.</useconst>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/base_usgs_scanned_topo_100k_drg/metadata/preview.jpg</browsen>
+      <browsed/>
+    </browse>
+    <native/>
+    <crossref>
+      <citeinfo>
+        <title>base_usgs_scanned_topo_024k_drg, base_usgs_scanned_topo_250k_drg</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>The USGS DRG is produced with the intention of replicating as close as possible the original source map. Users of the DRG will note, however, that a certain amount of 'noise' can be discerned when small areas are blown up or viewed under zoomed-in conditions. This noise is in the form of random specks or pixels of color and halos due to any number of factors, such as, the quality of the source, the use of screens and patterns on the litho, and the unevenness of ink due to saturation and absorption. Discontinuities or breaks in linear features may also be present and are due to improper calibration or usage of the scanner, the condition of the source, and resampling. Descreening, quantizing, and noise filtering are methods used to reduce noise, which, besides creating a more aesthetically pleasing image, have the added benefit of reducing the size of the image file. Removal of lithographic screen patterns is preferred but not required.</logic>
+    <complete>For original USGS DRGS: Image completeness is checked by visually inspecting a sampling of DRGs. Each selected DRG will be examined for gaps (missing data) in the main body of the map, the map collar, the overedge areas, and any insets.
+
+Data completeness for DRG files reflect content of the source graphic. Features may have been eliminated or generalized on the source graphic due to scale and legibility constraints. For information on collection and inclusion criteria, see U.S. Geological Survey, 1994, Standards for 1:100,000-Scale Digital Line Graphs and Quadrangle Maps: National Mapping Program Technical Instructions and U.S. Geological Survey, 1994, Standards for Digital Line Graphs: National Mapping Program Technical Instructions.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Source layer drgncim2:  A random sampling of DRGs will be accuracy tested. The accuracy test will be performed by comparing the positions of UTM grid intersections on the source graphic against the corresponding location on the digital image. A visual inspection will determine whether those coordinates fall within the pixels that define a grid tick.
+
+DRGs will retain the horizontal accuracy of the source maps. Most USGS printed maps contain the National Map Accuracy Standards (NMAS) note in the collar area (to see the collar area, refer either to the printed topographic quad or to the original USGS DRG). The NMAS states that for maps on publication scales of 1:20,000 or smaller, not more than 10 percent of the points tested shall be in error by more than 1/50 inch measured on the publication scale. Test points must be 'well-defined', that is, easily visible or recoverable on the ground. For DRGs this accuracy statement applies only to that area of the DRG that falls within the neatline of the source map (excluding inset areas). Overedge areas falling outside the transformation boundary area (the map neatline), can exhibit anomalies or discrepancies. These anomalies also will appear in the map inset areas and in the map collar. For maps without the NMAS note, the horizontal accuracy is unknown. However, the DRG will retain the accuracy of the source map.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Source layer drgncim2:  In the DRG, the vertical positional accuracy is referenced in the DRG collar (to see the collar area, refer either to the printed topographic quad or to the original USGS DRG).
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>Source layer drgncim2:  100000
+</srcscale>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref/>
+    <direct>raster</direct>
+    <mgmg3obj>grid</mgmg3obj>
+    <mgmg3til>q100k</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+          <coordrep>
+            <absres>10</absres>
+            <ordres>10</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <resdesc>base_usgs_scanned_topo_100k_drg</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ARC/INFO</formname>
+          <formvern>7.1.2</formvern>
+          <transize/>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20151117</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

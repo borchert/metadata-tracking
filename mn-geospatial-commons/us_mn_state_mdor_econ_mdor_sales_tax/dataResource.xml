@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>econ_mdor_sales_tax</baseName>
+    <descriptiveName>Sales Tax, Minnesota, 2003-2009</descriptiveName>
+    <publisher>Minnesota Department of Revenue</publisher>
+    <publisherID>us_mn_state_mdor</publisherID>
+    <currentAsofDate>2009-01-01</currentAsofDate>
+    <resourceType>Microsoft Excel Spreadsheet</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">economy</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID/>
+        <resourceGUID>{730ce400-b13d-41a2-9dc3-45181f5b2cfb}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>xlsx</subResourceType>
+            <subResourceName>econ_mdor_sales_tax</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{971ed264-4326-41c2-b244-0644488ca3f1}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

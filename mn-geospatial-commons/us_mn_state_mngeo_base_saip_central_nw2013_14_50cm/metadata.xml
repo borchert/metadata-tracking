@@ -1,0 +1,651 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Quantum Spatial, Inc.</origin>
+        <pubdate>201506</pubdate>
+        <title>Digital Orthoimagery, Central and Northwest Minnesota, Spring 2013-14, 0.5-m Resolution</title>
+        <geoform>remote-sensing image</geoform>
+        <pubinfo>
+          <publish>Minnesota Geospatial Information Office (MnGeo)</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/base-saip-central-nw2013-14-50cm</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset contains leaf-off 4-band red, green, blue, infrared (RGBI) digital orthophoto imagery produced at 50-centimenter resolution from new aerial photography captured in the spring of 2013 and spring of 2014. The imagery covers most of 29 counties in central and northwestern Minnesota. 
+
+This metadata record was created by the Minnesota Geospatial Information Office (MnGeo) using information supplied by Quantum Spatial, Inc. (formerly Aero-Metric).</abstract>
+      <purpose>Support multi-agency efforts including transportation planning, wetland mapping, urban planning, forest management, soil mapping, and utility siting.</purpose>
+      <supplinf>Most of the area covered by the following Minnesota counties: Aitkin, Becker, Benton, Carlton (partial), Cass, Clearwater, Crow Wing, Douglas, Grant, Hubbard, Kanabec, Kittson, Lake of the Woods, Mahnomen, Marshall, Morrison, Norman, Otter Tail, Pennington, Pine, Polk (partial), Pope, Red Lake, Roseau, Stearns, Stevens, Todd, Traverse, Wadena.
+
+See browse graphic showing the area covered: ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_mngeo/base_saip_central_nw2013_14_50cm/metadata/preview.jpg
+
+To get complete coverage of these counties, use this dataset in conjunction with other regions covered by the Spring Aerial Imagery Program:  http://www.mngeo.state.mn.us/chouse/airphoto/spring2009-2015.html</supplinf>
+    </descript>
+    <timeperd>
+      <current>Ground condition. The first imagery was flown beginning May 6, 2013. The last imagery was flown May 22, 2014.
+
+Using the Spring Aerial Imagery Photo Center Points and Acquisition Dates dataset, the exact date when the photos were taken can be found for a specific area. See this link for the data: https://gisdata.mn.gov/dataset/base-saip-photocenters-2009-14 </current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.2</westbc>
+        <eastbc>-92.28</eastbc>
+        <northbc>49.4</northbc>
+        <southbc>45.27</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>imageryBaseMapsEarthCover, Orthophotography, Digital Orthophotography, Ortho, Orthophotos, Digital Orthorectified Images, Digital Orthophotos, DOQ, DOQQ, Imagery, Images, Aerial Photography, Aerial Photos, Digital Aerial Photography, Air Photo, Color Infrared, Four Band Imagery, leaf-off, orthoimage</themekey>
+      </theme>
+      <place>
+        <placekt>Digital Imagery</placekt>
+        <placekey>Minnesota, MN, Aitkin, Becker, Benton, Carlton, Cass, Clearwater, Crow Wing, Douglas, Grant, Hubbard, Kanabec, Kittson, Lake of the Woods, Mahnomen, Marshall, Morrison, Norman, Otter Tail, Pennington, Pine, Polk, Pope, Red Lake, Roseau, Stearns, Stevens, Todd, Traverse, Wadena</placekey>
+      </place>
+    </keywords>
+    <accconst>Unrestricted</accconst>
+    <useconst>MnGeo Redistribution conditions: In obtaining this data from the Minnesota Geospatial Information Office (MnGeo), it is understood that you and/or your organization have the right to use it for any purpose. If you modify it, you are encouraged to apply responsible best practices by documenting those changes in a metadata record. If you transmit or provide the data to another user, it is your responsibility to provide appropriate content, limitation, warranty and liability information as you see fit.</useconst>
+    <native>IRAS C ver 10.0, Photoshop ver CS5, Windows XP and Windows 7, INPHO OrthoVista 5.5, Global Mapper 13, Bentley MicroStation 7 and 8, INPHO Match-AT 5.5, INPHO OrthoMaster 5.5</native>
+    <crossref>
+      <citeinfo>
+        <title>For information on other air photos available for Minnesota, see: http://www.mngeo.state.mn.us/chouse/airphoto/</title>
+      </citeinfo>
+    </crossref>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_mngeo/base_saip_central_nw2013_14_50cm/metadata/preview.jpg</browsen>
+    </browse>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Steve Kloiber</cntper>
+        </cntperp>
+        <cntpos>Wetland Monitoring Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>500 Lafayette Road</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5164</cntvoice>
+        <cntemail>steve.kloiber@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Radiometry is verified by visual inspection of the digital orthophoto. Slight systematic radiometric differences may exist between adjacent orthoimage files; these are due primarily to differences in source image capture dates and sun angles along flight lines. These differences can be observed in an image's general lightness or darkness when it is compared to adjacent orthoimage file coverages. Tonal balancing may be performed over a group of images during the mosaicking process which may serve to lighten or darken adjacent images for better color tone matching.</attraccr>
+    </attracc>
+    <logic>Not applicable</logic>
+    <complete>Orthoimages are visually inspected for completeness to ensure that no gaps or image misplacements exist within project limits and between adjacent images. These images are derived by mosaicking multiple images to ensure complete coverage. Source imagery is cloud free.
+
+To get complete coverage of counties listed in the Place Keywords, use this dataset in conjunction with other regions covered by the Spring Aerial Imagery Program:  http://www.mngeo.state.mn.us/chouse/airphoto/spring2009-2015.html</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Report from Quantum Spatial, Inc.:  0.50 meters, CE 90. Horizontal accuracy was stated to meet or exceed 1.77 meters, CE90 or the 95% equivalent of 3.05 meters per NSSDA. Airborne GPS data was collected during acquisition and ground control points surveyed. Some points were pulled out of the A/T and used as checkpoints to verify the DOQQ accuracy.
+
+Report from the Minnesota Department of Transportation: This regional imagery project, 50 cm GSD, was independently tested by the Minnesota Department of Transportation, Office of Land Management. The project tested to 0.58 meters RMSE or 0.880 meters at the 95% confidence level based on NSSDA (June 1998) methods using 124 test points. The majority of the test points were provided by the various county surveyors or public works departments of the counties within this regional project.</horizpar>
+        <qhorizpa>
+          <horizpav>0.49</horizpav>
+          <horizpae>Value in meters, CE 90</horizpae>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not applicable</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>02800038</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140517</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>02800039</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140517</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>02800040</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140517</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>02800041</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140517</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>02800042</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140517</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>02901238</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140523</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>02901239</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140523</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>02901240</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140523</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>02901241</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140523</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>02901242</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140523</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>02901243</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140523</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>02901244</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140523</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>05340190</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140517</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>05340191</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140517</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>05340192</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140517</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>05340193</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140517</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>05340194</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140517</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>International Water Institute and Minnesota Department of Natural Resources</origin>
+            <pubdate>2015</pubdate>
+            <title>05340195</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,392</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140517</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Image</srccitea>
+        <srccontr>Source imagery for orthophoto production.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Quantum Spatial, Inc</origin>
+            <pubdate>2015</pubdate>
+            <title>MN 5 Meter DEM</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2014</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>DEM</srccitea>
+        <srccontr>Used to provide ground elevations for orthorectification process.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Quantum Spatial, Inc.</origin>
+            <pubdate>2015</pubdate>
+            <title>MN 30cm Area Aerotriangulation</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>201407</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>AT</srccitea>
+        <srccontr>Used to provide photo exterior orientations for orthorectification process.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Sources:
+1. International Water Institute and Minnesota Department of Natural Resources: Source imagery for orthophoto production.
+
+2. Minnesota 5 meter DEM was used to provide ground elevations for orthorectification process. Some DEM data into Canada and Wisconsin was downloaded from USGS National Elevation Dataset DEM with minimal editing while the Dakotas' data was downloaded LiDAR from the International Water Institute.
+
+3. Minnesota 50 centimeter Area Aerotriangulation was used to provide photo exterior orientations for orthorectification process.
+
+
+Native environment: IRAS C ver 10.0, Photoshop ver CS5, Windows XP and Windows 7, INPHO OrthoVista 5.5, Global Mapper 13, Bentley MicroStation 7 and 8, INPHO Match-AT 5.5, INPHO OrthoMaster 5.5,Intergraph ISAT 6.3
+
+
+Processing Steps:
+
+The imagery for this project was flown at a nominal acquisition altitude (AGL) of 25,000 feet. Digital camera(s) were calibrated by the manufacturer and the camera parameters refined through in-situ proprietary procedures.
+
+The acquisition was done using two Microsoft UltraCam Eagle digital sensors during 2013 spring and 2014 spring leaf-off conditions allowing for 5% snow and cloud cover. The flying height was 25,000 feet AMT (above mean terrain) and imagery data was captured in 12-bit for four bands (Red-Green-Blue-Near Infrared). The data was then processed and adjusted using Microsoft's UltraMap software into 12-bit, 4-band images.
+
+The airborne GPS and IMU data was processed and used in beginning the aerial triangulation (AT) processing which was done using INPHO's Match-AT software. The resulting exterior orientations for each frame were used along with the DMC images and a 5 meter gridded DEM generated from the downloaded statewide LiDAR datasets to do a rectification using INPHO's OrthoMaster software. The orthorectified frames were then further adjusted using INPHO's OrthoVista - Radiometrix Editor and seamlines automatically generated. Those seamlines were completely reviewed and edited to ensure no man-made features were clipped as well as to optimize seamline locations in general. Once the seamlines were edited the images were mosaicked and big tiles were cut for review and editing purposes.
+
+The big tiles were completely reviewed and calls made for warped bridges and other artifacts which were then corrected. Then a QC was performed on 10-15% of the tiles focusing on urban areas and other important features. Once all QC edits were complete the big tiles were then used to cut out the final DOQQ tiles. Finally, the near-infrared band was adjusted per the client's direction and the images were formatted for final delivery.</procdesc>
+        <procdate>201411</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+  </spdoinfo>
+  <metainfo>
+    <metd>20150604</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street, Room 300</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntfax>651-296-6398</cntfax>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <resdesc>SAIP Central and Northwestern Minnesota</resdesc>
+    <distliab>MnGeo's full disclaimer is here: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab>
+    <stdorder>
+      <ordering>These air photos are very large and thus are not provided online for download. Instead, they are available to view as a web map service (WMS), part of MnGeo's Geospatial Image Service. Click on the link below for more information about the Geospatial Image Service and how to use web map services.</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street, Room 300</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntfax>651-296-6398</cntfax>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <eainfo>
+    <overview>
+      <eaover>Imagery has 4 Bands with the order of Red, Green, Blue and Near Infrared.</eaover>
+    </overview>
+  </eainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+          <coordrep>
+            <absres>0.5</absres>
+            <ordres>0.5</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

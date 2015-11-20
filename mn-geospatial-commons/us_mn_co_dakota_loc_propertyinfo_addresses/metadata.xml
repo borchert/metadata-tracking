@@ -1,0 +1,488 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Dakota County GIS, Dakota County GIS, Staff</origin>
+        <pubdate>20150915</pubdate>
+        <title>Address Points, Dakota County, Minnesota</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <publish>Dakota County GIS</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-co-dakota-loc-propertyinfo-addresses</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset is a compilation of address point data from Dakota County address authorities, which are cities and townships. The dataset is intended to contain a point location and the official address (as defined by the address authority) for all occupiable units and any other official addresses within the jurisdictional boundary of each address authority. A number of other attributes are available in the dataset, but may not be populated by some address authorities. Dakota County is playing a coordinative role to work with cities and townships to create, maintain and aggregate address points.</abstract>
+      <purpose>To view, query and analyze address point data in Dakota County, and to have a single, authoritative source of the official address for any location.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150915</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Unknown</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Weekly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.329368</westbc>
+        <eastbc>-92.729786</eastbc>
+        <northbc>44.923436</northbc>
+        <southbc>44.470134</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>location, addresses, house number, address points, mailing</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Dakota County Minnesota</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Dakota County GIS Database DisclaimerNOTICE: Dakota County Geographic Information System (GIS) Data are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13) THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by Dakota County ("County") for their own internal business purposes. The County does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, you must provide a copy of this disclaimer and the accompanying metadata for this dataset to the user.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Dakota County GIS</cntorg>
+          <cntper>Dakota County GIS</cntper>
+        </cntperp>
+        <cntpos>Staff</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>14955 Galaxie Ave</address>
+          <city>Apple Valley</city>
+          <state>Minnesota</state>
+          <postal>55124</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>9528917000</cntvoice>
+        <cntemail>gis@co.dakota.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</native>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>Address points are located by various methods. Typically the point is at least located within the property lines. Considerable effort has been made to move points so they at least fall on a building (in no particular location) although not all points have been verified or checked.
+
+Dakota County works with the city and township address authorities to create and maintain the address points data.  For information about lineage at the data development level, contact each address authority.</procdesc>
+        <procdate>20150731</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>165801</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>MN Dakota Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>44.51666666666667</stdparll>
+            <stdparll>44.91666666666666</stdparll>
+            <longcm>-93.31666666666666</longcm>
+            <latprjo>44.47194444444445</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>100000.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000020135967347714067</absres>
+            <ordres>0.000020135967347714067</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D MN Dakota</horizdn>
+        <ellips>MN Dakota</ellips>
+        <semiaxis>6378421.989</semiaxis>
+        <denflat>298.2572133677353</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Addresses</enttypl>
+        <enttypd>Address Points</enttypd>
+        <enttypds>Dakota County cities and townships</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BLDG_NUM</attrlabl>
+        <attrdef>Building Number (the number portion of the address)</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PREFIX_DIR</attrlabl>
+        <attrdef>The prefix direction for the street name.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PREFIXTYPE</attrlabl>
+        <attrdef>The prefix type for the street name.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STREETNAME</attrlabl>
+        <attrdef>The street name</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STREETTYPE</attrlabl>
+        <attrdef>The street type portion of the address</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SUFFIX_DIR</attrlabl>
+        <attrdef>The suffix direction portion of the address</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>UNIT_INFO</attrlabl>
+        <attrdef>The unit number (if applicable) of the address</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CITY</attrlabl>
+        <attrdef>The physical (not mailing) city portion of the address. The Municipality.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE</attrlabl>
+        <attrdef>The source of the original address information</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COMMENTS</attrlabl>
+        <attrdef>Any addtional comments regarding the address</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COMMENTS_OLD</attrlabl>
+        <attrdef>old comments</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS</attrlabl>
+        <attrdef>The street address of the property</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DATE_ASSIGN</attrlabl>
+        <attrdef>The date the address was assigned (if known)</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Pcity</attrlabl>
+        <attrdef>City used for mailing purposes by the US Postal Service.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Zip</attrlabl>
+        <attrdef>5 digit Zip Code used by the US Postal Service.</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>UpdateBy</attrlabl>
+        <attrdef>User responsible for this update</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>GlobalID</attrlabl>
+        <attrdef>Global ID</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ADD_ID_NAT</attrlabl>
+        <attrdef>National Address Unique Identifier</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ADD_ID_LOC</attrlabl>
+        <attrdef>Local Address Unique Identifier</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ANUMBERPRE</attrlabl>
+        <attrdef>Address Number Prefix</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ANUMBER</attrlabl>
+        <attrdef>Address number</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ANUMBERSUF</attrlabl>
+        <attrdef>Address number suffix</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ANUMBERSEP</attrlabl>
+        <attrdef>Seperator element</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ST_PRE_MOD</attrlabl>
+        <attrdef>Street name pre modifier</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ST_PRE_DIR</attrlabl>
+        <attrdef>Street name pre directional</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ST_PRE_TYP</attrlabl>
+        <attrdef>Street name pre type</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ST_NAME</attrlabl>
+        <attrdef>Street name</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ST_POS_TYP</attrlabl>
+        <attrdef>Street name post type</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ST_POS_DIR</attrlabl>
+        <attrdef>Street name post directional</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ST_POS_MOD</attrlabl>
+        <attrdef>Street name post modifier</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SUB_TYPE1</attrlabl>
+        <attrdef>Subaddress type 1</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SUB_ID1</attrlabl>
+        <attrdef>Subaddress identifier 1</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SUB_TYPE2</attrlabl>
+        <attrdef>Subaddress type 2</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SUB_ID2</attrlabl>
+        <attrdef>Subaddress identifier 2</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MUNI_NAME</attrlabl>
+        <attrdef>Municipal jurisdiction name</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MUNI_CODE</attrlabl>
+        <attrdef>Municipal jurisdiction code</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>USPS_PLACE</attrlabl>
+        <attrdef>USPS place name</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CO_CODE</attrlabl>
+        <attrdef>County code</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CO_NAME</attrlabl>
+        <attrdef>County Name</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STATE_CODE</attrlabl>
+        <attrdef>State Code</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ZIP5</attrlabl>
+        <attrdef>ZIP code</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ZIP4</attrlabl>
+        <attrdef>ZIP plus 4</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LOC_DESC</attrlabl>
+        <attrdef>Location Description</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LANDMARK</attrlabl>
+        <attrdef>Landmark name</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RESIDENCE</attrlabl>
+        <attrdef>Residence</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MAILABLE</attrlabl>
+        <attrdef>Mailable Address</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STATUS</attrlabl>
+        <attrdef>Lifecycle status</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PIN</attrlabl>
+        <attrdef>Parcel unique identifier</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LONGITUDE</attrlabl>
+        <attrdef>Longitude</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LATITUDE</attrlabl>
+        <attrdef>Latitude</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>POSI_ACCU</attrlabl>
+        <attrdef>Positional accuracy indicator</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ADIRSOURCE</attrlabl>
+        <attrdef>Address direct source</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AAUTHORITY</attrlabl>
+        <attrdef>Address authority</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>EDIT_ORG</attrlabl>
+        <attrdef>Editing organization</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>UPDATEDATE</attrlabl>
+        <attrdef>Update date</attrdef>
+        <attrdefs>Dakota County GIS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AQUALITY</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Dakota County GIS</cntorg>
+          <cntper>Dakota County GIS</cntper>
+        </cntperp>
+        <cntpos>Staff</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>14955 Galaxie Ave</address>
+          <city>Apple Valley</city>
+          <state>Minnesota</state>
+          <postal>55124</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>9528917000</cntvoice>
+        <cntemail>gis@co.dakota.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>file://Service=SDE:SQLSERVER:SQL2K5T; Database=Dak; User=GIS; Version=sde.DEFAULT</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20150915</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Dakota County GIS</cntorg>
+          <cntper>Dakota County GIS</cntper>
+        </cntperp>
+        <cntpos>Staff</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>14955 Galaxie Ave</address>
+          <city>Apple Valley</city>
+          <state>Minnesota</state>
+          <postal>55124</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>9528917000</cntvoice>
+        <cntemail>gis@co.dakota.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

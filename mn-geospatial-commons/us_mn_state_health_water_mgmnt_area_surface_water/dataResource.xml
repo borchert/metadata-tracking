@@ -1,0 +1,22 @@
+<dataResource>
+	<baseName>water_mgmnt_area_surface_water</baseName>
+	<descriptiveName>Drinking Water Supply Management Areas for Surface Water</descriptiveName>
+	<publisherID>us_mn_state_health</publisherID>
+	<topicCategories>
+		<topicCategory type="ISO 19115">inlandWaters</topicCategory>
+		<topicCategory type="ISO 19115">health</topicCategory>
+		<topicCategory type="ISO 19115">environment</topicCategory>
+	</topicCategories>
+	<resourceIdentifiers>
+		<resourceGUID>{f3ef7c2a-6039-4c4c-a8ad-e95735390eb8}</resourceGUID>
+	</resourceIdentifiers>
+	<dataSubResources>
+		<dataSubResource>
+			<subResourceType>fgdb</subResourceType>
+			<subResourceName>Drinking Water Supply Management Areas for Surface Water</subResourceName>
+			<subResourceIdentifiers>
+				<subResourceGUID>{9911b5b5-2648-4653-9de5-ca4a2ddd23b7}</subResourceGUID>
+			</subResourceIdentifiers>
+		</dataSubResource>
+	</dataSubResources>
+</dataResource>

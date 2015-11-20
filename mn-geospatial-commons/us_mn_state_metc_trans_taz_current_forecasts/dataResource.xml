@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>trans_taz_current_forecasts</baseName>
+  <descriptiveName>Transportation Analysis Zones with Current Forecasts</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-10-05</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{accd04aa-eb44-4a7a-91cb-3ca4bb560a8e}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{11785722-41be-4ac8-9266-937b910a251d}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

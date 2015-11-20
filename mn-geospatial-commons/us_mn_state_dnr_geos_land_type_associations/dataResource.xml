@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>geos_land_type_associations</baseName>
+    <descriptiveName>Ecological Land Type Associations of Minnesota</descriptiveName>
+    <publisher>Minnesota DNR - Division of Forestry</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>1999-06-01</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>94</resourceID>
+        <resourceGUID>{394454e7-1f7c-4a5c-8c1d-a8d067efcd5d}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{a36b269b-c022-4aac-b11a-afaff07513f7}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

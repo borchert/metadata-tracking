@@ -1,0 +1,41 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>trans_hcaadt_traffic_count_locs</baseName>
+    <descriptiveName>Heavy Construction Annual Average Daily Traffic Count Locations</descriptiveName>
+    <publisherID>us_mn_state_dot</publisherID>
+    <currentAsofDate>2014-12-22</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">transportation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{ef3f1259-5bf0-4791-aa05-e191ca450ddd}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>shp</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{35fe51c9-7bca-4469-8312-03f07d478806}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>web_map</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{5e01bdd0-69ad-4b77-bdd0-173079094575}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Traffic Mapping Application - Web Map" name="Traffic Mapping Application - Web Map">http://www.dot.state.mn.us/traffic/data/tma.html</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{69ec4eba-862f-4f9f-8372-46407e16ead9}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="PDF Maps, by Municipality or County, and Reports" name="PDF Maps, by Municipality or County, and Reports">http://www.dot.state.mn.us/traffic/data/data-products.html</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

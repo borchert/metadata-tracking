@@ -1,0 +1,465 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Metropolitan Council, Dakota, Carver, Hennepin, Ramsey, Scott &amp; Washington Counties and the Minnesota Dept. of Transportation</origin>
+        <pubdate>20020905</pubdate>
+        <title>Counties and Cities &amp; Townships 2000, Twin Cities Metropolitan Area</title>
+        <mgmg1cid>N/A</mgmg1cid>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-bdry-census2000counties-ctus</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This is a polygon dataset for county boundaries as well as for cities, township and unorganized territory (CTU) boundaries in the Twin Cities 7-county metropolitan area as of April 2000.  This dataset will be kept static as of this date to be used with 2000 census data and other year 2000 data.  
+
+This dataset is composed of three shape files and a lookup table. 
+
+Census2000Counties.shp = county boundaries
+
+Census2000CTUs.shp = city, township and unorganized territory boundaries
+
+Census2000CountiesAndCTUs.shp = combined county and CTU boundaries
+
+Census2000CountyCTULookupTable.dbf = a lookup table containing various data related to cities, townships, unorganized territories and any divisions created by county boundaries splitting them.
+
+
+NOTES:
+
+- The five digit CTU codes in this dataset are identical to the Federal Information Processing Standard (FIPS) ''Place'' codes.  They are also used by the Census Bureau and many other organizations and are proposed as a MN state data coding standard.
+
+- Cities and townships have also been referred to as ''MCDs'' (a census term), however this term technically refers to the part of each city or township within a single county.  Thus, a few cities in the metro area that are split by county boundaries are actually comprised of two different MCDs. This was part of the impetus for a proposed MN state data standard that uses the ''CTU'' terminology for clarity.
+
+- The boundary line data for this dataset comes primarily from each county, with MN/DOT data being used in Anoka County.
+
+-  A variety of civil divisions of the land exist within the United States.  In Minnesota, only three types exist - cities, townships and unorganized territories.  All three of these exist within the Twin Cities seven county area.  The only unorganized territory is Fort Snelling (a large portion of which is occupied by the MSP International Airport).
+
+-  Some cities are split between two counties.  Only those parts of cities within the 7-county area are included.
+
+- Prior to the 2000 census, the FIPS Place code for the City of Greenwood in Hennepin County was changed from 25928 to 25918.  This dataset reflects that change to match 2000 U.S. Census data.</abstract>
+      <purpose>This dataset was developed in particular to be used with various demographic data for the year 2000, in particular the 2000 U.S. Census data.</purpose>
+      <supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20000701</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Data are intended to reflect county, city and township boundaries as of April, 2000.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.012</westbc>
+        <eastbc>-92.732</eastbc>
+        <northbc>45.415</northbc>
+        <southbc>44.471</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>counties, cities, political boundaries, townships, FIPS place code, CTU, CTUs,  MCD, minor civil divisions, municipal boundaries, county boundaries, city boundaries, communities, community boundaries</themekey>
+      </theme>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/bdry_census2000counties_ctus/metadata/preview.jpg</browsen>
+    </browse>
+    <native>ArcGIS Version 9x</native>
+    <crossref>
+      <citeinfo>
+        <title>Counties, Cities and Townships, Counties, Cities and Townships Combined</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Tanya Mayer</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1604</cntvoice>
+        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Valid code tests have been conducted.  No known attribute errors exist.</attraccr>
+    </attracc>
+    <logic>The dataset is topologically 'clean'.</logic>
+    <complete>Entire seven county geographic area is covered.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The estimated positional accuracy of the dataset varies with the source of the data as follows:
+
+Anoka County
+Used MnDOT's 1996 Municipal and County boundaries layers from ''BaseMap '97'' CD.  Positional accuracy estimate is 40 ft.  Boundary changes since 1996 were derived from paper city Comprehensive Plan Amendments digitized using Metropolitan Council digital orthophotos for reference.  Lines are estimated to generally have a 40 ft. positional accuracy.  No testing of the positional accuracy has been done.
+Note:  When compared to a municipal boundary dataset received from Anoka County in 2002, postional differences of up to 50 meters were observed in a some places.
+
+Carver County
+County has GPS data for all 1/4 Section corners accurate to 1/50th foot.  Township boundaries that follow PLS lines are estimated at between 0.2 ft. and 0.5 ft. of true location. City boundaries that follow PLS lines are also expected to be near this range of accuracy. Other boundaries are within .5' to 5' of horizontal accuracy.
+
+Dakota County
+Estimated +or- 0.2 feet on lines that follow the PLS or well described parcels.  90% of lines are estimated to be within 0.5 feet of true location.  Some problem areas exist.  For example, many questions exist as to where the boundary of Mendota is supposed to be.
+
+Hennepin County
+Estimated +or- 2 to 4 feet at section corners.  Positional accuracy decreases with distance from section corners.
+
+Ramsey County
+The majority of the municipal boundary layer possesses a horizontal positional accuracy equivalent to that of our digitized parcels.  (+-7 feet) Exceptions to this include unresolved boundary issues and interpreted boundary positions such as the thread of the Mississippi River.  Some areas could deviate in position by more than 100 feet.  Further municipal boundary annexation information may be found at the Minnesota Planning agency,  the municipality in question or at the Minnesota Department of Transportation which performs most annexation mapping functions.  Public Land Survey (PLS) and parcel mapping information can be found at the Ramsey County Surveyors Office.
+
+Scott County
+Township boundaries that follow PLS lines are estimated at between 0.4 ft. and 1 ft. of true location.  City boundaries that follow PLS lines are also expected to be near this range of accuracy.  Other boundaries are thought to be within 20 or 40 ft.
+
+Washington County
+Boundaries shown that coincide with hydrological features or those that have generalized definitions with little supporting detail of their location are digitized from partially rectified aerial photographs at 1 inch equals 200 feet. These features have been tested 23 feet horizontal accuracy at the 95% confidence level using NSSDA testing procedures except in areas of high vertical relief where such features tested 120 feet horizontal accuracy by use of other testing procedures. Boundaries defined as center of main channel on Mississippi and St. Croix rivers are approximations only (source U.S.G.S. quadrangle maps). All other boundary segments are generated by coordinate geometry based on a framework of accurately located PLSS corner positions. Legal boundary definitions were interpreted and analyzed according to records available and are not based on field survey. The nature of these definitions present situations where documents of record may not coincide with known ground position or that their ambiguity makes it difficult to identify precise ground location. As a result, caution is necessary in use of the municipal boundary data when using it in site specific applications. For more information contact the Washington County Surveyor's Office.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+      <procstep>
+        <procdesc>SOURCES USED:
+
+This dataset consist of lines from several sources.  They are:
+ - Carver County
+ - Dakota County
+ - Hennepin County
+ - Ramsey County
+ - Scott County
+ - Washington County
+ - Minnesota Department of Transportation (used for Anoka County)
+ - City comprehensive plan amendments (used in Anoka County)
+
+
+ASSEMBLING THE DATA: 
+
+Linework was taken directly as provided from the counties with the following exceptions:  
+
+Anoka County lines were derived from January 1996 MNDOT data.  Where annexations occurred in Anoka Co. since 1996, the CTU boundaries were digitized from city comprehensive plan amendment maps using the Metropolitan Council digital orthophotos as a reference. 
+
+Hennepin County linework is derived from CTU boundaries received from Hennepin Co. in 1998.  Linework for boundary changes since that time was taken from 2002 CTU boundary data provided by Hennepin County.  Note Hennepin County has made a number of changes to the alignment of CTU boundaries between the 1998 data and the 2002 data.  The 1998 data is the primary source for this 2000 CTU dataset.
+
+
+County boundaries were taken from the county datasets as follows:
+
+Dakota/Scott boundary:  Dakota County dataset was used.
+
+Dakota/Washington:  Dakota County dataset was used.
+
+Washington/Ramsey:  Washington County dataset was used.
+
+Dakota/Ramsey:  Dakota County dataset was used.
+
+Hennepin/Ramsey:  Ramsey County dataset was used with the the exception of one strip in the south along the river.
+
+Scott/Hennepin: Hennepin County dataset was used.
+
+Carver/Hennepin: Hennepin County dataset was used.
+
+Carver/Scott:  Carver County dataset was used with the exception of one segment where the Carver data appeared to go over land in Scott County as viewed on the Met. Council's orthophotos.
+
+Ramsey/Anoka: Ramsey County dataset was used.
+
+Washington/Anoka: Washington County dataset was used.
+
+Hennepin/Anoka:  Hennepin County dataset was used.
+
+
+
+Washington County Note:  Digital mapping of the city and township boundaries by Washington County resulted in the discovery of three separate polygon areas, where each was found not to have a corresponding FIPS place code.  These polygons fall with the water bodies of the Mississippi and St. Croix Rivers and are the result of an apparent discrepancy in the chain of record defining city and township boundaries for their adjoining city or township.  They have been merged with adjacent cities or townships in this dataset.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>County code, CTU code, county name, CTU name, COMCD code</indspref>
+    <direct>Vector</direct>
+    <mgmg3obj>polygon shapes</mgmg3obj>
+    <mgmg3til>One layer for entire seven county region.</mgmg3til>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>This dataset is composed of three shape files and a lookup table. 
+ 
+County_2000.shp = county boundaries
+ 
+CTU_2000.shp = city, township and unorganized territory boundaries
+ 
+County_CTU_2000.shp = combined county and CTU boundaries
+ 
+County_CTU_LUT_2000.dbf = a lookup table containing various data related to 
+     cities, townships, unorganized territories and any divisions created by 
+     county boundaries splitting them.
+ 
+ 
+Definitions for each attribute table follow.  Field lengths and types for all
+attributes are listed at the bottom.
+ 
+-----------------------------------------------------------------------------
+ 
+Attributes for County_2000.shp:
+ 
+CO_CODE:    3 digit FIPS and state standard county ID code; e.g. 163, 003
+ 
+CO_NAME:    Name of the county, upper case e.g. WASHINGTON
+ 
+CO_NAME_FU: Full county name, mixed case e.g. Washington County
+ 
+CO_ABBREV:  Four character county abbreviation e.g. WASH
+ 
+-----------------------------------------------------------------------------
+ 
+Attributes for CTU_2000.shp
+ 
+CTU_CODE:   5 digit FIPS 'Place' code, Census Bureau standard code and 
+            proposed state standard ID code for cities, townships and 
+            unorganized territories
+ 
+CTU_NAME:   Name of the city, township or unorganized territory,  
+            e.g. Burns Twp., Blaine
+ 
+CTU_ABBREV: 6 character unique abbreviation for the CTU developed by Met. 
+            Council GIS staff for file naming purposes  e.g. ANDOVE, ANOKAX.
+ 
+CTU_TYPE:   Type of CTU
+            C = city
+            T = township
+            U = unorganized territory
+            O = other (not a CTU, but useful as an entity in this table 
+                e.g. MSP airport)
+ 
+ABC_SORT:   3 digit integer that will sort alphabetically e.g. 'St.' is 
+            sorted as 'Saint'
+ 
+FIVE_COLOR: Numbers 1 to 5 for shading CTUs so adjacent CTUs have different
+            colors
+ 
+-----------------------------------------------------------------------------
+ 
+Attributes for County_CTU_2000.shp
+ 
+COCTU_CODE: 8 digit code (concatenation of CO_CODE and CTU_CODE below)
+ 
+COCTU_DESC: Description of the COCTU; e.g. Burns Township, Blaine 
+            (Anoka Co. part)
+ 
+CO_CODE:    3 digit FIPS and state standard county ID code; e.g. 163, 003
+ 
+CO_NAME:    Name of the county
+ 
+CTU_CODE:   5 digit FIPS 'Place' code, Census Bureau standard code and 
+            proposed state standard ID code for cities, townships and 
+            unorganized territories
+ 
+CTU_NAME:   Name of the city, township or unorganized territory,  
+            e.g. Burns Twp., Blaine
+ 
+COMCD_CENS: The Census Bureau's old 6 digit county-MCD code (concatenation of 
+            FIPS county code and old Census MCD code)
+ 
+-----------------------------------------------------------------------------
+ 
+Attributes for County_CTU_LUT_2000.dbf table:
+ 
+COCTU_CODE: 8 digit code (concatenation of CO_CODE and CTU_CODE below)
+ 
+COCTU_DESC: Description of the COCTU; e.g. Burns Township, Blaine 
+            (Anoka Co. part)
+ 
+CO_CODE:    3 digit FIPS and state standard county ID code; e.g. 163, 003
+ 
+CO_NAME:    Name of the county
+ 
+CTU_CODE:   5 digit FIPS 'Place' code, Census Bureau standard code and 
+            proposed state standard ID code for cities, townships and 
+            unorganized territories
+ 
+CTU_NAME:   Name of the city, township or unorganized territory,  
+            e.g. Burns Twp., Blaine
+ 
+CTU_ABBREV: 6 character unique abbreviation for the CTU developed by Met. 
+            Council GIS staff for file naming purposes  e.g. ANDOVE, ANOKAX.
+ 
+COMCD_CENS: The Census Bureau's old 6 digit county-MCD code (concatenation of 
+            FIPS county code and old Census MCD code)
+ 
+CTU_TYPE:   Type of CTU
+            C = city
+            T = township
+            U = unorganized territory
+            O = other (not a CTU, but useful as an entity in this table 
+                e.g. MSP airport)
+ 
+DUP_CTYTWP: Identifies cities and townships with the same name (e.g. City of 
+            New Market and New Market Township)
+ 
+ABC_SORT:   3 digit integer that will sort alphabetically e.g. 'St.' is 
+            sorted as 'Saint'
+ 
+FIVE_COLOR: Numbers 1 to 5 for shading CTUs so adjacent CTUs have different
+            colors
+ 
+POP_1990:   1990 population for county-CTU based on the 1990 census 
+            (including subsequent corrections of the data by the Census 
+            Bureau)
+ 
+POP_2000:   2000 population for county-CTU based on the 2000 census (does 
+            not yet including any subsequent corrections of the data by the 
+            Census Bureau)
+  
+PPOP_2020:  County-CTU population projection for 2020.  These projections 
+            were developed by Metropolitan Council Research Dept. staff for 
+            growth management work.
+ 
+CHANGE_DAT: The date of the most recent change to a record in this table
+ 
+NOTES:      A place to document changes that have occurred for particular 
+            CTUs (e.g. mergers, new FIPS codes, corrections to table, etc.)
+ 
+MNREV_CODE: Minnesota Department of Revenue code for CTU; e.g. 1400, 500, 6 
+            (unique within county only)
+ 
+MNDES_CODE: Minnesota Department of Economic Security 'community' code for 
+            CTU, e.g. 0025, 0215  (unique within county only)
+ 
+HENN_CODE:  'Municipal' code used by Hennepin County
+ 
+MCFIN_CODE: The Metropolitan Council Finance Dept. accounting codes for those 
+            cities and townships that are connected to Council owned waste 
+            water treatment plants and are paying sewer access charges (SAC).  
+            Not all cities and townships in the metro area will have a code.
+ 
+-----------------------------------------------------------------------------
+ 
+Field types and lengths using ArcGIS 8x terminology
+ 
+COCTU_CODE  string   8
+COCTU_DESC  string   40
+CO_CODE     string   3
+CO_NAME     string   24
+CO_NAME_FU  string   24
+CO_ABBREV   string   4
+CTU_CODE    string   5
+CTU_NAME    string   24
+CTU_ABBREV  string   6
+COMCD_CENS  integer  long
+CTU_TYPE    string   1
+DUP_CTYTWP  string   1
+ABC_SORT    integer  short
+FIVE_COLOR  integer  short
+SYMBOL      integer  short
+POP_1990    integer  long
+POP_2000    integer  long
+PPOP_2020   integer  long
+CHANGE_DAT  date     8
+NOTES       string   250
+MNREV_CODE  integer  short
+MNDES_CODE  string   7
+HENN_CODE   integer  short
+MCFIN_CODE  string   4</eaover>
+      <eadetcit>None</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>Census2000CountiesAndCTUs</resdesc>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shape files</formname>
+          <formvern>ArcGIS 9x</formvern>
+          <transize>3  MB for zip file.</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Jon Hoekenga</cntper>
+        </cntperp>
+        <cntpos>GIS System Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>Minnesota</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651-602-1561</cntvoice>
+        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20070731</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Tanya Mayer</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1604</cntvoice>
+        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20110809</ModDate>
+    <ModTime>11284500</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20110809</mdDateSt>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

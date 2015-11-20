@@ -1,0 +1,45 @@
+<dataResource>
+  <baseName>elev_dig_surf_model</baseName>
+  <descriptiveName>Digital Surface Model, Minnesota, 2006-2012</descriptiveName>
+  <publisherID>edu_umn</publisherID>
+  <currentAsofDate>2015-09-22</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">elevation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{0e7fead5-af72-4519-9d1c-9eed2271e2c2}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>external</subResourceType>
+	  <subResourceName>Download from Data Repository for U of MN (DRUM)</subResourceName>
+      <subResourceIdentifiers>
+        <subResourceGUID>{fd1e9342-b7de-464c-be2e-04a9a11c5a6a}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="HTML" name="Download from Data Repository for U of MN (DRUM))">http://dx.doi.org/10.13020/D6SG6N</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{59629fda-19f5-4d3d-8421-9bf53e11817a}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="ArcGIS Image Service">https://gis.uspatial.umn.edu/arcgis/rest/services/solar/mn_dsm_ref/ImageServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+	<dataSubResource>
+      <subResourceType>external</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{bf1e3b4b-6326-4edf-9615-bd876cf842c2}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="HTML" name="MN Solar Suitability Analysis Project Website">http://solar.maps.umn.edu/</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+	
+	
+	
+  </dataSubResources>
+</dataResource>

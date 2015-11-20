@@ -1,0 +1,31 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>trans_georef_frwplat_footprints</baseName>
+    <descriptiveName>Right of Way Plat and Commissioner's Graphic Order - Raster Image File Footprints, Minnesota</descriptiveName>
+    <publisherID>us_mn_state_dot</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">transportation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{0b03901f-a954-4896-88b9-eb41229390ca}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>shp</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{2b0fdd5f-e00b-4dfd-a4fe-039f3312b456}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{00c0e3ee-e534-4bc5-bce8-d0e89ef1a5b0}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Right of Way Mapping Info Webpage" name="Right of Way Mapping Info Webpage">http://www.dot.state.mn.us/maps/gisweb/row/</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

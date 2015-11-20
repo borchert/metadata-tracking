@@ -1,0 +1,24 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>biota_landcover_ripbisf_1990s</baseName>
+    <descriptiveName>Land Use: Camp Ripley and Beltrami Island State Forest, Minnesota</descriptiveName>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">biota</topicCategory>
+        <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{08b0af32-131f-4fa6-b50f-b5aecff256ac}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>biota_landcover_ripbisf_1990s</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{5bfcf3e8-947b-4327-91fd-e286f921a1b0}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

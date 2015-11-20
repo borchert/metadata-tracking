@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>society_tbi_mall_america2010</baseName>
+  <descriptiveName>Travel Behavior Inventory 2010 Mall of America Survey</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-10-14</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">society</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{ccc7a06f-37ff-4c8b-ac2d-bd01cf1ca977}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>xlsx</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{56a7a9eb-0be8-4500-a594-d098137e179f}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

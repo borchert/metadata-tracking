@@ -1,0 +1,60 @@
+<dataResource>
+  <baseName>atmos_solar_insolation</baseName>
+  <descriptiveName>Solar Insolation, Minnesota, 2006-2012</descriptiveName>
+  <publisherID>edu_umn</publisherID>
+  <currentAsofDate>2015-09-22</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">climatologyMeteorologyAtmosphere</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{e0ea09ff-fbb4-4161-bad8-fb4fb1e8fdc1}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>external</subResourceType>
+      <subResourceName>Download from Data Repository for U of MN (DRUM)</subResourceName>
+      <subResourceIdentifiers>
+        <subResourceGUID>{6f7c8776-e698-4fca-8201-80f5a8b89e1f}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="HTML" name="Download from Data Repository for U of MN (DRUM)" description="">http://dx.doi.org/10.13020/D6X59X</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{57873bed-27a3-431c-bd9d-a17684e5ff8e}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="ArcGIS Server Map Service" description="">https://gis.uspatial.umn.edu/arcgis/rest/services/solar/mn_solar/ImageServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>wms</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{9bd6a9b3-38fd-4d75-9300-630be1abc367}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceGetCapabilities" name="WMS GetCapabilities" description="">https://gis.uspatial.umn.edu/arcgis/services/solar/mn_solar/ImageServer/WMSServer?request=GetCapabilities&amp;service=WMS</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>web_app</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{ff9d842c-c565-41cb-a1ec-d89eda8541dc}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="HTML" name="Web App" description="">http://solar.maps.umn.edu/app/</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>external</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{2f53cc20-9d1f-41ae-8b4d-82284e9db267}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="HTML" name="MN Solar Suitability Analysis Project Website" description="">http://solar.maps.umn.edu/</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

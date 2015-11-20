@@ -1,0 +1,34 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>struc_state_forest_campgrounds</baseName>
+    <descriptiveName>State Forest Campgrounds and Day Use Areas</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-04-30</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">structure</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>192</resourceID>
+        <resourceGUID>{3cc71bdc-3e21-4e66-b0e7-49663a4813f5}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{a8ba09fd-657c-4d2e-bc47-80d023e9cf32}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>preview</subResourceType>
+            <subResourceDescription>Two previews, one GeoJSON and one JPEG for viewing data.</subResourceDescription>
+            <subResourceIdentifiers>
+                <subResourceGUID>{7815d827-bb68-4f0a-80de-6430c88387d6}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="jpeg preview" description="This snapshot preview in JPEG image format shows the full extent of the data as it might be used in your GIS." name="">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/struc_state_forest_campgrounds/preview/preview.jpg</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

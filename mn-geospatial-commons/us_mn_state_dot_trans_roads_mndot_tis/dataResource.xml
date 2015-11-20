@@ -1,0 +1,32 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>trans_roads_mndot_tis</baseName>
+    <descriptiveName>MnDOT Roads, Transportation Information System</descriptiveName>
+    <publisherID>us_mn_state_dot</publisherID>
+    <currentAsofDate>2014-11-14</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">transportation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{1ead769f-e0e9-4e74-9b4d-bd219134d23e}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{388791bd-944a-4a36-af04-74967fcda33a}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>ags_mapserver</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{638b2a8b-28bf-4b6d-8d43-9639c3903957}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="ServiceDescription" description="ESRI ArcGIS Server Map Service - MnDOT Roads" name="">http://gisservices.dot.state.mn.us/ArcGIS/rest/services/MNDOT_ROADS/MapServer</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

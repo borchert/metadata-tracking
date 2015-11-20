@@ -1,0 +1,455 @@
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Merrick &amp; Company</origin>
+        <title Sync="TRUE">LiDAR Elevation, Wright County, Minnesota, 2008</title>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <serinfo>
+          <sername>Contours</sername>
+          <issue>Contours</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Aurora, Co</pubplace>
+          <publish>Minnesota DNR</publish>
+        </pubinfo>
+        <onlink>http://www.dnr.state.mn.us/maps/mntopo/index.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The LiDAR data for Wright County was collected under contract by the county. Thus, the data format is not entirely consistent with some of the other LiDAR data collected for the State of Minnesota. Specifically, the Wright County collect required classification of only Bare Earth in the LiDAR LAS files, so there is no information on buildings, vegetation, or model key points.
+
+Breaklines captured as part of this effort are also a bit different. In Wright County the breaklines are 3D Polyline features rather than 3D Polygon features. They also include road centerlines, stream courses and other features that are not part of the Statewide collect specifications.
+
+Note: This metadata record was created at the Minnesota Geospatial Information Office by combining information supplied by Merrick, Wright County, and the Minnesota Department of Natural Resources.</abstract>
+      <langdata Sync="TRUE">en</langdata>
+      <supplinf>Wright County, Minnesota</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begtime>unknown</begtime>
+          <endtime>unknown</endtime>
+        </rngdates>
+        <sngdate>
+          <caldate>2008</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>April 23 - May 28, 2008</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <lboundng>
+        <leftbc Sync="TRUE">595521.628746</leftbc>
+        <rightbc Sync="TRUE">600970.127219</rightbc>
+        <bottombc Sync="TRUE">201738.706692</bottombc>
+        <topbc Sync="TRUE">207043.723225</topbc>
+      </lboundng>
+      <bounding>
+        <westbc>-93.512431</westbc>
+        <eastbc>-93.491196</eastbc>
+        <northbc>45.270467</northbc>
+        <southbc>45.255847</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115</themekt>
+        <themekey>elevation, LiDAR, DEM, digital elevation model, contour, topographic, topo, DTM, LAS, breakline</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Minnesota, MN, Wright County</placekey>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>See Disclaimer field for complete use conditions.</useconst>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+    <crossref>
+      <citeinfo>
+        <origin>Merrick</origin>
+        <pubdate>2008</pubdate>
+        <title>For more information about elevation data for Minnesota, see: http://www.mngeo.state.mn.us/chouse/elevation/index.html</title>
+      </citeinfo>
+    </crossref>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Wright County</cntorg>
+          <cntper>Steven A. Jobe</cntper>
+        </cntperp>
+        <cntpos>Wright County Surveyor</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>1901 Hwy 25 North</address>
+          <city>Buffalo</city>
+          <state>MN</state>
+          <postal>55313</postal>
+        </cntaddr>
+        <cntvoice>763-682-7690</cntvoice>
+        <cntfax>763-682-7313</cntfax>
+        <cntemail>steve.jobe@co.wright.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Verification of attribute accuracy is a two-tiered QC process.  The first process is based on the visual inspection of the contour data.  Contours are color-coded according to type.  The second process is based on automated procedures written in Arc Macro Language (AML).  The AMLs check attribute accuracy by identifying mis-matched line-types, by checking that the coding is consistent with the database design, and by verifying the data against the coverage tolerances and projection parameters.</attraccr>
+      <qattracc>
+        <attraccv>N/A</attraccv>
+        <attracce>N/A</attracce>
+      </qattracc>
+    </attracc>
+    <logic>The contour coverage is checked for arc and node topology.  These checks include verifying that no dangling nodes exist, and that no unnecessary pseudo nodes exist, which will result in the minimum number of arcs present in a coverage. The coverage is then exported to an ESRI shapefile.</logic>
+    <complete>Contours that are less than 25 feet in length, and that share the same from and to node, are not generated.  Unnecessary vertices are removed using the Arc/Info Generalize command.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Horizontal accuracy was tested by comparing the raw contours from each flightline against adjoining flightlines at specific points.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>LiDAR surface was tested for vertical accuracy by comparing their values to known control points.  Merrick used new and existing ground control points to support the accuracy requirements.  The result of this is shown in the LiDAR control report.  Supplemental breaklines were added to more accurately model certain features.  Contour lines were generated from this enhanced surface and were verified for accuracy against surveyed spot elevations.</vertaccr>
+        <qvertpa>
+          <vertaccv>0.18 ft RMSEz</vertaccv>
+          <vertacce>This value exceeds the NSSDA standard for two-foot (2') interval contours.</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Ulteig Engineers, Inc.</origin>
+            <pubdate>2008</pubdate>
+            <pubtime>Unknown</pubtime>
+            <title>Ground Control</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>Ground Control</sername>
+              <issue>Ground Control</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Detroit Lakes, MN</pubplace>
+              <publish>Ulteig</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>1200</srcscale>
+        <typesrc>disc</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+              <time>unknown</time>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>GROUND_CONTROL</srccitea>
+        <srccontr>Survey data for aerotriangulation and data quality control.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Merrick &amp; Company</origin>
+            <pubdate>2008</pubdate>
+            <pubtime>Unknown</pubtime>
+            <title>Digital Terrain Model (DTM)</title>
+            <geoform>vector digital data</geoform>
+            <serinfo>
+              <sername>DTM</sername>
+              <issue>DTN</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Aurora, Co</pubplace>
+              <publish>Merrick</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>computer program</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20070509</begdate>
+              <begtime>unknown</begtime>
+              <enddate>20070624</enddate>
+              <endtime>unknown</endtime>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>DTM</srccitea>
+        <srccontr>The DTM was developed using a combination of mass points and breaklines.  The DTM meets NSSDA accuracy standards.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Merrick &amp; Company</origin>
+            <pubdate>2008</pubdate>
+            <pubtime>Unknown</pubtime>
+            <title>DACS (Digital Aerial Camera System)</title>
+            <geoform>raster digital data</geoform>
+            <serinfo>
+              <sername>DACS</sername>
+              <issue>DACS</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Aurora, CO</pubplace>
+              <publish>Merrick</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>disc</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20080423</begdate>
+              <begtime>unknown</begtime>
+              <enddate>20080528</enddate>
+              <endtime>unknown</endtime>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>DACS</srccitea>
+        <srccontr>DACS (Digital Aerial Camera System)</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Merrick &amp; Company</origin>
+            <pubdate>2008</pubdate>
+            <pubtime>Unknown</pubtime>
+            <title>LiDAR</title>
+            <geoform>vector digital data</geoform>
+            <serinfo>
+              <sername>LIDAR</sername>
+              <issue>LIDAR</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Aurora, CO</pubplace>
+              <publish>Merrick</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>disc</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20080423</begdate>
+              <begtime>unknown</begtime>
+              <enddate>20080528</enddate>
+              <endtime>unknown</endtime>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>LiDAR</srccitea>
+        <srccontr>LiDAR points form the basis of the DTM surface.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Merrick's Processing Steps:
+
+Contours: LiDAR data was collected using Merrick's ALS50 sensor.  The data was field-verified for complete coverage of the project area.  Raw data files were parsed into manageable client-specific tiles.  These tiles were then processed through automated filtering that separated the data into different classification groups: error points, ground points, and canopy-building points.  The data was next taken into a graphic environment to reclassify the erroneous points that may remain in the LIDAR point cloud after auto filter.  The surface was then normalized into a digital surface model (DSM).  Final data extraction for the client's keypoint (statistically significant points) and canopy-building files were then generated.
+
+Using orthophotography, planimetric features were compiled as breaklines to supplement the LiDAR data.  The LiDAR digital surface model was then processed with the breaklines, and contour lines were interpolated.  The contours were exported from Merrick's MARS software into ESRI shapefiles.  The contour data was checked for spikes and holes, and then imported into an Arc/Info coverage for building topology and coding contour types.  The coverage was then exported to an ESRI shapefile for delivery.
+
+Breaklines: The breaklines were captured using Microstation v8. The resulting .dgn file was brought into ArcScene and exported to a 3d polyline shapefile (x, y, and z attributes). 
+
+The deliverables from Merrick to Wright County were:  Digital orthos in TIFF and MrSID formats; DSM (LiDAR first return) in ASCII, binary LAS, and ESRI grid formats; DEM (LiDAR bare-earth) in ASCII, binary LAS, and ESRI grid formats; DTM (LiDAR bare-earth with breaklines) in ASCII, CSV (comma de-limited), binary LAS, and ESRI grid formats; Breaklines in 3D shapefile and DXF formats; 2-foot Contours in 3D shapefile and DXF formats; Spot elevations in 3D shapefile and DXF formats.  All deliveries were in the Wright County (MN) Coordinate System, North American Datum of 1983 (NAD 83), NSRS 2007 adjustment, U.S. Survey foot.  The vertical datum was NAVD 88.
+
+
+Minnesota Department of Natural Resources Processing Steps
+
+1) LAS files were projected from County Coordinates to UTM Zone 15, NAD83
+2) LAS point Z values were scaled from feet to meters
+3) LAS files were retiled into the state tile scheme (1/16 of a USGS 1:24,000 scale quadrangle)
+4) Breakline features were merged together into a single feature class
+5) Breakline features were projected from County Coordinates to UTM Zone 15, NAD83
+6) Breakline Z Values were scaled from feet to meters
+7) LAS Bare Earth Points and breaklines were used to create a Terrain data type 
+8) 1-meter DEM was derived from Terrain using nearest neighbor interpolation option (DEM01)
+9) Hillshade was derived from 1-meter DEM (DEM01HS)
+10) 3-meter DEM was derived from Terrain using nearest neighbor interpolation option (DEM03)
+11) Hillshade was derived from 3-meter DEM (DEM03HS)
+12) Aspect was derived from 3-meter DEM (DEM03ASPECT)
+13) Slope in degrees was derived from 3-meter DEM (DEM03SLOPE_DEGREES)
+14) Slope in percent was derived from 3-meter DEM (DEM03SLOPE_PERCENT)
+15) DEM03 was smoothed using a 3x3 mean smoothing filter 
+16) 2-foot contours were created from the smoothed 3-meter DEM
+
+All DEMS are hydro-flattened and enforced using the breakline features.
+
+All processing was done in December 2011 using ArcGIS V10 and LP360 Extensions.
+</procdesc>
+        <srcused>GROUND_CONTROL</srcused>
+        <srcused>DTM</srcused>
+        <srcused>DACS</srcused>
+        <srcused>LiDAR</srcused>
+        <procdate>2008</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Doug Jacoby</cntper>
+              <cntorg>Merrick &amp; Co.</cntorg>
+            </cntperp>
+            <cntpos>Director or Projects / Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>2450 South Peoria Street</address>
+              <city>Aurora</city>
+              <state>CO</state>
+              <postal>80014</postal>
+              <country>U.S.A.</country>
+            </cntaddr>
+            <cntvoice>303-353-3903</cntvoice>
+            <cntfax>303-745-0964</cntfax>
+            <cntemail>doug.jacoby@merrick.com</cntemail>
+            <hours>8 am - 5 pm, Mountain Time Zone, Monday thru Friday</hours>
+            <cntinst>Call or email during business hours</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+    <cloud>0%</cloud>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <sdtsterm Name="32_25_18_4th">
+        <sdtstype Sync="TRUE">String</sdtstype>
+        <ptvctcnt Sync="TRUE">1214</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="32_25_18_4th">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polyline</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">1214</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>Contour types (ftype attribute):  Index, Index Annotation, Index Depression, Index Depression Obscured, Index Hidden, Index Obscured, Intermediate, Intermediate Depression, Intermediate Depression Obscured, Intermediate Hidden, Intermediate Obscured</eaover>
+    </overview>
+  </eainfo>
+  <metainfo>
+    <metd Sync="TRUE">20140429</metd>
+    <metstdn Sync="TRUE">Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv Sync="TRUE">1.2</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metac>Unknowm</metac>
+    <metuc>Unknown</metuc>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>658 Cedar Street, Room 300</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntfax>651-296-6398</cntfax>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20081126</ModDate>
+    <ModTime>16432400</ModTime>
+    <SyncDate>20081126</SyncDate>
+    <SyncTime>16432400</SyncTime>
+  </Esri>
+  <distinfo>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">4.465</transize>
+          <dssize Sync="TRUE">4.465</dssize>
+        </digtinfo>
+      </digform>
+      <ordering>The LiDAR data provided by DNR may be viewed online or downloaded in several ways:
+
+1. MnTOPO website: http://www.dnr.state.mn.us/maps/mntopo/index.html
+
+- view data online
+- download data in Esri and open formats (tiles for most data formats will be mosaicked together during download)
+- see the help file for details: http://files.dnr.state.mn.us/aboutdnr/gis/mntopo/mntopo_help_document.pdf
+
+
+2. MnGeo's FTP site
+Use the tile_index.pdf maps to locate the tiles you need. Except for the county file, tiles will not be mosaicked.
+
+a. From the county folder: ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/county/wright/
+The county mosaic is named elevation_data.gdb.zip  For details of its contents and size, see this table: http://geoint.lmic.state.mn.us/lidar.php
+
+b. In the 250k tiles folder: ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/q250k/
+
+
+For more help with Minnesota's LiDAR data, see http://www.mngeo.state.mn.us/chouse/elevation/lidar.html</ordering>
+    </stdorder>
+    <resdesc>Wright LiDAR 2008</resdesc>
+    <distliab>1. Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html
+
+2. MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>658 Cedar Street, Room 300</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntfax>651-296-6398</cntfax>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

@@ -1,0 +1,202 @@
+<metadata>
+  <eainfo>
+    <overview>
+      <eaover>Attributes 
+ 
+TAZ_2000: Transportation Analysis Zone (TAZ) number based on Metropolitan Council 2000 TAZ system.
+
+POP2020: Most current 2020 TAZ population forecast.
+
+HH2020: Most current 2020 TAZ household forecast.
+
+EMP2020: Most current 2020 TAZ employment forecast.
+
+NRETAIL2020: Most current 2020 TAZ non-retail employment forecast.
+
+RETAIL2020: Most current 2020 TAZ retail employment forecast.
+
+POP2030: Most current 2030 TAZ population forecast.
+
+HH2030: Most current 2030 TAZ household forecast.
+
+EMP2030: Most current 2030 TAZ employment forecast.
+
+NRETAIL2030: Most current 2030 TAZ non-retail employment forecast.
+
+RETAIL2030: Most current 2030 TAZ retail employment forecast.
+
+POP2040: Most current 2040 TAZ population forecast.
+
+HH2040: Most current 2040 TAZ household forecast.
+
+EMP2030: Most current 2040 TAZ employment forecast.
+
+NRETAIL2040: Most current 2040 TAZ non-retail employment forecast.
+
+RETAIL2040: Most current 2040 TAZ retail employment forecast.
+</eaover>
+    </overview>
+  </eainfo>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Metropolitan Council</origin>
+        <title>Transportation Analysis Zones (TAZ) with Current Forecasts</title>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <pubdate>periodically revised</pubdate>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-trans-taz-current-forecasts</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This file shows the most current Metropolitan Council  Transportation Analysis Zone (TAZ) 2020-2040 forecasts for cities and townships within the 7-County Metropolitan Area.   
+
+IMPORTANT NOTES: 
+
+These TAZ forecasts will change multiple times over the next few years. 
+
+The Metropolitan Council will ask cities and townships to allocate their TAZ forecasts as part of their 2018 Comprehensive Plan Update (go to  http://www.metrocouncil.org/Handbook/Plan-Elements/Transportation.aspx 
+for more information about this process). Communities may also revise their current TAZ forecasts before the 2018 Comprehensive Plan Update.   In the meantime, the Council provides these Current TAZ forecasts for transportation planning.
+
+If you are using TAZ forecasts for analysis and/or transportation planning, please download the latest version of this shapefile to ensure you are using the most up-to-date data.
+
+If you represent a community that wants to revise your TAZ forecasts, please contact your community's sector representative or  Dennis Farmer (see contact information at the end of this document).</abstract>
+      <supplinf>The Twin Cities 7 county Metropolitan Area</supplinf>
+    </descript>
+    <timeperd>
+      <current>TAZ forecasts will be updated periodically as cities and townships review and comment on the TAZ forecasts, or as new data becomes available.  The Council will ask all cities to review their TAZ forecasts as part of their Comprehensive Plan Update in 2018.
+
+These TAZ forecasts replace a previous set of TAZ forecasts the Council published October 2014.  Those forecasts were based on the Thrive MSP 2040 community forecasts adopted in May 2013.  
+
+In July 2015, the Council adopted updated community forecasts in preparation for issuing System Statements  for communities to use in their 2018 Comprehensive Plan Updates.  
+
+The Current TAZ Forecasts available here for download reflect those July 2015 updated forecasts, and any subsequent revisions.  
+
+Household/population data is based on 2010 US decennial Census.  Employment data is based on MN DEED data and on US Census Longitudinal Employer-Household Dynamics data</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20151002</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.012</westbc>
+        <eastbc>-92.732</eastbc>
+        <northbc>45.415</northbc>
+        <southbc>44.471</southbc>
+      </bounding>
+    </spdom>
+    <useconst>By acceptance of this data, the user agrees to include a copy of this metadata record, including the liability disclaimer, whenever the user transmits or provides the GIS Data (or any portion of it) to another user.</useconst>
+    <keywords>
+      <theme>
+        <themekey>TAZ, Transportation Analysis Zones, forecasts, comprehensive plan</themekey>
+      </theme>
+      <place>
+        <placekey>Twin Cities Metro</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Dennis Farmer, AICP</cntper>
+        </cntperp>
+        <cntpos>Research Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1552</cntvoice>
+        <cntemail>dennis.farmer@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Dennis Farmer, AICP</cntper>
+        </cntperp>
+        <cntpos>Research Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1552</cntvoice>
+        <cntemail>dennis.farmer@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20140417</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Dennis Farmer, AICP</cntper>
+        </cntperp>
+        <cntpos>Research Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1552</cntvoice>
+        <cntemail>dennis.farmer@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>The city and township boundaries are taken from the Counties and Cities &amp; Townships, Twin Cities Metropolitan Area shapefile, available on MetroGIS Datafinder
+
+</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

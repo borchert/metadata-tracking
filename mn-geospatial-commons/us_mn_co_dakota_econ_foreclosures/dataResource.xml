@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>econ_foreclosures</baseName>
+  <descriptiveName>Foreclosure Sales, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate>2015-09-03</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">economy</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{b5f5b7e2-9609-42a3-bcb9-5f3b38d09496}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{f95d586d-a69e-4d85-b2d8-2d7141b8dac6}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

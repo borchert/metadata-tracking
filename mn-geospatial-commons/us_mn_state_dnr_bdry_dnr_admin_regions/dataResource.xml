@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>bdry_dnr_admin_regions</baseName>
+    <descriptiveName>DNR Administrative Regions</descriptiveName>
+    <publisher>Minnesota DNR - MIS Bureau</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2002-06-01</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>158</resourceID>
+        <resourceGUID>{b28ebc08-def3-4fca-8990-f83d009ac8ec}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>bdry_dnr_admin_regions</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{d30946a0-898e-4600-a5b0-02d32f8ac265}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

@@ -1,0 +1,219 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>2014 Regional Solicitation - Functional Class Roads - Planned</title>
+        <origin>Metropolitan Council</origin>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <pubdate>20140911</pubdate>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-trans-fnctnl-cls-rds-regsol-pln</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Regional Solicitation Functional Class: The regional solicitation functional class roads are a specific version of the functional class roads to be used in the 2014 solicitation process. This file will not undergo the periodic update process standard to the functional class roads. It will remain as is for the entire solicitation process. Meeting minutes for the TAC Planning Committee are the official record of change requests. If errors are found in this data, they will be corrected against the minutes.
+
+The planned functional class roads layer contains approximate locations of planned major roads and highways in the Twin Cities seven county metropolitan area.  
+
+The specific classifications assigned to the roadways resulted from efforts of the Land Transportation Committee, Transportation Technical Advisory Committee and the Transportation Advisory Board as specified in the transportation planning process, using federal rules and guidelines. The data was approved with Metropolitan Council concurrence in 1993.  Additional planned roads have been added from information in community comprehensive plans submitted to the Council since 1993 and in the functional class review for the 2007 Regional Solicitation. 
+
+The alignments for these roads are approximate only.  They are not intended to show the actual alignment.
+
+Please note that the planned functional class road layer is meant to indicate the classification of planned new roads.  Opening of planned functional class roads MAY cause designation changes to the existing functional class network.</abstract>
+      <purpose>To assist the Twin Cities Metropolitan Planning Organization with transportation planning and project programming in the Twin Cities region.</purpose>
+      <supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20140911</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>The dataset includes known planned functional class roads as of the Time Period of Content date.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Quarterly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.801670</westbc>
+        <eastbc>-92.842552</eastbc>
+        <northbc>45.399534</northbc>
+        <southbc>44.542380</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+      </place>
+      <theme>
+        <themekey>roads, planned roads, proposed roads, streets, highways, functional class, centerlines, major roads, transportation, Functional Class Roads Regional Solicitation Planned 2014</themekey>
+        <themekt>None</themekt>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/trans_fnctnl_cls_rds_regsol_pln/metadata/preview.jpg</browsen>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <title>Functional Class Roads - Existing; Major Highways, NCompass Technologies Street Centerline and Address Ranges</title>
+      </citeinfo>
+    </crossref>
+    <native>ArcGIS 9x</native>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Rachel Wiken</cntper>
+        </cntperp>
+        <cntpos>GIS Technician</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1572</cntvoice>
+        <cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Functional classification values were entered and checked by Metropolitan Council GIS staff and double checked by Metropolitan Council transportation planning staff.
+
+Please note that the planned functional class road layer is meant to indicated the classification of planned new roads.  Opening of planned functional class roads MAY cause designation changes to the existing functional class network.</attraccr>
+    </attracc>
+    <logic>The dataset is topologically 'clean'.</logic>
+    <complete>Entire seven county geographic area is covered.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The linework in this layer is intended to show a very general location for planned roads on small scale maps.  No assessment of the actual positional accuracy of these road alignments has been made.  Lines should not be expected to fall within the future road rights-of-way.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>The planned roads were created via heads-up digitizing in ArcView.  The source of the lines were approximately 1:50,000 scale markup maps of the existing functional class roads with planned roads drawn in by hand.  Where roads were under development in spring 2000, orthophotos may have been used to help align the roads.  The resulting features are only approximations of where the future/planned roads would be located.  This dataset is intended for visual reference only.
+
+The specific classifications assigned to the roadways resulted from efforts of the Land Transportation Committee, Transportation Technical Advisory Committee and the Transportation Advisory Board as specified in the transportation planning process, using federal rules and guidelines.  The final product was approved with Metropolitan Council concurrence.</procdesc>
+      </procstep>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>None</indspref>
+    <direct>Vector</direct>
+    <mgmg3obj>arcs, nodes</mgmg3obj>
+    <mgmg3til>One layer for entire seven county region.</mgmg3til>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>LINE ATTRIBUTES: 
+ 
+SHAPE:    Default ArcView attribute.
+ 
+FUN_CLAS:  (Numerical) Functional classification assigned to the road
+
+             100 = Principal Arterial 
+             211 = A-minor Augmentor
+             212 = A-Minor Reliever
+             213 = A-Minor Expander
+             214 = A-Minor Connector
+             220 = Other Arterial
+             310 = Major Collector
+             320 = Minor Collector
+
+FC_NAME:   (Text) Functional classification assigned to the road</eaover>
+      <eadetcit>None</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>RegSolicFunctionalClassRoadsPlanned2014</resdesc>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shape files</formname>
+          <formvern>ArcGIS 9x</formvern>
+          <transize>0.06 MB for zip file.</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Jon Hoekenga</cntper>
+        </cntperp>
+        <cntpos>GIS System Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1561</cntvoice>
+        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20140911</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Rachel Wiken</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1572</cntvoice>
+        <cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20110721</ModDate>
+    <ModTime>13143200</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20110721</mdDateSt>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

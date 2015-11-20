@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>trans_analysis_zones</baseName>
+  <descriptiveName>2010 Transportation Analysis Zones (TAZ) System</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-19</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{3cf1bcf7-8c66-436c-a41c-e2dec88bf5f5}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{cdb4828f-bf62-4fd1-a3e1-8b6f39debbca}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

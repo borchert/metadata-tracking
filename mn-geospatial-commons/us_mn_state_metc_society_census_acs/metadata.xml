@@ -1,0 +1,402 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>American Community Survey 5-Year Summary File</title>
+        <origin>U.S. Census Bureau</origin>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <pubdate>20141204</pubdate>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-society-census-acs</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>American Community Survey (ACS) provides detailed demographic, social, economic, commuting and housing statistics based on continuous survey data collection. Data collected over the most recent 5 years are batched, summarized and published the following December. 
+
+These files contain summary data for Census Block Groups (CensusACSBlockGroup.xlsx), Tracts (CensusACSTract.xlsx), minor civil divisions (CensusACSMCD.xlsx), school districts (CensusACSSchoolDistrict.xlsx), and ZIP code tabulation areas (CensusACSZipCode.xlsx).</abstract>
+      <purpose>American Community Survey (ACS) provides detailed demographic, social, economic, commuting and housing statistics based on continuous survey data collection. Data collected over the most recent 5 years are batched, summarized and published the following December.   Summary tables compiled with 5-year data have approximately 20,000 variables from 900 tabulations. The published Census statistics have been recompiled by Metropolitan Council, with custom field names, in order to accomplish definitional and categorical consistency between Census 1990, Census 2000, and ACS.</purpose>
+      <supplinf>This dataset covers Minnesota and Western Wisconsin.  Nationwide data is also available at http://www2.census.gov</supplinf>
+    </descript>
+    <timeperd>
+      <current>Data available annually.
+Please contact Matt Schroeder (contact information below) for historical data tables.</current>
+      <timeinfo>
+        <rngdates>
+          <begdate>2009</begdate>
+          <enddate>2013</enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.23</westbc>
+        <eastbc>-89.53</eastbc>
+        <northbc>49.37</northbc>
+        <southbc>43.5</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>census, demographics, population, socioeconomic characteristics, American Community Survey</themekey>
+        <themekt>None</themekt>
+      </theme>
+      <place>
+        <placekey>Metro, Twin Cities</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+      <browsen>None available</browsen>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <title>Census TIGER Block Groups, Tracts, Minor Civil Divisions, School Districts,  ZIP Code Tabulation Areas.</title>
+      </citeinfo>
+    </crossref>
+    <native>Oracle Version 10g, Release 2</native>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Matt Schroeder</cntper>
+        </cntperp>
+        <cntpos>Senior Researcher</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1513</cntvoice>
+        <cntemail>matt.schroeder@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Statistics produced for American Community Survey and included in ACS tables are survey-based estimates and are subject to error. The errors derive from research design (including instrument bias, data frame, and sampling), the survey data collection (non-response bias and response errors), and processing by the Census Bureau (data coding, compilation processes, and case weighting), as well as statistical inference error and uncertainty (which are related to sample size and variance within the measured attributes).  US Census Bureau's report on "Accuracy of the Data" can be found at http://www.census.gov/acs/www/data_documentation/documentation_main/</attraccr>
+    </attracc>
+    <lineage>
+      <procstep>
+        <procdesc>Data available annually, starting with period 2005-09. 
+Each annual vintage release uses the most recent year's TIGER geographic boundaries.  </procdesc>
+      </procstep>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+    </lineage>
+    <complete>Entire state is covered. Some data elements (fields) may have missing values for some geogs (records) due to sample size insufficent for estimation.</complete>
+  </dataqual>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>not applicable</altdatum>
+        <altunits>NA</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>NA</depthdn>
+        <depthdu>NA</depthdu>
+      </depthsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>Attributes for Tabular Data: 
+
+GEOG_UNIT =  identifier for the combination of State, County, Tract and Block Group codes; or State, County and Minor Civil Division codes; or State and School District; or State and ZIP codes 
+GEOG_LEVEL = Identifies data as Tract (TRACT), Block Group (BG), Minor Civil Division (COCTU), School District (SCHLD), or ZIP Code tabulation area (ZCTA) summarization  
+GEOID = Unique identifier used by Census FactFinder website 
+STATE =  2 digit FIPS 
+COUNTY =  3 digit FIPS and state standard county ID code 
+COUSUB =  County subdivision
+PLACE =  Place
+TRACT =  6 digit Tract ID 
+BLKGRP =  Additional digit ID for Block Groups 
+B00001e1 =  n people participating in sample of completed surveys (B00001)
+B00002e1 =  n housing units represented in sample of completed surveys (B00002) 
+GEONAME =  Name label for geographic unit 
+GEOID2 =  Reduced form of GEOID (the first 8 characters of GEOID removed) 
+GEOCOMP =  Census provided code identifying filtering or subtotaling. This field should be coded '00'
+SUMLEV =  Census provided code for geographic summarization level 
+TCFLAG =  Code identifying location(1)&#157; in the Met Council region (2) in an adjacent Minnesota county or (3) in an adjacent Wisconsin county. 
+SOURCE =  Identifies the Census dataset 
+YEAR =  Identifies the year of data collection. 
+POPTOTAL =  total population (B01001) 
+POPINHH =  population in households and not in GQ (B11002) 
+HHTOTAL =  total households (B11005) 
+AVGHHSIZE =  average household size (B11002/B11005) 
+LIVEDALONE =  households with 1 person (B11016) 
+MARRKIDS =  family households with children and headed by a married couple (B11005) 
+UNMARRKIDS =  family households with children and headed by a single person or unmarried people (B11005) 
+FAMNOKIDS =  family households with no children (B11005) 
+NONFAMILY =  other households that are not families and with more than 1 person (B11016) 
+M_0_4 =  males in this age range (B01001) 
+M_5_9 =  males in this age range (B01001) 
+M_10_14 =  males in this age range (B01001) 
+M_15_19 =  males in this age range (B01001) 
+M_20_24 =  males in this age range (B01001) 
+M_25_29 =  males in this age range (B01001) 
+M_30_34 =  males in this age range (B01001) 
+M_35_39 =  males in this age range (B01001) 
+M_40_44 =  males in this age range (B01001) 
+M_45_49 =  males in this age range (B01001) 
+M_50_54 =  males in this age range (B01001) 
+M_55_59 =  males in this age range (B01001) 
+M_60_64 =  males in this age range (B01001) 
+M_65_69 =  males in this age range (B01001) 
+M_70_74 =  males in this age range (B01001) 
+M_75_79 =  males in this age range (B01001) 
+M_80_84 =  males in this age range (B01001) 
+M_OVER85 =  males in this age range (B01001) 
+F_0_4 =  females in this age range (B01001) 
+F_5_9 =  females in this age range (B01001) 
+F_10_14 =  females in this age range (B01001) 
+F_15_19 =  females in this age range (B01001) 
+F_20_24 =  females in this age range (B01001) 
+F_25_29 =  females in this age range (B01001) 
+F_30_34 =  females in this age range (B01001) 
+F_35_39 =  females in this age range (B01001) 
+F_40_44 =  females in this age range (B01001) 
+F_45_49 =  females in this age range (B01001) 
+F_50_54 =  females in this age range (B01001) 
+F_55_59 =  females in this age range (B01001) 
+F_60_64 =  females in this age range (B01001) 
+F_65_69 =  females in this age range (B01001) 
+F_70_74 =  females in this age range (B01001) 
+F_75_79 =  females in this age range (B01001) 
+F_80_84 =  females in this age range (B01001) 
+F_OVER85 =  females in this age range (B01001) 
+POPOVER5 =  population (age 5+) used as denominator in % calculations (B16001 and C16005) 
+POPOVER16 =  population age 16+ (B12006) 
+POPOVER18 =  population age 18+ (B01001) 
+AGEUNDER18 =  population age under 18 (B01001) 
+AGE18_39 =  population in this range (B01001) 
+AGE40_64 =  population in this range (B01001) 
+AGE65UP =  populationage 65+ (B01001) 
+WHITENH =  population that identifies as white only and non=Hispanic (B03002 and C03002) 
+BLACKNH =  population that identifies as black only and non=Hispanic (B03002 and C03002) 
+AMINDNH =  population that identifies as American Indian only and non=Hispanic (B03002 and C03002) 
+ASIANNH =  population that identifies as Asian/Asian=American only and non=Hispanic (B03002 and C03002) 
+PACIFICNH =  population that identifies as Pacific Islander only and non=Hispanic (B03002 and C03002) 
+OTHERNH =  population that identifies as other race and non=Hispanic (B03002 and C03002) 
+MULTRACENH =  population that identifies as multi=racial and non=Hispanic (B03002 and C03002) 
+HISPPOP =  population that identifies as Hispanic in combination with any race (B03002 and C03002) 
+NOTHISPPOP =  population that identifies as non=Hispanic (B03002 and C03002) 
+POPOVER25 =  adult population (25 and over) used as denominator in % calculations (B15002) 
+LESSHS =  adult population that did not complete high school (B15002) 
+HIGHSCHOOL =  adult population that competed high school (B15002) 
+SOMECOLLEG =  adult population that attended some college (B15002) 
+ASSOCIATE =  adult population that competed 2=year degree (B15002) 
+BACHELORS =  adult population that competed bachelor's degree (B15002) 
+GRADPROF =  adult population that competed post=bac graduate or professional degree (B15002) 
+WORKDENOM =  employed population used as denominator in % calculations (B08301 and C08301) 
+DROVEALONE =  drive alone to work (B08301 and C08301) 
+CARPOOL =  drive or ride with others to work (B08301 and C08301) 
+PUBTRANSIT =  take public transit to work (B08301 and C08301) 
+WALKTOWORK =  walk to work (B08301 and C08301) 
+OTHCOMMUTE =  commuted to work bicycling or by taxi or some other way (B08301 and C08301) 
+WORKATHOME =  worked at home and did not commute (B08301 and C08301) 
+JTWDENOM =  employed commuters excluding 'work at home' used as denominator in % calculations (B08303 and C08303) 
+JTWLT10 =  commuted 1=9 minutes to work (B08303 and C08303) 
+JTW10TO14 =  commuted 10=14 minutes to work (B08303 and C08303) 
+JTW15TO19 =  commuted 15=19 minutes to work (B08303 and C08303) 
+JTW20TO24 =  commuted 20=24 minutes to work (B08303 and C08303) 
+JTW25TO29 =  commuted 25=29 minutes to work (B08303 and C08303) 
+JTW30TO34 =  commuted 30=34 minutes to work (B08303 and C08303) 
+JTW35TO44 =  commuted 35=44 minutes to work (B08303 and C08303) 
+JTW45TO59 =  commuted 45=59 minutes to work (B08303 and C08303) 
+JTW60PLUS = commuted 60 minutes or longer (B08303 and C08303) 
+AGGCOMMUTE =  total minutes of commuting used as numerator (B08013) 
+AVGCOMMUTE =  mean average commute length (B08013/B08303) 
+VEHICLESN =  Number of vehicles available to households (B25046) 
+HH_NOVEH =  Households with 0 vehicle (B25044) 
+HH_1VEH =  Households with 1 vehicle (B25044) 
+HH_MULTVEH =  Households with 2 or more vehicles (B25044) 
+USBORNCIT =  US citizens who were born in the US or PR (B05001) 
+FORBORNCIT =  US citizens who were born abroad (B05001) 
+FORBORNNOT =  Non=citizens who were born abroad (B05001) 
+CDENOM =  Total noninstitutionalized civilian population used as denominator in disability % calculations (B18101)
+CDENOM_017 =  Total noninstitutionalized civilian population age 0=17 used as denominator in disability % calculations (B18101)
+CDENOM_517 =  Total noninstitutionalized civilian population age 5=17 used as denominator in disability % calculations (B18101)
+CDENOM1864 =  Total noninstitutionalized civilian population age 18=64 used as denominator in disability % calculations (B18101)
+CDENOM65UP =  Total noninstitutionalized civilian population age 65+ used as denominator in disability % calculations (B18101)
+ANYDIS =  People with any disability (B18101)
+ANYDIS_017 =  People age 0=17 with any disability (B18101)
+ANYDIS1864 =  People age 18=64 with any disability (B18101)
+ANYDIS65UP =  People age 65+ with any disability (B18101)
+DEAF =  People with a hearing difficulty (B18102)
+DEAF_017 =  People age 0=17 with a hearing difficulty (B18102)
+DEAF1864 =  People age 18=64 with a hearing difficulty (B18102)
+DEAF65UP =  People age 65+ with a hearing difficulty (B18102)
+VISION =  People with a vision=related disability (B18103)
+VISION_017 =  People age  0=17 with a vision=related disability (B18103)
+VISION1864 =  People age  18=64 with a vision=related disability (B18103)
+VISION65UP =  People age  65+ with a vision=related disability (B18103)
+COGDIS =  People with a cognitive disability (B18104)
+COGDIS_517 =  People age  5=17 with a cognitive disability (B18104)
+COGDIS1864 =  People age  18=64 with a cognitive disability (B18104)
+COGDIS65UP =  People age  65+ with a cognitive disability (B18104)
+AMBDIS =  People with a ambulatory disability (B18105)
+AMBDIS_517 =  People age  5=17 with a ambulatory disability (B18105)
+AMBDIS1864 =  People age  18=64 with a ambulatory disability (B18105)
+AMBDIS65UP =  People age  65+ with a ambulatory disability (B18105)
+SELFCARE =  People with a  disability that hinders self=care (B18106)
+SELFCA_517 =  People age  5=17 with a  disability that hinders self=care (B18106)
+SELFCA1864 =  People age  18=64 with a  disability that hinders self=care (B18106)
+SELFCA65UP =  People age  65+ with a  disability that hinders self=care (B18106)
+INDLIV =  People with a  disability that hinders independent living (B18107)
+INDLIV_517 =  People age  5=17 with a  disability that hinders independent living (B18107)
+INDLIV1864 =  People age  18=64 with a  disability that hinders independent living (B18107)
+INDLIV65UP =  People age  65+ with a  disability that hinders independent living (B18107)
+ENGLISH =  population (5 and over) who speak English at home (B16001 and C16005) 
+ESL_VWELL =  population who speak another language and speak English very well (B16001 and C16005) 
+LEP =  population who speak English less than very well (B16001 and C16005) 
+LEP_SPAN =  subset of LEP who speak Spanish (B16001 and C16005) 
+LEP_RUSS =  subset of LEP who speak Russian (B16001) 
+LEP_CHIN =  subset of LEP who speak a Chinese language (B16001) 
+LEP_HMONG =  subset of LEP who speak Hmong (B16001) 
+LEP_VIET =  subset of LEP who speak Vietnamese (B16001) 
+LEP_AFRICA =  subset of LEP who speak an African language (B16001) 
+PCI =  income per capita (B19301) 
+MEANHHINC =  mean average income per household (B19025) 
+MEDIANHHI =  median income per household (B19013) 
+POVERTYN =  estimated population with income 0=100% of poverty threshold (C17002) 
+POVERTY150 =  estimated population with income in the range 100%=150% of poverty (C17002) 
+POV150_185 =  estimated population with income in the range 150%=185% of poverty (C17002) 
+POVDENOM =  denominator population for poverty question (C17002) 
+POV100RATE =  share of population with income 0=100% of poverty threshold (C17002) 
+POV150RATE =  share of population with income 0=150% of poverty threshold (C17002) 
+POV185RATE =  share of population with income 0=185% of poverty threshold (C17002) 
+HUTOTAL =  estimated housing units (B25024) 
+HUSFD =  single family detached housing units (B25024) 
+HUSFA =  single family attached housing units (B25024) 
+HU234 =  housing units in duplexes and 3=4 unit buildings (B25024) 
+HUMF5 =  housing units in larger buildings (B25024) 
+HUMOBILE =  manufactured or mobile home units (B25024) 
+HUOTHER =  other or not elsewhere classified shelters (B25024) 
+HOMEOWNPCT =  share of households that own their housing (B25003) 
+OWNEROCC =  owner households or owner=occupied units (B25003) 
+RENTEROCC =  renter households or renter=occupied units (B25003) 
+VACANT =  vacant housing units (B25002) 
+MEDGRENT =  median gross rent including utilities (B25064) 
+MEDHOMEVAL =  median home value of ownership housing (B25077) 
+BURDOWN =  home=owners spending 30+ percent of household budget on housing (B25091)  
+NOBURDOWN =  home=owners spending 0=29 percent of household budget on housing (B25091)  
+BURDRENT =  renters spending 30+ percent of household budget on housing (B25070)  
+NOBURDRENT =  renters spending 0=29 percent of household budget on housing (B25070)  
+BURD_DENOM =  total households with income used as denominator in % calculations (B25070 and B25091) 
+RLT200 =  renter households with gross rent $1=199 (B25063) 
+R200_299 =  renter households with gross rent in this range (B25063) 
+R300_399 =  renter households with gross rent in this range (B25063) 
+R400_499 =  renter households with gross rent in this range (B25063) 
+R500_599 =  renter households with gross rent in this range (B25063) 
+R600_699 =  renter households with gross rent in this range (B25063) 
+R700_799 =  renter households with gross rent in this range (B25063) 
+R800_899 =  renter households with gross rent in this range (B25063) 
+R900_999 =  renter households with gross rent in this range (B25063) 
+R1000_1249 =  renter households with gross rent in this range (B25063) 
+R1250_1499 =  renter households with gross rent in this range (B25063) 
+R1500_1999 =  renter households with gross rent in this range (B25063) 
+R2000up =  renter households with gross rent in this range (B25063) 
+R_DENOM =  renter households with cash rent used as denominator in percent calculations (B25063) 
+VALLT40 =  home owners valuing their home less than $40,000 (B25075) 
+VAL40_69 =  home owners valuing their home in this range (B25075) 
+VAL70_99 =  home owners valuing their home in this range (B25075) 
+VAL100_124 =  home owners valuing their home in this range (B25075) 
+VAL125_149 =  home owners valuing their home in this range (B25075) 
+VAL150_174 =  home owners valuing their home in this range (B25075) 
+VAL175_199 =  home owners valuing their home in this range (B25075) 
+VAL200_249 =  home owners valuing their home in this range (B25075) 
+VAL250_299 =  home owners valuing their home in this range (B25075) 
+VAL300_399 =  home owners valuing their home in this range (B25075) 
+VAL400_499 =  home owners valuing their home in this range (B25075) 
+VAL500_749 =  home owners valuing their home in this range (B25075) 
+VAL750_999 =  home owners valuing their home in this range (B25075) 
+VAL1MIL =  home owners valuing their home at $1 million+ (B25075) 
+VAL_DENOM =  home owner households used as denominator in % calculations (B25075) 
+HHSF =  households in single family detached OR townhouse units (B25032) 
+HH234 =  households in duplexes and 3=4 unit buildings (B25032) 
+HHMF5 =  households in larger buildings (B25032) 
+HHMOBILE =  households in manufactured or mobile home units (B25032) 
+HHOTHER =  households in other or not elsewhere classified shelters (B25032) 
+POPSF =  population in single family detached OR townhouse units (B25033) 
+POP234 =  population in duplexes and 3=4 unit buildings (B25033) 
+POPMF5 =  population in larger buildings (B25033) 
+POPMOBILE =  population in manufactured or mobile home units (B25033) 
+POPOTHER =  population in other or not elsewhere classified shelters (B25033) 
+PPHSF =  average household size in single family housing (B25032 and B25033) 
+PPH234 =  average household size in duplexes and 3=4 unit buildings (B25032 and B25033) 
+PPHMF5 =  average household size in larger buildings (B25032 and B25033) 
+PPHMOBILE =  average household size in manufactured or mobile home units (B25032 and B25033) 
+PPHOTHER =  average household size in other or NEC shelters (B25032 and B25033)
+
+</eaover>
+      <eadetcit>None</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>ACS 5 Year Summary File</resdesc>
+    <distliab>NOTICE:  The data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The Metropolitan Council developed some of the data for its own internal business purposes and is redistributing data developed by other data providers (e.g., the U.S. Census Bureau and the Minnesota Department of Employment and Economic Development).  The Metropolitan Council does not represent or warrant that the data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the data or your reliance on the data.  You should consult the data documentation for these particular data to determine the limitations of the data.  If you transmit or provide the data (or any portion of it) to another user, it is recommended that the data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>csv file</formname>
+          <formvern>NA</formvern>
+          <transize>Less than 10 MB for zip file</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Matt Schroeder</cntper>
+        </cntperp>
+        <cntpos>Senior Researcher</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1513</cntvoice>
+        <cntemail>matt.schroeder@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20141204</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Todd Graham</cntper>
+        </cntperp>
+        <cntpos>Research Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1322</cntvoice>
+        <cntemail>todd.graham@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

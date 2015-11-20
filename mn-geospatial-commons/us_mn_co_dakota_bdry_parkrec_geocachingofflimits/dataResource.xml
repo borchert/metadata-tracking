@@ -1,0 +1,28 @@
+<dataResource>
+  <baseName>bdry_parkrec_geocachingofflimits</baseName>
+  <descriptiveName>Parks Geocaching Off-Limits Areas, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate>2015-09-10</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">boundaries</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{6e04622f-f5a1-458b-a65b-a2e6766d9f1b}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{c893523a-ddb7-4687-90d4-5742dcea960f}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>kmz</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{ed4bb7a2-dcb1-4ec8-adb2-3837441aeb70}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

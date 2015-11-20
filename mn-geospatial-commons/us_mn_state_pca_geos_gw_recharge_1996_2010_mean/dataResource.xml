@@ -1,0 +1,35 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>geos_gw_recharge_1996_2010_mean</baseName>
+    <descriptiveName>Mean annual potential groundwater recharge rates from 1996 - 2010 for Minnesota</descriptiveName>
+    <publisher>U.S Geological Survey</publisher>
+    <publisherID>us_mn_state_pca</publisherID>
+    <currentAsofDate>2015-03-15</currentAsofDate>
+    <resourceType>ArcInfo ASCII Grid</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>11100</resourceID>
+        <resourceGUID>{5f250cb4-d94b-4234-aa38-b3868e02ec2c}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>aaigrid</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{7f98410b-4e23-400b-8b8b-3d5136232086}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{0fbb181c-f70c-4761-88a4-872cca531e08}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Project Report" name="Project Report">http://pubs.usgs.gov/sir/2015/5038/</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

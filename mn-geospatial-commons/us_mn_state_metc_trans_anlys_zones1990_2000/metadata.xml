@@ -1,0 +1,325 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Metropolitan Council</origin>
+        <pubdate>20030807</pubdate>
+        <title>Transportation Analysis Zones (TAZ) 1990 - 2000</title>
+        <mgmg1cid>N/A</mgmg1cid>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-trans-anlys-zones1990-2000</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Transportation analysis zones are subdivisions of geographical areas that are delineated for travel analysis and modeling purposes.  They were initially created by the Minnesota Department of Transportation.  The seven county Twin Cities region is divided into 1165 zones.
+
+In most cases TAZ boundaries align with Census block boundaries.  Population and household data comes from the 1990 and 2000 Census and is aggregated to each TAZ.  Employement data comes from the Minnesota Department of Economic Security and is also aggregated to each TAZ.
+
+Please note that as of early 2004, this set of TAZs was no longer being used for travel demand modeling, socioeconomic forecasts and community comprehensive plan development.  See contact person in Section 1 of this metadata for more information.
+
+This dataset includes attributes from both 1990 and 2000 (see Section 5 for more information).
+
+Notes:
+- Residential and Employment density calculations are considered to be general numbers for trend analysis metro wide.  Due to limitations in the positional accuracy of TAZ boundaries and generalized land use interpretation methods, it would be inappropriate to rely on the density figures to be an accurate reflection of the employment or residential density in any given TAZ.  Also, the density relates to that part of the TAZ with the given type of land use, and not the TAZ as a whole.
+- In August of 2003, attributes for 2000 were added to the 1990 TAZ dataset to create this dataset.
+- The TAZ dataset that existed prior to August, 2003 (for 1990 only) was found to have some inaccuracies in some of the residential and employment density values.  They have been corrected in this dataset.
+- On 12/29/2000 the boundaries of TAZs 629, 632 &amp; 633 were corrected.
+- TAZ boundaries that are coincident with county and municipal boundaries do not match the more accurate county and municipal boundary layer used by the Metropolitan Council.
+- These 1990 TAZ boundaries have significant positional differences when compared to the 2000 boundaries of the same TAZes.</abstract>
+      <purpose>The transportation analysis zones layer was developed as a means to compile, analyze and exhibit demographic data and data related to capacity to produce travel.  The primary analysis is the magnitude of tripmaking created within each TAZ and the interaction of these trips between the various zones within the region.</purpose>
+      <supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1990</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>These TAZ boundaries were last updated for the 1990 Census.  The attributes are for both 1990 and 2000.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.012</westbc>
+        <eastbc>-92.732</eastbc>
+        <northbc>45.415</northbc>
+        <southbc>44.471</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Transportation Analysis Zones,  Traffic Assignment Zones,  Traffic Analysis Zones, employment, jobs, population, households, density, transportation, demographics</themekey>
+      </theme>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/trans_anlys_zones1990_2000/metadata/preview.jpg</browsen>
+      <browsed>Sample map showing the Transportation Analysis Zones: 1990 - 2000 layer.</browsed>
+    </browse>
+    <native>ArcGIS 8x</native>
+    <crossref>
+      <citeinfo>
+        <title>Transportation Analysis Zones for External Counties, Generalized Land Use - Historical 1984, 1990, 1997, 2000, 2005, and 2010 for the Twin Cities Metropolitan Area</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Rachel Wiken</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1572</cntvoice>
+        <cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The TAZ dataset that existed prior to August, 2003 (for 1990 only) was found to have some inaccuracies in some of the residential and employment density values.  They have been corrected in this dataset.</attraccr>
+    </attracc>
+    <logic>The dataset is topologically 'clean'.</logic>
+    <complete>Entire seven county geographic area is covered.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The positional accuracy of the dataset has not been tested under the National Standards for Spatial Data Accuracy.  The positional accuracy of the dataset is UNKNOWN.
+
+Boundary lines are generally based on 1990 Census block boundaries.  TAZ boundaries that are coincident with county and municipal boundaries do not match the more accurate county and municipal boundary layer used by the Metropolitan Council.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+      <procstep>
+        <procdesc>TAZ GEOGRAPHY:
+
+The TAZ layer was created initially by staff at the Minnesota Department of Transportation.  The layer was imported into an Arc/Info environment at the Metropolitan Council in the mid 1990s.  Since that time the Council has modified the attributes in the layer, but not the geography.
+
+
+POPULATION AND EMPLOYMENT VALUES:
+
+The population and household data for each TAZ is aggregated from block level census data.  In most cases, census blocks fit neatly into each TAZ.  In the few cases where they did not, a determination was made as to the appropriate TAZ in which to include the block, based on the general location of population within the block.
+
+Employment data was recieved from the Minnesota Department of Economic Security MNDES.   For 1990, MNDES aggregated the employment data to each TAZ.  For 2000, MNDES provided the Metropolitan Council a file of employer address that the Metropolitan Council address matched and aggregated to each TAZ.  In a few cases, the employment numbers for a TAZ did not meet the discloser thresholds required by MNDES.  In such cases, the numbers were adjusted with a neighboring TAZ to prevent disclosure.  This was more common with retail employment numbers than with total employment.
+
+
+RESIDENTIAL AND EMPLOYMENT ACRES:
+
+The residential and employment acres for each TAZ were derived from the Metropolitan Council's Generalized Land Use - Historical 1984, 1990, 1997, 2000, 2005, and 2010 for the Twin Cities Metropolitan Area dataset. The acreages consist of the following land use classes for each year (Note: Land use categories differed in the two years):
+
+1990 Residential:
+1 = Single Family
+2 = Muli-family
+11 = Farmstead
+
+1990 Employment:
+3 = Commercial
+4 = Industrial
+5 = Public Semi-Public
+6 = Airports 
+
+2000 Residential:
+111 = Farmstead 
+112 = Seasonal/Vacation 
+113 = Single Family Detached 
+114 = Single Family Attached 
+115 = Multifamily 
+116 = Manufactured Housing Parks 
+
+
+2000 Employment:
+120 = Retail and Other Commercial 
+130 = Office 
+141 = Mixed Use Residential 
+142 = Mixed Use Industrial 
+143 = Mixed Use Commercial and Other 
+151 = Industrial and Utility 
+160 = Institutional 
+203 = Airport 
+
+
+See the Generalized Land Use - Historical 1984, 1990, 1997, 2000, 2005, and 2010 for the Twin Cities Metropolitan Area metadata for a more detailed description of these land use classes.
+
+
+RESIDENTIAL AND EMPLOYMENT DENSITY
+
+Residential and Employment density calculations are considered to be general numbers for trend analysis metro wide.  Due to limitations in the positional accuracy of TAZ boundaries and generalized land use interpretation methods, it would be inappropriate to rely on the density figures to be an accurate reflection of the employment or residential density in any given TAZ.  The density relates to that part of the TAZ with the given type of land use, and not the TAZ as a whole.  Some density values may be very skewed do to positional accuracy issues with the alignment of TAZ boundaries as compared to the land use data.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>TAZ ID  number</indspref>
+    <direct>Vector</direct>
+    <mgmg3obj>polygon shapes</mgmg3obj>
+    <mgmg3til>One layer for entire seven county region.</mgmg3til>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>POLYGON ATTRIBUTES:
+ 
+TAZ_1990:   The ID developed for each 1990 TAZ
+ 
+POP_1990:   Population within the TAZ  (Source: 1990 Census)
+ 
+HH_1990:    Households within the TAZ  (Source: 1990 Census)
+ 
+EMP_1990:   Employment (jobs) within the TAZ  (Source: MN Dept. of Economic 
+            Security)
+ 
+RET_1990:   Retail employment within the TAZ  (Source: MN Dept. of Economic 
+            Security)
+
+NRET_1990:  Non-retail employment within the TAZ (EMP_1990 - RET_1990)
+
+RES_AC_90:  Total acreage of the TAZ that is residential usage.  See Lineage in 
+            Section 2 of this metadata for more information.  (Source:  1990 
+            Metropolitan Council Generalized Land Use data)
+ 
+EMP_AC_90:  Total acreage of the TAZ that is commercial, industrial or other 
+            employment uses.  See Lineage in Section 2 of this metadata for 
+            more information. (Source:  1990 Metropolitan Council Generalized 
+            Land Use data)
+ 
+RES_DEN_90: Residential density 1990, expressed as households per acres of 
+            residential area (HH_1990/RES_AC_90).  See Lineage in Section 2 of 
+            this metadata for more information.
+ 
+EMP_DEN_90: Employment density 1990, expressed as jobs per acre of employment 
+            area (EMP_1990/EMP_AC_90).  See Lineage in Section 2 of this 
+            metadata for more information.
+ 
+POP_2000:   Population within the TAZ  (Source: 2000 Census)
+ 
+HH_2000:    Households within the TAZ  (Source: 2000 Census)
+ 
+EMP_2000:   Employment (jobs) within the TAZ  (Source: MN Dept. of Economic 
+            Security)
+ 
+RET_2000:   Retail employment within the TAZ  (Source: MN Dept. of Economic 
+            Security)
+
+NRET_2000:  Non-retail employment within the TAZ (EMP_2000 - RET_2000)
+
+RES_AC_2K:  Total acreage of the TAZ that is residential usage.  See Lineage in 
+            Section 2 of this metadata for more information.  (Source: 2000 
+            Metropolitan Council Generalized Land Use data)
+ 
+EMP_AC_2K:  Total acreage of the TAZ that is commercial, industrial or other 
+            employment uses.  See Lineage in Section 2 of this metadata for 
+            more information. (Source:  2000 Metropolitan Council Generalized 
+            Land Use data)
+ 
+RES_DEN_2K: Residential density 2000 expressed as households per acres of 
+            residential area (HH_2000/RES_AC_2K).  See Lineage in Section 2 of 
+            this metadata for more information.
+ 
+EMP_DEN_2K: Employment density 2000 expressed as jobs per acre of employment 
+            area (EMP_2000/EMP_AC_2K).  See Lineage in Section 2 of this 
+            metadata for more information.
+
+ACRES:      Acreage of the TAZ polygon
+
+CO_NAME:    Name of the county in which the TAZ resides (e.g. RAMSEY)</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>TAZ1990_2000</resdesc>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shape File</formname>
+          <formvern>ArcGIS 8x</formvern>
+          <transize>1 meg. for zip file.</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Rachel Wiken</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1572</cntvoice>
+        <cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20041103</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Rachel Wiken</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1572</cntvoice>
+        <cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20110729</ModDate>
+    <ModTime>15271200</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20110729</mdDateSt>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

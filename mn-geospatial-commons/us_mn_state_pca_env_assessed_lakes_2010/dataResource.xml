@@ -1,0 +1,35 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_assessed_lakes_2010</baseName>
+    <descriptiveName>Minnesota 2010 Lake Assessments</descriptiveName>
+    <publisher>Minnesota Pollution Control Agency</publisher>
+    <publisherID>us_mn_state_pca</publisherID>
+    <currentAsofDate>2012-03-08</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1001</resourceID>
+        <resourceGUID>{25a467e4-471e-437f-82ce-293c8f3c7622}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>env_assessed_lakes_2010</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{0c2390d9-bf91-4def-95b7-62c5520636f8}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>shp</subResourceType>
+            <subResourceName>env_assessed_lakes_2010</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{6314f5f1-f310-4041-9d36-f94c76ff7726}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

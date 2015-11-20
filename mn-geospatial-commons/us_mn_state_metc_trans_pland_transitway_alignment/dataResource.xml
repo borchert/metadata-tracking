@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>trans_pland_transitway_alignment</baseName>
+  <descriptiveName>Planned Transitway Alignments</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-01</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{ccd97968-303a-48f0-81db-1651a69c3fe9}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{2dacd070-4a8f-48dd-9ed0-c7fd1cdd9a94}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

@@ -1,0 +1,216 @@
+<!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  -->
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>International Water Institute</origin>
+        <pubdate>2010</pubdate>
+        <title>International Water Institute Red River Basin Mapping Orthoimagery 2008-2010</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Red River Basin Mapping Initiative, International Water Institute</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/base-redr-2008-2010-airphotos</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Red River Basin Mapping Initiative 2008-2010 project acquired 1.4-meter Lidar data for the US portion of the Red River Basin. Additionally, imagery was collected for the main corridor of the basin. Information about the full initiative (IWI Red River Basin Mapping 2008-2010 - LiDAR) can be referenced at http://www.mngeo.state.mn.us/chouse/metadata/iwi_rrbmi_08_10_lidar.html
+
+This data set is the result of private and government entities working together under the guidance of the International Water Institute (IWI) regarding the Red River Basin Mapping Initiative (RRBMI).  The United States Army Corps of Engineers (USACE) St Louis District was one of the major contributors in this funding effort.</abstract>
+      <purpose>The International Water Institute provides a forum for collaborative research and communication relative to flood damage reduction and natural resource protection in the Red River Basin. The Institute utilizes  technical and professional expertise to help resolve critical water management issues.
+
+The International Water Institute strives to develop partnerships to leverage the planned acquisition of LiDAR and imagery to better meet state, local, and federal needs and generate a freely accessible seamless high-resolution digital elevation model for the US portion of the Red River of the North Basin.  One of the products of this effort is 1.4m average post spacing LiDAR and its derivatives. Imagery was collected for the main corridor of the basin for future utilization.</purpose>
+      <supplinf>Corridor adjacent to the Red River of the North in Minnesota, North Dakota, and South Dakota</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2008</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Imagery was collected for the main corridor of the basin covering blocks A, B, C, and parts of block D&amp;L of the Red River Basin Mapping Initiative. Acquisition dates for the imagery are: 4-18-2008 to 5-18-2008, 5-10-2009 to 5-17-2009.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-98.0</westbc>
+        <eastbc>-96.0</eastbc>
+        <northbc>49.1</northbc>
+        <southbc>45.4</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>imageryBaseMapsEarthCover, Digital Orthorectified Image, Digital Orthophoto Quad, Imagery, Orthophoto, DOQ, Air Photography, Aerial Photo, Aerial Photography</themekey>
+      </theme>
+      <place>
+        <placekey>Minnesota, MN, South Dakota, North Dakota, Red River</placekey>
+      </place>
+    </keywords>
+    <accconst>There are no limitations for access.</accconst>
+    <useconst>None, other than that the International Water Institute asks to be credited in any derived products or services.</useconst>
+    <browse>
+      <browsen>None Available</browsen>
+    </browse>
+    <native>TIF</native>
+    <crossref>
+      <citeinfo>
+        <title>This imagery was collected in conjunction with a larger mapping initiative that incompassed 1.4-m LiDAR data acquisition. For more information see the International Water Institute Red River Basin Mapping Initiative 2008-2010 - LiDAR Acquisition web page: http://www.iwinst.org/lidar/
+ 
+Metadata for the LiDAR project is at http://www.mngeo.state.mn.us/chouse/metadata/iwi_rrbmi_08_10_lidar.html. </title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>International Water Institute</cntorg>
+          <cntper>Charles Fritz</cntper>
+        </cntperp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>Renaissance Hall 650 NP Avenue</address>
+          <city>Fargo</city>
+          <state>ND</state>
+          <postal>58102</postal>
+        </cntaddr>
+        <cntvoice>701-388-0861</cntvoice>
+        <cntemail>charles@iwinst.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Not available</attraccr>
+    </attracc>
+    <complete>Complete</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Root Mean Square Error (RMSE)
+RMSE-X: 1.202 ft (0.3664 m)
+RMSE-Y: 0.896 ft (0.2732 m)</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+      <procstep>
+        <procdesc>International Water Institute Lineage: In conjunction with LiDAR data acquisition, color film was acquired at 17,500 ft. above mean terrain (AMT) with accuracy that can support 0.5-meter orthoimagery. Film was processed and 0.5-meter color orthoimagery was delivered in TIF format.
+
+MnGeo Lineage - for web-based imagery data viewing: MnGeo reformatted the data from lossless TIF format to JPG format (3-band color).  
+
+The imagery was loaded into MnGeo's WMS Imagery Data Viewer.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref/>
+    <direct>Raster</direct>
+    <mgmg3obj>Raster</mgmg3obj>
+    <mgmg3til/>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>not applicable</altdatum>
+      </altsys>
+      <depthsys>
+        <depthdn>not applicable</depthdn>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>14</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+          <coordrep>
+            <absres>0.5</absres>
+            <ordres>0.5</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>1.4m LiDAR Acquisition and Processing for International
+Water Institue, Fargo ND 2008-2010.</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>base_redr_2008_2010_airphotos   (iwi_rrbmi_08_10_imagery)</resdesc>
+    <distliab>International Water Institute Liability Statement: In no event shall the creators, custodians, or distributors of this information be liable for any damages arising out of its use (or the inability to use it).
+
+MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>TIF</formname>
+          <formvern/>
+          <transize/>
+        </digtinfo>
+      </digform>
+      <ordering>The imagery is available to view via WMS (Web Mapping Service) from MnGeo's Geospatial Image Server. The Minnesota Geospatial Image Service web pages provide the url to connect to the Geospatial Image Server as well as information about how to use WMS services. Access via the Minnesota Geospatial Commons by clicking on the 'Online Linkage" field below. 
+
+Other data distribution:  Other data distribution may be arranged through the publisher of the data, the International Water Institute, at http://www.iwinst.org/</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street, Room 300</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150320</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,267 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Metropolitan Council and The Lawrence Group (TLG)</origin>
+        <pubdate>unpublished material</pubdate>
+        <title>Census Geography 1990 - TLG Aligned;  Blocks, Block Groups &amp; Tracts</title>
+        <mgmg1cid>N/A</mgmg1cid>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-society-census1990tlg</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Lawrence Group, under contract with Metropolitan Council, created a 1990 Census Bureau block polygon dataset for the Twin Cities Metropolitan Area (Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington Counties).  This dataset is coincident with and developed using the TLG Street Centerline and Landmarks databases where 1990 block boundaries fall on those features.  For those block boundaries that are defined by features not included in TLG databases, TLG used other digital resources to generate these boundaries, such as orthophotography or additional features from city and county GIS databases.  TLG used it's best judgement to digitize block boundaries when the block boundaries followed nonvisible features or street extensions.
+
+This is a MetroGIS Regionally Endorsed dataset.</abstract>
+      <purpose>The dataset was developed to have a 1990 census block database that is aligned to the TLG street centerlines and landmarks  files, for use in analysis which utilizes both the census data and TLG street centerlines/landmarks.  Blockgroup and tract datasets have been desolved from the block dataset.  Additionally, since TLG's street centerline dataset is aligned within county rights-of-way for these counties, this dataset allows for parcel based analysis as it may pertain to census blocks, block groups and tracts.
+
+This dataset is a precursor to creating a 2000 census block dataset when the 2000 TIGER/Line files are released by the Census Bureau.</purpose>
+      <supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1990</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>1990 Census. Adjustment 1/17/01.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.012</westbc>
+        <eastbc>-92.732</eastbc>
+        <northbc>45.415</northbc>
+        <southbc>44.471</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>census, demographics, TIGER, blocks, block, block groups, block group, tracts, tract</themekey>
+      </theme>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+      <browsen>None available</browsen>
+      <browsed>No browse graphic available</browsed>
+    </browse>
+    <native>ArcInfo Version 8x, UNIX platform</native>
+    <crossref>
+      <citeinfo>
+        <title>NCompass Street Centerlines and Address Ranges - Metro Only
+NCompass Landmarks - Points of Interest</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Tanya Mayer</cntper>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype> mailing and physical address </addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>Minnesota</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651-602-1604</cntvoice>
+        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Each block has a census block number assigned to it that represents the original Census block in the TIGER/Line file.  Several small water blocks that have radically changed since the 1990 census are not included in this. Due to differences in accuracy and geographical representation,  there are 22 land Census blocks not included in this file (most of these are small islands) and 6 Census blocks assigned to more than 1 polygon.  For a more detailed list see the TLG90Miss-Dup-blks.xls file. Other than these cases, a one-to-one correspondence has been confirmed between this dataset and the 1990 census data.
+
+For a complete description of Census Bureau block numbering, please reference the TIGER Technical Documentation (prior to 2000 TIGER) at www.census.gov/geo/www/tiger</attraccr>
+    </attracc>
+    <logic>Each county polygon file is topologically 'clean'.</logic>
+    <complete>Entire seven county Twin Cities metro area is covered.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The positional accuracy of the dataset has not been tested under the National Standards for Spatial Data Accuracy.  
+
+There are differing degrees of positional accuracy throughout the file. TLG adjusts the positional accuracy of the road boundary segments to available sources that are known to have a greater degree of accuracy than those used to generate the original data. However, in all cases (including instances where COGO line work has been the reference) TLG generalizes the  segments to at most 4 feet in order to greatly reduce the number of vertices.
+
+Segments depicting road centerlines have been aligned or snapped to county provided COGO linework, Parcel data, street centerlines or right of ways. 
+
+Where city boundaries are used as  block boundaries, TLG has used the 'Counties and Minor Civil Divisions, Twin Cities Metropolitan Area' coverage which was developed by  Metropolitan Council, Dakota, Hennepin, Scott &amp; Washington Counties and the Minnesota Dept. of Transportation, unless there were differences from the 1990 census files due to annexations occurring after the 1990 Census boundaries were defined -- in which case, the 1990 MCD boundaries from TIGER were followed.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+      <procstep>
+        <procdesc>The Lawrence Group, under contract with Metropolitan Council, created this 1990 Census Bureau block polygon dataset for the Twin Cities Metropolitan Area (Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington Counties).  This dataset is coincident with and developed using the TLG Street Centerline and Landmarks databases where 1990 block boundaries fall on those features.  For those block boundaries that are defined by features not included in TLG databases, TLG used other digital resources to generate these boundaries, such as orthophotography or additional features from city and county GIS databases.  TLG used it's best judgement to digitize block boundaries when the block boundaries followed nonvisible features or street extensions.
+
+After the data was received from TLG, Metropolitan Council GIS staff projected the coverages in to the current projection, added/standardized the attribute items, and created final shapefiles.
+
+The GEOID field was added by the Met Council on 4/22/2014</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>None</indspref>
+    <direct>Vector</direct>
+    <mgmg3obj>arcs, nodes, polygons, label points</mgmg3obj>
+    <mgmg3til>One layer for entire seven county region in ArcView shape file format.</mgmg3til>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>The polygon attribute table contains:
+(in addition to the standard ARC/INFO items)
+ 
+CO:         3 digit FIPS and state standard county Code; e.g. 163, 003 
+ 
+TRACT:      6 digit Census Tract number
+ 
+BLOCK:      4 character Census Block number/code (alpha numeric)
+ 
+CTBLK:      10 character combined Census Tract and Block code with leading 
+            zeros
+ 
+BLOCKGROUP: 7 digit Census Block Group number (Tract + 1st number of the block 
+            code)
+ 
+COUNTY:     3 digit FIPS and state standard INTEGER county code; e.g. 163, 53
+ 
+CT:         6 character Census Tract number with leading zeros
+ 
+BLK:        4 character Census Block code
+ 
+ 
+BLOCK_1990
+  COL  ITEM NAME         WDTH OPUT TYP N.DEC  ALTERNATE NAME
+    1  AREA                8   18  F    5
+    9  PERIMETER           8   18  F    5
+   17  ANOKTLG#            4    5  B    -
+   21  ANOKTLG-ID          4    5  B    -
+   25  CO                  3    3  C    -
+   28  TRACT               6    6  I    -
+   34  BLOCK               4    4  C    -
+   38  CTBLK              10   10  C    -
+   48  BLOCKGROUP          7    7  I    -
+   55  COUNTY              3    3  I    -
+   58  CT                  6    6  C    -
+   64  BLK                 4    4  C    -
+ 
+TRACT_1990
+  COL  ITEM NAME         WDTH OPUT TYP N.DEC  ALTERNATE NAME
+    1  AREA                8   18  F    5
+    9  PERIMETER           8   18  F    5
+   17  ANOKTRACT#          4    5  B    -
+   21  ANOKTRACT-ID        4    5  B    -
+   25  CO                  3    3  C    -
+   28  TRACT               6    6  I    -
+ 
+BLKGRP_1990
+  COL  ITEM NAME         WDTH OPUT TYP N.DEC  ALTERNATE NAME
+    1  AREA                8   18  F    5
+    9  PERIMETER           8   18  F    5
+   17  ANOKBLKGRP#         4    5  B    -
+   21  ANOKBLKGRP-ID       4    5  B    -
+   25  CO                  3    3  C    -
+   28  BLOCKGROUP          7    7  I    -
+There are no arc attributes beyond the standard internal
+ARC/INFO attribute items.
+
+GEOID:  This field was added by the Met Council on 4/22/2014 to allow users to link other Census data (e.g. population data tables) to the geometry of this file.</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>Census1990TLG</resdesc>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Arc Export files and ArcView Shape files</formname>
+          <formvern>ArcView: 3x</formvern>
+          <transize>7.8 MB for zip file.</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Jon Hoekenga</cntper>
+        </cntperp>
+        <cntpos>GIS System Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Mears Park Centre, 390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>Minnesota</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651-602-1561</cntvoice>
+        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20030519</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Tanya Mayer</cntper>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Mears Park Centre, 390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>Minnesota</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651-602-1604</cntvoice>
+        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20110728</ModDate>
+    <ModTime>15543600</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20110728</mdDateSt>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

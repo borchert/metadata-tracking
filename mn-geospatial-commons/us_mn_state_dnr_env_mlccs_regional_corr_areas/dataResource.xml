@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_mlccs_regional_corr_areas</baseName>
+    <descriptiveName>Regionally Significant Ecological Areas and Regional Ecological Corridors - MLCCS derived 2008</descriptiveName>
+    <publisher>Minnesota DNR - Management Resources - MIS Unit</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2008-06-11</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1235</resourceID>
+        <resourceGUID>{e4c527ca-9d18-4a0e-81b1-fe81df28348e}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>env_mlccs_regional_corr_areas</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{b7507438-99cd-43c0-a14a-5142a34aa747}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

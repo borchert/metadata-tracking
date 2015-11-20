@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>base_historical_aerial_points</baseName>
+  <descriptiveName>Minnesota Historical Aerial Photographs Online (MHAPO)</descriptiveName>
+  <publisherID>edu_umn</publisherID>
+  <currentAsofDate>2015-09-22</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{542f2425-bf21-4a54-8a76-bd8d66bd46f4}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>web_app</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{40e1dd46-fd4a-4f2c-bc86-28962bf8d00b}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="HTML" name="Web App (MHAPO)" description="MHAPO Web App">https://www.lib.umn.edu/apps/mhapo/</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{a988bdad-0fbe-4e74-8000-b60629db9d87}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

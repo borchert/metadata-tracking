@@ -1,0 +1,172 @@
+<metadata>
+  <eainfo>
+    <overview>
+      <eaover>Each point contains the following information about the parking facility: 
+
+Type:  Type of lot (public lot, public ramp, private lot, private ramp, on-street,facility)
+
+Name: Name of parking area
+
+Location:  Description of location
+
+MonthlyCos:  Monthly cost to permit holders
+
+Notes: Additional information
+
+Phone: Organization's phone number
+
+Email: Organization's e-mail contact
+
+Website: Organization's website address
+
+This information was collected from organizations that negotiate pool parking contracts and issue pool parking permits: Metro Transit, St. Paul Smart Trips, Minneapolis Commuter Connection.</eaover>
+    </overview>
+  </eainfo>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Metropolitan Council</origin>
+        <title>Pool Parking Locations</title>
+        <pubinfo>
+          <publish>Metropolitan Council - Metro Transit</publish>
+        </pubinfo>
+        <pubdate>20120320</pubdate>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-trans-pool-parking-locations</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This layer represents locations of all publicly available parking facilities with preferential terms for registered carpools and vanpools.</abstract>
+      <purpose>To provide location and contact information for preferential pool parking in the Twin Cities.</purpose>
+      <supplinf>Twin Cities 7 county metropolitan area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington.</supplinf>
+    </descript>
+    <timeperd>
+      <current>Current</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20120320</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.012</westbc>
+        <eastbc>-92.732</eastbc>
+        <northbc>45.415</northbc>
+        <southbc>44.471</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <place>
+        <placekey>Minneapolis, St. Paul</placekey>
+      </place>
+      <theme>
+        <themekey>parking, carpool, vanpool, commuting</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council - Metro Transit</cntorg>
+          <cntper>Tony Drollinger</cntper>
+        </cntperp>
+        <cntpos>TDM Program, Metro Transit - Rideshare</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>560 6th Ave N</address>
+          <city>Minneapolis</city>
+          <state>MN</state>
+          <postal>55411</postal>
+        </cntaddr>
+        <cntvoice>612.349.7533</cntvoice>
+        <cntemail>tony.drollinger@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <complete>Entire 7 county area is covered.</complete>
+    <attracc>
+      <attraccr>Unknown</attraccr>
+    </attracc>
+    <lineage>
+      <procstep>
+        <procdesc>The points were located by comparing maps of facilities provided by St. Paul Smart Trips and the Minneapolis Commuter Connection to aerial imagery in ArcGIS</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <metainfo>
+    <metd>20120320</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council - Metro Transit</cntorg>
+          <cntper>Tony Drollinger</cntper>
+        </cntperp>
+        <cntpos>TDM Program, Metro Transit - Rideshare</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>560 6th Ave N</address>
+          <city>Minneapolis</city>
+          <state>MN</state>
+          <postal>55411</postal>
+        </cntaddr>
+        <cntvoice>612.349.7533</cntvoice>
+        <cntemail>tony.drollinger@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <resdesc>PoolParkingLocations</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Jon Hoekenga</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1561</cntvoice>
+        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

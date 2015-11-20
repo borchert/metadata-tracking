@@ -1,0 +1,243 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey (USGS)</origin>
+        <title>USGS High Resolution Orthoimagery, Minneapolis-St. Paul, MN, Spring, 2006</title>
+        <pubinfo>
+          <publish>Minnesota Geospatial Information Office (MnGeo)</publish>
+        </pubinfo>
+        <pubdate>2006</pubdate>
+        <onlink>http://www.mngeo.state.mn.us/chouse/wms/geo_image_server.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset consists of 0.3-meter pixel resolution (approximately 1-foot), natural color orthoimages  covering 1/3 of the Minneapolis-St. Paul urban area footprint. 
+
+An orthoimage is remotely sensed image data in which displacement of features in the image caused by terrain relief and sensor orientation have been mathematically removed. Orthoimagery combines the image characteristics of a photograph with the geometric qualities of a map. 
+
+[Note: this metadata record was reformatted at the Minnesota Geospatial Information Office from the record provided by USGS - several of the fields were changed to reflect MnGeo's seamless WMS data delivery]</abstract>
+      <purpose>The data depicts geographic features on the surface of the earth. It was created to provide easily accessible geospatial data which is readily available to enhance the capability of Federal, State, and local emergency responders, as well as plan for homeland security efforts. This data also supports The National Map. 
+
+A digital orthoimage is a geometrically accurate photographic record of landscape conditions at the time of the corresponding aerial photography. As such, High Resolution Orthoimagery is useful for a variety of applications, such as environmental monitoring, facility engineering/maintenance, city/county planning, property line review, etc. The digital orthoimage can be used alone or as a raster basemap for corresponding vector line mapping. The detailed focus of High Resolution Orthoimagery provides emergency responders critical information in determining the best evacuation routes, alternative routes and safe access to aid. High Resolution Orthoimagery assists law enforcement personnel in determining the best locations to place surveillance cameras in high-traffic urban areas and popular attractions. The data assists Federal, State and local emergency responders in planning for homeland security efforts. This data also supports The USGS Seamless system.</purpose>
+      <supplinf>Minneapolis and St. Paul, Minnesota (Twin Cities metropolitan area)</supplinf>
+    </descript>
+    <browse>
+      <browsen>http://tdds.cr.usgs.gov/browse/ortho/15T/VK/15TVK395545_201203_0x3000m_CL_1.jpg</browsen>
+    </browse>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>200604</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Imagery was flown April 17 and 18, 2006.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.77</westbc>
+        <eastbc>-92.85</eastbc>
+        <northbc>45.38</northbc>
+        <southbc>44.62</southbc>
+      </bounding>
+    </spdom>
+    <useconst>None. However, users should be aware that temporal changes may have occurred since this data set was collected and that some parts of this data may no longer represent actual surface conditions. Users should not use this data for critical applications without a full awareness of its limitations. Acknowledgment of the U.S. Geological Survey would be appreciated for products derived from these data. There is no guarantee of warranty concerning the accuracy of the data. Any user who modifies the data is obligated to describe the types of modifications they perform. User specifically agrees not to misrepresent the data, nor to imply that changes made were approved or endorsed by the U.S. Geological Survey. Please refer to http://www.usgs.gov/privacy.html for the USGS disclaimer.</useconst>
+    <crossref>
+      <citeinfo>
+        <title>For information on other air photos available for Minnesota, see http://www.mngeo.state.mn.us/chouse/airphoto/index.html</title>
+      </citeinfo>
+    </crossref>
+    <keywords>
+      <place>
+        <placekey>Minnesota, MN, Twin Cities metropolitan area, Minneapolis, St. Paul, Saint Paul</placekey>
+      </place>
+      <theme>
+        <themekt>ISO 19115 Category</themekt>
+        <themekey>imageryBaseMapsEarthCover, orthophoto, air photo, aerial photo, aerial photography, image map</themekey>
+      </theme>
+    </keywords>
+    <accconst>Any downloading and use of these data signifies a user's agreement to comprehension and compliance of the USGS Standard Disclaimer. Insure all portions of metadata are read and clearly understood before using these data in order to protect both user and USGS interests.</accconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>Customer Services</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>EROS Data Center, 47914 252nd Street</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198-0001</postal>
+        </cntaddr>
+        <cntvoice>800-252-4547</cntvoice>
+        <cntfax>6055946589</cntfax>
+        <cntemail>custserv@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <metainfo>
+    <metd>20141231</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <stdorder>
+      <ordering>1. MnGeo's Geospatial Image Server
+
+The imagery is available to view via WMS (Web Mapping Service) from MnGeo's Geospatial Image Server. Click on 'Online Linkage' field below to see a webpage that provides the url to connect to the Geospatial Image Server as well as information about how to use WMS services.
+
+2. NorthStar Mapper
+
+View and download imagery from MnGeo's NorthStar Mapper online interactive map at: http://www.mngeo.state.mn.us/chouse/northstarmapper.html
+
+After you click on "Start Mapping", find these photos as the "USGS Twin Cities Air Photos 2006" layer under "Air Photos and Basemaps"
+For help using NorthStar Mapper, see: http://www.mngeo.state.mn.us/chouse/northstarmapper_help.html
+
+3. EarthExplorer
+
+USGS distributes archived air photos from their EarthExplorer site at: http://earthexplorer.usgs.gov
+Search for Dataset Name: 200604_minneapolis-st_paul_mn_0x3000m_utm_clr under "Additional Criteria".
+
+For help using EarthExplorer, see: http://earthexplorer.usgs.gov/help/</ordering>
+    </stdorder>
+    <distliab>1. USGS Disclaimer:
+
+Although these data have been processed successfully on a computer system at the USGS, no warranty expressed or implied is made by the USGS regarding the use of the data on any other system, nor does the act of distribution constitute any such warranty. Data may have been compiled from various outside sources. Spatial information may not meet National Map Accuracy Standards. This information may be updated without notification. The USGS shall not be liable for any activity involving these data, installation, fitness of the data for a particular purpose, its use, or analyses results.
+
+2. MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab>
+    <resdesc>doq_msp06, Twin Cities high resolution DOQs 2006</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
+          <cntper>Nancy Rader</cntper>
+        </cntperp>
+        <cntpos>GIS Data Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>658 Cedar Street</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-201-2489</cntvoice>
+        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <eainfo>
+    <overview>
+      <eaover>Natural color orthoimagery is organized in three color bands or channels which represent the red, green, and blue portions of the spectrum. Each image pixel is assigned a triplet of numeric values, one for each color band. Numeric values range from 0 to 255. Areas where data is incomplete due to lack of full image coverage are represented with the numeric value of 0.</eaover>
+      <eadetcit>U.S. Department of the Interior, U.S. Geological Survey, 1999, Standards for Digital Orthoimagery: Reston, VA</eadetcit>
+    </overview>
+  </eainfo>
+  <dataqual>
+    <posacc>
+      <vertacc>
+        <vertaccr>There is no vertical accuracy component to orthophotography.</vertaccr>
+      </vertacc>
+      <horizpa>
+        <horizpar>The design accuracy is estimated not to exceed 3-meter diagonal root mean square error (RMSE) (2.12m RMSE in X or Y).
+
+The estimated horizontal positional accuracy value for the dataset is 1.0 meters.
+
+The horizontal positional accuracy and the assurance of that accuracy depend, in part, on the accuracy of the data inputs to the rectification process. The location of existing photoidentifiable ground control and aerotriangulation points were evaluated on the Geotiff image and compared with their ground values in order to determine an overall accuracy for each test block of orthoimages within the project. After image coordinate measurement was completed for each block, an RMSE for the diagonal error was calculated for the orthoimages within the block. This value is an estimate of the horizontal accuracy of the tile expressed in meters.
+
+Citation:  Federal Geographic Data Committee, 1998, Geospatial Positioning Accuracy Standard, Part 3, National Standard for Spatial Data Accuracy, FGDC-STD-007.3-1998</horizpar>
+      </horizpa>
+    </posacc>
+    <logic>All GeoTIFF tagged data and image file sizes are validated using commercial GIS software to ensure proper loading before being archived. This validation procedure ensures correct physical format and field values for tagged elements. Seamlines and tile edges are visually inspected. Seamlines mismatches are not corrected unless the overall displacement exceeds one meter. Logical consistency is implicit in the raster image data structure. Source imagery is cloud free.</logic>
+    <complete>Orthoimages are visually inspected for completeness to ensure that no gaps or image misplacements exist within and between adjacent images. These images are derived by mosaicking multiple images to ensure complete coverage. Source imagery is cloud free. Photography was flown during leaf-off in deciduous vegetation regions. Coastal areas and international boundary regions may have areas without images (void areas) in parts of the coverage. These void areas have a radiometric value of either zero (black) or 128 (uniform gray).</complete>
+    <attracc>
+      <attraccr>Radiometry is verified by visual inspection of the digital orthophoto. Slight systematic radiometric differences may exist between adjacent orthoimage files; these are due primarily to differences in source image capture dates and sun angles along flight lines. These differences can be observed in an image's general lightness or darkness when it is compared to adjacent orthoimage file coverages. Tonal balancing may be performed over a group of images during the mosaicking process which may serve to lighten or darken adjacent images for better color tone matching.</attraccr>
+    </attracc>
+    <lineage>
+      <procstep>
+        <procdesc>SOURCES
+
+1. Source Imagery, Originator: Aero-Metric, Inc.
+
+Source imagery for orthorectification process. Source scale denominator: 21600
+
+2. Aerotriangulation, Originator:  Aero-Metric, Inc.
+
+Aerotriangulation provides the exterior orientation parameters (X, Y, Z, omega, phi, kappa) for input to the orthorectification process.
+
+3. Minneapolis-St. Paul, MN 10-Meter USGS DEM
+
+Used to provide ground elevations for orthorectification process.
+
+
+PROCESSING STEPS at Aero-Metric, Inc.
+
+The rectification process requires, as input, a digital elevation model (DEM) gridded to user-specified bounds, a digital image file (PHOTO), and external orientation parameters for the aerial photograph which are typically derived from aerotriangulation (ATCONTROL).
+
+Natural Color imagery was collected at a photo scale of 1:15000 and scanned at 18 microns to generate the raw raster scans. Airborne GPS positions were computed by Photo Science, Inc. and used as control in the aerotriangulation process. The scanned aerial images, airborne GPS data, ground check point data, and camera calibration data were used as inputs to the aerotriangulaton process. ISAT 04.05 was used to perform block adjustments and generate exterior orientation parameters for each photo. The external orientation parameters were used to provide the geospatial control each photograph during orthorectification. Vertical control for the orthorectification process was obtained from existing USGS Digitial Elevation Models (DEM). During the orthorectification process, elevation data were extracted and resampled to meet user-specified intervals and bounds.
+
+The orthorectified imagery is resampled to a 0.3-meter ground resolution with a ground extent of 1500 meters by 1500 meters, without overlap. Each 1500-meter orthoimage was generated from a mosaic created from multiple photographs. Orthoproduction was performed using the Intergraph Ortho Pro 4.4.18. Seamlines were Manually Generated and tone balanced between frames prior to cutting out into 1500-meter products. The orthorectified imagery is georeferenced to UTM zone 16, NAD83, meters.
+
+All orthoimages are individually inspected for content, misalignments along mosaic seamlines, and void areas. Source information was collected and verified manually during the production process. 
+
+PROCESSING STEPS at Earth Resource Observation amd Science Center (EROS), USGS
+
+In November 2006, this data was resampled to align to the USNG using the USGS Seamless system.
+
+The metadata were imported and updated for display through the Seamless Data Distribution System.
+
+
+PROCESSING STEPS at Land Management Information Center (LMIC), now MnGeo
+
+USGS delivered the imagery to MnGeo in TIFF format in tiles with no overlap. MnGeo read them directly into a database and serves the images over the web via a WMS server in JPG format. </procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+          <coordrep>
+            <absres>0.3</absres>
+            <ordres>0.3</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

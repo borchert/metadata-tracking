@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>struc_physicalfeatures</baseName>
+  <descriptiveName>Physical Features - Points and Lines, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate>2015-10-02</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">structure</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{da20b08b-64a9-4bed-a13e-28c2483b325d}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{3e411c91-1b5e-468b-94df-d468d36d712a}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

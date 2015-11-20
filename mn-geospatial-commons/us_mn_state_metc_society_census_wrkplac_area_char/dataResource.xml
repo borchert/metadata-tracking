@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>society_census_wrkplac_area_char</baseName>
+  <descriptiveName>Census Workplace Area Characteristics</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-03</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">society</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{4e5d13aa-e534-4874-80e7-2bd405d48b25}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{3f434e43-a6ff-4a06-a9b6-8232e4556235}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

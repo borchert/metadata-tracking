@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_dnr_r3_resource_sig_areas</baseName>
+    <descriptiveName>Central Region Regionally Significant Ecological Areas</descriptiveName>
+    <publisher>Minnesota DNR - Central Region</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2004-02-12</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>234</resourceID>
+        <resourceGUID>{4936c8ad-3ede-4f0f-9e68-ae86eb316ca2}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>env_dnr_r3_resource_sig_areas</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{ec370ecc-92b3-43a3-8551-a5699e7f5223}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

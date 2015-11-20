@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>water_metro_municpl_water_supply</baseName>
+  <descriptiveName>Municipal Water Supply System Status - Twin Cities Metropolitan Area, Minnesota</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-04</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">inlandWaters</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{90aee738-08bc-449f-a374-b6cb632d73f4}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{e83bd3c2-0268-4d6b-a238-be55d467e5ba}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

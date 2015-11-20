@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_green_infrastructure</baseName>
+    <descriptiveName>Central Region Green Infrastructure</descriptiveName>
+    <publisher>Minnesota DNR - Management Resources - MIS Unit</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2008-06-11</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1237</resourceID>
+        <resourceGUID>{c888a22c-aa52-437d-bba4-0da5d01212bd}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>env_green_infrastructure</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{2ccda2f5-c692-4cf7-81e1-dd4af7718f69}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

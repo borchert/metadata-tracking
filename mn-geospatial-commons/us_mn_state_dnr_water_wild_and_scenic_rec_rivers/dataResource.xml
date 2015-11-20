@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>water_wild_and_scenic_rec_rivers</baseName>
+    <descriptiveName>Wild and Scenic Recreational Rivers</descriptiveName>
+    <publisher>Minnesota DNR - Division of Fisheries</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2002-03-29</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">inlandWaters</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>293</resourceID>
+        <resourceGUID>{75cec8a5-dc64-4310-90d0-cfc574450347}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>water_wild_and_scenic_rec_rivers</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{a04ce36c-2a25-49bc-9f6e-068103431201}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

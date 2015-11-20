@@ -1,0 +1,36 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_wildfires_tracked_by_mndnr</baseName>
+    <descriptiveName>Wildfires Tracked by Minnesota DNR</descriptiveName>
+    <publisher>Minnesota DNR - Division of Forestry</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-04-13</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>203</resourceID>
+        <resourceGUID>{39f6c0ba-77c4-4d46-8fd3-72b4a4a66707}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>env_wildfires_tracked_by_mndnr</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{da45ff99-442c-4196-8783-1312ad610bda}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>shp</subResourceType>
+            <subResourceName>env_wildfires_tracked_by_mndnr</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{e7ad52b0-62dd-472e-a6f5-0bb7fd05f568}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

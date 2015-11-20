@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>trans_stop_boardings_alightings</baseName>
+  <descriptiveName>Transit Stop Boardings And Alightings</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-01</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{fe591ca4-f391-4402-83c4-ff7d8930c7c0}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{3e6aafa7-c7c1-4766-ae42-1623f33d2962}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>
