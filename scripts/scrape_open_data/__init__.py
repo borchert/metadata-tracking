@@ -150,8 +150,9 @@ def main(url, prefix, output_path, template):
 
         if len(elements["date_revised"]) > 0:
             date_revised = elements["date_revised"][0]
+            temporal_extent = elements["temporal_extent"][0]
             revised_tag = get_date_tag_from_code_tag(date_revised)
-            revised_tag.text = dataset["modified"]
+            revised_tag.text = temporal_extent.text = dataset["modified"]
 
         if len(elements["date_published"]) > 0:
             date_published_code = elements["date_published"][0]
@@ -159,6 +160,7 @@ def main(url, prefix, output_path, template):
             published_tag.text = dataset["issued"]
 
         if len(elements["title"]) > 0:
+            #pdb.set_trace()
             elements["origin"][0].text = elements["publish"][0].text = dataset["publisher"]["name"]
 
         # bounding coordinates
@@ -176,7 +178,7 @@ def main(url, prefix, output_path, template):
                 elements["onlink"][0].text = dist["downloadURL"]
                 elements["formname"][0].text = "shapefile"
             elif dist["format"] == "Esri REST":
-                elements["onlink"][1].text = dist["accessUrl"]
+                elements["onlink"][1].text = dist["accessURL"]
                 elements["formname"][1].text = "Esri REST Service"
 
         elements["datatype"][0].set("codeListValue", parse_datatype(dataset_detail))
@@ -191,9 +193,7 @@ def main(url, prefix, output_path, template):
         # so use Beautiful Soup to get the plain text
         if dataset["description"]:
             abstract_soup = BeautifulSoup(dataset["description"])
-            linebreaks = abstract_soup.findAll("br")
-            [br.replace_with("&#xD;&#xA;") for br in linebreaks]
-            elements["abstract"][0].text = abstract_soup.text.replace("\"","'")
+            elements["abstract"][0].text = abstract_soup.text.strip().replace("\"","'").replace("&#160",". ")
         else:
             elements["abstract"][0].text = "No description provided"
 
@@ -256,10 +256,11 @@ PATHS = {
     "title"    : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString",
     "onlink"   : "gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/gmd:URL",
     "formname" : "gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:name/gco:CharacterString",
-    "origin"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString",
-    "publish"  : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString",
+    "origin"   : "gmd:contact/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode[@codeListValue='originator']/../../gmd:organisationName/gco:CharacterString",
+    "publish"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode[@codeListValue='publisher']/../../gmd:organisationName/gco:CharacterString",
     "date_published"       : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode[@codeListValue='publication']",
     "date_revised"  : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode[@codeListValue='revision']",
+    "temporal_extent": "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimeInstant",
     "westbc"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:westBoundLongitude/gco:Decimal",
     "eastbc"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:eastBoundLongitude/gco:Decimal",
     "northbc"  : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:northBoundLatitude/gco:Decimal",

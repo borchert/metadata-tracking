@@ -5,9 +5,14 @@ import csv
 import codecs
 import string
 import pdb
-TEMPLATE_SOURCE_FILE_NAME = "template_info.csv"
+import os
 
-base_template = codecs.open("_opendata_iso_template.xml", "rU", "utf-8")
+fpath = os.path.abspath(__file__)
+path = os.path.dirname(fpath)
+
+TEMPLATE_SOURCE_FILE_NAME = os.path.join(path, "template_info.csv")
+
+base_template = codecs.open(os.path.join(path, "_opendata_iso_template.xml"), "rU", "utf-8")
 base_string = base_template.read()
 
 class CustomFormatter(string.Formatter):
@@ -26,6 +31,6 @@ with open(TEMPLATE_SOURCE_FILE_NAME, "rU") as template_info:
     for row in reader:
         output_template_name = row.pop('output_template_name')
         output_template_string = CustomFormatter().format(base_string, **row)
-        output_file = codecs.open(output_template_name, "w", "utf-8")
+        output_file = codecs.open(os.path.join(path, output_template_name), "w", "utf-8")
         output_file.write(output_template_string)
         output_file.close()

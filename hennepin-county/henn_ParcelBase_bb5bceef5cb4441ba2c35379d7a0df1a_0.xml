@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-28T10:44:16.876370</gco:DateTime>
+      <gco:DateTime>2015-10-29T14:58:43.503983</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -171,7 +171,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>Tax Property Base represents all Hennepin County parcels for display in the Hennepin County Property Interactive Map.&#160; PARCEL_BASE polygons represent individual taxed parcels or individual tax-exempt parcels tracked for taxing purposes. COMMON_AREA polygons represent clusters or stacks of multiple tax parcels that cannot be delineated on a two-dimensional map, including both taxed and tax-exempt parcels. COMMON_AREA polygons are also used to represent areas that have not been assigned a Property Tax ID including areas where ownership is unidentified. The Tax Property Table is a monthly extract of the property taxation attribute information system.&#160;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Link to Attribute Table Information:&#160;http://gis.hennepin.us/OpenData/Metadata/County%20Tax%20Parcels.pdf&#160;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Data updated: monthly&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Use Limitations: This data (i) is furnished 'AS IS' with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. General questions about this dataset, including errors, omissions, corrections and/or updates should be directed to the Survey Division, Resident and Real Estate Services Department, Hennepin County at 612-348-3131.</gco:CharacterString>
+            <gco:CharacterString>Tax Property Base represents all Hennepin County parcels for display in the Hennepin County Property Interactive Map.&#160; PARCEL_BASE polygons represent individual taxed parcels or individual tax-exempt parcels tracked for taxing purposes. COMMON_AREA polygons represent clusters or stacks of multiple tax parcels that cannot be delineated on a two-dimensional map, including both taxed and tax-exempt parcels. COMMON_AREA polygons are also used to represent areas that have not been assigned a Property Tax ID including areas where ownership is unidentified. The Tax Property Table is a monthly extract of the property taxation attribute information system.&#160;Link to Attribute Table Information:&#160;http://gis.hennepin.us/OpenData/Metadata/County%20Tax%20Parcels.pdf&#160;Data updated: monthlyUse Limitations: This data (i) is furnished 'AS IS' with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. General questions about this dataset, including errors, omissions, corrections and/or updates should be directed to the Survey Division, Resident and Real Estate Services Department, Hennepin County at 612-348-3131.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -356,7 +356,7 @@
             
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.hennepin.opendata.arcgis.com/datasets/bb5bceef5cb4441ba2c35379d7a0df1a_0, orignally in the Project Open Data Metadata Schema, at 2015-10-28T10:44:16.876370.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.hennepin.opendata.arcgis.com/datasets/bb5bceef5cb4441ba2c35379d7a0df1a_0, orignally in the Project Open Data Metadata Schema, at 2015-10-29T14:58:43.503983.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

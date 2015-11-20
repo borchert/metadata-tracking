@@ -128,7 +128,7 @@ If an off-street bikeway followed along road centerlines within proximity of app
     </posacc>
     <lineage>
       <srcinfo>
-        <srcscale/>
+        <srcscale>unknown</srcscale>
       </srcinfo>
       <procstep>
         <procdesc>Processing steps:
@@ -489,7 +489,7 @@ SURF_QUAL - 25 character string
         <digtinfo>
           <formname>Shapefile</formname>
           <formvern>ArcGIS 9x</formvern>
-          <transize/>
+          <transize>1</transize>
         </digtinfo>
       </digform>
       <ordering>See Online Linkage Below</ordering>
