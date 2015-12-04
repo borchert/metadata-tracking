@@ -31,7 +31,7 @@
                           gis@minneapolismn.gov
                        </gco:CharacterString>
                     </electronicMailAddress>
-                 </CI_Address>  
+                 </CI_Address>
               </address>
            </CI_Contact>
         </contactInfo>
@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:07:31.274167</gco:DateTime>
+      <gco:DateTime>2015-12-02T13:16:00.502386</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -134,7 +134,7 @@
                                         gis@minneapolismn.gov
                                      </gco:CharacterString>
                                   </electronicMailAddress>
-                               </CI_Address>  
+                               </CI_Address>
                             </address>
                          </CI_Contact>
                      </contactInfo>
@@ -157,7 +157,7 @@
                               <CI_Address>
                                  <electronicMailAddress>
                                  </electronicMailAddress>
-                              </CI_Address> 
+                              </CI_Address>
                            </address>
                         </CI_Contact>
                      </contactInfo>
@@ -315,13 +315,13 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/c35a747b6f3948d19912b1eb268f8996_0.zip</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/c35a747b6f3948d19912b1eb268f8996_0</URL>
                      </linkage>
                      <protocol>
-                        <gco:CharacterString>download</gco:CharacterString>
+                        <gco:CharacterString>WWW:LINK</gco:CharacterString>
                      </protocol>
                      <name>
-                        <gco:CharacterString>shapefile</gco:CharacterString>
+                        <gco:CharacterString>Dataset Web Page</gco:CharacterString>
                      </name>
                      <description>
                         <gco:CharacterString/>
@@ -357,12 +357,12 @@
       <MD_MaintenanceInformation>
          <maintenanceAndUpdateFrequency>
             <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">
-              
+
             </MD_MaintenanceFrequencyCode>
-            
+
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/c35a747b6f3948d19912b1eb268f8996_0, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:07:31.274167.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/c35a747b6f3948d19912b1eb268f8996_0, orignally in the Project Open Data Metadata Schema, at 2015-12-02T13:16:00.502386.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

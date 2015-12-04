@@ -1,6 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <fileIdentifier>
-      <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/45800f8adcfe436d822c09d903b3b069_0</gco:CharacterString>
+      <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/4dbff315cb07411aa9c4a148bb28ce93_0</gco:CharacterString>
   </fileIdentifier>
   <language>
       <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -31,7 +31,7 @@
                           gis@minneapolismn.gov
                        </gco:CharacterString>
                     </electronicMailAddress>
-                 </CI_Address>  
+                 </CI_Address>
               </address>
            </CI_Contact>
         </contactInfo>
@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:07:37.175181</gco:DateTime>
+      <gco:DateTime>2015-12-02T13:15:59.003699</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -60,7 +60,7 @@
                   <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
-                  <gco:Integer>36987</gco:Integer>
+                  <gco:Integer>24912</gco:Integer>
                </geometricObjectCount>
             </MD_GeometricObjects>
          </geometricObjects>
@@ -88,12 +88,12 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>FiresConfirmed2012 WGS84</gco:CharacterString>
+                  <gco:CharacterString>Open Rental Licenses</gco:CharacterString>
                </title>
                <date>
                  <CI_Date>
                    <date>
-                      <gco:DateTime>2015-03-12T19:56:13.000Z</gco:DateTime>
+                      <gco:DateTime>2015-10-16T15:59:52.000Z</gco:DateTime>
                    </date>
                  <dateType>
                         <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
@@ -103,7 +103,7 @@
                <date>
                    <CI_Date>
                       <date>
-                         <gco:DateTime>2015-03-12T20:02:24.000Z</gco:DateTime>
+                         <gco:DateTime>2015-10-16T17:13:11.000Z</gco:DateTime>
                       </date>
                      <dateType>
                      <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
@@ -113,7 +113,7 @@
                <identifier>
                   <MD_Identifier>
                      <code>
-                    <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/45800f8adcfe436d822c09d903b3b069_0</gco:CharacterString>
+                    <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/4dbff315cb07411aa9c4a148bb28ce93_0</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
@@ -134,7 +134,7 @@
                                         gis@minneapolismn.gov
                                      </gco:CharacterString>
                                   </electronicMailAddress>
-                               </CI_Address>  
+                               </CI_Address>
                             </address>
                          </CI_Contact>
                      </contactInfo>
@@ -157,7 +157,7 @@
                               <CI_Address>
                                  <electronicMailAddress>
                                  </electronicMailAddress>
-                              </CI_Address> 
+                              </CI_Address>
                            </address>
                         </CI_Contact>
                      </contactInfo>
@@ -172,7 +172,20 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>For questions about this data please contact&#160;FireOpenData@minneapolismn.gov&amp;#xD;&amp;#xA;</gco:CharacterString>
+            <gco:CharacterString>For questions about this data please contact&#160;RegulatoryServicesOpenData@minneapolismn.gov&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Rental PropertyMinneapolis&#13;
+ requires that every rental dwelling, including single-family rental &#13;
+dwellings and rental units in owner-occupied duplexes, and rooming and &#13;
+shared-bath units (unless they are in a licensed lodging house) must &#13;
+have a rental license.&#160;The&#13;
+number of locations shown on the map above reflects the unique amount of&#13;
+dwellings in the City of Minneapolis with rental licenses, not the unique&#13;
+amount of rental licenses.Why License Rental Properties?The intent of the rental license ordinance is to:Promote the health, safety, and welfare of the general public.Assure preservation of the existing housing supply.Help maintain property values.Work toward eliminating substandard and deteriorating rental housing.Maintain a living environment that contributes to healthful individual and family living.For more information on the licensing process, call 311 or outside Minneapolis city limits call (612) 673-3000.&#160;Dataset InformationAPN- Parcel identification numberPermit Number- This is the designated rental license identification numberStatus- The status of the rental licenseIssue date- The date that the rental license was issuedExpiration Date-&#13;
+ This is the date that the rental license is set to expire.&#160; The &#13;
+applicant of the rental license must renew the rental license before &#13;
+this date.Address- The address of the rental licensed propertySuite- The suite number of the rental licensed property (if applicable)Contact Name- The contact person for the given rental licenseApplicant Name- The applicant of the rental license.&#160; This is the person primarily responsible for the rental licensed property.Applicant Representative-&#13;
+ If applicable, the applicant will have a representative.&#160; This is &#13;
+usually needed when an organization or business applies for a rental &#13;
+license.X-Coordinate- The X-coordinate for the geographic location of the property (might want to say what coordinate system is being used here).Y-Coordinate- The Y-coordinate of the geographic location for the property (might want to say what coordinate system is being used here).Ward- This is the ward that the rental licensed property is locatedCommunity- This is the community that the rental licensed property is locatedNeighborhood- This is the neighborhood that the rental licensed property is locatedPolice Precinct- This is the police precinct that the rental licensed property is located</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -215,16 +228,25 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>open data</gco:CharacterString>
+                  <gco:CharacterString>Minneapolis</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>fire</gco:CharacterString>
+                  <gco:CharacterString>Open Data</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>confirmed fires</gco:CharacterString>
+                  <gco:CharacterString>RLIC</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>rental licenses</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Rental</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>regulatory services</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
@@ -261,16 +283,16 @@
                <geographicElement>
                    <EX_GeographicBoundingBox>
                       <westBoundLongitude>
-                         <gco:Decimal>-93.36642199973144</gco:Decimal>
+                         <gco:Decimal>-93.3287815957901</gco:Decimal>
                       </westBoundLongitude>
                       <eastBoundLongitude>
-                         <gco:Decimal>-93.18601299986193</gco:Decimal>
+                         <gco:Decimal>-93.20097071470713</gco:Decimal>
                       </eastBoundLongitude>
                       <southBoundLatitude>
-                         <gco:Decimal>44.8629050003014</gco:Decimal>
+                         <gco:Decimal>44.890826334179444</gco:Decimal>
                       </southBoundLatitude>
                       <northBoundLatitude>
-                         <gco:Decimal>45.054350000057674</gco:Decimal>
+                         <gco:Decimal>45.051087224566864</gco:Decimal>
                       </northBoundLatitude>
                    </EX_GeographicBoundingBox>
                </geographicElement>
@@ -306,13 +328,13 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/45800f8adcfe436d822c09d903b3b069_0.zip</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/4dbff315cb07411aa9c4a148bb28ce93_0</URL>
                      </linkage>
                      <protocol>
-                        <gco:CharacterString>download</gco:CharacterString>
+                        <gco:CharacterString>WWW:LINK</gco:CharacterString>
                      </protocol>
                      <name>
-                        <gco:CharacterString>shapefile</gco:CharacterString>
+                        <gco:CharacterString>Dataset Web Page</gco:CharacterString>
                      </name>
                      <description>
                         <gco:CharacterString/>
@@ -327,7 +349,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/FiresConfirmed2012/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/RentalLicenses/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
@@ -348,12 +370,12 @@
       <MD_MaintenanceInformation>
          <maintenanceAndUpdateFrequency>
             <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">
-              
+
             </MD_MaintenanceFrequencyCode>
-            
+
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/45800f8adcfe436d822c09d903b3b069_0, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:07:37.175181.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/4dbff315cb07411aa9c4a148bb28ce93_0, orignally in the Project Open Data Metadata Schema, at 2015-12-02T13:15:59.003699.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

@@ -1,6 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <fileIdentifier>
-      <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/818308c9079c4c0c89944b1fe0e600b1_0</gco:CharacterString>
+      <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/77c3283978464432b9a391b8b9cf7885_0</gco:CharacterString>
   </fileIdentifier>
   <language>
       <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -31,7 +31,7 @@
                           gis@minneapolismn.gov
                        </gco:CharacterString>
                     </electronicMailAddress>
-                 </CI_Address>  
+                 </CI_Address>
               </address>
            </CI_Contact>
         </contactInfo>
@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:07:35.622192</gco:DateTime>
+      <gco:DateTime>2015-12-02T13:15:54.842938</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -57,10 +57,10 @@
          <geometricObjects>
             <MD_GeometricObjects>
                <geometricObjectType>
-                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
+                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
-                  <gco:Integer>11</gco:Integer>
+                  <gco:Integer>4790</gco:Integer>
                </geometricObjectCount>
             </MD_GeometricObjects>
          </geometricObjects>
@@ -88,12 +88,12 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>OPENDATA IT OUTREACHSURVEY</gco:CharacterString>
+                  <gco:CharacterString>Air Quality Survey</gco:CharacterString>
                </title>
                <date>
                  <CI_Date>
                    <date>
-                      <gco:DateTime>2014-12-03T22:31:17.000Z</gco:DateTime>
+                      <gco:DateTime>2015-04-27T17:25:16.000Z</gco:DateTime>
                    </date>
                  <dateType>
                         <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
@@ -103,7 +103,7 @@
                <date>
                    <CI_Date>
                       <date>
-                         <gco:DateTime>2015-07-28T16:29:46.101Z</gco:DateTime>
+                         <gco:DateTime>2015-12-02T17:28:24.000Z</gco:DateTime>
                       </date>
                      <dateType>
                      <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
@@ -113,7 +113,7 @@
                <identifier>
                   <MD_Identifier>
                      <code>
-                    <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/818308c9079c4c0c89944b1fe0e600b1_0</gco:CharacterString>
+                    <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/77c3283978464432b9a391b8b9cf7885_0</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
@@ -134,7 +134,7 @@
                                         gis@minneapolismn.gov
                                      </gco:CharacterString>
                                   </electronicMailAddress>
-                               </CI_Address>  
+                               </CI_Address>
                             </address>
                          </CI_Contact>
                      </contactInfo>
@@ -157,7 +157,7 @@
                               <CI_Address>
                                  <electronicMailAddress>
                                  </electronicMailAddress>
-                              </CI_Address> 
+                              </CI_Address>
                            </address>
                         </CI_Contact>
                      </contactInfo>
@@ -172,61 +172,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>For questions about this data please contact&#160;ITOpenData@minneapolismn.gov&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;2014 Minneapolis Community&#13;
-Technology Survey Data
-Thanks to the 3,015 residents for their participation,&#13;
-the third year's results are in on a survey the City of Minneapolis conducted&#13;
-to understand how Minneapolis residents use computers, mobile devices and the&#13;
-Internet. Access to computers and the Internet, along with the skills to use&#13;
-these tools is critical as technology becomes more and more a part of our daily&#13;
-lives and is integrated in our economic, educational, health, and workforce&#13;
-systems. &#160;The results will inform priorities for the City&#8217;s digital&#13;
-inclusion initiatives, and help engage businesses, neighborhood and community&#13;
-groups, public sector partners, and funders to more effectively address&#13;
-community technology and economic development needs. In addition, the survey&#13;
-provides data to measure changes in the community over time. 
-The City of Minneapolis Information Technology&#13;
-Department contracted with National Research Center, Inc. (NRC) to conduct a&#13;
-survey of residents to inform the City&#8217;s efforts to overcome the digital equity&#13;
-gap between individuals and groups in their access to and use and knowledge of&#13;
-information and communication technologies. This is the third iteration of the&#13;
-Minneapolis Community Technology Survey; the first was conducted in 2012 and&#13;
-the second in 2013.Summary of Data Fields:Field 1 &#8211; Overall percentage of&#13;
-respondents who have lived in Minneapolis for 5 years or less by community and&#13;
-user levelField 2 &#8211; Overall percentage of&#13;
-foreign-born respondents by community and user levelField 3 &#8211; Overall percentage of respondents who rent their homes&#13;
-by community and user levelField 4 &#8211; Overall percentage of respondents who live in attached&#13;
-homes by community and user levelField 5 &#8211; Overall percentage of respondents living in households&#13;
-with three or more people by community and user levelField 6 &#8211; Overall percentage of respondents living in households&#13;
-with children under the age of 18 by community and user levelField 7 &#8211; Overall percentage of female respondents by community&#13;
-and user levelField 8 &#8211; Overall percentage of respondents aged 55 years or older&#13;
-by community and user levelField 9 &#8211; Overall percentage of respondents who are hispanic&#13;
-and/or any race other than white by community and user levelField 10 &#8211; Overall percentage of respondents who prefer to speak a&#13;
-language other than English at home by community and user levelField 11 &#8211; Overall percentage of respondents having annual&#13;
-household incomes of less than $50,000 by community and user levelField 12 &#8211; Overall percentage of respondents who do not work full-&#13;
-or part-time by community and user level
-Field 13 &#8211; Overall percentage of respondents who do not have a&#13;
-4-year degree by community and user level
-&amp;#xD;&amp;#xA;Full data set (Raw data and data dictionary in Excel format)
-The workbook has two tabs,&#13;
-the first is the data dictionary that is needed to translate the data; the&#13;
-second is the raw data.&#160; 
-&#160;
-See data summarized in a&#13;
-variety of formats at: http://www.minneapolismn.gov/it/inclusion/WCMS1P-118865 
-&#160;
-For additional details about&#13;
-the survey, the survey questionnaire, methodology and more, see: http://www.minneapolismn.gov/it/inclusion/WCMS1P-118865 or contact: Elise Ebhardt, 612-673-2026, City of Minneapolis IT Department
-&#160;
-See also: 2012 and 2013 survey results 
-&#160;
-The City's IT Vision includes&#13;
-a component for addressing the digital divide in Minneapolis: All City&#13;
-residents, institutions and businesses will have the tools, skills and&#13;
-motivation to gain value from the digital society. Our residents and businesses&#13;
-need to be equipped to effectively compete with others around the world&#8212;to be&#13;
-smarter, more creative, more knowledgeable, and more innovative. Leveraging&#13;
-technology is a necessary ingredient of success.</gco:CharacterString>
+            <gco:CharacterString>For questions about this data please contact&#160;HealthOpenData@minneapolismn.gov&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;For more information about Air Quality in the City of Minneapolis, check the&#160;Health Department's page&#160;on the City websiteAttribute InformationDate&#160;&#8211; The month and year during which this sample was collected. Each sample is collected over a period of 72-hours. The exact dates of collection are not specified on this dataset.Can ID &#8211;&#160;A unique identifier for this sample and is determined by concatenating the collecting Summa canister&#8217;s identification number with the month and year of collection.Parameter &#8211;&#160;The chemical (for this study, all are Volatile Organic Compounds, or VOCs) for which the result is reported.Results &#8211;&#160;The amount of the particular VOC (parameter) detected in this sample. All results above the detection limit are reported in this dataset.Units &#8211;&#160;The units in which the result is reported. All results are reported in units of micrograms per cubic meter (&#181;g/m3).CAS &#8211;&#160;The CAS Registry Number, also referred to as CASRN or CAS Number, is a unique numerical identifier assigned by Chemical Abstracts Service to every chemical substance described in the open scientific literature.HRV &#8211;&#160;A Health Risk Value (HRV) is the concentration of a chemical that is likely to pose little or no risk to human health and is being used by our study as a reference level for comparing the results. Most HRVs are expressed as concentrations of micrograms of chemical per cubic meter of air (&#181;g/m3). HRVs are developed to protect human health for a specified length of exposure (e.g., one hour, 13 weeks, a lifetime). In cases where an HRV promulgated using the public process described in the Administrative Procedures Act (Minnesota Statutes Chapter 14) was not available as a reference level, we instead used the recommended exposure limit (REL) from the National Institute for Occupational Safety and Health (NIOSH) or the permissible exposure limit (PEL) from the Occupational Safety and Health Administration (OSHA), selecting the most conservative level. For purposes of our study, all reference levels (HRVs, RELs, and PELs) will be referred to as a Health Risk Value.Units -&#160;The units associated with the HRV, REL, or PEL reference level. All reference levels have been converted to units of micrograms per cubic meter (&#181;g/m3).HRV Types &#8211;&#160;The type (HRV, REL, or PEL) of reference level selected. For the purpose of this study, all are referred to as a Health Risk Value. The value selected was the lowest, most conservative value.Name &#8211;&#160;The name of the location. Volunteer names and business names are left blank.Description &#8211;&#160;The type of location where the canister was placed. Volunteer locations are typically residential sites where the property owner/occupant hosts a sampling Summa canister. Business locations, which are also VOC emitters, who are voluntarily participating in the study. &#160;MPCA locations are sites of existing Minnesota Pollution Control Agency air monitors sampling for VOCs where a sampling Summa canister is placed for data comparison. MPRB locations are Minneapolis Park and Recreation Board properties. Sponsored locations are sites where the community has paid for additional sampling Summa canisters to be placed.Address &#8211;&#160;The address at or near where the sampling Summa canister was placed.City &#8211;&#160;For mapping purposes, we have included the city where the sampling Summa canister was placed (all are within the Minneapolis boundary).State &#8211;&#160;For mapping purposes, we have included the state where the sampling Summa canister was placed.Zip &#8211;&#160;For mapping purposes, we have included the zip code where the sampling Summa canister was placed.</gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -269,19 +215,19 @@ technology is a necessary ingredient of success.</gco:CharacterString>
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>IT</gco:CharacterString>
+                  <gco:CharacterString>health</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>Communities</gco:CharacterString>
+                  <gco:CharacterString>open data</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Community Technology Survey</gco:CharacterString>
+                  <gco:CharacterString>air quality</gco:CharacterString>
                </keyword>
                <keyword>
-                  <gco:CharacterString>Open Data</gco:CharacterString>
+                  <gco:CharacterString>Environment</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
@@ -311,53 +257,26 @@ technology is a necessary ingredient of success.</gco:CharacterString>
             <MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
          </characterSet>
          <topicCategory>
-            <MD_TopicCategoryCode>intelligenceMilitary</MD_TopicCategoryCode>
+            <MD_TopicCategoryCode>environment</MD_TopicCategoryCode>
          </topicCategory>
          <topicCategory>
-            <MD_TopicCategoryCode>geoscientificinformation</MD_TopicCategoryCode>
-         </topicCategory>
-         <topicCategory>
-            <MD_TopicCategoryCode>elevation</MD_TopicCategoryCode>
-         </topicCategory>
-         <topicCategory>
-            <MD_TopicCategoryCode>inlandWaters</MD_TopicCategoryCode>
-         </topicCategory>
-         <topicCategory>
-            <MD_TopicCategoryCode>society</MD_TopicCategoryCode>
-         </topicCategory>
-         <topicCategory>
-            <MD_TopicCategoryCode>biota</MD_TopicCategoryCode>
-         </topicCategory>
-         <topicCategory>
-            <MD_TopicCategoryCode>utilitiesCommunications</MD_TopicCategoryCode>
-         </topicCategory>
-         <topicCategory>
-            <MD_TopicCategoryCode>location</MD_TopicCategoryCode>
-         </topicCategory>
-         <topicCategory>
-            <MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</MD_TopicCategoryCode>
-         </topicCategory>
-         <topicCategory>
-            <MD_TopicCategoryCode>economy</MD_TopicCategoryCode>
-         </topicCategory>
-         <topicCategory>
-            <MD_TopicCategoryCode/>
+            <MD_TopicCategoryCode>health</MD_TopicCategoryCode>
          </topicCategory>
          <extent>
             <EX_Extent>
                <geographicElement>
                    <EX_GeographicBoundingBox>
                       <westBoundLongitude>
-                         <gco:Decimal>-93.32913577147109</gco:Decimal>
+                         <gco:Decimal>-93.32676124159701</gco:Decimal>
                       </westBoundLongitude>
                       <eastBoundLongitude>
-                         <gco:Decimal>-93.19384889834365</gco:Decimal>
+                         <gco:Decimal>-93.208779105617</gco:Decimal>
                       </eastBoundLongitude>
                       <southBoundLatitude>
-                         <gco:Decimal>44.89047144731257</gco:Decimal>
+                         <gco:Decimal>44.89270886631688</gco:Decimal>
                       </southBoundLatitude>
                       <northBoundLatitude>
-                         <gco:Decimal>45.05125116221025</gco:Decimal>
+                         <gco:Decimal>45.04759052202385</gco:Decimal>
                       </northBoundLatitude>
                    </EX_GeographicBoundingBox>
                </geographicElement>
@@ -393,13 +312,13 @@ technology is a necessary ingredient of success.</gco:CharacterString>
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/818308c9079c4c0c89944b1fe0e600b1_0.zip</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/77c3283978464432b9a391b8b9cf7885_0</URL>
                      </linkage>
                      <protocol>
-                        <gco:CharacterString>download</gco:CharacterString>
+                        <gco:CharacterString>WWW:LINK</gco:CharacterString>
                      </protocol>
                      <name>
-                        <gco:CharacterString>shapefile</gco:CharacterString>
+                        <gco:CharacterString>Dataset Web Page</gco:CharacterString>
                      </name>
                      <description>
                         <gco:CharacterString/>
@@ -414,7 +333,7 @@ technology is a necessary ingredient of success.</gco:CharacterString>
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/OPENDATA_IT_OUTREACHSURVEY/FeatureServer/0</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/AirQualitySurvey2015Update/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
@@ -435,12 +354,12 @@ technology is a necessary ingredient of success.</gco:CharacterString>
       <MD_MaintenanceInformation>
          <maintenanceAndUpdateFrequency>
             <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">
-              
+
             </MD_MaintenanceFrequencyCode>
-            
+
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/818308c9079c4c0c89944b1fe0e600b1_0, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:07:35.622192.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/77c3283978464432b9a391b8b9cf7885_0, orignally in the Project Open Data Metadata Schema, at 2015-12-02T13:15:54.842938.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

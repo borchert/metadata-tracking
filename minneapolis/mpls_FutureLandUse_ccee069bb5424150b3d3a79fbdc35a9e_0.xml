@@ -31,7 +31,7 @@
                           gis@minneapolismn.gov
                        </gco:CharacterString>
                     </electronicMailAddress>
-                 </CI_Address>  
+                 </CI_Address>
               </address>
            </CI_Contact>
         </contactInfo>
@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:07:36.416770</gco:DateTime>
+      <gco:DateTime>2015-12-02T13:15:58.057939</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -88,7 +88,7 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>Future LandUse</gco:CharacterString>
+                  <gco:CharacterString>Future Land Use</gco:CharacterString>
                </title>
                <date>
                  <CI_Date>
@@ -103,7 +103,7 @@
                <date>
                    <CI_Date>
                       <date>
-                         <gco:DateTime>2015-07-28T16:29:41.743Z</gco:DateTime>
+                         <gco:DateTime>2015-12-02T15:11:48.000Z</gco:DateTime>
                       </date>
                      <dateType>
                      <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
@@ -134,7 +134,7 @@
                                         gis@minneapolismn.gov
                                      </gco:CharacterString>
                                   </electronicMailAddress>
-                               </CI_Address>  
+                               </CI_Address>
                             </address>
                          </CI_Contact>
                      </contactInfo>
@@ -157,7 +157,7 @@
                               <CI_Address>
                                  <electronicMailAddress>
                                  </electronicMailAddress>
-                              </CI_Address> 
+                              </CI_Address>
                            </address>
                         </CI_Contact>
                      </contactInfo>
@@ -312,13 +312,13 @@ FLU is the abbreviation of the classification</gco:CharacterString>
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/ccee069bb5424150b3d3a79fbdc35a9e_0.zip</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/ccee069bb5424150b3d3a79fbdc35a9e_0</URL>
                      </linkage>
                      <protocol>
-                        <gco:CharacterString>download</gco:CharacterString>
+                        <gco:CharacterString>WWW:LINK</gco:CharacterString>
                      </protocol>
                      <name>
-                        <gco:CharacterString>shapefile</gco:CharacterString>
+                        <gco:CharacterString>Dataset Web Page</gco:CharacterString>
                      </name>
                      <description>
                         <gco:CharacterString/>
@@ -354,12 +354,12 @@ FLU is the abbreviation of the classification</gco:CharacterString>
       <MD_MaintenanceInformation>
          <maintenanceAndUpdateFrequency>
             <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">
-              
+
             </MD_MaintenanceFrequencyCode>
-            
+
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/ccee069bb5424150b3d3a79fbdc35a9e_0, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:07:36.416770.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/ccee069bb5424150b3d3a79fbdc35a9e_0, orignally in the Project Open Data Metadata Schema, at 2015-12-02T13:15:58.057939.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

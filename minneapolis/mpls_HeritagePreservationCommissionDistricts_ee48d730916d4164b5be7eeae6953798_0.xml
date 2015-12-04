@@ -1,6 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
   <fileIdentifier>
-      <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/28efd91935ef4460a6413ad122856ff1_1</gco:CharacterString>
+      <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/ee48d730916d4164b5be7eeae6953798_0</gco:CharacterString>
   </fileIdentifier>
   <language>
       <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -31,7 +31,7 @@
                           gis@minneapolismn.gov
                        </gco:CharacterString>
                     </electronicMailAddress>
-                 </CI_Address>  
+                 </CI_Address>
               </address>
            </CI_Contact>
         </contactInfo>
@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:07:36.296490</gco:DateTime>
+      <gco:DateTime>2015-12-02T13:15:59.205683</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -57,10 +57,10 @@
          <geometricObjects>
             <MD_GeometricObjects>
                <geometricObjectType>
-                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
+                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
                </geometricObjectType>
                <geometricObjectCount>
-                  <gco:Integer>21521</gco:Integer>
+                  <gco:Integer>29</gco:Integer>
                </geometricObjectCount>
             </MD_GeometricObjects>
          </geometricObjects>
@@ -88,12 +88,12 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>PoliceIncidents2014 WGS84</gco:CharacterString>
+                  <gco:CharacterString>Heritage Preservation Commission Districts</gco:CharacterString>
                </title>
                <date>
                  <CI_Date>
                    <date>
-                      <gco:DateTime>2015-03-17T18:24:44.000Z</gco:DateTime>
+                      <gco:DateTime>2015-10-08T20:20:38.000Z</gco:DateTime>
                    </date>
                  <dateType>
                         <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
@@ -103,7 +103,7 @@
                <date>
                    <CI_Date>
                       <date>
-                         <gco:DateTime>2015-07-28T16:29:44.778Z</gco:DateTime>
+                         <gco:DateTime>2015-10-16T15:43:06.000Z</gco:DateTime>
                       </date>
                      <dateType>
                      <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
@@ -113,7 +113,7 @@
                <identifier>
                   <MD_Identifier>
                      <code>
-                    <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/28efd91935ef4460a6413ad122856ff1_1</gco:CharacterString>
+                    <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/ee48d730916d4164b5be7eeae6953798_0</gco:CharacterString>
                    </code>
                  </MD_Identifier>
                </identifier>
@@ -134,7 +134,7 @@
                                         gis@minneapolismn.gov
                                      </gco:CharacterString>
                                   </electronicMailAddress>
-                               </CI_Address>  
+                               </CI_Address>
                             </address>
                          </CI_Contact>
                      </contactInfo>
@@ -157,7 +157,7 @@
                               <CI_Address>
                                  <electronicMailAddress>
                                  </electronicMailAddress>
-                              </CI_Address> 
+                              </CI_Address>
                            </address>
                         </CI_Contact>
                      </contactInfo>
@@ -172,7 +172,7 @@
             </CI_Citation>
          </citation>
          <abstract>
-            <gco:CharacterString>For questions about this data please contact&#160;PoliceOpenData@minneapolismn.gov&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Police Incidents for 2014.</gco:CharacterString>
+            <gco:CharacterString>Map service showing the&#160;Heritage Preservation Commission Districts&#160;in Minneapolis. </gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
             <MD_Keywords>
@@ -215,13 +215,19 @@
          <descriptiveKeywords>
             <MD_Keywords>
                <keyword>
-                  <gco:CharacterString>Open Data</gco:CharacterString>
+                  <gco:CharacterString>Minneapolis</gco:CharacterString>
                </keyword>
                <type>
                   <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </type>
             <keyword>
-                  <gco:CharacterString>Police</gco:CharacterString>
+                  <gco:CharacterString>HPC</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Historic Preservation</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Boundaries</gco:CharacterString>
                </keyword>
                </MD_Keywords>
          </descriptiveKeywords>
@@ -251,23 +257,23 @@
             <MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
          </characterSet>
          <topicCategory>
-            <MD_TopicCategoryCode/>
+            <MD_TopicCategoryCode>boundaries</MD_TopicCategoryCode>
          </topicCategory>
          <extent>
             <EX_Extent>
                <geographicElement>
                    <EX_GeographicBoundingBox>
                       <westBoundLongitude>
-                         <gco:Decimal>-93.54013061501706</gco:Decimal>
+                         <gco:Decimal>-93.32038448734616</gco:Decimal>
                       </westBoundLongitude>
                       <eastBoundLongitude>
-                         <gco:Decimal>-93.1985321040194</gco:Decimal>
+                         <gco:Decimal>-93.19407503371872</gco:Decimal>
                       </eastBoundLongitude>
                       <southBoundLatitude>
-                         <gco:Decimal>44.87675857493759</gco:Decimal>
+                         <gco:Decimal>44.90538035468203</gco:Decimal>
                       </southBoundLatitude>
                       <northBoundLatitude>
-                         <gco:Decimal>45.05366897604294</gco:Decimal>
+                         <gco:Decimal>45.03767308776344</gco:Decimal>
                       </northBoundLatitude>
                    </EX_GeographicBoundingBox>
                </geographicElement>
@@ -303,13 +309,13 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/28efd91935ef4460a6413ad122856ff1_1.zip</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/ee48d730916d4164b5be7eeae6953798_0</URL>
                      </linkage>
                      <protocol>
-                        <gco:CharacterString>download</gco:CharacterString>
+                        <gco:CharacterString>WWW:LINK</gco:CharacterString>
                      </protocol>
                      <name>
-                        <gco:CharacterString>shapefile</gco:CharacterString>
+                        <gco:CharacterString>Dataset Web Page</gco:CharacterString>
                      </name>
                      <description>
                         <gco:CharacterString/>
@@ -324,7 +330,7 @@
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/PoliceIncidents2014Update/FeatureServer/1</URL>
+                        <URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Heritage_Preservation_Commission_Districts/FeatureServer/0</URL>
                      </linkage>
                      <protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
@@ -345,12 +351,12 @@
       <MD_MaintenanceInformation>
          <maintenanceAndUpdateFrequency>
             <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">
-              
+
             </MD_MaintenanceFrequencyCode>
-            
+
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/28efd91935ef4460a6413ad122856ff1_1, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:07:36.296490.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/ee48d730916d4164b5be7eeae6953798_0, orignally in the Project Open Data Metadata Schema, at 2015-12-02T13:15:59.205683.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>

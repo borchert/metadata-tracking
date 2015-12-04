@@ -31,7 +31,7 @@
                           gis@minneapolismn.gov
                        </gco:CharacterString>
                     </electronicMailAddress>
-                 </CI_Address>  
+                 </CI_Address>
               </address>
            </CI_Contact>
         </contactInfo>
@@ -41,7 +41,7 @@
      </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-      <gco:DateTime>2015-10-02T10:07:33.392266</gco:DateTime>
+      <gco:DateTime>2015-12-02T13:15:56.454392</gco:DateTime>
   </dateStamp>
   <metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -88,7 +88,7 @@
          <citation>
             <CI_Citation>
                <title>
-                  <gco:CharacterString>PublicWorks StreetPavementMgmt</gco:CharacterString>
+                  <gco:CharacterString>Public Works Street Pavement Mgmt</gco:CharacterString>
                </title>
                <date>
                  <CI_Date>
@@ -103,7 +103,7 @@
                <date>
                    <CI_Date>
                       <date>
-                         <gco:DateTime>2015-07-28T16:29:51.778Z</gco:DateTime>
+                         <gco:DateTime>2015-12-02T16:27:29.000Z</gco:DateTime>
                       </date>
                      <dateType>
                      <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
@@ -134,7 +134,7 @@
                                         gis@minneapolismn.gov
                                      </gco:CharacterString>
                                   </electronicMailAddress>
-                               </CI_Address>  
+                               </CI_Address>
                             </address>
                          </CI_Contact>
                      </contactInfo>
@@ -157,7 +157,7 @@
                               <CI_Address>
                                  <electronicMailAddress>
                                  </electronicMailAddress>
-                              </CI_Address> 
+                              </CI_Address>
                            </address>
                         </CI_Contact>
                      </contactInfo>
@@ -176,179 +176,120 @@
 
 &amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;FIELD&#13;
   NAME
-&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;DESCRIPTION
 
 
 OFT
-Unique 12 digit&#13;
-  number, it is the link to the centerline.
 
 
 STREET_O_NAME
-The name of the&#13;
-  street on.
 
 
 STREET_F_NAME
-The name of the&#13;
-  street from.
 
 
 STREET_T_NAME
-The name of the&#13;
-  street to.
 
 
 NETWORK
-The network of&#13;
-  streets.
 
 
 BRANCH
-The branch of the&#13;
-  street.
 
 
 SECTION
-The section of the&#13;
-  street.
 
 
 PAVEMENT
-The type of pavement.
 
 
 BASE
-The type of aggregate&#13;
-  base.
 
 
 CONST_YR
-The year the street&#13;
-  was constructed.
 
 
 RENOVATION_YR
-The year the street&#13;
-  was renovated.
 
 
 SEALCOAT_YR
-The last year the&#13;
-  street was sealcoated.
 
 
 SEALCOAT_COUNT
-The number of times&#13;
-  the street has been sealcoated.
 
 
 OVERLAY_YR
-The year the street&#13;
-  was overlaid.
 
 
 PCI
-The PCI of linear&#13;
-  grouped streets, (MSA, Local and PrkBd networks).
 
 
 PCI_BRANCH_AVG
-The PCI of area&#13;
-  grouped streets, (Residential Paving Projects, (RES network).
 
 
 LENGTH
-The length of the&#13;
-  block.
 
 
 COMMENTS
-Sealcoating and&#13;
-  Pavement Comments
 
 
 COMMENTS_2
-Misc comments
 
 
 INSPECTION_DATE
-The date of the last&#13;
-  inspection.
 
 
 REFNO_ALL
-The reference number,&#13;
-  it orders the blocks by street name and then in geographic order, south to&#13;
-  north or west to east.
 
 
+&amp;#xD;&amp;#xA;
 
 
+&amp;#xD;&amp;#xA;
 
 
+&amp;#xD;&amp;#xA;
 
 
+&amp;#xD;&amp;#xA;
 
 
+&amp;#xD;&amp;#xA;
 
 
+&amp;#xD;&amp;#xA;
 
 
+&amp;#xD;&amp;#xA;
 
 
+&amp;#xD;&amp;#xA;
 
 
+&amp;#xD;&amp;#xA;
 
 
+&amp;#xD;&amp;#xA;
 
 
+&amp;#xD;&amp;#xA;
 
 
+&amp;#xD;&amp;#xA;
 
 
+&amp;#xD;&amp;#xA;
 
 
+&amp;#xD;&amp;#xA;
 
 
+&amp;#xD;&amp;#xA;
 
 
+&amp;#xD;&amp;#xA;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+&amp;#xD;&amp;#xA;
 </gco:CharacterString>
          </abstract>
          <descriptiveKeywords>
@@ -486,13 +427,13 @@ The reference number,&#13;
                <onLine>
                   <CI_OnlineResource>
                      <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/02bfab32c2ff40c1b5692f9ab816820f_0.zip</URL>
+                        <URL>http://opendata.minneapolismn.gov/datasets/02bfab32c2ff40c1b5692f9ab816820f_0</URL>
                      </linkage>
                      <protocol>
-                        <gco:CharacterString>download</gco:CharacterString>
+                        <gco:CharacterString>WWW:LINK</gco:CharacterString>
                      </protocol>
                      <name>
-                        <gco:CharacterString>shapefile</gco:CharacterString>
+                        <gco:CharacterString>Dataset Web Page</gco:CharacterString>
                      </name>
                      <description>
                         <gco:CharacterString/>
@@ -528,12 +469,12 @@ The reference number,&#13;
       <MD_MaintenanceInformation>
          <maintenanceAndUpdateFrequency>
             <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">
-              
+
             </MD_MaintenanceFrequencyCode>
-            
+
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/02bfab32c2ff40c1b5692f9ab816820f_0, orignally in the Project Open Data Metadata Schema, at 2015-10-02T10:07:33.392266.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/02bfab32c2ff40c1b5692f9ab816820f_0, orignally in the Project Open Data Metadata Schema, at 2015-12-02T13:15:56.454392.</gco:CharacterString>
          </maintenanceNote>
     </MD_MaintenanceInformation>
 </metadataMaintenance>
