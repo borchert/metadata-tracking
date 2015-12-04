@@ -44,7 +44,7 @@
                           gis@co.carver.mn.us
                        </gco:CharacterString>
                     </electronicMailAddress>
-                 </CI_Address>  
+                 </CI_Address>
               </address>
            </CI_Contact>
         </contactInfo>
@@ -153,7 +153,7 @@
                                         gis@co.carver.mn.us
                                      </gco:CharacterString>
                                   </electronicMailAddress>
-                               </CI_Address>  
+                               </CI_Address>
                             </address>
                          </CI_Contact>
                      </contactInfo>
@@ -178,7 +178,7 @@
                               <CI_Address>
                                  <electronicMailAddress>
                                  </electronicMailAddress>
-                              </CI_Address> 
+                              </CI_Address>
                            </address>
                         </CI_Contact>
                      </contactInfo>
@@ -339,7 +339,7 @@
                         <URL></URL>
                      </linkage>
                      <protocol>
-                        <gco:CharacterString>download</gco:CharacterString>
+                        <gco:CharacterString>WWW:LINK</gco:CharacterString>
                      </protocol>
                      <name>
                         <gco:CharacterString></gco:CharacterString>
@@ -378,9 +378,9 @@
       <MD_MaintenanceInformation>
          <maintenanceAndUpdateFrequency>
             <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">
-              
+
             </MD_MaintenanceFrequencyCode>
-            
+
          </maintenanceAndUpdateFrequency>
          <maintenanceNote>
             <gco:CharacterString>This metadata was generated from the Esri Open Data item from {url}, orignally in the Project Open Data Metadata Schema, at {datetime}.</gco:CharacterString>

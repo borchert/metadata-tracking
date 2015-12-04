@@ -10,7 +10,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../mn-geospatial-commons/us_mn_state_dnr_env_mn_moose_range.xml</String>
+                                    <String>xsl/fgdc_test.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -25,7 +25,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>xsl/fgdc_test.xml</String>
+                                    <String>../mn-geospatial-commons/us_mn_state_dnr_env_mn_moose_range.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -136,6 +136,7 @@
         </options>
     </meta>
     <projectTree name="oxygen_metadata_project.xpr">
+        <folder path="../minneapolis/"/>
         <folder path="../mn-geospatial-commons/"/>
         <file name="xsl/fgdc_test.xml"/>
         <file name="scrape_open_data/scott_opendata_iso_template_gmd_gone.xml"/>

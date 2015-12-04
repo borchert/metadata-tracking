@@ -171,11 +171,15 @@ def main(url, prefix, output_path, template):
         #TODO make more dynamic, eg clone CI_OnlineResource for each distribution option
         distribution_list = dataset["distribution"]
         for dist in distribution_list:
-            if dist["format"] == "ZIP":
-                elements["onlink"][0].text = dist["downloadURL"]
-                elements["formname"][0].text = "shapefile"
+
+            if dist["format"] == "Web page":
+                elements["onlink"][0].text = dist["accessURL"]
+                elements["formname"][0].text = "Dataset Web Page"
+            # elif dist["format"] == "ZIP":
+            #     elements["onlink"][0].text = dist["downloadURL"]
+            #     elements["formname"][0].text = "shapefile"
             elif dist["format"] == "Esri REST":
-                elements["onlink"][1].text = dist["accessUrl"]
+                elements["onlink"][1].text = dist["accessURL"]
                 elements["formname"][1].text = "Esri REST Service"
 
         elements["datatype"][0].set("codeListValue", parse_datatype(dataset_detail))
@@ -214,12 +218,19 @@ def main(url, prefix, output_path, template):
             if len(topic_categories) == 1:
                 elements["topic_categories"][0].find("gmd:MD_TopicCategoryCode", NSMAP).text = topic_categories[0]
             else:
-                for topic in topic_categories:
+                for ind, topic in enumerate(topic_categories):
                     parent = elements["topic_categories"][0].getparent()
-                    index = parent.index(elements["topic_categories"][0])
-                    copy = deepcopy(elements["topic_categories"][0])
-                    copy.find("gmd:MD_TopicCategoryCode", NSMAP).text = topic
-                    parent.insert(index, copy)
+                    if ind != len(topic_categories) - 1:
+                        print "copying"
+                        index = parent.index(elements["topic_categories"][0])
+                        copy = deepcopy(elements["topic_categories"][0])
+                        copy.find("gmd:MD_TopicCategoryCode", NSMAP).text = topic
+                        parent.insert(index, copy)
+                    else:
+                        print "last one"
+                        parent.findall("gmd:topicCategory/gmd:MD_TopicCategoryCode", NSMAP)[-1].text = topic
+
+
 
         timestamp = datetime.datetime.now().isoformat()
         elements["metadata_source"][0].text = elements["metadata_source"][0].text.format(url=dataset["identifier"],
@@ -231,7 +242,8 @@ def main(url, prefix, output_path, template):
               title="".join(RE.findall(dataset["title"])).replace("__","_"),
               id=dataset["identifier"].split("/")[-1])
 
-        #print os.path.join(output_path, new_xml_filename + ".xml")
+        #import pdb; pdb.set_trace()
+        print os.path.join(output_path, new_xml_filename + ".xml")
         tree.write(os.path.join(output_path, new_xml_filename + ".xml"), pretty_print=True)
 
 
