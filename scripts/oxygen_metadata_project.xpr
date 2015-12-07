@@ -3433,6 +3433,7 @@
         </options>
     </meta>
     <projectTree name="oxygen_metadata_project.xpr">
+<<<<<<< Updated upstream
         <folder name="ISO19139">
             <file name="../hennepin-county/henn_2010CensusBlockGroups_cde2b42d0da24de9b1bf7d7e178f3d83_2.xml"/>
             <file name="../hennepin-county/henn_2010CensusBlocks_c0e6878df8814670a89a1cc09d73b386_3.xml"/>
@@ -3994,5 +3995,10 @@
             <file name="../../GeoCombine/lib/xslt/iso2html.xsl"/>
             <file name="xsl/remove_ESRI_tags.xsl"/>
         </folder>
+=======
+        <folder path="../minneapolis/"/>
+        <folder path="../mn-geospatial-commons/"/>
+        <folder path="xsl/"/>
+>>>>>>> Stashed changes
     </projectTree>
 </project>
