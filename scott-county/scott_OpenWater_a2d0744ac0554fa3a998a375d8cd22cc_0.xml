@@ -41,7 +41,7 @@
      </gmd:CI_ResponsibleParty>
   </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-11-20T12:12:46.464229</gco:DateTime>
+      <gco:DateTime>2015-12-07T14:30:43.909164</gco:DateTime>
   </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -103,7 +103,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                         <gco:DateTime>2015-11-19T22:13:18.867Z</gco:DateTime>
+                         <gco:DateTime>2015-09-08T20:11:53.000Z</gco:DateTime>
                       </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
@@ -282,7 +282,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimeInstant>2015-11-19T22:13:18.867Z</gml:TimeInstant>
+                        <gml:TimeInstant>2015-09-08T20:11:53.000Z</gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
@@ -365,7 +365,7 @@
             
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/a2d0744ac0554fa3a998a375d8cd22cc_0, orignally in the Project Open Data Metadata Schema, at 2015-11-20T12:12:46.464229.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/a2d0744ac0554fa3a998a375d8cd22cc_0, orignally in the Project Open Data Metadata Schema, at 2015-12-07T14:30:43.909164.</gco:CharacterString>
          </gmd:maintenanceNote>
     </gmd:MD_MaintenanceInformation>
 </gmd:metadataMaintenance>

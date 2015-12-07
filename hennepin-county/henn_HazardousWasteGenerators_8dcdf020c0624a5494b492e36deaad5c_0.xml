@@ -41,7 +41,7 @@
      </gmd:CI_ResponsibleParty>
   </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-11-20T12:11:17.350839</gco:DateTime>
+      <gco:DateTime>2015-12-07T14:29:27.597079</gco:DateTime>
   </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -103,7 +103,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                         <gco:DateTime>2015-11-18T14:32:54.691Z</gco:DateTime>
+                         <gco:DateTime>2015-09-14T22:54:13.000Z</gco:DateTime>
                       </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
@@ -267,7 +267,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimeInstant>2015-11-18T14:32:54.691Z</gml:TimeInstant>
+                        <gml:TimeInstant>2015-09-14T22:54:13.000Z</gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
@@ -350,7 +350,7 @@
             
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.hennepin.opendata.arcgis.com/datasets/8dcdf020c0624a5494b492e36deaad5c_0, orignally in the Project Open Data Metadata Schema, at 2015-11-20T12:11:17.350839.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.hennepin.opendata.arcgis.com/datasets/8dcdf020c0624a5494b492e36deaad5c_0, orignally in the Project Open Data Metadata Schema, at 2015-12-07T14:29:27.597079.</gco:CharacterString>
          </gmd:maintenanceNote>
     </gmd:MD_MaintenanceInformation>
 </gmd:metadataMaintenance>

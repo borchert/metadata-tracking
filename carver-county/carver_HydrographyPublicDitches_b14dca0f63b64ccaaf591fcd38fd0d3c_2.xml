@@ -41,7 +41,7 @@
      </gmd:CI_ResponsibleParty>
   </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-11-20T12:12:15.410475</gco:DateTime>
+      <gco:DateTime>2015-12-07T14:31:03.344973</gco:DateTime>
   </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -103,7 +103,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                         <gco:DateTime>2015-11-19T14:12:42.504Z</gco:DateTime>
+                         <gco:DateTime>2014-06-05T23:44:27.000Z</gco:DateTime>
                       </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
@@ -285,7 +285,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimeInstant>2015-11-19T14:12:42.504Z</gml:TimeInstant>
+                        <gml:TimeInstant>2014-06-05T23:44:27.000Z</gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
@@ -368,7 +368,7 @@
             
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.carver.opendata.arcgis.com/datasets/b14dca0f63b64ccaaf591fcd38fd0d3c_2, orignally in the Project Open Data Metadata Schema, at 2015-11-20T12:12:15.410475.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.carver.opendata.arcgis.com/datasets/b14dca0f63b64ccaaf591fcd38fd0d3c_2, orignally in the Project Open Data Metadata Schema, at 2015-12-07T14:31:03.344973.</gco:CharacterString>
          </gmd:maintenanceNote>
     </gmd:MD_MaintenanceInformation>
 </gmd:metadataMaintenance>

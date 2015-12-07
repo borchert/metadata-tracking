@@ -41,7 +41,7 @@
      </gmd:CI_ResponsibleParty>
   </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-11-20T12:12:23.379490</gco:DateTime>
+      <gco:DateTime>2015-12-07T14:31:45.086213</gco:DateTime>
   </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -103,7 +103,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                         <gco:DateTime>2015-09-10T09:35:25.858Z</gco:DateTime>
+                         <gco:DateTime>2015-12-02T21:54:06.000Z</gco:DateTime>
                       </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
@@ -271,7 +271,7 @@ Division of the Community Planning &amp; Economic Developement (CPED) Department
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimeInstant>2015-09-10T09:35:25.858Z</gml:TimeInstant>
+                        <gml:TimeInstant>2015-12-02T21:54:06.000Z</gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
@@ -354,7 +354,7 @@ Division of the Community Planning &amp; Economic Developement (CPED) Department
             
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/e009a98508a949f39556086fbddff561_0, orignally in the Project Open Data Metadata Schema, at 2015-11-20T12:12:23.379490.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/e009a98508a949f39556086fbddff561_0, orignally in the Project Open Data Metadata Schema, at 2015-12-07T14:31:45.086213.</gco:CharacterString>
          </gmd:maintenanceNote>
     </gmd:MD_MaintenanceInformation>
 </gmd:metadataMaintenance>

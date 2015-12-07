@@ -41,7 +41,7 @@
      </gmd:CI_ResponsibleParty>
   </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-11-20T12:12:32.786657</gco:DateTime>
+      <gco:DateTime>2015-12-07T14:31:47.081956</gco:DateTime>
   </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -88,7 +88,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Future LandUse</gco:CharacterString>
+                  <gco:CharacterString>Future Land Use</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                         <gco:DateTime>2015-07-28T16:29:41.743Z</gco:DateTime>
+                         <gco:DateTime>2015-12-02T18:48:15.000Z</gco:DateTime>
                       </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
@@ -276,7 +276,7 @@ FLU is the abbreviation of the classification</gco:CharacterString>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimeInstant>2015-07-28T16:29:41.743Z</gml:TimeInstant>
+                        <gml:TimeInstant>2015-12-02T18:48:15.000Z</gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
@@ -359,7 +359,7 @@ FLU is the abbreviation of the classification</gco:CharacterString>
             
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/ccee069bb5424150b3d3a79fbdc35a9e_0, orignally in the Project Open Data Metadata Schema, at 2015-11-20T12:12:32.786657.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/ccee069bb5424150b3d3a79fbdc35a9e_0, orignally in the Project Open Data Metadata Schema, at 2015-12-07T14:31:47.081956.</gco:CharacterString>
          </gmd:maintenanceNote>
     </gmd:MD_MaintenanceInformation>
 </gmd:metadataMaintenance>

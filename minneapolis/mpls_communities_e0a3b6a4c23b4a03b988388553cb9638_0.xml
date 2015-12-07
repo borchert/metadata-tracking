@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/e0a3b6a4c23b4a03b988388553cb9638_0</gco:CharacterString>
@@ -42,7 +41,7 @@
      </gmd:CI_ResponsibleParty>
   </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-11-20T12:12:23.804879</gco:DateTime>
+      <gco:DateTime>2015-12-07T14:31:44.970355</gco:DateTime>
   </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -72,64 +71,13 @@
          <gmd:referenceSystemIdentifier>
             <gmd:RS_Identifier>
                <gmd:code>
-=======
-<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
-  <fileIdentifier>
-      <gco:CharacterString>e0a3b6a4c23b4a03b988388553cb9638_0</gco:CharacterString>
-  </fileIdentifier>
-  <language>
-      <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
-  </language>
-  <characterSet>
-      <MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
-  </characterSet>
-  <hierarchyLevel>
-      <MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115"/>
-  </hierarchyLevel>
-  <hierarchyLevelName>
-      <gco:CharacterString>dataset</gco:CharacterString>
-  </hierarchyLevelName>
-  <contact gco:nilReason="missing"/>
-  <dateStamp>
-      <gco:DateTime/>
-  </dateStamp>
-  <metadataStandardName>
-      <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
-  </metadataStandardName>
-  <metadataStandardVersion>
-      <gco:CharacterString>2007</gco:CharacterString>
-  </metadataStandardVersion>
-  <spatialRepresentationInfo>
-      <MD_VectorSpatialRepresentation>
-         <topologyLevel>
-            <MD_TopologyLevelCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115"/>
-         </topologyLevel>
-         <geometricObjects>
-            <MD_GeometricObjects>
-               <geometricObjectType>
-                  <MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
-               </geometricObjectType>
-               <geometricObjectCount>
-                  <gco:Integer/>
-               </geometricObjectCount>
-            </MD_GeometricObjects>
-         </geometricObjects>
-      </MD_VectorSpatialRepresentation>
-  </spatialRepresentationInfo>
-  <referenceSystemInfo>
-      <MD_ReferenceSystem>
-         <referenceSystemIdentifier>
-            <RS_Identifier>
-               <code>
->>>>>>> Stashed changes
                   <gco:CharacterString>4326</gco:CharacterString>
-               </code>
-               <codeSpace>
+               </gmd:code>
+               <gmd:codeSpace>
                   <gco:CharacterString>EPSG</gco:CharacterString>
-               </codeSpace>
-               <version>
+               </gmd:codeSpace>
+               <gmd:version>
                   <gco:CharacterString>8.2.6</gco:CharacterString>
-<<<<<<< Updated upstream
                </gmd:version>
             </gmd:RS_Identifier>
          </gmd:referenceSystemIdentifier>
@@ -155,7 +103,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                         <gco:DateTime>2015-09-10T09:35:25.594Z</gco:DateTime>
+                         <gco:DateTime>2015-12-02T21:54:20.000Z</gco:DateTime>
                       </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
@@ -223,56 +171,14 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-=======
-               </version>
-            </RS_Identifier>
-         </referenceSystemIdentifier>
-      </MD_ReferenceSystem>
-  </referenceSystemInfo>
-  <identificationInfo>
-      <MD_DataIdentification>
-         <citation>
-            <CI_Citation>
-               <title>
-                  <gco:CharacterString>Communities</gco:CharacterString>
-               </title>
-               <date gco:nilReason="missing"/>
-               <citedResponsibleParty>
-                  <CI_ResponsibleParty>
-                     <organisationName>
-                        <gco:CharacterString>City_of_Minneapolis</gco:CharacterString>
-                     </organisationName>
-                     <role>
-                        <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
-                     </role>
-                  </CI_ResponsibleParty>
-               </citedResponsibleParty>
-               <citedResponsibleParty>
-                  <CI_ResponsibleParty>
-                     <organisationName>
-                        <gco:CharacterString/>
-                     </organisationName>
-                     <role>
-                        <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115"/>
-                     </role>
-                  </CI_ResponsibleParty>
-               </citedResponsibleParty>
-               <presentationForm>
-                  <CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115"/>
-               </presentationForm>
-            </CI_Citation>
-         </citation>
-         <abstract>
->>>>>>> Stashed changes
             <gco:CharacterString>If there are&#13;
 any issues with the data in this map, service, or shp file please contact the&#13;
 Minneapolis&#160;GIS office.</gco:CharacterString>
-         </abstract>
-         <descriptiveKeywords>
-            <MD_Keywords>
-               <keyword>
+         </gmd:abstract>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
                   <gco:CharacterString>Minneapolis (Minn.)</gco:CharacterString>
-<<<<<<< Updated upstream
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
@@ -306,28 +212,16 @@ Minneapolis&#160;GIS office.</gco:CharacterString>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-=======
-               </keyword>
-               <type>
-                  <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
-               </type>
-            </MD_Keywords>
-         </descriptiveKeywords>
-         <descriptiveKeywords>
-            <MD_Keywords>
-               <keyword>
->>>>>>> Stashed changes
                   <gco:CharacterString>Minneapolis</gco:CharacterString>
-               </keyword>
-               <type>
-                  <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
-               </type>
-            <keyword>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
+               </gmd:type>
+            <gmd:keyword>
                   <gco:CharacterString>Communities</gco:CharacterString>
-               </keyword>
-               <keyword>
+               </gmd:keyword>
+               <gmd:keyword>
                   <gco:CharacterString>Boundaries</gco:CharacterString>
-<<<<<<< Updated upstream
                </gmd:keyword>
                </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
@@ -378,7 +272,7 @@ Minneapolis&#160;GIS office.</gco:CharacterString>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimeInstant>2015-09-10T09:35:25.594Z</gml:TimeInstant>
+                        <gml:TimeInstant>2015-12-02T21:54:20.000Z</gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
@@ -461,127 +355,8 @@ Minneapolis&#160;GIS office.</gco:CharacterString>
             
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/e0a3b6a4c23b4a03b988388553cb9638_0, orignally in the Project Open Data Metadata Schema, at 2015-11-20T12:12:23.804879.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/e0a3b6a4c23b4a03b988388553cb9638_0, orignally in the Project Open Data Metadata Schema, at 2015-12-07T14:31:44.970355.</gco:CharacterString>
          </gmd:maintenanceNote>
     </gmd:MD_MaintenanceInformation>
 </gmd:metadataMaintenance>
 </gmd:MD_Metadata>
-=======
-               </keyword>
-               </MD_Keywords>
-         </descriptiveKeywords>
-         <resourceConstraints>
-            <MD_Constraints>
-               <useLimitation>
-                  <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/e0a3b6a4c23b4a03b988388553cb9638_0/license.json</gco:CharacterString>
-               </useLimitation>
-            </MD_Constraints>
-         </resourceConstraints>
-         <resourceConstraints>
-            <MD_LegalConstraints>
-               <otherConstraints>
-                  <gco:CharacterString>public</gco:CharacterString>
-               </otherConstraints>
-            </MD_LegalConstraints>
-         </resourceConstraints>
-         <spatialRepresentationType>
-            <MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115"/>
-         </spatialRepresentationType>
-         <language>
-            <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
-         </language>
-         <characterSet>
-            <MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
-         </characterSet>
-         <topicCategory>
-            <MD_TopicCategoryCode/>
-         </topicCategory>
-         <environmentDescription>
-            <gco:CharacterString>Version 6.2 (Build 9200) ; Esri ArcGIS 10.2.2.3574</gco:CharacterString>
-         </environmentDescription>
-         <extent>
-            <EX_Extent>
-               <geographicElement>
-                  <EX_GeographicBoundingBox>
-                     <westBoundLongitude>
-                        <gco:Decimal>-93.32910837055115</gco:Decimal>
-                     </westBoundLongitude>
-                     <eastBoundLongitude>
-                        <gco:Decimal>-93.19432851939406</gco:Decimal>
-                     </eastBoundLongitude>
-                     <southBoundLatitude>
-                        <gco:Decimal>44.89058850767777</gco:Decimal>
-                     </southBoundLatitude>
-                     <northBoundLatitude>
-                        <gco:Decimal>45.051246260236795</gco:Decimal>
-                     </northBoundLatitude>
-                  </EX_GeographicBoundingBox>
-               </geographicElement>
-            </EX_Extent>
-         </extent>
-      </MD_DataIdentification>
-  </identificationInfo>
-  <distributionInfo>
-      <MD_Distribution>
-         <distributionFormat>
-            <MD_Format>
-               <name>
-                  <gco:CharacterString>ArcGIS Open Dataset</gco:CharacterString>
-               </name>
-               <version gco:nilReason="missing"/>
-            </MD_Format>
-         </distributionFormat>
-         <distributor>
-            <MD_Distributor>
-               <distributorContact gco:nilReason="missing"/>
-               <distributorFormat>
-                  <MD_Format>
-                     <name>
-                        <gco:CharacterString>Shapefile</gco:CharacterString>
-                     </name>
-                     <version gco:nilReason="missing"/>
-                  </MD_Format>
-               </distributorFormat>
-            </MD_Distributor>
-         </distributor>
-         <transferOptions>
-            <MD_DigitalTransferOptions>
-               <transferSize>
-                  <gco:Real>0.29</gco:Real>
-               </transferSize>
-               <onLine>
-                  <CI_OnlineResource>
-                     <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/e0a3b6a4c23b4a03b988388553cb9638_0</URL>
-                     </linkage>
-                     <protocol>
-                        <gco:CharacterString>download</gco:CharacterString>
-                     </protocol>
-                  </CI_OnlineResource>
-               </onLine>
-            </MD_DigitalTransferOptions>
-         </transferOptions>
-         <transferOptions>
-            <MD_DigitalTransferOptions>
-               <onLine>
-                  <CI_OnlineResource>
-                     <linkage>
-                        <URL></URL>
-                     </linkage>
-                     <protocol>
-                        <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
-                     </protocol>
-                     <name>
-                        <gco:CharacterString/>
-                     </name>
-                     <description>
-                        <gco:CharacterString/>
-                     </description>
-                  </CI_OnlineResource>
-               </onLine>
-            </MD_DigitalTransferOptions>
-         </transferOptions>
-      </MD_Distribution>
-  </distributionInfo>
-</MD_Metadata>
->>>>>>> Stashed changes

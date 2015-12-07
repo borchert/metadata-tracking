@@ -41,7 +41,7 @@
      </gmd:CI_ResponsibleParty>
   </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-11-20T12:12:26.144789</gco:DateTime>
+      <gco:DateTime>2015-12-07T14:31:48.952497</gco:DateTime>
   </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -88,7 +88,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>PublicWorks StreetPavementMgmt</gco:CharacterString>
+                  <gco:CharacterString>Public Works Street Pavement Mgmt</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                         <gco:DateTime>2015-07-28T16:29:51.778Z</gco:DateTime>
+                         <gco:DateTime>2015-12-02T16:27:29.000Z</gco:DateTime>
                       </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
@@ -175,111 +175,69 @@
 
 FIELD&#13;
   NAME
-DESCRIPTION
 
 
 OFT
-Unique 12 digit&#13;
-  number, it is the link to the centerline.
 
 
 STREET_O_NAME
-The name of the&#13;
-  street on.
 
 
 STREET_F_NAME
-The name of the&#13;
-  street from.
 
 
 STREET_T_NAME
-The name of the&#13;
-  street to.
 
 
 NETWORK
-The network of&#13;
-  streets.
 
 
 BRANCH
-The branch of the&#13;
-  street.
 
 
 SECTION
-The section of the&#13;
-  street.
 
 
 PAVEMENT
-The type of pavement.
 
 
 BASE
-The type of aggregate&#13;
-  base.
 
 
 CONST_YR
-The year the street&#13;
-  was constructed.
 
 
 RENOVATION_YR
-The year the street&#13;
-  was renovated.
 
 
 SEALCOAT_YR
-The last year the&#13;
-  street was sealcoated.
 
 
 SEALCOAT_COUNT
-The number of times&#13;
-  the street has been sealcoated.
 
 
 OVERLAY_YR
-The year the street&#13;
-  was overlaid.
 
 
 PCI
-The PCI of linear&#13;
-  grouped streets, (MSA, Local and PrkBd networks).
 
 
 PCI_BRANCH_AVG
-The PCI of area&#13;
-  grouped streets, (Residential Paving Projects, (RES network).
 
 
 LENGTH
-The length of the&#13;
-  block.
 
 
 COMMENTS
-Sealcoating and&#13;
-  Pavement Comments
 
 
 COMMENTS_2
-Misc comments
 
 
 INSPECTION_DATE
-The date of the last&#13;
-  inspection.
 
 
-REFNO_ALL
-The reference number,&#13;
-  it orders the blocks by street name and then in geographic order, south to&#13;
-  north or west to east.</gco:CharacterString>
+REFNO_ALL</gco:CharacterString>
          </gmd:abstract>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
@@ -381,7 +339,7 @@ The reference number,&#13;
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimeInstant>2015-07-28T16:29:51.778Z</gml:TimeInstant>
+                        <gml:TimeInstant>2015-12-02T16:27:29.000Z</gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
@@ -464,7 +422,7 @@ The reference number,&#13;
             
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/02bfab32c2ff40c1b5692f9ab816820f_0, orignally in the Project Open Data Metadata Schema, at 2015-11-20T12:12:26.144789.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/02bfab32c2ff40c1b5692f9ab816820f_0, orignally in the Project Open Data Metadata Schema, at 2015-12-07T14:31:48.952497.</gco:CharacterString>
          </gmd:maintenanceNote>
     </gmd:MD_MaintenanceInformation>
 </gmd:metadataMaintenance>

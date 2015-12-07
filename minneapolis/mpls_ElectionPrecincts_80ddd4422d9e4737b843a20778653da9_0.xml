@@ -41,7 +41,7 @@
      </gmd:CI_ResponsibleParty>
   </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-11-20T12:12:25.116770</gco:DateTime>
+      <gco:DateTime>2015-12-07T14:31:50.139387</gco:DateTime>
   </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -370,7 +370,7 @@ ArcGIS Resources&#160;page. &#160;If there are questions about the data or the r
             
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/80ddd4422d9e4737b843a20778653da9_0, orignally in the Project Open Data Metadata Schema, at 2015-11-20T12:12:25.116770.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/80ddd4422d9e4737b843a20778653da9_0, orignally in the Project Open Data Metadata Schema, at 2015-12-07T14:31:50.139387.</gco:CharacterString>
          </gmd:maintenanceNote>
     </gmd:MD_MaintenanceInformation>
 </gmd:metadataMaintenance>
