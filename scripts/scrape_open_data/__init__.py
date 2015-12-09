@@ -68,6 +68,8 @@ def get_dataset_json(dataset_id):
 
         if "json" in r.headers["content-type"]:
             json = r.json()
+            if json.has_key("data") is False:
+                return False
             return json["data"]
 
 
@@ -138,8 +140,11 @@ def main(url, prefix, output_path, template):
         if dataset["webService"].endswith(".pdf"):
             print "skipping {d} cuz it's a PDF!".format(d=dataset['title'])
             continue
-
+        #print dataset
         dataset_detail = get_dataset_json(dataset["identifier"])
+        if not dataset_detail:
+            print "There's a problem with {id}.".format(id=dataset["identifier"])
+            continue
         print "Now on:", dataset_detail["name"]
 
         tree = parse_template_into_tree(template)
