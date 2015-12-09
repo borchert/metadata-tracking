@@ -101,7 +101,7 @@ def guess_iso_topic_categories(keywords_list):
     for keyword in keywords_list:
         kw = keyword.lower()
         for topic in ISO_TOPIC_CATEGORIES:
-            if kw in ISO_TOPIC_CATEGORIES[topic]:
+            if kw in topic or kw in ISO_TOPIC_CATEGORIES[topic]:
                 if categories_dict.has_key(topic):
                     categories_dict[topic] = categories_dict[topic] + 1
                 else:
@@ -159,8 +159,7 @@ def main(url, prefix, output_path, template):
             published_tag = get_date_tag_from_code_tag(date_published_code)
             published_tag.text = dataset["issued"]
 
-        if len(elements["title"]) > 0:
-            #pdb.set_trace()
+        if len(elements["origin"]) > 0 and len(elements["publish"]) > 0:
             elements["origin"][0].text = elements["publish"][0].text = dataset["publisher"]["name"]
 
         # bounding coordinates
@@ -173,13 +172,16 @@ def main(url, prefix, output_path, template):
 
         #TODO make more dynamic, eg clone CI_OnlineResource for each distribution option
         distribution_list = dataset["distribution"]
-        for dist in distribution_list:
+        for dist_index, dist in enumerate(distribution_list):
             if dist["format"] == "ZIP":
                 elements["onlink"][0].text = dist["downloadURL"]
-                elements["formname"][0].text = "shapefile"
+                elements["formdesc"][0].text = "Shapefile"
             elif dist["format"] == "Esri REST":
                 elements["onlink"][1].text = dist["accessURL"]
-                elements["formname"][1].text = "Esri REST Service"
+                elements["formdesc"][1].text = "Esri REST Service"
+            elif dist["format"] == "Web page":
+                elements["onlink"][2].text = dist["accessURL"]
+                elements["formdesc"][2].text = "Information"
 
         elements["datatype"][0].set("codeListValue", parse_datatype(dataset_detail))
         elements["id"][0].text = dataset["identifier"]
@@ -193,7 +195,9 @@ def main(url, prefix, output_path, template):
         # so use Beautiful Soup to get the plain text
         if dataset["description"]:
             abstract_soup = BeautifulSoup(dataset["description"])
-            elements["abstract"][0].text = abstract_soup.text.strip().replace("\"","'").replace("&#160",". ")
+            #import pdb; pdb.set_trace()
+            #TODO make this use a regex instead of this $%#(#@$4^%^ string of replaces :(
+            elements["abstract"][0].text = abstract_soup.get_text(" ", strip=True).replace('"','\\"').replace(u"\xa0"," ").replace("\r\n", " ").replace("  "," ")
         else:
             elements["abstract"][0].text = "No description provided"
 
@@ -255,11 +259,11 @@ NSMAP = {
 PATHS = {
     "title"    : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString",
     "onlink"   : "gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/gmd:URL",
-    "formname" : "gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:name/gco:CharacterString",
-    "origin"   : "gmd:contact/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode[@codeListValue='originator']/../../gmd:organisationName/gco:CharacterString",
+    "formdesc" : "gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:description/gco:CharacterString",
+    "origin"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode[@codeListValue='originator']/../../gmd:organisationName/gco:CharacterString",
     "publish"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode[@codeListValue='publisher']/../../gmd:organisationName/gco:CharacterString",
     "date_published"       : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode[@codeListValue='publication']",
-    "date_revised"  : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode[@codeListValue='revision']",
+    "date_revised"         : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode[@codeListValue='revision']",
     "temporal_extent": "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimeInstant",
     "westbc"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:westBoundLongitude/gco:Decimal",
     "eastbc"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:eastBoundLongitude/gco:Decimal",
@@ -276,7 +280,8 @@ PATHS = {
     "metadata_timestamp":"gmd:dateStamp/gco:DateTime",
     "fileIdentifier": "gmd:fileIdentifier/gco:CharacterString",
     "feature_count": "gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectCount/gco:Integer",
-    "topic_categories": "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:topicCategory"
+    "topic_categories": "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:topicCategory",
+    "format_version": "gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorFormat/gmd:MD_Format/gmd:version/gco:CharacterString"
 }
 
 ISO_TOPIC_CATEGORIES = {

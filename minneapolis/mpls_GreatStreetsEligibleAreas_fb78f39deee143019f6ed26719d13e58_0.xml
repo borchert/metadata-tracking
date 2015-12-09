@@ -1,54 +1,57 @@
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/fb78f39deee143019f6ed26719d13e58_0</gco:CharacterString>
-  </gmd:fileIdentifier>
+   </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
-  </gmd:language>
+   </gmd:language>
    <gmd:characterSet>
       <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
-  </gmd:characterSet>
+   </gmd:characterSet>
    <gmd:hierarchyLevel>
       <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115"/>
-  </gmd:hierarchyLevel>
+   </gmd:hierarchyLevel>
    <gmd:hierarchyLevelName>
       <gco:CharacterString>dataset</gco:CharacterString>
-  </gmd:hierarchyLevelName>
+   </gmd:hierarchyLevelName>
    <gmd:contact>
       <gmd:CI_ResponsibleParty>
-       <!-- <individualName>
-           <gco:CharacterString></gco:CharacterString>
-        </individualName>-->
+         <gmd:individualName>
+            <gco:CharacterString>Kevin Dyke</gco:CharacterString>
+         </gmd:individualName>
          <gmd:organisationName>
-           <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
-        </gmd:organisationName>
+            <gco:CharacterString>University of Minnesota Libraries</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:positionName>
+            <gco:CharacterString>Spatial Data Analyst/Curator</gco:CharacterString>
+         </gmd:positionName>
          <gmd:contactInfo>
             <gmd:CI_Contact>
                <gmd:address>
                   <gmd:CI_Address>
                      <gmd:electronicMailAddress>
-                       <gco:CharacterString>
-                          gis@minneapolismn.gov
+                        <gco:CharacterString>
+                          dykex005@umn.edu
                        </gco:CharacterString>
-                    </gmd:electronicMailAddress>
-                 </gmd:CI_Address>  
-              </gmd:address>
-           </gmd:CI_Contact>
-        </gmd:contactInfo>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
-        </gmd:role>
-     </gmd:CI_ResponsibleParty>
-  </gmd:contact>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115"/>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-12-07T14:31:48.853347</gco:DateTime>
-  </gmd:dateStamp>
+      <gco:DateTime>2015-12-09T11:19:30.008131</gco:DateTime>
+   </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
-  </gmd:metadataStandardName>
+   </gmd:metadataStandardName>
    <gmd:metadataStandardVersion>
       <gco:CharacterString>2007</gco:CharacterString>
-  </gmd:metadataStandardVersion>
+   </gmd:metadataStandardVersion>
    <gmd:spatialRepresentationInfo>
       <gmd:MD_VectorSpatialRepresentation>
          <gmd:topologyLevel>
@@ -65,7 +68,7 @@
             </gmd:MD_GeometricObjects>
          </gmd:geometricObjects>
       </gmd:MD_VectorSpatialRepresentation>
-  </gmd:spatialRepresentationInfo>
+   </gmd:spatialRepresentationInfo>
    <gmd:referenceSystemInfo>
       <gmd:MD_ReferenceSystem>
          <gmd:referenceSystemIdentifier>
@@ -82,7 +85,7 @@
             </gmd:RS_Identifier>
          </gmd:referenceSystemIdentifier>
       </gmd:MD_ReferenceSystem>
-  </gmd:referenceSystemInfo>
+   </gmd:referenceSystemInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -93,59 +96,32 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                      <gco:DateTime/>
-                   </gmd:date>
+                        <gco:DateTime>2015-07-09T13:44:19.000Z</gco:DateTime>
+                     </gmd:date>
                      <gmd:dateType>
-                        <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                         <gco:DateTime>2015-12-02T16:28:14.000Z</gco:DateTime>
-                      </gmd:date>
+                        <gco:DateTime>2015-12-02T16:28:14.000Z</gco:DateTime>
+                     </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
-                    </gmd:dateType>
+                     </gmd:dateType>
                   </gmd:CI_Date>
-                  </gmd:date>
+               </gmd:date>
                <gmd:identifier>
                   <gmd:MD_Identifier>
                      <gmd:code>
                         <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/fb78f39deee143019f6ed26719d13e58_0</gco:CharacterString>
-                   </gmd:code>
-                 </gmd:MD_Identifier>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
                </gmd:identifier>
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
-<!--                     <individualName>
-                          <gco:CharacterString></gco:CharacterString>
-                      </individualName>-->
-                     <gmd:organisationName>
-                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
-                     </gmd:organisationName>
-                     <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                           <gmd:address>
-                              <gmd:CI_Address>
-                                 <gmd:electronicMailAddress>
-                                     <gco:CharacterString>gis@minneapolismn.gov</gco:CharacterString>
-                                  </gmd:electronicMailAddress>
-                               </gmd:CI_Address>  
-                            </gmd:address>
-                         </gmd:CI_Contact>
-                     </gmd:contactInfo>
-                     <gmd:role>
-                        <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-<!--                     <individualName>
-                         <gco:CharacterString></gco:CharacterString>
-                     </individualName>-->
                      <gmd:organisationName>
                         <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </gmd:organisationName>
@@ -156,7 +132,28 @@
                                  <gmd:electronicMailAddress>
                                     <gco:CharacterString>gis@minneapolismn.gov</gco:CharacterString>
                                  </gmd:electronicMailAddress>
-                              </gmd:CI_Address> 
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>gis@minneapolismn.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
                            </gmd:address>
                         </gmd:CI_Contact>
                      </gmd:contactInfo>
@@ -171,72 +168,12 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This dataset indicates areas designated as eligible for&#13;
-resources provided through the Great Streets Neighborhood Business District&#13;
-Program. Eligible areas were designated in The Minneapolis Plan for Sustainable&#13;
-Growth and consist of Activity Centers, Commercial Nodes, Commercial Corridors,&#13;
-and LRT Station Areas. Exact parcel boundaries of Activity Centers and&#13;
-Commercial Nodes are identified in The Minneapolis Plan. Commercial Corridor&#13;
-areas are generally defined as a one block radius from designated corridors.&#13;
-LRT Station Areas are defined as a &#189; mile radius from each LRT station outside&#13;
-of downtown. Some staff discretion was used in determining precise boundaries&#13;
-for Commercial Corridors and LRT Station Areas in cases where roadways or other&#13;
-natural boundaries made exact definitions unclear.
-&#160;
-Each area is categorized based on a number of metrics used&#13;
-to determine its economic health and opportunity. Varying levels of Great&#13;
-Streets program resources are available, based on this categorization. These&#13;
-categories are defined as:
-&#160;
-Intervene: Areas that are experiencing weak development&#13;
-interest or significant obstacles to attaining the City&#8217;s commercial&#13;
-development or business investment goals.
-Support: Areas showing signs of strength, but that remain&#13;
-fragile and have some barriers to market development and business investment.
-Monitor: Areas with strong market development and business&#13;
-activity.
-&#160;
-For more information, please see the City of Minneapolis&#13;
-Great Streets Program website: http://www.ci.minneapolis.mn.us/cped/ba/cped_great_streets_home
-&#160;
-
-
-
-Sector
-
-
-Location within the city. Program resources are&#13;
-  administered by different City staff based on Sector.
-
-
-
-
-Category
-
-
-Categorical classification of area&#8217;s economic health and&#13;
-  opportunity.
-
-
-
-
-AreaType
-
-
-Geographic type, based on Minneapolis Plan designations.
-
-
-
-
-Name
-
-
-Name of specific geographic area.</gco:CharacterString>
+            <gco:CharacterString>This dataset indicates areas designated as eligible for resources provided through the Great Streets Neighborhood Business District Program. Eligible areas were designated in The Minneapolis Plan for Sustainable Growth and consist of Activity Centers, Commercial Nodes, Commercial Corridors, and LRT Station Areas. Exact parcel boundaries of Activity Centers and Commercial Nodes are identified in The Minneapolis Plan. Commercial Corridor areas are generally defined as a one block radius from designated corridors. LRT Station Areas are defined as a &#189; mile radius from each LRT station outside of downtown. Some staff discretion was used in determining precise boundaries for Commercial Corridors and LRT Station Areas in cases where roadways or other natural boundaries made exact definitions unclear. Each area is categorized based on a number of metrics used to determine its economic health and opportunity. Varying levels of Great Streets program resources are available, based on this categorization. These categories are defined as: Intervene: Areas that are experiencing weak development interest or significant obstacles to attaining the City&#8217;s commercial development or business investment goals. Support: Areas showing signs of strength, but that remain fragile and have some barriers to market development and business investment. Monitor: Areas with strong market development and business activity. For more information, please see the City of Minneapolis Great Streets Program website: http://www.ci.minneapolis.mn.us/cped/ba/cped_great_streets_home Sector Location within the city. Program resources are  administered by different City staff based on Sector. Category Categorical classification of area&#8217;s economic health and  opportunity. AreaType Geographic type, based on Minneapolis Plan designations. Name Name of specific geographic area.</gco:CharacterString>
          </gmd:abstract>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>Minneapolis (Minn.)</gco:CharacterString>
+                  <gco:CharacterString>Minneapolis, City of</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
@@ -244,26 +181,26 @@ Name of specific geographic area.</gco:CharacterString>
                <gmd:thesaurusName>
                   <gmd:CI_Citation>
                      <gmd:title>
-                     <gco:CharacterString>LC Name Authority File</gco:CharacterString>
-                   </gmd:title>
+                        <gco:CharacterString>Geonames</gco:CharacterString>
+                     </gmd:title>
                      <gmd:date>
                         <gmd:CI_Date>
                            <gmd:date>
-                           <gco:Date>2013-12-15</gco:Date>
-                         </gmd:date>
+                              <gco:Date>2006-01-15</gco:Date>
+                           </gmd:date>
                            <gmd:dateType>
                               <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
-                         </gmd:dateType>
-                       </gmd:CI_Date>
-                   </gmd:date>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
                      <gmd:identifier>
                         <gmd:MD_Identifier>
                            <gmd:code>
-                             <gco:CharacterString>http://id.loc.gov/authorities/names/n79003965</gco:CharacterString>
-                          </gmd:code>
-                       </gmd:MD_Identifier>
-                    </gmd:identifier>
-                 </gmd:CI_Citation>
+                              <gco:CharacterString>http://sws.geonames.org/5037657/about.rdf</gco:CharacterString>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:identifier>
+                  </gmd:CI_Citation>
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
@@ -314,18 +251,18 @@ Name of specific geographic area.</gco:CharacterString>
                <gmd:geographicElement>
                   <gmd:EX_GeographicBoundingBox>
                      <gmd:westBoundLongitude>
-                         <gco:Decimal>-93.32978983880656</gco:Decimal>
-                      </gmd:westBoundLongitude>
+                        <gco:Decimal>-93.32978983880656</gco:Decimal>
+                     </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                         <gco:Decimal>-93.19929847631708</gco:Decimal>
-                      </gmd:eastBoundLongitude>
+                        <gco:Decimal>-93.19929847631708</gco:Decimal>
+                     </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                         <gco:Decimal>44.89038925047747</gco:Decimal>
-                      </gmd:southBoundLatitude>
+                        <gco:Decimal>44.89038925047747</gco:Decimal>
+                     </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                         <gco:Decimal>45.03914088634092</gco:Decimal>
-                      </gmd:northBoundLatitude>
-                   </gmd:EX_GeographicBoundingBox>
+                        <gco:Decimal>45.03914088634092</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
@@ -337,26 +274,40 @@ Name of specific geographic area.</gco:CharacterString>
             </gmd:EX_Extent>
          </gmd:extent>
       </gmd:MD_DataIdentification>
-  </gmd:identificationInfo>
+   </gmd:identificationInfo>
    <gmd:distributionInfo>
       <gmd:MD_Distribution>
-         <gmd:distributionFormat>
-            <gmd:MD_Format>
-               <gmd:name>
-                  <gco:CharacterString>Shapefile</gco:CharacterString>
-               </gmd:name>
-               <gmd:version gco:nilReason="missing"/>
-            </gmd:MD_Format>
-         </gmd:distributionFormat>
          <gmd:distributor>
             <gmd:MD_Distributor>
-               <gmd:distributorContact gco:nilReason="missing"/>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>gis@minneapolismn.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
                <gmd:distributorFormat>
                   <gmd:MD_Format>
                      <gmd:name>
                         <gco:CharacterString>Shapefile</gco:CharacterString>
                      </gmd:name>
-                     <version gco:nilReason="missing"/>
+                     <gmd:version>
+                        <gco:CharacterString/>
+                     </gmd:version>
                   </gmd:MD_Format>
                </gmd:distributorFormat>
             </gmd:MD_Distributor>
@@ -372,11 +323,14 @@ Name of specific geographic area.</gco:CharacterString>
                         <gco:CharacterString>download</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
-                        <gco:CharacterString>shapefile</gco:CharacterString>
+                        <gco:CharacterString/>
                      </gmd:name>
                      <gmd:description>
-                        <gco:CharacterString/>
+                        <gco:CharacterString>Shapefile</gco:CharacterString>
                      </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
 
                   </gmd:CI_OnlineResource>
                </gmd:onLine>
@@ -393,28 +347,51 @@ Name of specific geographic area.</gco:CharacterString>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
-                        <gco:CharacterString>Esri REST Service</gco:CharacterString>
+                        <gco:CharacterString/>
                      </gmd:name>
                      <gmd:description>
-                        <gco:CharacterString/>
+                        <gco:CharacterString>Esri REST Service</gco:CharacterString>
                      </gmd:description>
                   </gmd:CI_OnlineResource>
                </gmd:onLine>
             </gmd:MD_DigitalTransferOptions>
          </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://opendata.minneapolismn.gov/datasets/fb78f39deee143019f6ed26719d13e58_0</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString/>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Information</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
       </gmd:MD_Distribution>
-  </gmd:distributionInfo>
+   </gmd:distributionInfo>
    <gmd:metadataMaintenance>
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency>
             <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">
-              
+
             </gmd:MD_MaintenanceFrequencyCode>
-            
+
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/fb78f39deee143019f6ed26719d13e58_0, orignally in the Project Open Data Metadata Schema, at 2015-12-07T14:31:48.853347.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/fb78f39deee143019f6ed26719d13e58_0, orignally in the Project Open Data Metadata Schema, at 2015-12-09T11:19:30.008131.</gco:CharacterString>
          </gmd:maintenanceNote>
-    </gmd:MD_MaintenanceInformation>
-</gmd:metadataMaintenance>
+      </gmd:MD_MaintenanceInformation>
+   </gmd:metadataMaintenance>
 </gmd:MD_Metadata>

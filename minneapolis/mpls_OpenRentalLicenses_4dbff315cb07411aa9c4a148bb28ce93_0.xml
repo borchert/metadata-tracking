@@ -1,54 +1,57 @@
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/4dbff315cb07411aa9c4a148bb28ce93_0</gco:CharacterString>
-  </gmd:fileIdentifier>
+   </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
-  </gmd:language>
+   </gmd:language>
    <gmd:characterSet>
       <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
-  </gmd:characterSet>
+   </gmd:characterSet>
    <gmd:hierarchyLevel>
       <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115"/>
-  </gmd:hierarchyLevel>
+   </gmd:hierarchyLevel>
    <gmd:hierarchyLevelName>
       <gco:CharacterString>dataset</gco:CharacterString>
-  </gmd:hierarchyLevelName>
+   </gmd:hierarchyLevelName>
    <gmd:contact>
       <gmd:CI_ResponsibleParty>
-       <!-- <individualName>
-           <gco:CharacterString></gco:CharacterString>
-        </individualName>-->
+         <gmd:individualName>
+            <gco:CharacterString>Kevin Dyke</gco:CharacterString>
+         </gmd:individualName>
          <gmd:organisationName>
-           <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
-        </gmd:organisationName>
+            <gco:CharacterString>University of Minnesota Libraries</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:positionName>
+            <gco:CharacterString>Spatial Data Analyst/Curator</gco:CharacterString>
+         </gmd:positionName>
          <gmd:contactInfo>
             <gmd:CI_Contact>
                <gmd:address>
                   <gmd:CI_Address>
                      <gmd:electronicMailAddress>
-                       <gco:CharacterString>
-                          gis@minneapolismn.gov
+                        <gco:CharacterString>
+                          dykex005@umn.edu
                        </gco:CharacterString>
-                    </gmd:electronicMailAddress>
-                 </gmd:CI_Address>  
-              </gmd:address>
-           </gmd:CI_Contact>
-        </gmd:contactInfo>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
-        </gmd:role>
-     </gmd:CI_ResponsibleParty>
-  </gmd:contact>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115"/>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-12-07T14:31:49.491616</gco:DateTime>
-  </gmd:dateStamp>
+      <gco:DateTime>2015-12-09T11:19:30.669100</gco:DateTime>
+   </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
-  </gmd:metadataStandardName>
+   </gmd:metadataStandardName>
    <gmd:metadataStandardVersion>
       <gco:CharacterString>2007</gco:CharacterString>
-  </gmd:metadataStandardVersion>
+   </gmd:metadataStandardVersion>
    <gmd:spatialRepresentationInfo>
       <gmd:MD_VectorSpatialRepresentation>
          <gmd:topologyLevel>
@@ -65,7 +68,7 @@
             </gmd:MD_GeometricObjects>
          </gmd:geometricObjects>
       </gmd:MD_VectorSpatialRepresentation>
-  </gmd:spatialRepresentationInfo>
+   </gmd:spatialRepresentationInfo>
    <gmd:referenceSystemInfo>
       <gmd:MD_ReferenceSystem>
          <gmd:referenceSystemIdentifier>
@@ -82,7 +85,7 @@
             </gmd:RS_Identifier>
          </gmd:referenceSystemIdentifier>
       </gmd:MD_ReferenceSystem>
-  </gmd:referenceSystemInfo>
+   </gmd:referenceSystemInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -93,59 +96,32 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                      <gco:DateTime/>
-                   </gmd:date>
+                        <gco:DateTime>2015-10-16T15:59:52.000Z</gco:DateTime>
+                     </gmd:date>
                      <gmd:dateType>
-                        <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                         <gco:DateTime>2015-10-16T17:13:11.000Z</gco:DateTime>
-                      </gmd:date>
+                        <gco:DateTime>2015-10-16T17:13:11.000Z</gco:DateTime>
+                     </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
-                    </gmd:dateType>
+                     </gmd:dateType>
                   </gmd:CI_Date>
-                  </gmd:date>
+               </gmd:date>
                <gmd:identifier>
                   <gmd:MD_Identifier>
                      <gmd:code>
                         <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/4dbff315cb07411aa9c4a148bb28ce93_0</gco:CharacterString>
-                   </gmd:code>
-                 </gmd:MD_Identifier>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
                </gmd:identifier>
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
-<!--                     <individualName>
-                          <gco:CharacterString></gco:CharacterString>
-                      </individualName>-->
-                     <gmd:organisationName>
-                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
-                     </gmd:organisationName>
-                     <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                           <gmd:address>
-                              <gmd:CI_Address>
-                                 <gmd:electronicMailAddress>
-                                     <gco:CharacterString>gis@minneapolismn.gov</gco:CharacterString>
-                                  </gmd:electronicMailAddress>
-                               </gmd:CI_Address>  
-                            </gmd:address>
-                         </gmd:CI_Contact>
-                     </gmd:contactInfo>
-                     <gmd:role>
-                        <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-<!--                     <individualName>
-                         <gco:CharacterString></gco:CharacterString>
-                     </individualName>-->
                      <gmd:organisationName>
                         <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </gmd:organisationName>
@@ -156,7 +132,28 @@
                                  <gmd:electronicMailAddress>
                                     <gco:CharacterString>gis@minneapolismn.gov</gco:CharacterString>
                                  </gmd:electronicMailAddress>
-                              </gmd:CI_Address> 
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>gis@minneapolismn.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
                            </gmd:address>
                         </gmd:CI_Contact>
                      </gmd:contactInfo>
@@ -171,25 +168,12 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>For questions about this data please contact&#160;RegulatoryServicesOpenData@minneapolismn.govRental PropertyMinneapolis&#13;
- requires that every rental dwelling, including single-family rental &#13;
-dwellings and rental units in owner-occupied duplexes, and rooming and &#13;
-shared-bath units (unless they are in a licensed lodging house) must &#13;
-have a rental license.&#160;The&#13;
-number of locations shown on the map above reflects the unique amount of&#13;
-dwellings in the City of Minneapolis with rental licenses, not the unique&#13;
-amount of rental licenses.Why License Rental Properties?The intent of the rental license ordinance is to:Promote the health, safety, and welfare of the general public.Assure preservation of the existing housing supply.Help maintain property values.Work toward eliminating substandard and deteriorating rental housing.Maintain a living environment that contributes to healthful individual and family living.For more information on the licensing process, call 311 or outside Minneapolis city limits call (612) 673-3000.&#160;Dataset InformationAPN- Parcel identification numberPermit Number- This is the designated rental license identification numberStatus- The status of the rental licenseIssue date- The date that the rental license was issuedExpiration Date-&#13;
- This is the date that the rental license is set to expire.&#160; The &#13;
-applicant of the rental license must renew the rental license before &#13;
-this date.Address- The address of the rental licensed propertySuite- The suite number of the rental licensed property (if applicable)Contact Name- The contact person for the given rental licenseApplicant Name- The applicant of the rental license.&#160; This is the person primarily responsible for the rental licensed property.Applicant Representative-&#13;
- If applicable, the applicant will have a representative.&#160; This is &#13;
-usually needed when an organization or business applies for a rental &#13;
-license.X-Coordinate- The X-coordinate for the geographic location of the property (might want to say what coordinate system is being used here).Y-Coordinate- The Y-coordinate of the geographic location for the property (might want to say what coordinate system is being used here).Ward- This is the ward that the rental licensed property is locatedCommunity- This is the community that the rental licensed property is locatedNeighborhood- This is the neighborhood that the rental licensed property is locatedPolice Precinct- This is the police precinct that the rental licensed property is located</gco:CharacterString>
+            <gco:CharacterString>For questions about this data please contact RegulatoryServicesOpenData@minneapolismn.gov Rental Property Minneapolis requires that every rental dwelling, including single-family rental dwellings and rental units in owner-occupied duplexes, and rooming and shared-bath units (unless they are in a licensed lodging house) must have a rental license. The number of locations shown on the map above reflects the unique amount of dwellings in the City of Minneapolis with rental licenses, not the unique amount of rental licenses. Why License Rental Properties? The intent of the rental license ordinance is to: Promote the health, safety, and welfare of the general public. Assure preservation of the existing housing supply. Help maintain property values. Work toward eliminating substandard and deteriorating rental housing. Maintain a living environment that contributes to healthful individual and family living. For more information on the licensing process, call 311 or outside Minneapolis city limits call (612) 673-3000. Dataset Information APN - Parcel identification number Permit Number - This is the designated rental license identification number Status - The status of the rental license Issue date - The date that the rental license was issued Expiration Date - This is the date that the rental license is set to expire. The applicant of the rental license must renew the rental license before this date. Address - The address of the rental licensed property Suite - The suite number of the rental licensed property (if applicable) Contact Name - The contact person for the given rental license Applicant Name - The applicant of the rental license. This is the person primarily responsible for the rental licensed property. Applicant Representative - If applicable, the applicant will have a representative. This is usually needed when an organization or business applies for a rental license. X-Coordinate - The X-coordinate for the geographic location of the property (might want to say what coordinate system is being used here). Y-Coordinate - The Y-coordinate of the geographic location for the property (might want to say what coordinate system is being used here). Ward - This is the ward that the rental licensed property is located Community - This is the community that the rental licensed property is located Neighborhood - This is the neighborhood that the rental licensed property is located Police Precinct - This is the police precinct that the rental licensed property is located</gco:CharacterString>
          </gmd:abstract>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>Minneapolis (Minn.)</gco:CharacterString>
+                  <gco:CharacterString>Minneapolis, City of</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
@@ -197,26 +181,26 @@ license.X-Coordinate- The X-coordinate for the geographic location of the proper
                <gmd:thesaurusName>
                   <gmd:CI_Citation>
                      <gmd:title>
-                     <gco:CharacterString>LC Name Authority File</gco:CharacterString>
-                   </gmd:title>
+                        <gco:CharacterString>Geonames</gco:CharacterString>
+                     </gmd:title>
                      <gmd:date>
                         <gmd:CI_Date>
                            <gmd:date>
-                           <gco:Date>2013-12-15</gco:Date>
-                         </gmd:date>
+                              <gco:Date>2006-01-15</gco:Date>
+                           </gmd:date>
                            <gmd:dateType>
                               <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
-                         </gmd:dateType>
-                       </gmd:CI_Date>
-                   </gmd:date>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
                      <gmd:identifier>
                         <gmd:MD_Identifier>
                            <gmd:code>
-                             <gco:CharacterString>http://id.loc.gov/authorities/names/n79003965</gco:CharacterString>
-                          </gmd:code>
-                       </gmd:MD_Identifier>
-                    </gmd:identifier>
-                 </gmd:CI_Citation>
+                              <gco:CharacterString>http://sws.geonames.org/5037657/about.rdf</gco:CharacterString>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:identifier>
+                  </gmd:CI_Citation>
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
@@ -276,18 +260,18 @@ license.X-Coordinate- The X-coordinate for the geographic location of the proper
                <gmd:geographicElement>
                   <gmd:EX_GeographicBoundingBox>
                      <gmd:westBoundLongitude>
-                         <gco:Decimal>-93.3287815957901</gco:Decimal>
-                      </gmd:westBoundLongitude>
+                        <gco:Decimal>-93.3287815957901</gco:Decimal>
+                     </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                         <gco:Decimal>-93.20097071470713</gco:Decimal>
-                      </gmd:eastBoundLongitude>
+                        <gco:Decimal>-93.20097071470713</gco:Decimal>
+                     </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                         <gco:Decimal>44.890826334179444</gco:Decimal>
-                      </gmd:southBoundLatitude>
+                        <gco:Decimal>44.890826334179444</gco:Decimal>
+                     </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                         <gco:Decimal>45.051087224566864</gco:Decimal>
-                      </gmd:northBoundLatitude>
-                   </gmd:EX_GeographicBoundingBox>
+                        <gco:Decimal>45.051087224566864</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
@@ -299,26 +283,40 @@ license.X-Coordinate- The X-coordinate for the geographic location of the proper
             </gmd:EX_Extent>
          </gmd:extent>
       </gmd:MD_DataIdentification>
-  </gmd:identificationInfo>
+   </gmd:identificationInfo>
    <gmd:distributionInfo>
       <gmd:MD_Distribution>
-         <gmd:distributionFormat>
-            <gmd:MD_Format>
-               <gmd:name>
-                  <gco:CharacterString>Shapefile</gco:CharacterString>
-               </gmd:name>
-               <gmd:version gco:nilReason="missing"/>
-            </gmd:MD_Format>
-         </gmd:distributionFormat>
          <gmd:distributor>
             <gmd:MD_Distributor>
-               <gmd:distributorContact gco:nilReason="missing"/>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>gis@minneapolismn.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
                <gmd:distributorFormat>
                   <gmd:MD_Format>
                      <gmd:name>
                         <gco:CharacterString>Shapefile</gco:CharacterString>
                      </gmd:name>
-                     <version gco:nilReason="missing"/>
+                     <gmd:version>
+                        <gco:CharacterString/>
+                     </gmd:version>
                   </gmd:MD_Format>
                </gmd:distributorFormat>
             </gmd:MD_Distributor>
@@ -334,11 +332,14 @@ license.X-Coordinate- The X-coordinate for the geographic location of the proper
                         <gco:CharacterString>download</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
-                        <gco:CharacterString>shapefile</gco:CharacterString>
+                        <gco:CharacterString/>
                      </gmd:name>
                      <gmd:description>
-                        <gco:CharacterString/>
+                        <gco:CharacterString>Shapefile</gco:CharacterString>
                      </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
 
                   </gmd:CI_OnlineResource>
                </gmd:onLine>
@@ -355,28 +356,51 @@ license.X-Coordinate- The X-coordinate for the geographic location of the proper
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
-                        <gco:CharacterString>Esri REST Service</gco:CharacterString>
+                        <gco:CharacterString/>
                      </gmd:name>
                      <gmd:description>
-                        <gco:CharacterString/>
+                        <gco:CharacterString>Esri REST Service</gco:CharacterString>
                      </gmd:description>
                   </gmd:CI_OnlineResource>
                </gmd:onLine>
             </gmd:MD_DigitalTransferOptions>
          </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://opendata.minneapolismn.gov/datasets/4dbff315cb07411aa9c4a148bb28ce93_0</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString/>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Information</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
       </gmd:MD_Distribution>
-  </gmd:distributionInfo>
+   </gmd:distributionInfo>
    <gmd:metadataMaintenance>
       <gmd:MD_MaintenanceInformation>
          <gmd:maintenanceAndUpdateFrequency>
             <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">
-              
+
             </gmd:MD_MaintenanceFrequencyCode>
-            
+
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/4dbff315cb07411aa9c4a148bb28ce93_0, orignally in the Project Open Data Metadata Schema, at 2015-12-07T14:31:49.491616.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/4dbff315cb07411aa9c4a148bb28ce93_0, orignally in the Project Open Data Metadata Schema, at 2015-12-09T11:19:30.669100.</gco:CharacterString>
          </gmd:maintenanceNote>
-    </gmd:MD_MaintenanceInformation>
-</gmd:metadataMaintenance>
+      </gmd:MD_MaintenanceInformation>
+   </gmd:metadataMaintenance>
 </gmd:MD_Metadata>
