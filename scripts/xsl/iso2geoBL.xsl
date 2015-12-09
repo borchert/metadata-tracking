@@ -94,7 +94,7 @@
         </xsl:when>
         <!-- all others -->
         <xsl:otherwise>
-          <xsl:value-of select="$uuid"/>
+          <xsl:value-of select="substring($uuid, string-length($uuid)-33)"/>
         </xsl:otherwise>
          </xsl:choose>
     </xsl:variable>
@@ -102,15 +102,15 @@
       <xsl:text>"uuid": "</xsl:text><xsl:value-of select="$uuid"/><xsl:text>",</xsl:text>
       <xsl:text>"layer_geom_type_s": "</xsl:text>
          <xsl:choose>
-           <xsl:when test="gmd:MD_Metadata/gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectType/gmd:MD_GeometricObjectTypeCode[@codeListValue='vector']">
+           <xsl:when test="gmd:MD_Metadata/gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectType/gmd:MD_GeometricObjectTypeCode">
              <xsl:choose>
-                  <xsl:when test="contains(gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:spatialRepresentationType/gmd:MD_SpatialRepresentationTypeCode, 'point')">
+               <xsl:when test="contains(gmd:MD_Metadata/gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectType/gmd:MD_GeometricObjectTypeCode/@codeListValue, 'point')">
                     <xsl:text>Point</xsl:text>
                   </xsl:when>
-                  <xsl:when test="contains(gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:spatialRepresentationType/gmd:MD_SpatialRepresentationTypeCode, 'curve')">
+               <xsl:when test="contains(gmd:MD_Metadata/gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectType/gmd:MD_GeometricObjectTypeCode/@codeListValue, 'curve')">
                     <xsl:text>Line</xsl:text>
                   </xsl:when>
-                  <xsl:when test="contains(gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:spatialRepresentationType/gmd:MD_SpatialRepresentationTypeCode, 'surface')">
+               <xsl:when test="contains(gmd:MD_Metadata/gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectType/gmd:MD_GeometricObjectTypeCode/@codeListValue, 'surface')">
                     <xsl:text>Polygon</xsl:text>
                   </xsl:when>
              </xsl:choose>
@@ -160,10 +160,9 @@
             <xsl:otherwise>
               <xsl:text>Public</xsl:text>
             </xsl:otherwise>
-          </xsl:choose><xsl:text>",</xsl:text>
-      <xsl:text>"dct_provenance_s": "</xsl:text><xsl:value-of select="$institution"/>",
-      
-      <xsl:text>"layer_id_s": "</xsl:text>
+          </xsl:choose><xsl:text>","dct_provenance_s": "</xsl:text>
+      <xsl:value-of select="$institution"/>
+      <xsl:text>","layer_id_s": "</xsl:text>
         <xsl:choose>
           <xsl:when test="$institution = 'Stanford'">
             <xsl:text>druid:</xsl:text>
@@ -430,41 +429,31 @@
               <xsl:value-of select="substring(gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimeInstant, 1,4)"/>
           </xsl:when>
         </xsl:choose>
-    
-    <xsl:text>",</xsl:text>
-    <!-- let's try parsing references!!!!!!!! YEEEESSSS -->=
-      <xsl:text>"dct_references_s": { </xsl:text>
+    <!-- let's try parsing references!!!!!!!! YEEEESSSS -->    
+    <xsl:text>,"dct_references_s": "{</xsl:text> 
+    <xsl:for-each select="gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource">
+      <xsl:choose>
+        <xsl:when test="gmd:protocol/gco:CharacterString/text() = 'ESRI:ArcGIS'">
+          <!-- TODO test url for which reference to utilize 
+          <xsl:text>"http://www.arcgis.com/rdf#ImageMapLayer":"</xsl:text>
+          <xsl:text>"http://www.arcgis.com/rdf#TiledMapLayer":"</xsl:text>-->
+          <xsl:text>\"http://www.arcgis.com/rdf#FeatureLayer\":\"</xsl:text>
+          <xsl:value-of select="gmd:linkage/gmd:URL"/>
+          <xsl:text>\"</xsl:text>
+        </xsl:when>
+        <xsl:when test="gmd:protocol/gco:CharacterString/text() = 'download'">
+          <xsl:text>\"http://schema.org/downloadUrl\":\"</xsl:text>
+          <xsl:value-of select="gmd:linkage/gmd:URL"/>
+          <xsl:text>\"</xsl:text>
+        </xsl:when>
+      </xsl:choose>
       
-         <!-- A URL to access further descriptive information -->
-    <xsl:for-each select="gmd:MD_Metadata/default:distributionInfo/default:MD_Distribution/default:transferOptions/default:MD_DigitalTransferOptions/default:onLine/default:CI_OnlineResource/default:protocol/gco:CharacterString/text()"
-    <xsl:when test="gmd:MD_Metadata/default:distributionInfo/default:MD_Distribution/default:transferOptions/default:MD_DigitalTransferOptions/default:onLine/default:CI_OnlineResource/default:protocol/gco:CharacterString/text() != ''">
-        
-          "http://schema.org/url":"http://purl.stanford.edu/bb509gh7292",
-          
-         <!-- A direct file download-->
-          "http://schema.org/downloadUrl":"http://stacks.stanford.edu/file/druid:bb509gh7292/data.zip",
-        
-          <!-- An ISO19139 metadata document-->
-          "http://www.isotc211.org/schemas/2005/gmd/":"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:bb509gh7292/iso19139.xml",
-          
-          <!--An HTML metadata document-->
-          "http://www.w3.org/1999/xhtml":"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:bb509gh7292/default.html",
-          
-          <!--A WFS Service-->
-          "http://www.opengis.net/def/serviceType/ogc/wfs":"https://geowebservices-restricted.stanford.edu/geoserver/wfs",
-          
-          <!-- A WMS Service-->
-          "http://www.opengis.net/def/serviceType/ogc/wms":"https://geowebservices-restricted.stanford.edu/geoserver/wms"
-          
-          <!-- Esri Map Service -->
-          "http://resources.arcgis.com/en/help/arcgis-rest-api#mapService":
-    
-          <!-- Esri Feature Service -->
-          "http://resources.arcgis.com/en/help/arcgis-rest-api#featureService":
-          
-          <!-- Esri Image Service -->
-          "http://resources.arcgis.com/en/help/arcgis-rest-api#imageService":
-      <xsl:text>}</xsl:text>
+      <!-- add a comma if not the last dist element -->
+      <xsl:if test="position() != last()">
+        <xsl:text>,</xsl:text>
+      </xsl:if>
+    </xsl:for-each>        
+      <xsl:text>}"</xsl:text>
     <xsl:text>}</xsl:text>
   </xsl:template>
 
