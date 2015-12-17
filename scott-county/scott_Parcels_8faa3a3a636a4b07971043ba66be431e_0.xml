@@ -44,7 +44,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-12-09T15:51:49.695667</gco:DateTime>
+      <gco:DateTime>2015-12-17T15:21:51.158927</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -106,7 +106,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2015-12-04T21:07:28.000Z</gco:DateTime>
+                        <gco:DateTime>2015-12-09T22:02:00.000Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
@@ -168,7 +168,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Scott County Parcels represent property tax boundaries and were created, and are maintained, by the Survey department. The tax boundaries are joined to the Assessor's CAMA data using the PID field providing field attributes for each property. For a list of field descriptions, click here.</gco:CharacterString>
+            <gco:CharacterString>Scott County Parcels represent property tax boundaries and were created, and are maintained, by the Survey department. The tax boundaries are joined to the Assessor's CAMA data using the PID field providing field attributes for each property. For a list of field descriptions, click here .</gco:CharacterString>
          </gmd:abstract>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
@@ -213,10 +213,10 @@
                   <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </gmd:type>
             <gmd:keyword>
-                  <gco:CharacterString> Parcels</gco:CharacterString>
+                  <gco:CharacterString>Parcels</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString> Livable</gco:CharacterString>
+                  <gco:CharacterString>Livable</gco:CharacterString>
                </gmd:keyword>
                </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
@@ -267,7 +267,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimeInstant>2015-12-04T21:07:28.000Z</gml:TimeInstant>
+                        <gml:TimeInstant>2015-12-09T22:02:00.000Z</gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
@@ -390,7 +390,7 @@
 
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/8faa3a3a636a4b07971043ba66be431e_0, orignally in the Project Open Data Metadata Schema, at 2015-12-09T15:51:49.695667.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/8faa3a3a636a4b07971043ba66be431e_0, orignally in the Project Open Data Metadata Schema, at 2015-12-17T15:21:51.158927.</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
