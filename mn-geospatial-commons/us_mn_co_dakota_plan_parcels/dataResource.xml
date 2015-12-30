@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>plan_parcels</baseName>
+  <descriptiveName>Tax Parcels - Points and Polygons, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate>2015-11-19</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{2593c3be-e0dc-4600-b3d9-eab23b622633}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{6063b6a1-5491-4758-b1ae-7349cb52a4d0}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

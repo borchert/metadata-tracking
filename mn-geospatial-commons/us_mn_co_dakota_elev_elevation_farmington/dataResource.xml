@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>elev_elevation_farmington</baseName>
+  <descriptiveName>1-Foot Contours, Farmington, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate>2015-08-13</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">elevation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{d7e2bcae-ec0a-4dab-b27f-e5fb6716d00c}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{ec293e61-2d6c-4daf-a8cc-99f1a565d4f2}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

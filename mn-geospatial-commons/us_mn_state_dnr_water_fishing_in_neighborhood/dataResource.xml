@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>water_fishing_in_neighborhood</baseName>
+    <descriptiveName>DNR Hydrography - Fishing in the Neighborhood (FiN) Ponds</descriptiveName>
+    <publisher>Minnesota DNR - Division of Fish &amp; Wildlife - Fisheries Unit</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2014-08-19</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">inlandWaters</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1256</resourceID>
+        <resourceGUID>{c0dfc82d-f7e7-4993-8405-a930f32c0fda}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{0702c11a-5f5b-4710-8963-27c36c4eade3}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

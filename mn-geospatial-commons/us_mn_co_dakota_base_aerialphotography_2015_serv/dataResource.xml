@@ -1,0 +1,25 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+  <baseName>base_aerialphotography_2015_serv</baseName>
+  <descriptiveName>Aerial Photography - 2015, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate/>
+  <topicCategories>
+    <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{b013b05c-9d85-4303-8b78-cfda508757fe}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceName>0</subResourceName>
+      <subResourceIdentifiers>
+        <subResourceGUID>{1e1d3246-ee36-45fe-958d-b754af950f2e}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" description="" name="">http://gis2.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2015AirPhotoLeafOff6Inch/ImageServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

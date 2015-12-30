@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>bdry_mcdistricts_2003</baseName>
+  <descriptiveName>Metropolitan Council Districts 2003</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-11</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">boundaries</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{6142dae6-742a-4231-b5ac-6314d2b865e5}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{62f3a3d1-4114-44e0-b256-1eeb04c977c6}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Administrative_Political_Boundaries/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{84e05e39-f155-4121-bc3f-9c250a19e7ca}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

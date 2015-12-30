@@ -1,0 +1,33 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>plan_tax_parcels</baseName>
+    <descriptiveName>Tax Parcels, Lake County, Minnesota</descriptiveName>
+    <publisherID>us_mn_co_lake</publisherID>
+    <currentAsofDate>7/14/2014</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{f94c97ed-3919-44a6-a73f-4f41c24b1e72}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>plan_tax_parcels</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{00256b4d-bd32-4110-9aba-e10ab5c75e3f}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>shp</subResourceType>
+            <subResourceName>plan_tax_parcels</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{e18e5010-dfac-4d14-854a-f55bd07b08c1}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>util_liquid_waste_rec_disp_sites</baseName>
+  <descriptiveName>Liquid Waste Receiving Disposal Sites</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-20</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">utilitiesCommunication</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{8be976ef-0511-4abe-9e06-15cec0e54b1e}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{e6501add-91ad-4b33-a76c-ef468098f81e}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{d3a5e4a4-9762-45e2-bacd-df72fab1f955}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Utilities/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

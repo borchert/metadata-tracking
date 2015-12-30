@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>water_metro_water_use_per_cap</baseName>
+  <descriptiveName>Historic Residential Per Capita Demand - Twin Cities Metropolitan Area, Minnesota</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-04</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">inlandWaters</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{921b3154-5abd-45bb-9ca8-3f40d9557f00}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{a36db554-0b01-4234-a4f6-730a21ced363}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

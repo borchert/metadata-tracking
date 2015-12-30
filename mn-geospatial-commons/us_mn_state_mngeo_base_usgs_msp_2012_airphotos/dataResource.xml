@@ -1,0 +1,36 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>base_usgs_msp_2012_airphotos</baseName>
+    <descriptiveName>USGS High-Resolution Imagery, Minneapolis-St. Paul, MN, Spring, 2012</descriptiveName>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <currentAsofDate>2014-12-31</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{30a5bce0-befb-47ea-9539-562c566f2e60}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>wms</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{a947a6eb-5fe3-4651-8d3f-7227fb41844b}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="ServiceGetCapabilities" description="" name="">http://geoint.lmic.state.mn.us/cgi-bin/wms?VERSION=1.3.0&amp;SERVICE=WMS&amp;REQUEST=GetCapabilities</subResourceURL>
+                <subResourceURL type="ServiceSampleURL" description="" name="">http://geoint.lmic.state.mn.us/cgi-bin/wms?LAYERS=nga2012&amp;FORMAT=image%2Fjpeg&amp;TRANSPARENT=TRUE&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;STYLES=&amp;SRS=EPSG%3A26915&amp;BBOX=478444,4980892,480122,4982346&amp;WIDTH=256&amp;HEIGHT=256</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{6f0c756c-15d1-44b0-a0c7-8266b8f31c21}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="" name="USGS National Map Viewer and Download Platform">http://nationalmap.gov/viewer.html</subResourceURL>
+                <subResourceURL type="HTML" description="Mn Geospatial Image Service Home Page" name="Mn Geospatial Image Service Home Page">http://www.mngeo.state.mn.us/chouse/wms/geo_image_server.html</subResourceURL>
+                <subResourceURL type="HTML" description="" name="Northstar Mapper - View and Download">http://www.mngeo.state.mn.us/chouse/northstarmapper.html</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

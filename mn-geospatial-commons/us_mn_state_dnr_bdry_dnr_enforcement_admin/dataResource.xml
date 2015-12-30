@@ -1,0 +1,35 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>bdry_dnr_enforcement_admin</baseName>
+    <descriptiveName>DNR Division of Enforcement District and Patrol Areas</descriptiveName>
+    <publisher>Minnesota DNR - Division of Enforcement</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-10-29</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>35</resourceID>
+        <resourceGUID>{8f23c1bf-f94e-4c99-94b7-de0cbc20ad0e}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{57ee8cff-fa65-4924-aa0a-2c0731dc6cb2}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>web_map</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{a16e72a1-6a41-4477-ba18-f4535f4f4fee}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Conservation Officer Locator" name="Conservation Officer Locator">http://www.dnr.state.mn.us/officerpatrolareas/index.html</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

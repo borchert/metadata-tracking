@@ -1,0 +1,40 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>util_telephone_exchange</baseName>
+    <descriptiveName>telephone_exchange</descriptiveName>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">utilitiesCommunication</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{099edfc9-a31b-4415-a959-89f4b9fcfe18}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{89202b31-b7cb-44d0-b05b-d5c77cd608a0}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>web_map</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{d653143c-bfdf-4b51-ba9e-8bda4dc8cf4e}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="" name="MN Telephone Exchange Boundaries - Web Map">http://minnesota.maps.arcgis.com/apps/OnePane/basicviewer/index.html?appid=a61fe43236994d43b097d439befb8e70</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>ags_mapserver</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{52ae5a72-b9b4-40b0-8f09-2763fe4e3592}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="ServiceDescription" description="" name="">http://geoserver.state.mn.us/arcgis/rest/services/Telex/FCC_20130620v2/MapServer</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

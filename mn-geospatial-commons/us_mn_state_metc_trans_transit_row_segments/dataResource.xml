@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>trans_transit_row_segments</baseName>
+  <descriptiveName>Transit Advantages</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-18</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{d643a112-0150-4147-b179-3214598faf01}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{6085d109-4778-4586-8b66-6715fc6ac411}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{087fc9c1-715e-4e05-96d6-822f1c6aec72}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Transportation/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

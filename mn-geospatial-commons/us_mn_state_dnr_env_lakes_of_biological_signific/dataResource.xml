@@ -1,0 +1,23 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_lakes_of_biological_signific</baseName>
+    <descriptiveName>Lakes of Biological Significance</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-05-14</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{9cf143cc-cb22-4ecd-87f6-9b4ab086a2e8}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{c376e0e4-2bf4-43cd-883c-c922146779d5}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

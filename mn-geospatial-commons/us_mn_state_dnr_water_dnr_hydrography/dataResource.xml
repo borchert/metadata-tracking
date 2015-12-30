@@ -1,0 +1,34 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>water_dnr_hydrography</baseName>
+    <descriptiveName>DNR Hydrography</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-10-15</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">inlandWaters</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>0</resourceID>
+        <resourceGUID>{b2f5504d-1626-47d1-8ee6-ec01bb4fa7b0}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{a5032549-b7c1-4395-bd2a-6c16ac3fc5f3}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>preview</subResourceType>
+            <subResourceDescription>Two previews, one GeoJSON and one JPEG for viewing data.</subResourceDescription>
+            <subResourceIdentifiers>
+                <subResourceGUID>{f2026f59-1698-49e5-9be9-bb38d280d69a}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="jpeg preview" description="This snapshot preview in jpeg format allows you to see the data as it might be used in your GIS." name="">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/water_dnr_hydrography/preview/preview.jpg</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_stream_trout_lakes</baseName>
+    <descriptiveName>DNR Hydrography - Stream Trout Lakes</descriptiveName>
+    <publisher>Minnesota DNR - Division of Fish &amp; Wildlife - Fisheries Unit</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-09-23</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>306</resourceID>
+        <resourceGUID>{19dbff46-cce2-4c8c-a66f-97387f5f704c}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{9eebf236-1eeb-4628-a113-fdfe5e386338}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>geos_metro_top_elev_bedrock</baseName>
+  <descriptiveName>Top of Bedrock Units - Twin Cities Metropolitan Area, Minnesota</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-16</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{188963ff-9b25-4d99-a82b-8672d6c46f58}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{cab5b825-7e39-4cdf-978e-da03b37ebef6}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>biota_muskie_lakes_in_mn</baseName>
+    <descriptiveName>DNR Hydrography - Muskie Lakes</descriptiveName>
+    <publisher>Minnesota DNR - Division of Fish &amp; Wildlife - Fisheries Unit</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-10-01</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">biota</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>888</resourceID>
+        <resourceGUID>{4383d9e9-d4d3-4586-90d2-2d6405d7f9b5}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{cf082466-7f46-4910-83c2-87bf03edfb3f}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

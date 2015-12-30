@@ -1,0 +1,43 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>bdry_bwsr_rim_cons_easements</baseName>
+    <descriptiveName>BWSR Conservation Easements (RIM Reserve)</descriptiveName>
+    <publisherID>us_mn_state_bwsr</publisherID>
+    <currentAsofDate>2015-08-31</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+        <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{d63b5069-23a7-424c-b0c0-a0a83d144c34}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{bb92fc62-dc57-493e-bb12-e14c015b0ed0}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>web_app</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{27aa6d0b-dfd7-48b5-a69a-40d4cc4ebb5e}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Interactive Web Map" name="Interactive Web Map">http://bwsr.maps.arcgis.com/apps/Viewer/index.html?appid=604bb518cf07479f952a2c64afb0cb09</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{569dbbf1-1670-4f1d-9493-d2f94d5ad69c}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Printable Map" name="Printable Map">http://www.bwsr.state.mn.us/maps/Website/Easements/RIM/BWSR_State_Funded_Easements.pdf</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

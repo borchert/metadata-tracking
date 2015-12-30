@@ -1,0 +1,25 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+  <baseName>base_aerialphotography_service</baseName>
+  <descriptiveName>Aerial Photography - 1927 - 2015, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate/>
+  <topicCategories>
+    <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{5a924b5e-ac63-475f-bd92-e21c456fec92}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceName>0</subResourceName>
+      <subResourceIdentifiers>
+        <subResourceGUID>{fff98afd-1d0a-43d4-8274-b10d9ff4ed23}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" description="" name="">http://gis2.co.dakota.mn.us/arcgis/rest/services/DCGIS_OL_AerialPhotography/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

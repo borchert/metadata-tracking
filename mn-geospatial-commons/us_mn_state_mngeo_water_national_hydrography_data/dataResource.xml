@@ -1,0 +1,33 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>water_national_hydrography_data</baseName>
+    <descriptiveName>National Hydrography Dataset</descriptiveName>
+    <publisher>Minnesota Geospatatial Information Office</publisher>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">inlandWaters</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{c0f15664-89fd-4aa1-bd79-0a20f3976338}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{d521d3d3-08aa-409a-a700-47dc8a79a7a0}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{200c77ed-24cc-4673-8bc5-62de9cd3ae61}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="" name="NHD Home Page - USGS">http://nhd.usgs.gov/</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_assessed_streams_2010</baseName>
+    <descriptiveName>Minnesota 2010 Stream Assessments</descriptiveName>
+    <publisher>Minnesota Pollution Control Agency</publisher>
+    <publisherID>us_mn_state_pca</publisherID>
+    <currentAsofDate>2012-03-08</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1002</resourceID>
+        <resourceGUID>{0e85205e-c50c-40f4-99e3-f88c974e70d3}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>env_assessed_streams_2010</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{495c57d9-e300-405a-bf55-56984fb1fbde}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

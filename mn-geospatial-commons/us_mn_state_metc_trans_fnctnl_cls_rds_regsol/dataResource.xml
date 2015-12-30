@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>trans_fnctnl_cls_rds_regsol</baseName>
+  <descriptiveName>Functional Class Roads Regional Solicitation 2014</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-31</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{7d146643-130a-4dfc-8444-bde7d90d98eb}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{723ba53d-8bc7-4999-b884-9c75ed55c5ee}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

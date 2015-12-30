@@ -1,0 +1,23 @@
+<dataResource>
+	<baseName>water_wellhead_protection_areas</baseName>
+	<descriptiveName>Wellhead Protection Areas</descriptiveName>
+	<publisherID>us_mn_state_health</publisherID>
+	<currentAsofDate>2014-09-19</currentAsofDate>
+	<topicCategories>
+		<topicCategory type="ISO 19115">inlandWaters</topicCategory>
+		<topicCategory type="ISO 19115">environment</topicCategory>
+		<topicCategory type="ISO 19115">health</topicCategory>
+	</topicCategories>
+	<resourceIdentifiers>
+		<resourceGUID>{439b67b6-2c81-4598-b759-2beedff130cc}</resourceGUID>
+	</resourceIdentifiers>
+	<dataSubResources>
+		<dataSubResource>
+			<subResourceType>fgdb</subResourceType>
+			<subResourceName>water_wellhead_protection_areas</subResourceName>
+			<subResourceIdentifiers>
+				<subResourceGUID>{80a8f6dd-f2c9-4b25-97b5-e75cd7faace2}</subResourceGUID>
+			</subResourceIdentifiers>
+		</dataSubResource>
+	</dataSubResources>
+</dataResource>

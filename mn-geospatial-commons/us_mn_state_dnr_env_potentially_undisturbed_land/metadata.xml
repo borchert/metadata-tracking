@@ -1,0 +1,142 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Potentially Undisturbed Land (Virgin Sod) - FSA Common Land Unit Derived</title>
+        <pubinfo>
+          <publish>Minnesota Department of Natural Resources (DNR)</publish>
+        </pubinfo>
+        <origin>DNR Section of Wildlife - Working Lands Initiative</origin>
+        <pubdate>20150911</pubdate>
+        <onlink>https://gisdata.mn.gov/dataset/env-potentially-undisturbed-land</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Project Description:  
+South Dakota State University has developed a rigorous system for identifying undisturbed land (virgin sod) by utilizing Farm Services Agency (FSA) Common Land Unit (CLU) data to determine the extent of known tillage history.  Through a process of deductive assessment that incorporates USDA/NAIP aerial imagery (instead of the more common NASS satellite imagery) the project identifies and removes all tillage and physical land disturbance history to accurately identify the location of lands with the highest probability of being truly native (virgin) sod.  This deductive approach is unlike any grassland modeling project ever conducted.  Conservation organizations across the region are excited about the results and using the data as a key foundational 'cornerstone' tool for refining and creating protocols for targeted grassland conservation programs, species-specific research, and long-term conservation planning.   
+
+Project Location Description: 
+Currently this assessment has been done for eastern South Dakota and the Prairie Coteau and Lac Qui Parle landscapes in western and southwestern Minnesota, with the intent of creating a template for all of the Great Plains.     The work in Minnesota was commissioned by the Local Technical Teams implementing the Minnesota Prairie Conservation Plan.  Funding was provided by the DNR Section of Wildlife's Working Lands Initiative.
+
+</abstract>
+      <purpose>The Potentially Undisturbed Lands layer contains polygons representing undisturbed land mapped at a scale of 1:8000 or greater over the entire Prairie Coteau and Lac qui Parle landscapes in Southwestern Minnesota. Each polygon is classified as either undisturbed grassland or undisturbed woodland according to a rigorous, repeatable, systematic protocol.
+
+The Protected Undisturbed Lands layer contains polygon features representing undisturbed lands that have a permanent protection status. It is a subset of the Potentially Undisturbed Lands layer (mn_pudl), and is created by intersecting the undisturbed lands layer with an aggregate layer of lands that are known to be permanently protected. Permanently protected lands include an aggregate of fee title and easement holdings by a variety of state, federal, and private non-profit agencies and organizations.</purpose>
+      <supplinf>western and southwestern Minnesota</supplinf>
+    </descript>
+    <status>
+      <update>As needed</update>
+      <progress>Complete</progress>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.96</westbc>
+        <eastbc>-94.21</eastbc>
+        <northbc>47.61</northbc>
+        <southbc>42.20</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>farm Sevices Agency, FSA, Common Land Unit, CLU, undisturbed lands, tillage history, native sod, grassland modeling</themekey>
+      </theme>
+      <place>
+        <placekey>eastern South Dakota, Prairie Coteau, Lac Qui Parle, western Minnesota, southwestern Minnesota</placekey>
+      </place>
+    </keywords>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150911</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/env_potentially_undisturbed_land/preview/preview.jpg</browsen>
+    </browse>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>South Dakota State University Extension Watertown Regional Center</cntorg>
+          <cntper>Ben Carlson</cntper>
+        </cntperp>
+        <cntaddr>
+          <address>1910 West Kemp Ave</address>
+          <city>Watertown</city>
+          <state>SD</state>
+          <postal>57201</postal>
+        </cntaddr>
+        <cntvoice>605-882-5140</cntvoice>
+        <cntemail>Benjamin.Carlson@sdstate.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <distinfo>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <resdesc>env_potentially_undisturbed_land</resdesc>
+    <stdorder>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Data Systems Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20151113</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota Department of Natural Resources</cntorg>
+          <cntper>Jason L. Johnson</cntper>
+        </cntperp>
+        <cntpos>Plant Ecologist - Minnesota Biological Survey</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5150</cntvoice>
+        <cntemail>jason.johnson@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

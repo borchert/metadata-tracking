@@ -1,0 +1,33 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>elev_lidar_metro2011</baseName>
+    <descriptiveName>LiDAR Elevation, Twin Cities Metro Region, Minnesota, 2011</descriptiveName>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">elevation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{ad742e47-e0a9-493d-a04f-f1ed0b615b79}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{3866e26b-980a-485d-990b-51f0eeea6ae0}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="" name="Minnesota Elevation Mapping - LiDAR Home Page">http://www.mngeo.state.mn.us/chouse/elevation/lidar.html</subResourceURL>
+                <subResourceURL type="HTML" description="Ftp site for tiled LiDAR data download" name="Tiled LiDAR Data Download">ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>web_map</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{5e3788f5-f8ef-4212-bc94-d2aa94b22db9}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Access to MnTopo viewing and download application" name="MnTopo Elevation Data Viewer and Download">http://www.dnr.state.mn.us/maps/mntopo/index.html</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

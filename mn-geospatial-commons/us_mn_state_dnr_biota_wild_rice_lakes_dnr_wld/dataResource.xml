@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>biota_wild_rice_lakes_dnr_wld</baseName>
+    <descriptiveName>Wild Rice Lakes Identified by DNR Wildlife</descriptiveName>
+    <publisher>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2014-07-18</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">biota</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1520</resourceID>
+        <resourceGUID>{f315dcc9-d129-4605-976c-783f280e6dd4}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>biota_wild_rice_lakes_dnr_wld</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{82033921-c8f7-426d-b653-1fd67dc1fbc7}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

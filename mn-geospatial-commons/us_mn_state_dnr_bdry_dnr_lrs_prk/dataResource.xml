@@ -1,0 +1,35 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>bdry_dnr_lrs_prk</baseName>
+    <descriptiveName>DNR Parks Managed Areas</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-11-13</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>0</resourceID>
+        <resourceGUID>{30d2298a-c149-472a-8bf6-007ebb0fc169}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{acc0093e-d808-418a-887f-423d20a6c60e}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>preview</subResourceType>
+            <subResourceDescription>Two previews, one GeoJSON and one JPEG for viewing data.</subResourceDescription>
+            <subResourceIdentifiers>
+                <subResourceGUID>{325d57f8-addd-46ef-8fa9-451c900a2185}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="jpeg preview" description="This snapshot preview in JPEG image format shows the Statuatory and Managed areas of Mille Lacs Kathio State Park, near Onamia, MN.  The legend depics some of the other feature classes available by downloading the the full dataset. This preview allows you to see the data as it might be used in your GIS." name="">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/bdry_dnr_lrs_prk/preview/preview.jpg</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>water_ave_anual_gwtr_recharge</baseName>
+  <descriptiveName>Average Annual Groundwater Recharge</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-04</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">inlandWaters</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{d182ff60-3729-4afe-9d93-3a1792cbe02b}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{39411563-7317-4eea-9155-77b46024aa0f}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

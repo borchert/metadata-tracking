@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>plan_ada_service_provider_areas</baseName>
+  <descriptiveName>Metro Mobility (ADA) Service Provider Areas</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-01</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{0935137d-de28-4b26-98e9-f6d5b7640167}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{6f242589-5c1c-46b6-a892-0467cacedf31}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

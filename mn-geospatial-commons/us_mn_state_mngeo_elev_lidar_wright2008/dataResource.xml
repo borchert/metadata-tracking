@@ -1,0 +1,33 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>elev_lidar_wright2008</baseName>
+    <descriptiveName>LiDAR Elevation, Wright County, Minnesota, 2008</descriptiveName>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">elevation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{8954dcf1-c10b-443a-b5b3-4f0bccb4d29c}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{9ac44617-d61b-4757-95fa-05f5cb55dbd2}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="MnTopo Application Home Page" name="MnTopo Application Home Page">http://www.dnr.state.mn.us/maps/mntopo/index.html</subResourceURL>
+                <subResourceURL type="HTML" description="Ftp site for tiled LiDAR data download" name="Tiled LiDAR Data Download">ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>web_map</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{d8e27bed-eec0-44f5-ac54-30227f3234d3}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Access to MnTopo viewing and download application" name="MnTopo Elevation Data Viewer and Download ">http://www.dnr.state.mn.us/maps/mntopo/index.html</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

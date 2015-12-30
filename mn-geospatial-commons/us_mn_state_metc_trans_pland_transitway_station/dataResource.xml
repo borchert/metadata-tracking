@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>trans_pland_transitway_station</baseName>
+  <descriptiveName>Planned Transitway Stations</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-01</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{cf0290e8-d648-4213-b16f-b29a576ef8b4}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{1b6e5e09-04fb-41e7-a659-be1b61cf12ed}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

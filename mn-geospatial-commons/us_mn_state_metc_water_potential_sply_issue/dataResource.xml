@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>water_potential_sply_issue</baseName>
+  <descriptiveName>Potential Water Supply Issues</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-10-21</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">inlandWaters</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{1bf532fc-9759-4137-b32a-1c6bc9c57858}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{78c17f91-f954-4428-b43f-aaa02345f3f3}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>trans_regional_bike_trans_netwrk</baseName>
+  <descriptiveName>Regional Bike Transportation Network - Alignments &amp; Corridors</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-10-26</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{853acea5-4c55-4a7a-b724-a0182e65e1bd}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{fecea530-47c4-4c20-a5e4-d26ee18eaf2d}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_trout_lake_designation</baseName>
+    <descriptiveName>Trout Lake Designation</descriptiveName>
+    <publisher>Minnesota DNR - Division of Fish &amp; Wildlife - Fisheries Unit</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2014-07-15</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>300</resourceID>
+        <resourceGUID>{8fc40a62-92c3-46e7-b269-3f4da5baba91}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{18ff1ccd-ebb7-4e62-a5bd-7e0a5f5027c3}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

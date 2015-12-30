@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>trans_hi_frequency_transit_servc</baseName>
+  <descriptiveName>Hi-Frequency Transit Service Network</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-24</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{f250f06f-bb0b-4721-b054-1bc6afc4630a}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{d3233471-709d-4cd8-a13b-20127e8d0129}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{23ae3dfe-1aa8-4299-a0ea-7e870bd4d5f6}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Transportation/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

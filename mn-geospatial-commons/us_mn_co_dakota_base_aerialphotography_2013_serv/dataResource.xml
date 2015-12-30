@@ -1,0 +1,25 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+  <baseName>base_aerialphotography_2013_serv</baseName>
+  <descriptiveName>Aerial Photography - 2013, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate/>
+  <topicCategories>
+    <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{30d5d1f7-f273-4d03-99a3-dba9d21f5ba9}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceName>0</subResourceName>
+      <subResourceIdentifiers>
+        <subResourceGUID>{90a5b7f9-846b-4abe-968a-e32bfea111fb}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" description="" name="">http://gis2.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2013AirPhotoSpring6Inch/ImageServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

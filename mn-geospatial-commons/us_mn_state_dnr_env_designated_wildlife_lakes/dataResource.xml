@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_designated_wildlife_lakes</baseName>
+    <descriptiveName>Designated Wildlife Lakes</descriptiveName>
+    <publisher>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2014-12-25</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1506</resourceID>
+        <resourceGUID>{89d7f82b-8780-4bf7-bbf1-58d5f7a873e4}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{adc858b6-7a76-43e2-bbd6-892337e57950}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

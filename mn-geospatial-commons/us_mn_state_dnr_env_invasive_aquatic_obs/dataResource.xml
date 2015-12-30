@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_invasive_aquatic_obs</baseName>
+    <descriptiveName>Aquatic Invasive Species Observations</descriptiveName>
+    <publisher>Minnesota DNR - Division of Ecological Resources</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2013-02-28</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1778</resourceID>
+        <resourceGUID>{4abe9bff-ba39-499b-82b6-2195b603bfdc}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{4a13897d-0ae6-4f9d-90de-e37461d601f2}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>atmos_1961_1990_mn_temp_average</baseName>
+    <descriptiveName>MN Temperature Average (1961-1990)</descriptiveName>
+    <publisher>Minnesota DNR - Division of Ecological and Water Resources</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2002-06-01</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">climatologyMeteorologyAtmosphere</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>100</resourceID>
+        <resourceGUID>{fbb50bc1-9bab-462a-8fec-23e008912d43}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>atmos_1961_1990_mn_temp_average</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{20096740-1081-4fee-ace3-1a61443b0c1d}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

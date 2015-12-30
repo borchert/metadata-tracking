@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>plan_musa_historical1995_1998</baseName>
+  <descriptiveName>Metropolitan Urban Service Areas - Historical (1995 - 1998)</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-20</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{1d64ea3a-be40-4dc6-b25b-eea13971defc}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{c63f3df1-1697-49a1-a034-2b6da0a812ef}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{4e537734-583d-4e65-8a5e-312fb56d7dc3}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Planning_Development/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

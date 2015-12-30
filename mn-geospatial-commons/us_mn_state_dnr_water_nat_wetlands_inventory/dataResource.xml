@@ -1,0 +1,36 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>water_nat_wetlands_inventory</baseName>
+    <descriptiveName>National Wetlands Inventory</descriptiveName>
+    <publisher>Minnesota DNR - Division of Waters</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2009-01-23</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">inlandWaters</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1442</resourceID>
+        <resourceGUID>{35835e84-4c7d-4903-9f93-62859095b3e1}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{aacb4d93-ebd8-45ee-b06f-672a161cdf49}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>preview</subResourceType>
+            <subResourceDescription>One JPEG preview for viewing data.</subResourceDescription>
+            <subResourceIdentifiers>
+                <subResourceGUID>{5220f046-3fb6-4458-ad4f-128a3bb58122}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="jpeg preview" description="This snapshot preview in jpeg format allows you to see the data as it might be used in your GIS." name="">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/water_nat_wetlands_inventory/preview/preview.jpg</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

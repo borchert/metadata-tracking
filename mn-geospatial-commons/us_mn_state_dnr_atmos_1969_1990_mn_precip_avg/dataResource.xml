@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>atmos_1969_1990_mn_precip_avg</baseName>
+    <descriptiveName>MN Precipitation Average (1961-1990)</descriptiveName>
+    <publisher>Minnesota DNR - Division of Waters</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2002-06-01</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">climatologyMeteorologyAtmosphere</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>99</resourceID>
+        <resourceGUID>{730116d5-10ac-468c-ba15-fcf2f0297656}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{584c23cf-c647-421b-93a0-646636be7d97}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

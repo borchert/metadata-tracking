@@ -38,6 +38,7 @@
                         <gco:CharacterString>
                           dykex005@umn.edu
                        </gco:CharacterString>
+<<<<<<< HEAD
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
@@ -52,6 +53,24 @@
       <gco:DateTime/>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
+=======
+                    </electronicMailAddress>
+                 </CI_Address>
+              </address>
+           </CI_Contact>
+        </contactInfo>
+        <role>
+           <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+              codeListValue="originator"
+              codeSpace="ISOTC211/19115"/>
+        </role>
+     </CI_ResponsibleParty>
+  </contact>
+  <dateStamp>
+      <gco:DateTime></gco:DateTime>
+  </dateStamp>
+  <metadataStandardName>
+>>>>>>> mn-geo-commons-ags-parse
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
    </gmd:metadataStandardName>
    <gmd:metadataStandardVersion>
@@ -129,6 +148,7 @@
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
                         <gco:CharacterString>Carver County GIS</gco:CharacterString>
+<<<<<<< HEAD
                      </gmd:organisationName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
@@ -332,6 +352,212 @@
                      <gmd:function>
                         <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
                      </gmd:function>
+=======
+                     </organisationName>
+                     <contactInfo>
+                         <CI_Contact>
+                            <address>
+                               <CI_Address>
+                                  <electronicMailAddress>
+                                     <gco:CharacterString>
+                                        gis@co.carver.mn.us
+                                     </gco:CharacterString>
+                                  </electronicMailAddress>
+                               </CI_Address>
+                            </address>
+                         </CI_Contact>
+                     </contactInfo>
+                     <role>
+                        <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="originator"
+                                         codeSpace="ISOTC211/19115"/>
+                     </role>
+                  </CI_ResponsibleParty>
+               </citedResponsibleParty>
+               <citedResponsibleParty>
+                  <CI_ResponsibleParty>
+                     <individualName>
+                         <gco:CharacterString></gco:CharacterString>
+                     </individualName>
+                     <organisationName>
+                        <gco:CharacterString></gco:CharacterString>
+                     </organisationName>
+                     <contactInfo>
+                        <CI_Contact>
+                           <address>
+                              <CI_Address>
+                                 <electronicMailAddress>
+                                 </electronicMailAddress>
+                              </CI_Address>
+                           </address>
+                        </CI_Contact>
+                     </contactInfo>
+                     <role>
+                        <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="publisher"
+                                         codeSpace="ISOTC211/19115"/>
+                     </role>
+                  </CI_ResponsibleParty>
+               </citedResponsibleParty>
+               <presentationForm>
+                  <CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_PresentationFormCode"
+                                               codeListValue="mapDigital"
+                                               codeSpace="ISOTC211/19115"/>
+               </presentationForm>
+            </CI_Citation>
+         </citation>
+         <abstract>
+            <gco:CharacterString></gco:CharacterString>
+         </abstract>
+         <descriptiveKeywords>
+            <MD_Keywords>
+               <keyword>
+                  <gco:CharacterString>Carver County (Minn.)</gco:CharacterString>
+               </keyword>
+               <type>
+                  <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="place"
+                                          codeSpace="ISOTC211/19115"/>
+               </type>
+            <thesaurusName>
+                 <CI_Citation>
+                   <title>
+                     <gco:CharacterString>LC Name Authority File</gco:CharacterString>
+                   </title>
+                   <date>
+                       <CI_Date>
+                         <date>
+                           <gco:Date>
+                              2010-05-11
+                           </gco:Date>
+                         </date>
+                         <dateType>
+                           <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                         </dateType>
+                       </CI_Date>
+                   </date>
+                    <identifier>
+                       <MD_Identifier>
+                          <code>
+                             <gco:CharacterString>
+                                http://id.loc.gov/authorities/names/n79007327
+                             </gco:CharacterString>
+                          </code>
+                       </MD_Identifier>
+                    </identifier>
+                 </CI_Citation>
+               </thesaurusName>
+            </MD_Keywords>
+         </descriptiveKeywords>
+         <descriptiveKeywords>
+            <MD_Keywords>
+               <keyword>
+                  <gco:CharacterString></gco:CharacterString>
+               </keyword>
+               <type>
+                  <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="theme"
+                                          codeSpace="ISOTC211/19115"/>
+               </type>
+            </MD_Keywords>
+         </descriptiveKeywords>
+         <resourceConstraints>
+            <MD_Constraints>
+               <useLimitation>
+                  <gco:CharacterString>
+                     This information is to be used for reference purposes only.
+                  </gco:CharacterString>
+               </useLimitation>
+            </MD_Constraints>
+         </resourceConstraints>
+         <resourceConstraints>
+            <MD_LegalConstraints>
+               <otherConstraints>
+                  <gco:CharacterString>
+                     The information provided on this site is for reference purposes only. The information is not suitable for legal, engineering, surveying, etc. purposes. Carver County does not guarantee the accuracy of the information contained herein. The Information is furnished on an 'as is' basis with and Carver County is making no representation or providing any warranties, either express or implied, for the merchantability or fitness of the information provided on this site for any purpose. The preceding disclaimer is provided pursuant to Minnesota Statutes 466.03, Sub. 21, and the user of the information provided herein acknowledges that Carver County shall not be liable for any damages, and by using this data in any way expressly waives all claims, and agrees to defend, indemnify, and hold harmless Carver County, its officials, officers, agents, employees, etc. from any and all claims brought by anyone who uses the information provided for herein, its employees or agents, or third parties which arise out of user's access.
+                  </gco:CharacterString>
+               </otherConstraints>
+            </MD_LegalConstraints>
+         </resourceConstraints>
+         <spatialRepresentationType>
+            <MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode"
+                                                  codeListValue="vector"
+                                                  codeSpace="ISOTC211/19115"/>
+         </spatialRepresentationType>
+         <language>
+            <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng"
+                              codeSpace="ISO639-2"/>
+         </language>
+         <characterSet>
+            <MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+                                     codeListValue="utf8"
+                                     codeSpace="ISOTC211/19115"/>
+         </characterSet>
+         <topicCategory>
+            <MD_TopicCategoryCode></MD_TopicCategoryCode>
+         </topicCategory>
+         <extent>
+            <EX_Extent>
+               <geographicElement>
+                   <EX_GeographicBoundingBox>
+                      <westBoundLongitude>
+                         <gco:Decimal>-94.0129</gco:Decimal>
+                      </westBoundLongitude>
+                      <eastBoundLongitude>
+                         <gco:Decimal>-93.5194</gco:Decimal>
+                      </eastBoundLongitude>
+                      <southBoundLatitude>
+                         <gco:Decimal>44.6347</gco:Decimal>
+                      </southBoundLatitude>
+                      <northBoundLatitude>
+                         <gco:Decimal>44.9788</gco:Decimal>
+                      </northBoundLatitude>
+                   </EX_GeographicBoundingBox>
+               </geographicElement>
+            </EX_Extent>
+         </extent>
+      </MD_DataIdentification>
+  </identificationInfo>
+  <distributionInfo>
+      <MD_Distribution>
+         <distributionFormat>
+            <MD_Format>
+               <name>
+                  <gco:CharacterString>Shapefile</gco:CharacterString>
+               </name>
+               <version gco:nilReason="missing"/>
+            </MD_Format>
+         </distributionFormat>
+         <distributor>
+            <MD_Distributor>
+               <distributorContact gco:nilReason="missing"/>
+               <distributorFormat>
+                  <MD_Format>
+                     <name>
+                        <gco:CharacterString>Shapefile</gco:CharacterString>
+                     </name>
+                     <version gco:nilReason="missing"/>
+                  </MD_Format>
+               </distributorFormat>
+            </MD_Distributor>
+         </distributor>
+         <transferOptions>
+            <MD_DigitalTransferOptions>
+               <onLine>
+                  <CI_OnlineResource>
+                     <linkage>
+                        <URL></URL>
+                     </linkage>
+                     <protocol>
+                        <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                     </protocol>
+                     <name>
+                        <gco:CharacterString></gco:CharacterString>
+                     </name>
+                     <description>
+                        <gco:CharacterString></gco:CharacterString>
+                     </description>
+>>>>>>> mn-geo-commons-ags-parse
 
                   </gmd:CI_OnlineResource>
                </gmd:onLine>
@@ -352,6 +578,7 @@
                      </gmd:name>
                      <gmd:description>
                         <gco:CharacterString></gco:CharacterString>
+<<<<<<< HEAD
                      </gmd:description>
                   </gmd:CI_OnlineResource>
                </gmd:onLine>
@@ -391,6 +618,24 @@
 
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
+=======
+                     </description>
+                  </CI_OnlineResource>
+               </onLine>
+            </MD_DigitalTransferOptions>
+         </transferOptions>
+      </MD_Distribution>
+  </distributionInfo>
+  <metadataMaintenance>
+      <MD_MaintenanceInformation>
+         <maintenanceAndUpdateFrequency>
+            <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">
+
+            </MD_MaintenanceFrequencyCode>
+
+         </maintenanceAndUpdateFrequency>
+         <maintenanceNote>
+>>>>>>> mn-geo-commons-ags-parse
             <gco:CharacterString>This metadata was generated from the Esri Open Data item from {url}, orignally in the Project Open Data Metadata Schema, at {datetime}.</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>

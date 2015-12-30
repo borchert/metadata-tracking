@@ -1,0 +1,30 @@
+<dataResource>
+    <baseName>bdry_border_entities</baseName>
+    <descriptiveName>Edgematched Entities Surrounding the State of MN and Lake Superior</descriptiveName>
+    <publisherID>us_mn_state_mda</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{b68cf388-1d22-4634-9f89-bac03e8a0d7a}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>bdry_border_entities</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{3f554ca7-e102-4fbf-b664-c0ef3755d767}</subResourceGUID>
+            </subResourceIdentifiers>
+        </dataSubResource>
+		<dataSubResource>
+            <subResourceType>preview</subResourceType>
+            <subResourceName>bdry_border_entities</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{14b2abaa-ee78-4bd0-b751-29af528e0fff}</subResourceGUID>
+            </subResourceIdentifiers>
+			<subResourceAccess>
+                <subResourceURL type="jpeg preview" description="This snapshot preview in jpeg format allows you to see the data as it might be used in your GIS.">ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_mda/bdry_border_entities/preview/preview.jpg</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

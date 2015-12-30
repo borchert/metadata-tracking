@@ -1,0 +1,32 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>base_usgs_scanned_topo_250k_drg</baseName>
+    <descriptiveName>1:250k Digital Raster Graphic - Collars Removed</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>1998-01-01</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>38000001</resourceID>
+        <resourceGUID>{8f042df3-16a3-4150-835f-5860b82861fa}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>        
+        <dataSubResource>
+            <subResourceType>tif</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{842a4f12-5718-4a1d-87cf-e0cfc8d14dee}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{e9a05bc6-6b1b-432f-ba23-0b4a93682398}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>   
+    </dataSubResources>
+</dataResource>

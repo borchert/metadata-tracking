@@ -1,0 +1,35 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>geos_dnr_watersheds</baseName>
+    <descriptiveName>DNR Watersheds</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2014-04-28</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+        <topicCategory type="ISO 19115">inlandWaters</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1584</resourceID>
+        <resourceGUID>{ad56feec-84aa-4f6c-9956-41e3f15f88e0}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{5960726f-9419-4d06-acfd-ae9c7ff6b70d}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>preview</subResourceType>
+            <subResourceDescription>One preview in jpeg format</subResourceDescription>
+            <subResourceIdentifiers>
+                <subResourceGUID>{da4242e3-d7ff-4795-a0b7-39f2ee2955f5}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="jpeg preview" description="This snapshot preview allows you to see the data as it might be used in your GIS." name="">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/geos_dnr_watersheds/preview/preview.jpg</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

@@ -1,0 +1,49 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>bdry_school_district_boundaries</baseName>
+    <descriptiveName>School District Boundaries</descriptiveName>
+    <publisherID>us_mn_state_mde</publisherID>
+    <currentAsofDate>2015-11-03</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{5effdc33-1418-421c-9dd2-fe47eadd3997}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>shp</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{db63317b-3253-42cb-8db5-7656b1afee1f}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{93453d64-edc3-42e5-b133-4acf962ca558}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{b695d000-0499-42c2-b3ec-3c26bb3c5fa7}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="PDF Maps, by School District" name="PDF Maps, by School District">http://www.mngeo.state.mn.us/maps/SchoolDistricts/</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>ags_mapserver</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{0545fbc2-281c-4422-b58b-22cd245ceafb}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="ServiceDescription" description="" name="">http://w20.education.state.mn.us/arcgis/rest/services/Districts/MapServer</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

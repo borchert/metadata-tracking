@@ -1,0 +1,23 @@
+<dataResource>
+  <baseName>plan_regonal_parcels_2013</baseName>
+  <descriptiveName>MetroGIS Regional Parcel Dataset - 2013</descriptiveName>
+  <publisherID>us_mn_state_metrogis</publisherID>
+  <currentAsofDate>2015-09-04</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{673f0010-9612-4254-8b4a-9c1277c1cdcb}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>external</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{20240ea4-8dcd-40b8-8801-88c6ebd09b73}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="HTML" description="License Instructions" name="License Instructions">http://metrogis.org/how-do-i-get/parcel-data.aspx</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

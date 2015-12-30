@@ -1,0 +1,35 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>geos_geologic_atlas_carl_c19a</baseName>
+    <descriptiveName>Geologic Atlas of Carlton County, Minnesota (Part A)</descriptiveName>
+    <publisherID>edu_umn_mngs</publisherID>
+    <currentAsofDate>2015-07-23</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{4d5c0c8e-e070-4b96-9a1c-9c3713d63d5c}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceName>MGS County Geologic Atlas Program (Part A)</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{a5e93004-66ce-450f-afae-8ea8eea9da7f}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="">http://www.mngs.umn.edu/county_atlas/countyatlas.htm</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceName>Download from U of MN Digital Conservancy</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{a76c58b4-4f80-4e92-b7f2-042be75a886c}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="">http://conservancy.umn.edu/handle/11299/58760</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

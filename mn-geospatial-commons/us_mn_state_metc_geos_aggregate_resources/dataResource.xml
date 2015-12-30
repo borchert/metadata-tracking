@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>geos_aggregate_resources</baseName>
+  <descriptiveName>Aggregate Resources (1997, 2020, 2040)</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-11</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{5b569a61-eca9-49c0-82bc-accf35710bb9}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{ef3b6845-82ac-4f1f-8f8a-80d5d8aaf205}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{5372234a-eecc-4439-8e9d-7ac36a1365b9}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Geology_Geophysics/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

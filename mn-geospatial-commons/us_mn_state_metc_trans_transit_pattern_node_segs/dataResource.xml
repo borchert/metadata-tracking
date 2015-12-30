@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>trans_transit_pattern_node_segs</baseName>
+  <descriptiveName>Transit Patterns By Node Segments</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-10-01</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{38ab775f-6f3a-4f6b-8db9-2871235dab68}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{8b0a5a96-d751-448b-8688-08967c4ecf46}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

@@ -1,0 +1,42 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>bdry_state_of_minnesota</baseName>
+    <descriptiveName>Minnesota State Boundary</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2007-03-01</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>20</resourceID>
+        <resourceGUID>{b1714ea2-872f-4161-9cc2-3683397e0458}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{890e22f7-e9d4-402f-990f-e9eb2156b93a}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>preview</subResourceType>
+            <subResourceDescription>Standard preview created for use by Minnesota Geospatial Commons.</subResourceDescription>
+            <subResourceIdentifiers>
+                <subResourceGUID>{2c5fa306-0e44-4508-bf4c-94584fc41d39}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="jpeg preview" description="This snapshot preview in jpeg format allows you to see the data as it might be used in your GIS." name="">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/bdry_state_of_minnesota/preview/preview.jpg</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>gpkg</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{0bab4716-4667-4619-9179-23cbd2de1ce8}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

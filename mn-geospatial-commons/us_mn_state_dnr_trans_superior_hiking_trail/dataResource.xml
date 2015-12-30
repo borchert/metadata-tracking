@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>trans_superior_hiking_trail</baseName>
+    <descriptiveName>Superior Hiking Trail</descriptiveName>
+    <publisher>Minnesota DNR - Division of Waters</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-11-18</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">transportation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1694</resourceID>
+        <resourceGUID>{044f29fa-424e-4fc5-9460-375d7c004303}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{d530b802-f574-45b5-a39a-ce232523b43a}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

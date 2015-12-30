@@ -1,0 +1,36 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>water_dnr_fema_dfirm</baseName>
+    <descriptiveName>DNR FEMA DFIRM</descriptiveName>
+    <publisher>Minnesota DNR - Ecological and Water Resources</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-11-19</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">inlandWaters</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>0</resourceID>
+        <resourceGUID>{999dc264-127c-4094-9dfe-957e24799889}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{c7dabda4-4823-41da-b259-bc1c317937a1}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>preview</subResourceType>
+            <subResourceDescription>Two previews, one GeoJSON and one JPEG for viewing data.</subResourceDescription>
+            <subResourceIdentifiers>
+                <subResourceGUID>{de63f197-abde-4dd3-b460-6092f8fec928}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="jpeg preview" description="This snapshot preview in JPEG image format shows the 100 and 500 year floodways as well as cross-sections in the area of St. Cloud, Minnesota. This example shows the data as it might be used in your GIS." name="">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/water_dnr_fema_dfirm/preview/preview.jpg</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

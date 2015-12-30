@@ -10,7 +10,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+<<<<<<< HEAD
                                     <String>../minneapolis/</String>
+=======
+                                    <String>xsl/fgdc_test.xml</String>
+>>>>>>> mn-geo-commons-ags-parse
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -25,7 +29,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>xsl/fgdc_test.xml</String>
+                                    <String>../mn-geospatial-commons/us_mn_state_dnr_env_mn_moose_range.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>

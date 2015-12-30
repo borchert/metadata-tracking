@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>bdry_census2000counties_ctus</baseName>
+  <descriptiveName>County Boundaries - 2000</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-02</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">boundaries</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{c86860e3-3388-4787-ae34-f628778d0624}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{d3fb9b1b-db66-4c75-b8b1-16bd23b7ffcc}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

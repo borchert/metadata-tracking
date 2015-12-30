@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>society_thrive_msp2040_com_des</baseName>
+  <descriptiveName>ThriveMSP 2040 Community Designation</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-06-10</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">society</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{61509d7d-0f66-4520-8b7b-68a4ec65e5ef}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{b280d245-9b47-406e-b62f-fb2daa5d9bf9}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{e8757d19-7666-4664-aaf5-ae6864070fc9}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Planning_Development/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

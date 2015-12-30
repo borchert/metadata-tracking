@@ -1,0 +1,25 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>geos_rha2a_sw_mn</baseName>
+    <descriptiveName>Quaternary Geology - Southwestern Minnesota (Part A)</descriptiveName>
+    <publisherID>edu_umn_mngs</publisherID>
+    <currentAsofDate/>
+    <topicCategories>
+        <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{e58230d2-b715-4729-b044-73884bc673da}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceName>Download from U of MN Digital Conservancy</subResourceName>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{5c110557-97f0-4368-af4c-1c15456fe4d7}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" name="University Digital Conservancy" description="University Digital Conservancy">http://conservancy.umn.edu/handle/11299/59763</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

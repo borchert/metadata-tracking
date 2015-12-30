@@ -1,0 +1,25 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+  <baseName>biota_landuse_landdev_service</baseName>
+  <descriptiveName>Land Use and Land Development, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate/>
+  <topicCategories>
+    <topicCategory type="ISO 19115">biota</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{8a460fec-ad43-48da-81ca-f8f40a87f796}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceName>0</subResourceName>
+      <subResourceIdentifiers>
+        <subResourceGUID>{06ac585f-f6cc-432b-b60f-d6cca91ccc5b}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" description="" name="">http://gis2.co.dakota.mn.us/arcgis/rest/services/DCGIS_OL_LandUse_LandDevelopment/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

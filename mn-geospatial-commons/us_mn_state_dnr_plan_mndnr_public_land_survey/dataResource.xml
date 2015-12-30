@@ -1,0 +1,34 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>plan_mndnr_public_land_survey</baseName>
+    <descriptiveName>Minnesota DNR Public Land Survey</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2013-02-22</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>10001</resourceID>
+        <resourceGUID>{ae35a512-57ac-4e72-aaf3-e913f6947eb2}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{f3b0fcef-1b16-4fce-82ce-f52f240d58fb}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>preview</subResourceType>
+            <subResourceDescription>Two previews, one GeoJSON and one JPEG for viewing data.</subResourceDescription>
+            <subResourceIdentifiers>
+                <subResourceGUID>{7865531f-61c2-49ba-989e-0e8cff4c243b}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="jpeg preview" description="This snapshot preview in JPEG image format shows them many nested levels of this data, including Townships, Sections, 40's and Government Lots." name="">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/plan_mndnr_public_land_survey/preview/preview.jpg</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

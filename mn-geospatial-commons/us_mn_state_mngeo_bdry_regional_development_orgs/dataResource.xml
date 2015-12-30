@@ -1,0 +1,40 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>bdry_regional_development_orgs</baseName>
+    <descriptiveName>Regional Development Organizations</descriptiveName>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <currentAsofDate>2015</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{923c1e40-59a3-45df-8b9a-344550da963d}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{15814751-e3c9-4392-89ba-ad300b49293a}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>shp</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{e054c0a1-acdf-4a18-b3e5-62706c963d96}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{da64eb91-cd12-4d8b-a045-60f3fe210dd4}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="" name="MN Association of Development Organizations Home">http://www.mnado.org</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

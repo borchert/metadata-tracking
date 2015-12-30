@@ -1,0 +1,206 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Regional Bicycle Transportation Network (Alignments and Corridors)</title>
+        <origin>Metropolitan Transportation Services - Metropolitan Council</origin>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <pubdate>20150819</pubdate>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-trans-regional-bike-trans-netwrk</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Regional Bicycle Transportation Network (RBTN) dataset was created by the Metropolitan Council for the 2040 Transportation Policy Plan (TPP).  The RBTN is represented by two map layers including alignments and corridors.  Alignments represent existing or proposed bicycle paths and bike corridors represent areas where bicycle path alignments are yet to be determined.  Both corridor and alignment layers can be classified into tiers. Tier 1 Alignments/Corridors have higher priorities than Tier 2 Alignments/Corridors. </abstract>
+      <purpose>To depict the alignments and corridors of the Regional Bicycle Transportation Network adapted in TPP 2040 and assist bicycle transportation planning efforts at the regional and local levels. </purpose>
+      <supplinf>Twin Cities Urbanized Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott, Washington, and small portions of Sherburne and Wright County.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150819</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Planned for 2040</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-94.012</westbc>
+        <eastbc>-92.732</eastbc>
+        <northbc>45.415</northbc>
+        <southbc>44.471</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+      </place>
+      <theme>
+        <themekey>Transportation Policy Plan, TPP, Bicycle, Trails, On-street Bikeways, Off-street Bikeways</themekey>
+        <themekt>None</themekt>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native>ArcView 9x</native>
+    <crossref>
+      <citeinfo>
+        <title>State Trails (DNR GDRS), Regional Trails - Existing and Planned, Functional Class Roads - Existing, Bikeways (MNDOT)</title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Rachel Wiken</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1572</cntvoice>
+        <cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>This is regional planning level data and is not intended to be used for anything but regional planning.  Some alignments have been shifted for cartographic display purposes.</attraccr>
+    </attracc>
+    <logic>The dataset is topologically 'clean'.</logic>
+    <complete>Entire seven county geographic area is covered.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Unknown - This is regional planning level data and is not intended for site specific purposes.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>This data was digitized using NCompass streets, regional highways, and aerial photos. It is to be used at a regional scale for planning purposes only and is not intended for site specific uses. The data determinations were made on a subjective basis by managers at Metropolitan Transportation Services and Metro Transit.</procdesc>
+      </procstep>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>None</indspref>
+    <direct>Vector</direct>
+    <mgmg3obj>line shapes</mgmg3obj>
+    <mgmg3til>One layer for entire seven county region.</mgmg3til>
+  </spdoinfo>
+  <distinfo>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shape file</formname>
+          <formvern>ArcView: 9x</formvern>
+          <transize>0.1 MB for Zip file.</transize>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Jon Hoekenga</cntper>
+        </cntperp>
+        <cntpos>GIS System Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1561</cntvoice>
+        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150819</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Rachel Wiken</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1572</cntvoice>
+        <cntemail>rachel.wiken@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20110721</ModDate>
+    <ModTime>16044100</ModTime>
+    <CreaDate>20130717</CreaDate>
+    <CreaTime>14085700</CreaTime>
+    <SyncOnce>TRUE</SyncOnce>
+    <DataProperties>
+      <itemProps>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\rafs2a.mc.local\Wikenrl\2030 transit\data\Transitways2030</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+      </itemProps>
+      <copyHistory>
+        <copy source="L:\Metadata\Layers\Transitways2030" dest="\\rafs2a.mc.local\Wikenrl\2030 transit\data\Transitways2030" date="20130717" time="14085700"/>
+      </copyHistory>
+    </DataProperties>
+  </Esri>
+  <mdDateSt Sync="TRUE">20110721</mdDateSt>
+  <eainfo>
+    <overview>
+      <eaover>Tier:  A numarical value assigning tier 1 or tier two
+
+Type
+"1" = Alignment, "0" = Corridor
+
+</eaover>
+    </overview>
+  </eainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

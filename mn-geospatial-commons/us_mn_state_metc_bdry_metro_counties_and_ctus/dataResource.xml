@@ -1,0 +1,31 @@
+<dataResource>
+  <baseName>bdry_metro_counties_and_ctus</baseName>
+  <descriptiveName>Counties and Cities &amp; Townships, Twin Cities Metropolitan Area</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-04</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">boundaries</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{5e7d75df-8c7d-4c20-a29d-64ab3cfdbd0a}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{dcefcecf-4107-4f54-8365-9e31b940bca4}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{c89ca87c-8bcc-459e-a078-42ff4267fc9a}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Administrative_Political_Boundaries/MapServer</subResourceURL>
+        <subResourceURL type="HTML"/>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

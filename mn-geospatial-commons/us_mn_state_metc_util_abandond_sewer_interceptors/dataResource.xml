@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>util_abandond_sewer_interceptors</baseName>
+  <descriptiveName>Abandoned Sewer Interceptors</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-10-16</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">utilitiesCommunication</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{57737cf0-d857-4b08-ba65-5c3cde4e3539}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{0e06840d-9ad9-4053-b847-553ced14c7a7}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

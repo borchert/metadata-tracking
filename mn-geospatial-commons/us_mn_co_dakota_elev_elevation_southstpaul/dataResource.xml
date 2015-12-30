@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>elev_elevation_southstpaul</baseName>
+  <descriptiveName>1-Foot Contours, South St Paul, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate>2015-08-13</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">elevation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{4ac67db5-a45d-4d07-866b-970477459cf9}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{4eb402c2-55bc-4042-8d57-995d97b953ef}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

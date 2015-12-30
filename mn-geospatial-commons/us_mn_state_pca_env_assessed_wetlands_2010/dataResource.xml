@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_assessed_wetlands_2010</baseName>
+    <descriptiveName>Minnesota 2010 Wetland Assessments</descriptiveName>
+    <publisher>Minnesota Pollution Control Agency</publisher>
+    <publisherID>us_mn_state_pca</publisherID>
+    <currentAsofDate>2012-03-08</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1003</resourceID>
+        <resourceGUID>{d033d8cd-aa7f-43bc-98dc-ac57e5d7258b}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>env_assessed_wetlands_2010</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{4d4600a8-a651-4b93-bb25-d5ee1aeb6076}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

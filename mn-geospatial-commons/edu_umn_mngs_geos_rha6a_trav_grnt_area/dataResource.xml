@@ -1,0 +1,25 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>geos_rha6a_trav_grnt_area</baseName>
+    <descriptiveName>Quaternary Geology - Traverse-Grant Area, West-Central Minnesota (Part A)</descriptiveName>
+    <publisherID>edu_umn_mngs</publisherID>
+    <currentAsofDate/>
+    <topicCategories>
+        <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{f340ac5a-4514-42b0-98a3-c85b06dfe552}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceName>Download from U of MN Digital Conservancy</subResourceName>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{6582f2b2-b026-47a7-aaf7-eed2e1874900}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" name="University Digital Conservancy" description="University Digital Conservancy">http://conservancy.umn.edu/handle/11299/59784</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

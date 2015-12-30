@@ -1,0 +1,36 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_impaired_streams_2012</baseName>
+    <descriptiveName>Minnesota 2012 Impaired Streams</descriptiveName>
+    <publisher>Minnesota Pollution Control Agency</publisher>
+    <publisherID>us_mn_state_pca</publisherID>
+    <currentAsofDate>2013-09-04</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{5eb5a428-4ccd-43a7-bb49-15cb27622b5b}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>env_impaired_streams_2012</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{00df1813-24b3-4e69-91b5-4cbbbe605470}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>preview</subResourceType>
+            <subResourceName>Impaired Streams 2012 Preview</subResourceName>
+            <subResourceDescription>A JPEG for viewing the data.</subResourceDescription>
+            <subResourceIdentifiers>
+                <subResourceGUID>{9ae3d44d-2e92-4c76-9e18-20bb4ef3e669}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="jpeg preview" description="This snapshot preview in jpeg format allows you to see the data as it might be used in your GIS. Previews are generated periodically, and may not show recently added features.">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_pca/env_impaired_streams_2012/preview/preview.jpg</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

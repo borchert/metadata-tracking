@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>biota_wma_landcover_pub</baseName>
+    <descriptiveName>DNR Wildlife Management Area Land Cover - Publicly Accessible</descriptiveName>
+    <publisher>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-06-11</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">biota</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>349</resourceID>
+        <resourceGUID>{54d774c3-d3b7-4447-92f7-87c6b66544b1}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{9bc38656-3034-49f2-95be-bcf53c76a3a3}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

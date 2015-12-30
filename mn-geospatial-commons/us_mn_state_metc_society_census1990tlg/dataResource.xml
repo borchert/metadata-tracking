@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>society_census1990tlg</baseName>
+  <descriptiveName>Census Geography 1990 TLG</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-02</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">society</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{cf0aae45-f46d-45be-aa23-67f9efb0f940}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{d132bf25-58c2-4492-8278-bd91ba9a2daa}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{9e1d4968-822a-4dd4-acd3-4c51249d7170}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Demographics/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

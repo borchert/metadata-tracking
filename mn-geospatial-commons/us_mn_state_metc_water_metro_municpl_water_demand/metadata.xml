@@ -1,0 +1,292 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Municipal Water Supply Demand Projections</title>
+        <origin>Metropolitan Council - Water Supply Planning Unit</origin>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <pubdate>periodically revised</pubdate>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-water-metro-municpl-water-demand</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset consists of water demand projections for 2010, 2020, 2030, 2040, and 2050 for municipal public water supply systems in the seven-county metropolitan area. 2004 water demand data is also included to represent baseline water demand; normal climate conditions in 2004 resulted in approximately average per capita water demand. Water demand is expressed as population served by municipal systems, municipal maximum daily and average daily demand, non-municipal average daily demand, domestic (private well) average daily demand, total community average daily demand, municipal per capita demand, and the ratio of municipal maximum daily demand to average daily demand.
+
+For its 2010-2030 water supply demand projections, the Council used data submitted in 2008 local comprehensive plans. Where local comprehensive plans did not contain projection data, the water demand projection method outlined in the 2007 Water Supply Planning in the Twin Cities Metropolitan Area Technical Report was used to forecast water use. While the Council does not have official 2040 and 2050 water use forecasts for each community in the metropolitan area, population for these years was projected based on the amount of remaining developable land and predicted population growth trends between 2000 and 2030. 2040 and 2050 water use was forecast using the same rate of water use for 2030 multiplied by the forecasted population for 2040 and 2050. 
+
+More information can be found in Appendix E of the Metropolitan Council's 2009 report: Twin Cities Metropolitan Area Regional Groundwater Flow Model Version 2.00, Technical Report in Support of the Metropolitan Area Master Water Supply Plan. This document can be found online at www.metrocouncil.org/environment/WaterSupply/metrogroundwatermodeldatasets.htm.  Additional information is presented in the Metropolitan Council 2007 Report to the Minnesota State Legislature: Water Supply Planning in the Twin Cities Metropolitan Area, found online at www.metrocouncil.org/environment/WaterSupply/WaterSupplyPlanningReport.htm.</abstract>
+      <purpose>The 2005 Minnesota Legislature directed the metropolitan Council to "carry out planning activities addressing the water supply needs of the metropolitan area" (Minnesota Statutes, Section 473.1565). Specifically the Council is charged with developing a base of technical information for water supply planning decisions and to prepare a metropolitan area master water supply plan. This dataset supports this charge.</purpose>
+      <supplinf>Twin Cities Seven County Metropolitan Area. This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20151001</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Data is based upon data submitted in communities' 2008 local comprehensive plans. Where local plans did not include water use forecasts, use was projected using 2006. Metropolitan Council population projections, Minnesota Department of Health water appropriation permit data, and water use reported by water utilities in 2006.  Updates to this data since then reflect only minor updates to municipal boundaries, reflected in the Time Period of Content.</current>
+    </timeperd>
+    <status>
+      <progress>Planned</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-422145.007545</westbc>
+        <eastbc>-519672.339731</eastbc>
+        <northbc>5029009.872338</northbc>
+        <southbc>4929483.917941</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+      </place>
+      <theme>
+        <themekey>Water Supply Planning, Water Demand, Projection, Municpal Public Water Supply System</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>By acceptance of this data, the user agrees to include a copy of the metadata record, including the liability disclaimer, whenever the user transmits or provides the GIS data (or any portion of it) to another user.</useconst>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.1.1332</native>
+    <crossref>
+      <citeinfo>
+        <title>Municipal Water Supply System Status; Historic Residential Per Capita Demand </title>
+      </citeinfo>
+    </crossref>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Lanya Ross</cntper>
+        </cntperp>
+        <cntpos>Sr. Environmental Scientist, Water Supply Planning</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert St. North</address>
+          <city>St Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651-602-1066</cntvoice>
+        <cntemail>lanya.ross@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Attributes 'PWS_SEQ_NO' and 'PWS_ID' were updated by the Minnesota Department of Health in 2008.
+
+Attributes containing 2004 population and water demand data are relative accurate, as they were based on 2004 Minnesota Department of Natural Resource water appropriations permit data and population served data reported by communities in local water supply plans.
+
+The accuracy of 2010 - 2050 population served and demand projection data should be considered a general estimate based on the best available data. Water demand projection methods vary by community. Use of these data should recognize that community-level population and water demand projections change periodically as community development plans evolve with changing social and economic forces.</attraccr>
+    </attracc>
+    <complete>The entire seven county geographic area is covered</complete>
+    <lineage>
+      <procstep>
+        <procdesc>For its water supply demand projections, the Council used the 2010, 2020 and 2030 population forecasts reported in communities' 2008 water supply plans submitted to the Minnesota Department of Natural Resources.  Where local water supply plans did not contain projection data, the Metropolitan Council used the water demand projection method outlined in the 2007 Water Supply Planning in the Twin Cities Metropolitan Area Technical Report to forecast water use. Population forecasts for 2040 and 2050 were developed specifically for this Plan to extend the water supply planning horizon to that used by Metropolitan Council's wastewater services. 2040 household forecasts were developed using the average of two growth projections: 1) the 2030-2040 growth if households grew at the same rate as projected from 2000-2030 (based upon a linear trend extrapolation), and 2) the forecasted household growth between 2020 and 2030. This average growth was added to the 2030 household forecast, which has the effect of giving 2020-2030 projected growth greater weight than overall 2000-2030 growth. 2050 population was then estimated by adding the 2030-2040 household growth to 2040 household forecasts. 
+
+Some communities purchase their water, wholesale or retail, from other communities.  In these cases, the populations of communities purchasing their water supply were combined with the population of the community from which they purchase their water.  For example, the population forecasts for St. Paul Regional Water Services (SPRWS) include the City of St. Paul and the nine other communities served by SPRWS.
+
+Community populations were characterized as either served or unserved. Served populations receive water from municipal supply systems, while unserved populations rely primarily on private domestic wells. Communities forecast 2010, 2020, and 2030 served population; the Council estimated 2040 and 2050 served population based on reported growth rates and assuming that after 2030 unserved populations would connect to municipal water supply systems.
+  
+Municipal suppliers provide water to residential, commercial, institutional and industrial customers.  The Council calculated the mean average day and maximum day water demand for each municipal water supplier.  Average day demand is the total water pumped in one year divided by the number of days in the year. Maximum day demand is the maximum volume pumped on a single day in a given year.  
+
+The Council projected non-municipal industrial, commercial, agricultural, and other permitted water use based on 2001-2004 water use data from the DNR. It was assumed that nearly all new non-residential water use would be accounted for in the projected municipal water demands. However, in some cases, the Council assumed a reduction in non-municipal and non-residential water use in areas where land-use change is planned. For example, it was assumed that major-crop irrigation use will decrease in areas where urban development is planned.  Similarly, water use projections were lowered in areas where it is known quarry operations are going to close down and associated dewatering will cease.  Most once-through water use was removed because these permits will be terminated by the end of 2010.  While likely to grow slightly, non-crop irrigation water use was not increased because the locations of future permits are unknown.  Similarly, the Council did not account for new industrial processing demands and other special categories in its water supply demand forecasts because future permit locations are unknown.
+
+Based on the calculated metropolitan area average residential per capita per day water use value (88 gallons per capita per day in 2004), the Council projected water demands for private water suppliers, including domestic wells and private waterworks (e.g. waterworks operated by mobile home parks, housing associations or other entities). The metropolitan area average residential per capita per day water use value is the mean of the metropolitan area municipal supplier's average residential per capita per day water supply demand .  The Council multiplied the metropolitan area average residential per capita per day water use value by the total population of each community minus the served population to obtain the private water supply (unserved population water use) average water supply demands.
+
+Per capita daily demand for each municipal water supplier was calculated by  dividing the average and maximum daily municipal water use by the served population. Where data were insufficient to directly calculate the per capita demand factors, water supply demands were estimated based on data from municipal systems with similar characteristics. The Council multiplied the adjusted maximum day per capita values by the forecasted served population to project maximum day usage for each municipal supplier. 
+
+Finally, to create these shapefiles, community population served and water demand projection data were then aggregated by municipal public water supplier.</procdesc>
+      </procstep>
+      <srcinfo>
+        <srcscale/>
+      </srcinfo>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">N:\EQA\WaterSupply\MAPS_Make_A_Map\MAM_WaterSupply_2Mar09\MAM_WatSUp_Metadata_23Apr09\WatDemProj04_50</srcused>
+        <procdate Sync="TRUE">20091208</procdate>
+        <proctime Sync="TRUE">10043000</proctime>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref/>
+    <direct>Vector</direct>
+    <mgmg3obj/>
+    <mgmg3til/>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>PSW_ID - Minnesota Department of Health Minnesota Drinking Water Information System public water supplier identification number
+
+CTU_ID - Metropolitan Council community identification number
+
+CTU_NAME - Metropolitan Council community name
+
+Population in the community served by a municipal water supply system:
+PopServ04
+PopServ10
+PopServ20
+PopServ30
+PopServ40
+PopServ50
+
+Maximum daily municipal use (million gallons/day) by community:
+MunMxDay04
+MunMxDay10
+MunMxDay20
+MunMxDay30
+MunMxDay40
+MunMxDay50
+
+Average daily municipal use (million gallons/day) by community:
+MunAvDay04
+MunAvDay10
+MunAvDay20
+MunAvDay30
+MunAvDay40
+MunAvDay50
+
+Average daily non-municipal use* (million gallons/day) by community:
+NonAvDay04
+NonAvDay10
+NonAvDay20
+NonAvDay30
+NonAvDay40
+NonAvDay50
+* Generally includes private industrial, commercial, and other use.
+
+Averaga daily domestic (private residential) use (million gallons/day) by community:
+DomAvDay04
+DomAvDay10
+DomAvDay20
+DomAvDay30
+DomAvDay40
+DomAvDay50
+
+Average daily total (municipal, non-municipal, and domestic) use (million gallons/day) by community:
+TotAvDay04
+TotAvDay10
+TotAvDay20
+TotAvDay30
+TotAvDay40
+TotAvDay50
+
+Average daily municipal use per person (gallons/person/day) by community:
+MunPCap04
+MunPCap10
+MunPCap20
+MunPCap30
+MunPCap40
+MunPCap50
+
+Ratio of maximum to average daily municipal use by community:
+MunMxAv04
+MunMxAv10
+MunMxAv20
+MunMxAv30
+MunMxAv40
+MunMxAv50</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname/>
+          <formvern/>
+          <transize/>
+        </digtinfo>
+      </digform>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <resdesc>MunicipalWaterDemand</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Lanya Ross</cntper>
+        </cntperp>
+        <cntpos>Sr. Environmental Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert St. North</address>
+          <city>St Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651-602-1803</cntvoice>
+        <cntemail>lanya.ross@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20151020</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Lanya Ross</cntper>
+        </cntperp>
+        <cntpos>Sr. Environmental Scientist, Water Supply Planning</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert St. North</address>
+          <city>St Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651-602-1803</cntvoice>
+        <cntemail>lanya.ross@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <Esri>
+    <ModDate>20091208</ModDate>
+    <ModTime>11474700</ModTime>
+    <MetaID>{463FEAD3-30D0-4198-8C5F-E86B429329F5}</MetaID>
+    <CreaDate>20091208</CreaDate>
+    <CreaTime>10043000</CreaTime>
+    <SyncOnce>TRUE</SyncOnce>
+  </Esri>
+  <mdDateSt Sync="TRUE">20091208</mdDateSt>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <linkage Sync="TRUE">file://\\rafs\shared\EQA\WaterSupply\MAPS_Make_A_Map\Metadata\WatDemProj04_50</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+      </distorTran>
+    </distributor>
+  </distInfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

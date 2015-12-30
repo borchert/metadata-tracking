@@ -1,0 +1,35 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>geos_geologic_atlas_todd_c18a</baseName>
+    <descriptiveName>Geologic Atlas of Todd County, Minnesota (Part A)</descriptiveName>
+    <publisherID>edu_umn_mngs</publisherID>
+    <currentAsofDate>2015-07-23</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{9b2a4efa-589f-41fa-8181-13de605ac25f}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceName>MGS County Geologic Atlas Program (Part A)</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{2a19dfed-92ee-4118-b350-10f3576edb2d}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="">http://www.mngs.umn.edu/county_atlas/countyatlas.htm</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceName>Download from U of MN Digital Conservancy</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{71c8aa8b-f202-4cae-ad1f-9e91489b7ff3}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="">http://conservancy.umn.edu/handle/11299/58719</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>bdry_metprks_opsspcdst</baseName>
+  <descriptiveName>Metropolitan Parks and Open Space Commission Districts</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-19</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">boundaries</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{d5e48075-964e-4073-883a-73b298058ffd}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{87ffdde4-a706-47d2-a057-e797a0d62efd}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Administrative_Political_Boundaries/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{8816c182-633a-4c6f-8335-a11142b46b57}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

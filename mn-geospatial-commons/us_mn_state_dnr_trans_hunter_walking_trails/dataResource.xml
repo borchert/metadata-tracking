@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>trans_hunter_walking_trails</baseName>
+    <descriptiveName>Hunter Walking Trails</descriptiveName>
+    <publisher>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-10-08</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">transportation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1557</resourceID>
+        <resourceGUID>{0698bf18-3cd2-41b9-a6d2-2d90f75fdf03}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{63b5c0b4-7c7a-44ea-8849-ef08c70268b2}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

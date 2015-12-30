@@ -1,0 +1,22 @@
+<dataResource>
+    <baseName>water_drinking_water_supply</baseName>
+    <descriptiveName>Drinking Water Supply Management Areas</descriptiveName>
+    <publisherID>us_mn_state_health</publisherID>
+    <currentAsofDate>2014-09-01</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">inlandWaters</topicCategory>
+		<topicCategory type="ISO 19115">health</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{0d929e85-94f6-4dc3-a0f0-d533eb2578dd}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+		<dataSubResource>
+			<subResourceType>fgdb</subResourceType>
+			<subResourceName>drinking_water_supply_management_areas</subResourceName>
+			<subResourceIdentifiers>
+				<subResourceGUID>{dae1487d-89ff-48a5-bf29-4807efa0c1c4}</subResourceGUID>
+			</subResourceIdentifiers>
+		</dataSubResource>
+    </dataSubResources>
+</dataResource>

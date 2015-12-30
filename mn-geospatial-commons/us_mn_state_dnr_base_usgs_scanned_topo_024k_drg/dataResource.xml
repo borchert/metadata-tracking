@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>base_usgs_scanned_topo_024k_drg</baseName>
+    <descriptiveName>1:24k Digital Raster Graphic - Collars Removed</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>1998-01-01</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>126</resourceID>
+        <resourceGUID>{bc1f1830-5153-47f7-bf3c-28bd10129144}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{c28ddeb0-05d2-4449-ade3-075821a84257}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="" name="File Geodatabase: full statewide raster">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/fgdb_base_usgs_scanned_topo_024k_drg.zip</subResourceURL>
+                <subResourceURL type="HTML" description="" name="Individual tif tiles">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/tif_base_usgs_scanned_topo_024k_drg.zip</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

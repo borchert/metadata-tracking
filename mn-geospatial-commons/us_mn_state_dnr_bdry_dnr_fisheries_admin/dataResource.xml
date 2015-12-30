@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>bdry_dnr_fisheries_admin</baseName>
+    <descriptiveName>DNR Division of Fisheries Administrative Areas</descriptiveName>
+    <publisher>Minnesota DNR - Division of Fisheries</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2014-06-04</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>12</resourceID>
+        <resourceGUID>{acbdeb28-6084-47ba-9e7d-4a94d405cb24}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>bdry_dnr_fisheries_admin</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{9028f884-ae47-4d6f-9a0a-4f96bfc69196}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

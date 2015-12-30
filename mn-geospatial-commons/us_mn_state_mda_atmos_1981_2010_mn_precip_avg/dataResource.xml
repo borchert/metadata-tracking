@@ -1,0 +1,36 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>atmos_1981_2010_mn_precip_avg</baseName>
+    <descriptiveName>Minnesota Normal Precipitation Average 1981-2010 (Annual and Monthly)</descriptiveName>
+    <publisherID>us_mn_state_mda</publisherID>
+    <currentAsofDate>2015-07-13</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">climatologyMeteorologyAtmosphere</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID/>
+        <resourceGUID>{68eda1c7-d66b-454f-b0fc-4393490ebbbd}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>atmos_1981_2010_mn_precip_avg</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{bc85091d-cf9e-41c8-8e4a-c8a4fa0b943d}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>preview</subResourceType>
+            <subResourceName>Normal Precipitation 1981-2010 Annual Preview</subResourceName>
+            <subResourceDescription>JPEG for viewing data.</subResourceDescription>
+            <subResourceIdentifiers>
+                <subResourceGUID>{2b43d99d-da12-460f-b0cd-81ff2b9e6c21}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="jpeg preview" description="This snapshot preview in JPEG image format shows the entire extent and allows you to see the data as it might be used in your desktop GIS.">ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_mda/atmos_1981_2010_mn_precip_avg/preview/preview.jpg</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

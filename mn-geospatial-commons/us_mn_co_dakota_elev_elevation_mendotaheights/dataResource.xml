@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>elev_elevation_mendotaheights</baseName>
+  <descriptiveName>1-Foot Contours, Mendota Heights, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate>2015-08-13</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">elevation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{f6d783c2-8919-460b-8af4-8e39eee73dc0}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{876d93a5-eeac-48ac-8b9e-b4d7d88a0b2d}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

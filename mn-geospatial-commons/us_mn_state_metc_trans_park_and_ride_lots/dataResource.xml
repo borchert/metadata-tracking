@@ -1,0 +1,33 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+  <baseName>trans_park_and_ride_lots</baseName>
+  <descriptiveName>Metro Transit Park and Ride Lots</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate/>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{05f8aa9f-7a89-47b7-8e84-fff829bdb9a8}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceName>0</subResourceName>
+      <subResourceIdentifiers>
+        <subResourceGUID>{1f9801b6-4d77-4f9b-bc0a-70fa97b7bbda}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceName>1</subResourceName>
+      <subResourceIdentifiers>
+        <subResourceGUID>{dcd59c7e-1b79-458f-8a71-a0c7a73da4d8}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="Rest" description="" name="">http://gis2.metc.state.mn.us/arcgis/services/MetroGIS/Transportation/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

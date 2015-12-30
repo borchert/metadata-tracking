@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>society_census_genchar_trct2000</baseName>
+  <descriptiveName>Profile of General Demographic Characteristics, Census Tracts: 2000</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-02</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">society</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{d69ff7d2-3044-4ff8-be96-59129261d717}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{4faa91d8-cbee-4500-8a29-9c70f4bb591d}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

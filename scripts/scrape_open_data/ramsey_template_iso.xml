@@ -18,6 +18,7 @@
    </gmd:hierarchyLevel>
    <gmd:hierarchyLevelName>
       <gco:CharacterString>dataset</gco:CharacterString>
+<<<<<<< HEAD
    </gmd:hierarchyLevelName>
    <gmd:contact>
       <gmd:CI_ResponsibleParty>
@@ -52,6 +53,41 @@
       <gco:DateTime/>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
+=======
+  </hierarchyLevelName>
+  <contact>
+     <CI_ResponsibleParty>
+        <individualName>
+           <gco:CharacterString></gco:CharacterString>
+        </individualName>
+        <organisationName>
+           <gco:CharacterString>Ramsey County GIS</gco:CharacterString>
+        </organisationName>
+        <contactInfo>
+           <CI_Contact>
+              <address>
+                 <CI_Address>
+                    <electronicMailAddress>
+                       <gco:CharacterString>
+                          RCGISMetaData@Co.Ramsey.MN.US
+                       </gco:CharacterString>
+                    </electronicMailAddress>
+                 </CI_Address>
+              </address>
+           </CI_Contact>
+        </contactInfo>
+        <role>
+           <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+              codeListValue="originator"
+              codeSpace="ISOTC211/19115"/>
+        </role>
+     </CI_ResponsibleParty>
+  </contact>
+  <dateStamp>
+      <gco:DateTime></gco:DateTime>
+  </dateStamp>
+  <metadataStandardName>
+>>>>>>> mn-geo-commons-ags-parse
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
    </gmd:metadataStandardName>
    <gmd:metadataStandardVersion>
@@ -97,6 +133,7 @@
             <gmd:CI_Citation>
                <gmd:title>
                   <gco:CharacterString>{title}</gco:CharacterString>
+<<<<<<< HEAD
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -231,6 +268,142 @@
          <gmd:resourceConstraints>
             <gmd:MD_LegalConstraints>
                <gmd:otherConstraints>
+=======
+               </title>
+               <date>
+                 <CI_Date>
+                   <date>
+                      <gco:DateTime></gco:DateTime>
+                   </date>
+                 <dateType>
+                        <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                     </dateType>
+                  </CI_Date>
+               </date>
+               <date>
+                   <CI_Date>
+                      <date>
+                         <gco:DateTime></gco:DateTime>
+                      </date>
+                     <dateType>
+                     <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+                    </dateType>
+                  </CI_Date>
+                  </date>
+               <identifier>
+                  <MD_Identifier>
+                     <code>
+                    <gco:CharacterString>{uri}</gco:CharacterString>
+                   </code>
+                 </MD_Identifier>
+               </identifier>
+               <citedResponsibleParty>
+                  <CI_ResponsibleParty>
+                     <individualName>
+                          <gco:CharacterString></gco:CharacterString>
+                      </individualName>
+                     <organisationName>
+                        <gco:CharacterString>Ramsey County GIS</gco:CharacterString>
+                     </organisationName>
+                     <contactInfo>
+                         <CI_Contact>
+                            <address>
+                               <CI_Address>
+                                  <electronicMailAddress>
+                                     <gco:CharacterString>
+                                        RCGISMetaData@Co.Ramsey.MN.US
+                                     </gco:CharacterString>
+                                  </electronicMailAddress>
+                               </CI_Address>
+                            </address>
+                         </CI_Contact>
+                     </contactInfo>
+                     <role>
+                        <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="originator"
+                                         codeSpace="ISOTC211/19115"/>
+                     </role>
+                  </CI_ResponsibleParty>
+               </citedResponsibleParty>
+               <citedResponsibleParty>
+                  <CI_ResponsibleParty>
+                     <individualName>
+                         <gco:CharacterString></gco:CharacterString>
+                     </individualName>
+                     <organisationName>
+                        <gco:CharacterString></gco:CharacterString>
+                     </organisationName>
+                     <contactInfo>
+                        <CI_Contact>
+                           <address>
+                              <CI_Address>
+                                 <electronicMailAddress>
+                                 </electronicMailAddress>
+                              </CI_Address>
+                           </address>
+                        </CI_Contact>
+                     </contactInfo>
+                     <role>
+                        <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="publisher"
+                                         codeSpace="ISOTC211/19115"/>
+                     </role>
+                  </CI_ResponsibleParty>
+               </citedResponsibleParty>
+               <presentationForm>
+                  <CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_PresentationFormCode"
+                                               codeListValue="mapDigital"
+                                               codeSpace="ISOTC211/19115"/>
+               </presentationForm>
+            </CI_Citation>
+         </citation>
+         <abstract>
+            <gco:CharacterString></gco:CharacterString>
+         </abstract>
+         <descriptiveKeywords>
+            <MD_Keywords>
+               <keyword>
+                  <gco:CharacterString>Ramsey County (Minn.)</gco:CharacterString>
+               </keyword>
+               <type>
+                  <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="place"
+                                          codeSpace="ISOTC211/19115"/>
+               </type>
+            <thesaurusName>
+                 <CI_Citation>
+                   <title>
+                     <gco:CharacterString>LC Name Authority File</gco:CharacterString>
+                   </title>
+                   <date>
+                       <CI_Date>
+                         <date>
+                           <gco:Date>
+                              2010-05-13
+                           </gco:Date>
+                         </date>
+                         <dateType>
+                           <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                         </dateType>
+                       </CI_Date>
+                   </date>
+                    <identifier>
+                       <MD_Identifier>
+                          <code>
+                             <gco:CharacterString>
+                                http://id.loc.gov/authorities/names/n81056706
+                             </gco:CharacterString>
+                          </code>
+                       </MD_Identifier>
+                    </identifier>
+                 </CI_Citation>
+               </thesaurusName>
+            </MD_Keywords>
+         </descriptiveKeywords>
+         <descriptiveKeywords>
+            <MD_Keywords>
+               <keyword>
+>>>>>>> mn-geo-commons-ags-parse
                   <gco:CharacterString></gco:CharacterString>
                </gmd:otherConstraints>
             </gmd:MD_LegalConstraints>
@@ -305,6 +478,7 @@
                   <gmd:MD_Format>
                      <gmd:name>
                         <gco:CharacterString>Shapefile</gco:CharacterString>
+<<<<<<< HEAD
                      </gmd:name>
                      <gmd:version>
                         <gco:CharacterString/>
@@ -332,6 +506,30 @@
                      <gmd:function>
                         <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
                      </gmd:function>
+=======
+                     </name>
+                     <version gco:nilReason="missing"/>
+                  </MD_Format>
+               </distributorFormat>
+            </MD_Distributor>
+         </distributor>
+         <transferOptions>
+            <MD_DigitalTransferOptions>
+               <onLine>
+                  <CI_OnlineResource>
+                     <linkage>
+                        <URL></URL>
+                     </linkage>
+                     <protocol>
+                        <gco:CharacterString>WWW:LINK</gco:CharacterString>
+                     </protocol>
+                     <name>
+                        <gco:CharacterString></gco:CharacterString>
+                     </name>
+                     <description>
+                        <gco:CharacterString></gco:CharacterString>
+                     </description>
+>>>>>>> mn-geo-commons-ags-parse
 
                   </gmd:CI_OnlineResource>
                </gmd:onLine>
@@ -352,6 +550,7 @@
                      </gmd:name>
                      <gmd:description>
                         <gco:CharacterString></gco:CharacterString>
+<<<<<<< HEAD
                      </gmd:description>
                   </gmd:CI_OnlineResource>
                </gmd:onLine>
@@ -391,6 +590,27 @@
 
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
+=======
+                     </name>
+                     <description>
+                        <gco:CharacterString></gco:CharacterString>
+                     </description>
+                  </CI_OnlineResource>
+               </onLine>
+            </MD_DigitalTransferOptions>
+         </transferOptions>
+      </MD_Distribution>
+  </distributionInfo>
+  <metadataMaintenance>
+      <MD_MaintenanceInformation>
+         <maintenanceAndUpdateFrequency>
+            <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">
+
+            </MD_MaintenanceFrequencyCode>
+
+         </maintenanceAndUpdateFrequency>
+         <maintenanceNote>
+>>>>>>> mn-geo-commons-ags-parse
             <gco:CharacterString>This metadata was generated from the Esri Open Data item from {url}, orignally in the Project Open Data Metadata Schema, at {datetime}.</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>

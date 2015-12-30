@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>biota_landusedev_mlccs</baseName>
+  <descriptiveName>MLCCS Natural Resource Inventory, SWCD Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate>2015-11-13</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">biota</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{1192eed2-6f6d-4e98-91a9-c6b20e7eed06}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{87e1a637-d067-48f5-9810-9e9deab64a7f}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

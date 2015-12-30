@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>plan_regonal_parcels_2007</baseName>
+  <descriptiveName>MetroGIS Regional Parcel Dataset - 2007</descriptiveName>
+  <publisherID>us_mn_state_metrogis</publisherID>
+  <currentAsofDate>2015-08-31</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{fe64208b-0d48-48d3-8647-0cb6fa4890bf}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{1673c2a8-5384-4229-ad99-da5b89b42489}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

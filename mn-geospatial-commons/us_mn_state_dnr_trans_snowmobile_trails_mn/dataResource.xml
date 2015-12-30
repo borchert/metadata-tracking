@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>trans_snowmobile_trails_mn</baseName>
+    <descriptiveName>Minnesota Snowmobile Trails</descriptiveName>
+    <publisher>Minnesota DNR - Division of Trails and Waterways</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-10-15</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">transportation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>193</resourceID>
+        <resourceGUID>{413c811d-73c9-450b-9812-6655a4d09f4d}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{49538821-e2a1-4bca-8b3b-13b6502fdc76}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

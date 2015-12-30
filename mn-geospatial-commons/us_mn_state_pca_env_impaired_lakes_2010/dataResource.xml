@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_impaired_lakes_2010</baseName>
+    <descriptiveName>Minnesota 2010 Impaired Lakes</descriptiveName>
+    <publisher>Minnesota Pollution Control Agency</publisher>
+    <publisherID>us_mn_state_pca</publisherID>
+    <currentAsofDate>2012-03-26</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1004</resourceID>
+        <resourceGUID>{71084ee8-e9ce-4a07-bea4-2ec8670dcdef}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>env_impaired_lakes_2010</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{71ca9e79-63af-44e4-b3a4-6431ecc30ea1}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

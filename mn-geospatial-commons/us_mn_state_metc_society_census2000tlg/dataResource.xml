@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>society_census2000tlg</baseName>
+  <descriptiveName>Census Geography 2000 - TLG Aligned</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-02</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">society</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{42d3d01c-8fbf-449c-9711-c6ac697d39e1}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{f73ea401-604d-4b80-bd44-f452e6baae2a}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{c82263f2-325a-4ac6-a1ab-a9134091424c}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Demographics/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

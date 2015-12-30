@@ -1,0 +1,31 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>trans_rr_valuation_map_footprint</baseName>
+    <descriptiveName>Railroad Valuation Map Footprints</descriptiveName>
+    <publisherID>us_mn_state_dot</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">transportation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{e8897bf4-54de-41bc-90af-14f3b68c0795}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>shp</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{57c6ff5d-a490-4454-8229-19ca4a423ffc}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{4f0ecf3b-0330-4438-a700-9a58a8e8e22f}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Right of Way Mapping Info Webpage" name="Right of Way Mapping Info Webpage">http://www.dot.state.mn.us/maps/gisweb/row/</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

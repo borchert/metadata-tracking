@@ -1,0 +1,23 @@
+<dataResource>
+  <baseName>trans_ncompass_roads_landmarks</baseName>
+  <descriptiveName>NCompass Roads and Landmarks</descriptiveName>
+  <publisherID>us_mn_state_metrogis</publisherID>
+  <currentAsofDate>2015-09-04</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{67243dd9-571f-43c5-aeff-adb9d77d3d29}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>external</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{d4fd0daa-c3d4-41e3-b76b-8ebb2e255a51}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="HTML" description="License Instructions" name="License Instructions">http://metrogis.org/how-do-i-get/street-centerlines.aspx</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

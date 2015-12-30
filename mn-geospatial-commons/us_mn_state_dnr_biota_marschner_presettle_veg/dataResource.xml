@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>biota_marschner_presettle_veg</baseName>
+    <descriptiveName>Marschner Presettlement Vegetation</descriptiveName>
+    <publisher>Minnesota DNR - MIS Bureau</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>1994-06-01</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">biota</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>64</resourceID>
+        <resourceGUID>{04507838-766c-411b-97f7-033a33c0c985}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{5cdf9bf0-d296-4d6c-beab-55c090b3ea94}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

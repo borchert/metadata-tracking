@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>bdry_turkey_permit_areas</baseName>
+    <descriptiveName>Minnesota Turkey Permit Areas</descriptiveName>
+    <publisher>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-04-09</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1507</resourceID>
+        <resourceGUID>{1fee15bb-c575-4408-b1da-0955a6b6e648}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>bdry_turkey_permit_areas</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{7eab07a5-50ee-4255-9037-23c95e054e82}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

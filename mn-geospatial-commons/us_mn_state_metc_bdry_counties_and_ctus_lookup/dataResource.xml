@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>bdry_counties_and_ctus_lookup</baseName>
+  <descriptiveName>County CTU Lookup Table</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-04</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">boundaries</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{0d7fb645-dd80-4594-a04e-fb5ff52debe6}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{211b8743-4de7-4fe9-9bcd-3e368d799237}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

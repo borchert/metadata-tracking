@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>bdry_mississippi_r_critical_area</baseName>
+    <descriptiveName>Mississippi River Critical Area and Districts</descriptiveName>
+    <publisher>Minnesota DNR - Division of Waters</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-11-09</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1418</resourceID>
+        <resourceGUID>{1965d725-e8fd-4612-ab35-36e76660ea2a}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>bdry_mississippi_r_critical_area</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{b7f0e6ca-56ed-4801-93dc-be12795f8451}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

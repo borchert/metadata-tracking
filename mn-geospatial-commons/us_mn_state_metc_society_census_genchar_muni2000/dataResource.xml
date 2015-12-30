@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>society_census_genchar_muni2000</baseName>
+  <descriptiveName>Profile of General Demographic Characteristics, MN Municipalities: 2000</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-02</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">society</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{e035bec9-6978-4e50-b4d9-fe4fde3d6e3f}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{86395405-2f84-4eca-adbe-190f5865652c}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

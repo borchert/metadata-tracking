@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>elev_elevation_rosemount</baseName>
+  <descriptiveName>1-Foot Contours, Rosemount, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate>2015-08-13</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">elevation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{327c5d9b-8523-46c8-b89d-f31092a914d1}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{d7254305-2f75-4ca9-a829-3f20bc5dc0e1}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

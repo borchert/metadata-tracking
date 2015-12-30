@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>society_census_houschar_muni2000</baseName>
+  <descriptiveName>Profile of Selected Housing Characteristics, MN Municipalities: 2000</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-02</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">society</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{83e4b49d-64b8-4474-af24-2e2e02b55929}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{acbbd779-39f8-4f72-be3a-b9fc5a34bc14}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

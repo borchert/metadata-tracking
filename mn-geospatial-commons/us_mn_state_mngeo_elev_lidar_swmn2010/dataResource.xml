@@ -1,0 +1,33 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>elev_lidar_swmn2010</baseName>
+    <descriptiveName>LiDAR Elevation, Minnesota River Basin, Southwest Minnesota, 2010</descriptiveName>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">elevation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{a39a6999-7a08-4293-8ec4-52f2410f7e45}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{2eba3dc8-f71a-4ba5-928e-6e2c02d35a24}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="" name="Minnesota Elevation Mapping - LiDAR Home Page">http://www.mngeo.state.mn.us/chouse/elevation/lidar.html</subResourceURL>
+                <subResourceURL type="HTML" description="Ftp site for tiled LiDAR data download" name="Tiled LiDAR Data Download">ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>web_map</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{d9db1825-41f7-4b6e-81ae-c1f77ea1b9db}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Access to MnTopo viewing and download application" name="MnTopo Elevation Data Viewer and Download">http://www.dnr.state.mn.us/maps/mntopo/index.html</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

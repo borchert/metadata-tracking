@@ -1,0 +1,35 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>geos_geologic_atlas_mcle_c20a</baseName>
+    <descriptiveName>Geologic Atlas of McLeod County, Minnesota (Part A)</descriptiveName>
+    <publisherID>edu_umn_mngs</publisherID>
+    <currentAsofDate>2015-07-23</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{c47bce5b-de08-4dce-8daa-f6cbe8ff91fc}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceName>MGS County Geologic Atlas Program (Part A)</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{ad0797e5-9b6b-4cc9-a946-d4764c863c25}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="">http://www.mngs.umn.edu/county_atlas/countyatlas.htm</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceName>Download from U of MN Digital Conservancy</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{cd02c606-29fa-41a4-bbdc-a46ce1c4a387}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="">http://conservancy.umn.edu/handle/11299/58781</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

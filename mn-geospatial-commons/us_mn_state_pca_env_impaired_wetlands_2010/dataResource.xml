@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_impaired_wetlands_2010</baseName>
+    <descriptiveName>Minnesota 2010 Impaired Wetlands</descriptiveName>
+    <publisher>Minnesota Pollution Control Agency</publisher>
+    <publisherID>us_mn_state_pca</publisherID>
+    <currentAsofDate>2012-03-26</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1006</resourceID>
+        <resourceGUID>{9d9438ff-db87-42c4-a3dc-40204279d5c5}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>env_impaired_wetlands_2010</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{92d9d3c5-b4bb-41ca-995a-7fd563570378}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

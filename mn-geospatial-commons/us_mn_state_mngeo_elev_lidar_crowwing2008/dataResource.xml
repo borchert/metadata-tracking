@@ -1,0 +1,33 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>elev_lidar_crowwing2008</baseName>
+    <descriptiveName>LiDAR Elevation, Crow Wing County, Minnesota, 2008</descriptiveName>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">elevation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{b0c30513-f7fc-4869-97e1-de06c9b49750}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{d40d5ef2-8733-4c72-a61a-f3675e160ec5}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="" name="Minnesota Elevation Mapping - LiDAR Home Page">http://www.mngeo.state.mn.us/chouse/elevation/lidar.html</subResourceURL>
+                <subResourceURL type="HTML" description="Ftp site for tiled LiDAR data download" name="Tiled LiDAR Data Download">ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>web_map</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{778ce9df-0dd7-4731-90dd-e6d0f8b34529}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Access to MnTopo viewing and download application" name="MnTopo Elevation Data Viewer and Download">http://www.dnr.state.mn.us/maps/mntopo/index.html</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

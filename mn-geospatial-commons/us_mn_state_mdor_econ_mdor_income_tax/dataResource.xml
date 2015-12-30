@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>econ_mdor_income_tax</baseName>
+    <descriptiveName>Income Tax, Minnesota, 2003-2008</descriptiveName>
+    <publisher>Minnesota Department of Revenue</publisher>
+    <publisherID>us_mn_state_mdor</publisherID>
+    <currentAsofDate>2008-12-31</currentAsofDate>
+    <resourceType>Microsoft Excel Spreadsheet</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">economy</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID/>
+        <resourceGUID>{5ba1db52-fea5-43b6-a746-63677ab6dff8}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>xlsx</subResourceType>
+            <subResourceName>econ_mdor_income_tax</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{501ee325-38f2-4060-ba20-86f4de84c0d3}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

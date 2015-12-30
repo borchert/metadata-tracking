@@ -1,0 +1,32 @@
+<dataResource>
+  <baseName>loc_address_points</baseName>
+  <descriptiveName>MetroGIS Address Points Dataset - Twin Cities Metropolitan Area</descriptiveName>
+  <publisherID>us_mn_state_metrogis</publisherID>
+  <currentAsofDate>2015-09-17</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">location</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{c30593a3-2960-4d25-beea-fd4a1f1c3436}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{bcb1868b-bb61-423c-9ff2-b29673455426}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{0c59e618-82b5-4838-ba93-ea795d116547}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Facilities_Buildings_Structures/MapServer</subResourceURL>
+        <subResourceURL type="PDF" name="" description="">L:\Metadata\Layers\GeoCommons\TanyasLayers\MetroGIS_Address_Points_Database_Specifications.pdf</subResourceURL>
+        <subResourceURL type="PDF" name="" description="">L:\Metadata\Layers\GeoCommons\TanyasLayers\MetroGIS_Address_Points_Data_Provider_Registry.pdf</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

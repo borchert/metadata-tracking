@@ -1,0 +1,25 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>biota_timber_surveys_1900s_image</baseName>
+    <descriptiveName>Reports of Estimates and Appraisals of the Timber Commissioners Board, Minnesota, 1895-1905: Image Format</descriptiveName>
+    <publisher>Minnesota Geospatial Information Office</publisher>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">biota</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID/>
+        <resourceGUID>{7e72cf3c-fe48-480a-a173-df4943f3de80}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{7413bcda-bee1-415b-8435-ce4b99c6eb28}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="" name="Data Download Webpage">http://www2.mnhs.org/library/findaids/gr00664.xml</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

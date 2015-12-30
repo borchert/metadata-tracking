@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>biota_nhis_calcareous_fens</baseName>
+    <descriptiveName>Calcareous Fens - Source Feature Points</descriptiveName>
+    <publisher>Minnesota DNR - Division of Ecological Resources - Natural Heritage and Nongame Research Program</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2008-08-18</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">biota</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>0</resourceID>
+        <resourceGUID>{cac16857-6d7d-4fdc-90dd-3e9af31d7925}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>biota_nhis_calcareous_fens</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{bfebe1ca-5df2-45c7-987c-8e7da70597e5}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

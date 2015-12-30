@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>water_metro_river_carto_features</baseName>
+  <descriptiveName>Major River Cartographic Features</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-04</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">inlandWaters</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{d51e5ead-6de7-43dc-bbe0-56651ccbba52}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{22431fe7-88de-43e8-9d88-e9d70153f27f}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

@@ -1,0 +1,33 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>elev_lidar_stearns2006</baseName>
+    <descriptiveName>LiDAR Elevation, Stearns County, Minnesota, 2006</descriptiveName>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">elevation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{c907c44f-1182-469a-b7ea-e307f4d352b0}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{1c82faa0-5440-478f-89b0-1a4aa24426d2}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="" name="Minnesota Elevation Mapping - LiDAR Home Page">http://www.mngeo.state.mn.us/chouse/elevation/lidar.html</subResourceURL>
+                <subResourceURL type="HTML" description="Ftp site for tiled LiDAR data download" name="Tiled LiDAR Data Download">ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>web_map</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{8debe29c-87b8-4416-b059-7fc21a461e2e}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Access to MnTopo viewing and download application" name="MnTopo Elevation Data Viewer and Download">http://www.dnr.state.mn.us/maps/mntopo/index.html</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

@@ -1,0 +1,32 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>geos_soils_cummins_grigal</baseName>
+    <descriptiveName>Soils and Land Surfaces of Minnesota (Cummins and Grigal)</descriptiveName>
+    <publisher>University of Minnesota - Department of Soil, Water and Climate</publisher>
+    <publisherID>edu_umn_swac</publisherID>
+    <currentAsofDate>1980-06-01</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <nativeCoordRefSys>EPSG:26915</nativeCoordRefSys>
+    <tilingScheme>none</tilingScheme>
+    <topicCategories>
+        <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID type="MnDNR">89</resourceID>
+        <resourceID type="gdrsEcosystemGUID">{b901e746-8f14-4759-b294-c271410320f1}</resourceID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource type="Feature Class">geos_soils_cummins_grigal.gdb\soils_and_land_surfaces_mn_cummins_grigal</dataSubResource>
+        <dataSubResource type="Layer File">Cummins Grigal Soils of Minnesota.lyr</dataSubResource>
+    </dataSubResources>
+    <boundingCoordinates>
+        <boundingCoordRefSys>EPSG:4326</boundingCoordRefSys>
+        <boundingCoordEast>-89.393121</boundingCoordEast>
+        <boundingCoordWest>-96.832790</boundingCoordWest>
+        <boundingCoordNorth>49.346077</boundingCoordNorth>
+        <boundingCoordSouth>43.433784</boundingCoordSouth>
+    </boundingCoordinates>
+    <resourceSizeKb>2243</resourceSizeKb>
+    <resourceModified>2012-01-06 21:03:50</resourceModified>
+    <thisFileModified>2012-06-04 16:38:19</thisFileModified>
+</dataResource>

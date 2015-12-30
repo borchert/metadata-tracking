@@ -1,0 +1,216 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey and Minnesota DNR</origin>
+        <pubdate>19980101</pubdate>
+        <title>1:250k Digital Raster Graphic - Collars Removed</title>
+        <mgmg1cid/>
+        <pubinfo>
+          <publish>Minnesota Department of Natural Resources (MNDNR)</publish>
+        </pubinfo>
+        <onlink>https://gisdata.mn.gov/dataset/base-usgs-scanned-topo-250k-drg</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>A digital raster graphic (DRG) is a scanned image of an U.S. Geological Survey (USGS) standard series topographic map, including all map collar information. The image inside the map neatline is georeferenced to the surface of the earth and fit to the Universal Transverse Mercator projection. The horizontal positional accuracy and datum of the DRG matches the accuracy and datum of the source map. The map is scanned at a minimum resolution of 250 dots per inch.
+
+DRG's are created by scanning published paper maps on high-resolution scanners.  The raster image is georeferenced and fit to the UTM projection.  Colors are standardized to remove scanner limitations and artifacts.  The average data set size is about 6 megabytes in Tagged Image File Format (TIFF) with PackBits compression. DRG's can be easily combined with other digital cartographic products such as digital elevation models (DEM) and digital orthophoto quadrangles (DOQ).
+
+DRG's are stored as rectified TIFF files in geoTIFF format. GeoTIFF is a relatively new TIFF image storage format that incorporates georeferencing information in the header. This allows software, such as ArcView, ARC/INFO, or EPPL7 to reference the image without an additional header or world file.
+
+Within the Minnesota Department of Natural Resources Core GIS data set the DRG's have been processed to be in compliance with departmental data standards (UTM Extended Zone 15, NAD83 datum) and the map collar information has been removed to facilitate the display of the DRG's in a seamless fashion.
+
+These DRG's were clipped and transformed to UTM Zone 15 using EPPL7 Raster GIS.</abstract>
+      <purpose>The DRG is used for validating digital line graphs (DLGs) and for DLG data collection and revision. The DRG can help assess the completeness of digital data from other mapping agencies. It can also be used to produce hybrid products. These include combined DRGs and DOQs for revising and collecting digital data, DRGs and DEMs for creating shaded-relief DRGs, and combinations of DRG, DOQ, and DLG data. Although a standard DRG is an effective mapping tool, its full potential for digital production is realized in combination with other digital data.
+
+Clipping the collar information allows seamless viewing of adjacent DRGs. Standardizing the UTM zone and the datum matches the data with many other statewide datasets available in Minnesota.</purpose>
+      <supplinf>Statewide - Minnesota</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>19980101</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>The scanned USGS Topographic map</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.991522</westbc>
+        <eastbc>-87.177541</eastbc>
+        <northbc>49.892443</northbc>
+        <southbc>42.891013</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>imageryBaseMapsEarthCover, DRG</themekey>
+        <themekt>Not Applicable</themekt>
+      </theme>
+      <place>
+        <placekey>Minnesota</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native/>
+    <crossref>
+      <citeinfo>
+        <title>base_usgs_scanned_topo_024k_drg, base_usgs_scanned_topo_100k_drg</title>
+      </citeinfo>
+    </crossref>
+    <browse>
+      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/base_usgs_scanned_topo_250k_drg/metadata/preview.jpg</browsen>
+    </browse>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - GIS Unit</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Database Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>The USGS DRG is produced with the intention of replicating as close as possible the original source map. Users of the DRG will note, however, that a certain amount of 'noise' can be discerned when small areas are blown up or viewed under zoomed-in conditions. This noise is in the form of random specks or pixels of color and halos due to any number of factors, such as, the quality of the source, the use of screens and patterns on the litho, and the unevenness of ink due to saturation and absorption. Discontinuities or breaks in linear features may also be present and are due to improper calibration or usage of the scanner, the condition of the source, and resampling. Descreening, quantizing, and noise filtering are methods used to reduce noise, which, besides creating a more aesthetically pleasing image, have the added benefit of reducing the size of the image file. Removal of lithographic screen patterns is preferred but not required.</logic>
+    <posacc>
+      <horizpa>
+        <horizpar>A random sampling of DRGs will be accuracy tested. The accuracy test will be performed by comparing the positions of UTM grid intersections on the source graphic against the corresponding location on the digital image. A visual inspection will determine whether those coordinates fall within the pixels that define a grid tick.
+
+DRGs will retain the horizontal accuracy of the source maps. Most USGS printed maps contain the National Map Accuracy Standards (NMAS) note in the collar area (to see the collar area, refer either to the printed topographic quad or to the original USGS DRG). The NMAS states that for maps on publication scales of 1:20,000 or smaller, not more than 10 percent of the points tested shall be in error by more than 1/50 inch measured on the publication scale. Test points must be 'well-defined', that is, easily visible or recoverable on the ground. For DRGs this accuracy statement applies only to that area of the DRG that falls within the neatline of the source map (excluding inset areas). Overedge areas falling outside the transformation boundary area (the map neatline), can exhibit anomalies or discrepancies. These anomalies also will appear in the map inset areas and in the map collar. For maps without the NMAS note, the horizontal accuracy is unknown. However, the DRG will retain the accuracy of the source map.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>In the DRG, the vertical positional accuracy is referenced in the DRG collar (to see the collar area, refer either to the printed topographic quad or to the original USGS DRG).
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>Source layer drgncim1:  250000
+</srcscale>
+      </srcinfo>
+      <procstep>
+        <procdesc>Original USGS DRG files were clipped to the map neatline, with the area outside the resulting data area given a background pixel value.  Then they were reprojected to UTM Zone 15, NAD83.  These tiles are provided. This product also includes a Esri File Geodatabase with a raster dataset where the tiles have been mosaicked into a single image.  All processing done by the Minnesota Department of Natural Resources GIS Staff.</procdesc>
+      </procstep>
+    </lineage>
+    <attracc>
+      <attraccr>Product meets USGS National Map Accuracy Standards for 1:250k products</attraccr>
+    </attracc>
+    <complete>Complete over the state of Minnesota</complete>
+  </dataqual>
+  <spdoinfo>
+    <indspref/>
+    <direct>raster</direct>
+    <mgmg3obj>grid</mgmg3obj>
+    <mgmg3til>q250k</mgmg3til>
+  </spdoinfo>
+  <spref>
+    <vertdef>
+      <altsys>
+        <altdatum>Not Applicable</altdatum>
+        <altunits>Not Applicable</altunits>
+      </altsys>
+      <depthsys>
+        <depthdn>Not Applicable</depthdn>
+        <depthdu>Not Applicable</depthdu>
+      </depthsys>
+    </vertdef>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+          <coordrep>
+            <absres>25</absres>
+            <ordres>25</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <resdesc>base_usgs_scanned_topo_250k_drg</resdesc>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>GeoTIFF</formname>
+          <formvern>6.0</formvern>
+          <transize/>
+        </digtinfo>
+      </digform>
+      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - GIS Unit</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Database Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20151117</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Minnesota DNR - GIS Unit</cntorg>
+          <cntper>Zeb Thomas</cntper>
+        </cntperp>
+        <cntpos>GIS Database Coordinator</cntpos>
+        <cntaddr>
+          <address>500 Lafayette Rd</address>
+          <city>Saint Paul</city>
+          <state>MN</state>
+          <postal>55155</postal>
+        </cntaddr>
+        <cntvoice>651-259-5637</cntvoice>
+        <cntemail>zeb.thomas@state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <eainfo>
+    <overview>
+      <eaover>See lineage - this scanned image has been processed so that pixel values are consistent with USGS standards for DRG products.</eaover>
+    </overview>
+  </eainfo>
+</metadata>

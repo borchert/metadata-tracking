@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>water_mces_indus_dischrg_permits</baseName>
+  <descriptiveName>MCES Industrial Discharge Permits</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-20</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">inlandWaters</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{6dce7f82-7a71-420d-9ebd-f1846459b6cf}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{b5f86643-fdc2-4bfb-864e-51416bb4edbd}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{8077c3cd-7fbd-4ffc-bf71-a2a77b7bee19}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Environmental_Monitoring_Modeling/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

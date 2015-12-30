@@ -1,0 +1,30 @@
+<dataResource>
+  <baseName>env_mces_lake_monitoring_sites</baseName>
+  <descriptiveName>MCES Lake Monitoring Sites</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-20</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">environment</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{e01b942e-ef30-4d42-b964-8982668e896d}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{be5a045b-c1bb-4c3c-8f26-73af93d49a93}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{65ab6cf2-5139-430c-98a2-b0b6a5ab0ce5}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Environmental_Monitoring_Modeling/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

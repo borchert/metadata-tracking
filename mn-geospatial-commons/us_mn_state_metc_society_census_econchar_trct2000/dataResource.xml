@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>society_census_econchar_trct2000</baseName>
+  <descriptiveName>Profile of Selected Economic Characteristics, Census Tracts: 2000</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-02</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">society</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{26c414ab-670e-4126-82b7-e6bd3cbc2f7c}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{4ad687de-f8d8-46d8-b0bd-16a3c8449f8e}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

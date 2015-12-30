@@ -1,0 +1,230 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Metropolitan Council</origin>
+        <title>Transit Trip Count and  Headway by Street Segment</title>
+        <pubinfo>
+          <publish>Metropolitan Council</publish>
+        </pubinfo>
+        <pubdate>20150701</pubdate>
+        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-trans-transit-county-headway-sum</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Transit System Trip Count and Headway layer contains frequency statistics for all trips serving the Twin Cities regional metropolitan area. One shape and one corresponding record exists for each individual road segment during a specific day of the week for a specific route. One road segment can have three or more copies of the same shape if the trip pattern occurs on a weekday, Saturday, and Sunday. 
+
+Headway is defined as the number of minutes in a service period divided by the trip count for that same service period. The number represents the average rate of minutes between each trip.
+
+The line work for the dataset was derived from NCompass's Centerline and Address Range dataset. A small number of line segments have been added to completely depict the network traveled by fixed-route transit vehicles. </abstract>
+      <purpose>To identify trip counts and headway for specific roads in the Twin Cities metropolitan area.</purpose>
+      <supplinf>Twin Cities 7 county metropolitan area as well as Sherburne County.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington.</supplinf>
+    </descript>
+    <timeperd>
+      <current>Updated weekly and includes linework from the NCompass street centerline dataset released in late summer or early spring.</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150701</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Weekly</update>
+    </status>
+    <crossref>
+      <citeinfo>
+        <title>- NCompass Street Centerline and Address Range dataset. 
+- TransitRoutes, TransitStop, TransitPatterns, TransitPattersBySegment</title>
+      </citeinfo>
+    </crossref>
+    <keywords>
+      <place>
+        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County, Sherburne County</placekey>
+      </place>
+      <theme>
+        <themekey>transit, buses, patterns, streets, roads, transportation, headway</themekey>
+        <themekt>None</themekt>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <spdom>
+      <bounding>
+        <westbc>-94.012</westbc>
+        <eastbc>-92.732</eastbc>
+        <northbc>45.415</northbc>
+        <southbc>44.471</southbc>
+      </bounding>
+    </spdom>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Sean Murphy</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1371</cntvoice>
+        <cntemail>sean.murphy@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <eainfo>
+    <overview>
+      <eaover>LINE ATTRIBUTES: 
+
+SERVICE_ID: Trips are seperated by day of week in which they occur. This field indicates which day of week is represented. See notes below.
+
+Service ID notes:
+WK = Trips that occur during weekdays.
+SAT = Trips that occur during Saturday. 
+SUN =  Trips that occur during Sunday.
+FRI = Additional trips to weekdays that occur on Friday.
+HOL = Trips that occur during holidays.
+
+line_direction_number: Integer indicating if the route is classified as east or north-bound, 0, or west or south-bound, 1.
+
+TLGID: A number field identifying the unique road segment.
+
+EAM_COUNT: The number of trips in Early AM.
+
+AMP_COUNT: The number of trips in AM Peak.
+
+MID_COUNT: The number of trips in Midday.
+
+PMP_COUNT: The number of trips in PM Peak.
+
+EVE_COUNT: The number of trips in Evening.
+
+NIGHT_COUNT: The number of trips in Night.
+
+OWL_COUNT: The number of trips in very early morning (nicknamed Owl).
+
+TOTAL_COUNT:  The total number of trips traveled during all time periods.
+
+EAM_HDWY: Headway. The time period duration divided by the number of trips in Early AM. The minute time value indicates the amount of time between bus occurances.
+
+AMP_HDWY: Headway. The time period duration divided by the number of trips in AM Peak. The minute time value indicates the amount of time between bus occurances.
+
+MID_HDWY: Headway. The time period duration divided by the number of trips in Midday. The minute time value indicates the amount of time between bus occurances.
+
+PMP_HDWY: Headway. The time period duration divided by the number of trips in PM Peak. The minute time value indicates the amount of time between bus occurances.
+
+EVE_HDWY: Headway. The time period duration divided by the number of trips in Evening. The minute time value indicates the amount of time between bus occurances.
+
+NIGHT_HDWY: Headway. The time period duration divided by the number of trips in Night. The minute time value indicates the amount of time between bus occurances.
+
+OWL_HDWY: Headway. The time period duration divided by the number of trips in very early morning (nicknamed Owl). The minute time value indicates the amount of time between bus occurances.
+
+Time period notes:
+
+IF A TRIP DURATION CROSSES BETWEEN TWO TIME PERIODS, THEN IT IS COUNTED IN BOTH. THE TOTAL AMOUNT OF TRIPS REPRESENTS THE ACTUAL TOTAL NUMBER OF TRIPS, DO NOT SUM FREQUENCIES IN EACH TIME PERIOD.
+
+a. EAM - Early Morning = 4:30AM to 6:00AM = 90 minute duration
+b. AMP - AM Peak = 6:00AM to 9:00AM = 180 minute duration
+c. MID - Midday = 9:00AM to 3:00PM = 360 minute duration
+d. PMP - PM Peak = 3:00PM to 6:30PM = 210 minute duration
+e. EVE - Evening = 6:30PM to 9:00PM = 150 minute duration
+f. NIGHT - Night = 9:00PM to 1:30AM = 270 minute duration
+g. OWL - Owl = 1:30AM to 4:30AM = 180 minute duration
+
+</eaover>
+    </overview>
+  </eainfo>
+  <dataqual>
+    <complete>The patterns include all versions of a route, which have service information provided on Metro Transit's website.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Positional accuracy varies throughout the dataset. Most line work in most counties falls within the road right of way, often near the center. Recent realignments by the NCompass Street Centerline database have resulted in increased positional accuracy. 
+
+Text below taken from NCompass metadata: 
+
+There are differing degrees of positional accuracy throughout the file. NCompass adjusts the positional accuracy of the data to available sources known to have a greater degrees of accuracy then those used to generate the existing data. However, in all cases (including instances where COGO line work has been the reference) NCompass generalizes the street segments to at least 4 feet in order to greatly reduce the number of vertices - thus reducing unnecessary file size and allowing for faster analysis. 
+
+NCompass's goal is to have 95% of roads located to within the approximate center of digital right-of-way data or pavement centerlines provided from counties, where such digital data is available. In other areas, 95% of roads are intended to be within ten meters of the road or right-of-way center.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>This dataset was created in Giro's Hastus scheduling software and referenced the NCompass and Metro Transit street centerline dataset. See the metadata for the NCompass Street Centerline layer for source information.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <distinfo>
+    <resdesc>TransitCountHeadwaySummary</resdesc>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+    <stdorder>
+      <ordering>See Online Linkage Below</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Jon Hoekenga</cntper>
+        </cntperp>
+        <cntpos>GIS System Administrator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1561</cntvoice>
+        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20150701</metd>
+    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+    <metstdv>1.2</metstdv>
+    <metextns>
+      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+    </metextns>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Metropolitan Council</cntorg>
+          <cntper>Sean Murphy</cntper>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>390 Robert Street North</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55101-1805</postal>
+        </cntaddr>
+        <cntvoice>651.602.1371</cntvoice>
+        <cntemail>sean.murphy@metc.state.mn.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+          </utm>
+        </gridsys>
+        <planci>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>GRS80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

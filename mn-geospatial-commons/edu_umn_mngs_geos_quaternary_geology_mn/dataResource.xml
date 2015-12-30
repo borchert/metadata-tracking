@@ -1,0 +1,33 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>geos_quaternary_geology_mn</baseName>
+    <descriptiveName>S-01 Geologic Map of Minnesota, Quaternary Geology,1982</descriptiveName>
+    <publisher>Minnesota Geological Survey</publisher>
+    <publisherID>edu_umn_mngs</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{17a7e6c3-b671-4f25-8288-1c4cd0341a75}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{a7c2e80b-e833-44b8-b141-32f502a30950}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{cd1affd2-32e8-47f2-af61-db5ab1782ce3}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="" name="MGS State Map Series List">http://conservancy.umn.edu/handle/11299/59725</subResourceURL>
+                <subResourceURL type="HTML" description="" name="Download from U of MN Digital Conservancy">http://conservancy.umn.edu/handle/11299/60085</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

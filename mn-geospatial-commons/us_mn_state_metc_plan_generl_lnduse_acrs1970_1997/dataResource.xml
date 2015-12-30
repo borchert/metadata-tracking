@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>plan_generl_lnduse_acrs1970_1997</baseName>
+  <descriptiveName>Generalized Land Use Acreage Totals 1970 - 1997</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-01</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{a44b3338-da47-4e14-9580-759956ee7344}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{038c6a97-243c-4d8b-bd60-ac1ee0663860}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>bdry_wild_and_scenic_river_admin</baseName>
+    <descriptiveName>Minnesota Wild and Scenic River Districts</descriptiveName>
+    <publisher>Minnesota DNR - Division of Waters</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2006-11-10</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>501</resourceID>
+        <resourceGUID>{53b16579-1c53-4400-9163-8fb494fc413c}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{e020ec0d-9516-41d9-8d4c-9ac6a69a4f2d}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

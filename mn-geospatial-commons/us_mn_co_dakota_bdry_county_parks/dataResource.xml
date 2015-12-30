@@ -1,0 +1,28 @@
+<dataResource>
+  <baseName>bdry_county_parks</baseName>
+  <descriptiveName>County Parks, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate>2015-09-10</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">boundaries</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{149e22ff-3a53-4d99-9aa4-2c809b1d6659}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{c693c9d7-ca28-4cae-bf93-7aea96ddb650}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>kmz</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{74541244-8b77-43a3-9f4e-9c514df2cd87}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

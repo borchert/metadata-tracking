@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>elev_elevation_invergroveheights</baseName>
+  <descriptiveName>1-Foot Contours, Inver Grove Heights, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate>2015-08-13</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">elevation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{0c0f4d11-0f80-4257-8e65-d906b0fd3deb}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{be5e99db-deef-4364-b155-85f5823ce437}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>geos_special_well_const_areas</baseName>
+  <descriptiveName>Special Well Construction Areas</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-05</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{6b448396-957b-4647-86e9-5d96dc2ed317}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{7c6debe7-c652-47a5-9184-5010a35524d2}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

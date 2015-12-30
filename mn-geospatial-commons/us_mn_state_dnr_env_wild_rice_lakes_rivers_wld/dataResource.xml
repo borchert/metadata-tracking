@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_wild_rice_lakes_rivers_wld</baseName>
+    <descriptiveName>Wild Rice Locations on Lakes and Rivers Identified by DNR Wildlife</descriptiveName>
+    <publisher>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2013-06-27</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1519</resourceID>
+        <resourceGUID>{29fb70bf-d1f3-4eb3-8682-dda6381bff99}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>env_wild_rice_lakes_rivers_wld</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{ae2e5d48-a1db-4557-b7b9-15945fb2b378}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

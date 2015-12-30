@@ -177,6 +177,7 @@ def main(url, prefix, output_path, template):
 
         #TODO make more dynamic, eg clone CI_OnlineResource for each distribution option
         distribution_list = dataset["distribution"]
+
         for dist_index, dist in enumerate(distribution_list):
             if dist["format"] == "ZIP":
                 elements["onlink"][0].text = dist["downloadURL"]
@@ -187,6 +188,7 @@ def main(url, prefix, output_path, template):
             elif dist["format"] == "Web page":
                 elements["onlink"][2].text = dist["accessURL"]
                 elements["formdesc"][2].text = "Information"
+
 
         elements["datatype"][0].set("codeListValue", parse_datatype(dataset_detail))
         elements["id"][0].text = dataset["identifier"]
@@ -224,16 +226,16 @@ def main(url, prefix, output_path, template):
             if len(topic_categories) == 1:
                 elements["topic_categories"][0].find("gmd:MD_TopicCategoryCode", NSMAP).text = topic_categories[0]
             else:
-                for topic in topic_categories:
+                for ind, topic in enumerate(topic_categories):
                     parent = elements["topic_categories"][0].getparent()
-                    index = parent.index(elements["topic_categories"][0])
-                    copy = deepcopy(elements["topic_categories"][0])
-                    copy.find("gmd:MD_TopicCategoryCode", NSMAP).text = topic
-                    parent.insert(index, copy)
-                all_topic_codes = parent.findall("gmd:topicCategory/gmd:MD_TopicCategoryCode",NSMAP)
-                for i in all_topic_codes:
-                    if i.text is None:
-                        parent.remove(i.getparent())
+
+                    if ind != len(topic_categories) - 1:
+                        index = parent.index(elements["topic_categories"][0])
+                        copy = deepcopy(elements["topic_categories"][0])
+                        copy.find("gmd:MD_TopicCategoryCode", NSMAP).text = topic
+                        parent.insert(index, copy)
+                    else:
+                        parent.findall("gmd:topicCategory/gmd:MD_TopicCategoryCode", NSMAP)[-1].text = topic
 
         timestamp = datetime.datetime.now().isoformat()
         elements["metadata_source"][0].text = elements["metadata_source"][0].text.format(url=dataset["identifier"],
@@ -245,7 +247,8 @@ def main(url, prefix, output_path, template):
               title="".join(RE.findall(dataset["title"])).replace("__","_"),
               id=dataset["identifier"].split("/")[-1])
 
-        #print os.path.join(output_path, new_xml_filename + ".xml")
+        #import pdb; pdb.set_trace()
+        print os.path.join(output_path, new_xml_filename + ".xml")
         tree.write(os.path.join(output_path, new_xml_filename + ".xml"), pretty_print=True)
 
 

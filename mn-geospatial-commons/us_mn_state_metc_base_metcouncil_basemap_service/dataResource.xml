@@ -1,0 +1,25 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+  <baseName>base_metcouncil_basemap_service</baseName>
+  <descriptiveName>Metropolitan Council Basemap</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate/>
+  <topicCategories>
+    <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{0a2afa23-eb9f-40db-912e-20c233100095}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceName>0</subResourceName>
+      <subResourceIdentifiers>
+        <subResourceGUID>{0d1557d2-abeb-45ee-8c90-a315305a7089}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" description="" name="">http://gis2.metc.state.mn.us/arcgis/rest/services/BaseLayer/UTMBaseMap/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

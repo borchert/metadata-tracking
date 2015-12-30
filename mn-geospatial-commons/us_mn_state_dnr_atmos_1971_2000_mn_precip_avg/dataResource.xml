@@ -1,0 +1,34 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>atmos_1971_2000_mn_precip_avg</baseName>
+    <descriptiveName>MN Normal Annual Precipitation Average 1971-2000</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2002-11-01</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">climatologyMeteorologyAtmosphere</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>480</resourceID>
+        <resourceGUID>{8d7c2885-b846-488c-a073-e56990d49972}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{1b739626-5f52-4197-8a51-da7a2f1bab4f}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>preview</subResourceType>
+            <subResourceDescription>Two previews, one GeoJSON and one JPEG for viewing data.</subResourceDescription>
+            <subResourceIdentifiers>
+                <subResourceGUID>{7fbffba0-7e77-4c31-b6b8-7e570de8b4f4}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="jpeg preview" description="This snapshot preview in JPEG image format shows the entire extent and allows you to see the data as it might be used in your desktop GIS." name="">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/atmos_1971_2000_mn_precip_avg/preview/preview.jpg</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

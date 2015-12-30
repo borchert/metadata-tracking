@@ -1,0 +1,25 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>bdry_watershed_mgmt_dist_orgs</baseName>
+    <descriptiveName>Watershed Management Districts and Organizations</descriptiveName>
+    <publisherID>us_mn_state_bwsr</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+        <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{18737f7e-a3b8-4d68-8383-479073fd0ec4}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>bdry_watershed_mgmt_dist_orgs</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{22684980-0636-43e4-9335-89826ab998c5}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

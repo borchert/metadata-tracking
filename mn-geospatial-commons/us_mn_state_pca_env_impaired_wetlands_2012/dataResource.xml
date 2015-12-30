@@ -1,0 +1,36 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>env_impaired_wetlands_2012</baseName>
+    <descriptiveName>Minnesota 2012 Impaired Wetlands</descriptiveName>
+    <publisher>Minnesota Pollution Control Agency</publisher>
+    <publisherID>us_mn_state_pca</publisherID>
+    <currentAsofDate>2013-09-04</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{417e98f1-5bc2-42b1-ae64-b8b2335377e9}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>env_impaired_wetlands_2012</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{3bc45902-b739-4fd0-b5f8-e9be9d67c403}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>preview</subResourceType>
+            <subResourceName>Impaired Wetlands 2012 Preview</subResourceName>
+            <subResourceDescription>A JPEG for viewing the data.</subResourceDescription>
+            <subResourceIdentifiers>
+                <subResourceGUID>{7b4b081b-01a4-4549-a2a5-409872cb942b}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="jpeg preview" description="This snapshot preview in jpeg format allows you to see the data as it might be used in your GIS. Previews are generated periodically, and may not show recently added features.">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_pca/env_impaired_wetlands_2012/preview/preview.jpg</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

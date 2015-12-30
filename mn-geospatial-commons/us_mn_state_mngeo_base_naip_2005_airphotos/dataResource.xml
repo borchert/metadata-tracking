@@ -1,0 +1,23 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>base_naip_2005_airphotos</baseName>
+    <descriptiveName>National Agricultural Imagery Program (NAIP), Minnesota, 2005, Geo-rectified Images </descriptiveName>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{ea59035e-a7b0-490c-9bdb-032986697fe5}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{3503c9f0-0f7b-4ce3-a7d6-199f053e1dc2}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Download from NRCS Geospatial Data Gateway" name="">http://datagateway.nrcs.usda.gov</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

@@ -1,0 +1,27 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>biota_mcbs_railroad_prairies</baseName>
+    <descriptiveName>MCBS Railroad Rights-of-Way Prairies</descriptiveName>
+    <publisher>The Minnesota County Biological Survey, Minnesota Department of Natural Resources, Division of Ecological Services</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2013-02-28</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">biota</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>67</resourceID>
+        <resourceGUID>{388eff40-c72b-4d42-a347-f1019ccd7327}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>biota_mcbs_railroad_prairies</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{5dd80706-895b-4e79-9e2a-58d167cfc86c}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

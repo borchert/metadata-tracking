@@ -1,0 +1,34 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>geos_bedrock_geology_mn</baseName>
+    <descriptiveName>S-21 Geologic Map of Minnesota - Bedrock Geology (2011)</descriptiveName>
+    <publisher>Minnesota Geological Survey</publisher>
+    <publisherID>edu_umn_mngs</publisherID>
+    <currentAsofDate>2000-01-01</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{ba0e5957-bf90-4dcd-a637-a3923af5a076}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{82781d1c-c21d-40b2-bacb-56296991e7a8}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{7ae585ef-cb61-4ec9-a442-b118b924b770}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="" name="MGS State Map Series List">http://conservancy.umn.edu/handle/11299/59725</subResourceURL>
+                <subResourceURL type="HTML" description="" name="Download from U of MN Digital Conservancy">http://conservancy.umn.edu/handle/11299/101466</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

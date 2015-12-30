@@ -1,0 +1,25 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>util_ethanol_plant_locations</baseName>
+    <descriptiveName>Ethanol Plants</descriptiveName>
+    <publisherID>us_mn_state_mda</publisherID>
+    <currentAsofDate>2012-06-14</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">utilitiesCommunication</topicCategory>
+		<topicCategory type="ISO 19115">structure</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{9969b6a3-4397-4a1c-bfbe-428d0d28d310}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>util_ethanol_plant_locations</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{6e0b2f64-9e5b-4111-9ed5-cee8726a3566}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

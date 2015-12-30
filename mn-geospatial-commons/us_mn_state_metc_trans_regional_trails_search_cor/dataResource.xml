@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>trans_regional_trails_search_cor</baseName>
+  <descriptiveName>Regional Trail Search Cooridors</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-10-05</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{c347fc1b-6a4d-4922-8ab6-75f8d77e24f2}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{a0fb04ff-d56f-4b4a-8940-d73d89cf23f2}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

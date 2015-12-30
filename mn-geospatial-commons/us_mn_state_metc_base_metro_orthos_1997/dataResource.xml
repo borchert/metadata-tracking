@@ -1,0 +1,23 @@
+<dataResource>
+  <baseName>base_metro_orthos_1997</baseName>
+  <descriptiveName>Metro Orthophotos 1997</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-10-14</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{3e27eab1-a04d-46d2-8ead-ca9efcad8e70}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>wms</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{01f8f80e-7620-479f-91a9-5e155d81a902}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="" description="">http://geoint.lmic.state.mn.us/cgi-bin/wms?request=GetCapabilities&amp;service=WMS</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

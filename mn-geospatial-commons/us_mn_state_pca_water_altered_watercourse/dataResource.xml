@@ -1,0 +1,45 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>water_altered_watercourse</baseName>
+    <descriptiveName>Altered Watercourse in Minnesota</descriptiveName>
+    <publisher>Minnesota Pollution Control Agency</publisher>
+    <publisherID>us_mn_state_pca</publisherID>
+    <currentAsofDate>2013-09-26</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">inlandWaters</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{a8fd2628-9ab4-4f58-a6c6-090a25472961}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceName>water_altered_watercourse</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{b415e68b-3dca-4a89-9729-de20b2bb5e41}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>shp</subResourceType>
+            <subResourceName>water_altered_watercourse</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{f39bc089-957c-49c7-89f2-f1e09c3185ef}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>preview</subResourceType>
+            <subResourceName>Altered Watercourse Preview</subResourceName>
+            <subResourceDescription>A JPEG for viewing the data.</subResourceDescription>
+            <subResourceIdentifiers>
+                <subResourceGUID>{cc7bb517-b61a-4f43-a856-5c8c2de1340a}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="jpeg preview" description="This snapshot preview in jpeg format allows you to see the data as it might be used in your GIS. Previews are generated periodically, and may not show recently added features.">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_pca/water_altered_watercourse/preview/preview.jpg</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>env_frmwrk2030nat_resourc_ar</baseName>
+  <descriptiveName>2030 Framework Regional Natural Resource Areas</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-03</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">environment</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{60376c6f-d573-4feb-9346-a40b0fd96342}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{64057e6b-cc81-46c0-ac49-ad4127c73a5f}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

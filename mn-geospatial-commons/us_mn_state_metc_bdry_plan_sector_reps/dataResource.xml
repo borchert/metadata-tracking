@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>bdry_plan_sector_reps</baseName>
+  <descriptiveName>Metropolitan Council Planning Sector Representatives</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-09</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">boundaries</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{c944f009-b453-4b05-a8bd-8edd0a733ca3}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{d576ef9b-b18f-4ce7-a1f5-ece77a1537d1}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

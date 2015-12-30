@@ -1,0 +1,26 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>biota_original_pls_vegetation</baseName>
+    <descriptiveName>PLS Corners with Presettlement Vegetation Information</descriptiveName>
+    <publisher>Minnesota DNR - Management Resources GIS</publisher>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>1998-03-20</currentAsofDate>
+    <resourceType>ESRI File Geodatabase</resourceType>
+    <topicCategories>
+        <topicCategory type="ISO 19115">biota</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>1672</resourceID>
+        <resourceGUID>{936fc22f-d4ae-4eb8-8e4f-5a8f95119fa6}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{f459c739-b3d6-47e8-8499-962d6a3a0d86}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

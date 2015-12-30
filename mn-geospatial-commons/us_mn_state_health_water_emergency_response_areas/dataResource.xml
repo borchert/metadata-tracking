@@ -1,0 +1,23 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+	<baseName>water_emergency_response_areas</baseName>
+	<descriptiveName>Emergency Response Areas</descriptiveName>
+	<publisherID>us_mn_state_health</publisherID>
+	<currentAsofDate/>
+	<topicCategories>
+		<topicCategory type="ISO 19115">inlandWaters</topicCategory>
+		<topicCategory type="ISO 19115">environment</topicCategory>
+		<topicCategory type="ISO 19115">health</topicCategory>
+	</topicCategories>
+	<resourceIdentifiers>
+		<resourceGUID>{da076412-9bf1-4087-b669-5e06a16fd66d}</resourceGUID>
+	</resourceIdentifiers>
+	<dataSubResources>
+		<dataSubResource>
+			<subResourceType>fgdb</subResourceType>
+			<subResourceIdentifiers>
+				<subResourceGUID>{bb355f15-ad2c-4ee2-af6a-fc1f6fd28f64}</subResourceGUID>
+			</subResourceIdentifiers>
+		</dataSubResource>
+	</dataSubResources>
+</dataResource>

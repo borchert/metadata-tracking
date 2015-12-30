@@ -1,0 +1,35 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>geos_geologic_atlas_mowe_c11a</baseName>
+    <descriptiveName>Geologic Atlas of Mower County, Minnesota (Part A)</descriptiveName>
+    <publisherID>edu_umn_mngs</publisherID>
+    <currentAsofDate>2015-07-23</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{aff68a2f-1626-4048-941c-c41454d9744f}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceName>MGS County Geologic Atlas Program (Part A)</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{a23d8204-b568-4e88-8049-39777a4fc484}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="">http://www.mngs.umn.edu/county_atlas/countyatlas.htm</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceName>Download from U of MN Digital Conservancy</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{0da381f0-6102-46e6-b805-b7a6f9831c29}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="">http://conservancy.umn.edu/handle/11299/58549</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

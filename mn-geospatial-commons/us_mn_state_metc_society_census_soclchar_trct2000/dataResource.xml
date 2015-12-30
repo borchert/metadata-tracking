@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>society_census_soclchar_trct2000</baseName>
+  <descriptiveName>Profile of Selected Social Characteristics, Census Tracts: 2000</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-02</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">society</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{cc613178-61f6-4954-a9de-93b3fca30fdf}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{697ed22d-7abd-402e-8635-cd4509cfca4f}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

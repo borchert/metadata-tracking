@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>trans_better_bus_stops</baseName>
+  <descriptiveName>Better Bus Stops</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-11-13</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{7cf13bfc-279c-4701-a8bb-5d0d68fe71af}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{5a1c5bfc-ed1e-4c79-b7bd-bf7e640a8612}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

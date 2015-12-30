@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>society_manufacturing_dist_cntrs</baseName>
+  <descriptiveName>Manufacturing and Distribution Centers</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-08-20</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">society</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{2bd4c161-8e37-4157-8d6d-c7ae6bb92e1e}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{1cf7ac81-0b9b-4935-819f-725b599d3e25}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

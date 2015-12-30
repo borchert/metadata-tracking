@@ -1,0 +1,34 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>base_carver_2013_airphotos</baseName>
+    <descriptiveName>High Resolution Orthoimagery, Carver County, MN, 2013</descriptiveName>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <currentAsofDate>2013-05-16</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{252e8a75-08aa-4411-b631-b45dc6d2192e}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>wms</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{6af77646-d14c-4099-a06d-a76343bb3d20}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="ServiceGetCapabilities" description="Access via Minnesota Geospatial Image Service " name="">http://geoint.lmic.state.mn.us/cgi-bin/wms?VERSION=1.3.0&amp;SERVICE=WMS&amp;REQUEST=GetCapabilities</subResourceURL>
+                <subResourceURL type="ServiceSampleURL" description="" name="">http://geoint.lmic.state.mn.us/cgi-bin/wms?LAYERS=carv13&amp;FORMAT=image%2Fjpeg&amp;TRANSPARENT=TRUE&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;STYLES=&amp;SRS=EPSG%3A26915&amp;BBOX=439182,4964759,441769,4967212&amp;WIDTH=256&amp;HEIGHT=256</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{735b763e-b4a6-4dde-8b1b-547341a448d9}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Minnesota Geospatial Image Service Home Page" name="Minnesota Geospatial Image Service Home Page">http://www.mngeo.state.mn.us/chouse/wms/geo_image_server.html</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

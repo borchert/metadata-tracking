@@ -1,0 +1,25 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>loc_geodetic</baseName>
+    <descriptiveName>Geodetic Database</descriptiveName>
+    <publisher>Minnesota Department of Transportation</publisher>
+    <publisherID>us_mn_state_dot</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">location</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID/>
+        <resourceGUID>{d5e42789-fd32-46cf-b9ae-feb3136828b4}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{4050a3a9-e399-487a-9427-ca5af90282f4}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="Access to Geodetic Data and Maps" name="MnDOT Geodetics Home Page">http://www.dot.state.mn.us/surveying/geodetics/index.html</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

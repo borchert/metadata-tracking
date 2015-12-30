@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>plan_frmwrk2030dev_plan_ar</baseName>
+  <descriptiveName>2030 Regional Development Framework Planning Areas</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2015-09-30</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{3e4db5d7-44e2-4028-9094-8c744dea8086}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{9c92922b-0ac8-4796-bd19-8a20bcf5e61b}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

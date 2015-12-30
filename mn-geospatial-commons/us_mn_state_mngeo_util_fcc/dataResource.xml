@@ -1,0 +1,35 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>util_fcc</baseName>
+    <descriptiveName>Federal Communications Commission (FCC) Geospatial Data</descriptiveName>
+    <publisher>Minnesota Geospatial Information Office (MnGeo)</publisher>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <topicCategories>
+        <topicCategory type="ISO 19115">utilitiesCommunication</topicCategory>
+        <topicCategory type="ISO 19115">structure</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID/>
+        <resourceGUID>{0430b9fa-49dc-4c1b-9d35-2bf4657ce4dc}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{31c8fe11-1313-4e48-a5cd-2fa24e138788}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="FCC Dataset Download Page" name="FCC Dataset Download Page">http://www.fcc.gov/data/download-fcc-datasets</subResourceURL>
+                <subResourceURL type="HTML" description="FCC Universal Licensing System Database Downloads" name="FCC Universal Licensing System Database Downloads">http://wireless.fcc.gov/antenna/index.htm?job=uls_transaction</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{d7ceea9e-c23d-4c1c-958a-7ada49197599}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

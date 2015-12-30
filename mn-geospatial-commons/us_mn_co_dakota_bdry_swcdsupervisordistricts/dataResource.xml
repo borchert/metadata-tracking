@@ -1,0 +1,21 @@
+<dataResource>
+  <baseName>bdry_swcdsupervisordistricts</baseName>
+  <descriptiveName>SWCD Supervisor Districts, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate>2014-05-14</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">boundaries</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{f25d6662-c7a0-4834-b68e-ab7c0f95dde4}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{45ff4632-c569-4c00-a55a-34636c3c5f26}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess/>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

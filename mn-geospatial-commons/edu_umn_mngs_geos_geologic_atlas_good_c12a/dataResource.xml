@@ -1,0 +1,35 @@
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+    <baseName>geos_geologic_atlas_good_c12a</baseName>
+    <descriptiveName>Geologic Atlas of Goodhue County, Minnesota (Part A)</descriptiveName>
+    <publisherID>edu_umn_mngs</publisherID>
+    <currentAsofDate>2015-07-23</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{cc12609c-e329-4f85-8859-d5d6d25aebd6}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceName>MGS County Geologic Atlas Program (Part A)</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{d9a1c6b6-c766-43a6-a089-49785d76c0c2}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="">http://www.mngs.umn.edu/county_atlas/countyatlas.htm</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceName>Download from U of MN Digital Conservancy</subResourceName>
+            <subResourceIdentifiers>
+                <subResourceGUID>{4492b77f-b17a-4b7a-b2fc-395267758bad}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="">http://conservancy.umn.edu/handle/11299/58551</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>
