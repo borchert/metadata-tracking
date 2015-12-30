@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>env_impaired_lakes_2012</baseName>
     <descriptiveName>Minnesota 2012 Impaired Lakes</descriptiveName>

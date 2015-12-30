@@ -1,9 +1,10 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>biota_dnr_native_plant_comm</baseName>
     <descriptiveName>Minnesota DNR Native Plant Communities</descriptiveName>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-11-19</currentAsofDate>
+    <currentAsofDate>2015-12-29</currentAsofDate>
     <topicCategories>
         <topicCategory type="ISO 19115">biota</topicCategory>
         <topicCategory type="ISO 19115">environment</topicCategory>

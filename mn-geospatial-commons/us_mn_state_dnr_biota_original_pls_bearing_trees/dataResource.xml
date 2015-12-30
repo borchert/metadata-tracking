@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>biota_original_pls_bearing_trees</baseName>
     <descriptiveName>Original PLS Bearing Trees</descriptiveName>

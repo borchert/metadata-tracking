@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>econ_fare_retailer</baseName>
   <descriptiveName>Metro Transit Fare Retailer Locations</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{b87d6205-ee1f-4052-804a-bf00ff24e741}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

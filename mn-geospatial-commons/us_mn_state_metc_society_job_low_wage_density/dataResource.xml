@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>society_job_low_wage_density</baseName>
   <descriptiveName>Job Density - Low Wage Jobs (Less than $40,000)</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{7a3061af-918e-46f2-a197-52e69a2b33c8}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

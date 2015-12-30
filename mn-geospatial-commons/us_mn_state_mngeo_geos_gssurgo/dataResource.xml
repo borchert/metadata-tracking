@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>geos_gssurgo</baseName>
     <descriptiveName>Gridded Soil Survey Geographic Database(gSSURGO), Minnesota</descriptiveName>
@@ -8,7 +9,7 @@
         <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
     </topicCategories>
     <resourceIdentifiers>
-        <resourceID/>
+        <resourceID></resourceID>
         <resourceGUID>{91bf49b2-31bf-4573-8a1c-a49fe4d2b14c}</resourceGUID>
     </resourceIdentifiers>
     <dataSubResources>
@@ -24,7 +25,7 @@
 		<dataSubResource>
             <subResourceType>external</subResourceType>
             <subResourceIdentifiers>
-                <subResourceGUID/>
+                <subResourceGUID></subResourceGUID>
             </subResourceIdentifiers>
             <subResourceAccess>
                 <subResourceURL type="HTML" description="" name="NRCS Geospatial Data Gateway - Download">https://gdg.sc.egov.usda.gov/</subResourceURL>

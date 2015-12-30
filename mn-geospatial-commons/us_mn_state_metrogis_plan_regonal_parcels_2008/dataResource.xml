@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>plan_regonal_parcels_2008</baseName>
   <descriptiveName>MetroGIS Regional Parcel Dataset - 2008</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{423b96f1-ab1d-4694-a8fe-551b11318a64}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

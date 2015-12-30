@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>society_census_houschar_muni2000</baseName>
   <descriptiveName>Profile of Selected Housing Characteristics, MN Municipalities: 2000</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{acbbd779-39f8-4f72-be3a-b9fc5a34bc14}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

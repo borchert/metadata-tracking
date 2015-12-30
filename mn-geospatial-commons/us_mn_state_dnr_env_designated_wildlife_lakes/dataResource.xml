@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>env_designated_wildlife_lakes</baseName>
     <descriptiveName>Designated Wildlife Lakes</descriptiveName>

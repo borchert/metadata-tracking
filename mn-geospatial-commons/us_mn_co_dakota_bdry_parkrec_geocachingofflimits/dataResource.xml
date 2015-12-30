@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>bdry_parkrec_geocachingofflimits</baseName>
   <descriptiveName>Parks Geocaching Off-Limits Areas, Dakota County, Minnesota</descriptiveName>
@@ -15,14 +16,14 @@
       <subResourceIdentifiers>
         <subResourceGUID>{c893523a-ddb7-4687-90d4-5742dcea960f}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
     <dataSubResource>
       <subResourceType>kmz</subResourceType>
       <subResourceIdentifiers>
         <subResourceGUID>{ed4bb7a2-dcb1-4ec8-adb2-3837441aeb70}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

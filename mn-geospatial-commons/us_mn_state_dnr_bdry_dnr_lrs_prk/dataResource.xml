@@ -1,9 +1,10 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_dnr_lrs_prk</baseName>
     <descriptiveName>DNR Parks Managed Areas</descriptiveName>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-11-13</currentAsofDate>
+    <currentAsofDate>2015-12-25</currentAsofDate>
     <topicCategories>
         <topicCategory type="ISO 19115">boundaries</topicCategory>
         <topicCategory type="ISO 19115">environment</topicCategory>

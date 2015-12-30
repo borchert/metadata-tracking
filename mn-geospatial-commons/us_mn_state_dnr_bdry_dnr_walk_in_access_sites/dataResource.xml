@@ -1,10 +1,11 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_dnr_walk_in_access_sites</baseName>
     <descriptiveName>Minnesota DNR Walk-In Access Sites</descriptiveName>
     <publisher>Minnesota DNR</publisher>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-10-15</currentAsofDate>
+    <currentAsofDate>2015-11-23</currentAsofDate>
     <resourceType>ESRI File Geodatabase</resourceType>
     <topicCategories>
         <topicCategory type="ISO 19115">boundaries</topicCategory>

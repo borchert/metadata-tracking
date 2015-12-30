@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>env_lakes_phosphorus_sensitivity</baseName>
     <descriptiveName>DNR Hydrography - Lakes of Phosphorus Sensitivity Significance</descriptiveName>

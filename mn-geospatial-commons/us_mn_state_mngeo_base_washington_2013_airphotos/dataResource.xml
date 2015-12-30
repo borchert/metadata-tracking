@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>base_washington_2013_airphotos</baseName>
     <descriptiveName>High Resolution Orthoimagery, Washington County, MN, Spring 2013</descriptiveName>

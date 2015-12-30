@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>base_2009_wsr_oblique_cir_index</baseName>
     <descriptiveName>2009 Wild and Scenic River Aerial Oblique CIR Photo Index</descriptiveName>

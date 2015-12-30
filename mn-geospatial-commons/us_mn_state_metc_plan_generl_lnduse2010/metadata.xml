@@ -1,19 +1,4 @@
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>Metropolitan Council</origin>
-        <pubdate>20110720</pubdate>
-        <title>Generalized Land Use 2010</title>
-        <mgmg1cid>N/A</mgmg1cid>
-        <pubinfo>
-          <publish>Metropolitan Council</publish>
-        </pubinfo>
-        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-plan-generl-lnduse2010</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>The 2010 Generalized Land Use Inventory dataset encompasses the seven county Twin Cities (Minneapolis and St. Paul) Metropolitan Area in Minnesota.  The dataset was developed by the Metropolitan Council, a regional governmental organization that deals, in part, with regional issues and long range planning for the Twin Cities area.  The data were interpreted from 2010 air photos, with additional assistance from county parcel data and assessor's information, Internet information, field checks , and community review.
+<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>Metropolitan Council</origin><pubdate>20110720</pubdate><title>Generalized Land Use 2010</title><mgmg1cid>N/A</mgmg1cid><pubinfo><publish>Metropolitan Council</publish></pubinfo><onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-plan-generl-lnduse2010</onlink></citeinfo></citation><descript><abstract>The 2010 Generalized Land Use Inventory dataset encompasses the seven county Twin Cities (Minneapolis and St. Paul) Metropolitan Area in Minnesota.  The dataset was developed by the Metropolitan Council, a regional governmental organization that deals, in part, with regional issues and long range planning for the Twin Cities area.  The data were interpreted from 2010 air photos, with additional assistance from county parcel data and assessor's information, Internet information, field checks , and community review.
 
 The following generalized land use classes are used (some of which have subclasses):   
 
@@ -38,74 +23,7 @@ See Section 5 of the metadata for a detailed description of each of these land u
 
 Note:  Although this dataset does contain an 'Undeveloped' land category, this dataset does not attempt to delineate what lands might be considered developable. The definition of that category can be found in Section 5 of this metadata.
 
-More information about the Metropolitan Council's generalized land use data can be found here &lt;a href="landuse_notes.pdf" target=_blank&gt;Landuse Notes&lt;/a&gt;</abstract>
-      <purpose>To aid in forecasting region-wide land supply and demand and to be used as a general regional planning tool.  This data does not indicate developability of land, but does show the location of 'Undeveloped' land based on the definition described in Section 5 of this metadata.</purpose>
-      <supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
-    </descript>
-    <timeperd>
-      <timeinfo>
-        <sngdate>
-          <caldate>20100420</caldate>
-        </sngdate>
-      </timeinfo>
-      <current>The dates of the original aerial photography were April 2010.   County parcel and assessors data was from varying dates in the spring of 2010 with the exception of Washington County where the date was July 2010.</current>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>Approximately every 5 years.</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-94.012</westbc>
-        <eastbc>-92.732</eastbc>
-        <northbc>45.415</northbc>
-        <southbc>44.471</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <theme>
-        <themekt>None</themekt>
-        <themekey>Land Use, planning and development, Land Type, Single Family Residential, Multifamily Residential, Office, Retail and Other Commercial, Mixed Use, Industrial and Utility, Extractive, Institutional, Park, Recreational, or Preserve, Golf Course, Major Highway, Railway, Airport, Agriculture, Undeveloped, Water</themekey>
-      </theme>
-      <place>
-        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
-      </place>
-    </keywords>
-    <accconst>None</accconst>
-    <useconst>None</useconst>
-    <browse>
-      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/plan_generl_lnduse2010/metadata/preview.jpg</browsen>
-      <browsed>Sample map showing the Generalized Land Use, 2010 layer.</browsed>
-    </browse>
-    <native>ArcGIS Version 10x</native>
-    <crossref>
-      <citeinfo>
-        <title>Historical Generalized Land Use (1984, 1990, 1997, 2000, 2005 and 2010 combined); 2010 Digital Orthophotos</title>
-      </citeinfo>
-    </crossref>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Paul E. Hanson</cntper>
-        </cntperp>
-        <cntpos>GIS Specialist</cntpos>
-        <cntaddr>
-          <addrtype> mailing and physical address </addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>Minnesota</state>
-          <postal>55101-1634</postal>
-        </cntaddr>
-        <cntvoice>651.602.1642</cntvoice>
-        <cntfax>651.602.1674</cntfax>
-        <cntemail>paul.hanson@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <attracc>
-      <attraccr>During the land use interpretation, digital orthophotos and county parcel data with assessor's land use/type attributes were used.  Internet information, field checks and community review comments were used to augment the interpretation.  
+More information about the Metropolitan Council's generalized land use data can be found here &lt;a href="landuse_notes.pdf" target=_blank&gt;Landuse Notes&lt;/a&gt;</abstract><purpose>To aid in forecasting region-wide land supply and demand and to be used as a general regional planning tool.  This data does not indicate developability of land, but does show the location of 'Undeveloped' land based on the definition described in Section 5 of this metadata.</purpose><supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>20100420</caldate></sngdate></timeinfo><current>The dates of the original aerial photography were April 2010.   County parcel and assessors data was from varying dates in the spring of 2010 with the exception of Washington County where the date was July 2010.</current></timeperd><status><progress>Complete</progress><update>Approximately every 5 years.</update></status><spdom><bounding><westbc>-94.012</westbc><eastbc>-92.732</eastbc><northbc>45.415</northbc><southbc>44.471</southbc></bounding></spdom><keywords><theme><themekt>None</themekt><themekey>Land Use, planning and development, Land Type, Single Family Residential, Multifamily Residential, Office, Retail and Other Commercial, Mixed Use, Industrial and Utility, Extractive, Institutional, Park, Recreational, or Preserve, Golf Course, Major Highway, Railway, Airport, Agriculture, Undeveloped, Water</themekey></theme><place><placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey></place></keywords><accconst>None</accconst><useconst>None</useconst><browse><browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/plan_generl_lnduse2010/metadata/preview.jpg</browsen><browsed>Sample map showing the Generalized Land Use, 2010 layer.</browsed></browse><native>ArcGIS Version 10x</native><crossref><citeinfo><title>Historical Generalized Land Use (1984, 1990, 1997, 2000, 2005 and 2010 combined); 2010 Digital Orthophotos</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Paul E. Hanson</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype> mailing and physical address </addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>Minnesota</state><postal>55101-1634</postal></cntaddr><cntvoice>651.602.1642</cntvoice><cntfax>651.602.1674</cntfax><cntemail>paul.hanson@metc.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>During the land use interpretation, digital orthophotos and county parcel data with assessor's land use/type attributes were used.  Internet information, field checks and community review comments were used to augment the interpretation.  
 
 Known deficiencies in the dataset include:
 
@@ -113,13 +31,7 @@ Known deficiencies in the dataset include:
 - The only delineated railroads are those with at least 2 tracks side-by-side and they are classified as 'Railway'.  All single track railroads are incorporated into the adjacent land use category.  
 - The interpretation of the 'Institutional' and 'Park, Recreational or Preserve' classes can be fuzzy.  For example, ball fields adjacent to a school are classed as Institutional if owned by the school district, while ball fields adjacent to a school that are not owned by the school district are classified as 'Park, Recreational or Preserve'.
 - Some Horticultural specialty land uses (the growing of nursery stock, flowers, seeds, sod, and food crops grown indoors) may be included in 'Industrial' category where they could be delineated (e.g. large greenhouses that do not sell to the public).  However, most of these facilities that are out of doors are included in the 'Agricultural' class.
-- The interpretation of a discernable shoreline for a body of open water or flowing waterway may vary.  In many cases, the shoreline was taken to the treeline.</attraccr>
-    </attracc>
-    <logic>The dataset is topologically 'clean'.</logic>
-    <complete>Entire seven county geographic area is covered.  Incompleteness in attribute information is discussed under 'Attribute Accuracy' above.</complete>
-    <posacc>
-      <horizpa>
-        <horizpar>Estimating the horizontal positional accuracy of this layer is somewhat complicated, because a number of factors must be considered.  For this reason, a description of some of these factors seems instructive.
+- The interpretation of a discernable shoreline for a body of open water or flowing waterway may vary.  In many cases, the shoreline was taken to the treeline.</attraccr></attracc><logic>The dataset is topologically 'clean'.</logic><complete>Entire seven county geographic area is covered.  Incompleteness in attribute information is discussed under 'Attribute Accuracy' above.</complete><posacc><horizpa><horizpar>Estimating the horizontal positional accuracy of this layer is somewhat complicated, because a number of factors must be considered.  For this reason, a description of some of these factors seems instructive.
 
 Many of the boundaries defining land uses in urban areas were drawn along parcel lines based on parcel data from the metro counties.  Metro county parcel datasets vary greatly in positional accuracy as well as in the documentation of that accuracy.  Furthermore, positional accuracy may vary for different features within the same parcel dataset.  An additional factor is the degree to which Metropolitan Council staff matched the parcel boundaries in heads-up digitizing within ArcGIS.  The scale at which lines were digitized varied as staff zoomed in and out while heads-up digitizing within ArcGIS, however most lines were digitized at an on-screen scale of no higher than 1:3000.  In highly urbanized areas, 1:1500 was more common.
 
@@ -127,15 +39,7 @@ In rural areas, parcel boundaries were often not used.  Rural residential land u
 
 A variety of other factors play a role in the positional accuracy of this layer.  The information in the Entity and Attribute Detailed Citation (Section 5 of the metadata) may shed light on some positional issues with respect to this dataset.
 
-As a general rule when developing this dataset it was the Metropolitan Council's intention to meet the National Mapping Accuracy Standards at 1:24,000 (within approximately 40 feet of actual location).  No testing has been conducted to verify this.</horizpar>
-      </horizpa>
-    </posacc>
-    <lineage>
-      <srcinfo>
-        <srcscale/>
-      </srcinfo>
-      <procstep>
-        <procdesc>DATA SOURCES:
+As a general rule when developing this dataset it was the Metropolitan Council's intention to meet the National Mapping Accuracy Standards at 1:24,000 (within approximately 40 feet of actual location).  No testing has been conducted to verify this.</horizpar></horizpa></posacc><lineage><srcinfo><srcscale></srcscale></srcinfo><procstep><procdesc>DATA SOURCES:
 -  2010 State of Minnesota Digital Orthophoto quarter quads (0.6 meter resolution)
 -  2000 land use delineations
 -  parcel data from all seven counties
@@ -159,21 +63,14 @@ The original categories used for land use breakdowns were established in 1962 an
 
 The interpretation was conducted on 7.5 minute quadrangles (USGS quads).  The editing was done using ArcInfo 9.3 desktop software.  Once completed, the geodatabase tiles were merged and topology was conducted on the metro wide data where small sliver polygons were removed and other miscellaneous editing was done.
 
-More information about the Metropolitan Council's generalized land use inventory data can be found here &lt;a href="landuse_notes.pdf" target=_blank&gt;Landuse Notes&lt;/a&gt;</procdesc>
-      </procstep>
-    </lineage>
-  </dataqual>
-  <eainfo>
-    <overview>
-      <eaover>Polygon Attributes:  
+More information about the Metropolitan Council's generalized land use inventory data can be found here &lt;a href="landuse_notes.pdf" target=_blank&gt;Landuse Notes&lt;/a&gt;</procdesc></procstep></lineage></dataqual><eainfo><overview><eaover>Polygon Attributes:  
 See Entity and Attribute Detailed Citation below for more information:
 
 LUSE2010:  The land use classification code;  e.g., 100, 111, 112
 
 ACRES:     Acres of polygon
 
-LUSE_DESC: The land use classifiaction description; e.g., Agricultural, Farmstead, Seasonal/Vacation</eaover>
-      <eadetcit>The original categories used for land use breakdowns were established in 1962 and were modified only slightly prior to 2000.  For 2000, the categories were expanded significantly and although the descriptions changed slightly, the classifications were maintained since 2000. The 2010 land use dataset are as follows:
+LUSE_DESC: The land use classifiaction description; e.g., Agricultural, Farmstead, Seasonal/Vacation</eaover><eadetcit>The original categories used for land use breakdowns were established in 1962 and were modified only slightly prior to 2000.  For 2000, the categories were expanded significantly and although the descriptions changed slightly, the classifications were maintained since 2000. The 2010 land use dataset are as follows:
 
 
 RESIDENTIAL - SINGLE-FAMILY, DETACHED; SINGLE-FAMILY, ATTACHED; AND MULTIFAMILY
@@ -279,86 +176,4 @@ NOTE: These lands are NOT necessarily available for development.
 
 
 220 - WATER
-A body of open water or flowing waterway inclusive within a discernable shoreline. This typically does not include wetlands or periodically flooded areas.  Generally only features three acres or greater in size were delineated.  Areas definable as another land use type will not be depicted as in the Water category (e.g. major highway bridge over a river and marina).</eadetcit>
-    </overview>
-  </eainfo>
-  <distinfo>
-    <resdesc>GeneralizedLandUse2010</resdesc>
-    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>ArcView Shape File</formname>
-          <formvern>ArcGIS 10x</formvern>
-          <transize>50 MB for zip file.</transize>
-        </digtinfo>
-      </digform>
-      <ordering>See Online Linkage Below</ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Jonathon Hoekenga</cntper>
-        </cntperp>
-        <cntpos>GIS Specialist</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>Minnesota</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651-602-1561</cntvoice>
-        <cntfax>651-602-1674</cntfax>
-        <cntemail>jonathon.hoekenga@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20110824</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Paul E. Hanson</cntper>
-        </cntperp>
-        <cntpos>GIS Specialist</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>Minnesota</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651-602-1642</cntvoice>
-        <cntfax>651-602-1674</cntfax>
-        <cntemail>paul.hanson@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-  <spref>
-    <horizsys>
-      <planar>
-        <gridsys>
-          <gridsysn>Universal Transverse Mercator</gridsysn>
-          <utm>
-            <utmzone>15</utmzone>
-          </utm>
-        </gridsys>
-        <planci>
-          <plandu>meters</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>NAD83</horizdn>
-        <ellips>GRS80</ellips>
-      </geodetic>
-    </horizsys>
-  </spref>
-</metadata>
+A body of open water or flowing waterway inclusive within a discernable shoreline. This typically does not include wetlands or periodically flooded areas.  Generally only features three acres or greater in size were delineated.  Areas definable as another land use type will not be depicted as in the Water category (e.g. major highway bridge over a river and marina).</eadetcit></overview></eainfo><distinfo><resdesc>GeneralizedLandUse2010</resdesc><distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab><stdorder><digform><digtinfo><formname>ArcView Shape File</formname><formvern>ArcGIS 10x</formvern><transize>50 MB for zip file.</transize></digtinfo></digform><ordering>See Online Linkage Below</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Jonathon Hoekenga</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>Minnesota</state><postal>55101-1805</postal></cntaddr><cntvoice>651-602-1561</cntvoice><cntfax>651-602-1674</cntfax><cntemail>jonathon.hoekenga@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20110824</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Paul E. Hanson</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>Minnesota</state><postal>55101-1805</postal></cntaddr><cntvoice>651-602-1642</cntvoice><cntfax>651-602-1674</cntfax><cntemail>paul.hanson@metc.state.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

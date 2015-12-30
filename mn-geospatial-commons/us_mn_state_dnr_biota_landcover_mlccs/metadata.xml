@@ -18,7 +18,7 @@
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20141212</caldate>
+          <caldate>20151217</caldate>
         </sngdate>
       </timeinfo>
       <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset. Newest data created using aerial photography from 2007 and field work in 2008. </current>
@@ -50,6 +50,12 @@
     <browse>
       <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/biota_landcover_mlccs/preview/preview.jpg</browsen>
     </browse>
+    <crossref>
+      <citeinfo>
+        <title>
+          </title>
+      </citeinfo>
+    </crossref>
     <ptcontac>
       <cntinfo>
         <cntperp>
@@ -83,6 +89,16 @@
 </vertaccr>
       </vertacc>
     </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>
+          </procdesc>
+      </procstep>
+    </lineage>
+    <attracc>
+      <attraccr>
+        </attraccr>
+    </attracc>
   </dataqual>
   <spdoinfo>
     <indspref>Ground Condition</indspref>
@@ -119,6 +135,8 @@
       </geodetic>
     </horizsys>
   </spref>
+  <eainfo>
+    </eainfo>
   <distinfo>
     <resdesc>biota_landcover_mlccs</resdesc>
     <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>

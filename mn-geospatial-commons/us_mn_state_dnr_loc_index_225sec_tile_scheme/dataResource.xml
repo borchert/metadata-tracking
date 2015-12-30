@@ -1,0 +1,26 @@
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
+<dataResource>
+    <baseName>loc_index_225sec_tile_scheme</baseName>
+    <descriptiveName>DNR Quarter 24K Quad Tile Index</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2003-09-04</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+        <topicCategory type="ISO 19115">location</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>5</resourceID>
+        <resourceGUID>{d1febd36-fdd5-449c-9cd5-87acd0c1a845}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{0bca26a2-a844-4652-b610-5abd5e9b931d}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

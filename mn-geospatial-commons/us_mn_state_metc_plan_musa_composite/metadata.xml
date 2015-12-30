@@ -1,7 +1,4 @@
-<metadata>
-  <eainfo>
-    <overview>
-      <eaover>Polygon Attributes for MUSA_composite.shp: 
+<?xml version="1.0"?><metadata><eainfo><overview><eaover>Polygon Attributes for MUSA_composite.shp: 
   
 BENCHMARK: Alphanumeric code for year of Comprehensive Plan (i.e., 2030) 
  
@@ -155,24 +152,7 @@ MUSA_RESER: 'Y' = All records have this value.  An agreed upon acreage
 within an area in New Market Township surrounding the City of Elko New 
 Market is to be added to the current MUSA by 2030 as the land in New  
 Market Township is annexed by Elko New Market.
-</eaover>
-      <eadetcit>None</eadetcit>
-    </overview>
-  </eainfo>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>Metropolitan Council</origin>
-        <title>Metropolitan Urban Service Areas (MUSA) Composite</title>
-        <pubinfo>
-          <publish>Metropolitan Council</publish>
-        </pubinfo>
-        <pubdate>20150923</pubdate>
-        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-plan-musa-composite</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>The MUSA Composite dataset depicts current and future boundaries of the Urban Service Areas (sewer service areas) based on communities' comprehensive plans for the seven-county metropolitan area of the Twin Cities of Minneapolis and Saint Paul. The dataset does not depict the precise location of current urban services (Sewer service). In other words, the Urban Service Areas designate areas that might be serviced, it does not represent the urban areas that are serviced. The depiction of Urban Service Areas provides a framework in which known urban development and anticipated future development can exist with adequate sewer capacity at efficient service levels. Eleven other datasets are derived from these data: MUSA_2010, MUSA_2010_Outline, MUSA_2020, MUSA_2020_Outline, MUSA_2030, MUSA_2030_Outline, MUSA_2040, MUSA_Undesignated (Previously known as Flexible or Floating MUSA), MUSA Undesignated_Reserve (see below). 
+</eaover><eadetcit>None</eadetcit></overview></eainfo><idinfo><citation><citeinfo><origin>Metropolitan Council</origin><title>Metropolitan Urban Service Areas (MUSA) Composite</title><pubinfo><publish>Metropolitan Council</publish></pubinfo><pubdate>20150923</pubdate><onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-plan-musa-composite</onlink></citeinfo></citation><descript><abstract>The MUSA Composite dataset depicts current and future boundaries of the Urban Service Areas (sewer service areas) based on communities' comprehensive plans for the seven-county metropolitan area of the Twin Cities of Minneapolis and Saint Paul. The dataset does not depict the precise location of current urban services (Sewer service). In other words, the Urban Service Areas designate areas that might be serviced, it does not represent the urban areas that are serviced. The depiction of Urban Service Areas provides a framework in which known urban development and anticipated future development can exist with adequate sewer capacity at efficient service levels. Eleven other datasets are derived from these data: MUSA_2010, MUSA_2010_Outline, MUSA_2020, MUSA_2020_Outline, MUSA_2030, MUSA_2030_Outline, MUSA_2040, MUSA_Undesignated (Previously known as Flexible or Floating MUSA), MUSA Undesignated_Reserve (see below). 
 
 Each community (city or township) in the seven-county Twin Cities metropolitan area is required to complete a comprehensive plan for approval by the Metropolitan Council per the Metropolitan Land Planning Act of 1995 (Minn. Stat 473.864, Subd 2 and 473.175, Subd 1). The comprehensive plan must include a depiction of current and future boundaries of the Urban Service Areas (i.e., 2020, 2030, 2040, Post MUSA Urban Reserve). 
 
@@ -186,15 +166,7 @@ Although the information included in this dataset is derived from the communitie
 
 When referring to CURRENT MUSA extent, this includes areas up to 2020 MUSA. 
 
-These data were previously incorporated in the Comprehensive Plan Composite dataset</abstract>
-      <purpose>To show the urban services areas in the seven-county metropolitan area for display and analysis. </purpose>
-      <supplinf>Twin Cities 7 county metropolitan area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington.</supplinf>
-    </descript>
-    <browse>
-      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/plan_musa_composite/metadata/preview.jpg</browsen>
-    </browse>
-    <timeperd>
-      <current>Initial Metropolitan Urban Service Areas data was derived from communities 1998 Comprehensive Plans. Council planning staff, working with communities, defined urban service area boundaries between June, 2000 and April, 2002. The actual date of a community's locally adopted plan is not known but the regional data are current as of the date that the Comprehensive Plan was reviewed and subsequent amendments by the Metropolitan Council per the Metropolitan Land Planning Act of 1995 (Minn. Stat 473.864, Subd 2 and 473.175, Subd 1). The Metropolitan Land Planning Act of 1995 requires communities in the seven-county Twin Cities metropolitan area to submit a Comprehensive Plan and subsequent plan amendments to the Metropolitan Council for review and consideration of the impact, if any the plan or plan amendment may have on the regional systems (i.e., roads, parks, wastewater collection and treatment. The data does not depict actual sewer service. 
+These data were previously incorporated in the Comprehensive Plan Composite dataset</abstract><purpose>To show the urban services areas in the seven-county metropolitan area for display and analysis. </purpose><supplinf>Twin Cities 7 county metropolitan area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington.</supplinf></descript><browse><browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/plan_musa_composite/metadata/preview.jpg</browsen></browse><timeperd><current>Initial Metropolitan Urban Service Areas data was derived from communities 1998 Comprehensive Plans. Council planning staff, working with communities, defined urban service area boundaries between June, 2000 and April, 2002. The actual date of a community's locally adopted plan is not known but the regional data are current as of the date that the Comprehensive Plan was reviewed and subsequent amendments by the Metropolitan Council per the Metropolitan Land Planning Act of 1995 (Minn. Stat 473.864, Subd 2 and 473.175, Subd 1). The Metropolitan Land Planning Act of 1995 requires communities in the seven-county Twin Cities metropolitan area to submit a Comprehensive Plan and subsequent plan amendments to the Metropolitan Council for review and consideration of the impact, if any the plan or plan amendment may have on the regional systems (i.e., roads, parks, wastewater collection and treatment. The data does not depict actual sewer service. 
 
 Communities in the metropolitan area were required to update their Comprehensive Plan in 2008. Not all communities have finalized the 2008 plan. These communities can be determined through the 'BENCHMARK' field in the database (i.e., '2030'). The following communities have been added since the previous MUSA release (5/26/2015): 
 
@@ -209,68 +181,7 @@ Fort Snelling
 Landfall
 Lexington 
 
-</current>
-      <timeinfo>
-        <sngdate>
-          <caldate>20150923</caldate>
-        </sngdate>
-      </timeinfo>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>Quarterly</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-94.012</westbc>
-        <eastbc>-92.732</eastbc>
-        <northbc>45.415</northbc>
-        <southbc>44.471</southbc>
-      </bounding>
-    </spdom>
-    <accconst>None</accconst>
-    <useconst>None</useconst>
-    <keywords>
-      <place>
-        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
-      </place>
-      <theme>
-        <themekey>MUSA, metropolitan urban service area, 2010 MUSA, 2020 MUSA, 2030 MUSA, 2040 MUSA, Post MUSA Urban Reserve</themekey>
-      </theme>
-    </keywords>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Paul E. Hanson</cntper>
-        </cntperp>
-        <cntpos>GIS Specialist</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1642</cntvoice>
-        <cntemail>paul.hanson@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <logic>The data set is topologically 'clean'</logic>
-    <complete>Entire seven-county geographic area is covered.</complete>
-    <posacc>
-      <horizpa>
-        <horizpar>Horizontal positional accuracy is unknown, but is thought to be quite variable throughout the data set. </horizpar>
-      </horizpa>
-    </posacc>
-    <attracc>
-      <attraccr>These data were derived from maps submitted with each city or township's Comprehensive Plan, plan amendment or annual service area report. Data are current based on the above information.</attraccr>
-    </attracc>
-    <lineage>
-      <procstep>
-        <procdesc>The MUSA dataset depicts current and future boundaries of the Urban Service Areas (sewer service areas) based on communities' comprehensive plans for the seven-county metropolitan area of the Twin Cities of Minneapolis and Saint Paul. The dataset does not depict the precise location of current urban services (Sewer service). In other words, the Urban Service Areas designate areas that might be serviced, it does not represent the urban areas that are serviced. The depiction of Urban Service Areas provides a framework in which known urban development and anticipated future development can exist with adequate sewer capacity at efficient service levels. Seven other datasets are derived from these data: MUSA_2010, MUSA_2010_Outline, MUSA_2020, MUSA_2020_Outline, MUSA_2030, MUSA_2030_Outline, MUSA_2040, MUSA_2040_Outline, and Undesignated MUSA (Previously known as Flexible or Floating MUSA). 
+</current><timeinfo><sngdate><caldate>20150923</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>Quarterly</update></status><spdom><bounding><westbc>-94.012</westbc><eastbc>-92.732</eastbc><northbc>45.415</northbc><southbc>44.471</southbc></bounding></spdom><accconst>None</accconst><useconst>None</useconst><keywords><place><placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey></place><theme><themekey>MUSA, metropolitan urban service area, 2010 MUSA, 2020 MUSA, 2030 MUSA, 2040 MUSA, Post MUSA Urban Reserve</themekey></theme></keywords><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Paul E. Hanson</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1642</cntvoice><cntemail>paul.hanson@metc.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><logic>The data set is topologically 'clean'</logic><complete>Entire seven-county geographic area is covered.</complete><posacc><horizpa><horizpar>Horizontal positional accuracy is unknown, but is thought to be quite variable throughout the data set. </horizpar></horizpa></posacc><attracc><attraccr>These data were derived from maps submitted with each city or township's Comprehensive Plan, plan amendment or annual service area report. Data are current based on the above information.</attraccr></attracc><lineage><procstep><procdesc>The MUSA dataset depicts current and future boundaries of the Urban Service Areas (sewer service areas) based on communities' comprehensive plans for the seven-county metropolitan area of the Twin Cities of Minneapolis and Saint Paul. The dataset does not depict the precise location of current urban services (Sewer service). In other words, the Urban Service Areas designate areas that might be serviced, it does not represent the urban areas that are serviced. The depiction of Urban Service Areas provides a framework in which known urban development and anticipated future development can exist with adequate sewer capacity at efficient service levels. Seven other datasets are derived from these data: MUSA_2010, MUSA_2010_Outline, MUSA_2020, MUSA_2020_Outline, MUSA_2030, MUSA_2030_Outline, MUSA_2040, MUSA_2040_Outline, and Undesignated MUSA (Previously known as Flexible or Floating MUSA). 
 
 These data were initially collected as part of the Comprehensive Plan Composite dataset as derived from each community's 1998 Comprehensive Plan. Council planning staff interpreted the submitted maps and defined the urban service area boundaries in terms of the Regional Growth Strategy (RGS) categories used for regional planning at that time. RGS boundaries were defined based on county parcel boundaries and TLG Street Centerline data (now owned by NCompass Technologies). This information was then updated into the Growth Management Policy Areas (1996 gmpa layer). This process was done initially on a coverage, then brought in to ArcView as a shape file and updates have been made in ArcGIS. These data became known as the Comprehensive Plan Composite dataset. The Comprehensive Plan Composite dataset not only included information regarding metropolitan urban services areas but also included information pertaining to rural and agricultural communities planning area designation and information concerning lands enrolled in the Agricultural Preserve program. 
 
@@ -292,78 +203,4 @@ In March 2011, a series of changes were made to the MUSA categories primarily as
 
 In September 2015, with the Council adoption of ThriveMSP 2040, the regional plan and the release of System Statements, the MUSA categories were expanded to include MUSA 2040 and Post-2030 MUSA (PM) category and been changed to Post MUSA Urban Reserve (PM) and acknowledge the changing planning horizon.
 
-For exact MUSA information, please contact the communities directly</procdesc>
-      </procstep>
-    </lineage>
-  </dataqual>
-  <distinfo>
-    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
-    <stdorder>
-      <ordering>See Online Linkage Below</ordering>
-    </stdorder>
-    <resdesc>metropolitan_urban_service_areas</resdesc>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Jon Hoekenga</cntper>
-        </cntperp>
-        <cntpos>GIS Specialist</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1561</cntvoice>
-        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20150923</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Paul E. Hanson</cntper>
-        </cntperp>
-        <cntpos>GIS Specialist</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1642</cntvoice>
-        <cntemail>paul.hanson@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-  <spref>
-    <horizsys>
-      <planar>
-        <gridsys>
-          <gridsysn>Universal Transverse Mercator</gridsysn>
-          <utm>
-            <utmzone>15</utmzone>
-          </utm>
-        </gridsys>
-        <planci>
-          <plandu>meters</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>NAD83</horizdn>
-        <ellips>GRS80</ellips>
-      </geodetic>
-    </horizsys>
-  </spref>
-</metadata>
+For exact MUSA information, please contact the communities directly</procdesc></procstep></lineage></dataqual><distinfo><distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab><stdorder><ordering>See Online Linkage Below</ordering></stdorder><resdesc>metropolitan_urban_service_areas</resdesc><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Jon Hoekenga</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1561</cntvoice><cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150923</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Paul E. Hanson</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1642</cntvoice><cntemail>paul.hanson@metc.state.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

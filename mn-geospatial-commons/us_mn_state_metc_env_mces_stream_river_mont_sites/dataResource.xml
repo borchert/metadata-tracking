@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>env_mces_stream_river_mont_sites</baseName>
   <descriptiveName>MCES Stream and River Monitoring Sites</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{06296497-f77d-4b6a-87a7-afa2e3a5d3b9}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
     <dataSubResource>
       <subResourceType>ags_mapserver</subResourceType>

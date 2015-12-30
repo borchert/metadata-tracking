@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>base_saip_photocenters_2009_14</baseName>
   <descriptiveName>Spring Aerial Imagery Photo Center Points and Acquisition Dates, Minnesota, 2009-2014</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{2171a016-cf8b-42d2-a13f-1bf966ebb4a0}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

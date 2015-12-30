@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>base_usgs_msp_2008_airphotos</baseName>
     <descriptiveName>USGS High-Resolution Imagery, Minneapolis-St. Paul, MN, Spring, 2008</descriptiveName>

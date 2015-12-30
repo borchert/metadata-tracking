@@ -1,4 +1,4 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>atmos_1981_2010_mn_precip_avg</baseName>
     <descriptiveName>Minnesota Normal Precipitation Average 1981-2010 (Annual and Monthly)</descriptiveName>
@@ -8,7 +8,7 @@
         <topicCategory type="ISO 19115">climatologyMeteorologyAtmosphere</topicCategory>
     </topicCategories>
     <resourceIdentifiers>
-        <resourceID/>
+        <resourceID></resourceID>
         <resourceGUID>{68eda1c7-d66b-454f-b0fc-4393490ebbbd}</resourceGUID>
     </resourceIdentifiers>
     <dataSubResources>

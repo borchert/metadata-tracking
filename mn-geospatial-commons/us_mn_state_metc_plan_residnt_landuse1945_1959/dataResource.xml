@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>plan_residnt_landuse1945_1959</baseName>
   <descriptiveName>1945 and 1959 Residential Land Use</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{c75bd528-a53b-4cca-8e53-6b751d9064b4}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
     <dataSubResource>
       <subResourceType>ags_mapserver</subResourceType>

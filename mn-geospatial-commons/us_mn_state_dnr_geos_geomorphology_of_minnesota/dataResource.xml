@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>geos_geomorphology_of_minnesota</baseName>
     <descriptiveName>Geomorphology of Minnesota</descriptiveName>

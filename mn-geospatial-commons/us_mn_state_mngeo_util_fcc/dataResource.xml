@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>util_fcc</baseName>
     <descriptiveName>Federal Communications Commission (FCC) Geospatial Data</descriptiveName>
@@ -9,7 +10,7 @@
         <topicCategory type="ISO 19115">structure</topicCategory>
     </topicCategories>
     <resourceIdentifiers>
-        <resourceID/>
+        <resourceID></resourceID>
         <resourceGUID>{0430b9fa-49dc-4c1b-9d35-2bf4657ce4dc}</resourceGUID>
     </resourceIdentifiers>
     <dataSubResources>

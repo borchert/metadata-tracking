@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>trans_transit_schedule_google_fd</baseName>
   <descriptiveName>Metro Transit Schedule Data - General Transit Feed Specification (GTFS)</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{fe752fd3-195f-4749-8ac3-fd283e1e122a}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

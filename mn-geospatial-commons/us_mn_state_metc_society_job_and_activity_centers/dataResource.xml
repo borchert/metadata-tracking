@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>society_job_and_activity_centers</baseName>
   <descriptiveName>Job and Activity Centers</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{382888b1-ad6c-4ca8-9960-3bb7bd81a0b0}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
     <dataSubResource>
       <subResourceType>ags_mapserver</subResourceType>

@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>biota_nhis_calcareous_fens</baseName>
     <descriptiveName>Calcareous Fens - Source Feature Points</descriptiveName>

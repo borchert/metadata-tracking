@@ -1,0 +1,25 @@
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
+<dataResource>
+    <baseName>plan_stateland_dnrcounty</baseName>
+    <descriptiveName>State Lands Administered by MNDNR or by Counties</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-11-24</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+        <topicCategory type="ISO 19115">environment</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{d5d8a6f3-248a-427e-9301-2103fb5077fc}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{874b46f3-ebbf-4cea-ac93-582366a29994}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

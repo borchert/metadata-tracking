@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>society_census2000tiger_zcta</baseName>
   <descriptiveName>Zip Code Tabulation Areas - 5-digit - 2000 Census</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{e5baedad-b7aa-4312-ba09-5b7b6743c5c7}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
     <dataSubResource>
       <subResourceType>ags_mapserver</subResourceType>

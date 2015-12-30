@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_deer_permit_areas</baseName>
     <descriptiveName>Minnesota Deer Permit Areas</descriptiveName>

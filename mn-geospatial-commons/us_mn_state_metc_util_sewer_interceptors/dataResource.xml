@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>util_sewer_interceptors</baseName>
   <descriptiveName>Sewer Interceptor System (Limited Attributes)</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{0ee4d0e2-8b16-4f48-a97c-e47b197110b8}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
     <dataSubResource>
       <subResourceType>ags_mapserver</subResourceType>

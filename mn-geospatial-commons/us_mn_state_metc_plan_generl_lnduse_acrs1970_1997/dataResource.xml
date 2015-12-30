@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>plan_generl_lnduse_acrs1970_1997</baseName>
   <descriptiveName>Generalized Land Use Acreage Totals 1970 - 1997</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{038c6a97-243c-4d8b-bd60-ac1ee0663860}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

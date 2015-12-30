@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>water_wild_and_scenic_rec_rivers</baseName>
     <descriptiveName>Wild and Scenic Recreational Rivers</descriptiveName>

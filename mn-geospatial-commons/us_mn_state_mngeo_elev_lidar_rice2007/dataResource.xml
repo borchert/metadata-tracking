@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>elev_lidar_rice2007</baseName>
     <descriptiveName>LiDAR Elevation, Rice County, Minnesota, 2007</descriptiveName>

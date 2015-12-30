@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>bdry_mcdistricts_2003</baseName>
   <descriptiveName>Metropolitan Council Districts 2003</descriptiveName>
@@ -24,7 +25,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{84e05e39-f155-4121-bc3f-9c250a19e7ca}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

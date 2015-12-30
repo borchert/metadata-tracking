@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>loc_parkrec_parkentrances</baseName>
   <descriptiveName>Park Entrances, Dakota County, Minnesota</descriptiveName>
@@ -15,14 +16,14 @@
       <subResourceIdentifiers>
         <subResourceGUID>{5a4db204-202e-4eb0-bfb3-01b7132d514b}</subResourceGUID>
       </subResourceIdentifiers>
-    <subResourceAccess/>
+    <subResourceAccess />
     </dataSubResource>
     <dataSubResource>
       <subResourceType>kmz</subResourceType>
       <subResourceIdentifiers>
         <subResourceGUID>{e89ad46c-c5ff-47d8-96bf-36f2be4c0b53}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>geos_soils_cummins_grigal</baseName>
     <descriptiveName>Soils and Land Surfaces of Minnesota (Cummins and Grigal)</descriptiveName>

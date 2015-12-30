@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>biota_landcover_mlmis_1969</baseName>
     <descriptiveName>Land Use, Minnesota, 1969</descriptiveName>
@@ -9,7 +10,7 @@
         <topicCategory type="ISO 19115">biota</topicCategory>
     </topicCategories>
     <resourceIdentifiers>
-        <resourceID/>
+        <resourceID></resourceID>
         <resourceGUID>{0ada2b2c-ea71-4efe-8a88-6c9ec280686b}</resourceGUID>
     </resourceIdentifiers>
     <dataSubResources>

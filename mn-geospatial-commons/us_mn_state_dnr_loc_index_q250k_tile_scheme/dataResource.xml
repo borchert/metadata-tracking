@@ -1,0 +1,26 @@
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
+<dataResource>
+    <baseName>loc_index_q250k_tile_scheme</baseName>
+    <descriptiveName>USGS 1:250000 (2 by 1 Degree) Quadrangle Index</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2003-09-04</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+        <topicCategory type="ISO 19115">location</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>4</resourceID>
+        <resourceGUID>{dad71b92-0779-4f2e-a1f2-1210cb599c9a}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{f4aeb8a5-3877-4ec4-a361-bff81bfb7348}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

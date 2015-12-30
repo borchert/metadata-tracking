@@ -1,117 +1,18 @@
-<!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  -->
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>AeroMetric, Inc.</origin>
-        <pubdate>2011</pubdate>
-        <title>LiDAR Elevation, Minnesota River Basin, Southwest Minnesota, 2010</title>
-        <mgmg1cid/>
-        <pubinfo>
-          <publish>Minnesota Department of Natural Resources</publish>
-        </pubinfo>
-        <onlink>http://www.dnr.state.mn.us/maps/mntopo/index.html</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>AeroMetric (now Quantum Spatial) acquired highly accurate Light Detection and Ranging (LiDAR) elevation data for the Minnesota portion of the Minnesota River Basin. The project area of approximately 17,260 square miles covered the following 25 Minnesota counties: Brown, Chippewa, Cottonwood, Douglas, Faribault, Jackson, Kandiyohi, Lac qui Parle, Le Sueur, Lincoln, Lyon, Martin, Murray, Nicollet, Nobles, Pipestone, Pope, Redwood, Renville, Rock, Sibley, Swift, Waseca, Watonwan, and Yellow Medicine.
+<?xml version="1.0"?><!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  --><metadata><idinfo><citation><citeinfo><origin>AeroMetric, Inc.</origin><pubdate>2011</pubdate><title>LiDAR Elevation, Minnesota River Basin, Southwest Minnesota, 2010</title><mgmg1cid></mgmg1cid><pubinfo><publish>Minnesota Department of Natural Resources</publish></pubinfo><onlink>http://www.dnr.state.mn.us/maps/mntopo/index.html</onlink></citeinfo></citation><descript><abstract>AeroMetric (now Quantum Spatial) acquired highly accurate Light Detection and Ranging (LiDAR) elevation data for the Minnesota portion of the Minnesota River Basin. The project area of approximately 17,260 square miles covered the following 25 Minnesota counties: Brown, Chippewa, Cottonwood, Douglas, Faribault, Jackson, Kandiyohi, Lac qui Parle, Le Sueur, Lincoln, Lyon, Martin, Murray, Nicollet, Nobles, Pipestone, Pope, Redwood, Renville, Rock, Sibley, Swift, Waseca, Watonwan, and Yellow Medicine.
 
 LiDAR data acquisition, control and QC surveys were completed during the spring and fall leaf-off periods: April 8 - May 5 and November 2 - 19, 2010. The tiling scheme is 16th USGS 1:24,000 quadrangle tiles.  Aerometric delivered the data to the Minnesota Department of Natural Resources (DNR) in several formats:  LAS, geodatabase, DEM and breaklines.
 
 DNR staff created three additional products:  two-foot contours, building outlines and hillshades.
 
-Note:  This metadata record was created at the Minnesota Geospatial Information Office by combining information supplied by AeroMetric and DNR.</abstract>
-      <purpose>The data was collected as part of the Minnesota Elevation Mapping Project, managed by the Minnesota Department of Natural Resources:  http://www.mngeo.state.mn.us/committee/elevation/mn_elev_mapping.html</purpose>
-      <supplinf>25 counties in the Minnesota River Basin in southwest Minnesota (see Place Keywords)</supplinf>
-    </descript>
-    <timeperd>
-      <timeinfo>
-        <sngdate>
-          <caldate>2010</caldate>
-        </sngdate>
-      </timeinfo>
-      <current>LiDAR data was collected during spring and fall leaf-off periods: April 8 - May 5 and November 2 - 19, 2010.</current>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>Unknown</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-96.628762</westbc>
-        <eastbc>-93.401415</eastbc>
-        <northbc>46.158043</northbc>
-        <southbc>43.417905</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <theme>
-        <themekt>ISO 19115</themekt>
-        <themekey>elevation, LiDAR, DEM, digital elevation model, contour, topographic, topo, DTM, LAS, breakline</themekey>
-      </theme>
-      <place>
-        <placekey>Minnesota, MN, Southwest Minnesota, Minnesota River Basin, Brown, Chippewa, Cottonwood, Douglas, Faribault, Jackson, Kandiyohi, Lac qui Parle, Le Sueur, Lincoln, Lyon, Martin, Murray, Nicollet, Nobles, Pipestone, Pope, Redwood, Renville, Rock, Sibley, Swift, Waseca, Watonwan, Yellow Medicine counties</placekey>
-      </place>
-    </keywords>
-    <accconst>None</accconst>
-    <useconst>See Disclaimer field for complete use conditions.</useconst>
-    <browse>
-      <browsen>None available</browsen>
-      <browsed/>
-    </browse>
-    <native>See Lineage</native>
-    <crossref>
-      <citeinfo>
-        <title>For more information about elevation data for Minnesota, see: http://www.mngeo.state.mn.us/chouse/elevation/index.html</title>
-      </citeinfo>
-    </crossref>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>AeroMetric, Inc.</cntorg>
-          <cntper>Rob Merry</cntper>
-        </cntperp>
-        <cntaddr>
-          <addrtype> Mailing and Physical</addrtype>
-          <address>4020 Technology Parkway</address>
-          <city>Sheboygan</city>
-          <state>WI</state>
-          <postal>53083</postal>
-        </cntaddr>
-        <cntvoice>920-457-3631</cntvoice>
-        <cntfax>920-457-0410</cntfax>
-        <cntemail>rmerry@aerometric.com</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <attracc>
-      <attraccr>See Vertical Positional Accuracy field.</attraccr>
-    </attracc>
-    <logic>N/A</logic>
-    <complete>Complete</complete>
-    <posacc>
-      <horizpa>
-        <horizpar>All area data products were acquired at or below 1700 meters above mean terrain (AMT) and have a horizontal accuracy of 0.30 meters, with a nominal point spacing of 1.3 meters.
+Note:  This metadata record was created at the Minnesota Geospatial Information Office by combining information supplied by AeroMetric and DNR.</abstract><purpose>The data was collected as part of the Minnesota Elevation Mapping Project, managed by the Minnesota Department of Natural Resources:  http://www.mngeo.state.mn.us/committee/elevation/mn_elev_mapping.html</purpose><supplinf>25 counties in the Minnesota River Basin in southwest Minnesota (see Place Keywords)</supplinf></descript><timeperd><timeinfo><sngdate><caldate>2010</caldate></sngdate></timeinfo><current>LiDAR data was collected during spring and fall leaf-off periods: April 8 - May 5 and November 2 - 19, 2010.</current></timeperd><status><progress>Complete</progress><update>Unknown</update></status><spdom><bounding><westbc>-96.628762</westbc><eastbc>-93.401415</eastbc><northbc>46.158043</northbc><southbc>43.417905</southbc></bounding></spdom><keywords><theme><themekt>ISO 19115</themekt><themekey>elevation, LiDAR, DEM, digital elevation model, contour, topographic, topo, DTM, LAS, breakline</themekey></theme><place><placekey>Minnesota, MN, Southwest Minnesota, Minnesota River Basin, Brown, Chippewa, Cottonwood, Douglas, Faribault, Jackson, Kandiyohi, Lac qui Parle, Le Sueur, Lincoln, Lyon, Martin, Murray, Nicollet, Nobles, Pipestone, Pope, Redwood, Renville, Rock, Sibley, Swift, Waseca, Watonwan, Yellow Medicine counties</placekey></place></keywords><accconst>None</accconst><useconst>See Disclaimer field for complete use conditions.</useconst><browse><browsen>None available</browsen><browsed></browsed></browse><native>See Lineage</native><crossref><citeinfo><title>For more information about elevation data for Minnesota, see: http://www.mngeo.state.mn.us/chouse/elevation/index.html</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>AeroMetric, Inc.</cntorg><cntper>Rob Merry</cntper></cntperp><cntaddr><addrtype> Mailing and Physical</addrtype><address>4020 Technology Parkway</address><city>Sheboygan</city><state>WI</state><postal>53083</postal></cntaddr><cntvoice>920-457-3631</cntvoice><cntfax>920-457-0410</cntfax><cntemail>rmerry@aerometric.com</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>See Vertical Positional Accuracy field.</attraccr></attracc><logic>N/A</logic><complete>Complete</complete><posacc><horizpa><horizpar>All area data products were acquired at or below 1700 meters above mean terrain (AMT) and have a horizontal accuracy of 0.30 meters, with a nominal point spacing of 1.3 meters.
 
-The NAD83 (NSRS2007) datum was used.</horizpar>
-      </horizpa>
-      <vertacc>
-        <vertaccr>The data was to meet a 15cm Vertical RMSE which was exceeded with values better than 10cm throughout the project.
+The NAD83 (NSRS2007) datum was used.</horizpar></horizpa><vertacc><vertaccr>The data was to meet a 15cm Vertical RMSE which was exceeded with values better than 10cm throughout the project.
 
 The Fundamental Vertical Accuracy (FVA) of the Classified Bare Earth for all Areas achieved is 0.07 meters at a 95% confidence level in the 'Open Terrain' land cover category.  502 control points were used in this evaluation.
 
 The accuracy statement is based on the area of moderate to flat terrain. Diminished accuracies are to be expected in areas in dense vegetation. The accuracy of the LiDAR data as tested met the vertical accuracy or better, however, derived products may be less accurate in areas of dense vegetation due to a fewer number of points defining the bare-earth in these areas.
 
-The NAVD88, Geoid03 vertical datum was used.</vertaccr>
-      </vertacc>
-    </posacc>
-    <lineage>
-      <srcinfo>
-        <srcscale/>
-      </srcinfo>
-      <procstep>
-        <procdesc>The LiDAR data was captured using multiple fixed wing aircraft equipped with a LiDAR system.  Each LiDAR system includes a differential GPS unit and inertial measurement system to provide superior accuracy. A total of 107 flight missions were required to cover the 25 counties. Airborne accuracy was achieved using the State of Minnesota's Department of Transportation CORS network. Smooth best estimated trajectories (sbets) were generated using Applanix's POSPAC 4.4 as well as POS MMS software packages. LAS files were created using Optech's Dashmap, ASDA, and LMS software. Survey checkpoints were collected by AeroMetric to assist with the validation of the LiDAR point cloud. Point cloud classification and deliverables were created with Terrasolid's software suite package as well as ESRI's Arc software.
+The NAVD88, Geoid03 vertical datum was used.</vertaccr></vertacc></posacc><lineage><srcinfo><srcscale></srcscale></srcinfo><procstep><procdesc>The LiDAR data was captured using multiple fixed wing aircraft equipped with a LiDAR system.  Each LiDAR system includes a differential GPS unit and inertial measurement system to provide superior accuracy. A total of 107 flight missions were required to cover the 25 counties. Airborne accuracy was achieved using the State of Minnesota's Department of Transportation CORS network. Smooth best estimated trajectories (sbets) were generated using Applanix's POSPAC 4.4 as well as POS MMS software packages. LAS files were created using Optech's Dashmap, ASDA, and LMS software. Survey checkpoints were collected by AeroMetric to assist with the validation of the LiDAR point cloud. Point cloud classification and deliverables were created with Terrasolid's software suite package as well as ESRI's Arc software.
 
 Acquisition parameters:
 1. Scanner - Optech Gemini
@@ -178,48 +79,7 @@ These products are in the geodatabase for each of the tiles:
 
 2.  Building outlines were created by extracting from the LAS files those points with Classification 6 (buildings), then grouping those points within 3 meters of each other into a single cluster and then creating an outline around those points. This was done using standard ArcMap tools.
 
-3. Hillshades were created from the one- and three-meter DEMs using standard ArcMap tools. Azimuth value = 215, Altitude = 45, Z-Factor = 1</procdesc>
-      </procstep>
-    </lineage>
-  </dataqual>
-  <spdoinfo>
-    <indspref/>
-    <direct/>
-    <mgmg3obj/>
-    <mgmg3til>16th USGS 1:24,000 quadrangles</mgmg3til>
-  </spdoinfo>
-  <spref>
-    <vertdef>
-      <altsys>
-        <altdatum>North American Vertical Datum of 1988</altdatum>
-        <altunits>Meters</altunits>
-      </altsys>
-      <depthsys>
-        <depthdn/>
-        <depthdu/>
-      </depthsys>
-    </vertdef>
-    <horizsys>
-      <planar>
-        <gridsys>
-          <gridsysn>Universal Transverse Mercator</gridsysn>
-          <utm>
-            <utmzone>15</utmzone>
-          </utm>
-        </gridsys>
-        <planci>
-          <plandu>meters</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>NAD83</horizdn>
-        <ellips>GRS80</ellips>
-      </geodetic>
-    </horizsys>
-  </spref>
-  <eainfo>
-    <overview>
-      <eaover>The classification scheme of the LiDAR point cloud:
+3. Hillshades were created from the one- and three-meter DEMs using standard ArcMap tools. Azimuth value = 215, Altitude = 45, Z-Factor = 1</procdesc></procstep></lineage></dataqual><spdoinfo><indspref></indspref><direct></direct><mgmg3obj></mgmg3obj><mgmg3til>16th USGS 1:24,000 quadrangles</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>North American Vertical Datum of 1988</altdatum><altunits>Meters</altunits></altsys><depthsys><depthdn></depthdn><depthdu></depthdu></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><overview><eaover>The classification scheme of the LiDAR point cloud:
 1 = unclassified
 2 = bare earth ground
 4 = vegetation
@@ -228,23 +88,9 @@ These products are in the geodatabase for each of the tiles:
 8 = model keypoints
 9 = water
 10 = ignored ground
-14 = bridges</eaover>
-    </overview>
-  </eainfo>
-  <distinfo>
-    <resdesc>MN River Basin LiDAR 2010</resdesc>
-    <distliab>1. The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html
+14 = bridges</eaover></overview></eainfo><distinfo><resdesc>MN River Basin LiDAR 2010</resdesc><distliab>1. The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html
 
-2. MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname/>
-          <formvern/>
-          <transize/>
-        </digtinfo>
-      </digform>
-      <ordering>The LiDAR data provided by DNR may be viewed online or downloaded in several ways:
+2. MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab><stdorder><digform><digtinfo><formname></formname><formvern></formvern><transize></transize></digtinfo></digform><ordering>The LiDAR data provided by DNR may be viewed online or downloaded in several ways:
 
 1. MnTOPO website: http://www.dnr.state.mn.us/maps/mntopo/index.html (or click the link below in the Online Linkage field)
 
@@ -261,53 +107,4 @@ The county mosaics are named elevation_data.gdb.zip For details of their content
 b. In the 250k tiles folder: ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/q250k/
 
 
-For more help with Minnesota's LiDAR data, see http://www.mngeo.state.mn.us/chouse/elevation/lidar.html</ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
-          <cntper>Nancy Rader</cntper>
-        </cntperp>
-        <cntpos>GIS Data Coordinator</cntpos>
-        <cntaddr>
-          <addrtype>Mailing and Physical</addrtype>
-          <address>658 Cedar Street, Room 300</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55155</postal>
-        </cntaddr>
-        <cntvoice>651-201-2489</cntvoice>
-        <cntfax>651-296-6398</cntfax>
-        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20140428</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
-          <cntper>Nancy Rader</cntper>
-        </cntperp>
-        <cntpos>GIS Data Coordinator</cntpos>
-        <cntaddr>
-          <addrtype>Mailing and Physical</addrtype>
-          <address>658 Cedar Street, Room 300</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55155</postal>
-        </cntaddr>
-        <cntvoice>651-201-2489</cntvoice>
-        <cntfax>651-296-6398</cntfax>
-        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-</metadata>
+For more help with Minnesota's LiDAR data, see http://www.mngeo.state.mn.us/chouse/elevation/lidar.html</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>658 Cedar Street, Room 300</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntfax>651-296-6398</cntfax><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20140428</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>658 Cedar Street, Room 300</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntfax>651-296-6398</cntfax><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></metc></metainfo></metadata>

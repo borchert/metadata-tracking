@@ -1,9 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE dataResource SYSTEM "dataResource.dtd">
 <dataResource>
   <baseName>elev_elevation_service</baseName>
   <descriptiveName>Elevation, Dakota County, Minnesota</descriptiveName>
   <publisherID>us_mn_co_dakota</publisherID>
-  <currentAsofDate/>
+  <currentAsofDate></currentAsofDate>
   <topicCategories>
     <topicCategory type="ISO 19115">elevation</topicCategory>
   </topicCategories>

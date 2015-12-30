@@ -1,18 +1,4 @@
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>Minnesota Department of Natural Resources</origin>
-        <title>LiDAR Elevation, Arrowhead Region, NE Minnesota, 2011</title>
-        <pubinfo>
-          <publish>Minnesota Department of Natural Resources</publish>
-        </pubinfo>
-        <pubdate>20120611</pubdate>
-        <onlink>http://www.dnr.state.mn.us/maps/mntopo/index.html</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>The project vendor, Woolpert, Inc., acquired highly accurate Light Detection and Ranging (LiDAR) elevation data for the Arrowhead Region in Northeast Minnesota in Spring 2011. The data cover Carlton, Cook, Lake and St. Louis counties, part of Itasca County, and Voyageurs National Park in Koochiching County.  LiDAR data are in the UTM Zone 15 coordinate system, NAD83 96 NAVD88 Geoid09, meters. The tiling scheme is 16th USGS 1:24,000 quadrangle tiles.
+<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>Minnesota Department of Natural Resources</origin><title>LiDAR Elevation, Arrowhead Region, NE Minnesota, 2011</title><pubinfo><publish>Minnesota Department of Natural Resources</publish></pubinfo><pubdate>20120611</pubdate><onlink>http://www.dnr.state.mn.us/maps/mntopo/index.html</onlink></citeinfo></citation><descript><abstract>The project vendor, Woolpert, Inc., acquired highly accurate Light Detection and Ranging (LiDAR) elevation data for the Arrowhead Region in Northeast Minnesota in Spring 2011. The data cover Carlton, Cook, Lake and St. Louis counties, part of Itasca County, and Voyageurs National Park in Koochiching County.  LiDAR data are in the UTM Zone 15 coordinate system, NAD83 96 NAVD88 Geoid09, meters. The tiling scheme is 16th USGS 1:24,000 quadrangle tiles.
 
 The vendor delivered the data to the Minnesota Department of Natural Resources (DNR) in several formats:
 
@@ -22,94 +8,19 @@ The vendor delivered the data to the Minnesota Department of Natural Resources (
 
 DNR staff created two additional products: two-foot contours and building outlines.
 
-Note: This metadata record was created at the Minnesota Geospatial Information Office by combining information supplied by Woolpert and DNR.</abstract>
-      <purpose>The Minnesota Elevation Mapping Project was initiated to support the development of high accuracy land surface information for the purposes of improving water quality, flood emergency preparedness and response, floodplain mapping, transportation planning and design, recreational planning and design, urban planning and to provide more efficient and effective project planning and execution.  This project was funded by the Clean Water Fund of the Clean Water, Land and Legacy Amendment with contributions from the Natural Resources Conservation Service, The National Parks Service and Lake County.
+Note: This metadata record was created at the Minnesota Geospatial Information Office by combining information supplied by Woolpert and DNR.</abstract><purpose>The Minnesota Elevation Mapping Project was initiated to support the development of high accuracy land surface information for the purposes of improving water quality, flood emergency preparedness and response, floodplain mapping, transportation planning and design, recreational planning and design, urban planning and to provide more efficient and effective project planning and execution.  This project was funded by the Clean Water Fund of the Clean Water, Land and Legacy Amendment with contributions from the Natural Resources Conservation Service, The National Parks Service and Lake County.
 
-For more about the Project, see:  http://www.mngeo.state.mn.us/committee/elevation/mn_elev_mapping.html</purpose>
-      <supplinf>Arrowhead Region in northeast Minnesota</supplinf>
-    </descript>
-    <timeperd>
-      <current>May 3 - June 2, 2011</current>
-      <timeinfo>
-        <sngdate>
-          <caldate>2011</caldate>
-        </sngdate>
-      </timeinfo>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>As needed</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-93.23431</westbc>
-        <eastbc>-89.56200</eastbc>
-        <northbc>48.664343</northbc>
-        <southbc>46.348060</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <place>
-        <placekey>Minnesota, Carlton, Cook, Lake, St. Louis, Itasca, Koochiching, Voyageurs National Park</placekey>
-      </place>
-      <theme>
-        <themekey>elevation, LiDAR, DEM, digital elevation model, contour, topographic, topo, DTM, LAS, breakline</themekey>
-        <themekt>ISO 19115</themekt>
-      </theme>
-    </keywords>
-    <accconst>All data is in the public domain and there are no access constraints.</accconst>
-    <useconst>See Disclaimer field for complete use conditions.</useconst>
-    <crossref>
-      <citeinfo>
-        <title>The Duluth area was reflown in 2012:  http://www.mngeo.state.mn.us/chouse/metadata/lidar_duluth2012.html
+For more about the Project, see:  http://www.mngeo.state.mn.us/committee/elevation/mn_elev_mapping.html</purpose><supplinf>Arrowhead Region in northeast Minnesota</supplinf></descript><timeperd><current>May 3 - June 2, 2011</current><timeinfo><sngdate><caldate>2011</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>As needed</update></status><spdom><bounding><westbc>-93.23431</westbc><eastbc>-89.56200</eastbc><northbc>48.664343</northbc><southbc>46.348060</southbc></bounding></spdom><keywords><place><placekey>Minnesota, Carlton, Cook, Lake, St. Louis, Itasca, Koochiching, Voyageurs National Park</placekey></place><theme><themekey>elevation, LiDAR, DEM, digital elevation model, contour, topographic, topo, DTM, LAS, breakline</themekey><themekt>ISO 19115</themekt></theme></keywords><accconst>All data is in the public domain and there are no access constraints.</accconst><useconst>See Disclaimer field for complete use conditions.</useconst><crossref><citeinfo><title>The Duluth area was reflown in 2012:  http://www.mngeo.state.mn.us/chouse/metadata/lidar_duluth2012.html
 
-For more information about elevation data for Minnesota, see: http://www.mngeo.state.mn.us/chouse/elevation/index.html</title>
-      </citeinfo>
-    </crossref>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Department of Natural Resources</cntorg>
-          <cntper>Tim Loesch</cntper>
-        </cntperp>
-        <cntpos>GIS Section Manager</cntpos>
-        <cntaddr>
-          <addrtype>Mailing and Physical</addrtype>
-          <address>500 Lafayette Rd</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>551554011</postal>
-        </cntaddr>
-        <cntvoice>651-259-5475</cntvoice>
-        <cntemail>tim.loesch@state.mn.us</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <logic>All formatted data are validated using commercial GIS software to ensure proper formatting and loading prior to delivery.The LIDAR data is visually inspected for completeness to ensure that are no gaps between flight lines.</logic>
-    <complete>The dataset is complete.</complete>
-    <posacc>
-      <horizpa>
-        <horizpar>Horizontal datum:  NAD83 96
+For more information about elevation data for Minnesota, see: http://www.mngeo.state.mn.us/chouse/elevation/index.html</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Tim Loesch</cntper></cntperp><cntpos>GIS Section Manager</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>500 Lafayette Rd</address><city>St. Paul</city><state>MN</state><postal>551554011</postal></cntaddr><cntvoice>651-259-5475</cntvoice><cntemail>tim.loesch@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><logic>All formatted data are validated using commercial GIS software to ensure proper formatting and loading prior to delivery.The LIDAR data is visually inspected for completeness to ensure that are no gaps between flight lines.</logic><complete>The dataset is complete.</complete><posacc><horizpa><horizpar>Horizontal datum:  NAD83 96
 
-Horizontal accuracy is +/- 3.8-foot at the 95% confidence level.</horizpar>
-      </horizpa>
-      <vertacc>
-        <vertaccr>Vertical datum:  NAVD88 (Geoid09)
+Horizontal accuracy is +/- 3.8-foot at the 95% confidence level.</horizpar></horizpa><vertacc><vertaccr>Vertical datum:  NAVD88 (Geoid09)
 
 1. Report from Woolpert:  The LiDAR data vertical accuracy RMSE is 5.0 cm (0.16 ft). The data collected under this Task Order meets the National Standard for Spatial Database Accuracy (NSSDA) accuracy standards. The NSSDA standards specify that vertical accuracy be reported at the 95 percent confidence level for data tested by an independent source of higher accuracy: http://www.fgdc.gov/standards/projects/FGDC-standards-projects/accuracy/part3/index_html 
 
 The Fundamental Vertical Accuracy (FVA) of the TIN: 9.8cm (0.31 ft) at a 95% confidence level, derived according to NSSDA, i.e., based on RMSE of 5.0 cm (0.16 ft) in the 'open terrain' land cover category.
 
-2. Report from DNR:  The LiDAR collected for this task order was tested using independent, locally provided validation points to meet a vertical accuracy of less than 15cm (0.49 foot) RMSEz</vertaccr>
-      </vertacc>
-    </posacc>
-    <attracc>
-      <attraccr>The LiDAR collected for this task order was tested to meet a vertical accuracy of 5.0 cm (0.16 ft) Root Mean Squared Error (RMSE).</attraccr>
-    </attracc>
-    <lineage>
-      <procstep>
-        <procdesc>Vendor Processing Steps:
+2. Report from DNR:  The LiDAR collected for this task order was tested using independent, locally provided validation points to meet a vertical accuracy of less than 15cm (0.49 foot) RMSEz</vertaccr></vertacc></posacc><attracc><attraccr>The LiDAR collected for this task order was tested to meet a vertical accuracy of 5.0 cm (0.16 ft) Root Mean Squared Error (RMSE).</attraccr></attracc><lineage><procstep><procdesc>Vendor Processing Steps:
 
 Woolpert Inc. was selected to provide LiDAR services for CFMS Contract Number B41672 T-Number 1029G Work Order #3 - Minnesota Arrowhead Region LiDAR Acquisition.
 
@@ -163,19 +74,11 @@ These products are in the geodatabase for each of the tiles:
 
 2. Building outlines were created by extracting from the LAS files those points with Classification 6 (buildings), then grouping those points within 3 meters of each other into a single cluster and then creating an outline around those points. This was done using standard ArcMap tools.
 
-3. Hillshades were created from the one- and three-meter DEMs using standard ArcMap tools. Azimuth value = 215, Altitude = 45, Z-Factor = 1</procdesc>
-      </procstep>
-    </lineage>
-  </dataqual>
-  <distinfo>
-    <resdesc>Arrowhead LiDAR 2011</resdesc>
-    <distliab>1.  Due to the easily alterable nature of electronic media, files, documents, and other deliverables, Woolpert, Inc. makes no warranties, either expressed or implied, with respect to the accuracy, completeness, merchantability, or fitness for any particular purpose, including, but not limited to, use of any/all data as described within this metadata file, by the Client or any other consultant or contractor. Any reuse will be at the Client's sole risk unless Woolpert, Inc., for compensation to be agreed upon, reviews and adapts such deliverables.
+3. Hillshades were created from the one- and three-meter DEMs using standard ArcMap tools. Azimuth value = 215, Altitude = 45, Z-Factor = 1</procdesc></procstep></lineage></dataqual><distinfo><resdesc>Arrowhead LiDAR 2011</resdesc><distliab>1.  Due to the easily alterable nature of electronic media, files, documents, and other deliverables, Woolpert, Inc. makes no warranties, either expressed or implied, with respect to the accuracy, completeness, merchantability, or fitness for any particular purpose, including, but not limited to, use of any/all data as described within this metadata file, by the Client or any other consultant or contractor. Any reuse will be at the Client's sole risk unless Woolpert, Inc., for compensation to be agreed upon, reviews and adapts such deliverables.
 
 2.  Minnesota Department of Natural Resources General Geographic Data License Agreement is online:  http://www.dnr.state.mn.us/sitetools/data_software_license.html
 
-3.  MnGeo's data disclaimer is online:  http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab>
-    <stdorder>
-      <ordering>The LiDAR data provided by DNR may be viewed online or downloaded in several ways:
+3.  MnGeo's data disclaimer is online:  http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab><stdorder><ordering>The LiDAR data provided by DNR may be viewed online or downloaded in several ways:
 
 1. MnTOPO website: http://www.dnr.state.mn.us/maps/mntopo/index.html (or click the link below in the Online Linkage field)
 
@@ -199,58 +102,7 @@ The boundaries for Blocks 1-5 are shown on this map:  ftp://lidar.dnr.state.mn.u
 
 For more help with Minnesota's LiDAR data, see http://www.mngeo.state.mn.us/chouse/elevation/lidar.html
 
-</ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
-          <cntper>Nancy Rader</cntper>
-        </cntperp>
-        <cntpos>GIS Data Coordinator</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>658 Cedar Street, Room 300</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55155</postal>
-        </cntaddr>
-        <cntvoice>651-201-2489</cntvoice>
-        <cntfax>651-296-6398</cntfax>
-        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20151112</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
-          <cntper>Nancy Rader</cntper>
-        </cntperp>
-        <cntpos>GIS Data Coordinator</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>658 Cedar Street, Room 300</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55155</postal>
-        </cntaddr>
-        <cntvoice>651-201-2489</cntvoice>
-        <cntfax>651-296-6398</cntfax>
-        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-  <eainfo>
-    <overview>
-      <eaover>1. LAS data were classified using the following standard ASPRS categories:
+</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>658 Cedar Street, Room 300</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntfax>651-296-6398</cntfax><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20151112</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>658 Cedar Street, Room 300</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntfax>651-296-6398</cntfax><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></metc></metainfo><eainfo><overview><eaover>1. LAS data were classified using the following standard ASPRS categories:
 
 0 Unclassified
 1 Unknown
@@ -281,26 +133,4 @@ Contour_type:
 - Island: Island in a lake feature greater than 2 acres
 - Island Stream: Island in a stream feature greater than 2 acres
 - Lake: Lake feature greater than 2 acres
-- Stream: Riverine feature greater than 100 feet wide</eaover>
-    </overview>
-  </eainfo>
-  <spref>
-    <horizsys>
-      <planar>
-        <gridsys>
-          <gridsysn>Universal Transverse Mercator</gridsysn>
-          <utm>
-            <utmzone>15</utmzone>
-          </utm>
-        </gridsys>
-        <planci>
-          <plandu>meters</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>NAD83</horizdn>
-        <ellips>GRS80</ellips>
-      </geodetic>
-    </horizsys>
-  </spref>
-</metadata>
+- Stream: Riverine feature greater than 100 feet wide</eaover></overview></eainfo><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

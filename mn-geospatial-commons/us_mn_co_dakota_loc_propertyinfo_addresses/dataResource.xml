@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>loc_propertyinfo_addresses</baseName>
   <descriptiveName>Address Points, Dakota County, Minnesota</descriptiveName>
   <publisherID>us_mn_co_dakota</publisherID>
-  <currentAsofDate>2015-10-13</currentAsofDate>
+  <currentAsofDate>2015-12-22</currentAsofDate>
   <topicCategories>
     <topicCategory type="ISO 19115">location</topicCategory>
   </topicCategories>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{c62a5987-e604-4038-9920-129d5ee77ea6}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>water_metro_municpl_water_supply</baseName>
   <descriptiveName>Municipal Water Supply System Status - Twin Cities Metropolitan Area, Minnesota</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{e83bd3c2-0268-4d6b-a238-be55d467e5ba}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

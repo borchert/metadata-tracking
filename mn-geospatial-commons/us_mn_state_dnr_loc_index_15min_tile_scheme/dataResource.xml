@@ -1,0 +1,26 @@
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
+<dataResource>
+    <baseName>loc_index_15min_tile_scheme</baseName>
+    <descriptiveName>DNR 15 Minute Tile Index</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>1998-08-11</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+        <topicCategory type="ISO 19115">location</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceID>298</resourceID>
+        <resourceGUID>{32e7ad05-0f06-4183-9a02-4373a71eccaf}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{e62d8fce-4c82-4712-99e7-d02e0c3c253c}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

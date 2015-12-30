@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_dnr_parks_and_trails_admin</baseName>
     <descriptiveName>DNR Division of Parks and Trails Administrative Areas and Districts</descriptiveName>

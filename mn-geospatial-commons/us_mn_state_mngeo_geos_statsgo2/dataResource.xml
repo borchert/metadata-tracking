@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>geos_statsgo2</baseName>
     <descriptiveName>Digital General Soil Map of the U.S. (STATSGO2)</descriptiveName>
@@ -8,7 +9,7 @@
         <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
     </topicCategories>
     <resourceIdentifiers>
-        <resourceID/>
+        <resourceID></resourceID>
         <resourceGUID>{cefd75f7-e2bc-48b7-b10f-39bc204efd32}</resourceGUID>
     </resourceIdentifiers>
     <dataSubResources>
@@ -24,7 +25,7 @@
 		<dataSubResource>
             <subResourceType>external</subResourceType>
             <subResourceIdentifiers>
-                <subResourceGUID/>
+                <subResourceGUID></subResourceGUID>
             </subResourceIdentifiers>
             <subResourceAccess>
                 <subResourceURL type="HTML" description="" name="Web Soil Survey - View and Download">http://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm</subResourceURL>

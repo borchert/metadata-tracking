@@ -1,9 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE dataResource SYSTEM "dataResource.dtd">
 <dataResource>
   <baseName>base_aerialphotography_2014_serv</baseName>
   <descriptiveName>Aerial Photography - 2014, Dakota County, Minnesota</descriptiveName>
   <publisherID>us_mn_co_dakota</publisherID>
-  <currentAsofDate/>
+  <currentAsofDate></currentAsofDate>
   <topicCategories>
     <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
   </topicCategories>
@@ -19,6 +20,30 @@
       </subResourceIdentifiers>
       <subResourceAccess>
         <subResourceURL type="ServiceDescription" description="" name="">http://gis2.co.dakota.mn.us/arcgis/rest/services/AerialPhotography/2014AirPhotoSpring6Inch/ImageServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>external</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{1806f0c8-0795-48cc-997d-08d9da2c88cf}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="HTML" description="" name="MrSid Download - East (1 of 2)">http://gis.co.dakota.mn.us/WebsiteGISData/aerialphotography/mrsid/2014DakotaCoCountyCoord_East.sid</subResourceURL>
+        <subResourceURL type="HTML" description="" name="MrSID World File Download - East (2 of 2)">http://gis.co.dakota.mn.us/WebsiteGISData/aerialphotography/mrsid/2014DakotaCoCountyCoord_East.sdw</subResourceURL>
+        <subResourceURL type="HTML" description="" name="MrSid Download - North (1 of 2)">http://gis.co.dakota.mn.us/WebsiteGISData/aerialphotography/mrsid/2014DakotaCoCountyCoord_North.sid</subResourceURL>
+        <subResourceURL type="HTML" description="" name="MrSID World File Download - North (2 of 2)">http://gis.co.dakota.mn.us/WebsiteGISData/aerialphotography/mrsid/2014DakotaCoCountyCoord_North.sdw</subResourceURL>
+        <subResourceURL type="HTML" description="" name="MrSid Download - Southwest (1 of 2)">http://gis.co.dakota.mn.us/WebsiteGISData/aerialphotography/mrsid/2014DakotaCoCountyCoord_SouthWest.sid</subResourceURL>
+        <subResourceURL type="HTML" description="" name="MrSID World File Download - Southwest (2 of 2)">http://gis.co.dakota.mn.us/WebsiteGISData/aerialphotography/mrsid/2014DakotaCoCountyCoord_SouthWest.sdw</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>wms</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{6709cb7a-1e87-4037-8b35-20e53370033f}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceGetCapabilities" description="" name="">http://gis2.co.dakota.mn.us/arcgis/services/AerialPhotography/2014AirPhotoSpring6Inch/ImageServer/WMSServer?request=GetCapabilities</subResourceURL>
+        <subResourceURL type="ServiceSampleURL" description="" name="">http://gis2.co.dakota.mn.us/arcgis/services/AerialPhotography/2014AirPhotoSpring6Inch/ImageServer/WMSServer?LAYERS=0&amp;FORMAT=image/jpeg&amp;TRANSPARENT=TRUE&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;STYLES=&amp;CRS=EPSG:26915&amp;BBOX=489649,4958886,490149,4959386&amp;WIDTH=256&amp;HEIGHT=256</subResourceURL>
       </subResourceAccess>
     </dataSubResource>
   </dataSubResources>

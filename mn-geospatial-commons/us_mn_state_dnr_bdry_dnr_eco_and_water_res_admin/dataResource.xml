@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_dnr_eco_and_water_res_admin</baseName>
     <descriptiveName>DNR Division of Ecological and Water Resources Districts</descriptiveName>

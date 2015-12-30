@@ -1,122 +1,17 @@
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <title>American Community Survey 5-Year Summary File</title>
-        <origin>U.S. Census Bureau</origin>
-        <pubinfo>
-          <publish>Metropolitan Council</publish>
-        </pubinfo>
-        <pubdate>20141204</pubdate>
-        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-society-census-acs</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>American Community Survey (ACS) provides detailed demographic, social, economic, commuting and housing statistics based on continuous survey data collection. Data collected over the most recent 5 years are batched, summarized and published the following December. 
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><metadata><idinfo><citation><citeinfo><title>American Community Survey 5-Year Summary File</title><origin>U.S. Census Bureau</origin><pubinfo><publish>Metropolitan Council</publish></pubinfo><pubdate>20151202</pubdate><onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-society-census-acs</onlink></citeinfo></citation><descript><abstract>American Community Survey (ACS) provides detailed demographic, social, economic, commuting and housing statistics based on continuous survey data collection. Data collected over the most recent 5 years are batched, summarized and published the following December. 
 
-These files contain summary data for Census Block Groups (CensusACSBlockGroup.xlsx), Tracts (CensusACSTract.xlsx), minor civil divisions (CensusACSMCD.xlsx), school districts (CensusACSSchoolDistrict.xlsx), and ZIP code tabulation areas (CensusACSZipCode.xlsx).</abstract>
-      <purpose>American Community Survey (ACS) provides detailed demographic, social, economic, commuting and housing statistics based on continuous survey data collection. Data collected over the most recent 5 years are batched, summarized and published the following December.   Summary tables compiled with 5-year data have approximately 20,000 variables from 900 tabulations. The published Census statistics have been recompiled by Metropolitan Council, with custom field names, in order to accomplish definitional and categorical consistency between Census 1990, Census 2000, and ACS.</purpose>
-      <supplinf>This dataset covers Minnesota and Western Wisconsin.  Nationwide data is also available at http://www2.census.gov</supplinf>
-    </descript>
-    <timeperd>
-      <current>Data available annually.
-Please contact Matt Schroeder (contact information below) for historical data tables.</current>
-      <timeinfo>
-        <rngdates>
-          <begdate>2009</begdate>
-          <enddate>2013</enddate>
-        </rngdates>
-      </timeinfo>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>Annually</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-97.23</westbc>
-        <eastbc>-89.53</eastbc>
-        <northbc>49.37</northbc>
-        <southbc>43.5</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <theme>
-        <themekey>census, demographics, population, socioeconomic characteristics, American Community Survey</themekey>
-        <themekt>None</themekt>
-      </theme>
-      <place>
-        <placekey>Metro, Twin Cities</placekey>
-      </place>
-    </keywords>
-    <accconst>None</accconst>
-    <useconst>None</useconst>
-    <browse>
-      <browsen>None available</browsen>
-    </browse>
-    <crossref>
-      <citeinfo>
-        <title>Census TIGER Block Groups, Tracts, Minor Civil Divisions, School Districts,  ZIP Code Tabulation Areas.</title>
-      </citeinfo>
-    </crossref>
-    <native>Oracle Version 10g, Release 2</native>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Matt Schroeder</cntper>
-        </cntperp>
-        <cntpos>Senior Researcher</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1513</cntvoice>
-        <cntemail>matt.schroeder@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <attracc>
-      <attraccr>Statistics produced for American Community Survey and included in ACS tables are survey-based estimates and are subject to error. The errors derive from research design (including instrument bias, data frame, and sampling), the survey data collection (non-response bias and response errors), and processing by the Census Bureau (data coding, compilation processes, and case weighting), as well as statistical inference error and uncertainty (which are related to sample size and variance within the measured attributes).  US Census Bureau's report on "Accuracy of the Data" can be found at http://www.census.gov/acs/www/data_documentation/documentation_main/</attraccr>
-    </attracc>
-    <lineage>
-      <procstep>
-        <procdesc>Data available annually, starting with period 2005-09. 
-Each annual vintage release uses the most recent year's TIGER geographic boundaries.  </procdesc>
-      </procstep>
-      <srcinfo>
-        <srcscale/>
-      </srcinfo>
-    </lineage>
-    <complete>Entire state is covered. Some data elements (fields) may have missing values for some geogs (records) due to sample size insufficent for estimation.</complete>
-  </dataqual>
-  <spref>
-    <vertdef>
-      <altsys>
-        <altdatum>not applicable</altdatum>
-        <altunits>NA</altunits>
-      </altsys>
-      <depthsys>
-        <depthdn>NA</depthdn>
-        <depthdu>NA</depthdu>
-      </depthsys>
-    </vertdef>
-  </spref>
-  <eainfo>
-    <overview>
-      <eaover>Attributes for Tabular Data: 
+These files contain summary data for Census Block Groups (CensusACSBlockGroup.xlsx), Tracts (CensusACSTract.xlsx), minor civil divisions (CensusACSMCD.xlsx), school districts (CensusACSSchoolDistrict.xlsx), and ZIP code tabulation areas (CensusACSZipCode.xlsx).</abstract><purpose>American Community Survey (ACS) provides detailed demographic, social, economic, commuting and housing statistics based on continuous survey data collection. Data collected over the most recent 5 years are batched, summarized and published the following December.   Summary tables compiled with 5-year data have approximately 20,000 variables from 900 tabulations. The published Census statistics have been recompiled by Metropolitan Council, with custom field names, in order to accomplish definitional and categorical consistency between Census 1990, Census 2000, and ACS.</purpose><supplinf>This dataset covers Minnesota and Western Wisconsin.  Nationwide data is also available at http://www2.census.gov</supplinf></descript><timeperd><current>Data available annually.
+Please contact Matt Schroeder (contact information below) for historical data tables.</current><timeinfo><rngdates><begdate>2010</begdate><enddate>2014</enddate></rngdates></timeinfo></timeperd><status><progress>Complete</progress><update>Annually</update></status><spdom><bounding><westbc>-97.23</westbc><eastbc>-89.53</eastbc><northbc>49.37</northbc><southbc>43.5</southbc></bounding></spdom><keywords><theme><themekey>census, demographics, population, socioeconomic characteristics, American Community Survey</themekey><themekt>None</themekt></theme><place><placekey>Metro, Twin Cities</placekey></place></keywords><accconst>None</accconst><useconst>None</useconst><browse><browsen>None available</browsen></browse><crossref><citeinfo><title>Census TIGER Block Groups, Tracts, Minor Civil Divisions, School Districts,  ZIP Code Tabulation Areas.</title></citeinfo></crossref><native>Oracle Version 10g, Release 2</native><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Matt Schroeder</cntper></cntperp><cntpos>Senior Researcher</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1513</cntvoice><cntemail>matt.schroeder@metc.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>Statistics produced for American Community Survey and included in ACS tables are survey-based estimates and are subject to error. The errors derive from research design (including instrument bias, data frame, and sampling), the survey data collection (non-response bias and response errors), and processing by the Census Bureau (data coding, compilation processes, and case weighting), as well as statistical inference error and uncertainty (which are related to sample size and variance within the measured attributes).  US Census Bureau's report on "Accuracy of the Data" can be found at http://www.census.gov/acs/www/data_documentation/documentation_main/</attraccr></attracc><lineage><procstep><procdesc>Data available annually, starting with period 2005-09. 
+Each annual vintage release uses the most recent year's TIGER geographic boundaries.  </procdesc></procstep><srcinfo><srcscale></srcscale></srcinfo></lineage><complete>Entire state is covered. Some data elements (fields) may have missing values for some geogs (records) due to sample size insufficent for estimation.</complete></dataqual><spref><vertdef><altsys><altdatum>not applicable</altdatum><altunits>NA</altunits></altsys><depthsys><depthdn>NA</depthdn><depthdu>NA</depthdu></depthsys></vertdef></spref><eainfo><overview><eaover>Attributes for Tabular Data (not all geographic identifiers appear in all files; for example, the MCD file does not contain TRACT or BLKGRP): 
 
 GEOG_UNIT =  identifier for the combination of State, County, Tract and Block Group codes; or State, County and Minor Civil Division codes; or State and School District; or State and ZIP codes 
 GEOG_LEVEL = Identifies data as Tract (TRACT), Block Group (BG), Minor Civil Division (COCTU), School District (SCHLD), or ZIP Code tabulation area (ZCTA) summarization  
 GEOID = Unique identifier used by Census FactFinder website 
 STATE =  2 digit FIPS 
 COUNTY =  3 digit FIPS and state standard county ID code 
-COUSUB =  County subdivision
+COUSUB =  County subdivision (Minor Civil Division)
 PLACE =  Place
+COCTU_CODE = 3-digit FIPS county ID code followed by 5-digit FIPS county subdivision code
 TRACT =  6 digit Tract ID 
 BLKGRP =  Additional digit ID for Block Groups 
 B00001e1 =  n people participating in sample of completed surveys (B00001)
@@ -125,7 +20,7 @@ GEONAME =  Name label for geographic unit
 GEOID2 =  Reduced form of GEOID (the first 8 characters of GEOID removed) 
 GEOCOMP =  Census provided code identifying filtering or subtotaling. This field should be coded '00'
 SUMLEV =  Census provided code for geographic summarization level 
-TCFLAG =  Code identifying location(1)&#157; in the Met Council region (2) in an adjacent Minnesota county or (3) in an adjacent Wisconsin county. 
+TCFLAG =  Code identifying location(1) in the Met Council region (2) in an adjacent Minnesota county or (3) in an adjacent Wisconsin county. 
 SOURCE =  Identifies the Census dataset 
 YEAR =  Identifies the year of data collection. 
 POPTOTAL =  total population (B01001) 
@@ -337,66 +232,4 @@ PPHMF5 =  average household size in larger buildings (B25032 and B25033)
 PPHMOBILE =  average household size in manufactured or mobile home units (B25032 and B25033) 
 PPHOTHER =  average household size in other or NEC shelters (B25032 and B25033)
 
-</eaover>
-      <eadetcit>None</eadetcit>
-    </overview>
-  </eainfo>
-  <distinfo>
-    <resdesc>ACS 5 Year Summary File</resdesc>
-    <distliab>NOTICE:  The data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The Metropolitan Council developed some of the data for its own internal business purposes and is redistributing data developed by other data providers (e.g., the U.S. Census Bureau and the Minnesota Department of Employment and Economic Development).  The Metropolitan Council does not represent or warrant that the data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the data or your reliance on the data.  You should consult the data documentation for these particular data to determine the limitations of the data.  If you transmit or provide the data (or any portion of it) to another user, it is recommended that the data include a copy of this disclaimer and this metadata.</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>csv file</formname>
-          <formvern>NA</formvern>
-          <transize>Less than 10 MB for zip file</transize>
-        </digtinfo>
-      </digform>
-      <ordering>See Online Linkage Below</ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Matt Schroeder</cntper>
-        </cntperp>
-        <cntpos>Senior Researcher</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1513</cntvoice>
-        <cntemail>matt.schroeder@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20141204</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Todd Graham</cntper>
-        </cntperp>
-        <cntpos>Research Manager</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1322</cntvoice>
-        <cntemail>todd.graham@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-</metadata>
+</eaover><eadetcit>None</eadetcit></overview></eainfo><distinfo><resdesc>ACS 5 Year Summary File</resdesc><distliab>NOTICE:  The data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The Metropolitan Council developed some of the data for its own internal business purposes and is redistributing data developed by other data providers (e.g., the U.S. Census Bureau and the Minnesota Department of Employment and Economic Development).  The Metropolitan Council does not represent or warrant that the data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the data or your reliance on the data.  You should consult the data documentation for these particular data to determine the limitations of the data.  If you transmit or provide the data (or any portion of it) to another user, it is recommended that the data include a copy of this disclaimer and this metadata.</distliab><stdorder><digform><digtinfo><formname>csv file</formname><formvern>NA</formvern><transize>Less than 10 MB for zip file</transize></digtinfo></digform><ordering>See Online Linkage Below</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Matt Schroeder</cntper></cntperp><cntpos>Senior Researcher</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1513</cntvoice><cntemail>matt.schroeder@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20151202</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Matt Schroeder</cntper></cntperp><cntpos>Senior Researcher</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1513</cntvoice><cntemail>matt.schroeder@metc.state.mn.us</cntemail></cntinfo></metc></metainfo></metadata>

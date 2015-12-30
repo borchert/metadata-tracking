@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>env_wild_rice_lakes_rivers_wld</baseName>
     <descriptiveName>Wild Rice Locations on Lakes and Rivers Identified by DNR Wildlife</descriptiveName>

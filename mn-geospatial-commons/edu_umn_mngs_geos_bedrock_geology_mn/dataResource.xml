@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>geos_bedrock_geology_mn</baseName>
     <descriptiveName>S-21 Geologic Map of Minnesota - Bedrock Geology (2011)</descriptiveName>

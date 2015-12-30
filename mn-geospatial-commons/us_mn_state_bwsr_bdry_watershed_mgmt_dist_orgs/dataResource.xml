@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_watershed_mgmt_dist_orgs</baseName>
     <descriptiveName>Watershed Management Districts and Organizations</descriptiveName>

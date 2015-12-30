@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>econ_mdor_income_tax</baseName>
     <descriptiveName>Income Tax, Minnesota, 2003-2008</descriptiveName>
@@ -10,7 +11,7 @@
         <topicCategory type="ISO 19115">economy</topicCategory>
     </topicCategories>
     <resourceIdentifiers>
-        <resourceID/>
+        <resourceID></resourceID>
         <resourceGUID>{5ba1db52-fea5-43b6-a746-63677ab6dff8}</resourceGUID>
     </resourceIdentifiers>
     <dataSubResources>

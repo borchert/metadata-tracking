@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>elev_elevation_rosemount</baseName>
   <descriptiveName>1-Foot Contours, Rosemount, Dakota County, Minnesota</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{d7254305-2f75-4ca9-a829-3f20bc5dc0e1}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>base_mn_composite_image_service</baseName>
     <descriptiveName>Minnesota Composite Image Service</descriptiveName>

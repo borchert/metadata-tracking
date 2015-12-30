@@ -1,10 +1,11 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>trans_superior_hiking_trail</baseName>
     <descriptiveName>Superior Hiking Trail</descriptiveName>
     <publisher>Minnesota DNR - Division of Waters</publisher>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-11-18</currentAsofDate>
+    <currentAsofDate>2015-12-23</currentAsofDate>
     <resourceType>ESRI File Geodatabase</resourceType>
     <topicCategories>
         <topicCategory type="ISO 19115">transportation</topicCategory>

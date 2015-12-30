@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>env_mn_ruffed_grouse</baseName>
     <descriptiveName>Minnesota Ruffed Grouse</descriptiveName>

@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>loc_geodetic</baseName>
     <descriptiveName>Geodetic Database</descriptiveName>
@@ -8,7 +9,7 @@
         <topicCategory type="ISO 19115">location</topicCategory>
     </topicCategories>
     <resourceIdentifiers>
-        <resourceID/>
+        <resourceID></resourceID>
         <resourceGUID>{d5e42789-fd32-46cf-b9ae-feb3136828b4}</resourceGUID>
     </resourceIdentifiers>
     <dataSubResources>

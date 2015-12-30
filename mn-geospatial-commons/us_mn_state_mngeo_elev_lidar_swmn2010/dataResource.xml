@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>elev_lidar_swmn2010</baseName>
     <descriptiveName>LiDAR Elevation, Minnesota River Basin, Southwest Minnesota, 2010</descriptiveName>

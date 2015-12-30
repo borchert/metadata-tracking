@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>env_prairie_change_analysis_2008</baseName>
     <descriptiveName>Prairie Change Analysis 1991-2008</descriptiveName>

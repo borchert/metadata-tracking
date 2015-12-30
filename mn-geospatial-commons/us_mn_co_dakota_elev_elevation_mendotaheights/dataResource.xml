@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>elev_elevation_mendotaheights</baseName>
   <descriptiveName>1-Foot Contours, Mendota Heights, Dakota County, Minnesota</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{876d93a5-eeac-48ac-8b9e-b4d7d88a0b2d}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

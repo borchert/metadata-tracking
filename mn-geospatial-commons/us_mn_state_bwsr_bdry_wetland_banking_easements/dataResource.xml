@@ -1,9 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE dataResource SYSTEM "dataResource.dtd">
 <dataResource>
   <baseName>bdry_wetland_banking_easements</baseName>
   <descriptiveName>Minnesota Wetland Banking Program Easements</descriptiveName>
   <publisherID>us_mn_state_bwsr</publisherID>
-  <currentAsofDate/>
+  <currentAsofDate></currentAsofDate>
   <topicCategories>
     <topicCategory type="ISO 19115">boundaries</topicCategory>
     <topicCategory type="ISO 19115">environment</topicCategory>
@@ -19,7 +20,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{043f20bb-eb4e-479b-b08b-7f758fdba662}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

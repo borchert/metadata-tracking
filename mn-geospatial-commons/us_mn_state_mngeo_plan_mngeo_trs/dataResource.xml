@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>plan_mngeo_trs</baseName>
     <descriptiveName>Township, Range, and Section (TRS) Boundaries, Minnesota</descriptiveName>
@@ -10,7 +11,7 @@
         <topicCategory type="ISO 19115">planningCadastre</topicCategory>
     </topicCategories>
     <resourceIdentifiers>
-        <resourceID/>
+        <resourceID></resourceID>
         <resourceGUID>{00a1b064-edcb-4c4d-85d4-9d763d9041f9}</resourceGUID>
     </resourceIdentifiers>
     <dataSubResources>

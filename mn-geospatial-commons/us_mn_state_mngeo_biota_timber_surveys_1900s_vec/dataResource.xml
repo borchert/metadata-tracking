@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>biota_timber_surveys_1900s_vec</baseName>
     <descriptiveName>Reports of Estimates and Appraisals of the Timber Commissioners Board, Minnesota, 1895-1905: Vector Format</descriptiveName>
@@ -8,7 +9,7 @@
         <topicCategory type="ISO 19115">biota</topicCategory>
     </topicCategories>
     <resourceIdentifiers>
-        <resourceID/>
+        <resourceID></resourceID>
         <resourceGUID>{a5777423-4183-4a68-8d48-094e055f22b5}</resourceGUID>
     </resourceIdentifiers>
     <dataSubResources>

@@ -1,9 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE dataResource SYSTEM "dataResource.dtd">
 <dataResource>
   <baseName>trans_park_and_ride_lots</baseName>
   <descriptiveName>Metro Transit Park and Ride Lots</descriptiveName>
   <publisherID>us_mn_state_metc</publisherID>
-  <currentAsofDate/>
+  <currentAsofDate></currentAsofDate>
   <topicCategories>
     <topicCategory type="ISO 19115">transportation</topicCategory>
   </topicCategories>
@@ -17,7 +18,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{1f9801b6-4d77-4f9b-bc0a-70fa97b7bbda}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
     <dataSubResource>
       <subResourceType>ags_mapserver</subResourceType>

@@ -1,4 +1,4 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>elev_lidar_blueearth2012</baseName>
     <descriptiveName>LiDAR Elevation, Blue Earth County, Minnesota, 2012</descriptiveName>

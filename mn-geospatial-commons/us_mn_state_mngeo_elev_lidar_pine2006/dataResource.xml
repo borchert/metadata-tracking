@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>elev_lidar_pine2006</baseName>
     <descriptiveName>LiDAR Elevation, Pine County, Minnesota, 2006</descriptiveName>

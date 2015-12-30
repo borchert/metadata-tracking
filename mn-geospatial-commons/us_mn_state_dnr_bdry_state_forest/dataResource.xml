@@ -1,10 +1,11 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_state_forest</baseName>
     <descriptiveName>State Forest Boundaries</descriptiveName>
     <publisher>Minnesota DNR - Division of Forestry</publisher>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-11-13</currentAsofDate>
+    <currentAsofDate>2015-12-25</currentAsofDate>
     <resourceType>ESRI File Geodatabase</resourceType>
     <topicCategories>
         <topicCategory type="ISO 19115">boundaries</topicCategory>

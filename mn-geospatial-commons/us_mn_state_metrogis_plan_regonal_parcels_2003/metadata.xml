@@ -1,19 +1,4 @@
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>Counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington</origin>
-        <pubdate>200401</pubdate>
-        <title>MetroGIS Regional Parcel Dataset (Year End 2003) </title>
-        <mgmg1cid>N/A</mgmg1cid>
-        <pubinfo>
-          <publish>The Metropolitan Council and the Counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington</publish>
-        </pubinfo>
-        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metrogis-plan-regonal-parcels-2003</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>This dataset is a compilation of tax parcel polygon layers from the seven Twin Cities, Minnesota metropolitan area counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington.  The seven counties were assembled into a common coordinate system.  No attempt has been made to edgematch or rubbersheet between counties.  A standard set of attribute fields is included for each county.  Not all attributes are populated for all counties.
+<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>Counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington</origin><pubdate>200401</pubdate><title>MetroGIS Regional Parcel Dataset (Year End 2003) </title><mgmg1cid>N/A</mgmg1cid><pubinfo><publish>The Metropolitan Council and the Counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington</publish></pubinfo><onlink>https://gisdata.mn.gov/dataset/us-mn-state-metrogis-plan-regonal-parcels-2003</onlink></citeinfo></citation><descript><abstract>This dataset is a compilation of tax parcel polygon layers from the seven Twin Cities, Minnesota metropolitan area counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington.  The seven counties were assembled into a common coordinate system.  No attempt has been made to edgematch or rubbersheet between counties.  A standard set of attribute fields is included for each county.  Not all attributes are populated for all counties.
 
 This is an annual version of the MetroGIS Regional Parcel Dataset that can be used with other annual versions to do change analysis and time series investigations. This dataset is intended to contain all updates to each county's parcel data through the end of 2003.  It was originally published as the 'January 1, 2004' version of the dataset. See the Currentness Reference below and the Entity and Attribute information in Section 5 for more information about the dates for specific aspects of the dataset. 
 
@@ -22,17 +7,7 @@ This dataset contains one record for each real estate/tax parcel polygon.  In ma
 Some counties have also made available a parcel points dataset that includes the same attribute fields as the polygon dataset.  The point are intended to provide information in situations where multiple tax parcels are represented by a single polygon.  The primary example of this is the condominium.  Condominiums, by definition, are legally owned as individual, taxed real estate units.  Records for condominiums may not show up in the polygon dataset.
 
 This is a MetroGIS Regionally Endorsed dataset.  
-</abstract>
-      <purpose>To view, analyze and display parcel data anywhere in the seven county metro area.  This is an annual version of the MetroGIS Regional Parcel Dataset that can be used with other annual versions to do change analysis and time series investigations.</purpose>
-      <supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
-    </descript>
-    <timeperd>
-      <timeinfo>
-        <sngdate>
-          <caldate>20031231</caldate>
-        </sngdate>
-      </timeinfo>
-      <current>This dataset reflects the status of each county's parcel polygon and attribute data as of the following dates:
+</abstract><purpose>To view, analyze and display parcel data anywhere in the seven county metro area.  This is an annual version of the MetroGIS Regional Parcel Dataset that can be used with other annual versions to do change analysis and time series investigations.</purpose><supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>20031231</caldate></sngdate></timeinfo><current>This dataset reflects the status of each county's parcel polygon and attribute data as of the following dates:
 
 Anoka = 12/16/2003 for polygons and 12/16/2003 for attributes
 Carver = 01/21/2004 for polygons and 01/21/2004 for attributes
@@ -40,75 +15,13 @@ Dakota = 12/31/2003 for polygons and 12/31/2003 for attributes
 Hennepin = 01/12/2004 for polygons and 01/05/2004 for attributes
 Ramsey = 01/05/2004 for polygons, attribute dates vary
 Scott = 01/08/2004 for polygons and 01/10/2004 for attributes
-Washington = 12/26/2003 for polygons and 12/26/2003 for attributes</current>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>Annually</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-94.012</westbc>
-        <eastbc>-92.732</eastbc>
-        <northbc>45.415</northbc>
-        <southbc>44.471</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <theme>
-        <themekt>None</themekt>
-        <themekey>parcels, regional parcel data, cadastre, land ownership</themekey>
-      </theme>
-      <place>
-        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
-      </place>
-    </keywords>
-    <accconst>None</accconst>
-    <useconst>None</useconst>
-    <browse>
-      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metrogis/plan_regonal_parcels_2003/metadata/preview.jpg</browsen>
-      <browsed>Sample map showing the MetroGIS Regional Parcel Data.</browsed>
-    </browse>
-    <native>See metadata for individual counties.</native>
-    <crossref>
-      <citeinfo>
-        <title>Regional Parcel Dataset - Seven County Twin Cities Metropolitan Area
-2002 - current</title>
-      </citeinfo>
-    </crossref>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Tanya Mayer</cntper>
-        </cntperp>
-        <cntpos>GIS Specialist</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1604</cntvoice>
-        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <attracc>
-      <attraccr>A standard set of attribute fields is included for each county.  However, not all attributes are available for all counties.  No attempt has been made by MetroGIS to assess the accuracy of the attribute data.
+Washington = 12/26/2003 for polygons and 12/26/2003 for attributes</current></timeperd><status><progress>Complete</progress><update>Annually</update></status><spdom><bounding><westbc>-94.012</westbc><eastbc>-92.732</eastbc><northbc>45.415</northbc><southbc>44.471</southbc></bounding></spdom><keywords><theme><themekt>None</themekt><themekey>parcels, regional parcel data, cadastre, land ownership</themekey></theme><place><placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey></place></keywords><accconst>None</accconst><useconst>None</useconst><browse><browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metrogis/plan_regonal_parcels_2003/metadata/preview.jpg</browsen><browsed>Sample map showing the MetroGIS Regional Parcel Data.</browsed></browse><native>See metadata for individual counties.</native><crossref><citeinfo><title>Regional Parcel Dataset - Seven County Twin Cities Metropolitan Area
+2002 - current</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Tanya Mayer</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1604</cntvoice><cntemail>tanya.mayer@metc.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>A standard set of attribute fields is included for each county.  However, not all attributes are available for all counties.  No attempt has been made by MetroGIS to assess the accuracy of the attribute data.
 
-Any questions or comments about suspected errors or omissions in this dataset can be addressed to the contact person listed in the individual county metadata.   Links to that metadata can be found in the Horizontal Positional Accuracy element below.</attraccr>
-    </attracc>
-    <logic>No attempt was made to edgematch or rubbersheet the seven counties, thus overlaps and gaps will exist between counties.  Not all tax parcels are represented by a unique polygon.   For example, a county might have one polygon representing a condominium complex.  Some counties have provided an additional parcel points shape file that will include points to represent such tax parcels (e.g. a point for each individual condominium).</logic>
-    <complete>For parcel attributes, see Section 5 of this metadata.
+Any questions or comments about suspected errors or omissions in this dataset can be addressed to the contact person listed in the individual county metadata.   Links to that metadata can be found in the Horizontal Positional Accuracy element below.</attraccr></attracc><logic>No attempt was made to edgematch or rubbersheet the seven counties, thus overlaps and gaps will exist between counties.  Not all tax parcels are represented by a unique polygon.   For example, a county might have one polygon representing a condominium complex.  Some counties have provided an additional parcel points shape file that will include points to represent such tax parcels (e.g. a point for each individual condominium).</logic><complete>For parcel attributes, see Section 5 of this metadata.
 For parcel geography, see metadata for individual counties.
 
-Any questions or comments about suspected errors or omissions in this dataset can be addressed to the contact person listed in the individual county metadata.   Links to that metadata can be found in the Horizontal Positional Accuracy element below.</complete>
-    <posacc>
-      <horizpa>
-        <horizpar>ANOKA:   No information provided.
+Any questions or comments about suspected errors or omissions in this dataset can be addressed to the contact person listed in the individual county metadata.   Links to that metadata can be found in the Horizontal Positional Accuracy element below.</complete><posacc><horizpa><horizpar>ANOKA:   No information provided.
 
 CARVER:  The Horizontal Accuracy of the counties parcel dataset is, for the most part, UNDER 1' accuracy. This is possible because the County's Surveyor used COGO (Coordinate Geometry) which is a highly accurate way of plotting parcel lines. 
 
@@ -124,29 +37,9 @@ WASHINGTON:  Digitized features outside areas of high vertical relief (e.g. majo
 
 Digitized features within areas of high vertical relief tested 120 feet horizontal accuracy by other testing procedures. 
 
-All other features are generated by coordinate geometry and based on a framework of accurately located PLSS corner positions used with public information of record. Computed positions of parcel boundaries are not based on individual field surveys. Although tests of randomly selected points may show high accuracy between field and parcel map content, variations between boundary monumentation and legal description of record can and do exist. Caution is necessary in use of land boundary data shown. Contact the Land Management/Land Survey Division for more information.</horizpar>
-      </horizpa>
-    </posacc>
-    <lineage>
-      <srcinfo>
-        <srcscale/>
-      </srcinfo>
-      <procstep>
-        <procdesc>Each county provided parcel polygons and attributes in shape file format with UTM coordinates, to the Metropolitan Council.  The Metropolitan Council checked each shape file to insure it had all desired attribute fields, field names, types and lengths.  
+All other features are generated by coordinate geometry and based on a framework of accurately located PLSS corner positions used with public information of record. Computed positions of parcel boundaries are not based on individual field surveys. Although tests of randomly selected points may show high accuracy between field and parcel map content, variations between boundary monumentation and legal description of record can and do exist. Caution is necessary in use of land boundary data shown. Contact the Land Management/Land Survey Division for more information.</horizpar></horizpa></posacc><lineage><srcinfo><srcscale></srcscale></srcinfo><procstep><procdesc>Each county provided parcel polygons and attributes in shape file format with UTM coordinates, to the Metropolitan Council.  The Metropolitan Council checked each shape file to insure it had all desired attribute fields, field names, types and lengths.  
 
-No attempt was made to edgematch or rubber sheet the parcel geography between counties.</procdesc>
-      </procstep>
-    </lineage>
-  </dataqual>
-  <spdoinfo>
-    <indspref>None</indspref>
-    <direct>Vector</direct>
-    <mgmg3obj>polygon shapes</mgmg3obj>
-    <mgmg3til>One shape file for each of the seven counties.</mgmg3til>
-  </spdoinfo>
-  <eainfo>
-    <overview>
-      <eaover>A standard set of attribute fields is included for each county; however, not
+No attempt was made to edgematch or rubber sheet the parcel geography between counties.</procdesc></procstep></lineage></dataqual><spdoinfo><indspref>None</indspref><direct>Vector</direct><mgmg3obj>polygon shapes</mgmg3obj><mgmg3til>One shape file for each of the seven counties.</mgmg3til></spdoinfo><eainfo><overview><eaover>A standard set of attribute fields is included for each county; however, not
 all attributes fields are populated by each county.  Some qualifying comments
 have been provided by counties and are included after the description of
 the attributes.
@@ -404,89 +297,4 @@ PARC_CODE:  Parcel Polygon to Parcel Point and PIN Relationship Code. This
 
             Anoka:    No data. 
             Hennepin: No data. 
-            Scott:    No data.</eaover>
-    </overview>
-  </eainfo>
-  <distinfo>
-    <resdesc>MetroGIS Regional Parcels 2003</resdesc>
-    <distliab>NOTICE: The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13). THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott, and Washington (Counties) for their own internal business purposes. The Counties do not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, you must provide a copy of this disclaimer and the accompanying metadata for this dataset to the user.</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>Shapefile</formname>
-          <formvern>ArcGIS: 10x</formvern>
-          <transize>Less than 350 MB</transize>
-        </digtinfo>
-      </digform>
-      <ordering>See Online Linkage Below</ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Tanya Mayer</cntper>
-        </cntperp>
-        <cntpos>GIS Specialist</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1604</cntvoice>
-        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20120719</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Tanya Mayer</cntper>
-        </cntperp>
-        <cntpos>GIS Specialist</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1604</cntvoice>
-        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-  <Esri>
-    <ModDate>20120224</ModDate>
-    <ModTime>15420700</ModTime>
-  </Esri>
-  <mdDateSt Sync="TRUE">20120224</mdDateSt>
-  <spref>
-    <horizsys>
-      <planar>
-        <gridsys>
-          <gridsysn>Universal Transverse Mercator</gridsysn>
-          <utm>
-            <utmzone>15</utmzone>
-          </utm>
-        </gridsys>
-        <planci>
-          <plandu>meters</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>NAD83</horizdn>
-        <ellips>GRS80</ellips>
-      </geodetic>
-    </horizsys>
-  </spref>
-</metadata>
+            Scott:    No data.</eaover></overview></eainfo><distinfo><resdesc>MetroGIS Regional Parcels 2003</resdesc><distliab>NOTICE: The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13). THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott, and Washington (Counties) for their own internal business purposes. The Counties do not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, you must provide a copy of this disclaimer and the accompanying metadata for this dataset to the user.</distliab><stdorder><digform><digtinfo><formname>Shapefile</formname><formvern>ArcGIS: 10x</formvern><transize>Less than 350 MB</transize></digtinfo></digform><ordering>See Online Linkage Below</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Tanya Mayer</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1604</cntvoice><cntemail>tanya.mayer@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20120719</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Tanya Mayer</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1604</cntvoice><cntemail>tanya.mayer@metc.state.mn.us</cntemail></cntinfo></metc></metainfo><Esri><ModDate>20120224</ModDate><ModTime>15420700</ModTime></Esri><mdDateSt Sync="TRUE">20120224</mdDateSt><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

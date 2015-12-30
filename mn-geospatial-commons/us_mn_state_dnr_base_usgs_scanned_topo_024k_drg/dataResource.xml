@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>base_usgs_scanned_topo_024k_drg</baseName>
     <descriptiveName>1:24k Digital Raster Graphic - Collars Removed</descriptiveName>
@@ -18,8 +19,8 @@
                 <subResourceGUID>{c28ddeb0-05d2-4449-ade3-075821a84257}</subResourceGUID>
             </subResourceIdentifiers>
             <subResourceAccess>
-                <subResourceURL type="HTML" description="" name="File Geodatabase: full statewide raster">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/fgdb_base_usgs_scanned_topo_024k_drg.zip</subResourceURL>
-                <subResourceURL type="HTML" description="" name="Individual tif tiles">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/tif_base_usgs_scanned_topo_024k_drg.zip</subResourceURL>
+                <subResourceURL type="HTML" description="" name="esri File Geodatabase: full statewide raster (3.8 GB)">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/fgdb_base_usgs_scanned_topo_024k_drg.zip</subResourceURL>
+                <subResourceURL type="HTML" description="" name="Individual tif tiles (2.9 GB)">ftp://gdrs.dnr.state.mn.us/gdrs/data/pub/us_mn_state_dnr/tif_base_usgs_scanned_topo_024k_drg.zip</subResourceURL>
             </subResourceAccess>
         </dataSubResource>
     </dataSubResources>

@@ -1,9 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE dataResource SYSTEM "dataResource.dtd">
 <dataResource>
   <baseName>agri_mawqcp_areas</baseName>
   <descriptiveName>MN_agricultural_water_quality_certification_program_areas</descriptiveName>
   <publisherID>us_mn_state_mda</publisherID>
-  <currentAsofDate/>
+  <currentAsofDate></currentAsofDate>
   <topicCategories>
     <topicCategory type="ISO 19115">farming</topicCategory>
     <topicCategory type="ISO 19115">inlandWaters</topicCategory>
@@ -20,7 +21,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{4ecacaad-e299-4724-9a5b-2eb0d20fe0f9}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

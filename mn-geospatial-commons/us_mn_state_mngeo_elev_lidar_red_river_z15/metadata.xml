@@ -1,29 +1,10 @@
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>International Water Institute</origin>
-        <title>LiDAR Elevation, Red River of the North Basin, 2008-2010, UTM Zone 15</title>
-        <pubdate>20120917</pubdate>
-        <pubinfo>
-          <publish>Minnesota DNR</publish>
-        </pubinfo>
-        <onlink>http://www.dnr.state.mn.us/maps/mntopo/index.html</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>This dataset contains LiDAR-derived elevation products for the Minnesota portion of the Red River of the North Basin. The Minnesota Department of Natural Resources (DNR) processed the data to make it consistent with other LiDAR data available in Minnesota, including converting it to UTM Zone 15 coordinates and tiling to 3.25 square mile blocks based on 1/16 of a standard USGS 1:24,000 quadrangle.
+<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>International Water Institute</origin><title>LiDAR Elevation, Red River of the North Basin, 2008-2010, UTM Zone 15</title><pubdate>20120917</pubdate><pubinfo><publish>Minnesota DNR</publish></pubinfo><onlink>http://www.dnr.state.mn.us/maps/mntopo/index.html</onlink></citeinfo></citation><descript><abstract>This dataset contains LiDAR-derived elevation products for the Minnesota portion of the Red River of the North Basin. The Minnesota Department of Natural Resources (DNR) processed the data to make it consistent with other LiDAR data available in Minnesota, including converting it to UTM Zone 15 coordinates and tiling to 3.25 square mile blocks based on 1/16 of a standard USGS 1:24,000 quadrangle.
 
 Data covers the following Minnesota counties: Becker, Beltrami, Big Stone, Clay, Clearwater, Grant, Kittson, Koochiching (northern portion), Lake of the Woods, Mahnomen, Marshall, Norman, Otter Tail, Pennington, Polk, Red Lake, Roseau, Stevens, Traverse, Wilkin. Products included are: One- and three-meter DEMs, one- and three-meter hillshades, and two-foot contours, plus a tile index map for each county. Since breaklines were not available for all of the Minnesota portion of the basin, the data has not been hydro-flattened.
 
 The original data was provided by the International Water Institute (IWI) and the United States Geological Survey. IWI's Red River Basin Mapping Initiative acquired a highly accurate digital elevation model (DEM) for the Red River of the North Basin south of the U.S./Canada border in UTM Zone 14 coordinates.
 
-Note: This metadata record was created at the Minnesota Geospatial Information Office by combining information from the IWI and DNR.</abstract>
-      <purpose>The Red River Basin Mapping Initiative was initiated to create a highly accurate digital elevation model and associated LiDAR data products to enhance natural resources decision-making in the Red River of the North basin. The need for accurate elevation data in the RRB has been established by the International Joint Commission (IJC 2000), the International Flood Mitigation Initiative (IFMI 2000), and the US Army Corps of Engineers (USACE 2004) following the devastating flood of 1997. Highly accurate elevation data are essential to improving disaster preparedness, protecting existing infrastructure, planning flood and drought damage mitigation projects, enhancing agricultural production, and strengthening decision-making capacity at all levels of government.</purpose>
-      <supplinf>The Minnesota portion of the Red River of the North Basin - see Place Keywords for list of counties included.</supplinf>
-    </descript>
-    <timeperd>
-      <current>April 19, 2008 to Spring 2010
+Note: This metadata record was created at the Minnesota Geospatial Information Office by combining information from the IWI and DNR.</abstract><purpose>The Red River Basin Mapping Initiative was initiated to create a highly accurate digital elevation model and associated LiDAR data products to enhance natural resources decision-making in the Red River of the North basin. The need for accurate elevation data in the RRB has been established by the International Joint Commission (IJC 2000), the International Flood Mitigation Initiative (IFMI 2000), and the US Army Corps of Engineers (USACE 2004) following the devastating flood of 1997. Highly accurate elevation data are essential to improving disaster preparedness, protecting existing infrastructure, planning flood and drought damage mitigation projects, enhancing agricultural production, and strengthening decision-making capacity at all levels of government.</purpose><supplinf>The Minnesota portion of the Red River of the North Basin - see Place Keywords for list of counties included.</supplinf></descript><timeperd><current>April 19, 2008 to Spring 2010
 
 Acquisition_Dates for each block:
 LiDAR Block A - 4-19-08 to 5-2-08;
@@ -44,83 +25,15 @@ LiDAR Block O - 10-28-08 to 11-1-08;
 LiDAR Block Lake of the Woods - 5-17-09;
 LiDAR Block Koochiching - 5-17-09 to 5-30-09;
 LiDAR Block Big Stone - Spring 2010;
-Film Blocks ABCD - 4-18-08 to 5-20-08, 5-10-09 to 5-17-09</current>
-      <timeinfo>
-        <sngdate>
-          <caldate>2010</caldate>
-        </sngdate>
-      </timeinfo>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>Irregular</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-97.4</westbc>
-        <eastbc>-93.0</eastbc>
-        <northbc>49.1</northbc>
-        <southbc>45.4</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <place>
-        <placekey>Minnesota, MN, Red River Basin, Becker, Beltrami, Big Stone, Clay, Clearwater, Grant, Kittson, Koochiching (northern portion), Lake of the Woods, Mahnomen, Marshall, Norman, Otter Tail, Pennington, Polk, Red Lake, Roseau, Stevens, Traverse, Wilkin.</placekey>
-      </place>
-      <theme>
-        <themekt>ISO 19115</themekt>
-        <themekey>elevation, LiDAR, DEM, digital elevation model, contour, topographic, topo, DTM, LAS, breakline</themekey>
-      </theme>
-    </keywords>
-    <accconst>None</accconst>
-    <useconst>See Disclaimer field for complete use conditions. The International Water Institute asks to be credited in any derived products or services.</useconst>
-    <crossref>
-      <citeinfo>
-        <title>For more information about elevation data for Minnesota, see: http://www.mngeo.state.mn.us/chouse/elevation/index.html
+Film Blocks ABCD - 4-18-08 to 5-20-08, 5-10-09 to 5-17-09</current><timeinfo><sngdate><caldate>2010</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>Irregular</update></status><spdom><bounding><westbc>-97.4</westbc><eastbc>-93.0</eastbc><northbc>49.1</northbc><southbc>45.4</southbc></bounding></spdom><keywords><place><placekey>Minnesota, MN, Red River Basin, Becker, Beltrami, Big Stone, Clay, Clearwater, Grant, Kittson, Koochiching (northern portion), Lake of the Woods, Mahnomen, Marshall, Norman, Otter Tail, Pennington, Polk, Red Lake, Roseau, Stevens, Traverse, Wilkin.</placekey></place><theme><themekt>ISO 19115</themekt><themekey>elevation, LiDAR, DEM, digital elevation model, contour, topographic, topo, DTM, LAS, breakline</themekey></theme></keywords><accconst>None</accconst><useconst>See Disclaimer field for complete use conditions. The International Water Institute asks to be credited in any derived products or services.</useconst><crossref><citeinfo><title>For more information about elevation data for Minnesota, see: http://www.mngeo.state.mn.us/chouse/elevation/index.html
 
-For more information about the Zone 14 version of the data, which extends into South and North Dakota, see the dataset documentation:  http://www.rrbdin.org/wp-content/uploads/2011/10/RRBMI_Metadata.html and the International Water Institute website:  http://www.iwinst.org/lidar/</title>
-      </citeinfo>
-    </crossref>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>International Water Institute</cntorg>
-          <cntper>Charles Fritz</cntper>
-        </cntperp>
-        <cntpos>Director</cntpos>
-        <cntaddr>
-          <addrtype>Mailing and Physical</addrtype>
-          <address>650 HP Avenue, Renaissance Hall, Suite #110</address>
-          <city>Fargo</city>
-          <state>ND</state>
-          <postal>58102</postal>
-        </cntaddr>
-        <cntvoice>701-388-0861</cntvoice>
-        <cntemail>charles@iwinst.org</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <posacc>
-      <horizpa>
-        <horizpar>&lt;= 1 meter RMSE
+For more information about the Zone 14 version of the data, which extends into South and North Dakota, see the dataset documentation:  http://www.rrbdin.org/wp-content/uploads/2011/10/RRBMI_Metadata.html and the International Water Institute website:  http://www.iwinst.org/lidar/</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>International Water Institute</cntorg><cntper>Charles Fritz</cntper></cntperp><cntpos>Director</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>650 HP Avenue, Renaissance Hall, Suite #110</address><city>Fargo</city><state>ND</state><postal>58102</postal></cntaddr><cntvoice>701-388-0861</cntvoice><cntemail>charles@iwinst.org</cntemail></cntinfo></ptcontac></idinfo><dataqual><posacc><horizpa><horizpar>&lt;= 1 meter RMSE
 
-The NAD83 (CORS96) datum was used.</horizpar>
-      </horizpa>
-      <vertacc>
-        <vertaccr>&lt;= 15cm RMSE - meets the FEMA requirements for floodplain mapping.
+The NAD83 (CORS96) datum was used.</horizpar></horizpa><vertacc><vertaccr>&lt;= 15cm RMSE - meets the FEMA requirements for floodplain mapping.
     Validated through 3rd party QA review.
     Detailed information for each block are available under 'Quality Control Reports' at http://www.internationalwaterinstitute.org/lidar.htm
 
-The NAVD88 Geod03 vertical datum was used.</vertaccr>
-      </vertacc>
-    </posacc>
-    <attracc>
-      <attraccr>GPS phase data was post processed with continuous kinematic survey techniques using "On the Fly" (OTF) integer ambiguity resolution. The GPS data was processed with forward and reverse processing algorithms. The results from each process, using the data collected at the airport and in project area, were combined to yield a single fixed integer phase differential solution of the aircraft trajectory. The differences between the forward to reverse solution within the project area were within project specifications, indicating a valid and accurate solution. An IMU was used to record precise changes in position and orientation of the LiDAR scanner at a rate of 200 Hz. All IMU data was processed post flight with a filter to integrate inertial measurements and precise phase differential GPS positions. The resulting solution contains geodetic position, omega, phi, kappa, and time for subsequent merging with the laser ranging information.</attraccr>
-    </attracc>
-    <lineage>
-      <procstep>
-        <procdesc>Original Project Collection of Data for the U.S. portion of the Red River Basin in UTM Zone 14 Coordinates
+The NAVD88 Geod03 vertical datum was used.</vertaccr></vertacc></posacc><attracc><attraccr>GPS phase data was post processed with continuous kinematic survey techniques using "On the Fly" (OTF) integer ambiguity resolution. The GPS data was processed with forward and reverse processing algorithms. The results from each process, using the data collected at the airport and in project area, were combined to yield a single fixed integer phase differential solution of the aircraft trajectory. The differences between the forward to reverse solution within the project area were within project specifications, indicating a valid and accurate solution. An IMU was used to record precise changes in position and orientation of the LiDAR scanner at a rate of 200 Hz. All IMU data was processed post flight with a filter to integrate inertial measurements and precise phase differential GPS positions. The resulting solution contains geodetic position, omega, phi, kappa, and time for subsequent merging with the laser ranging information.</attraccr></attracc><lineage><procstep><procdesc>Original Project Collection of Data for the U.S. portion of the Red River Basin in UTM Zone 14 Coordinates
 
 Fugro Horizons Inc., in cooperation with North West Geomatics and Fugro EarthData, acquired LiDAR with Leica sensor ALS50-II MPiA for the U.S. part of the Red River Basin. The Red River Basin covers North Dakota, Minnesota, South Dakota and flows into Canada. The U.S. part of the Red River of the North Basin encompasses 40,733 sq miles. The LiDAR acquisition (leaf off conditions) occurred between spring 2008 and spring 2010.
 
@@ -160,22 +73,13 @@ Additional Products Generated by Minnesota DNR staff:
 These products are in the geodatabase for each of the counties and tiles:
 
 1. Two-foot contours were created by resampling the 1-meter DEM to 3 meters, then smoothing the 3-meter grid using a neighborhood average routine, and then creating contours from this surface using standard ArcGIS processing tools.
-2. Hillshades were created from the one- and three-meter DEMs using standard ArcMap tools. Azimuth value = 215, Altitude = 45, Z-Factor = 1</procdesc>
-      </procstep>
-    </lineage>
-    <complete>Tiles that bordered the Central Lakes area flown in Spring 2012 (primarily Beltrami, Clearwater and Becker counties) were originally not included in order to avoid publishing partial tiles of data.
+2. Hillshades were created from the one- and three-meter DEMs using standard ArcMap tools. Azimuth value = 215, Altitude = 45, Z-Factor = 1</procdesc></procstep></lineage><complete>Tiles that bordered the Central Lakes area flown in Spring 2012 (primarily Beltrami, Clearwater and Becker counties) were originally not included in order to avoid publishing partial tiles of data.
 
-For more information about the Central Lakes area collect, see:  http://www.mngeo.state.mn.us/chouse/metadata/lidar_centrallakes2012.html</complete>
-  </dataqual>
-  <distinfo>
-    <distliab>In no event shall the creators, custodians, or distributors of this information be liable for any damages arising out of its use (or the inability to use it).
+For more information about the Central Lakes area collect, see:  http://www.mngeo.state.mn.us/chouse/metadata/lidar_centrallakes2012.html</complete></dataqual><distinfo><distliab>In no event shall the creators, custodians, or distributors of this information be liable for any damages arising out of its use (or the inability to use it).
 
 1. The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html
 
-2.  MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab>
-    <resdesc>Red River Basin LiDAR, Zone 15 version</resdesc>
-    <stdorder>
-      <ordering>The LiDAR data provided by DNR may be viewed online or downloaded in several ways:
+2.  MnGeo's data disclaimer is online: http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab><resdesc>Red River Basin LiDAR, Zone 15 version</resdesc><stdorder><ordering>The LiDAR data provided by DNR may be viewed online or downloaded in several ways:
 
 1. MnTOPO website: http://www.dnr.state.mn.us/maps/mntopo/index.html (or click the link below in the Online Linkage field)
 
@@ -192,72 +96,4 @@ The county mosaics are named elevation_data.gdb.zip For details of their content
 b. In the 250k tiles folder: ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/q250k/
 
 
-For more help with Minnesota's LiDAR data, see http://www.mngeo.state.mn.us/chouse/elevation/lidar.html</ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
-          <cntper>Nancy Rader</cntper>
-        </cntperp>
-        <cntpos>GIS Data Coordinator</cntpos>
-        <cntaddr>
-          <addrtype>Mailing and Physical</addrtype>
-          <address>658 Cedar Street, Room 300</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55155</postal>
-        </cntaddr>
-        <cntvoice>651-201-2489</cntvoice>
-        <cntfax>651-296-6398</cntfax>
-        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20140520</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
-          <cntper>Nancy Rader</cntper>
-        </cntperp>
-        <cntpos>GIS Data Coordinator</cntpos>
-        <cntaddr>
-          <addrtype>Mailing and Physical</addrtype>
-          <address>658 Cedar Street, Room 300</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55155</postal>
-        </cntaddr>
-        <cntvoice>651-201-2489</cntvoice>
-        <cntfax>651-296-6398</cntfax>
-        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-  <spref>
-    <horizsys>
-      <planar>
-        <gridsys>
-          <gridsysn>Universal Transverse Mercator</gridsysn>
-          <utm>
-            <utmzone>15</utmzone>
-          </utm>
-        </gridsys>
-        <planci>
-          <plandu>meters</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>NAD83</horizdn>
-        <ellips>GRS80</ellips>
-      </geodetic>
-    </horizsys>
-  </spref>
-</metadata>
+For more help with Minnesota's LiDAR data, see http://www.mngeo.state.mn.us/chouse/elevation/lidar.html</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>658 Cedar Street, Room 300</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntfax>651-296-6398</cntfax><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20140520</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>658 Cedar Street, Room 300</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntfax>651-296-6398</cntfax><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

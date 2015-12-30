@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_dnr_wildlife_mgmt_areas_pub</baseName>
     <descriptiveName>State Wildlife Management Area Boundaries - Publicly Accessible</descriptiveName>

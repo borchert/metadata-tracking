@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>base_saip_central_nw2013_14_50cm</baseName>
     <descriptiveName>Digital Orthoimagery, Central and Northwest Minnesota, Spring 2013-14, 0.5-m Resolution</descriptiveName>

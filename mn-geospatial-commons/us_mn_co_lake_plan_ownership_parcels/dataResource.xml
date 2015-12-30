@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>plan_ownership_parcels</baseName>
     <descriptiveName>Generalized Land Ownership, Lake County, Minnesota</descriptiveName>

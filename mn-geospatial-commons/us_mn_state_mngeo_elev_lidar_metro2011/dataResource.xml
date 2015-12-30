@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>elev_lidar_metro2011</baseName>
     <descriptiveName>LiDAR Elevation, Twin Cities Metro Region, Minnesota, 2011</descriptiveName>

@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>water_fishing_in_neighborhood</baseName>
     <descriptiveName>DNR Hydrography - Fishing in the Neighborhood (FiN) Ponds</descriptiveName>

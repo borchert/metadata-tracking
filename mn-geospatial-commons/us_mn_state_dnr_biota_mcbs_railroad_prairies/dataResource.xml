@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>biota_mcbs_railroad_prairies</baseName>
     <descriptiveName>MCBS Railroad Rights-of-Way Prairies</descriptiveName>

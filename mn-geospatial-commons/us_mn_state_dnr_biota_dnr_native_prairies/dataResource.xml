@@ -1,10 +1,11 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>biota_dnr_native_prairies</baseName>
     <descriptiveName>DNR Prairie Native Plant Communities</descriptiveName>
     <publisher>Minnesota DNR</publisher>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-11-19</currentAsofDate>
+    <currentAsofDate>2015-12-24</currentAsofDate>
     <resourceType>ESRI File Geodatabase</resourceType>
     <topicCategories>
         <topicCategory type="ISO 19115">biota</topicCategory>

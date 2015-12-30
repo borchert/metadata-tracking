@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_wildlife_refuge_inventory</baseName>
     <descriptiveName>WildLife Refuge Inventory</descriptiveName>

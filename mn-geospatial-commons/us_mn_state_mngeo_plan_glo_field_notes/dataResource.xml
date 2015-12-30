@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>plan_glo_field_notes</baseName>
     <descriptiveName>Original Public Land Survey (PLS) Field Notes, Minnesota, Digital Format</descriptiveName>
@@ -8,7 +9,7 @@
         <topicCategory type="ISO 19115">planningCadastre</topicCategory>
     </topicCategories>
     <resourceIdentifiers>
-        <resourceID/>
+        <resourceID></resourceID>
         <resourceGUID>{fbdd63a7-01f3-40e8-817c-148c5a49f761}</resourceGUID>
     </resourceIdentifiers>
     <dataSubResources>

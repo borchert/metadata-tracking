@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>plan_generl_lnduse2010</baseName>
   <descriptiveName>Generalized Land Use, 2010</descriptiveName>
@@ -24,7 +25,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{6d0142bf-62b6-41c2-95eb-ed161fc1ca35}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

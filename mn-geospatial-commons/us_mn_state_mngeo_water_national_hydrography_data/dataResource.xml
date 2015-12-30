@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>water_national_hydrography_data</baseName>
     <descriptiveName>National Hydrography Dataset</descriptiveName>

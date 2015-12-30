@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>elev_lidar_centrallakes2012</baseName>
     <descriptiveName>LiDAR Elevation, Central Lakes Region, Minnesota, 2012</descriptiveName>

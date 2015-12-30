@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_turkey_permit_areas</baseName>
     <descriptiveName>Minnesota Turkey Permit Areas</descriptiveName>

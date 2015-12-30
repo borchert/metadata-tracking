@@ -1,109 +1,15 @@
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>Metropolitan Council</origin>
-        <pubdate>20000509</pubdate>
-        <title>Aggregate Resources 1997, 2020 and 2040</title>
-        <mgmg1cid>N/A</mgmg1cid>
-        <pubinfo>
-          <publish>Metropolitan Council</publish>
-        </pubinfo>
-        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-geos-aggregate-resources</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>The Aggregate Resources (sand, gravel and limestone and dolomite) dataset contains three separate shape files for aggregate resources for 1997, 2020 and 2040. Each layer encompasses the seven-county Twin Cities (Minneapolis and St. Paul) Metropolitan Area in Minnesota. The dataset was developed by the Metropolitan Council, a regional governmental organization that deals, in part, with regional issues and long range planning for the Twin Cities area. The data were derived from a map by Meyer, G.N., and Mossler, J.H., 1999, Primary sources of construction aggregate in the seven-county metropolitan area, Minnesota: Minnesota Geological Survey, Miscellaneous Map Series M-102, two plates, scale 1:100,000 that depicts pre-urbanization resources. The data were then modified to reflect depletion by mining and areas that were occupied by urban and rural development in 1997, or are forecasted to urbanize by 2020 and 2040. The data were also modified by removing aggregate deposits that cannot be mined because of such environmental constraints as wetlands, streams, scientific and natural resources areas, open water bodies, and roadways.</abstract>
-      <purpose>To assist local and regional planning efforts for the management of aggregate resources of the Metropolitan Area.</purpose>
-      <supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
-    </descript>
-    <timeperd>
-      <timeinfo>
-        <sngdate>
-          <caldate>20000509</caldate>
-        </sngdate>
-      </timeinfo>
-      <current>Land Use from ground condition (air photos) as of April 13th &amp; 14th, 1997. 
+<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>Metropolitan Council</origin><pubdate>20000509</pubdate><title>Aggregate Resources 1997, 2020 and 2040</title><mgmg1cid>N/A</mgmg1cid><pubinfo><publish>Metropolitan Council</publish></pubinfo><onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-geos-aggregate-resources</onlink></citeinfo></citation><descript><abstract>The Aggregate Resources (sand, gravel and limestone and dolomite) dataset contains three separate shape files for aggregate resources for 1997, 2020 and 2040. Each layer encompasses the seven-county Twin Cities (Minneapolis and St. Paul) Metropolitan Area in Minnesota. The dataset was developed by the Metropolitan Council, a regional governmental organization that deals, in part, with regional issues and long range planning for the Twin Cities area. The data were derived from a map by Meyer, G.N., and Mossler, J.H., 1999, Primary sources of construction aggregate in the seven-county metropolitan area, Minnesota: Minnesota Geological Survey, Miscellaneous Map Series M-102, two plates, scale 1:100,000 that depicts pre-urbanization resources. The data were then modified to reflect depletion by mining and areas that were occupied by urban and rural development in 1997, or are forecasted to urbanize by 2020 and 2040. The data were also modified by removing aggregate deposits that cannot be mined because of such environmental constraints as wetlands, streams, scientific and natural resources areas, open water bodies, and roadways.</abstract><purpose>To assist local and regional planning efforts for the management of aggregate resources of the Metropolitan Area.</purpose><supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>20000509</caldate></sngdate></timeinfo><current>Land Use from ground condition (air photos) as of April 13th &amp; 14th, 1997. 
 
 Regional Growth Strategy, 1996.
 
-Geology from data mapped and captured at 1:24,000 scale in 1981-83 and updated in 1998-99.</current>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>None Planned</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-94.012</westbc>
-        <eastbc>-92.732</eastbc>
-        <northbc>45.415</northbc>
-        <southbc>44.471</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <theme>
-        <themekt>None</themekt>
-        <themekey>geology, Aggregate resources, Sand and Gravel, Dolostone</themekey>
-      </theme>
-      <place>
-        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
-      </place>
-    </keywords>
-    <accconst>None</accconst>
-    <useconst>None</useconst>
-    <native>ArcView Version 3.2, NT platform</native>
-    <crossref>
-      <citeinfo>
-        <title>Aggregate Resources 1997, 2020 and 2040
+Geology from data mapped and captured at 1:24,000 scale in 1981-83 and updated in 1998-99.</current></timeperd><status><progress>Complete</progress><update>None Planned</update></status><spdom><bounding><westbc>-94.012</westbc><eastbc>-92.732</eastbc><northbc>45.415</northbc><southbc>44.471</southbc></bounding></spdom><keywords><theme><themekt>None</themekt><themekey>geology, Aggregate resources, Sand and Gravel, Dolostone</themekey></theme><place><placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey></place></keywords><accconst>None</accconst><useconst>None</useconst><native>ArcView Version 3.2, NT platform</native><crossref><citeinfo><title>Aggregate Resources 1997, 2020 and 2040
 Generalized Land Use 1997 
 
-Meyer, G.N., and Mossler, J.H., 1999, Primary sources of construction aggregate in the seven-county metropolitan area, Minnesota: Minnesota Geological Survey [Digital dataset, November 1999]. (available from Minnesota Geological Survey)</title>
-      </citeinfo>
-    </crossref>
-    <browse>
-      <browsen>None Available</browsen>
-    </browse>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Emily Resseger</cntper>
-        </cntperp>
-        <cntpos>Principal Environmental Scientist</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1033</cntvoice>
-        <cntemail>emily.resseger@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <attracc>
-      <attraccr>During the land use interpretation, digital orthophotos and county parcel data with assessor's land use/type attributes were used. Reverse directories and field checks were used to augment this interpretation. Also, comments and corrections for the 1997 data from the cities and townships (each of which was given a map with the preliminary 1997 data) were used to update the 1997 layer.
+Meyer, G.N., and Mossler, J.H., 1999, Primary sources of construction aggregate in the seven-county metropolitan area, Minnesota: Minnesota Geological Survey [Digital dataset, November 1999]. (available from Minnesota Geological Survey)</title></citeinfo></crossref><browse><browsen>None Available</browsen></browse><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Emily Resseger</cntper></cntperp><cntpos>Principal Environmental Scientist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1033</cntvoice><cntemail>emily.resseger@metc.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>During the land use interpretation, digital orthophotos and county parcel data with assessor's land use/type attributes were used. Reverse directories and field checks were used to augment this interpretation. Also, comments and corrections for the 1997 data from the cities and townships (each of which was given a map with the preliminary 1997 data) were used to update the 1997 layer.
 
 The regional Growth Strategy map, 1996, (sometimes called the 2040 Growth Strategy) were developed by Metropolitan Council staff and approved by the Council in December of 1996. The policy areas are the Urban Core, the Urban Area, the Urban Reserve, Rural Growth Centers and Permanent Rural/Agricultural Areas in. In addition there is an illustrative 2020 Metropolitan Urban Service Area (MUSA). The positional accuracy of the dataset has not been tested under the National Standards for Spatial Data Accuracy. The positional accuracy of the dataset is estimated to be + or - 100 meters. The ''Illustrative 2020 MUSA'' category is basically a cartoon. It was put on the growth management map to convey the idea that there will be an interim 2020 MUSA. The actual boundaries have yet to be determined and may look VERY different. The positional accuracy of this category is therefore + or - many miles. 
 
-Bedrock aggregate resources and sand and gravel aggregate resources data were mapped and captured at 1:24,000 scale. The bedrock areas represent significant potential deposits of Prairie du Chien dolostone suitable for crushed aggregate with less than 10 ft of overlying material. The deposits are classified according to thickness and reliability of the mapping. The sand and gravel deposits are classified according to type and quality (based on percent of gravel content), thickness of deposit, amount of overlying material, relationship to water table, and reliability of the mapping.</attraccr>
-    </attracc>
-    <logic>The dataset is topologically 'clean'.</logic>
-    <complete>Entire seven county geographic area is covered. Incompleteness in attribute information is discussed under 'Attribute Accuracy' above.</complete>
-    <posacc>
-      <horizpa>
-        <horizpar>Estimating the horizontal positional accuracy of this layer is somewhat complicated, because a number of factors must be considered.</horizpar>
-      </horizpa>
-    </posacc>
-    <lineage>
-      <srcinfo>
-        <srcscale/>
-      </srcinfo>
-      <procstep>
-        <procdesc>DATA SOURCES:
+Bedrock aggregate resources and sand and gravel aggregate resources data were mapped and captured at 1:24,000 scale. The bedrock areas represent significant potential deposits of Prairie du Chien dolostone suitable for crushed aggregate with less than 10 ft of overlying material. The deposits are classified according to thickness and reliability of the mapping. The sand and gravel deposits are classified according to type and quality (based on percent of gravel content), thickness of deposit, amount of overlying material, relationship to water table, and reliability of the mapping.</attraccr></attracc><logic>The dataset is topologically 'clean'.</logic><complete>Entire seven county geographic area is covered. Incompleteness in attribute information is discussed under 'Attribute Accuracy' above.</complete><posacc><horizpa><horizpar>Estimating the horizontal positional accuracy of this layer is somewhat complicated, because a number of factors must be considered.</horizpar></horizpa></posacc><lineage><srcinfo><srcscale></srcscale></srcinfo><procstep><procdesc>DATA SOURCES:
 - 1997 digital orthophoto quarter quads (0.6 meter resolution)
 - 1997 land use delineations 
 - 1996 Regional Growth Strategy
@@ -172,19 +78,7 @@ No attempt was made to simulate aggregate demand and translate that into geograp
 
 The analysis was done using ArcView 3.2 software.
 
-Note: Projections of remaining available 2020 and 2040 resources, as reported in the report Aggregate Resources Inventory of the Seven-County Metropolitan Area, Minnesota, 2000, D.L. Southwick, M. Jouseau, G.N. Meyer, J.H. Mossler, and T.E. Wahl reflect cumulative demand under several scenarios.</procdesc>
-      </procstep>
-    </lineage>
-  </dataqual>
-  <spdoinfo>
-    <indspref>None</indspref>
-    <direct>Vector</direct>
-    <mgmg3obj>polygon shapes</mgmg3obj>
-    <mgmg3til>One layer for entire seven county region.</mgmg3til>
-  </spdoinfo>
-  <eainfo>
-    <overview>
-      <eaover>dataset contains one attribute (apart from the default attribute  
+Note: Projections of remaining available 2020 and 2040 resources, as reported in the report Aggregate Resources Inventory of the Seven-County Metropolitan Area, Minnesota, 2000, D.L. Southwick, M. Jouseau, G.N. Meyer, J.H. Mossler, and T.E. Wahl reflect cumulative demand under several scenarios.</procdesc></procstep></lineage></dataqual><spdoinfo><indspref>None</indspref><direct>Vector</direct><mgmg3obj>polygon shapes</mgmg3obj><mgmg3til>One layer for entire seven county region.</mgmg3til></spdoinfo><eainfo><overview><eaover>dataset contains one attribute (apart from the default attribute  
 e.g. Area = polygons size in square meter).
   
 See Entity and Attribute Detailed Citation below for more information:
@@ -200,8 +94,7 @@ Agg_class:
    11 = Superior Lobe Sand and Gravel &gt; 40 ft thick, good to excellent quality
     A = Prairie du Chien Dolostone &gt; 30 ft thick
     B = Prairie du Chien Dolostone &gt;10 &lt;30 ft thick
-    C = Prairie du Chien Dolostone &lt; 10 ft thick</eaover>
-      <eadetcit>The bedrock geology and sand and gravel data were classified as to types, quality (percent of gravel content), thickness of overburden, position relative to the water table, and reliability of the mapping.
+    C = Prairie du Chien Dolostone &lt; 10 ft thick</eaover><eadetcit>The bedrock geology and sand and gravel data were classified as to types, quality (percent of gravel content), thickness of overburden, position relative to the water table, and reliability of the mapping.
 
 The following categories were established:
 
@@ -225,84 +118,4 @@ The following categories were established:
 
 - Class 10: Des Moines Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit &gt; 40 feet thick; overburden &lt;10 feet thick; water table deeper than 20 feet; good subsurface data. Material moderate to good quality. Thickness set at 40 feet for computing volume of aggregate resources. 
 
-- Class 11: Superior Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit &gt; 40 feet thick; overburden &lt;10 feet thick; water table deeper than 20 feet; good subsurface data. Material good to excellent quality. Thickness set at 40 feet for computing volume of aggregate resources</eadetcit>
-    </overview>
-  </eainfo>
-  <distinfo>
-    <resdesc>AggregateResources</resdesc>
-    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>ArcView Shape files</formname>
-          <formvern>ArcView: 3x</formvern>
-          <transize>3.6 MB for ZIP file.</transize>
-        </digtinfo>
-      </digform>
-      <ordering>See Online Linkage Below</ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Emily Resseger</cntper>
-        </cntperp>
-        <cntpos>Principal Environmental Scientist</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1033</cntvoice>
-        <cntemail>emily.resseger@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20010315</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Emily Resseger</cntper>
-        </cntperp>
-        <cntpos>Principal Environmental Scientist</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1033</cntvoice>
-        <cntemail>emily.resseger@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-  <spref>
-    <horizsys>
-      <planar>
-        <gridsys>
-          <gridsysn>Universal Transverse Mercator</gridsysn>
-          <utm>
-            <utmzone>15</utmzone>
-          </utm>
-        </gridsys>
-        <planci>
-          <plandu>meters</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>NAD83</horizdn>
-        <ellips>GRS80</ellips>
-      </geodetic>
-    </horizsys>
-  </spref>
-</metadata>
+- Class 11: Superior Lobe deposits; &gt;20% of bulk natural aggregate retained on #4 sieve; deposit &gt; 40 feet thick; overburden &lt;10 feet thick; water table deeper than 20 feet; good subsurface data. Material good to excellent quality. Thickness set at 40 feet for computing volume of aggregate resources</eadetcit></overview></eainfo><distinfo><resdesc>AggregateResources</resdesc><distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab><stdorder><digform><digtinfo><formname>ArcView Shape files</formname><formvern>ArcView: 3x</formvern><transize>3.6 MB for ZIP file.</transize></digtinfo></digform><ordering>See Online Linkage Below</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Emily Resseger</cntper></cntperp><cntpos>Principal Environmental Scientist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1033</cntvoice><cntemail>emily.resseger@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20010315</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Emily Resseger</cntper></cntperp><cntpos>Principal Environmental Scientist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1033</cntvoice><cntemail>emily.resseger@metc.state.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

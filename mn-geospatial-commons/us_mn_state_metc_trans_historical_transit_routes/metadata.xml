@@ -1,126 +1,20 @@
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>Metropolitan Council</origin>
-        <pubdate>periodically revised</pubdate>
-        <title>Historical Transit Routes</title>
-        <mgmg1cid>N/A</mgmg1cid>
-        <pubinfo>
-          <publish>Metropolitan Council</publish>
-        </pubinfo>
-        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-trans-historical-transit-routes</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>The Historical Transit Routes layer contains streetcar, horsecar, ferry, 1948 bus and steampower routes in the Twin Cities seven county metropolitan area.  One shape and one corresponding record exists for each dated route segment.
+<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>Metropolitan Council</origin><pubdate>periodically revised</pubdate><title>Historical Transit Routes</title><mgmg1cid>N/A</mgmg1cid><pubinfo><publish>Metropolitan Council</publish></pubinfo><onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-trans-historical-transit-routes</onlink></citeinfo></citation><descript><abstract>The Historical Transit Routes layer contains streetcar, horsecar, ferry, 1948 bus and steampower routes in the Twin Cities seven county metropolitan area.  One shape and one corresponding record exists for each dated route segment.
 
 The line work for the dataset was developed by referencing the Metropolitan Council's functional class road dataset. 
 
-Attributes include type, corridor, year start, year end, year restart and private right-of-way.  </abstract>
-      <purpose>To identify all locations in the Twin Cities metropolitan area where horsecars, streetcars, ferries, steam powered and 1948 bus routes traveled.</purpose>
-      <supplinf>Historical extent of streetcar routes in the Twin Cities metropolitan area.</supplinf>
-    </descript>
-    <timeperd>
-      <timeinfo>
-        <sngdate>
-          <caldate>20071101</caldate>
-        </sngdate>
-      </timeinfo>
-      <current>Routing information is accurate to reflect knowledge of transit history and referencing the book Isaacs A. &amp; Diers J.W. 2007.  Twin City Lines. The Streetcar Era in Minneapolis and St. Paul. University of Minnesota Press.
+Attributes include type, corridor, year start, year end, year restart and private right-of-way.  </abstract><purpose>To identify all locations in the Twin Cities metropolitan area where horsecars, streetcars, ferries, steam powered and 1948 bus routes traveled.</purpose><supplinf>Historical extent of streetcar routes in the Twin Cities metropolitan area.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>20071101</caldate></sngdate></timeinfo><current>Routing information is accurate to reflect knowledge of transit history and referencing the book Isaacs A. &amp; Diers J.W. 2007.  Twin City Lines. The Streetcar Era in Minneapolis and St. Paul. University of Minnesota Press.
 
-Attributes randomly checked by Metropolitan Council staff.</current>
-    </timeperd>
-    <status>
-      <progress>In work</progress>
-      <update>As needed</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-94.012</westbc>
-        <eastbc>-92.732</eastbc>
-        <northbc>45.415</northbc>
-        <southbc>44.471</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <theme>
-        <themekt>None</themekt>
-        <themekey>historical, historical transit routes, streetcar, horsecar, steampower, ferry, transit, buses, routes, streets, roads, transportation</themekey>
-      </theme>
-      <place>
-        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
-      </place>
-    </keywords>
-    <accconst>None</accconst>
-    <useconst>None</useconst>
-    <browse>
-      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/trans_historical_transit_routes/metadata/preview.jpg</browsen>
-    </browse>
-    <native>ArcGIS ArcInfo 9.2</native>
-    <crossref>
-      <citeinfo>
-        <title>Historical Transit Routes, Transit Routes, Hi-Frequency Transit Service Network, transit segments, Transit Stops</title>
-      </citeinfo>
-    </crossref>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council - Metro Transit</cntorg>
-          <cntper>Jason Podany</cntper>
-        </cntperp>
-        <cntpos>Transit/GIS Planner</cntpos>
-        <cntaddr>
-          <addrtype> mailing and physical address </addrtype>
-          <address>560 6th Ave N</address>
-          <city>Minneapolis</city>
-          <state>Minnesota</state>
-          <postal>55411</postal>
-        </cntaddr>
-        <cntvoice>612-349-7714</cntvoice>
-        <cntemail>jason.podany@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <attracc>
-      <attraccr>TYPE, CORRIDOR, YR_START, YR_END1, YR_START2 and PRIV_ROW were derived by using information provided in the book Isaacs A. &amp; Diers J.W. 2007.  Twin City Lines. The Streetcar Era in Minneapolis and St. Paul. University of Minnesota Press.  
-Attributes randomly checked by Metropolitan Council GIS staff.</attraccr>
-    </attracc>
-    <logic>This dataset contains one record and one polyLine shape for each dated route segment in the historical transit system.  In most cases, several of the individual line shapes overlap each other, and remain as overlapping components of the polyLine.  This can present problems when splitting out the individual components of the polyLine during editing processes, such as splitting or calculating length.</logic>
-    <complete>Entire seven county transit area is covered.</complete>
-    <posacc>
-      <horizpa>
-        <horizpar>Positional accuracy varies throughout the dataset.  Most line work was developed referencing the Metropolitan Council's Functional Class Road layer.
+Attributes randomly checked by Metropolitan Council staff.</current></timeperd><status><progress>In work</progress><update>As needed</update></status><spdom><bounding><westbc>-94.012</westbc><eastbc>-92.732</eastbc><northbc>45.415</northbc><southbc>44.471</southbc></bounding></spdom><keywords><theme><themekt>None</themekt><themekey>historical, historical transit routes, streetcar, horsecar, steampower, ferry, transit, buses, routes, streets, roads, transportation</themekey></theme><place><placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey></place></keywords><accconst>None</accconst><useconst>None</useconst><browse><browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/trans_historical_transit_routes/metadata/preview.jpg</browsen></browse><native>ArcGIS ArcInfo 9.2</native><crossref><citeinfo><title>Historical Transit Routes, Transit Routes, Hi-Frequency Transit Service Network, transit segments, Transit Stops</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council - Metro Transit</cntorg><cntper>Jason Podany</cntper></cntperp><cntpos>Transit/GIS Planner</cntpos><cntaddr><addrtype> mailing and physical address </addrtype><address>560 6th Ave N</address><city>Minneapolis</city><state>Minnesota</state><postal>55411</postal></cntaddr><cntvoice>612-349-7714</cntvoice><cntemail>jason.podany@metc.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>TYPE, CORRIDOR, YR_START, YR_END1, YR_START2 and PRIV_ROW were derived by using information provided in the book Isaacs A. &amp; Diers J.W. 2007.  Twin City Lines. The Streetcar Era in Minneapolis and St. Paul. University of Minnesota Press.  
+Attributes randomly checked by Metropolitan Council GIS staff.</attraccr></attracc><logic>This dataset contains one record and one polyLine shape for each dated route segment in the historical transit system.  In most cases, several of the individual line shapes overlap each other, and remain as overlapping components of the polyLine.  This can present problems when splitting out the individual components of the polyLine during editing processes, such as splitting or calculating length.</logic><complete>Entire seven county transit area is covered.</complete><posacc><horizpa><horizpar>Positional accuracy varies throughout the dataset.  Most line work was developed referencing the Metropolitan Council's Functional Class Road layer.
 
 Text below taken from Functional Class Road metadata:
 
 There are differing degrees of positional accuracy throughout the file. TLG adjusts the positional accuracy of the data to available sources known to have a greater degrees of accuracy then those used to generate the existing data. However, in all cases (including instances where COGO line work has been the reference) TLG generalizes the street segments to at least 4 feet in order to greatly reduce the number of vertices - thus reducing unnecessary file size and allowing for faster analysis.
 
-TLG's goal is to have 95% of roads located to within the approximate center of digital right-of-way data or pavement centerlines provided from counties, where such digital data is available. In other areas, 95% of roads are intended to be within ten meters of the road or right-of-way center.</horizpar>
-      </horizpa>
-    </posacc>
-    <lineage>
-      <srcinfo>
-        <srcscale/>
-      </srcinfo>
-      <procstep>
-        <procdesc>This dataset was created from scratch.
+TLG's goal is to have 95% of roads located to within the approximate center of digital right-of-way data or pavement centerlines provided from counties, where such digital data is available. In other areas, 95% of roads are intended to be within ten meters of the road or right-of-way center.</horizpar></horizpa></posacc><lineage><srcinfo><srcscale></srcscale></srcinfo><procstep><procdesc>This dataset was created from scratch.
 The historical transit routes dataset was defined with Met Council-defined functional class roads.  See the metadata for the Bus Segments dataset for more information.
 
-See the metadata for the TLG Street Centerline layer for source information.</procdesc>
-      </procstep>
-    </lineage>
-  </dataqual>
-  <spdoinfo>
-    <indspref>None</indspref>
-    <direct>Vector</direct>
-    <mgmg3obj>arcs, nodes</mgmg3obj>
-    <mgmg3til>One layer for entire seven county region.</mgmg3til>
-  </spdoinfo>
-  <eainfo>
-    <overview>
-      <eaover>LINE ATTRIBUTES:
+See the metadata for the TLG Street Centerline layer for source information.</procdesc></procstep></lineage></dataqual><spdoinfo><indspref>None</indspref><direct>Vector</direct><mgmg3obj>arcs, nodes</mgmg3obj><mgmg3til>One layer for entire seven county region.</mgmg3til></spdoinfo><eainfo><overview><eaover>LINE ATTRIBUTES:
 
 TYPE:       The type of service provided.  Attributes include transit 
 1948 Bus Route, Cable Car, Ferry, Freight, Horsecar, Steam Power,
@@ -134,89 +28,4 @@ YR_END1:    The year the transit segment terminated operation.
 
 YR_START2:  The year transit service was restarted on the segment.
 
-PRIV_ROW:   Indicates whether the service operated on private right-of-way.</eaover>
-    </overview>
-  </eainfo>
-  <distinfo>
-    <resdesc>HistoricalTransitRoutes</resdesc>
-    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>ArcView Shape File</formname>
-          <formvern>ArcView: 3x</formvern>
-          <transize>1.2 Meg. for self extracting ZIP file.</transize>
-        </digtinfo>
-      </digform>
-      <ordering>See Online Linkage Below</ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Jon Hoekenga</cntper>
-        </cntperp>
-        <cntpos>GIS System Administrator</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>Minnesota</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651-602-1561</cntvoice>
-        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20071101</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council - Metro Transit</cntorg>
-          <cntper>Jason Podany</cntper>
-        </cntperp>
-        <cntpos>Transit/GIS Planner</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>560 6th Ave N</address>
-          <city>Minneapolis</city>
-          <state>Minnesota</state>
-          <postal>55411</postal>
-        </cntaddr>
-        <cntvoice>612-349-7714</cntvoice>
-        <cntemail>jason.podany@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-  <Esri>
-    <ModDate>20071115</ModDate>
-    <ModTime>09434900</ModTime>
-  </Esri>
-  <mdDateSt Sync="TRUE">20071115</mdDateSt>
-  <spref>
-    <horizsys>
-      <planar>
-        <gridsys>
-          <gridsysn>Universal Transverse Mercator</gridsysn>
-          <utm>
-            <utmzone>15</utmzone>
-          </utm>
-        </gridsys>
-        <planci>
-          <plandu>meters</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>NAD83</horizdn>
-        <ellips>GRS80</ellips>
-      </geodetic>
-    </horizsys>
-  </spref>
-</metadata>
+PRIV_ROW:   Indicates whether the service operated on private right-of-way.</eaover></overview></eainfo><distinfo><resdesc>HistoricalTransitRoutes</resdesc><distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab><stdorder><digform><digtinfo><formname>ArcView Shape File</formname><formvern>ArcView: 3x</formvern><transize>1.2 Meg. for self extracting ZIP file.</transize></digtinfo></digform><ordering>See Online Linkage Below</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Jon Hoekenga</cntper></cntperp><cntpos>GIS System Administrator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>Minnesota</state><postal>55101-1805</postal></cntaddr><cntvoice>651-602-1561</cntvoice><cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20071101</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council - Metro Transit</cntorg><cntper>Jason Podany</cntper></cntperp><cntpos>Transit/GIS Planner</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>560 6th Ave N</address><city>Minneapolis</city><state>Minnesota</state><postal>55411</postal></cntaddr><cntvoice>612-349-7714</cntvoice><cntemail>jason.podany@metc.state.mn.us</cntemail></cntinfo></metc></metainfo><Esri><ModDate>20071115</ModDate><ModTime>09434900</ModTime></Esri><mdDateSt Sync="TRUE">20071115</mdDateSt><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

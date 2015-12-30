@@ -1,8 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>trans_stop_boardings_alightings</baseName>
   <descriptiveName>Transit Stop Boardings And Alightings</descriptiveName>
   <publisherID>us_mn_state_metc</publisherID>
-  <currentAsofDate>2015-09-01</currentAsofDate>
+  <currentAsofDate>2015-11-25</currentAsofDate>
   <topicCategories>
     <topicCategory type="ISO 19115">transportation</topicCategory>
   </topicCategories>
@@ -11,11 +12,18 @@
   </resourceIdentifiers>
   <dataSubResources>
     <dataSubResource>
+      <subResourceType>xlsx</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{09731b97-7ba1-4332-a2a2-0a86f1faff4d}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess />
+    </dataSubResource>
+    <dataSubResource>
       <subResourceType>fgdb</subResourceType>
       <subResourceIdentifiers>
-        <subResourceGUID>{3e6aafa7-c7c1-4766-ae42-1623f33d2962}</subResourceGUID>
+        <subResourceGUID>{e6effd86-f005-46e1-b05a-fd17e7a0ebac}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

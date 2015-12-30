@@ -1,19 +1,4 @@
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>Metropolitan Council</origin>
-        <pubdate>20000607</pubdate>
-        <title>Generalized Land Use Acreage Totals 1970 - 1997</title>
-        <mgmg1cid/>
-        <pubinfo>
-          <publish>Metropolitan Council</publish>
-        </pubinfo>
-        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-plan-generl-lnduse-acrs1970-1997</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>The Generalized Land Use Acreage Totals 1970 - 1997 database is a tabular data file.  It is NOT A GIS LAYER.  The table contains acreage totals by municipality for the years of 1970, 1975, 1980, 1984, 1990 &amp; 1997.  
+<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>Metropolitan Council</origin><pubdate>20000607</pubdate><title>Generalized Land Use Acreage Totals 1970 - 1997</title><mgmg1cid></mgmg1cid><pubinfo><publish>Metropolitan Council</publish></pubinfo><onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-plan-generl-lnduse-acrs1970-1997</onlink></citeinfo></citation><descript><abstract>The Generalized Land Use Acreage Totals 1970 - 1997 database is a tabular data file.  It is NOT A GIS LAYER.  The table contains acreage totals by municipality for the years of 1970, 1975, 1980, 1984, 1990 &amp; 1997.  
 
 The acreage totals are given by County-MCD.  County-MCD (field name ''COMCD'') is defined as the portion of a Minor Civil Division (municipality) that resides within a county.  Most, but not all MCDs reside entirely within one county. 
 
@@ -29,100 +14,14 @@ NOTES:
 - Categories used for summarizing land use acreage as well as the definitions of those categories have not remained completely consistent over time.
 - Acreage totals are thought to get less accurate as they get older.
 - Many problems have been found in the 1984 data and many more are likely to exist.
-- The 1990 data uses a 2000 MUSA as defined in 1990 while the 1997 data MUSA definition is as of October of 1998.</abstract>
-      <purpose>To aid in forecasting region-wide land supply and demand and to be used as a general regional planning tool.  This data does not indicate developability of land, but does include acres of 'Vacant and Agricultural' lands based on the definition described in Section 5 of this metadata.</purpose>
-      <supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
-    </descript>
-    <timeperd>
-      <timeinfo>
-        <sngdate>
-          <caldate>19970414</caldate>
-        </sngdate>
-      </timeinfo>
-      <current>Air photos for the 1997 land use were taken Aprils 13th and 14th, 1997.  Photos for the 1990 land use were taken on May 4th &amp; 5th, 1990.  Photos for the 1984 data were taken in spring of 1984.</current>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>Approximately every 5 years.</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-94.012</westbc>
-        <eastbc>-92.732</eastbc>
-        <northbc>45.415</northbc>
-        <southbc>44.471</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <theme>
-        <themekt>None</themekt>
-        <themekey>land use, land type, planning and development</themekey>
-      </theme>
-      <place>
-        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
-      </place>
-    </keywords>
-    <accconst>None</accconst>
-    <useconst>None</useconst>
-    <native>Excel spreadsheet</native>
-    <crossref>
-      <citeinfo>
-        <title>Generalized Land Use - Historical 1984, 1990, 1997, 2000, 2005, and 2010 for the Twin Cities Metropolitan Area </title>
-      </citeinfo>
-    </crossref>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Paul Hanson</cntper>
-        </cntperp>
-        <cntpos>GIS Coordinator</cntpos>
-        <cntaddr>
-          <addrtype> mailing and physical address </addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>Minnesota</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651-602-1642</cntvoice>
-        <cntemail>paul.hanson@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <attracc>
-      <attraccr>For information about attribute accuracy for the years of 1984, 1990 and 1997, consult the metadata for the Generalized Land Use - Historical layer.
+- The 1990 data uses a 2000 MUSA as defined in 1990 while the 1997 data MUSA definition is as of October of 1998.</abstract><purpose>To aid in forecasting region-wide land supply and demand and to be used as a general regional planning tool.  This data does not indicate developability of land, but does include acres of 'Vacant and Agricultural' lands based on the definition described in Section 5 of this metadata.</purpose><supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>19970414</caldate></sngdate></timeinfo><current>Air photos for the 1997 land use were taken Aprils 13th and 14th, 1997.  Photos for the 1990 land use were taken on May 4th &amp; 5th, 1990.  Photos for the 1984 data were taken in spring of 1984.</current></timeperd><status><progress>Complete</progress><update>Approximately every 5 years.</update></status><spdom><bounding><westbc>-94.012</westbc><eastbc>-92.732</eastbc><northbc>45.415</northbc><southbc>44.471</southbc></bounding></spdom><keywords><theme><themekt>None</themekt><themekey>land use, land type, planning and development</themekey></theme><place><placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey></place></keywords><accconst>None</accconst><useconst>None</useconst><native>Excel spreadsheet</native><crossref><citeinfo><title>Generalized Land Use - Historical 1984, 1990, 1997, 2000, 2005, and 2010 for the Twin Cities Metropolitan Area </title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Paul Hanson</cntper></cntperp><cntpos>GIS Coordinator</cntpos><cntaddr><addrtype> mailing and physical address </addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>Minnesota</state><postal>55101-1805</postal></cntaddr><cntvoice>651-602-1642</cntvoice><cntemail>paul.hanson@metc.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>For information about attribute accuracy for the years of 1984, 1990 and 1997, consult the metadata for the Generalized Land Use - Historical layer.
 
-For other years, no information exist regarding attribute accuracy.</attraccr>
-    </attracc>
-    <posacc>
-      <horizpa>
-        <horizpar>Not Applicable</horizpar>
-      </horizpa>
-    </posacc>
-    <lineage>
-      <srcinfo>
-        <srcscale/>
-      </srcinfo>
-      <procstep>
-        <procdesc>For information about lineage for the years of 1984, 1990 and 1997, consult the metadata for the Generalized Land Use - Historical layer.
+For other years, no information exist regarding attribute accuracy.</attraccr></attracc><posacc><horizpa><horizpar>Not Applicable</horizpar></horizpa></posacc><lineage><srcinfo><srcscale></srcscale></srcinfo><procstep><procdesc>For information about lineage for the years of 1984, 1990 and 1997, consult the metadata for the Generalized Land Use - Historical layer.
 
 For other years, no information exist regarding lineage.
 
 A note about MUSA calculations:  
-Land use data is also provided for the Council's Metropolitan Urban Service Area (MUSA) for 1990 and 1997. The MUSA is an area defined by the Metropolitan Council where urban services are being planned to accommodate development up to a future point in time. For both the 1990 and 1997 land use data, a 2000 MUSA line is used. But this is not the same line because the MUSA line is adjusted over time to reflect more specific development proposals, as well as, development that has actually occurred. Areas may be added or subtracted from the MUSA, affecting both city level and regional MUSA figures. The 1990 data uses a 2000 MUSA as defined in 1990 while the 1997 data MUSA definition is as of October of 1998.</procdesc>
-      </procstep>
-    </lineage>
-  </dataqual>
-  <spdoinfo>
-    <indspref>The unique identifier used for each row in the table is the COMCD field.  This field is a combination of the FIPS 3 digit county code and the FIPS 3 digit ''place'' code.  A COMCD is defined as the portion of a Minor Civil Division (municipality) that resides within a county. Most, but not all MCDs reside entirely within one county.</indspref>
-    <direct/>
-    <mgmg3obj/>
-    <mgmg3til/>
-  </spdoinfo>
-  <eainfo>
-    <overview>
-      <eaover>The acreage totals in this dataset are given by County-MCD.  County-MCD (field 
+Land use data is also provided for the Council's Metropolitan Urban Service Area (MUSA) for 1990 and 1997. The MUSA is an area defined by the Metropolitan Council where urban services are being planned to accommodate development up to a future point in time. For both the 1990 and 1997 land use data, a 2000 MUSA line is used. But this is not the same line because the MUSA line is adjusted over time to reflect more specific development proposals, as well as, development that has actually occurred. Areas may be added or subtracted from the MUSA, affecting both city level and regional MUSA figures. The 1990 data uses a 2000 MUSA as defined in 1990 while the 1997 data MUSA definition is as of October of 1998.</procdesc></procstep></lineage></dataqual><spdoinfo><indspref>The unique identifier used for each row in the table is the COMCD field.  This field is a combination of the FIPS 3 digit county code and the FIPS 3 digit ''place'' code.  A COMCD is defined as the portion of a Minor Civil Division (municipality) that resides within a county. Most, but not all MCDs reside entirely within one county.</indspref><direct></direct><mgmg3obj></mgmg3obj><mgmg3til></mgmg3til></spdoinfo><eainfo><overview><eaover>The acreage totals in this dataset are given by County-MCD.  County-MCD (field 
 name ''COMCD'') is defined as the portion of a Minor Civil Division
 (municipality) that resides within a county.  Most, but not all MCDs reside 
 entirely within one county.  Those that do not will be denoted as such in the 
@@ -348,8 +247,7 @@ IVATOT97:   1997 total industrial vacant acreage, excluding wetlands.
  
 PVATOT97:   1997 total public vacant acreage, excluding wetlands.
  
-WATTOT97:   1997 total water acreage.</eaover>
-      <eadetcit>The original categories used for land use breakdowns were established in 1962 and have been modified slightly over the years.  The classes for the 1997 land use layer are as follows:
+WATTOT97:   1997 total water acreage.</eaover><eadetcit>The original categories used for land use breakdowns were established in 1962 and have been modified slightly over the years.  The classes for the 1997 land use layer are as follows:
 
 1 - Single Family Residential
 Includes all individual, free standing single family housing (including manufactured housing).  Within the MUSA (metropolitan urban service area) and in residential developments outside the MUSA, the lot lines visible on the photos were used for determining residential land use boundaries.  Where residential developments were visibly not complete, the undeveloped area was classified as vacant.  For the scattered, rural residential areas outside the MUSA, only the portion of lots used for residences was assigned to the residential category.
@@ -394,70 +292,4 @@ Parcels of land in a designated (named) industrial park but not developed.
 A government or university owned parcel of land that is undeveloped (e.g. part of arsenal site in Arden Hills or the University property in Rosemount).
 
 54 - Public Industrial
-New category in 1997.  Includes all publicly owned areas that are predominantly of an industrial nature (e.g. waste water treatment plants, city bus garages, and Dept. of Transportation sand and salt stockpiling areas).  In the past, some of these have been coded as industrial and others as public.</eadetcit>
-    </overview>
-  </eainfo>
-  <distinfo>
-    <resdesc>GeneralizedLandUseAcres1970to1997</resdesc>
-    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>dBase file and Excel file</formname>
-          <formvern/>
-          <transize>Less than 1 Mb for zip file.</transize>
-        </digtinfo>
-      </digform>
-      <ordering>See Online Linkage Below</ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Jon Hoekenga</cntper>
-        </cntperp>
-        <cntpos>GIS System Administrator</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1561</cntvoice>
-        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20001128</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Jon Hoekenga</cntper>
-        </cntperp>
-        <cntpos>GIS System Administrator</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1561</cntvoice>
-        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-  <Esri>
-    <ModDate>20110729</ModDate>
-    <ModTime>13573400</ModTime>
-  </Esri>
-  <mdDateSt Sync="TRUE">20110729</mdDateSt>
-</metadata>
+New category in 1997.  Includes all publicly owned areas that are predominantly of an industrial nature (e.g. waste water treatment plants, city bus garages, and Dept. of Transportation sand and salt stockpiling areas).  In the past, some of these have been coded as industrial and others as public.</eadetcit></overview></eainfo><distinfo><resdesc>GeneralizedLandUseAcres1970to1997</resdesc><distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab><stdorder><digform><digtinfo><formname>dBase file and Excel file</formname><formvern></formvern><transize>Less than 1 Mb for zip file.</transize></digtinfo></digform><ordering>See Online Linkage Below</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Jon Hoekenga</cntper></cntperp><cntpos>GIS System Administrator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1561</cntvoice><cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20001128</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Jon Hoekenga</cntper></cntperp><cntpos>GIS System Administrator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1561</cntvoice><cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail></cntinfo></metc></metainfo><Esri><ModDate>20110729</ModDate><ModTime>13573400</ModTime></Esri><mdDateSt Sync="TRUE">20110729</mdDateSt></metadata>

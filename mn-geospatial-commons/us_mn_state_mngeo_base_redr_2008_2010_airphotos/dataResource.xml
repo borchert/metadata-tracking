@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>base_redr_2008_2010_airphotos</baseName>
     <descriptiveName>International Water Institute Red River Basin Mapping Orthoimagery 2008-2010</descriptiveName>

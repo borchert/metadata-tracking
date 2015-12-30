@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>env_lakes_of_biological_signific</baseName>
     <descriptiveName>Lakes of Biological Significance</descriptiveName>

@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>base_historical_aerial_points</baseName>
   <descriptiveName>Minnesota Historical Aerial Photographs Online (MHAPO)</descriptiveName>
@@ -24,7 +25,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{a988bdad-0fbe-4e74-8000-b60629db9d87}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>base_saip_ec2010_50cm_airphotos</baseName>
     <descriptiveName>Digital Orthoimagery, East-Central Minnesota, Spring 2010, 0.5-m Resolution</descriptiveName>

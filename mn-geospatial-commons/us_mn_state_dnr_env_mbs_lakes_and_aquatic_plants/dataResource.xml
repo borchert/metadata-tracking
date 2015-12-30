@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>env_mbs_lakes_and_aquatic_plants</baseName>
     <descriptiveName>Minnesota Biological Survey Lakes and Aquatic Plant Data</descriptiveName>

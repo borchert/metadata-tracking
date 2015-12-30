@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>env_pheasant_range_minnesota</baseName>
     <descriptiveName>Pheasant Range in Minnesota</descriptiveName>

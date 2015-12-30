@@ -1,10 +1,11 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>env_designated_infested_waters</baseName>
     <descriptiveName>Designated Infested Waters</descriptiveName>
     <publisher>Minnesota DNR - Division of Ecological and Water Resources</publisher>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-10-29</currentAsofDate>
+    <currentAsofDate>2015-12-03</currentAsofDate>
     <resourceType>ESRI File Geodatabase</resourceType>
     <topicCategories>
         <topicCategory type="ISO 19115">environment</topicCategory>

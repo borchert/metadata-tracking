@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>agri_cropland_data_layer_2007</baseName>
     <descriptiveName>Cropland Data Layer 2007, Minnesota</descriptiveName>

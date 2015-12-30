@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>util_npms</baseName>
     <descriptiveName>National Pipeline Mapping System</descriptiveName>
@@ -8,7 +9,7 @@
         <topicCategory type="ISO 19115">utilitiesCommunication</topicCategory>
     </topicCategories>
     <resourceIdentifiers>
-        <resourceID/>
+        <resourceID></resourceID>
         <resourceGUID>{58708962-5b07-430b-8aa0-d214529f0cd7}</resourceGUID>
     </resourceIdentifiers>
     <dataSubResources>

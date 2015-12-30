@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>biota_landcover_gap</baseName>
     <descriptiveName>GAP Land Cover</descriptiveName>

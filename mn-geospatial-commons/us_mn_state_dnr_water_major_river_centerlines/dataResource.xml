@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>water_major_river_centerlines</baseName>
     <descriptiveName>Major River Centerline Traces in Minnesota</descriptiveName>

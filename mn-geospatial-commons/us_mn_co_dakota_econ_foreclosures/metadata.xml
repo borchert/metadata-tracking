@@ -15,7 +15,7 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>This dataset consists of eight related feature classes. Each feature class represents a single year from 2007 to 2014. The feature classes contain points representing Sheriff's Office Foreclosure Sales in Dakota County.&#8203; The Dakota County Sheriff&#8217;s Office serves only as the auctioneer for foreclosed property sales in the County. The Sheriff&#8217;s Office does not provide a list of upcoming sales.</abstract>
+      <abstract>This dataset consists of eight related feature classes. Each feature class represents a single year from 2007 to 2014. The feature classes contain points representing Sheriff's Office Foreclosure Sales in Dakota County.​ The Dakota County Sheriff’s Office serves only as the auctioneer for foreclosed property sales in the County. The Sheriff’s Office does not provide a list of upcoming sales.</abstract>
       <purpose>Points representing Sheriff's Office Foreclosure Sales in Dakota County from 2007 through 2014.</purpose>
     </descript>
     <timeperd>
@@ -49,7 +49,7 @@
       </place>
     </keywords>
     <accconst>None</accconst>
-    <useconst>Dakota County GIS Database DisclaimerNOTICE: Dakota County Geographic Information System (GIS) Data are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13) THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by Dakota County (&#8220;County&#8221;) for their own internal business purposes. The County does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, you must provide a copy of this disclaimer and the accompanying metadata for this dataset to the user.</useconst>
+    <useconst>Dakota County GIS Database DisclaimerNOTICE: Dakota County Geographic Information System (GIS) Data are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13) THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by Dakota County (“County”) for their own internal business purposes. The County does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, you must provide a copy of this disclaimer and the accompanying metadata for this dataset to the user.</useconst>
     <ptcontac>
       <cntinfo>
         <cntperp>

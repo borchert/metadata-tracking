@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>plan_tax_parcels</baseName>
     <descriptiveName>Tax Parcels, Lake County, Minnesota</descriptiveName>

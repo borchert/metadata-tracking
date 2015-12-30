@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>env_dnr_r3_resource_sig_areas</baseName>
     <descriptiveName>Central Region Regionally Significant Ecological Areas</descriptiveName>

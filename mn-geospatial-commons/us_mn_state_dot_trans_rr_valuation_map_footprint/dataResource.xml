@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>trans_rr_valuation_map_footprint</baseName>
     <descriptiveName>Railroad Valuation Map Footprints</descriptiveName>

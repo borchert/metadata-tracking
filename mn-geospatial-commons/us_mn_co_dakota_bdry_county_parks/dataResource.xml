@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>bdry_county_parks</baseName>
   <descriptiveName>County Parks, Dakota County, Minnesota</descriptiveName>
@@ -15,14 +16,14 @@
       <subResourceIdentifiers>
         <subResourceGUID>{c693c9d7-ca28-4cae-bf93-7aea96ddb650}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
     <dataSubResource>
       <subResourceType>kmz</subResourceType>
       <subResourceIdentifiers>
         <subResourceGUID>{74541244-8b77-43a3-9f4e-9c514df2cd87}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

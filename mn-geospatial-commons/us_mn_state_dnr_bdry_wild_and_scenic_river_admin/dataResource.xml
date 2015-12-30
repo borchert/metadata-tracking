@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_wild_and_scenic_river_admin</baseName>
     <descriptiveName>Minnesota Wild and Scenic River Districts</descriptiveName>

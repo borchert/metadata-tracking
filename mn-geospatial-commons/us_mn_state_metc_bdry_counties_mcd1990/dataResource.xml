@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>bdry_counties_mcd1990</baseName>
   <descriptiveName>Counties and MCDs 1990</descriptiveName>
@@ -24,7 +25,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{c1c1d6d0-5206-498d-9296-4403157d63b6}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

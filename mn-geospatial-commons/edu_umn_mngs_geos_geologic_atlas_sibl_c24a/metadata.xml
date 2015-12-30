@@ -1,63 +1,6 @@
-<!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  -->
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>Minnesota Geological Survey (MGS)</origin>
-        <pubdate>2011</pubdate>
-        <title>Geologic Atlas of Sibley County, Minnesota (Part A)</title>
-        <mgmg1cid>c23abent</mgmg1cid>
-        <pubinfo>
-          <publish>Minnesota Geological Survey</publish>
-        </pubinfo>
-        <onlink>http://conservancy.umn.edu/handle/116056</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>A County Geologic Atlas is a systematic study of a county's geologic and ground water resources. Geologic studies include both near-surface deposits and bedrock. Ground water studies include flow systems, aquifer capacity, and ground water chemistry. In some areas sand and gravel deposits, sinkholes, or other features are studied. Interpretation of sensitivity to pollution is also part of an atlas. The information is organized, analyzed, and displayed using geographic information technology.
+<?xml version="1.0"?><!--  <!DOCTYPE metadata SYSTEM "metadata.dtd">  --><metadata><idinfo><citation><citeinfo><origin>Minnesota Geological Survey (MGS)</origin><pubdate>2011</pubdate><title>Geologic Atlas of Sibley County, Minnesota (Part A)</title><mgmg1cid>c23abent</mgmg1cid><pubinfo><publish>Minnesota Geological Survey</publish></pubinfo><onlink>http://conservancy.umn.edu/handle/116056</onlink></citeinfo></citation><descript><abstract>A County Geologic Atlas is a systematic study of a county's geologic and ground water resources. Geologic studies include both near-surface deposits and bedrock. Ground water studies include flow systems, aquifer capacity, and ground water chemistry. In some areas sand and gravel deposits, sinkholes, or other features are studied. Interpretation of sensitivity to pollution is also part of an atlas. The information is organized, analyzed, and displayed using geographic information technology.
 
-Most Geologic Atlas and Regional Hydrogeologic Assessment projects are done in two parts. The Minnesota Geological Survey covers basic geology and creates databases of information such as wells and soil borings in part A. The Minnesota Department of Natural Resources (DNR) handles hydrogeology and ground water sensitivity layers in Part B. Completion of a project's two parts is staggered: Part A is completed about two years before Part B, compiling information used to create part B. Parts A and B are published and distributed as two separate products.</abstract>
-      <purpose>County Geologic Atlas and Regional Hydrogeologic Assessment information is used in planning and environmental protection efforts at all levels of government. Wellhead protection and well-sealing programs are examples of local programs that need geologic and ground water information. The information is also used by businesses and the general public.</purpose>
-      <supplinf>Sibley County, Minnesota</supplinf>
-    </descript>
-    <timeperd>
-      <timeinfo>
-        <sngdate>
-          <caldate>2011</caldate>
-        </sngdate>
-      </timeinfo>
-      <current>See metadata for individual GIS layers located in c24_cd.zip (Supplementary Files)</current>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>None Planned</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-94.63</westbc>
-        <eastbc>-93.76</eastbc>
-        <northbc>44.73</northbc>
-        <southbc>44.44</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <theme>
-        <themekt>ISO 19115 Topic Category</themekt>
-        <themekey>geoscientificInformation, Bedrock Geology, Surficial Geology, Bedrock Topography, Depth to Bedrock, Sand Distribution Model</themekey>
-      </theme>
-      <place>
-        <placekey>Minnesota, MN, Sibley County</placekey>
-      </place>
-    </keywords>
-    <accconst>None</accconst>
-    <useconst>Credit should be given to the Minnesota Geological Survey for any use of the given digital data in any publication.</useconst>
-    <browse>
-      <browsed>PDF file of atlas plate 4 - quaternary stratigraphy</browsed>
-    </browse>
-    <native>Arc/INFO</native>
-    <crossref>
-      <citeinfo>
-        <title>C-24, Part A. Surface and subsurface geology of Sibley County, Minnesota. Authors, Lusardi, B.A., Runkel, A.C., Meyer, G.N. Minnesota Geological Survey, 2011. Plate 2 Bedrock Geology, Plate 3, Surficial Geology, Scale 1:100,000. This atlas is a work in progress. Plates 1 and 2 were completed in 2010 as part of the USGS Statemap program. Paper map and report available from MGS Map Sales Office (2609 Territorial Road, St. Paul, Minnesota, 55114, 612-626-2969.)
+Most Geologic Atlas and Regional Hydrogeologic Assessment projects are done in two parts. The Minnesota Geological Survey covers basic geology and creates databases of information such as wells and soil borings in part A. The Minnesota Department of Natural Resources (DNR) handles hydrogeology and ground water sensitivity layers in Part B. Completion of a project's two parts is staggered: Part A is completed about two years before Part B, compiling information used to create part B. Parts A and B are published and distributed as two separate products.</abstract><purpose>County Geologic Atlas and Regional Hydrogeologic Assessment information is used in planning and environmental protection efforts at all levels of government. Wellhead protection and well-sealing programs are examples of local programs that need geologic and ground water information. The information is also used by businesses and the general public.</purpose><supplinf>Sibley County, Minnesota</supplinf></descript><timeperd><timeinfo><sngdate><caldate>2011</caldate></sngdate></timeinfo><current>See metadata for individual GIS layers located in c24_cd.zip (Supplementary Files)</current></timeperd><status><progress>Complete</progress><update>None Planned</update></status><spdom><bounding><westbc>-94.63</westbc><eastbc>-93.76</eastbc><northbc>44.73</northbc><southbc>44.44</southbc></bounding></spdom><keywords><theme><themekt>ISO 19115 Topic Category</themekt><themekey>geoscientificInformation, Bedrock Geology, Surficial Geology, Bedrock Topography, Depth to Bedrock, Sand Distribution Model</themekey></theme><place><placekey>Minnesota, MN, Sibley County</placekey></place></keywords><accconst>None</accconst><useconst>Credit should be given to the Minnesota Geological Survey for any use of the given digital data in any publication.</useconst><browse><browsed>PDF file of atlas plate 4 - quaternary stratigraphy</browsed></browse><native>Arc/INFO</native><crossref><citeinfo><title>C-24, Part A. Surface and subsurface geology of Sibley County, Minnesota. Authors, Lusardi, B.A., Runkel, A.C., Meyer, G.N. Minnesota Geological Survey, 2011. Plate 2 Bedrock Geology, Plate 3, Surficial Geology, Scale 1:100,000. This atlas is a work in progress. Plates 1 and 2 were completed in 2010 as part of the USGS Statemap program. Paper map and report available from MGS Map Sales Office (2609 Territorial Road, St. Paul, Minnesota, 55114, 612-626-2969.)
 
 For a listing of all geologic maps go to the Minnesota Geological Survey website at: http://www.mngs.umn.edu/mgsdocs.html
 
@@ -65,57 +8,7 @@ For the U of M Libraries Digital Conservancy listing of map products see: http:/
 
 For other County Atlas and Regional Hydrogeologic Assessment data see: http://www.mngs.umn.edu/county_atlas/countyatlas.htm 
 
-For a listing of the status of the DNR Ground Water Mapping Program, go to: http://www.dnr.state.mn.us/waters/groundwater_section/mapping/index.html</title>
-      </citeinfo>
-    </crossref>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Geological Survey</cntorg>
-          <cntper>Richard S. Lively</cntper>
-        </cntperp>
-        <cntpos>Geologic Information Systems</cntpos>
-        <cntaddr>
-          <addrtype>Mailing and Physical</addrtype>
-          <address>2609 Territorial Road</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55114</postal>
-        </cntaddr>
-        <cntvoice>612-626-3103</cntvoice>
-        <cntemail>lively@umn.edu</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <logic>See individual layer metadata files.</logic>
-    <complete>See individual layer metadata files.</complete>
-    <posacc>
-      <horizpa>
-        <horizpar>See individual layer metadata files.</horizpar>
-      </horizpa>
-    </posacc>
-    <lineage>
-      <srcinfo>
-        <srcscale>100000</srcscale>
-      </srcinfo>
-      <procstep>
-        <procdesc>Investigations begin with a review of existing information, such as earlier geologic maps, soil maps, and hydrologic reports. Drillers send water well logs to the Minnesota Geological Survey, where they are reviewed, interpreted, and entered into the County Well Index (CWI), an interactive data base of water-well information. Building on the previous data, field studies are conducted to improve the understanding of local geologic and hydrologic conditions. Linework is created based upon the field studies and base data, and digitized. Background GIS data layers such as roads, surface hydrography, township grids, etc., are obtained from various sources. See individual layer metadata files for lineage information.</procdesc>
-      </procstep>
-    </lineage>
-    <attracc>
-      <attraccr>See individual layer metadata files.</attraccr>
-    </attracc>
-  </dataqual>
-  <spdoinfo>
-    <indspref/>
-    <direct>Vector</direct>
-    <mgmg3obj>Point, Vector, Polygon, Grid</mgmg3obj>
-    <mgmg3til>Benton County</mgmg3til>
-  </spdoinfo>
-  <eainfo>
-    <overview>
-      <eaover>The published paper maps included in the geologic atlas can be viewed as pdf 
+For a listing of the status of the DNR Ground Water Mapping Program, go to: http://www.dnr.state.mn.us/waters/groundwater_section/mapping/index.html</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>Minnesota Geological Survey</cntorg><cntper>Richard S. Lively</cntper></cntperp><cntpos>Geologic Information Systems</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>2609 Territorial Road</address><city>St. Paul</city><state>MN</state><postal>55114</postal></cntaddr><cntvoice>612-626-3103</cntvoice><cntemail>lively@umn.edu</cntemail></cntinfo></ptcontac></idinfo><dataqual><logic>See individual layer metadata files.</logic><complete>See individual layer metadata files.</complete><posacc><horizpa><horizpar>See individual layer metadata files.</horizpar></horizpa></posacc><lineage><srcinfo><srcscale>100000</srcscale></srcinfo><procstep><procdesc>Investigations begin with a review of existing information, such as earlier geologic maps, soil maps, and hydrologic reports. Drillers send water well logs to the Minnesota Geological Survey, where they are reviewed, interpreted, and entered into the County Well Index (CWI), an interactive data base of water-well information. Building on the previous data, field studies are conducted to improve the understanding of local geologic and hydrologic conditions. Linework is created based upon the field studies and base data, and digitized. Background GIS data layers such as roads, surface hydrography, township grids, etc., are obtained from various sources. See individual layer metadata files for lineage information.</procdesc></procstep></lineage><attracc><attraccr>See individual layer metadata files.</attraccr></attracc></dataqual><spdoinfo><indspref></indspref><direct>Vector</direct><mgmg3obj>Point, Vector, Polygon, Grid</mgmg3obj><mgmg3til>Benton County</mgmg3til></spdoinfo><eainfo><overview><eaover>The published paper maps included in the geologic atlas can be viewed as pdf 
 versions of the plates (see directory plate_pdfs):
 pl1_db.pdf  = data-base map
 pl2_bedrock.pdf  = bedrock geology map
@@ -124,89 +17,9 @@ pl4_quatstrat = glacial geology cross sections
 pl5_snddistrib = sand distribution model
 pl6_bt_dt.pdf  =  bedrock topography and depth to bedrock map
 
-Shapefiles to support these plates are described in the associated metadata in the c24_cd.zip (Supplementary Files).</eaover>
-      <eadetcit>See individual layer metadata files.</eadetcit>
-    </overview>
-  </eainfo>
-  <distinfo>
-    <resdesc>C24  (http://conservancy.umn.edu/handle/116056)</resdesc>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>Shapefiles, ArcGIS Grid, ArcReader .pmf, PDF</formname>
-          <formvern/>
-          <transize>262.7 MB</transize>
-        </digtinfo>
-      </digform>
-      <ordering>Digital data and PDF files representing map plates are available for download from the University of Minnesota Libraries Digital Conservancy. All digital data for the Sibley County Geologic Atlas is provided in the zip file C24_cd.zip (Supplementary Files). A README file on the site describes all digital products.
+Shapefiles to support these plates are described in the associated metadata in the c24_cd.zip (Supplementary Files).</eaover><eadetcit>See individual layer metadata files.</eadetcit></overview></eainfo><distinfo><resdesc>C24  (http://conservancy.umn.edu/handle/116056)</resdesc><stdorder><digform><digtinfo><formname>Shapefiles, ArcGIS Grid, ArcReader .pmf, PDF</formname><formvern></formvern><transize>262.7 MB</transize></digtinfo></digform><ordering>Digital data and PDF files representing map plates are available for download from the University of Minnesota Libraries Digital Conservancy. All digital data for the Sibley County Geologic Atlas is provided in the zip file C24_cd.zip (Supplementary Files). A README file on the site describes all digital products.
 
 The direct Digital Conservancy Link to this product is http://conservancy.umn.edu/handle/116056 
 
 To obtain the digital data on DVD, or to obtain paper copies of the geologic map plates, contact the MGS Map Sales Office at 612-626-2969 and specify "County Atlas Series C-24, Part A", or "County Geologic Atlas of Sibley County".
-</ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Geological Survey</cntorg>
-          <cntper>Timothy E. Wahl</cntper>
-        </cntperp>
-        <cntpos>Geologic Information Systems</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>2609 Territorial Road</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55114</postal>
-        </cntaddr>
-        <cntvoice>612-626-0992</cntvoice>
-        <cntemail>tewahl@umn.edu</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20150415</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
-          <cntper>Nancy Rader</cntper>
-        </cntperp>
-        <cntpos>GIS Data Coordinator</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>658 Cedar Street, Room 300</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55155</postal>
-        </cntaddr>
-        <cntvoice>651-201-2489</cntvoice>
-        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-  <spref>
-    <horizsys>
-      <planar>
-        <gridsys>
-          <gridsysn>Universal Transverse Mercator</gridsysn>
-          <utm>
-            <utmzone>15E</utmzone>
-          </utm>
-        </gridsys>
-        <planci>
-          <plandu>meters</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>NAD83</horizdn>
-        <ellips>GRS80</ellips>
-      </geodetic>
-    </horizsys>
-  </spref>
-</metadata>
+</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Geological Survey</cntorg><cntper>Timothy E. Wahl</cntper></cntperp><cntpos>Geologic Information Systems</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>2609 Territorial Road</address><city>St. Paul</city><state>MN</state><postal>55114</postal></cntaddr><cntvoice>612-626-0992</cntvoice><cntemail>tewahl@umn.edu</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150415</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>658 Cedar Street, Room 300</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15E</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

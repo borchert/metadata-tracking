@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>env_trout_stream_special_regs</baseName>
     <descriptiveName>Trout Stream Special Regulations</descriptiveName>

@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>env_green_infrastructure</baseName>
     <descriptiveName>Central Region Green Infrastructure</descriptiveName>

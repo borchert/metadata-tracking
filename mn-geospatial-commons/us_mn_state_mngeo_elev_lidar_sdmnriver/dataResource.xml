@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>elev_lidar_sdmnriver</baseName>
     <descriptiveName>LiDAR Elevation, South Dakota Portion of Minnesota River Basin, 2010</descriptiveName>

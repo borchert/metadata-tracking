@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>bdry_munbndp</baseName>
   <descriptiveName>Municipal Boundaries, Dakota County, Minnesota</descriptiveName>
@@ -15,14 +16,14 @@
       <subResourceIdentifiers>
         <subResourceGUID>{5a140ea7-623c-4947-8abe-6fd6df3d2c40}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
     <dataSubResource>
       <subResourceType>kmz</subResourceType>
       <subResourceIdentifiers>
         <subResourceGUID>{81bf410c-82b1-4a67-a9ac-e1f7c9ccfdbe}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

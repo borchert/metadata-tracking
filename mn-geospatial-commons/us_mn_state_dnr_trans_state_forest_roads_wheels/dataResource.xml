@@ -1,9 +1,10 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>trans_state_forest_roads_wheels</baseName>
     <descriptiveName>DNR State Forest Roads - WHEELS Database</descriptiveName>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-11-19</currentAsofDate>
+    <currentAsofDate>2015-12-24</currentAsofDate>
     <topicCategories>
         <topicCategory type="ISO 19115">transportation</topicCategory>
     </topicCategories>

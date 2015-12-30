@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>trans_hcaadt_traffic_segments</baseName>
     <descriptiveName>Heavy Construction Annual Average Daily Traffic, Traffic Segments</descriptiveName>

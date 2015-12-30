@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>base_naip_2010_airphotos</baseName>
     <descriptiveName>National Agricultural Imagery Program (NAIP), Minnesota, 2010</descriptiveName>

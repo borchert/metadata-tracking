@@ -1,7 +1,8 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>water_large_lakes_in_minnesota</baseName>
-    <descriptiveName>DNR Hydrography - Minnesota's Large Lakes</descriptiveName>
+    <descriptiveName>DNR Hydrography - Minnesota&apos;s Large Lakes</descriptiveName>
     <publisher>Minnesota DNR - Division of Fish &amp; Wildlife - Fisheries Unit</publisher>
     <publisherID>us_mn_state_dnr</publisherID>
     <currentAsofDate>2014-07-15</currentAsofDate>

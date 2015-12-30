@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>base_usgs_msp_2004_airphotos</baseName>
     <descriptiveName>USGS High-Resolution Orthoimagery, Minneapolis-St. Paul, MN, Spring, 2004</descriptiveName>

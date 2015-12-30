@@ -1,10 +1,11 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_dnr_enforcement_admin</baseName>
     <descriptiveName>DNR Division of Enforcement District and Patrol Areas</descriptiveName>
     <publisher>Minnesota DNR - Division of Enforcement</publisher>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-10-29</currentAsofDate>
+    <currentAsofDate>2015-11-26</currentAsofDate>
     <resourceType>ESRI File Geodatabase</resourceType>
     <topicCategories>
         <topicCategory type="ISO 19115">boundaries</topicCategory>

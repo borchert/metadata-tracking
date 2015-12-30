@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>base_usgs_scanned_topo_250k_drg</baseName>
     <descriptiveName>1:250k Digital Raster Graphic - Collars Removed</descriptiveName>

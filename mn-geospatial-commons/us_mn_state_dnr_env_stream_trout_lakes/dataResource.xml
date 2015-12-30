@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>env_stream_trout_lakes</baseName>
     <descriptiveName>DNR Hydrography - Stream Trout Lakes</descriptiveName>

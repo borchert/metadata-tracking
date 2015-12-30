@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>base_usgs_scanned_topo_100k_drg</baseName>
     <descriptiveName>USGS Scanned Topo Map - 1:100k DRG</descriptiveName>

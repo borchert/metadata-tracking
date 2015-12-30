@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>atmos_1971_2000_mn_precip_avg</baseName>
     <descriptiveName>MN Normal Annual Precipitation Average 1971-2000</descriptiveName>

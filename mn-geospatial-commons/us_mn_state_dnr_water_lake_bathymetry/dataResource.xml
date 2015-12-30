@@ -1,10 +1,11 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>water_lake_bathymetry</baseName>
     <descriptiveName>Lake Bathymetric Outlines, Contours, Vegetation, and DEM</descriptiveName>
     <publisher>Minnesota DNR - Divisions of Water and Ecological Resources, Fisheries, and MIS Bureau</publisher>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-11-12</currentAsofDate>
+    <currentAsofDate>2015-12-03</currentAsofDate>
     <resourceType>ESRI File Geodatabase</resourceType>
     <topicCategories>
         <topicCategory type="ISO 19115">inlandWaters</topicCategory>

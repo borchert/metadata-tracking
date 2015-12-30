@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE dataResource SYSTEM "dataResource.dtd">
 <dataResource>
   <baseName>bdry_mn_city_township_unorg</baseName>
@@ -17,7 +18,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{fa2ce765-a2b2-46af-b3bf-edd96e04c2d4}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>base_naip_2013_airphotos</baseName>
     <descriptiveName>National Agricultural Imagery Program (NAIP), Minnesota, 2013</descriptiveName>
@@ -28,7 +29,7 @@
             </subResourceIdentifiers>
             <subResourceAccess>
                 <subResourceURL type="HTML" description="Mn Geospatial Image Service Home Page" name="Mn Geospatial Image Service Home Page">http://www.mngeo.state.mn.us/chouse/wms/geo_image_server.html</subResourceURL>
-                <subResourceURL type="HTML" description="" name="NRCS Data Gateway - National Resources Conservation Service">http://datagateway.nrcs.usda.gov</subResourceURL>
+                <subResourceURL type="HTML" description="" name="NRCS Data Gateway - Download">http://datagateway.nrcs.usda.gov</subResourceURL>
                 <subResourceURL type="HTML" description="" name="Northstar Mapper - View and Download">http://www.mngeo.state.mn.us/chouse/northstarmapper.html</subResourceURL>
             </subResourceAccess>
         </dataSubResource>

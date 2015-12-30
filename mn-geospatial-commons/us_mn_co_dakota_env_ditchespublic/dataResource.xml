@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>env_ditchespublic</baseName>
   <descriptiveName>Ditches - Public, Dakota County, Minnesota</descriptiveName>
@@ -15,7 +16,16 @@
       <subResourceIdentifiers>
         <subResourceGUID>{f0a691ae-a8b1-4c3c-8e94-cff339d60e06}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>external</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{b0b42bb2-d5ab-46de-8f8c-0398b7d498ec}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="HTML" description="" name="Computer-Aided Design (CAD) Download">http://gis.co.dakota.mn.us/WebsiteGISData/env/cad/ENV_DitchesPublic.zip</subResourceURL>
+      </subResourceAccess>
     </dataSubResource>
   </dataSubResources>
 </dataResource>

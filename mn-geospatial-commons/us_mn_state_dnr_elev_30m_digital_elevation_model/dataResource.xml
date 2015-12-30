@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>elev_30m_digital_elevation_model</baseName>
     <descriptiveName>Digital Elevation Model of Minnesota - 30m Resolution</descriptiveName>

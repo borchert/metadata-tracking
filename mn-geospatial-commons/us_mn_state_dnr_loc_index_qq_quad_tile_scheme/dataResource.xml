@@ -1,0 +1,25 @@
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
+<dataResource>
+    <baseName>loc_index_qq_quad_tile_scheme</baseName>
+    <descriptiveName>Minnesota DNR Quarter-Quarter Quad Tile Index</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2010-10-01</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">location</topicCategory>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{682cc5af-76af-4305-842f-5ac733585a35}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{46f542c8-5f50-4290-8306-8dc17b9fe175}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

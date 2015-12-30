@@ -1,7 +1,4 @@
-<metadata>
-  <eainfo>
-    <overview>
-      <eaover>Attributes for Tabular Data: 
+<?xml version="1.0"?><metadata><eainfo><overview><eaover>Attributes for Tabular Data: 
 
 Loc_name: Address geocoded by metro street geolocator or parcel geolocator.
 
@@ -75,83 +72,8 @@ Senior: Number of age restricted units.
 
 
 
-</eaover>
-    </overview>
-  </eainfo>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>Metropolitan Council</origin>
-        <title>Manufactured Home Parks</title>
-        <pubinfo>
-          <publish>Metropolitan Council</publish>
-        </pubinfo>
-        <pubdate>20150804</pubdate>
-        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-society-manufactuerd-home-parks</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>This dataset contains information on manufactured housing located in manufactured housing parks in the seven-county Twin Cities metropolitan area.</abstract>
-      <purpose>This dataset was created to track the number of manufactured home pads (spaces), manufactured homes, occupied manufactured homes and population in occupied manufactured homes in manufactured home parks in the 7-county Metropolitan Area.</purpose>
-      <supplinf>Twin Cities 7 county metropolitan area. This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington.</supplinf>
-    </descript>
-    <crossref>
-      <citeinfo>
-        <title>Residential building permits in Cities Metropolitan Area 
-</title>
-      </citeinfo>
-    </crossref>
-    <timeperd>
-      <current>This dataset reflects permit information collected annually from 1985 through 2014.</current>
-      <timeinfo>
-        <sngdate>
-          <caldate>20150804</caldate>
-        </sngdate>
-      </timeinfo>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>Annually</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-94.012</westbc>
-        <eastbc>-92.732</eastbc>
-        <northbc>45.415</northbc>
-        <southbc>44.471</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <theme>
-        <themekey>Residential building permits, building permits, permits</themekey>
-      </theme>
-    </keywords>
-    <accconst>None</accconst>
-    <useconst>None</useconst>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Joel Nyhus</cntper>
-        </cntperp>
-        <cntpos>Reseacher</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1634</cntvoice>
-        <cntemail>joel.nyhus@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <complete>Entire 7 county area is covered.</complete>
-    <lineage>
-      <procstep>
-        <procdesc>The data were obtained through an annual survey sent to owners or managers of manufactured home parks in the Twin Cities 7-county Metropolitan Area. For those parks not responding, data on spaces and number of homes was obtained, where available, from county assessor data. If no data was available for a given year the previous year's data was used. 
+</eaover></overview></eainfo><idinfo><citation><citeinfo><origin>Metropolitan Council</origin><title>Manufactured Home Parks</title><pubinfo><publish>Metropolitan Council</publish></pubinfo><pubdate>20150804</pubdate><onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-society-manufactuerd-home-parks</onlink></citeinfo></citation><descript><abstract>This dataset contains information on manufactured housing located in manufactured housing parks in the seven-county Twin Cities metropolitan area.</abstract><purpose>This dataset was created to track the number of manufactured home pads (spaces), manufactured homes, occupied manufactured homes and population in occupied manufactured homes in manufactured home parks in the 7-county Metropolitan Area.</purpose><supplinf>Twin Cities 7 county metropolitan area. This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington.</supplinf></descript><crossref><citeinfo><title>Residential building permits in Cities Metropolitan Area 
+</title></citeinfo></crossref><timeperd><current>This dataset reflects permit information collected annually from 1985 through 2014.</current><timeinfo><sngdate><caldate>20150804</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>Annually</update></status><spdom><bounding><westbc>-94.012</westbc><eastbc>-92.732</eastbc><northbc>45.415</northbc><southbc>44.471</southbc></bounding></spdom><keywords><theme><themekey>Residential building permits, building permits, permits</themekey></theme></keywords><accconst>None</accconst><useconst>None</useconst><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Joel Nyhus</cntper></cntperp><cntpos>Reseacher</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1634</cntvoice><cntemail>joel.nyhus@metc.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><complete>Entire 7 county area is covered.</complete><lineage><procstep><procdesc>The data were obtained through an annual survey sent to owners or managers of manufactured home parks in the Twin Cities 7-county Metropolitan Area. For those parks not responding, data on spaces and number of homes was obtained, where available, from county assessor data. If no data was available for a given year the previous year's data was used. 
 
 The data on returned surveys were verified by Metropolitan Council staff through various means including contact with park managers or owners. 
 
@@ -187,78 +109,4 @@ For this data, projects are counted at the time local units of government issue 
 
 
 
-</procdesc>
-      </procstep>
-    </lineage>
-  </dataqual>
-  <distinfo>
-    <resdesc>Manufactured Home Parks</resdesc>
-    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
-    <stdorder>
-      <ordering>See Online Linkage Below</ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Joel Nyhus</cntper>
-        </cntperp>
-        <cntpos>Reseacher</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1634</cntvoice>
-        <cntemail>joel.nyhus@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20150804</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Joel Nyhus</cntper>
-        </cntperp>
-        <cntpos>Reseacher</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1634</cntvoice>
-        <cntemail>joel.nyhus@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-  <spref>
-    <horizsys>
-      <planar>
-        <gridsys>
-          <gridsysn>Universal Transverse Mercator</gridsysn>
-          <utm>
-            <utmzone>15</utmzone>
-          </utm>
-        </gridsys>
-        <planci>
-          <plandu>meters</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>NAD83</horizdn>
-        <ellips>GRS80</ellips>
-      </geodetic>
-    </horizsys>
-  </spref>
-</metadata>
+</procdesc></procstep></lineage></dataqual><distinfo><resdesc>Manufactured Home Parks</resdesc><distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab><stdorder><ordering>See Online Linkage Below</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Joel Nyhus</cntper></cntperp><cntpos>Reseacher</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1634</cntvoice><cntemail>joel.nyhus@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150804</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Joel Nyhus</cntper></cntperp><cntpos>Reseacher</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1634</cntvoice><cntemail>joel.nyhus@metc.state.mn.us</cntemail></cntinfo></metc></metainfo><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

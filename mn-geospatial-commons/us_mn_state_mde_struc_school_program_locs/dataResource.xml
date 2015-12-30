@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>struc_school_program_locs</baseName>
     <descriptiveName>School Program Locations</descriptiveName>
@@ -34,6 +35,15 @@
             </subResourceIdentifiers>
             <subResourceAccess>
                 <subResourceURL type="HTML" description="PDF Maps, by School District" name="PDF Maps, by School District">http://www.mngeo.state.mn.us/maps/SchoolDistricts/</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
+            <subResourceType>ags_mapserver</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{1e3efd2a-2df3-4f7a-b11b-0d6dd06c3fbf}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="ServiceDescription" description="Esri ArcGIS Server Map Service - District Offices only" name="Esri ArcGIS Server Map Service - District Offices only">http://w20.education.state.mn.us/arcgis/rest/services/Districts/MapServer</subResourceURL>
             </subResourceAccess>
         </dataSubResource>
     </dataSubResources>

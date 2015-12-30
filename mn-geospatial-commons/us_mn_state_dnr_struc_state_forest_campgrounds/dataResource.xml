@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>struc_state_forest_campgrounds</baseName>
     <descriptiveName>State Forest Campgrounds and Day Use Areas</descriptiveName>

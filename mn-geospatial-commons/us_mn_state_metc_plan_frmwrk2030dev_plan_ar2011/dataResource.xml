@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>plan_frmwrk2030dev_plan_ar2011</baseName>
   <descriptiveName>2030 Regional Development Framework Planning Areas 2011</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{5db66cfd-4bfe-4bf4-b826-bcf118c0c4f0}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

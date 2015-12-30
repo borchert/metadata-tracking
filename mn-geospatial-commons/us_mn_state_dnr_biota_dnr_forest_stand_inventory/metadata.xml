@@ -2,11 +2,11 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <origin>Minnesota Department of Natural Resources (MNDNR)</origin>
+        <origin>Minnesota Department of Natural Resources (MNDNR) - Division of Forestry</origin>
         <pubdate>20090917</pubdate>
         <title>MNDNR Forest Stand Inventory</title>
         <pubinfo>
-          <publish>MNDNR - Division of Forestry</publish>
+          <publish>Minnesota Department of Natural Resources (MNDNR)</publish>
         </pubinfo>
         <onlink>http://gisdata.mn.gov/dataset/biota-dnr-forest-stand-inventory</onlink>
       </citeinfo>
@@ -18,7 +18,7 @@
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20151119</caldate>
+          <caldate>20151229</caldate>
         </sngdate>
       </timeinfo>
       <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset.</current>
@@ -59,20 +59,18 @@
     <ptcontac>
       <cntinfo>
         <cntperp>
-          <cntorg>DNR-Forestry</cntorg>
-          <cntper>Bud Kincaid</cntper>
+          <cntorg>Minnesota DNR - Resource Assessment</cntorg>
+          <cntper>Kristen Bergstrand</cntper>
         </cntperp>
-        <cntpos>GIS Specialist</cntpos>
+        <cntpos>CSA Inventory Coordinator</cntpos>
         <cntaddr>
-          <addrtype>Mailing and Physical</addrtype>
-          <address>500 Lafayette Road</address>
-          <city>St. Paul</city>
+          <address>483 Peterson Rd</address>
+          <city>Grand Rapids</city>
           <state>MN</state>
-          <postal>55155</postal>
+          <postal>55744</postal>
         </cntaddr>
-        <cntvoice>651-259-5273</cntvoice>
-        <cntfax>651-296-5954</cntfax>
-        <cntemail>bud.kincaid@state.mn.us</cntemail>
+        <cntvoice>218-322-2511</cntvoice>
+        <cntemail>Kristen.Bergstrand@state.mn.us</cntemail>
       </cntinfo>
     </ptcontac>
   </idinfo>
@@ -2567,8 +2565,7 @@
   </eainfo>
   <distinfo>
     <resdesc>biota_dnr_forest_stand_inventory</resdesc>
-    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html
-</distliab>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
     <stdorder>
       <digform>
         <digtinfo>

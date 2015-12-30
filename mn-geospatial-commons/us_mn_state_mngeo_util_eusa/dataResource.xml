@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>util_eusa</baseName>
     <descriptiveName>Electric Utility Service Areas, Minnesota, 2014</descriptiveName>
@@ -9,7 +10,7 @@
         <topicCategory type="ISO 19115">utilitiesCommunication</topicCategory>
     </topicCategories>
     <resourceIdentifiers>
-        <resourceID/>
+        <resourceID></resourceID>
         <resourceGUID>{8327a734-c0cf-4da6-a15d-aa23fccf5718}</resourceGUID>
     </resourceIdentifiers>
     <dataSubResources>

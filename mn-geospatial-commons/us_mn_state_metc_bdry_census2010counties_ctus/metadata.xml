@@ -1,18 +1,4 @@
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <title>Counties and Cities &amp; Townships 2010, Twin Cities Metropolitan Area</title>
-        <origin>The Counties of Anoka, Dakota, Carver, Hennepin, Ramsey, Scott and Washington and the Metropolitan Council</origin>
-        <pubinfo>
-          <publish>Metropolitan Council</publish>
-        </pubinfo>
-        <pubdate>periodically revised</pubdate>
-        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-bdry-census2010counties-ctus</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>This is a polygon dataset for county boundaries as well as for city, township and unorganized territory (CTU) boundaries in the Twin Cities 7-county metropolitan area.  It is being held static as of April, 2010 for use with Census data and other year 2010 data.  The linework for this dataset comes from individual counties and is assembled by the Metropolitan Council for the MetroGIS community.
+<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><title>Counties and Cities &amp; Townships 2010, Twin Cities Metropolitan Area</title><origin>The Counties of Anoka, Dakota, Carver, Hennepin, Ramsey, Scott and Washington and the Metropolitan Council</origin><pubinfo><publish>Metropolitan Council</publish></pubinfo><pubdate>periodically revised</pubdate><onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-bdry-census2010counties-ctus</onlink></citeinfo></citation><descript><abstract>This is a polygon dataset for county boundaries as well as for city, township and unorganized territory (CTU) boundaries in the Twin Cities 7-county metropolitan area.  It is being held static as of April, 2010 for use with Census data and other year 2010 data.  The linework for this dataset comes from individual counties and is assembled by the Metropolitan Council for the MetroGIS community.
 
  This dataset is composed of three shape files. 
 - County Boundaries - 2010
@@ -29,77 +15,9 @@ NOTES:
 
 -  A variety of civil divisions of the land exist within the United States.  In Minnesota, only three types exist - cities, townships and unorganized territories.  All three of these exist within the Twin Cities seven county area.  The only unorganized territory is Fort Snelling (a large portion of which is occupied by the MSP International Airport).
 
--  Some cities are split between two counties.  Only those parts of cities within the 7-county area are included.</abstract>
-      <purpose>This dataset was developed to be used for many purposes including a variety of analysis and query tasks that relate to counties, cities and townships, and as a general municipal boundary base layer.</purpose>
-      <supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
-    </descript>
-    <timeperd>
-      <timeinfo>
-        <sngdate>
-          <caldate>20100401</caldate>
-        </sngdate>
-      </timeinfo>
-      <current>Data are intended to reflect county, city and township boundary changes (annexation, etc.) as of the Time Period of Content date above.  All counties report their data to be current as approximately that date.
+-  Some cities are split between two counties.  Only those parts of cities within the 7-county area are included.</abstract><purpose>This dataset was developed to be used for many purposes including a variety of analysis and query tasks that relate to counties, cities and townships, and as a general municipal boundary base layer.</purpose><supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>20100401</caldate></sngdate></timeinfo><current>Data are intended to reflect county, city and township boundary changes (annexation, etc.) as of the Time Period of Content date above.  All counties report their data to be current as approximately that date.
 
-Please note that municipal boundaries can change through several different processes, involving different organizations.  County staff are not always notifiied of boundary changes in a timely manner.   If you are aware of boundary changes that are not reflected in this dataset, please notify the contact person in Section 1 of this metadata.</current>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>Quarterly</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-94.012</westbc>
-        <eastbc>-92.732</eastbc>
-        <northbc>45.415</northbc>
-        <southbc>44.471</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <place>
-        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
-      </place>
-      <theme>
-        <themekey>political boundaries, counties, cities, townships, FIPS place code, CTU, CTUs,  MCD, minor civil divisions, municipal boundaries, county boundaries, city boundaries, communities, community boundaries</themekey>
-        <themekt>None</themekt>
-      </theme>
-    </keywords>
-    <accconst>None</accconst>
-    <useconst>None</useconst>
-    <browse>
-      <browsen>None available</browsen>
-    </browse>
-    <crossref>
-      <citeinfo>
-        <title>Counties, County, City and Township Lookup Table - Excel &amp; dBase, County, City and Township Boundaries Combined - 2000</title>
-      </citeinfo>
-    </crossref>
-    <native>ArcGIS Geodatabase, version 10x</native>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Tanya Mayer</cntper>
-        </cntperp>
-        <cntpos>GIS Specialist</cntpos>
-        <cntaddr>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-          <addrtype>mailing and physical</addrtype>
-        </cntaddr>
-        <cntvoice>651.602.1604</cntvoice>
-        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <logic>The dataset is topologically 'clean'.</logic>
-    <complete>Entire seven county geographic area is covered.</complete>
-    <posacc>
-      <horizpa>
-        <horizpar>The estimated positional accuracy of the dataset varies with the source of the data as follows:
+Please note that municipal boundaries can change through several different processes, involving different organizations.  County staff are not always notifiied of boundary changes in a timely manner.   If you are aware of boundary changes that are not reflected in this dataset, please notify the contact person in Section 1 of this metadata.</current></timeperd><status><progress>Complete</progress><update>Quarterly</update></status><spdom><bounding><westbc>-94.012</westbc><eastbc>-92.732</eastbc><northbc>45.415</northbc><southbc>44.471</southbc></bounding></spdom><keywords><place><placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey></place><theme><themekey>political boundaries, counties, cities, townships, FIPS place code, CTU, CTUs,  MCD, minor civil divisions, municipal boundaries, county boundaries, city boundaries, communities, community boundaries</themekey><themekt>None</themekt></theme></keywords><accconst>None</accconst><useconst>None</useconst><browse><browsen>None available</browsen></browse><crossref><citeinfo><title>Counties, County, City and Township Lookup Table - Excel &amp; dBase, County, City and Township Boundaries Combined - 2000</title></citeinfo></crossref><native>ArcGIS Geodatabase, version 10x</native><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Tanya Mayer</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal><addrtype>mailing and physical</addrtype></cntaddr><cntvoice>651.602.1604</cntvoice><cntemail>tanya.mayer@metc.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><logic>The dataset is topologically 'clean'.</logic><complete>Entire seven county geographic area is covered.</complete><posacc><horizpa><horizpar>The estimated positional accuracy of the dataset varies with the source of the data as follows:
 
 Anoka County
 No testing of the positional accuracy has been done.
@@ -120,12 +38,7 @@ Scott County
 Township boundaries that follow PLS lines are estimated at between 0.4 ft. and 1 ft. of true location.  City boundaries that follow PLS lines are also expected to be near this range of accuracy.  Other boundaries are thought to be within 20 or 40 ft.
 
 Washington County
-Boundaries shown that coincide with hydrological features or those that have generalized definitions with little supporting detail of their location are digitized from partially rectified aerial photographs at 1 inch equals 200 feet. These features have been tested 23 feet horizontal accuracy at the 95% confidence level using NSSDA testing procedures except in areas of high vertical relief where such features tested 120 feet horizontal accuracy by use of other testing procedures. Boundaries defined as center of main channel on Mississippi and St. Croix rivers are approximations only (source U.S.G.S. quadrangle maps). All other boundary segments are generated by coordinate geometry based on a framework of accurately located PLSS corner positions. Legal boundary definitions were interpreted and analyzed according to records available and are not based on field survey. The nature of these definitions present situations where documents of record may not coincide with known ground position or that their ambiguity makes it difficult to identify precise ground location. As a result, caution is necessary in use of the municipal boundary data when using it in site specific applications. For more information contact the Washington County Surveyor's Office.</horizpar>
-      </horizpa>
-    </posacc>
-    <lineage>
-      <procstep>
-        <procdesc>SOURCES USED:
+Boundaries shown that coincide with hydrological features or those that have generalized definitions with little supporting detail of their location are digitized from partially rectified aerial photographs at 1 inch equals 200 feet. These features have been tested 23 feet horizontal accuracy at the 95% confidence level using NSSDA testing procedures except in areas of high vertical relief where such features tested 120 feet horizontal accuracy by use of other testing procedures. Boundaries defined as center of main channel on Mississippi and St. Croix rivers are approximations only (source U.S.G.S. quadrangle maps). All other boundary segments are generated by coordinate geometry based on a framework of accurately located PLSS corner positions. Legal boundary definitions were interpreted and analyzed according to records available and are not based on field survey. The nature of these definitions present situations where documents of record may not coincide with known ground position or that their ambiguity makes it difficult to identify precise ground location. As a result, caution is necessary in use of the municipal boundary data when using it in site specific applications. For more information contact the Washington County Surveyor's Office.</horizpar></horizpa></posacc><lineage><procstep><procdesc>SOURCES USED:
 
 This dataset consist of lines from several sources.  They are:
  - Anoka County
@@ -169,22 +82,7 @@ Hennepin/Anoka:  Hennepin County dataset was used.
 Dakota/Hennepin:  Dakota County was used with the minor exception where the two counties meet Scott County.
 
 
-Note:  Municipal boundaries within Anoka County that follow the Rum River have been adjusted by Metropolitan Council staff to align with this feature as it appears in the Met. Council's 2000 orthophotography.</procdesc>
-      </procstep>
-      <srcinfo>
-        <srcscale/>
-      </srcinfo>
-    </lineage>
-  </dataqual>
-  <spdoinfo>
-    <indspref>County code, CTU code, county name, CTU name, COMCD code</indspref>
-    <direct>Vector</direct>
-    <mgmg3obj>polygon shapes</mgmg3obj>
-    <mgmg3til>One layer for entire seven county region.</mgmg3til>
-  </spdoinfo>
-  <eainfo>
-    <overview>
-      <eaover>This dataset is composed of three shape files. 
+Note:  Municipal boundaries within Anoka County that follow the Rum River have been adjusted by Metropolitan Council staff to align with this feature as it appears in the Met. Council's 2000 orthophotography.</procdesc></procstep><srcinfo><srcscale></srcscale></srcinfo></lineage></dataqual><spdoinfo><indspref>County code, CTU code, county name, CTU name, COMCD code</indspref><direct>Vector</direct><mgmg3obj>polygon shapes</mgmg3obj><mgmg3til>One layer for entire seven county region.</mgmg3til></spdoinfo><eainfo><overview><eaover>This dataset is composed of three shape files. 
 
 Census2010Counties.shp = county boundaries
 
@@ -278,90 +176,4 @@ CTU_NAME    string   24
 COMCD_CENS  integer  long
 CTU_TYPE    string   1
 ABC_SORT    integer  short (3)
-FIVE_COLOR  integer  short (1)</eaover>
-      <eadetcit>None</eadetcit>
-    </overview>
-  </eainfo>
-  <distinfo>
-    <resdesc>Census2010CountiesAndCTUs</resdesc>
-    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>Shapefile</formname>
-          <formvern>ArcGIS 10x</formvern>
-          <transize>3  MB for zip file.</transize>
-        </digtinfo>
-      </digform>
-      <ordering>See Online Linkage Below</ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Jon Hoekenga</cntper>
-        </cntperp>
-        <cntpos>GIS System Administrator</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>Minnesota</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651-602-1561</cntvoice>
-        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20110809</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Tanya Mayer</cntper>
-        </cntperp>
-        <cntpos>GIS Specialist</cntpos>
-        <cntaddr>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-          <addrtype>mailing and physical</addrtype>
-        </cntaddr>
-        <cntvoice>651.602.1604</cntvoice>
-        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-  <Esri>
-    <ModDate>20110809</ModDate>
-    <ModTime>11480500</ModTime>
-  </Esri>
-  <mdDateSt Sync="TRUE">20110809</mdDateSt>
-  <spref>
-    <horizsys>
-      <planar>
-        <gridsys>
-          <gridsysn>Universal Transverse Mercator</gridsysn>
-          <utm>
-            <utmzone>15</utmzone>
-          </utm>
-        </gridsys>
-        <planci>
-          <plandu>meters</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>NAD83</horizdn>
-        <ellips>GRS80</ellips>
-      </geodetic>
-    </horizsys>
-  </spref>
-</metadata>
+FIVE_COLOR  integer  short (1)</eaover><eadetcit>None</eadetcit></overview></eainfo><distinfo><resdesc>Census2010CountiesAndCTUs</resdesc><distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab><stdorder><digform><digtinfo><formname>Shapefile</formname><formvern>ArcGIS 10x</formvern><transize>3  MB for zip file.</transize></digtinfo></digform><ordering>See Online Linkage Below</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Jon Hoekenga</cntper></cntperp><cntpos>GIS System Administrator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>Minnesota</state><postal>55101-1805</postal></cntaddr><cntvoice>651-602-1561</cntvoice><cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20110809</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Tanya Mayer</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal><addrtype>mailing and physical</addrtype></cntaddr><cntvoice>651.602.1604</cntvoice><cntemail>tanya.mayer@metc.state.mn.us</cntemail></cntinfo></metc></metainfo><Esri><ModDate>20110809</ModDate><ModTime>11480500</ModTime></Esri><mdDateSt Sync="TRUE">20110809</mdDateSt><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

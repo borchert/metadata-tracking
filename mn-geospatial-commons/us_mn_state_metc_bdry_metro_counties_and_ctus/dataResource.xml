@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>bdry_metro_counties_and_ctus</baseName>
   <descriptiveName>Counties and Cities &amp; Townships, Twin Cities Metropolitan Area</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{dcefcecf-4107-4f54-8365-9e31b940bca4}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
     <dataSubResource>
       <subResourceType>ags_mapserver</subResourceType>
@@ -24,7 +25,7 @@
       </subResourceIdentifiers>
       <subResourceAccess>
         <subResourceURL type="ServiceDescription" name="" description="">http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Administrative_Political_Boundaries/MapServer</subResourceURL>
-        <subResourceURL type="HTML"/>
+        <subResourceURL type="HTML" />
       </subResourceAccess>
     </dataSubResource>
   </dataSubResources>

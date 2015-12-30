@@ -1,9 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE dataResource SYSTEM "dataResource.dtd">
 <dataResource>
   <baseName>base_aerialphotography_service</baseName>
   <descriptiveName>Aerial Photography - 1927 - 2015, Dakota County, Minnesota</descriptiveName>
   <publisherID>us_mn_co_dakota</publisherID>
-  <currentAsofDate/>
+  <currentAsofDate></currentAsofDate>
   <topicCategories>
     <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
   </topicCategories>

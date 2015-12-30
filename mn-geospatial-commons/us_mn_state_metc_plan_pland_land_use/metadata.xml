@@ -1,18 +1,4 @@
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <title>Planned Land Use</title>
-        <origin>Metropolitan Council</origin>
-        <pubinfo>
-          <publish>Metropolitan Council</publish>
-        </pubinfo>
-        <pubdate>20150923</pubdate>
-        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-plan-pland-land-use</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>The Metropolitan Council routinely compiles individual land use plans and plan amendments from communities within the seven-county Twin Cities metropolitan area into a single regional data layer. A principal goal of the Regional Planned Land Use dataset is to allow users to view, analyze and display planned land use data for anywhere in the seven county metropolitan area with a consistent land use classification scheme. The Metropolitan Council uses the Regional Planned Land Use (PLU) data to help monitor growth and plan for regional services such as regional parks, transit service, and wastewater collection and treatment. 
+<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><title>Planned Land Use</title><origin>Metropolitan Council</origin><pubinfo><publish>Metropolitan Council</publish></pubinfo><pubdate>20150923</pubdate><onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-plan-pland-land-use</onlink></citeinfo></citation><descript><abstract>The Metropolitan Council routinely compiles individual land use plans and plan amendments from communities within the seven-county Twin Cities metropolitan area into a single regional data layer. A principal goal of the Regional Planned Land Use dataset is to allow users to view, analyze and display planned land use data for anywhere in the seven county metropolitan area with a consistent land use classification scheme. The Metropolitan Council uses the Regional Planned Land Use (PLU) data to help monitor growth and plan for regional services such as regional parks, transit service, and wastewater collection and treatment. 
 
 Although the planned land use data is based on the locally adopted land use plans and designations for each community, it represent only data that has been submitted to the Metropolitan Council for review per the Metropolitan Land Planning Act of 1995 (Minn. Stat 473.864, Subd 2 and 473.175, Subd 1). See Data Quality Information (Section 2 of this metadata) for specifics about the Metropolitan Land Planning Act of 1995 under Completeness information. 
 
@@ -24,19 +10,9 @@ In conjunction with other regional information (i.e., land use trend data, house
 
 - See Data Quality Information (Section 2 of this metadata) for specifics about the development of the regional dataset and its accuracy. 
 
-- See Entities and Attributes Information (Section 5 of this metadata) for specifics about the regional land use codes and categories.</abstract>
-      <purpose>To view, analyze and display planned land use (PLU) data for anywhere in the seven-county Twin Cities metropolitan area with a consistent land use classification scheme. 
+- See Entities and Attributes Information (Section 5 of this metadata) for specifics about the regional land use codes and categories.</abstract><purpose>To view, analyze and display planned land use (PLU) data for anywhere in the seven-county Twin Cities metropolitan area with a consistent land use classification scheme. 
 
-In conjunction with other regional information (i.e., land use trend data, households and jobs forecasts), the PLU data can help communities more easily understand regional and sub-regional planning goals and Metropolitan Council staff, working with individual local units of government, can better monitor growth and plan for the future needs and financing of regional services such as regional parks, transit service, and wastewater collection and treatment.</purpose>
-      <supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf>
-    </descript>
-    <timeperd>
-      <timeinfo>
-        <sngdate>
-          <caldate>20150923</caldate>
-        </sngdate>
-      </timeinfo>
-      <current>Initial planned land use data was received between June, 2000 and April, 2002. Communities reviewed the currentness of the Planned Land Use Information between March 8, 2002 and May 10, 2002. The actual date of a community's locally adopted plan is not known but the regional data are current as of the date that the Comprehensive Plan was reviewed and subsequent amendments by the Metropolitan Council per the Metropolitan Land Planning Act of 1995 (Minn. Stat 473.864, Subd 2 and 473.175, Subd 1). The Metropolitan Land Planning Act of 1995 requires communities in the seven-county Twin Cities metropolitan area to submit a Comprehensive Plan and subsequent plan amendments to the Metropolitan Council for review and consideration of the impact, if any the plan or plan amendment may have on the regional systems (i.e., roads, parks, wastewater collection and treatment. 
+In conjunction with other regional information (i.e., land use trend data, households and jobs forecasts), the PLU data can help communities more easily understand regional and sub-regional planning goals and Metropolitan Council staff, working with individual local units of government, can better monitor growth and plan for the future needs and financing of regional services such as regional parks, transit service, and wastewater collection and treatment.</purpose><supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>20150923</caldate></sngdate></timeinfo><current>Initial planned land use data was received between June, 2000 and April, 2002. Communities reviewed the currentness of the Planned Land Use Information between March 8, 2002 and May 10, 2002. The actual date of a community's locally adopted plan is not known but the regional data are current as of the date that the Comprehensive Plan was reviewed and subsequent amendments by the Metropolitan Council per the Metropolitan Land Planning Act of 1995 (Minn. Stat 473.864, Subd 2 and 473.175, Subd 1). The Metropolitan Land Planning Act of 1995 requires communities in the seven-county Twin Cities metropolitan area to submit a Comprehensive Plan and subsequent plan amendments to the Metropolitan Council for review and consideration of the impact, if any the plan or plan amendment may have on the regional systems (i.e., roads, parks, wastewater collection and treatment. 
 
 All communities' 2008 Comprehensive Plan information HAVE been incorporated into the Regional Planned Land Use dataset with the exception of the following: 
 
@@ -45,94 +21,26 @@ Landfall
 Lexington 
 Shakopee Mdewakanton Sioux Community (lands included in Prior Lake and Shakopee) - Does not need to submit a plan 
 
-NOTE: Some municipalities have Orderly Annexation Agreements (OAA) with surrounding township. This means that parts of the township may be incorporated into the municipalities at any time in the future. Carver and Scott County has acknowledged that communities with OAA with surrounding townships have planning authority. As such, land use designation in the OAA areas following the adjacent community land use definitions. </current>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>As needed</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-94.012</westbc>
-        <eastbc>-92.732</eastbc>
-        <northbc>45.415</northbc>
-        <southbc>44.471</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <place>
-        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
-      </place>
-      <theme>
-        <themekey>Planned land use, regional planned land use, regional parcel data, future land use, planning and development</themekey>
-        <themekt>None</themekt>
-      </theme>
-    </keywords>
-    <accconst>None</accconst>
-    <useconst>This dataset is the result of the compilation of interpreted planned land use for each community in the Twin Cities metropolitan area. Although the data is based on the locally adopted land use designations of each community, they represent those designation that have been submitted to the Metropolitan Council per the Metropolitan Land Planning Act of 1995 (Minn. Stat 473.864, Subd 2 and 473.175, Subd 1). Locally adopted planned land use designations and corresponding regional interpretations are subject to modification through comprehensive plan amendments. Amendment information will be updated quarterly. For more information regarding any locally adopted planned land use designation, contact the individual community. 
+NOTE: Some municipalities have Orderly Annexation Agreements (OAA) with surrounding township. This means that parts of the township may be incorporated into the municipalities at any time in the future. Carver and Scott County has acknowledged that communities with OAA with surrounding townships have planning authority. As such, land use designation in the OAA areas following the adjacent community land use definitions. </current></timeperd><status><progress>Complete</progress><update>As needed</update></status><spdom><bounding><westbc>-94.012</westbc><eastbc>-92.732</eastbc><northbc>45.415</northbc><southbc>44.471</southbc></bounding></spdom><keywords><place><placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey></place><theme><themekey>Planned land use, regional planned land use, regional parcel data, future land use, planning and development</themekey><themekt>None</themekt></theme></keywords><accconst>None</accconst><useconst>This dataset is the result of the compilation of interpreted planned land use for each community in the Twin Cities metropolitan area. Although the data is based on the locally adopted land use designations of each community, they represent those designation that have been submitted to the Metropolitan Council per the Metropolitan Land Planning Act of 1995 (Minn. Stat 473.864, Subd 2 and 473.175, Subd 1). Locally adopted planned land use designations and corresponding regional interpretations are subject to modification through comprehensive plan amendments. Amendment information will be updated quarterly. For more information regarding any locally adopted planned land use designation, contact the individual community. 
 
 
-By acceptance of this data, the user agrees to include a copy of this metadata record, including the liability disclaimer, whenever the user transmits or provides the GIS Data (or any portion of it) to another user.</useconst>
-    <browse>
-      <browsen>None available</browsen>
-      <browsed>No sample map available</browsed>
-    </browse>
-    <crossref>
-      <citeinfo>
-        <title>Planned land use maps or datasets may be available individually from each community.
+By acceptance of this data, the user agrees to include a copy of this metadata record, including the liability disclaimer, whenever the user transmits or provides the GIS Data (or any portion of it) to another user.</useconst><browse><browsen>None available</browsen><browsed>No sample map available</browsed></browse><crossref><citeinfo><title>Planned land use maps or datasets may be available individually from each community.
 
 Parcel data is available for each county.  See https://gisdata.mn.gov/dataset/us-mn-state-metrogis-plan-regonal-prcls-open
 Existing land use datasets for various years are also available:
 Year 2005: https://gisdata.mn.gov/dataset/us-mn-state-metc-plan-generl-lnduse2005
 Year 2000: https://gisdata.mn.gov/dataset/us-mn-state-metc-plan-generl-lnduse2000
-Previous years:  https://gisdata.mn.gov/dataset/us-mn-state-metc-plan-generl-lnduse-historical</title>
-      </citeinfo>
-    </crossref>
-    <native>Oracle Version 10g, Release 2</native>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Paul Hanson</cntper>
-        </cntperp>
-        <cntpos>GIS Coordinator - Community Development</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>Minnesota</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651-602-1642</cntvoice>
-        <cntfax>651-602-1674</cntfax>
-        <cntemail>paul.hanson@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <attracc>
-      <attraccr>Each community's planned land use is subject to review by the Metropolitan Council per the Comprehensive Land Planning Act of 1995 (Minn. Stat 473.864, Subd 2 and 473.175, Subd 1). The accuracy of a community's locally adopted planned land use or land use plan is based on the information that has been submitted to the Metropolitan Council. Any locally adopted land use designation that is not submitted to the Council for review either through their comprehensive plan or subsequent plan amendments may not be incorporated into the Regional Planned Land Use dataset. 
+Previous years:  https://gisdata.mn.gov/dataset/us-mn-state-metc-plan-generl-lnduse-historical</title></citeinfo></crossref><native>Oracle Version 10g, Release 2</native><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Paul Hanson</cntper></cntperp><cntpos>GIS Coordinator - Community Development</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>Minnesota</state><postal>55101-1805</postal></cntaddr><cntvoice>651-602-1642</cntvoice><cntfax>651-602-1674</cntfax><cntemail>paul.hanson@metc.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>Each community's planned land use is subject to review by the Metropolitan Council per the Comprehensive Land Planning Act of 1995 (Minn. Stat 473.864, Subd 2 and 473.175, Subd 1). The accuracy of a community's locally adopted planned land use or land use plan is based on the information that has been submitted to the Metropolitan Council. Any locally adopted land use designation that is not submitted to the Council for review either through their comprehensive plan or subsequent plan amendments may not be incorporated into the Regional Planned Land Use dataset. 
 
 Regional classifications are 'best fit' interpretations of locally adopted designations into the MetroGIS endorsed Regional Coding Scheme. Any error in interpretation is solely the responsibility of the Metropolitan Council. 
 
-Valid code checks have been conducted on the regional classification codes. No known code attribute errors exist. Locally adopted land use designations and therefore corresponding regional classifications are subject to change through comprehensive plan amendments.</attraccr>
-    </attracc>
-    <logic>The dataset is topologically 'clean'.</logic>
-    <complete>This dataset is the result of the compilation of interpreted planned land use for each community in the Twin Cities metropolitan area to the year 2020. Although the data is based on the locally adopted land use designations of each community, they represent those designation that have been submitted to the Metropolitan Council per the Metropolitan Land Planning Act of 1995 (Minn. Stat 473.864, Subd 2 and 473.175, Subd 1). Locally adopted planned land use designations and corresponding regional interpretations are subject to modification through comprehensive plan amendments. Not all communities have adopted their 2008 comprehensive plans (2030 planning horizon). Community's planning year is differentiated with the BENCHMARK data field (i.e., 2020 or 2030). 
+Valid code checks have been conducted on the regional classification codes. No known code attribute errors exist. Locally adopted land use designations and therefore corresponding regional classifications are subject to change through comprehensive plan amendments.</attraccr></attracc><logic>The dataset is topologically 'clean'.</logic><complete>This dataset is the result of the compilation of interpreted planned land use for each community in the Twin Cities metropolitan area to the year 2020. Although the data is based on the locally adopted land use designations of each community, they represent those designation that have been submitted to the Metropolitan Council per the Metropolitan Land Planning Act of 1995 (Minn. Stat 473.864, Subd 2 and 473.175, Subd 1). Locally adopted planned land use designations and corresponding regional interpretations are subject to modification through comprehensive plan amendments. Not all communities have adopted their 2008 comprehensive plans (2030 planning horizon). Community's planning year is differentiated with the BENCHMARK data field (i.e., 2020 or 2030). 
 
-For more information regarding any locally adopted planned land use designation, contact the individual community.</complete>
-    <posacc>
-      <horizpa>
-        <horizpar>The horizontal position accuracy is based on the county parcel data. See metadata for individual counties for positional accuracy statements. In areas where counties have improved altered the positional accuracy of their parcels, the planned land use boundaries may not be conterminous with thte parcel boundaries. 
+For more information regarding any locally adopted planned land use designation, contact the individual community.</complete><posacc><horizpa><horizpar>The horizontal position accuracy is based on the county parcel data. See metadata for individual counties for positional accuracy statements. In areas where counties have improved altered the positional accuracy of their parcels, the planned land use boundaries may not be conterminous with thte parcel boundaries. 
 
 For areas where planned land use delineations foreshadows existing parcel delineation, parcels were split to approximate the locally adopted land use delineation. 
 
-As a general rule when developing this dataset it was the Metropolitan Council's intention to meet or exceed the National Mapping Accuracy Standards at 1:24,000 (within approximately 40 feet of actual location), with the exception of right-of-way for local roads. No testing has been conducted to verify this.</horizpar>
-      </horizpa>
-    </posacc>
-    <lineage>
-      <procstep>
-        <procdesc>This dataset was assembled by staff at the Metropolitan Council. 
+As a general rule when developing this dataset it was the Metropolitan Council's intention to meet or exceed the National Mapping Accuracy Standards at 1:24,000 (within approximately 40 feet of actual location), with the exception of right-of-way for local roads. No testing has been conducted to verify this.</horizpar></horizpa></posacc><lineage><procstep><procdesc>This dataset was assembled by staff at the Metropolitan Council. 
 
 Lineage Outline:
 This dataset was assembled by staff at the Metropolitan Council. 
@@ -155,7 +63,7 @@ Since there is no official State or Regional land use coding scheme that communi
 II. CREATION OFTHE PLANNED LAND USE (PLU) DATASET 
 
 A. LAND USE CODING SCHEME: 
-The PLU dataset came to fruition in 2002 based on an original "Information Need" outlined by MetroGIS and the Metropolitan Council's need to collect and compare communities' land use plans across jurisdictional boundaries for planning and servicing regional services (i.e., regional parks, transit, and waste collection and treatment). Derived from communities' individual land use plans and subsequent plan amendments, the data set is displayed utilizing a uniform classification scheme that incorporates the concepts and practices fostered by the American Planners Association. The classification scheme - the Regional Planned Land Use Coding Scheme - is the result of more than 3 &#194;&#189; years of collaboration between MetroGIS, the North Metro I-35W Corridor Coalition and the Metropolitan Council. The combined, uniform regional vision allows users to visualize information in a variety of ways and make "apples to apples" comparisons between communities which can influence regional and sub-regional planning policies in ways that hadn't been possible in the past. 
+The PLU dataset came to fruition in 2002 based on an original "Information Need" outlined by MetroGIS and the Metropolitan Council's need to collect and compare communities' land use plans across jurisdictional boundaries for planning and servicing regional services (i.e., regional parks, transit, and waste collection and treatment). Derived from communities' individual land use plans and subsequent plan amendments, the data set is displayed utilizing a uniform classification scheme that incorporates the concepts and practices fostered by the American Planners Association. The classification scheme - the Regional Planned Land Use Coding Scheme - is the result of more than 3 Â½ years of collaboration between MetroGIS, the North Metro I-35W Corridor Coalition and the Metropolitan Council. The combined, uniform regional vision allows users to visualize information in a variety of ways and make "apples to apples" comparisons between communities which can influence regional and sub-regional planning policies in ways that hadn't been possible in the past. 
 
 Based on the recommendation of MetroGIS, the classification scheme distinguishes between use and "intensity of use." To better explain this distinction, consider the following often-used land use terms: "Multifamily Residential" and "High Density Residential." Both terms are describing a form "Residential" land use. Whereas "Multifamily" defines the type residential land use, "High Density" is a qualitative term reflecting the intensity of use the "Residential" land. Such intensity descriptions are not reserved solely for residential land uses. Although not use as frequently, intensity qualifiers are just as applicable to other types of land use (i.e., "High Intensity Mixed Use", "Medium Performance Industrial" or "Low Density Business - Office Park"). Acknowledging that there is a distinction between a land use and the intensity of that use, an "Intensity of Use" Work Group was formed to refine the proposed Regional Land Use Coding Scheme land use categories and determine what "intensity" measures would be useful to supplement planned land use data, or more specifically, the Regional Coding Scheme. The Work Group outlined several measures but, only "Housing Density" was designated as a priority and addressed by the group as of 2002. As a result, "Housing Density" (i.e., "HSG_DEN") and "Housing Density Range" (i.e., "HSGDEN_RNG") are included as separate data fields in the Regional Planned Land Use dataset to record the community's known allowable housing density range associated with a residential land use category and which standardized density range category is most appropriate for the community's description, respectively (see Definition of the "Intensity of Use" Work Group's Housing Density Ranges list below). 
 
@@ -238,22 +146,7 @@ Prior Lake
 Richfield
 St. Louis Park
 
-</procdesc>
-      </procstep>
-      <srcinfo>
-        <srcscale/>
-      </srcinfo>
-    </lineage>
-  </dataqual>
-  <spdoinfo>
-    <indspref/>
-    <direct/>
-    <mgmg3obj/>
-    <mgmg3til/>
-  </spdoinfo>
-  <eainfo>
-    <overview>
-      <eaover>PLU_POLYGON feature class attribution 
+</procdesc></procstep><srcinfo><srcscale></srcscale></srcinfo></lineage></dataqual><spdoinfo><indspref></indspref><direct></direct><mgmg3obj></mgmg3obj><mgmg3til></mgmg3til></spdoinfo><eainfo><overview><eaover>PLU_POLYGON feature class attribution 
 
 OBJECTID: Unique polygon identifier 
 
@@ -303,8 +196,7 @@ SHAPE_LENG: Perimeter length of polygon in meters
 
 SHAPE_AREA: Polygon area in square meters
 
-CTU_CODE: 5 digit FIPS code for the city, Townships, &amp; Unincorporated areas in which the polygon resides</eaover>
-      <eadetcit>SPATIAL DATA (POLYGON) ATTRIBUTES: 
+CTU_CODE: 5 digit FIPS code for the city, Townships, &amp; Unincorporated areas in which the polygon resides</eaover><eadetcit>SPATIAL DATA (POLYGON) ATTRIBUTES: 
 
 OBJECTID: Unique polygon identifier 
 SHAPE: ArcGIS feature type 
@@ -518,86 +410,4 @@ Valid HSGDEN_RNG Codes and Corresponding Density Ranges
 - MEDIUM = 4.1 to 8 housing units per acre 
 - HIGH = 8.1 to 12 housing units per acre 
 - VERYHIGH = 12.1 to 20 housing units per acre 
-- URBAN = Greater than 20 housing units per acre</eadetcit>
-    </overview>
-  </eainfo>
-  <distinfo>
-    <resdesc>landuse_planned_research</resdesc>
-    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>csv file</formname>
-          <formvern/>
-          <transize/>
-        </digtinfo>
-      </digform>
-      <ordering>See Online Linkage Below</ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Paul Hanson</cntper>
-        </cntperp>
-        <cntpos>GIS Coordinator - Community Developement</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>Minnesota</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651-602-1644</cntvoice>
-        <cntfax>651-602-1674</cntfax>
-        <cntemail>paul.hanson@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20150923</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Paul E. Hanson</cntper>
-        </cntperp>
-        <cntpos>GIS Coordinator - Community Development</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>Minnesota</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651-602-1642</cntvoice>
-        <cntfax>651-602-1674</cntfax>
-        <cntemail>paul.hanson@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-  <Esri>
-    <ModDate>20101213</ModDate>
-    <ModTime>10385800</ModTime>
-    <CreaDate>20140710</CreaDate>
-    <CreaTime>10301200</CreaTime>
-    <SyncOnce>TRUE</SyncOnce>
-    <DataProperties>
-      <itemProps>
-        <itemLocation>
-          <linkage Sync="TRUE">file://\\rafs2a\gis\devel\data_devel\comp_plans\plu\Data\Processing\PlannedLandUse (1)</linkage>
-          <protocol Sync="TRUE">Local Area Network</protocol>
-        </itemLocation>
-      </itemProps>
-      <copyHistory>
-        <copy source="L:\Metadata\Layers\PlannedLandUse" dest="\\rafs2a\gis\devel\data_devel\comp_plans\plu\Data\Processing\PlannedLandUse (1)" date="20140710" time="10301200"/>
-      </copyHistory>
-    </DataProperties>
-  </Esri>
-  <mdDateSt Sync="TRUE">20101213</mdDateSt>
-</metadata>
+- URBAN = Greater than 20 housing units per acre</eadetcit></overview></eainfo><distinfo><resdesc>landuse_planned_research</resdesc><distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab><stdorder><digform><digtinfo><formname>csv file</formname><formvern></formvern><transize></transize></digtinfo></digform><ordering>See Online Linkage Below</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Paul Hanson</cntper></cntperp><cntpos>GIS Coordinator - Community Developement</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>Minnesota</state><postal>55101-1805</postal></cntaddr><cntvoice>651-602-1644</cntvoice><cntfax>651-602-1674</cntfax><cntemail>paul.hanson@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150923</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Paul E. Hanson</cntper></cntperp><cntpos>GIS Coordinator - Community Development</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>Minnesota</state><postal>55101-1805</postal></cntaddr><cntvoice>651-602-1642</cntvoice><cntfax>651-602-1674</cntfax><cntemail>paul.hanson@metc.state.mn.us</cntemail></cntinfo></metc></metainfo><Esri><ModDate>20101213</ModDate><ModTime>10385800</ModTime><CreaDate>20140710</CreaDate><CreaTime>10301200</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\rafs2a\gis\devel\data_devel\comp_plans\plu\Data\Processing\PlannedLandUse (1)</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="L:\Metadata\Layers\PlannedLandUse" dest="\\rafs2a\gis\devel\data_devel\comp_plans\plu\Data\Processing\PlannedLandUse (1)" date="20140710" time="10301200"></copy></copyHistory></DataProperties></Esri><mdDateSt Sync="TRUE">20101213</mdDateSt></metadata>

@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>trans_regional_bike_trans_netwrk</baseName>
   <descriptiveName>Regional Bike Transportation Network - Alignments &amp; Corridors</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{fecea530-47c4-4c20-a5e4-d26ee18eaf2d}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

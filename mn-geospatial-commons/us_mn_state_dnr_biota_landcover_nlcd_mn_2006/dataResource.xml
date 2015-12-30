@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>biota_landcover_nlcd_mn_2006</baseName>
     <descriptiveName>NLCD 2006 - Land Cover</descriptiveName>

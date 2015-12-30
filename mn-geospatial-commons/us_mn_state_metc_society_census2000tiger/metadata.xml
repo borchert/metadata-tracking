@@ -1,104 +1,8 @@
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>U.S. Census Bureau and the Metropolitan Council</origin>
-        <pubdate>20010207</pubdate>
-        <title>Census 2000 Geography - Blocks, Block Groups, Tracts, TAZs, Counties, County Subdivisions and Water</title>
-        <mgmg1cid>N/A</mgmg1cid>
-        <pubinfo>
-          <publish>Metropolitan Council</publish>
-        </pubinfo>
-        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-society-census2000tiger</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>This 'Redistricting' version of the census data is the first release of the data.
+<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>U.S. Census Bureau and the Metropolitan Council</origin><pubdate>20010207</pubdate><title>Census 2000 Geography - Blocks, Block Groups, Tracts, TAZs, Counties, County Subdivisions and Water</title><mgmg1cid>N/A</mgmg1cid><pubinfo><publish>Metropolitan Council</publish></pubinfo><onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-society-census2000tiger</onlink></citeinfo></citation><descript><abstract>This 'Redistricting' version of the census data is the first release of the data.
 
 This 2000 census redistricting geography database of the 7 county metropolitan area and the additional 12 collar county area was developed from the U.S.  Census Bureau's Redistricting Census 2000 TIGER/Line files.
 
-The Metropolitan Council downloaded this data from the Census Bureau's FTP site, imported it into ArcInfo coverage format, added a few items to the coverage, then created block, block group, tract, county subdivision (city), county, taz and water coverages and shape files from the original data.</abstract>
-      <purpose>For mapping and analysis of data from the U. S. Census Bureau.</purpose>
-      <supplinf>Seven County Twin Cities Metropolitan Area and it's 12 collar counties.</supplinf>
-    </descript>
-    <timeperd>
-      <timeinfo>
-        <sngdate>
-          <caldate>2000</caldate>
-        </sngdate>
-      </timeinfo>
-      <current>2000</current>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>None Planned</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-94.664</westbc>
-        <eastbc>-92.117</eastbc>
-        <northbc>45.736</northbc>
-        <southbc>44.183</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <theme>
-        <themekey>census, demographics, census boundaries, 2000 census, blocks, block boundaries, census blocks, census block groups, census tracts, counties, county subdivisions, FIPS Place, MCDs, TAZs, water</themekey>
-      </theme>
-      <place>
-        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County, Chisago County, Isanti County, Sherburne County, Wright County, McLeod County, Sibley County, Le Sueur County, Rice County, Goodhue County, Pierce County, St. Croix County, Polk County</placekey>
-      </place>
-    </keywords>
-    <accconst>None</accconst>
-    <useconst>None</useconst>
-    <browse>
-      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/society_census2000tiger/metadata/preview.jpg</browsen>
-    </browse>
-    <native>TIGER; ArcInfo 8.x</native>
-    <crossref>
-      <citeinfo>
-        <title>Census 2000 Redistricting (PL-94-171) Summary File Data (A Subset of Population Data)</title>
-      </citeinfo>
-    </crossref>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Tanya Mayer</cntper>
-        </cntperp>
-        <cntpos>GIS Coordinator</cntpos>
-        <cntaddr>
-          <addrtype> mailing and physical address </addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>Minnesota</state>
-          <postal>55101</postal>
-        </cntaddr>
-        <cntvoice>651-602-1604</cntvoice>
-        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <attracc>
-      <attraccr>Unknown</attraccr>
-    </attracc>
-    <logic>Each county polygon file is topologically 'clean'.</logic>
-    <complete>All counties are included.</complete>
-    <posacc>
-      <horizpa>
-        <horizpar>Presumed to meet source material standards: for 1:100,000-scale mapping, National Map Accuracy Standards state a horizontal positional accuracy of not less than +/- 167 feet for 90% of points tested.</horizpar>
-      </horizpa>
-      <vertacc>
-        <vertaccr>Not applicable</vertaccr>
-      </vertacc>
-    </posacc>
-    <lineage>
-      <srcinfo>
-        <srcscale>100000</srcscale>
-      </srcinfo>
-      <procstep>
-        <procdesc>Data originated at the U.S. Bureau of the Census, as 2000 Census Redistricting TIGER/Line files (02/07/2001).
+The Metropolitan Council downloaded this data from the Census Bureau's FTP site, imported it into ArcInfo coverage format, added a few items to the coverage, then created block, block group, tract, county subdivision (city), county, taz and water coverages and shape files from the original data.</abstract><purpose>For mapping and analysis of data from the U. S. Census Bureau.</purpose><supplinf>Seven County Twin Cities Metropolitan Area and it's 12 collar counties.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>2000</caldate></sngdate></timeinfo><current>2000</current></timeperd><status><progress>Complete</progress><update>None Planned</update></status><spdom><bounding><westbc>-94.664</westbc><eastbc>-92.117</eastbc><northbc>45.736</northbc><southbc>44.183</southbc></bounding></spdom><keywords><theme><themekey>census, demographics, census boundaries, 2000 census, blocks, block boundaries, census blocks, census block groups, census tracts, counties, county subdivisions, FIPS Place, MCDs, TAZs, water</themekey></theme><place><placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County, Chisago County, Isanti County, Sherburne County, Wright County, McLeod County, Sibley County, Le Sueur County, Rice County, Goodhue County, Pierce County, St. Croix County, Polk County</placekey></place></keywords><accconst>None</accconst><useconst>None</useconst><browse><browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metc/society_census2000tiger/metadata/preview.jpg</browsen></browse><native>TIGER; ArcInfo 8.x</native><crossref><citeinfo><title>Census 2000 Redistricting (PL-94-171) Summary File Data (A Subset of Population Data)</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Tanya Mayer</cntper></cntperp><cntpos>GIS Coordinator</cntpos><cntaddr><addrtype> mailing and physical address </addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>Minnesota</state><postal>55101</postal></cntaddr><cntvoice>651-602-1604</cntvoice><cntemail>tanya.mayer@metc.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>Unknown</attraccr></attracc><logic>Each county polygon file is topologically 'clean'.</logic><complete>All counties are included.</complete><posacc><horizpa><horizpar>Presumed to meet source material standards: for 1:100,000-scale mapping, National Map Accuracy Standards state a horizontal positional accuracy of not less than +/- 167 feet for 90% of points tested.</horizpar></horizpa><vertacc><vertaccr>Not applicable</vertaccr></vertacc></posacc><lineage><srcinfo><srcscale>100000</srcscale></srcinfo><procstep><procdesc>Data originated at the U.S. Bureau of the Census, as 2000 Census Redistricting TIGER/Line files (02/07/2001).
 
 www.census.gov
 clicked on TIGER
@@ -147,19 +51,7 @@ dissovled 7 coverages from the base coverage: Block, Block Group, Tract, Cousub,
 
 Added and standardized items, then, for each layer, map joined all 7 counties and the remaining 12 counties.
 
-Created shape files from these 14 coverages.</procdesc>
-      </procstep>
-    </lineage>
-  </dataqual>
-  <spdoinfo>
-    <indspref>2000 Census Block, Block Group or Tract</indspref>
-    <direct>Vector</direct>
-    <mgmg3obj>arcs, nodes, polygons, label points</mgmg3obj>
-    <mgmg3til>For each themes, one layer for entire seven county region and another layer for the 12 collar counties of the 7-county region.</mgmg3til>
-  </spdoinfo>
-  <eainfo>
-    <overview>
-      <eaover>STATE:      2 digit FIPS and state standard state code; e.g. 27, 55
+Created shape files from these 14 coverages.</procdesc></procstep></lineage></dataqual><spdoinfo><indspref>2000 Census Block, Block Group or Tract</indspref><direct>Vector</direct><mgmg3obj>arcs, nodes, polygons, label points</mgmg3obj><mgmg3til>For each themes, one layer for entire seven county region and another layer for the 12 collar counties of the 7-county region.</mgmg3til></spdoinfo><eainfo><overview><eaover>STATE:      2 digit FIPS and state standard state code; e.g. 27, 55
 
 CO:         3 digit FIPS and state standard county code; e.g. 163, 003
 
@@ -265,95 +157,9 @@ DATAFILE NAME: WATER_2000.PAT
     9  PERIMETER           8   18  F    5
    17  WATER_2000#         4    5  B    -
    21  WATER_2000-ID       4    5  B    -
-   25  WATER               1    1  I    -</eaover>
-      <eadetcit>Redistricting Census 2000 TIGER/Line Files
+   25  WATER               1    1  I    -</eaover><eadetcit>Redistricting Census 2000 TIGER/Line Files
 
 http://www.census.gov/geo/www/tiger/
 http://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html
 
-Redistricting Census 2000 TIGER/Line Technical Documentation and Metadata</eadetcit>
-    </overview>
-  </eainfo>
-  <distinfo>
-    <resdesc>Census2000Tiger</resdesc>
-    <distliab>NOTICE: The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13). THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by the Metropolitan Council for its own internal business purposes. The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>ArcView Shape File</formname>
-          <formvern>3x</formvern>
-          <transize>For ZIP files, sizes are 12 MB for 7-county metro and 10 MB for the 12 collar counties.</transize>
-        </digtinfo>
-      </digform>
-      <ordering>See Online Linkage Below</ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Tanya Mayer</cntper>
-        </cntperp>
-        <cntpos>GIS Coordinator</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>Minnesota</state>
-          <postal>55101</postal>
-        </cntaddr>
-        <cntvoice>651-602-1604</cntvoice>
-        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20010705</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Tanya Mayer</cntper>
-        </cntperp>
-        <cntpos>GIS Coordinator</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>Minnesota</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651-602-1604</cntvoice>
-        <cntemail>tanya.mayer@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-  <Esri>
-    <ModDate>20110729</ModDate>
-    <ModTime>13305300</ModTime>
-  </Esri>
-  <mdDateSt Sync="TRUE">20110729</mdDateSt>
-  <spref>
-    <horizsys>
-      <planar>
-        <gridsys>
-          <gridsysn>Universal Transverse Mercator</gridsysn>
-          <utm>
-            <utmzone>15</utmzone>
-          </utm>
-        </gridsys>
-        <planci>
-          <plandu>meters</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>NAD83</horizdn>
-        <ellips>GRS80</ellips>
-      </geodetic>
-    </horizsys>
-  </spref>
-</metadata>
+Redistricting Census 2000 TIGER/Line Technical Documentation and Metadata</eadetcit></overview></eainfo><distinfo><resdesc>Census2000Tiger</resdesc><distliab>NOTICE: The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13). THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. The GIS Data were developed by the Metropolitan Council for its own internal business purposes. The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab><stdorder><digform><digtinfo><formname>ArcView Shape File</formname><formvern>3x</formvern><transize>For ZIP files, sizes are 12 MB for 7-county metro and 10 MB for the 12 collar counties.</transize></digtinfo></digform><ordering>See Online Linkage Below</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Tanya Mayer</cntper></cntperp><cntpos>GIS Coordinator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>Minnesota</state><postal>55101</postal></cntaddr><cntvoice>651-602-1604</cntvoice><cntemail>tanya.mayer@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20010705</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Tanya Mayer</cntper></cntperp><cntpos>GIS Coordinator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>Minnesota</state><postal>55101-1805</postal></cntaddr><cntvoice>651-602-1604</cntvoice><cntemail>tanya.mayer@metc.state.mn.us</cntemail></cntinfo></metc></metainfo><Esri><ModDate>20110729</ModDate><ModTime>13305300</ModTime></Esri><mdDateSt Sync="TRUE">20110729</mdDateSt><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

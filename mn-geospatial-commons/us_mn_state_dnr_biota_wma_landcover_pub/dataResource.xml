@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>biota_wma_landcover_pub</baseName>
     <descriptiveName>DNR Wildlife Management Area Land Cover - Publicly Accessible</descriptiveName>

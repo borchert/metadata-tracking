@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>loc_water_access_sites</baseName>
     <descriptiveName>Water Access Sites in Minnesota</descriptiveName>

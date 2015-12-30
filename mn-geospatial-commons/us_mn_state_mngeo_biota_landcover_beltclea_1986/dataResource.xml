@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE dataResource SYSTEM "dataResource.dtd">
 <dataResource>
   <baseName>biota_landcover_beltclea_1986</baseName>
   <descriptiveName>Land Use for Clearwater and Beltrami Counties, 1986</descriptiveName>
   <publisherID>us_mn_state_mngeo</publisherID>
-  <currentAsofDate/>
+  <currentAsofDate></currentAsofDate>
   <topicCategories>
     <topicCategory type="ISO 19115">biota</topicCategory>
     <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
@@ -18,7 +19,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{56745bbb-1885-4a82-89ab-87117906c508}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>plan_generl_lnduse_historical</baseName>
   <descriptiveName>Generalized Land Use, Historical (1984, 1990, 1997, 2000, 2005, 2010)</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{67b5c1dc-350b-40cd-a6a9-b0cb4f5fe006}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
     <dataSubResource>
       <subResourceType>ags_mapserver</subResourceType>

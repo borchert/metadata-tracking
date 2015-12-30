@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_cities_counties_twps_map</baseName>
     <descriptiveName>Minnesota Cities, Townships, and Counties Reference Map</descriptiveName>

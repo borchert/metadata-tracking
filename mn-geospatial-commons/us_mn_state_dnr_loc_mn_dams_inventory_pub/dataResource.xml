@@ -1,9 +1,10 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>loc_mn_dams_inventory_pub</baseName>
     <descriptiveName>Inventory of Dams in Minnesota</descriptiveName>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-11-19</currentAsofDate>
+    <currentAsofDate>2015-12-24</currentAsofDate>
     <topicCategories>
         <topicCategory type="ISO 19115">location</topicCategory>
     </topicCategories>

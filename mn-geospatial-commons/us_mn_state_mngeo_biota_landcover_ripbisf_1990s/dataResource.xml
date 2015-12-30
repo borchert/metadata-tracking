@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>biota_landcover_ripbisf_1990s</baseName>
     <descriptiveName>Land Use: Camp Ripley and Beltrami Island State Forest, Minnesota</descriptiveName>

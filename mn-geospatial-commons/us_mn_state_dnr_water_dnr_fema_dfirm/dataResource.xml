@@ -1,10 +1,11 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>water_dnr_fema_dfirm</baseName>
     <descriptiveName>DNR FEMA DFIRM</descriptiveName>
     <publisher>Minnesota DNR - Ecological and Water Resources</publisher>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-11-19</currentAsofDate>
+    <currentAsofDate>2015-12-24</currentAsofDate>
     <resourceType>ESRI File Geodatabase</resourceType>
     <topicCategories>
         <topicCategory type="ISO 19115">inlandWaters</topicCategory>

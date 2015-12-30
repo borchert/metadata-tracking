@@ -1,76 +1,10 @@
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>Metropolitan Council</origin>
-        <title>Transit Stops Boardings and Alightings (Fall 2014)</title>
-        <pubinfo>
-          <publish>Metropolitan Council - Metro Transit</publish>
-        </pubinfo>
-        <pubdate>20140506</pubdate>
-        <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-trans-stop-boardings-alightings</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>Contains average daily transit boardings and alightings for all Metro Transit, Met Council, and Maple Grove Transit fixed-route transit service.  
+<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>Metropolitan Council</origin><title>Transit Stops Boardings and Alightings (Fall 2014)</title><pubinfo><publish>Metropolitan Council - Metro Transit</publish></pubinfo><pubdate>20140506</pubdate><onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-trans-stop-boardings-alightings</onlink></citeinfo></citation><descript><abstract>Contains average daily transit boardings and alightings for all Metro Transit, Met Council, and Maple Grove Transit fixed-route transit service.  
 
 Note: Records are provided for all regional transit service and stops, but boarding and alighting data are only shown for Metro Transit and Met Council provided services and for service from other providers that have agreed to the inclusion of their service in this data set.  
-</abstract>
-      <purpose>To provide information on transit stop usage in the Twin Cities region.  
+</abstract><purpose>To provide information on transit stop usage in the Twin Cities region.  
 
 Note: This data set should only be used to determine stop level ridership patterns.  It cannot be used to summarize total route or system level ridership for the same time period.  The data set is aggregated at the stop level and is filtered to exclude non-representative days.  This will not match the total ridership calculated from APC or fare collection data.
-</purpose>
-    </descript>
-    <timeperd>
-      <current>Data are for Fall 2014</current>
-      <timeinfo>
-        <sngdate>
-          <caldate>Average daily boardings and alightings from early September to December 2014.  A secondary file with data from September 3 to December 6, 2013 is also included.</caldate>
-        </sngdate>
-      </timeinfo>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>Data set is updated annually at the end of the year with data roughly for the September to November period.</update>
-    </status>
-    <accconst>None</accconst>
-    <useconst>None</useconst>
-    <crossref>
-      <citeinfo>
-        <title>TransitStops, TransitRoutes, ParkAndRideLots</title>
-      </citeinfo>
-    </crossref>
-    <keywords>
-      <place>
-        <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
-      </place>
-      <theme>
-        <themekt>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</themekt>
-        <themekey>transit, bus, buses, light rail, LRT, commuter rail, trains, bus rapid transit, BRT, stops, stations, boarding, alighting, riders, ridership, automatic passenger counter, APC</themekey>
-      </theme>
-    </keywords>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council - Metro Transit</cntorg>
-          <cntper>Janet Hopper</cntper>
-        </cntperp>
-        <cntpos>Business Systems Analyst III</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>560 6th Ave N</address>
-          <city>Minneapolis</city>
-          <state>MN</state>
-          <postal>55411</postal>
-        </cntaddr>
-        <cntvoice>612.349.7726</cntvoice>
-        <cntemail>janet.hopper@metrotransit.org</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <eainfo>
-    <overview>
-      <eaover>Provider: Provider of the route
+</purpose></descript><timeperd><current>Data are for Fall 2014</current><timeinfo><sngdate><caldate>Average daily boardings and alightings from early September to December 2014.  A secondary file with data from September 3 to December 6, 2013 is also included.</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>Data set is updated annually at the end of the year with data roughly for the September to November period.</update></status><accconst>None</accconst><useconst>None</useconst><crossref><citeinfo><title>TransitStops, TransitRoutes, ParkAndRideLots</title></citeinfo></crossref><keywords><place><placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey></place><theme><themekt>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</themekt><themekey>transit, bus, buses, light rail, LRT, commuter rail, trains, bus rapid transit, BRT, stops, stations, boarding, alighting, riders, ridership, automatic passenger counter, APC</themekey></theme></keywords><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council - Metro Transit</cntorg><cntper>Janet Hopper</cntper></cntperp><cntpos>Business Systems Analyst III</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>560 6th Ave N</address><city>Minneapolis</city><state>MN</state><postal>55411</postal></cntaddr><cntvoice>612.349.7726</cntvoice><cntemail>janet.hopper@metrotransit.org</cntemail></cntinfo></ptcontac></idinfo><eainfo><overview><eaover>Provider: Provider of the route
  
 Route_Type: Type of route (Urban Local, Suburban Local, Express)
 
@@ -105,77 +39,12 @@ Ons: Average daily boardings
 Offs: Average daily alightings
 
 **Note: The Group ID field is intended to allow stops that are either in the same location or very close proximity to be combined.  This includes the following situations: Location with different stops for bus arrival and departure times, transit centers, and other similar locations.  Note that in some cases, stops on intersecting streets are grouped together.  Care should be taken in using this field and the grouped stops should be considered on a case by case basis.
-</eaover>
-    </overview>
-  </eainfo>
-  <dataqual>
-    <attracc>
-      <attraccr>All information except the boardings and alightings are based on the scheduled service that operated during the analysis time period.  
+</eaover></overview></eainfo><dataqual><attracc><attraccr>All information except the boardings and alightings are based on the scheduled service that operated during the analysis time period.  
 
 The regular route bus and BRT boardings and alightings data are averages from the Metro Transit automatic passenger counter system.  These data are averaged over approximately a three month period with certain non-standard days excluded from the averages.  Non-standard days include those with severe weather, special events, school break periods, and other days that do not have normal ridership patterns.
 
 The light rail and commuter rail boardings data are summarized from separate systems.  Alightings data is not currently available for those services.  Only weekday data are reported for light rail and commuter rail.
-</attraccr>
-    </attracc>
-    <complete>All stops with scheduled service at the end of the data aggregation period are included.  Stops affected by detours at this time may not be shown as they would be for regularly scheduled service.</complete>
-    <logic>Total boardings and alightings at the stop, route, provider and system levels will not always be equal.  This is due both to the variations in ridership patterns as well as the result of the data collection and aggregation processes.</logic>
-    <lineage>
-      <procstep>
-        <procdesc>Bus and BRT data are gathered via the Metro Transit automatic passenger counter (APC) system which is deployed on roughly two-thirds of all buses.  APC data are processed daily to match boardings and alightings to the correct stop and scheduled trip.  Some data are dropped or excluded from the aggregation if they are outside the expected ranges (i.e., if they are suspected of being anomalous).
+</attraccr></attracc><complete>All stops with scheduled service at the end of the data aggregation period are included.  Stops affected by detours at this time may not be shown as they would be for regularly scheduled service.</complete><logic>Total boardings and alightings at the stop, route, provider and system levels will not always be equal.  This is due both to the variations in ridership patterns as well as the result of the data collection and aggregation processes.</logic><lineage><procstep><procdesc>Bus and BRT data are gathered via the Metro Transit automatic passenger counter (APC) system which is deployed on roughly two-thirds of all buses.  APC data are processed daily to match boardings and alightings to the correct stop and scheduled trip.  Some data are dropped or excluded from the aggregation if they are outside the expected ranges (i.e., if they are suspected of being anomalous).
 
 Light rail and commuter rail boarding data is based on analysis of fare collection systems and passenger sampling clerk ridechecks.
-</procdesc>
-      </procstep>
-    </lineage>
-  </dataqual>
-  <distinfo>
-    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
-    <stdorder>
-      <ordering>See Online Linkage Below</ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council</cntorg>
-          <cntper>Jon Hoekenga</cntper>
-        </cntperp>
-        <cntpos>GIS System Administrator</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>390 Robert Street North</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55101-1805</postal>
-        </cntaddr>
-        <cntvoice>651.602.1561</cntvoice>
-        <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20150807</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Metropolitan Council - Metro Transit</cntorg>
-          <cntper>Janet Hopper</cntper>
-        </cntperp>
-        <cntpos>Business Systems Analyst III</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>560 6th Ave N</address>
-          <city>Minneapolis</city>
-          <state>MN</state>
-          <postal>55411</postal>
-        </cntaddr>
-        <cntvoice>612.349.7726</cntvoice>
-        <cntemail>janet.hopper@metrotransit.org</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-</metadata>
+</procdesc></procstep></lineage></dataqual><distinfo><distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab><stdorder><ordering>See Online Linkage Below</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Jon Hoekenga</cntper></cntperp><cntpos>GIS System Administrator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1561</cntvoice><cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150807</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council - Metro Transit</cntorg><cntper>Janet Hopper</cntper></cntperp><cntpos>Business Systems Analyst III</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>560 6th Ave N</address><city>Minneapolis</city><state>MN</state><postal>55411</postal></cntaddr><cntvoice>612.349.7726</cntvoice><cntemail>janet.hopper@metrotransit.org</cntemail></cntinfo></metc></metainfo></metadata>

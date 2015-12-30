@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>env_assessed_lakes_2010</baseName>
     <descriptiveName>Minnesota 2010 Lake Assessments</descriptiveName>

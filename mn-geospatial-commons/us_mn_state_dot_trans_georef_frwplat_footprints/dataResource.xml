@@ -1,7 +1,8 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>trans_georef_frwplat_footprints</baseName>
-    <descriptiveName>Right of Way Plat and Commissioner's Graphic Order - Raster Image File Footprints, Minnesota</descriptiveName>
+    <descriptiveName>Right of Way Plat and Commissioner&apos;s Graphic Order - Raster Image File Footprints, Minnesota</descriptiveName>
     <publisherID>us_mn_state_dot</publisherID>
     <topicCategories>
         <topicCategory type="ISO 19115">transportation</topicCategory>

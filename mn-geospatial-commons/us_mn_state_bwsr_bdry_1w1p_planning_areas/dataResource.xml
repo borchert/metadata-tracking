@@ -1,9 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE dataResource SYSTEM "dataResource.dtd">
 <dataResource>
   <baseName>bdry_1w1p_planning_areas</baseName>
   <descriptiveName>Planning boundaries for BWSRs One Watershed One Plan Initiative</descriptiveName>
   <publisherID>us_mn_state_bwsr</publisherID>
-  <currentAsofDate/>
+  <currentAsofDate></currentAsofDate>
   <topicCategories>
     <topicCategory type="ISO 19115">boundaries</topicCategory>
     <topicCategory type="ISO 19115">environment</topicCategory>
@@ -19,7 +20,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{86d0e275-d5e8-4f61-83a5-5c96a064abce}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

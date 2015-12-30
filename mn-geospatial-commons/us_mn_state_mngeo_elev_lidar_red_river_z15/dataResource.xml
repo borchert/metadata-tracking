@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>elev_lidar_red_river_z15</baseName>
     <descriptiveName>LiDAR Elevation, Red River of the North Basin, 2008-2010, UTM Zone 15</descriptiveName>

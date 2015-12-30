@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>env_lakes_surveyed_by_mndnr</baseName>
     <descriptiveName>DNR Hydrography - Fisheries Surveyed Lakes</descriptiveName>

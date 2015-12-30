@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>env_working_lands_initiative_trg</baseName>
     <descriptiveName>Working Lands Initiative - Target Areas</descriptiveName>

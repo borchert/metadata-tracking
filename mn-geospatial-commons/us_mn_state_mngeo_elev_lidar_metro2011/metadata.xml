@@ -1,18 +1,4 @@
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>Fugro Horizons, Inc. and the Minnesota Department of Natural Resources</origin>
-        <title>LiDAR Elevation, Twin Cities Metro Region, Minnesota, 2011</title>
-        <pubinfo>
-          <publish>Minnesota Department of Natural Resources</publish>
-        </pubinfo>
-        <pubdate>2012</pubdate>
-        <onlink>http://www.dnr.state.mn.us/maps/mntopo/index.html</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>Fugro Horizons Inc. acquired highly accurate Light Detection and Ranging (LiDAR) elevation data for the Twin Cities metropolitan region in east-central Minnesota in Spring and Fall 2011, with some reflights in Spring 2012. The data cover Anoka, Benton, Carver, Dakota, Goodhue, Hennepin, Isanti, Kanabec, Meeker, Mille Lacs, Morrison, Ramsey, Scott, Sherburne and Washington counties.
+<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>Fugro Horizons, Inc. and the Minnesota Department of Natural Resources</origin><title>LiDAR Elevation, Twin Cities Metro Region, Minnesota, 2011</title><pubinfo><publish>Minnesota Department of Natural Resources</publish></pubinfo><pubdate>2012</pubdate><onlink>http://www.dnr.state.mn.us/maps/mntopo/index.html</onlink></citeinfo></citation><descript><abstract>Fugro Horizons Inc. acquired highly accurate Light Detection and Ranging (LiDAR) elevation data for the Twin Cities metropolitan region in east-central Minnesota in Spring and Fall 2011, with some reflights in Spring 2012. The data cover Anoka, Benton, Carver, Dakota, Goodhue, Hennepin, Isanti, Kanabec, Meeker, Mille Lacs, Morrison, Ramsey, Scott, Sherburne and Washington counties.
 
 Most of the data was collected at 1.5 points/square meter. Smaller areas were collected with 2 points/square meter and with 8 points/square meter:
 1. 1.5 points/square meter covers Morrison, Mille Lacs, Benton, Isanti, Sherburne, Anoka, Meeker, Hennepin, Washington, Carver, Scott, and Goodhue counties.
@@ -30,19 +16,9 @@ The vendor delivered the data to the Minnesota Department of Natural Resources (
 
 DNR staff quality-checked the data and created three additional products: two-foot contours, building outlines and hillshades.
 
-Note: This metadata record was created at the Minnesota Geospatial Information Office using information supplied by the vendor and by DNR.</abstract>
-      <purpose>The Minnesota Elevation Mapping Project was initiated to support the development of high accuracy land surface information for the purposes of improving water quality, flood emergency preparedness and response, floodplain mapping, transportation planning and design, recreational planning and design, urban planning and to provide more efficient and effective project planning and execution.  This project was primarily funded by the Clean Water Fund of the Clean Water, Land and Legacy Amendment.
+Note: This metadata record was created at the Minnesota Geospatial Information Office using information supplied by the vendor and by DNR.</abstract><purpose>The Minnesota Elevation Mapping Project was initiated to support the development of high accuracy land surface information for the purposes of improving water quality, flood emergency preparedness and response, floodplain mapping, transportation planning and design, recreational planning and design, urban planning and to provide more efficient and effective project planning and execution.  This project was primarily funded by the Clean Water Fund of the Clean Water, Land and Legacy Amendment.
 
-For more about the Project, see:  http://www.mngeo.state.mn.us/committee/elevation/mn_elev_mapping.html</purpose>
-      <supplinf>Twin Cities metropolitan region, Minnesota</supplinf>
-    </descript>
-    <timeperd>
-      <timeinfo>
-        <sngdate>
-          <caldate>2011</caldate>
-        </sngdate>
-      </timeinfo>
-      <current>Spring and Fall 2011 and Spring 2012.
+For more about the Project, see:  http://www.mngeo.state.mn.us/committee/elevation/mn_elev_mapping.html</purpose><supplinf>Twin Cities metropolitan region, Minnesota</supplinf></descript><timeperd><timeinfo><sngdate><caldate>2011</caldate></sngdate></timeinfo><current>Spring and Fall 2011 and Spring 2012.
 
 Dates for specific blocks (map of block boundaries: ftp://lidar.dnr.state.mn.us/documentation/status/metro_data_delivery_dates.pdf )
 
@@ -57,64 +33,7 @@ Block H:  11-12-11 to 11-13-11, reflight 3-28-12
 Block X (a section that had to be reflown because of inadequate overlap of flight lines):  4-25-11 and 11-15-11, reflight 3-24-12 to 3-28-12
 
 Dakota Block:  11-12-11 to 11-15-11
-Metro Block and Maple Grove Block:  11-02-11 to 11-15-11</current>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>As needed</update>
-    </status>
-    <keywords>
-      <place>
-        <placekey>Minnesota, MN, Anoka, Benton, Carver, Dakota, Goodhue, Hennepin, Isanti, Kanabec, Meeker, Mille Lacs, Morrison, Ramsey, Scott, Sherburne, Washington counties</placekey>
-      </place>
-      <theme>
-        <themekey>elevation, LiDAR, DEM, digital elevation model, contour, topographic, topo, DTM, LAS, breakline</themekey>
-        <themekt>ISO 19115</themekt>
-      </theme>
-    </keywords>
-    <accconst>All data is in the public domain and there are no access constraints.</accconst>
-    <useconst>See Disclaimer field for complete use conditions.</useconst>
-    <crossref>
-      <citeinfo>
-        <title>For more information about elevation data for Minnesota, see: http://www.mngeo.state.mn.us/chouse/elevation/index.html</title>
-      </citeinfo>
-    </crossref>
-    <spdom>
-      <bounding>
-        <westbc>-94.714600</westbc>
-        <eastbc>-92.120234</eastbc>
-        <northbc>46.395540</northbc>
-        <southbc>44.211950</southbc>
-      </bounding>
-    </spdom>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Department of Natural Resources</cntorg>
-          <cntper>Tim Loesch</cntper>
-        </cntperp>
-        <cntpos>GIS Section Manager</cntpos>
-        <cntaddr>
-          <addrtype>Mailing and Physical</addrtype>
-          <address>500 Lafayette Rd</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>551554011</postal>
-        </cntaddr>
-        <cntvoice>651-259-5475</cntvoice>
-        <cntemail>tim.loesch@state.mn.us</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <logic>All deliverables were quality checked by MN DNR and passed inspection.</logic>
-    <complete>Complete</complete>
-    <posacc>
-      <horizpa>
-        <horizpar>Meets or exceeds horizontal accuracy of 0.6m RMSE. The NAD83 (HARN) datum was used.</horizpar>
-      </horizpa>
-      <vertacc>
-        <vertaccr>The NAVD88 (Geoid09) vertical datum was used.
+Metro Block and Maple Grove Block:  11-02-11 to 11-15-11</current></timeperd><status><progress>Complete</progress><update>As needed</update></status><keywords><place><placekey>Minnesota, MN, Anoka, Benton, Carver, Dakota, Goodhue, Hennepin, Isanti, Kanabec, Meeker, Mille Lacs, Morrison, Ramsey, Scott, Sherburne, Washington counties</placekey></place><theme><themekey>elevation, LiDAR, DEM, digital elevation model, contour, topographic, topo, DTM, LAS, breakline</themekey><themekt>ISO 19115</themekt></theme></keywords><accconst>All data is in the public domain and there are no access constraints.</accconst><useconst>See Disclaimer field for complete use conditions.</useconst><crossref><citeinfo><title>For more information about elevation data for Minnesota, see: http://www.mngeo.state.mn.us/chouse/elevation/index.html</title></citeinfo></crossref><spdom><bounding><westbc>-94.714600</westbc><eastbc>-92.120234</eastbc><northbc>46.395540</northbc><southbc>44.211950</southbc></bounding></spdom><ptcontac><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Tim Loesch</cntper></cntperp><cntpos>GIS Section Manager</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>500 Lafayette Rd</address><city>St. Paul</city><state>MN</state><postal>551554011</postal></cntaddr><cntvoice>651-259-5475</cntvoice><cntemail>tim.loesch@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><logic>All deliverables were quality checked by MN DNR and passed inspection.</logic><complete>Complete</complete><posacc><horizpa><horizpar>Meets or exceeds horizontal accuracy of 0.6m RMSE. The NAD83 (HARN) datum was used.</horizpar></horizpa><vertacc><vertaccr>The NAVD88 (Geoid09) vertical datum was used.
 
 REPORT FROM THE VENDOR:
 
@@ -135,15 +54,7 @@ Metro Block - 5 cm
 Dakota Block - 10.8 cm
 Maple Grove Block - 8.3 cm
 
-See the complete Vertical Validation Reports in each folder on the data download FTP site; for example, the report for the Maple Grove Block is here: ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/projects/metro/block_maple_grove/maple_grove_vertical_validation_report.pdf</vertaccr>
-      </vertacc>
-    </posacc>
-    <attracc>
-      <attraccr>GPS phase data was post processed with continuous kinematic survey techniques using "On the Fly" (OTF) integer ambiguity resolution. The GPS data was processed with forward and reverse processing algorithms. The results from each process, using the data collected at the airport and in project area, were combined to yield a single fixed integer phase differential solution of the aircraft trajectory. The differences between the forward to reverse solution within the project area were within project specifications, indicating a valid and accurate solution. An IMU was used to record precise changes in position and orientation of the LIDAR scanner at a rate of 200 Hz. All IMU data was processed post flight with a filter to integrate inertial measurements and precise phase differential GPS positions. The resulting solution contains geodetic position, omega, phi, kappa, and time for subsequent merging with the laser ranging information.</attraccr>
-    </attracc>
-    <lineage>
-      <procstep>
-        <procdesc>VENDOR PROCESSING STEPS:
+See the complete Vertical Validation Reports in each folder on the data download FTP site; for example, the report for the Maple Grove Block is here: ftp://ftp.lmic.state.mn.us/pub/data/elevation/lidar/projects/metro/block_maple_grove/maple_grove_vertical_validation_report.pdf</vertaccr></vertacc></posacc><attracc><attraccr>GPS phase data was post processed with continuous kinematic survey techniques using "On the Fly" (OTF) integer ambiguity resolution. The GPS data was processed with forward and reverse processing algorithms. The results from each process, using the data collected at the airport and in project area, were combined to yield a single fixed integer phase differential solution of the aircraft trajectory. The differences between the forward to reverse solution within the project area were within project specifications, indicating a valid and accurate solution. An IMU was used to record precise changes in position and orientation of the LIDAR scanner at a rate of 200 Hz. All IMU data was processed post flight with a filter to integrate inertial measurements and precise phase differential GPS positions. The resulting solution contains geodetic position, omega, phi, kappa, and time for subsequent merging with the laser ranging information.</attraccr></attracc><lineage><procstep><procdesc>VENDOR PROCESSING STEPS:
 
 (See map of block boundaries: ftp://lidar.dnr.state.mn.us/documentation/status/metro_data_delivery_dates.pdf )
 
@@ -187,17 +98,9 @@ These products are in the geodatabase for each of the tiles:
 
 2. Building outlines were created by extracting from the LAS files those points with Classification 6 (buildings), then grouping those points within 3 meters of each other into a single cluster and then creating an outline around those points. This was done using standard ArcMap tools.
 
-3. Hillshades were created from the one- and three-meter DEMs using standard ArcMap tools. Azimuth value = 215, Altitude = 45, Z-Factor = 1</procdesc>
-      </procstep>
-    </lineage>
-  </dataqual>
-  <distinfo>
-    <resdesc>Twin Cities Metro LiDAR 2011</resdesc>
-    <distliab>1.  The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html 
+3. Hillshades were created from the one- and three-meter DEMs using standard ArcMap tools. Azimuth value = 215, Altitude = 45, Z-Factor = 1</procdesc></procstep></lineage></dataqual><distinfo><resdesc>Twin Cities Metro LiDAR 2011</resdesc><distliab>1.  The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html 
 
-2.  MnGeo's data disclaimer is online:  http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab>
-    <stdorder>
-      <ordering>The LiDAR data provided by DNR may be viewed online or downloaded in several ways:
+2.  MnGeo's data disclaimer is online:  http://www.mngeo.state.mn.us/chouse/disclaimer.html</distliab><stdorder><ordering>The LiDAR data provided by DNR may be viewed online or downloaded in several ways:
 
 1. MnTOPO website: http://www.dnr.state.mn.us/maps/mntopo/index.html (or click the link below in the Online Linkage field)
 
@@ -217,58 +120,7 @@ c. In folders divided by block at: ftp://ftp.lmic.state.mn.us/pub/data/elevation
 The boundaries for the blocks are shown on this map: ftp://lidar.dnr.state.mn.us/documentation/status/metro_data_delivery_dates.pdf
 
 
-For more help with Minnesota's LiDAR data, see www.mngeo.state.mn.us/chouse/elevation/lidar.html</ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
-          <cntper>Nancy Rader</cntper>
-        </cntperp>
-        <cntpos>GIS Data Coordinator</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>658 Cedar Street, Room 300</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55155</postal>
-        </cntaddr>
-        <cntvoice>651-201-2489</cntvoice>
-        <cntfax>651-296-6398</cntfax>
-        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20150310</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg>
-          <cntper>Nancy Rader</cntper>
-        </cntperp>
-        <cntpos>GIS Data Coordinator</cntpos>
-        <cntaddr>
-          <addrtype>mailing and physical</addrtype>
-          <address>658 Cedar Street, Room 300</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55155</postal>
-        </cntaddr>
-        <cntvoice>651-201-2489</cntvoice>
-        <cntfax>651-296-6398</cntfax>
-        <cntemail>gisinfo.mngeo@state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-  <eainfo>
-    <overview>
-      <eaover>1. LAS data were classified using the following standard ASPRS categories:
+For more help with Minnesota's LiDAR data, see www.mngeo.state.mn.us/chouse/elevation/lidar.html</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>658 Cedar Street, Room 300</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntfax>651-296-6398</cntfax><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20150310</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Geospatial Information Office (MnGeo)</cntorg><cntper>Nancy Rader</cntper></cntperp><cntpos>GIS Data Coordinator</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>658 Cedar Street, Room 300</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-201-2489</cntvoice><cntfax>651-296-6398</cntfax><cntemail>gisinfo.mngeo@state.mn.us</cntemail></cntinfo></metc></metainfo><eainfo><overview><eaover>1. LAS data were classified using the following standard ASPRS categories:
 
 1 Unclassified
 2 Ground (Bare Earth)
@@ -300,26 +152,4 @@ Contour_type:
 - Island: Island in a lake feature greater than 2 acres
 - Island Stream: Island in a stream feature greater than 2 acres
 - Lake: Lake feature greater than 2 acres
-- Stream: Riverine feature greater than 100 feet wide</eaover>
-    </overview>
-  </eainfo>
-  <spref>
-    <horizsys>
-      <planar>
-        <gridsys>
-          <gridsysn>Universal Transverse Mercator</gridsysn>
-          <utm>
-            <utmzone>15</utmzone>
-          </utm>
-        </gridsys>
-        <planci>
-          <plandu>meters</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>NAD83</horizdn>
-        <ellips>GRS80</ellips>
-      </geodetic>
-    </horizsys>
-  </spref>
-</metadata>
+- Stream: Riverine feature greater than 100 feet wide</eaover></overview></eainfo><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

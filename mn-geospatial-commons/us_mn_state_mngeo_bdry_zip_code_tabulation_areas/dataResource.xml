@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_zip_code_tabulation_areas</baseName>
     <descriptiveName>Zip Code Tabulation Areas, 5-digit (ZCTA), Minnesota</descriptiveName>

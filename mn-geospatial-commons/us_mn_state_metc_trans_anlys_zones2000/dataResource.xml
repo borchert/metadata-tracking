@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>trans_anlys_zones2000</baseName>
   <descriptiveName>Transportation Analysis Zones 2000</descriptiveName>
@@ -35,7 +36,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{af8cc2c3-33a5-463f-b8c8-45f4d21c0b8a}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

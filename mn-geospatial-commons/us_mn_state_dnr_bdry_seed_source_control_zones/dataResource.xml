@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_seed_source_control_zones</baseName>
     <descriptiveName>Minnesota Seed Source Control Seed Zones</descriptiveName>

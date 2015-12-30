@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_boundary_waters_canoe_area</baseName>
     <descriptiveName>Boundary Waters Canoe Area Wilderness</descriptiveName>

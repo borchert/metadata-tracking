@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_dnr_forestry_admin</baseName>
     <descriptiveName>DNR Division of Forestry Administrative Areas</descriptiveName>

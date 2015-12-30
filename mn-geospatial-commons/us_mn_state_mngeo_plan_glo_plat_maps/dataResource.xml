@@ -1,14 +1,15 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>plan_glo_plat_maps</baseName>
-    <descriptiveName>Minnesota's Original Public Land Survey (PLS) Maps - conversion to Digital Images</descriptiveName>
+    <descriptiveName>Minnesota&apos;s Original Public Land Survey (PLS) Maps - conversion to Digital Images</descriptiveName>
     <publisher>Minnesota Geospatial Information Office (MnGeo)</publisher>
     <publisherID>us_mn_state_mngeo</publisherID>
     <topicCategories>
         <topicCategory type="ISO 19115">planningCadastre</topicCategory>
     </topicCategories>
     <resourceIdentifiers>
-        <resourceID/>
+        <resourceID></resourceID>
         <resourceGUID>{b3fdf619-6624-408d-a4f8-cc03e2011904}</resourceGUID>
     </resourceIdentifiers>
     <dataSubResources>

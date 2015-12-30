@@ -1,4 +1,5 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>biota_muskie_lakes_in_mn</baseName>
     <descriptiveName>DNR Hydrography - Muskie Lakes</descriptiveName>

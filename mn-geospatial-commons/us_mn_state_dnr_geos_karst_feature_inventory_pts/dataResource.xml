@@ -1,11 +1,10 @@
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>geos_karst_feature_inventory_pts</baseName>
     <descriptiveName>Karst Feature Inventory Points</descriptiveName>
-    <publisher>Minnesota DNR - MIS Bureau</publisher>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2003-01-08</currentAsofDate>
-    <resourceType>ESRI File Geodatabase</resourceType>
+    <currentAsofDate>2015-12-18</currentAsofDate>
     <topicCategories>
         <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
     </topicCategories>
@@ -16,7 +15,6 @@
     <dataSubResources>
         <dataSubResource>
             <subResourceType>fgdb</subResourceType>
-            <subResourceName>geos_karst_feature_inventory_pts</subResourceName>
             <subResourceIdentifiers>
                 <subResourceGUID>{3211a5e1-7954-49bd-88cd-36fc4554e0d0}</subResourceGUID>
             </subResourceIdentifiers>
