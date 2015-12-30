@@ -287,7 +287,7 @@
     </xsl:if>
     
     <xsl:if test="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:type/gmd:MD_KeywordTypeCode[@codeListValue='place']">
-      <xsl:text>"dc_spatial_sm": [</xsl:text>
+      <xsl:text>"dct_spatial_sm": [</xsl:text>
       <xsl:for-each select="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:type/gmd:MD_KeywordTypeCode[@codeListValue='place']">
         <xsl:for-each select="ancestor-or-self::*/gmd:keyword">
           <xsl:text>"</xsl:text>
@@ -434,15 +434,31 @@
     <xsl:for-each select="gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource">
       <xsl:choose>
         <xsl:when test="gmd:protocol/gco:CharacterString/text() = 'ESRI:ArcGIS'">
-          <!-- TODO test url for which reference to utilize 
-          <xsl:text>"http://www.arcgis.com/rdf#ImageMapLayer":"</xsl:text>
-          <xsl:text>"http://www.arcgis.com/rdf#TiledMapLayer":"</xsl:text>-->
-          <xsl:text>\"http://www.arcgis.com/rdf#FeatureLayer\":\"</xsl:text>
+          <!-- TODO test url for which reference to utilize -->
+            <xsl:choose>
+              <xsl:when test="contains(gmd:linkage/gmd:URL,'FeatureServer')">
+                <xsl:text>\"http://www.arcgis.com/rdf#FeatureLayer\":\"</xsl:text>
+              </xsl:when>
+              <xsl:when test="contains(gmd:linkage/gmd:URL,'MapServer')">
+                <!--TODO need to distinguish between tiled/dynamic. Probably need to move
+                all of this logic out of the XSL 
+                <xsl:text>"http://www.arcgis.com/rdf#TiledMapLayer":"</xsl:text>-->
+                <xsl:text>\"http://www.arcgis.com/rdf#DynamicMapLayer\":\"</xsl:text>
+              </xsl:when>
+              <xsl:when test="contains(gmd:linkage/gmd:URL,'ImageServer')">
+                <xsl:text>"http://www.arcgis.com/rdf#ImageMapLayer":"</xsl:text>
+              </xsl:when>
+            </xsl:choose>
           <xsl:value-of select="gmd:linkage/gmd:URL"/>
           <xsl:text>\"</xsl:text>
         </xsl:when>
         <xsl:when test="gmd:protocol/gco:CharacterString/text() = 'download'">
           <xsl:text>\"http://schema.org/downloadUrl\":\"</xsl:text>
+          <xsl:value-of select="gmd:linkage/gmd:URL"/>
+          <xsl:text>\"</xsl:text>
+        </xsl:when>
+        <xsl:when test="gmd:protocol/gco:CharacterString/text() = 'WWW:LINK'">
+          <xsl:text>\"http://schema.org/url\":\"</xsl:text>
           <xsl:value-of select="gmd:linkage/gmd:URL"/>
           <xsl:text>\"</xsl:text>
         </xsl:when>
