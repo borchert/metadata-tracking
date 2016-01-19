@@ -39,7 +39,7 @@
 							 to xmlns:gfc="http://www.isotc211.org/2005/gfc" and
 							 xmlns:n="http://www.opengis.net/gml/3.2" was changed to
 							 xmlns:gml="http://www.opengis.net/gml/3.2". All used "n:" 
-							 namespaces were changed to "gmi:". 
+							 namespaces were changed to "gmd:". 
 		20091120 (JLM) CodeLists were edited to remove extra quotes and other.
 							 undesired characters. CodeLists were checked to ensure 
 							 inclusion of domian codes. Edits were also made to remove 
@@ -95,7 +95,7 @@
 		20130124 (JLM) Updated mapping of attraccr (was not mapping previously if quattracc was missing) to create a new data quality report at DQ_NonQuantitativeAttributeAccuracy>measureDescription and using nilReason=inapplicable result.
 		20131205 (KM) corrected schema location in 
 -->
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vmf="http://www.altova.com/MapForce/UDF/vmf" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:grp="http://www.altova.com/Mapforce/grouping" exclude-result-prefixes="fn grp vmf xs xsi xsl" xmlns="http://www.isotc211.org/2005/gmi">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vmf="http://www.altova.com/MapForce/UDF/vmf" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:grp="http://www.altova.com/Mapforce/grouping" exclude-result-prefixes="fn grp vmf xs xsi xsl">
 	<xsl:template name="vmf:vmf1_inputtoresult">
 		<xsl:param name="input" select="()"/>
 		<xsl:choose>
@@ -992,9 +992,9 @@
 		</xsl:for-each>
 	</xsl:function>
 	<xsl:template match="/">
-		<gmi:MI_Metadata>
+		<gmd:MD_Metadata>
 			<xsl:attribute name="xsi:schemaLocation" separator=" ">
-				<xsl:sequence select=" 'http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd' "/>
+				<xsl:sequence select=" 'http://www.isotc211.org/2005/gmd http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd' "/>
 			</xsl:attribute>
 			<xsl:variable name="var1_instance" as="node()" select="."/>
 			<gmd:fileIdentifier>
@@ -8539,6 +8539,6 @@
 					</gmd:contact>
 				</gmd:MD_MaintenanceInformation>
 			</gmd:metadataMaintenance>
-		</gmi:MI_Metadata>
+		</gmd:MD_Metadata>
 	</xsl:template>
 </xsl:stylesheet>

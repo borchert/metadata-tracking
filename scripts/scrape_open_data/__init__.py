@@ -18,7 +18,7 @@ Script for writing ISO 19139 metadata for Esri Open Data datasets. Work in progr
 """
 
 def get_list_of_datasets(root_data_json):
-    return [i.identifier for i in root_data_json]
+    return [i["identifier"] for i in root_data_json]
 
 
 def request_data_json(url):
@@ -77,7 +77,7 @@ def parse_datatype(dataset_detail):
     try:
         geometryType = dataset_detail["geometry_type"]
     except (KeyError,TypeError) as e:
-        print "couldn't get geometry type for {title}".format(title=dataset["title"])
+        print "couldn't get geometry type for {title}".format(title=dataset_detail["item_name"])
         return "undefined"
 
     if geometryType == "esriGeometryPoint" or geometryType == "esriGeometryMultipoint":

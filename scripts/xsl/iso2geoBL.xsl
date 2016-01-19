@@ -1,6 +1,5 @@
 <!-- 
-     iso2geoBl.xsl - Transformation from  ISO 19139 XML into GeoBlacklight solr json
-     
+     iso2geoBl.xsl - Transformation from  ISO 19139 XML into GeoBlacklight solr json  
 -->
 <xsl:stylesheet 
   xmlns="http://www.loc.gov/mods/v3" 
@@ -15,6 +14,11 @@
   <xsl:param name="zipName" select="'data.zip'"/>
 
   <xsl:template match="/">
+    <xsl:message terminate="no">STARTING</xsl:message>
+   
+    <xsl:variable name="vQ">"</xsl:variable>
+    <xsl:variable name="sQ">'</xsl:variable>
+    
     <!-- institution  -->
     <xsl:variable name="institution">
       <!--<xsl:for-each select="gmd:MD_Metadata/gmd:contact/gmd:CI_ResponsibleParty">
@@ -34,11 +38,12 @@
             <xsl:text>UVa</xsl:text>
           </xsl:when>
           -->
-          <xsl:text>UMN</xsl:text>
+          <xsl:text>State of Michigan</xsl:text>
           
           <!--</xsl:choose>-->
       <!--</xsl:for-each>-->
     </xsl:variable>
+    
     
     <!-- bounding box -->
     <xsl:variable name="upperCorner">
@@ -98,6 +103,35 @@
         </xsl:otherwise>
          </xsl:choose>
     </xsl:variable>
+    
+    <!-- check if Esri WMS, and do some horrible things as a result-->
+    <xsl:variable name="esri_ogc_layer_id">
+      <xsl:for-each select="//gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource">
+        <xsl:if test="contains(gmd:linkage/gmd:URL,'WMSServer')">
+          <xsl:value-of select="gmd:name/gco:CharacterString"/>
+        </xsl:if>
+        <xsl:if test="contains(gmd:linkage/gmd:URL,'WFSServer')">
+          <xsl:value-of select="gmd:name/gco:CharacterString"/>
+        </xsl:if>
+      </xsl:for-each>
+    </xsl:variable>
+    
+    <xsl:variable name="layer_id">
+      <xsl:choose>
+        <xsl:when test="$institution = 'Stanford'">
+          <xsl:text>druid:</xsl:text>
+          <xsl:value-of select="$identifier"/>
+        </xsl:when>
+        <xsl:when test="string-length($esri_ogc_layer_id) = 0">
+          <xsl:text>urn:</xsl:text>
+          <xsl:value-of select="$identifier"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="$esri_ogc_layer_id"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    
     <xsl:text>{</xsl:text>
       <xsl:text>"uuid": "</xsl:text><xsl:value-of select="$uuid"/><xsl:text>",</xsl:text>
       <xsl:text>"layer_geom_type_s": "</xsl:text>
@@ -112,7 +146,16 @@
                   </xsl:when>
                <xsl:when test="contains(gmd:MD_Metadata/gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectType/gmd:MD_GeometricObjectTypeCode/@codeListValue, 'surface')">
                     <xsl:text>Polygon</xsl:text>
-                  </xsl:when>
+               </xsl:when>
+               <xsl:when test="contains(gmd:MD_Metadata/gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectType/gmd:MD_GeometricObjectTypeCode/@codeListValue, 'composite')">
+                 <xsl:text>Mixed</xsl:text>
+               </xsl:when>
+               <xsl:when test="contains(gmd:MD_Metadata/gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectType/gmd:MD_GeometricObjectTypeCode/@codeListValue, 'complex')">
+                 <xsl:text>Mixed</xsl:text>
+               </xsl:when>
+               <xsl:otherwise>
+                 <xsl:text>Mixed</xsl:text>
+               </xsl:otherwise>
              </xsl:choose>
            </xsl:when>
            
@@ -126,7 +169,7 @@
         
       <xsl:text>"dc_identifier_s": "</xsl:text><xsl:value-of select="$uuid"/><xsl:text>",</xsl:text>
       <xsl:text>"dc_title_s": "</xsl:text><xsl:value-of select="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:title"/><xsl:text>",</xsl:text>
-      <xsl:text>"dc_description_s": "</xsl:text><xsl:value-of select="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract"/><xsl:text>",</xsl:text>
+      <xsl:text>"dc_description_s": "</xsl:text><xsl:value-of select="translate(gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract,$vQ, $sQ)"/><xsl:text>",</xsl:text>
       <xsl:text>"dc_rights_s": "</xsl:text>
           <xsl:choose>
             <xsl:when test="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:accessConstraints/gmd:MD_RestrictionCode[@codeListValue='restricted']">
@@ -155,6 +198,9 @@
                 <xsl:when test="contains(gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:otherConstraints, $institution)">
                   <xsl:text>Restricted</xsl:text>
                 </xsl:when>
+                <xsl:otherwise>
+                  <xsl:text>Public</xsl:text>
+                </xsl:otherwise>
               </xsl:choose>
             </xsl:when>
             <xsl:otherwise>
@@ -163,16 +209,7 @@
           </xsl:choose><xsl:text>","dct_provenance_s": "</xsl:text>
       <xsl:value-of select="$institution"/>
       <xsl:text>","layer_id_s": "</xsl:text>
-        <xsl:choose>
-          <xsl:when test="$institution = 'Stanford'">
-            <xsl:text>druid:</xsl:text>
-            <xsl:value-of select="$identifier"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:text>urn:</xsl:text>
-            <xsl:value-of select="$identifier"/>
-          </xsl:otherwise>
-        </xsl:choose>
+        <xsl:value-of select="$layer_id"/>
       <xsl:text>",</xsl:text>
       <xsl:text>"layer_slug_s": "</xsl:text>
         <xsl:value-of select="$institution"/>
@@ -197,47 +234,70 @@
       <xsl:text>"dc_creator_sm": [</xsl:text>
       
       <xsl:for-each select="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode[@codeListValue='originator']">
-        <xsl:if test="ancestor-or-self::*/gmd:organisationName">
-          <xsl:text>"</xsl:text>
-          <xsl:value-of select="ancestor-or-self::*/gmd:organisationName"/>
-          <xsl:text>"</xsl:text>
-          <xsl:if test="position() != last()">
-            <xsl:text>,</xsl:text>
-          </xsl:if>
-        </xsl:if>
-        
-        <xsl:if test="ancestor-or-self::*/gmd:individualName">
-          <xsl:text>"</xsl:text>
-          <xsl:value-of select="ancestor-or-self::*/gmd:individualName"/>
-          <xsl:text>"</xsl:text>
-          <xsl:if test="position() != last()">
-            <xsl:text>,</xsl:text>
-          </xsl:if>
-        </xsl:if>
+        <xsl:choose>
+          <xsl:when test="ancestor-or-self::*/gmd:organisationName and not(ancestor-or-self::*/gmd:individualName)">
+            <xsl:text>"</xsl:text>
+            <xsl:value-of select="ancestor-or-self::*/gmd:organisationName"/>
+            <xsl:text>"</xsl:text>
+            <xsl:if test="position() != last()">
+              <xsl:text>,</xsl:text>
+            </xsl:if>
+          </xsl:when>
+          <xsl:when test="ancestor-or-self::*/gmd:individualName and not(ancestor-or-self::*/gmd:organizationName)">
+            <xsl:for-each select="ancestor-or-self::*/gmd:individualName">
+              <xsl:text>"</xsl:text>
+              <xsl:value-of select="ancestor-or-self::*/gmd:individualName"/>
+              <xsl:text>"</xsl:text>
+              <xsl:if test="position() != last()">
+                <xsl:text>,</xsl:text>
+              </xsl:if>
+            </xsl:for-each>
+          </xsl:when>
+          <xsl:when test="ancestor-or-self::*/gmd:individualName and ancestor-or-self::*/gmd:organizationName">
+            <xsl:text>"</xsl:text>
+            <xsl:value-of select="ancestor-or-self::*/gmd:individualName"/>
+            <xsl:text>", </xsl:text>
+            <xsl:text>"</xsl:text>
+            <xsl:value-of select="ancestor-or-self::*/gmd:organisationName"/>
+            <xsl:text>"</xsl:text>
+          </xsl:when>
+        </xsl:choose>
       </xsl:for-each>
+      
       <xsl:text>],</xsl:text>
     </xsl:if>
     <xsl:if test="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode[@codeListValue='publisher']">
       <xsl:text>"dc_publisher_sm": [</xsl:text>
       
       <xsl:for-each select="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode[@codeListValue='publisher']">
-        <xsl:if test="ancestor-or-self::*/gmd:organisationName">
-          <xsl:text>"</xsl:text>
-          <xsl:value-of select="ancestor-or-self::*/gmd:organisationName"/>
-          <xsl:text>"</xsl:text>
-          <xsl:if test="position() != last()">
-            <xsl:text>,</xsl:text>
-          </xsl:if>
-        </xsl:if>
-        
-        <xsl:if test="ancestor-or-self::*/gmd:individualName">
-          <xsl:text>"</xsl:text>
-          <xsl:value-of select="ancestor-or-self::*/gmd:individualName"/>
-          <xsl:text>"</xsl:text>
-          <xsl:if test="position() != last()">
-            <xsl:text>,</xsl:text>
-          </xsl:if>
-        </xsl:if>
+        <xsl:choose>
+          <xsl:when test="ancestor-or-self::*/gmd:organisationName and not(ancestor-or-self::*/gmd:individualName)">
+            <xsl:text>"</xsl:text>
+            <xsl:value-of select="ancestor-or-self::*/gmd:organisationName"/>
+            <xsl:text>"</xsl:text>
+            <xsl:if test="position() != last()">
+              <xsl:text>,</xsl:text>
+            </xsl:if>
+          </xsl:when>
+          <xsl:when test="ancestor-or-self::*/gmd:individualName and not(ancestor-or-self::*/gmd:organizationName)">
+            <xsl:for-each select="ancestor-or-self::*/gmd:individualName">
+              <xsl:text>"</xsl:text>
+              <xsl:value-of select="ancestor-or-self::*/gmd:individualName"/>
+              <xsl:text>"</xsl:text>
+              <xsl:if test="position() != last()">
+                <xsl:text>,</xsl:text>
+              </xsl:if>
+            </xsl:for-each>
+          </xsl:when>
+          <xsl:when test="ancestor-or-self::*/gmd:individualName and ancestor-or-self::*/gmd:organizationName">
+            <xsl:text>"</xsl:text>
+            <xsl:value-of select="ancestor-or-self::*/gmd:individualName"/>
+            <xsl:text>", </xsl:text>
+            <xsl:text>"</xsl:text>
+            <xsl:value-of select="ancestor-or-self::*/gmd:organisationName"/>
+            <xsl:text>"</xsl:text>
+          </xsl:when>
+        </xsl:choose>
       </xsl:for-each>
       <xsl:text>],</xsl:text>
     </xsl:if>
@@ -262,27 +322,42 @@
           </xsl:when>
        </xsl:choose>
 
+    <!-- topic category -->
     <xsl:if test="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:topicCategory/gmd:MD_TopicCategoryCode">
       <xsl:text>"dc_subject_sm": [</xsl:text>
       <xsl:for-each select="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:topicCategory/gmd:MD_TopicCategoryCode">
         <xsl:text>"</xsl:text>              
         <xsl:value-of select="."/>
         <xsl:text>"</xsl:text>
-        <xsl:text>,</xsl:text>              
-      </xsl:for-each>
-      
-      <xsl:for-each select="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords">
-        <xsl:if test="gmd:type/gmd:MD_KeywordTypeCode[@codeListValue='theme']">
-          <xsl:for-each select="gmd:keyword">
-            <xsl:text>"</xsl:text>
-            <xsl:value-of select="."/>
-            <xsl:text>"</xsl:text>
-            <xsl:if test="position() != last()">
-              <xsl:text>,</xsl:text>
-            </xsl:if>
-          </xsl:for-each>
+        <xsl:if test="position() != last()">
+          <xsl:text>,</xsl:text>
+        </xsl:if>
+        <xsl:if test="position() = last() and /gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:type/gmd:MD_KeywordTypeCode[@codeListValue='theme']">
+          <xsl:text>,</xsl:text>
         </xsl:if>
       </xsl:for-each>
+    </xsl:if>
+    
+      <!-- theme keywords -->
+      <xsl:if test="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:type/gmd:MD_KeywordTypeCode[@codeListValue='theme']">
+        <xsl:for-each select="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:type/gmd:MD_KeywordTypeCode[@codeListValue='theme']">
+          <xsl:for-each select="ancestor-or-self::*/gmd:keyword">
+              <xsl:text>"</xsl:text>
+              <xsl:value-of select="."/>
+              <xsl:text>"</xsl:text> 
+              <xsl:if test="position() != last()">
+                <xsl:text>,</xsl:text>
+              </xsl:if>
+            </xsl:for-each>
+          <xsl:if test="position() != last()">
+            <xsl:text>,</xsl:text>
+          </xsl:if>
+        </xsl:for-each>
+        
+    </xsl:if>
+    
+    <!-- close dc_subject_sm list -->
+    <xsl:if test="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:topicCategory/gmd:MD_TopicCategoryCode or gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:type/gmd:MD_KeywordTypeCode[@codeListValue='theme']">
       <xsl:text>],</xsl:text>
     </xsl:if>
     
@@ -297,6 +372,9 @@
             <xsl:text>,</xsl:text>
           </xsl:if>
         </xsl:for-each>
+        <xsl:if test="position() != last()">
+          <xsl:text>,</xsl:text>
+        </xsl:if>
       </xsl:for-each>
       <xsl:text>],</xsl:text>
     </xsl:if>
@@ -344,23 +422,23 @@
           </xsl:choose>
         
         <!-- collection -->
-        <!-- <xsl:choose>
-          <xsl:when test="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo/gmd:MD_AggregateInformation/gmd:associationType/gmd:DS_AssociationTypeCode[@codeListValue='largerWorkCitation']">
-            <xsl:for-each select="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo/gmd:MD_AggregateInformation/gmd:associationType/gmd:DS_AssociationTypeCode[@codeListValue='largerWorkCitation']">
-            <field name="dct_isPartOf_sm">
+    <xsl:if test="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo/gmd:MD_AggregateInformation/gmd:associationType/gmd:DS_AssociationTypeCode[@codeListValue='largerWorkCitation'] or gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:collectiveTitle">
+      <xsl:text>"dct_isPartOf_sm": "</xsl:text>
+      <xsl:choose>
+        <xsl:when test="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo/gmd:MD_AggregateInformation/gmd:associationType/gmd:DS_AssociationTypeCode[@codeListValue='largerWorkCitation']">
+          <xsl:for-each select="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo/gmd:MD_AggregateInformation/gmd:associationType/gmd:DS_AssociationTypeCode[@codeListValue='largerWorkCitation']">
               <xsl:value-of select="ancestor-or-self::*/gmd:aggregateDataSetName/gmd:CI_Citation/gmd:title"/>
-           </field>
-            </xsl:for-each>
-          </xsl:when>
-          <xsl:when test="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:collectiveTitle">
-            <xsl:for-each select="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:collectiveTitle">
-            <field name="dct_isPartOf_sm">
-              <xsl:value-of select="."/>
-            </field>
-            </xsl:for-each>
-          </xsl:when>
-        </xsl:choose> -->
-     
+          </xsl:for-each>
+        </xsl:when>
+        <xsl:when test="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:collectiveTitle">
+          <xsl:for-each select="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:collectiveTitle">
+              <xsl:value-of select="."/>          
+          </xsl:for-each>
+        </xsl:when>
+      </xsl:choose>
+      <xsl:text>", </xsl:text>
+    </xsl:if>
+
         <!-- cross-references -->
         <xsl:if test="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo/gmd:MD_AggregateInformation/gmd:associationType/gmd:DS_AssociationTypeCode[@codeListValue='crossReference']">
           <xsl:text>"dc_relation_sm": [</xsl:text> 
@@ -372,6 +450,7 @@
               <xsl:text>,</xsl:text>
             </xsl:if>
            </xsl:for-each>
+          <xsl:text>],</xsl:text> 
         </xsl:if>
         
         <!--<field name="georss_polygon_s">-->
@@ -428,10 +507,19 @@
             <xsl:text>"solr_year_i": </xsl:text>
               <xsl:value-of select="substring(gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimeInstant, 1,4)"/>
           </xsl:when>
+          <xsl:when test="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode/@codeListValue='publication'">
+            <xsl:text>"solr_year_i": </xsl:text>
+            <xsl:value-of select="substring(gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:date/gco:Date, 1,4)"/>
+          </xsl:when>
+          <xsl:when test="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode/@codeListValue='revision'">
+            <xsl:text>"solr_year_i": </xsl:text>
+            <xsl:value-of select="substring(gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:date/gco:Date, 1,4)"/>
+          </xsl:when>
         </xsl:choose>
+    
     <!-- let's try parsing references!!!!!!!! YEEEESSSS -->    
     <xsl:text>,"dct_references_s": "{</xsl:text> 
-    <xsl:for-each select="gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource">
+    <xsl:for-each select="//gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource">
       <xsl:choose>
         <xsl:when test="gmd:protocol/gco:CharacterString/text() = 'ESRI:ArcGIS'">
           <!-- TODO test url for which reference to utilize -->
@@ -446,19 +534,29 @@
                 <xsl:text>\"http://www.arcgis.com/rdf#DynamicMapLayer\":\"</xsl:text>
               </xsl:when>
               <xsl:when test="contains(gmd:linkage/gmd:URL,'ImageServer')">
-                <xsl:text>"http://www.arcgis.com/rdf#ImageMapLayer":"</xsl:text>
+                <xsl:text>\"http://www.arcgis.com/rdf#ImageMapLayer\":\"</xsl:text>
               </xsl:when>
             </xsl:choose>
           <xsl:value-of select="gmd:linkage/gmd:URL"/>
           <xsl:text>\"</xsl:text>
         </xsl:when>
-        <xsl:when test="gmd:protocol/gco:CharacterString/text() = 'download'">
+        <xsl:when test="contains(gmd:protocol/gco:CharacterString/text(), 'download')">
           <xsl:text>\"http://schema.org/downloadUrl\":\"</xsl:text>
           <xsl:value-of select="gmd:linkage/gmd:URL"/>
           <xsl:text>\"</xsl:text>
         </xsl:when>
-        <xsl:when test="gmd:protocol/gco:CharacterString/text() = 'WWW:LINK'">
+        <xsl:when test="contains(gmd:protocol/gco:CharacterString/text(), 'WWW:LINK')">
           <xsl:text>\"http://schema.org/url\":\"</xsl:text>
+          <xsl:value-of select="gmd:linkage/gmd:URL"/>
+          <xsl:text>\"</xsl:text>
+        </xsl:when>
+        <xsl:when test="contains(gmd:protocol/gco:CharacterString/text(), 'WMS')">
+          <xsl:text>\"http://www.opengis.net/def/serviceType/ogc/wms\":\"</xsl:text>
+          <xsl:value-of select="gmd:linkage/gmd:URL"/>
+          <xsl:text>\"</xsl:text>
+        </xsl:when>
+        <xsl:when test="contains(gmd:protocol/gco:CharacterString/text(), 'WFS')">
+          <xsl:text>\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"</xsl:text>
           <xsl:value-of select="gmd:linkage/gmd:URL"/>
           <xsl:text>\"</xsl:text>
         </xsl:when>
@@ -468,7 +566,8 @@
       <xsl:if test="position() != last()">
         <xsl:text>,</xsl:text>
       </xsl:if>
-    </xsl:for-each>        
+    </xsl:for-each>
+    
       <xsl:text>}"</xsl:text>
     <xsl:text>}</xsl:text>
   </xsl:template>

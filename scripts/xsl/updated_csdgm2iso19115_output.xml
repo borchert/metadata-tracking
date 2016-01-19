@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                 xmlns:gmi="http://www.isotc211.org/2005/gmi"
+                 xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                 xmlns:gss="http://www.isotc211.org/2005/gss"
+                 xmlns:gts="http://www.isotc211.org/2005/gts"
+                 xmlns:gml="http://www.opengis.net/gml/3.2"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns="http://www.isotc211.org/2005/gmi"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+   <gmd:fileIdentifier>
+      <gco:CharacterString>gov.noaa.nodc.ncddc.file:/Users/dykex005/Workspace/borchert-github/metadata-tracking/scripts/xsl/fgdc_test</gco:CharacterString>
+   </gmd:fileIdentifier>
+   <gmd:language>
+      <gco:CharacterString>eng; USA</gco:CharacterString>
+   </gmd:language>
+   <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode"
+                               codeListValue="utf8"
+                               codeSpace="004">utf8</gmd:MD_CharacterSetCode>
+   </gmd:characterSet>
+   <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                        codeListValue="dataset"
+                        codeSpace="005">dataset</gmd:MD_ScopeCode>
+   </gmd:hierarchyLevel>
+   <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+            <gco:CharacterString>Harvard Geospatial Library</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone/>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>OIS</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>90 Mt. Auburn Street</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Cambridge</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>MA</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>02138</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gco:CharacterString>USA</gco:CharacterString>
+                     </gmd:country>
+                  </gmd:CI_Address>
+               </gmd:address>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                             codeListValue="pointOfContact"
+                             codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:contact>
+   <gmd:dateStamp>
+      <gco:Date>2000-10-24</gco:Date>
+   </gmd:dateStamp>
+   <gmd:metadataStandardName>
+      <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+   </gmd:metadataStandardName>
+   <gmd:metadataStandardVersion>
+      <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+   </gmd:metadataStandardVersion>
+   <gmd:spatialRepresentationInfo>
+      <gmd:MD_VectorSpatialRepresentation>
+         <gmd:geometricObjects>
+            <gmd:MD_GeometricObjects>
+               <gmd:geometricObjectType>
+                  <gmd:MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode"
+                                                  codeListValue="curve"
+                                                  codeSpace="003">curve</gmd:MD_GeometricObjectTypeCode>
+               </gmd:geometricObjectType>
+               <gmd:geometricObjectCount>
+                  <gco:Integer>1164</gco:Integer>
+               </gmd:geometricObjectCount>
+            </gmd:MD_GeometricObjects>
+         </gmd:geometricObjects>
+      </gmd:MD_VectorSpatialRepresentation>
+   </gmd:spatialRepresentationInfo>
+   <gmd:spatialRepresentationInfo>
+      <gmd:MD_GridSpatialRepresentation>
+         <gmd:numberOfDimensions>
+            <gco:Integer>2</gco:Integer>
+         </gmd:numberOfDimensions>
+         <gmd:axisDimensionProperties>
+            <gmd:MD_Dimension>
+               <gmd:dimensionName>
+                  <gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode"
+                                                codeListValue="column">column</gmd:MD_DimensionNameTypeCode>
+               </gmd:dimensionName>
+               <gmd:dimensionSize gco:nilReason="unknown"/>
+               <gmd:resolution>
+                  <gco:Scale uom="decimalDegrees">0</gco:Scale>
+               </gmd:resolution>
+            </gmd:MD_Dimension>
+         </gmd:axisDimensionProperties>
+         <gmd:axisDimensionProperties>
+            <gmd:MD_Dimension>
+               <gmd:dimensionName>
+                  <gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode"
+                                                codeListValue="row">row</gmd:MD_DimensionNameTypeCode>
+               </gmd:dimensionName>
+               <gmd:dimensionSize gco:nilReason="unknown"/>
+               <gmd:resolution>
+                  <gco:Scale uom="decimalDegrees">0</gco:Scale>
+               </gmd:resolution>
+            </gmd:MD_Dimension>
+         </gmd:axisDimensionProperties>
+         <gmd:cellGeometry>
+            <gmd:MD_CellGeometryCode codeList="" codeListValue="" codeSpace=""/>
+         </gmd:cellGeometry>
+         <gmd:transformationParameterAvailability>
+            <gco:Boolean>false</gco:Boolean>
+         </gmd:transformationParameterAvailability>
+      </gmd:MD_GridSpatialRepresentation>
+   </gmd:spatialRepresentationInfo>
+   <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem/>
+   </gmd:referenceSystemInfo>
+   <gmd:referenceSystemInfo xlink:href="https://www.ngdc.noaa.gov/docucomp/65f8b220-95ed-11e0-aa80-0800200c9a66"
+                            xlink:title="North American Datum 1983"/>
+   <gmd:referenceSystemInfo xlink:href="https://www.ngdc.noaa.gov/docucomp/c3895520-95ed-11e0-aa80-0800200c9a66"
+                            xlink:title="Geodetic Reference System 1980"/>
+   <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>Delaware Major Roads</gco:CharacterString>
+               </gmd:title>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2000-11-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="publication"
+                                             codeSpace="002">publication</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:edition>
+                  <gco:CharacterString>2000</gco:CharacterString>
+               </gmd:edition>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Geographic Data Technology, Inc. (GDT)</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="originator"
+                                         codeSpace="006">originator</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Harvard Geospatial Library</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="originator"
+                                         codeSpace="006">originator</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Environmental Systems Research Institute, Inc. (ESRI)</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="originator"
+                                         codeSpace="006">originator</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Environmental Systems Research Institute, Inc. (ESRI)</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:city>
+                                    <gco:CharacterString>Redlands</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString> California, USA</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="publisher"
+                                         codeSpace="010">publisher</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:presentationForm>
+                  <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode"
+                                               codeListValue="mapDigital"
+                                               codeSpace="005">mapDigital</gmd:CI_PresentationFormCode>
+               </gmd:presentationForm>
+               <gmd:series>
+                  <gmd:CI_Series>
+                     <gmd:name>
+                        <gco:CharacterString>ESRI Data &amp; Maps</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:issueIdentification>
+                        <gco:CharacterString>2000</gco:CharacterString>
+                     </gmd:issueIdentification>
+                  </gmd:CI_Series>
+               </gmd:series>
+               <gmd:otherCitationDetails>
+                  <gco:CharacterString>Location: ESRI Data &amp; Maps 2000 (CD 5) \eastusa\de</gco:CharacterString>
+               </gmd:otherCitationDetails>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>Delaware Major Roads represents interstate, U.S., and state highways and other major thoroughfares within Delaware.</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:purpose>
+            <gco:CharacterString>Delaware Major Roads provides an invaluable reference and cartographic layer that make it easy to identify areas in other data sets. Delaware Major Roads overlays accurately on streets and other boundary data.</gco:CharacterString>
+         </gmd:purpose>
+         <gmd:status>
+            <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode"
+                                 codeListValue="completed"
+                                 codeSpace="001">completed</gmd:MD_ProgressCode>
+         </gmd:status>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>Data Team</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>Environmental Systems Research Institute, Inc. (ESRI)</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>909-793-2853</gco:CharacterString>
+                           </gmd:voice>
+                           <gmd:facsimile>
+                              <gco:CharacterString>909-793-5953</gco:CharacterString>
+                           </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>380 New York Street</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Redlands</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>California</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>92373-8100</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gco:CharacterString>USA</gco:CharacterString>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>info@esri.com</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                     <gmd:hoursOfService>
+                        <gco:CharacterString>8:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</gco:CharacterString>
+                     </gmd:hoursOfService>
+                     <gmd:contactInstructions>
+                        <gco:CharacterString>In the United States- Please direct all inquiries regarding software/data
+                    pricing and consulting services to your local ESRI Regional Office. For support,
+                    you may contact Technical Support by telephone (voice) between 6:00 a.m. and
+                    6:00 p.m. Pacific time, Monday through Friday, by dialing 909-793-3774;
+                    facsimile (fax) available at 909-792-0960; electronic mail (e-mail)
+                    support@esri.com; or visit http://support.esri.com; ESRI holidays excluded.
+                    Outside the United States- Please direct all inquiries regarding software/data
+                    pricing, sales, support, and consulting services to your local ESRI
+                    International Distributor. This information can be found at
+                    http://gis.esri.com/intldist/contactint.cfm. For other questions or comments,
+                    you may contact ESRI headquarters by e-mail, telephone, or fax or write to
+                    us.</gco:CharacterString>
+                     </gmd:contactInstructions>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                   codeListValue="pointOfContact"
+                                   codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+                                                   codeListValue="notPlanned"
+                                                   codeSpace="011">notPlanned</gmd:MD_MaintenanceFrequencyCode>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>line</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>highways</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>roads</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>interstates</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>cfcc</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="theme"
+                                          codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>None</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="unknown"/>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>United States</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Delaware</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="place"
+                                          codeSpace="002">place</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>None</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="unknown"/>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>1999</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="temporal"
+                                          codeSpace="004">temporal</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>None</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="unknown"/>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode"
+                                          codeListValue="otherRestrictions"
+                                          codeSpace="008">otherRestrictions</gmd:MD_RestrictionCode>
+               </gmd:accessConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode"
+                                          codeListValue="otherRestrictions"
+                                          codeSpace="008">otherRestrictions</gmd:MD_RestrictionCode>
+               </gmd:useConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>Access Constraints: Access granted to Licensee only. Use Constraints: The data are provided under the Harvard University Site License. These data must be used in compliance with the Site License. This means that the data are only available for Harvard Afiliates for use on Harvard owned computers. The data are provided by multiple, third party data vendors under license to ESRI for inclusion on ESRI Data &amp; Maps CD-ROMs for use with ESRI(r) software. Each data vendor has its own data licensing policies and may grant varying redistribution rights to end users. Please consult the redistribution rights below for this data set provided on ESRI Data &amp; Maps CD-ROMs. As used herein, "Geodata" shall mean any digital data set consisting of geographic data coordinates and associated attributes. The redistribution rights for this data set: Redistribution rights are granted by the data vendor for hard-copy renditions or static, electronic map images (e.g. .gif, .jpeg, etc.) that are plotted, printed, or publicly displayed with proper metadata and source/copyright attribution to the respective data vendor(s). Geodata is redistributable with a Value-Added Software Application developed by ESRI Business Partners on a royalty-free basis with proper metadata and source/copyright attribution to the respective data vendor(s). The terms and conditions below apply to all the data sets provided on the ESRI Data &amp; Maps CD-ROMs. Proprietary Rights and Copyright: Licensee acknowledges that the Data and Related Materials contain proprietary and confidential property of ESRI and its licensor(s). The Data and Related Materials are owned by ESRI and its licensor(s) and are protected by United States copyright laws and applicable international copyright treaties and/or conventions. Limited Warranty and Disclaimer: ESRI warrants that the media upon which the Data and Related Materials are provided will be free from defects in materials and workmanship under normal use and service for a period of ninety (90) days from the date of receipt. THE DATA AND RELATED MATERIALS ARE EXCLUDED FROM THE LIMITED WARRANTY, AND THE LICENSEE EXPRESSLY ACKNOWLEDGES THAT THE DATA CONTAINS SOME NONCONFORMITIES, DEFECTS, OR ERRORS. ESRI DOES NOT WARRANT THAT THE DATA WILL MEET LICENSEE'S NEEDS OR EXPECTATIONS; THAT THE USE OF THE DATA WILL BE UNINTERRUPTED; OR THAT ALL NONCONFORMITIES, DEFECTS, OR ERRORS CAN OR WILL BE CORRECTED. ESRI IS NOT INVITING RELIANCE ON THIS DATA, AND THE LICENSEE SHOULD ALWAYS VERIFY ACTUAL DATA. EXCEPT FOR THE LIMITED WARRANTY SET FORTH ABOVE, THE DATA AND RELATED MATERIALS CONTAINED THEREIN ARE PROVIDED "AS-IS," WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. Exclusive Remedy and Limitation of Liability: The entire liability of ESRI or its licensor(s) and Licensee's exclusive remedy shall be to terminate the Agreement upon Licensee returning the Data and Related Materials to ESRI with a copy of Licensee's invoice/receipt and ESRI returning the license fees paid to Licensee. IN NO EVENT SHALL ESRI AND/OR ITS LICENSOR(S) BE LIABLE FOR COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOST PROFITS, LOST SALES, OR BUSINESS EXPENDITURES, INVESTMENTS, OR COMMITMENTS IN CONNECTION WITH ANY BUSINESS; LOSS OF ANY GOODWILL; OR FOR ANY INDIRECT, SPECIAL, INCIDENTAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THIS AGREEMENT OR USE OF THE DATA AND RELATED MATERIALS, HOWEVER CAUSED, ON ANY THEORY OF LIABILITY, AND WHETHER OR NOT ESRI OR ITS LICENSOR(S) HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. THESE LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY EXCLUSIVE REMEDY. Third Party Beneficiary: ESRI's licensor(s) has (have) authorized ESRI to (sub)distribute and (sub)license its (their) data as incorporated into the Data and Related Materials. As an intended third party beneficiary to this Agreement, the ESRI licensor(s) is (are) entitled to directly enforce, in its own name, the rights and obligations undertaken by the Licensee and to seek all legal and equitable remedies as are afforded to ESRI. In the event that the data vendor(s) has (have) granted the end user permission to redistribute the Geodata, please use proper proprietary or copyright attribution for the various data vendor(s), and provide the associated metadata file(s) with the Geodata. In compliance with FGDC metadata standards, ESRI has attempted to practice proper metadata methodologies by providing any data source information, descriptions, and file names to assist in this effort. Distribution Liability: See use constraints.</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode"
+                                                  codeListValue="vector"
+                                                  codeSpace="001">vector</gmd:MD_SpatialRepresentationTypeCode>
+         </gmd:spatialRepresentationType>
+         <gmd:language>
+            <gco:CharacterString>eng; USA</gco:CharacterString>
+         </gmd:language>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>transportation</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:environmentDescription>
+            <gco:CharacterString>Native Dataset Environment: Windows NT Version 5.0 (Build 2195) ; ESRI ArcInfo 8.1.0.515 Technical Prerequisites: To use this data requires software that supports ArcView(r) GIS shapefiles.</gco:CharacterString>
+         </gmd:environmentDescription>
+         <gmd:extent>
+            <gmd:EX_Extent id="boundingExtent">
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox id="boundingGeographicBoundingBox">
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-75.788559</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-75.051614</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>38.451016</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>39.838212</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent id="boundingTemporalExtent">
+                     <gmd:extent>
+                        <gml:TimeInstant gml:id="boundingTimeInstantExtent">
+                           <gml:description>publication date</gml:description>
+                           <gml:timePosition>1999-01</gml:timePosition>
+                        </gml:TimeInstant>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>Largest scale when displaying the data: 1:50,000.</gco:CharacterString>
+         </gmd:supplementalInformation>
+      </gmd:MD_DataIdentification>
+   </gmd:identificationInfo>
+   <gmd:contentInfo>
+      <gmd:MD_FeatureCatalogueDescription>
+         <gmd:includedWithDataset>
+            <gco:Boolean>true</gco:Boolean>
+         </gmd:includedWithDataset>
+         <gmd:featureTypes>
+            <gco:LocalName codeSpace="derds"/>
+         </gmd:featureTypes>
+         <gmd:featureCatalogueCitation gco:nilReason="unknown"/>
+      </gmd:MD_FeatureCatalogueDescription>
+   </gmd:contentInfo>
+   <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>SHP</gco:CharacterString>
+               </gmd:name>
+               <gmd:version gco:nilReason="unknown"/>
+               <gmd:fileDecompressionTechnique>
+                  <gco:CharacterString>Downloaded file is Zipped</gco:CharacterString>
+               </gmd:fileDecompressionTechnique>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributor>
+            <gmd:MD_Distributor>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Harvard Geospatial Library</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone/>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>OIS</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>90 Mt. Auburn Street</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Cambridge</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>MA</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>02138</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                 </gmd:country>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="distributor"
+                                         codeSpace="005">distributor</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
+               <gmd:distributionOrderProcess>
+                  <gmd:MD_StandardOrderProcess>
+                     <gmd:fees>
+                        <gco:CharacterString>None</gco:CharacterString>
+                     </gmd:fees>
+                  </gmd:MD_StandardOrderProcess>
+               </gmd:distributionOrderProcess>
+            </gmd:MD_Distributor>
+         </gmd:distributor>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:transferSize>
+                  <gco:Real>0.523</gco:Real>
+               </gmd:transferSize>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>hgl.harvard.edu</gmd:URL>
+                     </gmd:linkage>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://hgl.harvard.edu:8080/HGL/jsp/HGL.jsp?action=VColl&amp;VCollName=ESRIDERDS</gmd:URL>
+                     </gmd:linkage>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+   </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope gco:nilReason="unknown"/>
+         <gmd:report>
+            <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+               <gmd:nameOfMeasure>
+                  <gco:CharacterString>Horizontal Positional Accuracy</gco:CharacterString>
+               </gmd:nameOfMeasure>
+               <gmd:measureDescription/>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>The geospatial part of this data set was extracted from the 1990 Census Version TIGER/Line(tm) files (CD-ROM edition). To improve the accuracy, GDT ran a process against the entire nationwide database. The positional accuracy of this data set exceeds the positional accuracy of the TIGER/Line coordinates. The positional accuracy of the TIGER/Line coordinates varies with the source materials used but at best meets the established National Map Accuracy standards (+/- 167 feet approximately) where 1:100,000-scale maps from the USGS are the source. The Census Bureau cannot specify the accuracy of feature updates added by its field staff or of features derived from the GBF/DIME-Files or other map sources. Thus, the level of positional accuracy in the TIGER/Line files is not suitable for high-precision measurement applications such as engineering problems, property transfers, or other uses that might require highly accurate measurements of the earth's surface.</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result>
+                  <gmd:DQ_QuantitativeResult>
+                     <gmd:valueUnit>
+                        <gml:BaseUnit gml:id="meters">
+                           <gml:identifier codeSpace="meters"/>
+                           <gml:unitsSystem xlink:href="http://www.bipm.org/en/si/"/>
+                        </gml:BaseUnit>
+                     </gmd:valueUnit>
+                     <gmd:value/>
+                  </gmd:DQ_QuantitativeResult>
+               </gmd:result>
+            </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_CompletenessCommission>
+               <gmd:result gco:nilReason="unknown"/>
+            </gmd:DQ_CompletenessCommission>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_CompletenessOmission>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:result gco:nilReason="unknown"/>
+            </gmd:DQ_CompletenessOmission>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_ConceptualConsistency>
+               <gmd:measureDescription>
+                  <gco:CharacterString>No duplicate features are present. The shapefile is exported using Avenue request ExportClean. This request verifies and enforces the correctness of shapes.</gco:CharacterString>
+               </gmd:measureDescription>
+               <gmd:result gco:nilReason="unknown"/>
+            </gmd:DQ_ConceptualConsistency>
+         </gmd:report>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>GDT maintains Highways data from its internal, master database that
+                    includes nationwide street and road network data and 1990 Census data.
+                    Technicians then begin a state-by-state editing process that includes (but is
+                    not limited to): Eliminating errant segments-Occasionally, we have discovered
+                    cases where the highway, as digitized, deviates considerably from the actual
+                    course. In these cases, GDT technicians digitize the correct segments and delete
+                    the erroneous ones. Feature reclassification-Another drawback to TIGER-derived
+                    files was their feature classification codes (FCCs). These codes were an attempt
+                    to classify streets and roads based on maintenance, a procedure that varied
+                    dramatically in different geographic areas. To correct this problem and create a
+                    consistent nationwide highway system, GDT reclassified almost every street and
+                    road in the nation based on its use. Highways names are applied according to a
+                    layered hierarchy. Where a highway segment has more than one name, the
+                    higher-level name will always be used, and always in this order: Interstates,
+                    then U.S. Highways, State Highways and Local Names. The data GDT uses to define
+                    highways and ensure completeness is culled from the following sources: ? Dwight
+                    D. Eisenhower System of Interstate and Defense Highways. Published by the U.S.
+                    Department of Transportation, Federal Highway Administration. Lists all
+                    interstates. ? U.S. Numbered Highways. Published by the American Association of
+                    State Highway and Transportation Officers. Lists all state and U.S. highways. ?
+                    State highway maps. Highway maps from state travel and tourism agencies and/or
+                    state departments of transportation.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:dateTime/>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>The following steps were performed by ESRI: Extracted data sets from GDT
+                    Dynamap/2000 v9.0. Merged all states into one data set. Ran ArcView Avenue
+                    request ReturnConnected, and generalized. Divided into individual states.
+                    Converted all states to North American Datum of 1983 (NAD83). Recalculated any
+                    attributes based on length. Created ArcGIS(tm) layer file (.lyr). Created
+                    ArcView legend file (.avl). Created projection file (.prj). Ran ArcView Avenue
+                    request ExportClean, and created spatial indices.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:dateTime/>
+                     <gmd:source>
+                        <gmd:LI_Source>
+                           <gmd:sourceCitation>
+                              <gmd:CI_Citation>
+                                 <gmd:title>
+                                    <gco:CharacterString>GDT Dynamap/2000 v9.0</gco:CharacterString>
+                                 </gmd:title>
+                                 <gmd:date gco:nilReason="unknown"/>
+                              </gmd:CI_Citation>
+                           </gmd:sourceCitation>
+                        </gmd:LI_Source>
+                     </gmd:source>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>Source shape files were loaded into SDE using the shp2sde command by the
+                    HGL team. Spatial reference options -180,-90,1000000.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:dateTime/>
+                     <gmd:source>
+                        <gmd:LI_Source>
+                           <gmd:sourceCitation>
+                              <gmd:CI_Citation>
+                                 <gmd:title>
+                                    <gco:CharacterString>GDT Dynamap/2000 v7.3</gco:CharacterString>
+                                 </gmd:title>
+                                 <gmd:date gco:nilReason="unknown"/>
+                              </gmd:CI_Citation>
+                           </gmd:sourceCitation>
+                        </gmd:LI_Source>
+                     </gmd:source>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:source>
+                  <gmd:LI_Source>
+                     <gmd:description>
+                        <gco:CharacterString>Source Contribution: Attribute and geospatial dataCD-ROM</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:scaleDenominator>
+                        <gmd:MD_RepresentativeFraction>
+                           <gmd:denominator>
+                              <gco:Integer>100000</gco:Integer>
+                           </gmd:denominator>
+                        </gmd:MD_RepresentativeFraction>
+                     </gmd:scaleDenominator>
+                     <gmd:sourceCitation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>Dynamap/2000 v9.0</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:alternateTitle>
+                              <gco:CharacterString>GDT Dynamap/2000 v9.0</gco:CharacterString>
+                           </gmd:alternateTitle>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>1999-01</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                         codeListValue="publication"
+                                                         codeSpace="002">publication</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:edition>
+                              <gco:CharacterString>Version 9.0</gco:CharacterString>
+                           </gmd:edition>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>Geographic Data Technology, Inc.</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                                     codeListValue="resourceProvider"
+                                                     codeSpace="001">resourceProvider</gmd:CI_RoleCode>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:presentationForm>
+                              <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode"
+                                                           codeListValue="mapDigital"
+                                                           codeSpace="005">mapDigital</gmd:CI_PresentationFormCode>
+                           </gmd:presentationForm>
+                           <gmd:series>
+                              <gmd:CI_Series>
+                                 <gmd:name>
+                                    <gco:CharacterString>Dynamap/2000(r)</gco:CharacterString>
+                                 </gmd:name>
+                                 <gmd:issueIdentification>
+                                    <gco:CharacterString>v9.0</gco:CharacterString>
+                                 </gmd:issueIdentification>
+                              </gmd:CI_Series>
+                           </gmd:series>
+                           <gmd:otherCitationDetails/>
+                        </gmd:CI_Citation>
+                     </gmd:sourceCitation>
+                     <gmd:sourceExtent>
+                        <gmd:EX_Extent>
+                           <gmd:temporalElement>
+                              <gmd:EX_TemporalExtent>
+                                 <gmd:extent>
+                                    <gml:TimeInstant gml:id="sourceTemporalExtent">
+                                       <gml:description>publication date</gml:description>
+                                       <gml:timePosition>1999-01</gml:timePosition>
+                                    </gml:TimeInstant>
+                                 </gmd:extent>
+                              </gmd:EX_TemporalExtent>
+                           </gmd:temporalElement>
+                        </gmd:EX_Extent>
+                     </gmd:sourceExtent>
+                  </gmd:LI_Source>
+               </gmd:source>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+   <gmd:metadataMaintenance>
+      <gmd:MD_MaintenanceInformation>
+         <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
+         <gmd:maintenanceNote>
+            <gco:CharacterString>This metadata was automatically generated from the FGDC Content Standards for Digital Geospatial Metadatastandard version FGDC-STD-001-1998 using the January 2013 version of the FGDC CSDGM to ISO 19115-2 transform.</gco:CharacterString>
+         </gmd:maintenanceNote>
+         <gmd:contact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName/>
+               <gmd:organisationName>
+                  <gco:CharacterString>Harvard Geospatial Library</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone/>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>OIS</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>90 Mt. Auburn Street</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Cambridge</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>MA</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>02138</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gco:CharacterString>USA</gco:CharacterString>
+                           </gmd:country>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                   codeListValue="custodian"
+                                   codeSpace="002">custodian</gmd:CI_RoleCode>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:contact>
+      </gmd:MD_MaintenanceInformation>
+   </gmd:metadataMaintenance>
+</gmd:MD_Metadata>
