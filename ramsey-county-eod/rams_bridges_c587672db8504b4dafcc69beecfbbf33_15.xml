@@ -44,7 +44,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-12-09T11:22:39.086032</gco:DateTime>
+      <gco:DateTime>2016-01-19T09:33:16.075540</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -106,7 +106,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2015-11-27T21:32:36.723Z</gco:DateTime>
+                        <gco:DateTime>2015-12-15T23:13:16.648Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
@@ -264,7 +264,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimeInstant>2015-11-27T21:32:36.723Z</gml:TimeInstant>
+                        <gml:TimeInstant>2015-12-15T23:13:16.648Z</gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
@@ -387,7 +387,7 @@
 
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://openramsey.ramseygis.opendata.arcgis.com/datasets/c587672db8504b4dafcc69beecfbbf33_15, orignally in the Project Open Data Metadata Schema, at 2015-12-09T11:22:39.086032.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://openramsey.ramseygis.opendata.arcgis.com/datasets/c587672db8504b4dafcc69beecfbbf33_15, orignally in the Project Open Data Metadata Schema, at 2016-01-19T09:33:16.075540.</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

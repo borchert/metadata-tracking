@@ -44,7 +44,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-12-17T15:21:52.868808</gco:DateTime>
+      <gco:DateTime>2016-01-19T09:33:27.964461</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -106,7 +106,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2015-12-07T23:00:12.976Z</gco:DateTime>
+                        <gco:DateTime>2015-12-21T21:06:06.000Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
@@ -207,16 +207,19 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>Livable</gco:CharacterString>
+                  <gco:CharacterString>Scott County Minnesota</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </gmd:type>
             <gmd:keyword>
-                  <gco:CharacterString>Scott County Minnesota</gco:CharacterString>
+                  <gco:CharacterString>Landuse</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>Landuse</gco:CharacterString>
+                  <gco:CharacterString>Livable</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Healthy</gco:CharacterString>
                </gmd:keyword>
                </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
@@ -251,23 +254,23 @@
                <gmd:geographicElement>
                   <gmd:EX_GeographicBoundingBox>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-93.91268790727887</gco:Decimal>
+                        <gco:Decimal>-93.9</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-93.27780948106312</gco:Decimal>
+                        <gco:Decimal>-93.279</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>44.54225436152864</gco:Decimal>
+                        <gco:Decimal>44.527</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>44.81275178054216</gco:Decimal>
+                        <gco:Decimal>44.82</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimeInstant>2015-12-07T23:00:12.976Z</gml:TimeInstant>
+                        <gml:TimeInstant>2015-12-21T21:06:06.000Z</gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
@@ -390,7 +393,7 @@
 
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/ff42aef4f51f497ab75442db58828c2f_0, orignally in the Project Open Data Metadata Schema, at 2015-12-17T15:21:52.868808.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/ff42aef4f51f497ab75442db58828c2f_0, orignally in the Project Open Data Metadata Schema, at 2016-01-19T09:33:27.964461.</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

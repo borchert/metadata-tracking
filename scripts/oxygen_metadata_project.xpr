@@ -10,12 +10,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../minneapolis/</String>
-
+                                    <String>../../../CIC-GDDP/metadata-geonetwork-8Jan2016/illinois_12jan3/90f14ff4-1359-4beb-b931-5cb41d20ab90/metadata/metadata.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>eod_to_geobl</String>
+                                        <String>iso_to_geobl</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -26,11 +25,206 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../mn-geospatial-commons/us_mn_state_dnr_env_mn_moose_range.xml</String>
+                                    <String>../../../CIC-GDDP/metadata-geonetwork-8Jan2016/purdue_21Jan_2/6c4cc043-5f92-4c16-b97c-11f0881d8636/metadata/metadata.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>fgdc_test</String>
+                                        <String>iso_to_geobl</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../CIC-GDDP/edu.purdue/IndianaMap/Demographic/stage_3/Census_Blocks_TIGER00_IN.shp.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>arcgis2iso19139</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../CIC-GDDP/edu.purdue/IndianaMap/Demographic/Transformation_A/Census_Blocks.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>fgdc_to_iso_noaa</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../CIC-GDDP/metadata-geonetwork-8Jan2016/umich_19Jan_2/ed3c71a1-3103-4874-85b1-a8b6846a50da/metadata/metadata.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>iso_to_geobl</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../CIC-GDDP/edu.uwisc/WIDNR/collection_1/stage_2/WI_FireProtectionAreas_2008.shp.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>arcgis2iso19139</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../../Downloads/CHILDREN_POVERTY_2011_USCB_IN_%20Children,%20Ages%205%20to%2017,%20from%20Families%20in%20Poverty%20in%20Indiana%20in%202011,%20by%20School%20District%20(United%20States%20Census%20Bureau,%201_500,000,%20Polygon%20Shapefile).xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>arcgis2iso19139</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../CIC-GDDP/edu.purdue/Population_Children_Poverty_2011_utf8.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>fgdc_to_iso_noaa</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../CIC-GDDP/metadata-geonetwork-8Jan2016/maryland_12jan/9ec8a429-4665-422a-ae69-9f8b1ffe0c4b/metadata/metadata.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>metadata</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>xsl/fgdc_test.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>fgdc_to_iso_noaa</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../CIC-GDDP/metadata-geonetwork-8Jan2016/wisc13Jan_1/066FBA03-039E-4195-A42A-8CE5A184AF39/metadata/metadata.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>metadata</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../CIC-GDDP/metadata-geonetwork-8Jan2016/wisc13Jan_1/841D19D3-D15E-4031-BEA9-3122484FC807/metadata/metadata.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>metadata</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../CIC-GDDP/metadata-geonetwork-8Jan2016/illinois_12jan3/2351b787-d0a7-4fd3-b167-98a20de5b560/metadata/metadata.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>metadata</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../CIC-GDDP/metadata-geonetwork-8Jan2016/illinois_12jan3/126c1a99-7326-45e2-bbeb-1d22f3c4828b/metadata/metadata.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>metadata</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../CIC-GDDP/edu.uwisc/WIDNR/stage1_original/fire_protection_areas.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>fgdc_to_iso_noaa</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -64,7 +258,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>eod_to_geobl</String>
+                                    <String>arcgis2iso19139</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -82,7 +276,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/xsl/iso2geoBL.xsl</String>
+                                    <String>${pdu}/xsl/ArcGIS2ISO19139.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -97,16 +291,16 @@
                                     <String>XSL</String>
                                 </field>
                                 <field name="saveAs">
-                                    <Boolean>true</Boolean>
+                                    <Boolean>false</Boolean>
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>/Users/dykex005/Workspace/borchert-github/metadata-tracking/testing/${cfn}.json</File>
+                                    <null/>
                                 </field>
                                 <field name="outputResource">
-                                    <String>/Users/dykex005/Workspace/borchert-github/metadata-tracking/testing/${cfn}.json</String>
+                                    <null/>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -233,6 +427,146 @@
                             </scenario>
                             <scenario>
                                 <field name="advancedOptionsMap">
+                                    <serializableOrderedMap>
+                                        <entry>
+                                            <String>Saxon-PE</String>
+                                            <xsltSaxonBAdvancedOptions>
+                                                <field name="allowCallsOnExtensionFunctions">
+                                                    <Boolean>true</Boolean>
+                                                </field>
+                                                <field name="registerSaxonCEExtensions">
+                                                    <Boolean>true</Boolean>
+                                                </field>
+                                                <field name="showVersionWarnings">
+                                                    <Boolean>false</Boolean>
+                                                </field>
+                                                <field name="dtdSourceValidation">
+                                                    <Boolean>false</Boolean>
+                                                </field>
+                                                <field name="dtdSourceValidationRecover">
+                                                    <Boolean>false</Boolean>
+                                                </field>
+                                                <field name="lineNumbering">
+                                                    <Boolean>false</Boolean>
+                                                </field>
+                                                <field name="initialMode">
+                                                    <null/>
+                                                </field>
+                                                <field name="initialTemplate">
+                                                    <null/>
+                                                </field>
+                                                <field name="traceXPathExpression">
+                                                    <Boolean>true</Boolean>
+                                                </field>
+                                                <field name="expandAttributeDefaults">
+                                                    <Boolean>true</Boolean>
+                                                </field>
+                                                <field name="errorRecoverPolicy">
+                                                    <String>saxon.recover.with.warning</String>
+                                                </field>
+                                                <field name="stripWS">
+                                                    <String>saxon.strip.ws.none</String>
+                                                </field>
+                                                <field name="optimizationLevel">
+                                                    <String>10</String>
+                                                </field>
+                                                <field name="useConfigFile">
+                                                    <Boolean>false</Boolean>
+                                                </field>
+                                                <field name="configSystemID">
+                                                    <null/>
+                                                </field>
+                                                <field name="initializer">
+                                                    <String></String>
+                                                </field>
+                                            </xsltSaxonBAdvancedOptions>
+                                        </entry>
+                                    </serializableOrderedMap>
+                                </field>
+                                <field name="name">
+                                    <String>fgdc_to_iso_noaa</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${pdu}/xsl/csdgm2iso19115-2.xslt</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XSL</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-PE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
                                     <null/>
                                 </field>
                                 <field name="name">
@@ -279,6 +613,178 @@
                                 </field>
                                 <field name="outputResource">
                                     <String>../testing/${cfn}.json</String>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon6.5.5</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>iso_to_geobl</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${pdu}/xsl/iso2geoBL.xsl</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XSL</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <File>/Users/dykex005/Workspace/borchert-github/metadata-tracking/testing/${cfn}.json</File>
+                                </field>
+                                <field name="outputResource">
+                                    <String>/Users/dykex005/Workspace/borchert-github/metadata-tracking/testing/${cfn}.json</String>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon6.5.5</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>metadata</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${pdu}/xsl/iso2geoBL.xsl</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XSL</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <File>../../../geobl/${cfn}.json</File>
+                                </field>
+                                <field name="outputResource">
+                                    <String>../../../geobl/${cfn}.json</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -415,5 +921,6 @@
         <folder path="../mn-geospatial-commons/"/>
         <folder path="scrape_open_data/"/>
         <folder path="xsl/"/>
+        <folder path="../../../CIC-GDDP/"/>
     </projectTree>
 </project>

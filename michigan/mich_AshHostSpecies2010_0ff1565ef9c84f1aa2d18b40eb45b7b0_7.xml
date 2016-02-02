@@ -44,7 +44,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2016-01-15T13:22:28.655712</gco:DateTime>
+      <gco:DateTime>2016-01-20T08:13:27.753081</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -390,7 +390,7 @@
 
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.michigan.opendata.arcgis.com/datasets/0ff1565ef9c84f1aa2d18b40eb45b7b0_7, orignally in the Project Open Data Metadata Schema, at 2016-01-15T13:22:28.655712.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.michigan.opendata.arcgis.com/datasets/0ff1565ef9c84f1aa2d18b40eb45b7b0_7, orignally in the Project Open Data Metadata Schema, at 2016-01-20T08:13:27.753081.</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

@@ -193,7 +193,7 @@
                      <gmd:date>
                         <gmd:CI_Date>
                            <gmd:date>
-                              <gco:Date>2006-01-15</gco:Date>
+                              <gco:Date>1/15/06</gco:Date>
                            </gmd:date>
                            <gmd:dateType>
                               <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>

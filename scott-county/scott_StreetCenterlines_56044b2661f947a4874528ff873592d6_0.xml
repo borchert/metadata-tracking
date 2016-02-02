@@ -44,7 +44,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-12-17T15:21:51.033301</gco:DateTime>
+      <gco:DateTime>2015-12-30T12:28:39.471519</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -63,7 +63,7 @@
                   <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="curve" codeSpace="ISOTC211/19115"/>
                </gmd:geometricObjectType>
                <gmd:geometricObjectCount>
-                  <gco:Integer>9075</gco:Integer>
+                  <gco:Integer>9143</gco:Integer>
                </gmd:geometricObjectCount>
             </gmd:MD_GeometricObjects>
          </gmd:geometricObjects>
@@ -106,7 +106,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2015-12-10T21:59:05.000Z</gco:DateTime>
+                        <gco:DateTime>2015-12-22T22:31:39.000Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
@@ -168,7 +168,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This dataset contains the street centerlines within Scott County. The attributes of the data allow for accurate geocoding. Attributes consist of street names and address ranges for both the left and right side, as well as an alternate name field. For a list of field descriptions, click here .</gco:CharacterString>
+            <gco:CharacterString>This dataset contains the street centerlines within Scott County. The attributes of the data allow for accurate geocoding. Attributes consist of street names and address ranges for both the left and right side, as well as an alternate name field.</gco:CharacterString>
          </gmd:abstract>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
@@ -219,9 +219,6 @@
                   <gco:CharacterString>Streets</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>Centerlines</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
                   <gco:CharacterString>Livable</gco:CharacterString>
                </gmd:keyword>
                </gmd:MD_Keywords>
@@ -257,23 +254,23 @@
                <gmd:geographicElement>
                   <gmd:EX_GeographicBoundingBox>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-93.89291582663628</gco:Decimal>
+                        <gco:Decimal>-93.95660266924119</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-93.2778145562375</gco:Decimal>
+                        <gco:Decimal>-93.2273344851028</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>44.54014533891315</gco:Decimal>
+                        <gco:Decimal>44.45850398140198</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>44.80509883531767</gco:Decimal>
+                        <gco:Decimal>44.896457463118274</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimeInstant>2015-12-10T21:59:05.000Z</gml:TimeInstant>
+                        <gml:TimeInstant>2015-12-22T22:31:39.000Z</gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
@@ -396,7 +393,7 @@
 
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/56044b2661f947a4874528ff873592d6_0, orignally in the Project Open Data Metadata Schema, at 2015-12-17T15:21:51.033301.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/56044b2661f947a4874528ff873592d6_0, orignally in the Project Open Data Metadata Schema, at 2015-12-30T12:28:39.471519.</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

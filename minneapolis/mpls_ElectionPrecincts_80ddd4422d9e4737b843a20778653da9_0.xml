@@ -33,7 +33,6 @@
                         <gco:CharacterString>
                           dykex005@umn.edu
                        </gco:CharacterString>
-<<<<<<< HEAD
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
@@ -45,25 +44,9 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-12-09T11:19:31.107213</gco:DateTime>
+      <gco:DateTime>2016-01-19T09:33:14.277969</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
-=======
-                    </electronicMailAddress>
-                 </CI_Address>
-              </address>
-           </CI_Contact>
-        </contactInfo>
-        <role>
-           <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
-        </role>
-     </CI_ResponsibleParty>
-  </contact>
-  <dateStamp>
-      <gco:DateTime>2015-12-02T13:16:00.933542</gco:DateTime>
-  </dateStamp>
-  <metadataStandardName>
->>>>>>> mn-geo-commons-ags-parse
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
    </gmd:metadataStandardName>
    <gmd:metadataStandardVersion>
@@ -141,7 +124,6 @@
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
                         <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
-<<<<<<< HEAD
                      </gmd:organisationName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
@@ -225,101 +207,6 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-=======
-                     </organisationName>
-                     <contactInfo>
-                         <CI_Contact>
-                            <address>
-                               <CI_Address>
-                                  <electronicMailAddress>
-                                     <gco:CharacterString>
-                                        gis@minneapolismn.gov
-                                     </gco:CharacterString>
-                                  </electronicMailAddress>
-                               </CI_Address>
-                            </address>
-                         </CI_Contact>
-                     </contactInfo>
-                     <role>
-                        <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115"/>
-                     </role>
-                  </CI_ResponsibleParty>
-               </citedResponsibleParty>
-               <citedResponsibleParty>
-                  <CI_ResponsibleParty>
-                     <individualName>
-                         <gco:CharacterString/>
-                     </individualName>
-                     <organisationName>
-                        <gco:CharacterString/>
-                     </organisationName>
-                     <contactInfo>
-                        <CI_Contact>
-                           <address>
-                              <CI_Address>
-                                 <electronicMailAddress>
-                                 </electronicMailAddress>
-                              </CI_Address>
-                           </address>
-                        </CI_Contact>
-                     </contactInfo>
-                     <role>
-                        <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115"/>
-                     </role>
-                  </CI_ResponsibleParty>
-               </citedResponsibleParty>
-               <presentationForm>
-                  <CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115"/>
-               </presentationForm>
-            </CI_Citation>
-         </citation>
-         <abstract>
-            <gco:CharacterString>After the 2010 US Census, voting precincts were redistricted in April of 2012. &#160;Several of the&#160;precincts&#160;were updated in the Spring of 2014 and were officially adopted on April 25, 2014. &#160;Where you vote may have changed. &#160;Please reference the&#160;Elections Office page&#160;for further&#160;information&#160;regarding upcoming elections.&amp;#xD;&amp;#xA;This map service uses a REST end point and can be consumed&#13;
-in a web application by making a call to this web URL: http://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Minneapolis_Election_Precincts/FeatureServer/For more information about the ArcGIS REST API please to Esri&#8217;s&#13;
-ArcGIS Resources&#160;page. &#160;If there are questions about the data or the related map service please contact the&#160;GIS office.</gco:CharacterString>
-         </abstract>
-         <descriptiveKeywords>
-            <MD_Keywords>
-               <keyword>
-                  <gco:CharacterString>Minneapolis (Minn.)</gco:CharacterString>
-               </keyword>
-               <type>
-                  <MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
-               </type>
-            <thesaurusName>
-                 <CI_Citation>
-                   <title>
-                     <gco:CharacterString>LC Name Authority File</gco:CharacterString>
-                   </title>
-                   <date>
-                       <CI_Date>
-                         <date>
-                           <gco:Date>
-                              2013-12-15
-                           </gco:Date>
-                         </date>
-                         <dateType>
-                           <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
-                         </dateType>
-                       </CI_Date>
-                   </date>
-                    <identifier>
-                       <MD_Identifier>
-                          <code>
-                             <gco:CharacterString>
-                                http://id.loc.gov/authorities/names/n79003965
-                             </gco:CharacterString>
-                          </code>
-                       </MD_Identifier>
-                    </identifier>
-                 </CI_Citation>
-               </thesaurusName>
-            </MD_Keywords>
-         </descriptiveKeywords>
-         <descriptiveKeywords>
-            <MD_Keywords>
-               <keyword>
->>>>>>> mn-geo-commons-ags-parse
                   <gco:CharacterString>Minneapolis</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
@@ -432,7 +319,6 @@ ArcGIS Resources&#160;page. &#160;If there are questions about the data or the r
                   <gmd:MD_Format>
                      <gmd:name>
                         <gco:CharacterString>Shapefile</gco:CharacterString>
-<<<<<<< HEAD
                      </gmd:name>
                      <gmd:version>
                         <gco:CharacterString/>
@@ -452,28 +338,6 @@ ArcGIS Resources&#160;page. &#160;If there are questions about the data or the r
                         <gco:CharacterString>download</gco:CharacterString>
                      </gmd:protocol>
                      <gmd:name>
-=======
-                     </name>
-                     <version gco:nilReason="missing"/>
-                  </MD_Format>
-               </distributorFormat>
-            </MD_Distributor>
-         </distributor>
-         <transferOptions>
-            <MD_DigitalTransferOptions>
-               <onLine>
-                  <CI_OnlineResource>
-                     <linkage>
-                        <URL>http://opendata.minneapolismn.gov/datasets/80ddd4422d9e4737b843a20778653da9_0</URL>
-                     </linkage>
-                     <protocol>
-                        <gco:CharacterString>WWW:LINK</gco:CharacterString>
-                     </protocol>
-                     <name>
-                        <gco:CharacterString>Dataset Web Page</gco:CharacterString>
-                     </name>
-                     <description>
->>>>>>> mn-geo-commons-ags-parse
                         <gco:CharacterString/>
                      </gmd:name>
                      <gmd:description>
@@ -519,7 +383,6 @@ ArcGIS Resources&#160;page. &#160;If there are questions about the data or the r
                      </gmd:protocol>
                      <gmd:name>
                         <gco:CharacterString/>
-<<<<<<< HEAD
                      </gmd:name>
                      <gmd:description>
                         <gco:CharacterString>Information</gco:CharacterString>
@@ -542,31 +405,8 @@ ArcGIS Resources&#160;page. &#160;If there are questions about the data or the r
 
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/80ddd4422d9e4737b843a20778653da9_0, orignally in the Project Open Data Metadata Schema, at 2015-12-09T11:19:31.107213.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/80ddd4422d9e4737b843a20778653da9_0, orignally in the Project Open Data Metadata Schema, at 2016-01-19T09:33:14.277969.</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
 </gmd:MD_Metadata>
-=======
-                     </description>
-                  </CI_OnlineResource>
-               </onLine>
-            </MD_DigitalTransferOptions>
-         </transferOptions>
-      </MD_Distribution>
-  </distributionInfo>
-  <metadataMaintenance>
-      <MD_MaintenanceInformation>
-         <maintenanceAndUpdateFrequency>
-            <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">
-
-            </MD_MaintenanceFrequencyCode>
-
-         </maintenanceAndUpdateFrequency>
-         <maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/80ddd4422d9e4737b843a20778653da9_0, orignally in the Project Open Data Metadata Schema, at 2015-12-02T13:16:00.933542.</gco:CharacterString>
-         </maintenanceNote>
-    </MD_MaintenanceInformation>
-</metadataMaintenance>
-</MD_Metadata>
->>>>>>> mn-geo-commons-ags-parse

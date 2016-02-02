@@ -44,7 +44,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-12-17T15:21:53.550848</gco:DateTime>
+      <gco:DateTime>2016-01-19T09:33:26.309666</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -106,7 +106,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2015-12-07T23:00:11.606Z</gco:DateTime>
+                        <gco:DateTime>2016-01-18T14:55:46.912Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
@@ -267,7 +267,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimeInstant>2015-12-07T23:00:11.606Z</gml:TimeInstant>
+                        <gml:TimeInstant>2016-01-18T14:55:46.912Z</gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
@@ -390,7 +390,7 @@
 
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/82b2da61995f47d18c675588e2dccf0d_0, orignally in the Project Open Data Metadata Schema, at 2015-12-17T15:21:53.550848.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/82b2da61995f47d18c675588e2dccf0d_0, orignally in the Project Open Data Metadata Schema, at 2016-01-19T09:33:26.309666.</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

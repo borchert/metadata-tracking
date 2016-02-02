@@ -44,7 +44,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-12-17T15:21:52.031918</gco:DateTime>
+      <gco:DateTime>2016-01-19T09:33:27.861842</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -106,7 +106,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2015-12-07T23:00:17.128Z</gco:DateTime>
+                        <gco:DateTime>2015-12-21T21:17:29.000Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
@@ -168,7 +168,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This dataset contains Ordderly Annexation Areas within Scott County. The Orderly Annexation Area boundaries reflect areas mapped in annexation agreements between adjacent townships and cities.</gco:CharacterString>
+            <gco:CharacterString>This dataset contains Orderly Annexation Areas within Scott County. The Orderly Annexation Area boundaries reflect areas mapped in annexation agreements between adjacent townships and cities.</gco:CharacterString>
          </gmd:abstract>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
@@ -251,23 +251,23 @@
                <gmd:geographicElement>
                   <gmd:EX_GeographicBoundingBox>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-93.80019566446595</gco:Decimal>
+                        <gco:Decimal>-93.911</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-93.40033279885016</gco:Decimal>
+                        <gco:Decimal>-93.26</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>44.54303238392359</gco:Decimal>
+                        <gco:Decimal>44.521</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>44.79895822953148</gco:Decimal>
+                        <gco:Decimal>44.814</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimeInstant>2015-12-07T23:00:17.128Z</gml:TimeInstant>
+                        <gml:TimeInstant>2015-12-21T21:17:29.000Z</gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
@@ -390,7 +390,7 @@
 
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/26ba75497aa142b28bbd32408a9b1f11_0, orignally in the Project Open Data Metadata Schema, at 2015-12-17T15:21:52.031918.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/26ba75497aa142b28bbd32408a9b1f11_0, orignally in the Project Open Data Metadata Schema, at 2016-01-19T09:33:27.861842.</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
