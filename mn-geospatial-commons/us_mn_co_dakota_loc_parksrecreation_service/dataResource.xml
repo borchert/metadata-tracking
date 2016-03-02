@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+  <baseName>loc_parksrecreation_service</baseName>
+  <descriptiveName>Parks Recreation, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate></currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">location</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{7c80441a-5ffe-43ee-97a7-357107c481ca}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceName>0</subResourceName>
+      <subResourceIdentifiers>
+        <subResourceGUID>{25ea544c-da71-418d-8164-4e6b07fc031c}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" description="" name="">http://gis2.co.dakota.mn.us/arcgis/rest/services/DCGIS_OL_ParksRecreation/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

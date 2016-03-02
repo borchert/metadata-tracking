@@ -1,0 +1,24 @@
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
+<dataResource>
+    <baseName>geos_hydrogeology_atlas_hg01</baseName>
+    <descriptiveName>Pollution Sensitivity of the Bedrock Surface, Minnesota Hydrogeology Atlas series HG-01</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2016-02-11</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{13a6da32-593d-4d96-be06-ea3ac3f69b70}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{2f3f8d57-9619-430a-8b9b-18b77b246703}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

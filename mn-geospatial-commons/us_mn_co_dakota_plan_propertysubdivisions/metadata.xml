@@ -3,7 +3,7 @@
     <citation>
       <citeinfo>
         <origin>Dakota County GIS, Dakota County GIS, Staff</origin>
-        <pubdate>20151224</pubdate>
+        <pubdate>20160225</pubdate>
         <title>Property Subdivisions, Dakota County, Minnesota</title>
         <geoform>vector digital data</geoform>
         <pubinfo>
@@ -19,7 +19,7 @@
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20151224</caldate>
+          <caldate>20160225</caldate>
         </sngdate>
       </timeinfo>
       <current>Unknown</current>
@@ -73,7 +73,7 @@
     <lineage>
       <procstep>
         <procdesc>Parcel polygons are merged based on the portion of their PIN that relates to the Plat they are part of.  The plat names and book and page numbers are then added by join from Plat Tracking database.</procdesc>
-        <procdate>20151224</procdate>
+        <procdate>20160225</procdate>
       </procstep>
     </lineage>
   </dataqual>

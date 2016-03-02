@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataResource>
+  <baseName>trans_transitway_inc_rev_sch2040</baseName>
+  <descriptiveName>Transitways Increased Revenue Scenario 2040</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2016-02-25</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{886caf9a-145b-4dff-8c10-cc16df4e3582}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{5f56bd0b-4308-48b4-8f4f-8fb39febfbd5}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess />
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

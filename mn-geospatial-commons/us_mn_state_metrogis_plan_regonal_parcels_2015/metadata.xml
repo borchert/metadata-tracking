@@ -1,0 +1,213 @@
+<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><title>MetroGIS Regional Parcel Dataset (Year End 2015)</title><origin>Counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington</origin><pubinfo><publish>The Metropolitan Council and the Counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington</publish></pubinfo><pubdate>20160101</pubdate><onlink>https://gisdata.mn.gov/dataset/us-mn-state-metrogis-plan-regonal-parcels-2015</onlink></citeinfo></citation><descript><abstract>This dataset is a compilation of tax parcel polygon and point layers from the seven Twin Cities, Minnesota metropolitan area counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington.  The seven counties were assembled into a common coordinate system.  No attempt has been made to edgematch or rubbersheet between counties.  A standard set of attribute fields is included for each county.  (See section 5 of the metadata).  The attributes are the same for the polygon and points layers.  Not all attributes are populated for all counties.
+
+The polygon layer contains one record for each real estate/tax parcel polygon within each county's parcel dataset.  Some counties have polygons for each individual condominium, and others do not.  (See Completeness in Section 2 of the metadata for more information.)  The points layer includes the same attribute fields as the polygon dataset.  The points are intended to provide information in situations where multiple tax parcels are represented by a single polygon.  The primary example of this is the condominium, though some counties stacked polygons for condos.  Condominiums, by definition, are legally owned as individual, taxed real estate units.  Records for condominiums may not show up in the polygon dataset.  The points for the point dataset often will be randomly placed or stacked within the parcel polygon with which they are associated.  
+
+The polygon layer is broken into individual county shape files.  The points layer is provided as both individual county files and as one file for the entire metro area.
+
+In many places a one-to-one relationship does not exist between these parcel polygons or points and the actual buildings or occupancy units that lie within them.  There may be many buildings on one parcel and there may be many occupancy units (e.g. apartments, stores or offices) within each building.  Additionally, no information exists within this dataset about residents of parcels.  Parcel owner and taxpayer information exists for many, but not all counties.
+
+Polygon and point counts for each county are as follows (Updated annually, current as of 1/08/2016): 
+
+ polygons / points 
+Anoka - 131121 / 131121 
+Carver - 40510 / 40509 
+Dakota - 140770 / 154109 
+Hennepin - 429241 / 429241 
+Ramsey - 154512 / 166225 
+Scott - 56219 / 56219 
+Washington - 106045 / 106045 
+
+This is a MetroGIS Regionally Endorsed dataset. 
+
+Each of the seven Metro Area counties has entered into a multiparty agreement with the Metropolitan Council to assemble and distribute the parcel data for each county as a regional (seven county) parcel dataset.
+
+A standard set of attribute fields is included for each county. The attributes are identical for the point and polygon datasets. Not all attributes fields are populated by each county. Detailed information about the attributes can be found in the &lt;a href="MetroGIS_Regional_Parcels_Attributes_2015.pdf" target=_blank&gt;MetroGIS Regional Parcels Attributes 2015&lt;/a&gt; document. 
+
+Additional information may be available in the individual metadata for each county at the links listed below.  Also, any questions or comments about suspected errors or omissions in this dataset can be addressed to the contact person listed in the individual county metadata.  
+
+Anoka = http://www.anokacounty.us/315/GIS 
+
+Caver = http://www.co.carver.mn.us/GIS
+
+Dakota = http://www.co.dakota.mn.us/homeproperty/propertymaps/pages/default.aspx 
+
+Hennepin: http://www.hennepin.us/gisopendata 
+
+Ramsey = https://www.ramseycounty.us/your-government/open-government/research-data  
+
+Scott = http://www.scottcountymn.gov/1183/GIS-Data-and-Maps 
+
+Washington = http://www.co.washington.mn.us/index.aspx?NID=1606
+</abstract><purpose>To view, analyze and display parcel data anywhere in the seven county metro area.</purpose><supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>20151231</caldate></sngdate></timeinfo><current>All county datasets are current to within 30 days of the Time Period of Content date unless otherwise noted.</current></timeperd><status><progress>Complete</progress><update>Quarterly</update></status><spdom><bounding><westbc>-94.012</westbc><eastbc>-92.732</eastbc><northbc>45.415</northbc><southbc>44.471</southbc></bounding></spdom><keywords><place><placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey></place><theme><themekey>parcels, regional parcel data, cadastre, land ownership</themekey><themekt>None</themekt></theme></keywords><accconst>None</accconst><useconst>None</useconst><browse><browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metrogis/plan_regonal_parcels_2014/metadata/preview.jpg</browsen><browsed>Sample map showing the MetroGIS Regional Parcel Data.</browsed></browse><crossref><citeinfo><title>Regional Parcel Dataset - Seven County Twin Cities Metropolitan Area
+2002 - current</title></citeinfo></crossref><native>See metadata for individual counties.</native><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>SEE METADATA FOR INDIVIDUAL COUNTIES, or, Tanya Mayer</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1604</cntvoice><cntemail>tanya.mayer@metc.state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><attracc><attraccr>A standard set of attribute fields is included for each county.  However, not all attributes are available for all counties.  No attempt has been made by MetroGIS to assess the accuracy of the attribute data.
+
+Additional or missing attributes may be available from local assessors.
+
+Any questions or comments about suspected errors or omissions in this dataset can be addressed to the contact person listed in the individual county metadata.   Links to that metadata can be found in the Horizontal Positional Accuracy element below.
+
+If a suspected error in the data is discovered, the user is encouraged to report it directly to the county(ies) involved.  Over time, the data quality would be expected to improve if the users continually call attention to potential errors in the data.  Contact information for each county is contained in the individual parcel metadata for each county.</attraccr></attracc><logic>No attempt was made to edgematch or rubbersheet the seven counties, thus overlaps and gaps will exist between counties.  Not all tax parcels are represented by a unique polygon.   For example, a county might have one polygon representing a condominium complex.  Some counties have provided an additional parcel points shape file that will include points to represent such tax parcels (e.g. a point for each individual condominium).</logic><complete>For parcel attributes, see Section 5 of this metadata.
+For parcel geography, see metadata for individual counties.
+
+Any questions or comments about suspected errors or omissions in this dataset can be addressed to the contact person listed in the individual county metadata.   Links to that metadata can be found in the Horizontal Positional Accuracy element below.
+
+
+Inclusion of Condominiums in Polygon Dataset:
+Some counties include condominium information within their polygon dataset and others do not.  Some information on this topic is shown below.  Contact each county for further information.
+
+Anoka:
+Individual condominiums are included within the polygon dataset by subdividing the larger, common area parcel polygon of the condos into smaller polygons.  These smaller polygons do not represent the actual geography of the condominiums, but do lie within the larger condo parcel.
+
+Carver, Hennepin and Scott
+Individual condominiums are included within the polygon dataset using stacked polygons with the same geography for each condominium tax parcel.
+
+Dakota, Ramsey and Washington
+One polygon is included in the polygon dataset for the geography of the larger common area of a condominium building or complex.  Individual condominium units are only represented in the points dataset.
+
+Note:  For Carver County, where a point represents a tax parcel that has multiple, noncontiguous polygons, a single point will be placed within one of the polygons.</complete><posacc><horizpa><horizpar>See the Data Quality section of the metadata for individual counties at the following links:
+
+Anoka = http://www.anokacounty.us/315/GIS 
+
+Caver = http://www.co.carver.mn.us/GIS
+
+Dakota = http://www.co.dakota.mn.us/homeproperty/propertymaps/pages/default.aspx 
+
+Hennepin: http://www.hennepin.us/gisopendata 
+
+Ramsey = https://www.ramseycounty.us/your-government/open-government/research-data  
+
+Scott = http://www.scottcountymn.gov/1183/GIS-Data-and-Maps 
+
+Washington = http://www.co.washington.mn.us/index.aspx?NID=1606
+</horizpar></horizpa></posacc><lineage><procstep><procdesc>Each county provided parcel polygons and points with attributes in shape file format with UTM coordinates, to the Metropolitan Council.  The Metropolitan Council checked each shape file to insure it had the specified field names, types, lengths and order.  
+
+No attempt was made to edgematch or rubber sheet the parcel geography between counties.
+
+If a suspected error in the data is discovered, the user is encouraged to report it directly to the county(ies) involved.  Over time, the data quality would be expected to improve if the users continually call attention to potential errors in the data.  Contact information for each county is contained in the individual parcel metadata for each county.</procdesc></procstep><srcinfo><srcscale></srcscale></srcinfo></lineage></dataqual><spdoinfo><indspref>None</indspref><direct>Vector</direct><mgmg3obj>polygon shapes</mgmg3obj><mgmg3til>Polygons: One shape file for each of the seven counties.    Points: One shape file for entire region.</mgmg3til></spdoinfo><eainfo><overview><eaover>A standard set of attribute fields is included for each county.  The attributes are identical for the point and polygon datasets.  Not all attributes fields are populated by each county.
+
+A list of the attribute names is shown below.  Detailed information about the attributes can be found in the &lt;a href="MetroGIS_Regional_Parcels_Attributes_2015.pdf" target=_blank&gt;MetroGIS Regional Parcels Attributes 2015&lt;/a&gt; document.  
+
+Field Name:  Brief Description
+-------------  -------------------- 
+COUNTY_ID: Unique County ID
+
+PIN: Unique Parcel ID
+
+BLDG_NUM: House Number
+PREFIX_DIR: Street Prefix Direction
+PREFIXTYPE: Street Prefix Type
+STREETNAME: Street Name
+STREETTYPE: Street Type
+SUFFIX_DIR: Street Suffix Direction
+UNIT_INFO: Unit Information
+
+CITY: City (actual)
+CITY_USPS: City (mailing)
+
+ZIP: ZIP Code
+ZIP4:  ZIP 4 Extension
+
+PLAT_NAME: Legal Description Plat Name
+BLOCK:  Legal Description Block
+LOT: Legal Description Lot 
+
+ACRES_POLY: Polygon Acreage  
+ACRES_DEED:  Deeded Acreage 
+
+USE1_DESC:  Use Type 1 
+USE2_DESC: Use Type 2   
+USE3_DESC: Use Type 3      
+USE4_DESC: Use Type 4       
+
+MULTI_USES:  Multiple Uses  
+
+LANDMARK:    Landmark/Business Name  
+
+OWNER_NAME:  Owner Name 
+OWNER_MORE:  Additional Owner Name   
+
+OWN_ADD_L1:  Owner Address Line 1     
+OWN_ADD_L2:  Owner Address Line 2    
+OWN_ADD_L3  Owner Address Line 3  
+
+TAX_NAME: Taxpayer Name 
+
+TAX_ADD_L1:  Taxpayer Address Line 1 
+TAX_ADD_L2:  Taxpayer Address Line 2 
+TAX_ADD_L3:  Taxpayer Address Line 3  
+
+HOMESTEAD:   Homestead Status
+
+EMV_LAND: Est. Market Value - Land
+EMV_BLDG: Est. Market Value - Buildings
+EMV_TOTAL: Est. Market Value - Total  
+
+TAX_CAPAC: Tax Capacity
+TOTAL_TAX: Total Tax
+
+SPEC_ASSES: Special Assessments 
+
+TAX_EXEMPT: Tax Exempt Status 
+
+XUSE1_DESC:  Exempt Use 1
+XUSE2_DESC:  Exempt Use 2 
+XUSE3_DESC:  Exempt Use 3 
+XUSE4_DESC:  Exempt Use 4 
+
+DWELL_TYPE:  Dwelling Type 
+HOME_STYLE:  Home Style
+FIN_SQ_FT:   Square Footage  
+
+GARAGE: Garage Y/N
+GARAGESQFT:  Garage Square Footage  
+
+BASEMENT:  Basement Y/N
+
+HEATING: Heating type
+COOLING: Cooling type
+
+YEAR_BUILT:  Year Built
+
+NUM_UNITS:   Number of Units
+
+SALE_DATE:   Last Sales Date
+SALE_VALUE:  Last Sales Value
+
+SCHOOL_DST:  School District 
+WSHD_DIST:   Watershed District  
+
+GREEN_ACRE:  Green Acres  
+OPEN_SPACE:  Open Space 
+AG_PRESERV:  Agricultural Preserve 
+AGPRE_ENRD:  Ag. Preserve Enrolled  
+AGPRE_EXPD:  Ag. Preserve Expiration 
+
+PARC_CODE:   Parcel Polygon to Parcel Point and PIN Relationship Code</eaover><eadetcit>A detailed description of the attributes available in this dataset can be found in the &lt;a href="MetroGIS_Regional_Parcels_Attributes_2015.pdf" target=_blank&gt;MetroGIS Regional Parcels Attributes 2015&lt;/a&gt; document. 
+
+Note:  The last five digits of Dakota Counties PIN Numbers changed format in March of 2011
+See .pdf above for further details.
+
+A lookup table "ParcelsDakotaOldNewPINLookupTable2011.dbf" will be included in the Dakota County zip bundle that allows users to join parcel information which contain the old PIN format.  Users should be aware that the old and new PIN formats are not mutually exclusive to each other.  There are approximately 1,500 records of NEWPIN numbers that have the same PIN as OLDPIN number.
+</eadetcit></overview></eainfo><distinfo><resdesc>MetroGIS Regional Parcel dataset</resdesc><distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.
+
+ANOKA 
+The information provided on this site is for reference purposes only. The information is not suitable for legal, engineering or surveying purposes. Anoka County does not guarantee the accuracy of the information contained herein. The Information is furnished on an 'as is' basis with no representation or warranties, either express or implied, for the merchantability or fitness of the information provided on this site for a particular purpose. The preceding disclaimer is provided pursuant to Minnesota Statutes Â§466.03, Sub. 21, and the user of the information provided herein acknowledges that Anoka County shall not be liable for any damages, and expressly waives all claims, and agrees to defend, indemnify, and hold harmless Anoka County from any and all claims brought by anyone who uses the information provided for herein, its employees or agents, or third parties which arise out of user's access. 
+
+CARVER 
+The data provided herewith is for reference purposes only. This data is not suitable for legal, engineering, surveying or other similar purposes. Carver County does not guarantee the accuracy of the information contained herein. This data is furnished on an 'as is' basis and Carver County makes no representations or warranties, either expressed or implied, for the merchantability or fitness of the information provided for any purpose. This disclaimer is provided pursuant to Minnesota Statutes Â§466.03 and the user of the data provided herein acknowledges that Carver County shall not be liable for any damages, and by using this data in any way expressly waives all claims, and agrees to defend, indemnify, and hold harmless Carver County, its officials, officers, agents, employees, etc. from any and all claims brought by anyone who uses the information provided for herein, its employees or agents, or third parties which arise out of user's access. By acceptance of this data, the user agrees not to transmit this data or provide access to it or any part of it to another party unless the user includes with the data a copy of this disclaimer. 
+
+DAKOTA 
+NOTICE: Dakota County Geographic Information System (GIS) Data are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13). The GIS Data are provided to you as is and without any warranty as to their performance, merchantability, or fitness for any particular purpose. The GIS Data were developed by Dakota County ("County") for their own internal business purposes. The County does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, you must provide a copy of this disclaimer and the accompanying metadata for this dataset to the user. 
+
+HENNEPIN 
+This data (i) is furnished "AS IS" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. 
+
+RAMSEY 
+EXCEPT AS EXPRESSLY STATED HEREIN, THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. USER BEARS ANY AND ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THIS DATA. 
+Limit on Liability: This data is not a legally recorded map or survey and is not intended to be used as one. This data is a compilation of records and information from various state, county, and city offices, and other sources, and should be used for reference only. 
+In no event will the County of Ramsey be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of, or inability to use, the data, even if advised of the possibility of such damages. Specifically, the County of Ramsey is not responsible for any costs including, but not limited to, those incurred as a result of lost profits or revenue, loss of use of data, the costs of recovering such programs or data, the cost of any substitute programs or data, claims by third parties, or for other similar costs. 
+
+SCOTT 
+Disclaimer: This information is to be used for reference purposes only. Scott County does not guarantee accuracy of the material contained herein and is not responsible for misuse or misinterpretation. The preceding disclaimer is provided pursuant to Minnesota Statutes 466.03, Subd. 21, and the user of this service acknowledges that Scott County shall not be liable for any damages, and expressly waives all claims, and agrees to defend, indemnify, and hold harmless Scott County from any and all claims brought by User, its employees or agents, or third parties which arise out of the user's access or use of data provided. 
+
+WASHINGTON 
+This data (i) is furnished "AS IS" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Washington County shall not be liable for any damage, injury or loss resulting from this data. </distliab><stdorder><digform><digtinfo><formname>Shapefile</formname><formvern>ArcGIS: 10x</formvern><transize>Varies by county</transize></digtinfo></digform><ordering>See Online Linkage Below</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Tanya Mayer</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1604</cntvoice><cntemail>tanya.mayer@metc.state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20160108</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Tanya Mayer</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>390 Robert Street North</address><city>St. Paul</city><state>MN</state><postal>55101-1805</postal></cntaddr><cntvoice>651.602.1604</cntvoice><cntemail>tanya.mayer@metc.state.mn.us</cntemail></cntinfo></metc></metainfo><Esri><ModDate>20120109</ModDate><ModTime>13372900</ModTime></Esri><mdDateSt Sync="TRUE">20120109</mdDateSt><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

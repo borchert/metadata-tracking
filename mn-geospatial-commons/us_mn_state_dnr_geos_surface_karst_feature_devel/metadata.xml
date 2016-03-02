@@ -1,0 +1,103 @@
+<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><origin>Minnesota Department of Natural Resources (DNR)</origin><title>Minnesota Regions Prone to Surface Karst Feature Development</title><pubdate>20160104</pubdate><pubinfo><publish>Minnesota Department of Natural Resources (DNR)</publish></pubinfo><onlink>http://gisdata.mn.gov/dataset/geos-surface-karst-feature-devel</onlink></citeinfo></citation><descript><abstract>In Minnesota, surface karst features (including but not restricted to sinkholes, caves, stream sinks, and karst springs) are observed to primarily occur where 50 feet or less of unconsolidated material overlie Paleozoic carbonate bedrock, the St. Peter Sandstone, or the Mesoproterozoic Hinckley Sandstone. This product can be used to outline such areas in a GIS environment. The GIS coverage is a superposition of Bedrock Geology and Depth to Bedrock maps prepared by the Minnesota Geological Survey (MGS).
+
+This dataset is managed by the Ecological and Water Resources Division, County Geologic Atlas Program.
+
+Two feature classes are included: surfacekarst_carbonate_sandstone and surfacekarst_carbonateonly. See Section 5 Overview for more details.</abstract><purpose>Maps created using this product can be used as standalone products or can be used in conjunction with the Minnesota Karst Features Database for planning purposes (see Digital References in Section 2 Lineage). When combined with the Minnesota Karst Features Database this GIS coverage can be used to document the occurrence and distribution of  sinkholes and other surface karst features for planning, environmental and risk management, hazard mitigation, scientific, and other purposes. The coverage outlines areas where karst features can form on the land surface and where karst conditions are present in the subsurface. Karst processes provide a direct, very rapid exchange between surface and ground waters and significantly increase groundwater contamination risk from surface pollutants.
+
+A field-verified sinkhole is direct evidence that karst processes are active both on the surface and in a karst aquifer in the subsurface. The absence of sinkholes on the land surface, however, does not imply the absence of active karst processes on the surface or of a karst aquifer in the subsurface.  Subsurface karst conditions also occur in carbonate rock in areas where there is more than 50 feet of unconsolidated material over bedrock but those conditions rarely lead to karst surface feature development in Minnesota.
+</purpose><supplinf>Minnesota</supplinf></descript><crossref><citeinfo><title>Bedrock Geology from Part A of the County Geologic Atlas</title></citeinfo></crossref><timeperd><current>Data were obtained from Minnesota Geological Survey reports and County Geologic Atlases completed between 1988 and Time Period of Content Date.</current><timeinfo><sngdate><caldate>20151207</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>As needed</update></status><keywords><place><placekey>Blue Earth, Nicollet, Le Sueur, Scott, Washington, Dakota, Pine, Rice, Goodhue, Wabasha, Winona, Houston, Fillmore, Mower, Dodge, Steele, Olmsted, Minnesota</placekey></place><theme><themekey>karst, geology, karst features, karst geology, karst distribution, karst susceptibility, karst susceptible, karst features database, features, prone</themekey></theme></keywords><accconst>None</accconst><useconst>Users may wish to verify critical information; sources include both the references here and information on file in the offices of the Minnesota Geological Survey and the Department of Natural Resources. Every effort has been made to ensure the interpretation shown conforms to sound hydrogeologic and cartographic principles. These data should not be used to establish legal title, boundaries, or locations of improvements. The user is responsible for the results of any application of data other than its intended purposes.</useconst><spdom><bounding><westbc>-97.23</westbc><eastbc>-89.53</eastbc><northbc>49.37</northbc><southbc>43.5</southbc></bounding></spdom><browse><browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/geos_surface_karst_feature_devel/metadata/preview.jpg</browsen></browse><ptcontac><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Holly Johnson</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>500 Lafayette Rd</address><city>St. Paul</city><state>MN</state><postal>55155-4025</postal></cntaddr><cntvoice>651-259-5693</cntvoice><cntemail>holly.je.johnson@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><metainfo><metd>20151229</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Holly Johnson</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>500 Lafayette Rd</address><city>St. Paul</city><state>MN</state><postal>55155-4025</postal></cntaddr><cntvoice>651-259-5693</cntvoice><cntemail>holly.je.johnson@state.mn.us</cntemail></cntinfo></metc></metainfo><dataqual><complete>The distribution of regions prone to surface karst feature development is limited to areas within Minnesota where the bedrock geology mapped at the 1:100,000 scale, is considered karst susceptible, and to areas where depth to bedrock are known.
+
+Minnesota Geological Survey (MGS) map resolution varies between products and the result can be insufficient resolution to differentiate lithostratigraphic units on multiple scales. For example, the Platteville and Glenwood Formations are mapped together in several of the products used to generate this coverage as opposed to being mapped as two separate formations. Additional grouping of lithostratigraphic units occurs elsewhere within the Ordovician and Devonian systems; see the Lineage portion of this metadata (below) for complete details.</complete><attracc><attraccr>1:100,000</attraccr></attracc><lineage><procstep><procdesc>Bedrock geology maps and depth to bedrock models were obtained from the MGS. Bedrock units that were previously determined to be karst susceptible by MGS and University of Minnesota staff, were singled out in areas where the depth to bedrock was less than 50 feet from the land surface.
+
+MGS map products, filenames, and map unit labels and descriptions used to determine regions prone to surface karst features development:
+
+MGS M-194 (filename: bedrock_geology): 
+Os (St. Peter), 
+Op (Prairie du Chien Group), 
+Opg (Platteville Fm and Glenwood Fm)
+
+MGS S-21 (filename: Pz_pg): 
+Ol (Prairie du Chien Group), 
+Dm (Part of Little Cedar, Pinicon Ridge, Spillville), 
+Dmu (Lithograph City, Coralville, part of Little Cedar), 
+Omu (Decorah, Platteville, Glenwood, St. Peter), 
+Ou (Galena, Winnipeg, Red River), 
+Mss (Hinckley Sandstone)
+
+MGS C-26 (filename: bedrock_geology):
+Oo (Oneota Dolomite), 
+Os (Shakopee Fm),
+Op (Prairie du Chien Group, undiv, dolostone)
+
+MGS C-39 (in preparation) (filename: bgpg):
+Opo (Oneota Dolomite),
+Ops (Shakopee Fm)
+
+MGS OFR 14-02 (filename: bgpg_se):
+Dclp (Lower Cedar Valley Pinicon Ridge),
+Dcum (Coralville Fm and Hinckle Mbr),
+Dcuu (Lithograph City Fm),
+Dc (Cedar Valley Group),
+Dw (Wapsipinicon/Spillville Fm),
+Ogsc (Stewartville and Cummingsville),
+Oc (Cummingsville Fm),
+Ogp (Galena/Prosser Fm),
+Ogs (Galena/Stewartville Fm),
+Omaq (Maquoketa Fm),
+Omd (Maquoketa and Dubuque),
+Op (Prairie du Chien Group),
+Opo (Oneota Dolomite),
+Ops (Shakopee Fm),
+Opg (Platteville Fm and Glenwood Fm),
+Os (St. Peter)
+
+MGS OFR 06-02 (filename: dt_loc): Depth to bedrock, CWI located
+MGS OFR 14-02 (filename: d2br_se): Depth to bedrock
+MGS C-22 (filename: bdrk): Depth to bedrock
+MGS C-27 (filename: bdrk): Depth to bedrock
+MGS C-39 (in preparation) (filename: dt_loc): Depth to bedrock, CWI located</procdesc></procstep></lineage></dataqual><distinfo><distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab><stdorder><ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering></stdorder><resdesc>geos_surface_karst_feature_devel</resdesc><distrib><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Holly Johnson</cntper></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>500 Lafayette Rd</address><city>St. Paul</city><state>MN</state><postal>55155-4025</postal></cntaddr><cntvoice>651-259-5693</cntvoice><cntemail>holly.je.johnson@state.mn.us</cntemail></cntinfo></distrib></distinfo><Esri><CreaDate>20151130</CreaDate><CreaTime>15114900</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\W8002349\D$\Users\roadams\Documents\CGAHydroComp\KarstAndBedrock\SpatialData\COMPLETE\karst50ft</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="D:\Users\roadams\Documents\CGAHydroComp\KarstAndBedrock\karst50ft" dest="\\W8002349\D$\Users\roadams\Documents\CGAHydroComp\KarstAndBedrock\SpatialData\COMPLETE\karst50ft" date="20151130" time="15114900"></copy></copyHistory></DataProperties></Esri><eainfo><detailed><enttyp><enttypl>surfacekarst_carbonate_sandstone and surfacekarst_carbonateonly</enttypl><enttypds>feature class table</enttypds></enttyp><attr><attrlabl>MAPLABEL</attrlabl><attrdef>map unit label as found in the original maps</attrdef></attr><attr><attrlabl>DESCRIPTN</attrlabl><attrdef>unit name as found in the original maps</attrdef></attr><attr><attrlabl>MAP</attrlabl><attrdef>original source map from MGS</attrdef></attr></detailed><overview><eaover>This dataset shows the extent of karst prone areas in Minnesota and serves as an update of the Minnesota Karst Lands map developed by Alexander and others (2006). The 2006 Minnesota Karst Lands map defined active karst as areas underlain by carbonate bedrock with less than 50 feet of sediment cover. The primary inputs used to develop the dataset are products developed by the Minnesota Geological Survey (MGS), with consultation from the Karst Features Database (Gao and others, 2002). MGS products used to develop the dataset are provided in the references.
+
+This dataset includes a geodatabase that consists of two feature classes:
+
+A) The feature class surfacekarst_carbonate_sandstone contains the carbonate units shown in Alexander and others (2006), but also includes the Mesoproterozoic Hinckley Sandstone (Shade, 2002) and the St. Peter Sandstone (Alexander, 1988, Alexander, 2011). The Hinckley and St. Peter sandstones are included because University of Minnesota and DNR karst geologists have field-located numerous karst features in these units. 
+
+B) The feature class surfacekarst_carbonateonly contains only carbonate units within 50 feet of the land surface.
+
+In southeastern Minnesota, numerous surface streams have been shown to sink into the St. Lawrence Formation (Green, 2008, 2012). The geomorphic setting for these sinks is areas where the St. Lawrence subcrops in deeply incised valleys in the blufflands (Green, 2014). These stream sinks receive runoff from surface watersheds in the uplands that are hundreds to thousands of acres in area. The St. Lawrence Formation is not included in this dataset; however, site specific investigations should consider the possibility of surface water interaction and rapid groundwater transport in this setting.
+
+For list of units used from each map source, see attribute table or Section 2 Lineage.</eaover><eadetcit>Alexander, E.C., Jr., Maki, G.L., 1988, Sinkholes and sinkhole probability, pl. 7 of Balaban, N.H., ed., Geologic Atlas of Olmsted County: Minnesota Geologic Survey, County Atlas Series C-3.
+
+Alexander, E.C., Jr., Gao, Y., and Green, J.A., 2006, Minnesota Karst Lands: online map, accessed at:
+https://www.esci.umn.edu/sites/www.esci.umn.edu/files/user/user174/MN%20Karstlands%202006.jpg
+
+Alexander, E.C., Jr., Green, J.A., Runkel, A.C., and Logan, K.J., 2011, Southeastern Minnesota karst hydrogeology-new insights from data loggers, tracing, LiDAR and hydrophysics: Geological Society of America Field Guides 24, p. 243-257.
+
+Gao, Y., Alexander, E.C., Jr., and Tipping, R.G., 2002, The development of a karst feature database for southeastern Minnesota: Journal of Cave and Karst Studies, v. 64, no. 1, p. 51-57.
+
+Green, J. A., Luhmann, A.J., Peters, A.J., Runkel, A.C. , Alexander, E.C., Jr., and Alexander, S.C., 2008, Dye tracing within the St Lawrence confining unit in southeastern Minnesota, in Yuhr, L., Alexander, E.C., Jr., and Beck, B., eds, Sinkholes and the Engineering and Environmental Impacts of Karst: American Society of Civil Engineers, Proceedings GSP 183, p 477-484.
+
+Green, J. A., Runkel, A.C., and Alexander, E.C., Jr., 2012, Karst conduit flow in the Cambrian St. Lawrence Confining Unit, southeast Minnesota: Carbonates and Evaporites, v. 27, p. 167-172. 
+
+Green, J.A., Alexander, E.C., Jr., 2014, Mapped paleozoic karst springsheds in Southeast Minnesota: Minnesota Department of Natural Resources, St. Paul, MN, accessed from: http://files.dnr.state.mn.us/waters/groundwater_section/mapping/springshed/springshed_map.pdf
+
+Jirsa, M.A., Boerboom, T.J., Chandler, V.W., Mossler, J.H., Runkel, A.C., Setterholm, D.R., 2011, Geologic map of Minnesota-bedrock geology: Minnesota Geological Survey, Map Series S-21, retrieved from the University of Minnesota Digital Conservancy, http://purl.umn.edu/101466.
+
+Lively, R.S., Bauer, E.J., Chandler, V.W., 2006, Maps of gridded bedrock elevation and depth to bedrock in Minnesota: University of Minnesota, OFR 06-02, retrieved from the University of Minnesota Digital Conservancy, http://purl.umn.edu/108814.
+
+Mossler, J. H., 2013, Bedrock geology of the Twin Cities ten-county metropolitan area, Minnesota: Minnesota Geological Survey, Map Series M-194, retrieved from the University of Minnesota Digital Conservancy, http://purl.umn.edu/154925.
+
+Runkel, A.C., Meyer, G.N., Lusardi, B.A., 2011, Geologic atlas of Blue Earth County, Minnesota: Minnesota Geological Survey, County Atlas Series C-26, Part A, retrieved from the University of Minnesota Digital Conservancy, http://purl.umn.edu/116097.
+
+Runkel, A.C., Steenberg, J.R., Tipping, R.G., Retzler, A.J., 2014, Geologic controls on groundwater and surface water flow in southeastern Minnesota and its impact on nitrate concentrations in streams: Minnesota Geological Survey, OFR 14-02, retrieved from the University of Minnesota Digital Conservancy, http://hdl.handle.net/11299/162612. 
+
+Setterholm, D.R., 2010, Geologic atlas of Chisago County, Minnesota: Minnesota Geological Survey, County Atlas Series C-22, Part A, retrieved from the University of Minnesota Digital Conservancy, http://purl.umn.edu/93861.
+
+Setterholm, D.R., 2013, Geologic Atlas of Anoka County, Minnesota: Minnesota Geological Survey, County Atlas Series C-27, Part A, retrieved from the University of Minnesota Digital Conservancy, http://purl.umn.edu/116119.
+
+Shade, B.L., Alexander, S.C., and Alexander, E.C., Jr., 2002, Karst features in Pine County, MN, in Boerboom, T.J., Project Manager, Contributions to the geology of Pine County, MN: Minnesota Geological Survey Report of Investigations 60, 91 p. 
+
+Steenberg, J.R., in preparation, Geologic Atlas of Washington County, Minnesota: Minnesota Geological Survey, County Atlas Series C-39, Part A, accessed from electronic communication August, 2015.
+
+Digital Reference:
+Minnesota Karst Features Database: 
+https://gisdata.mn.gov/dataset/geos-karst-feature-inventory-pts</eadetcit></overview></eainfo><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

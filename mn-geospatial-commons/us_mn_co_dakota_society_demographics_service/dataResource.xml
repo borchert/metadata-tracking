@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+<dataResource>
+  <baseName>society_demographics_service</baseName>
+  <descriptiveName>Demographics, Dakota County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_dakota</publisherID>
+  <currentAsofDate></currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">society</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{99df7354-9a07-40b5-b2a3-8f12dbdefeb5}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceName>0</subResourceName>
+      <subResourceIdentifiers>
+        <subResourceGUID>{4f817a32-6a7d-4d5c-9670-e50dde59d5ed}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" description="" name="">http://gis2.co.dakota.mn.us/arcgis/rest/services/DCGIS_OL_Demographics/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

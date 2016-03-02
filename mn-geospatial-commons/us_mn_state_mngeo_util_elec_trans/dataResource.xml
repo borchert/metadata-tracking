@@ -20,7 +20,7 @@
             </subResourceIdentifiers>
             <subResourceAccess>
                 <subResourceURL type="HTML" description="Data Request Form" name="Data Request Form">ftp://ftp.lmic.state.mn.us/pub/data/trans_util/MN_Commerce_HVTL_Data_Request.pdf</subResourceURL>
-                <subResourceURL type="HTML" description="Transmission Lines and Substations - Most Recent Published Map (2007)" name="Transmission Lines and Substations Map">http://www.mngeo.state.mn.us/maps/ElecTran07.pdf</subResourceURL>
+                <subResourceURL type="HTML" description="Transmission Lines and Substations - Most Recent Published Map (2007)" name="Printable Map, 2007 (most recent version)">http://www.mngeo.state.mn.us/maps/ElecTran07.pdf</subResourceURL>
             </subResourceAccess>
         </dataSubResource>
     </dataSubResources>

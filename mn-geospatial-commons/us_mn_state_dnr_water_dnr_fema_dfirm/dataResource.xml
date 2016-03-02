@@ -5,7 +5,7 @@
     <descriptiveName>DNR FEMA DFIRM</descriptiveName>
     <publisher>Minnesota DNR - Ecological and Water Resources</publisher>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-12-24</currentAsofDate>
+    <currentAsofDate>2016-02-25</currentAsofDate>
     <resourceType>ESRI File Geodatabase</resourceType>
     <topicCategories>
         <topicCategory type="ISO 19115">inlandWaters</topicCategory>

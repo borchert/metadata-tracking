@@ -4,7 +4,7 @@
     <baseName>trans_state_trails_minnesota</baseName>
     <descriptiveName>Minnesota State Trails</descriptiveName>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-12-23</currentAsofDate>
+    <currentAsofDate>2016-02-24</currentAsofDate>
     <topicCategories>
         <topicCategory type="ISO 19115">transportation</topicCategory>
     </topicCategories>

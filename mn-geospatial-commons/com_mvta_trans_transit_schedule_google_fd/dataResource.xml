@@ -1,0 +1,25 @@
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
+<dataResource>
+    <baseName>trans_transit_schedule_google_fd</baseName>
+    <descriptiveName>Minnesota Valley Transit Authority - General Transit Feed Specification (GTFS)</descriptiveName>
+    <publisherID>com_mvta</publisherID>
+    <currentAsofDate>2016-01-04</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">transportation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{11587e7a-1999-49d4-8844-41bc13021474}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{fd0321be-8312-4824-b18c-00f606db3137}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="" name="GTFS Feed (Zip)">http://wiki.mvta.com/files/Home/google_transit.zip</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

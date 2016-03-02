@@ -1,12 +1,10 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_dnr_eco_and_water_res_admin</baseName>
     <descriptiveName>DNR Division of Ecological and Water Resources Districts</descriptiveName>
-    <publisher>MN DNR</publisher>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2013-04-29</currentAsofDate>
-    <resourceType>ESRI File Geodatabase</resourceType>
+    <currentAsofDate>2016-02-26</currentAsofDate>
     <topicCategories>
         <topicCategory type="ISO 19115">boundaries</topicCategory>
     </topicCategories>

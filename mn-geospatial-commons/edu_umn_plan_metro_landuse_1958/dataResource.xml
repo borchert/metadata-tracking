@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataResource>
+  <baseName>plan_metro_landuse_1958</baseName>
+  <descriptiveName>Land Use, Twin Cities Metropolitan Area, 1958</descriptiveName>
+  <publisherID>edu_umn</publisherID>
+  <currentAsofDate>2016-01-07</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{f8895b98-a659-4147-973e-4756842066ad}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>shp</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{ed01c093-b0a4-4cce-983e-c01ac66c59ba}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess />
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>external</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{2c90b15a-eaea-49b5-860b-e88b665d4a55}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="HTML" name="View in Data Repository for U of MN (DRUM)" description="View in Data Repository for U of MN (DRUM)">http://dx.doi.org/10.13020/D6059J</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+    <dataSubResource>
+      <subResourceType>ags_mapserver</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{426fe8e2-3d69-4657-8533-e664ada0a3f0}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="ServiceDescription" name="ArcGIS Server Map Service">https://gis.uspatial.umn.edu/arcgis/rest/services/Libraries/MNGeospatialCommons_LandUseTwinCities1958/MapServer</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

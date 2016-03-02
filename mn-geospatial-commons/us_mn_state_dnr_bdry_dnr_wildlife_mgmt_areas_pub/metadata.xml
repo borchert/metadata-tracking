@@ -18,7 +18,7 @@
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20150611</caldate>
+          <caldate>20160115</caldate>
         </sngdate>
       </timeinfo>
       <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset.  New acquisitions will be continually added to the database. Descriptive attribute updates will be constantly ongoing.</current>
@@ -139,7 +139,7 @@
         <enttypd>Feature Class Attribute Table</enttypd>
       </enttyp>
       <attr>
-        <attrlabl>COUNTY</attrlabl>
+        <attrlabl>county_id</attrlabl>
         <attrdef>Two digit county code</attrdef>
         <attrdomv>
           <edom>
@@ -671,316 +671,392 @@
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>Pgm_prj</attrlabl>
+        <attrlabl>lam_program_project_code</attrlabl>
         <attrdef>Management Unit ID number</attrdef>
       </attr>
       <attr>
-        <attrlabl>Areaname</attrlabl>
-        <attrdef>Area Office Name</attrdef>
+        <attrlabl>name</attrlabl>
+        <attrdef>unit name + subunit name</attrdef>
       </attr>
       <attr>
-        <attrlabl>Id</attrlabl>
-        <attrdef>Unique polygon ID number</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>Unitname</attrlabl>
+        <attrlabl>unit_name</attrlabl>
         <attrdef>WMA name</attrdef>
       </attr>
       <attr>
-        <attrlabl>Subunit</attrlabl>
+        <attrlabl>subunit_name</attrlabl>
         <attrdef>WMA sub-unit name</attrdef>
       </attr>
       <attr>
-        <attrlabl>ACRES</attrlabl>
+        <attrlabl>gis_area_acres</attrlabl>
         <attrdef>Area of polygon in acres</attrdef>
       </attr>
       <attr>
-        <attrlabl>SOURCE</attrlabl>
+        <attrlabl>digitizing_source_id</attrlabl>
         <attrdef>Primary digitizing source</attrdef>
       </attr>
       <attr>
-        <attrlabl>DATE_INV</attrlabl>
+        <attrlabl>date_inventoried</attrlabl>
         <attrdef>Date inventoried</attrdef>
       </attr>
       <attr>
-        <attrlabl>DIRECTIONS</attrlabl>
+        <attrlabl>directions_from_nearest_town</attrlabl>
         <attrdef>Directions to "main" access</attrdef>
       </attr>
       <attr>
-        <attrlabl>NEAREST_TO</attrlabl>
+        <attrlabl>nearest_town</attrlabl>
         <attrdef>City nearest to WMA</attrdef>
       </attr>
       <attr>
-        <attrlabl>RESTRICT</attrlabl>
+        <attrlabl>special_restrictions</attrlabl>
         <attrdef>Any special restrictions</attrdef>
       </attr>
       <attr>
-        <attrlabl>DEER</attrlabl>
+        <attrlabl>deer</attrlabl>
         <attrdef>Hunting opportunities for deer.</attrdef>
         <attrdomv>
           <edom>
-            <edomv>N</edomv>
+            <edomv>0</edomv>
             <edomvd>No</edomvd>
           </edom>
         </attrdomv>
         <attrdomv>
           <edom>
-            <edomv>Y</edomv>
+            <edomv>1</edomv>
             <edomvd>Yes</edomvd>
           </edom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>BEAR</attrlabl>
+        <attrlabl>bear</attrlabl>
         <attrdef>Hunting opportunities for bear.</attrdef>
         <attrdomv>
           <edom>
-            <edomv>N</edomv>
+            <edomv>0</edomv>
             <edomvd>No</edomvd>
           </edom>
         </attrdomv>
         <attrdomv>
           <edom>
-            <edomv>Y</edomv>
+            <edomv>1</edomv>
             <edomvd>Yes</edomvd>
           </edom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>MOOSE</attrlabl>
+        <attrlabl>moose</attrlabl>
         <attrdef>Hunting opportunities for moose.</attrdef>
         <attrdomv>
           <edom>
-            <edomv>N</edomv>
+            <edomv>0</edomv>
             <edomvd>No</edomvd>
           </edom>
         </attrdomv>
         <attrdomv>
           <edom>
-            <edomv>Y</edomv>
+            <edomv>1</edomv>
             <edomvd>Yes</edomvd>
           </edom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>SMGAME</attrlabl>
+        <attrlabl>small_game</attrlabl>
         <attrdef>Hunting opportunities for small game.</attrdef>
         <attrdomv>
           <edom>
-            <edomv>N</edomv>
+            <edomv>0</edomv>
             <edomvd>No</edomvd>
           </edom>
         </attrdomv>
         <attrdomv>
           <edom>
-            <edomv>Y</edomv>
+            <edomv>1</edomv>
             <edomvd>Yes</edomvd>
           </edom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>FSTBIRDS</attrlabl>
+        <attrlabl>forest_upland_birds</attrlabl>
         <attrdef>Hunting opportunities for forest upland birds.</attrdef>
         <attrdomv>
           <edom>
-            <edomv>N</edomv>
+            <edomv>0</edomv>
             <edomvd>No</edomvd>
           </edom>
         </attrdomv>
         <attrdomv>
           <edom>
-            <edomv>Y</edomv>
+            <edomv>1</edomv>
             <edomvd>Yes</edomvd>
           </edom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>SHARPTAILS</attrlabl>
+        <attrlabl>sharptail_grouse</attrlabl>
         <attrdef>Hunting opportunities for Sharptail grouse.</attrdef>
         <attrdomv>
           <edom>
-            <edomv>N</edomv>
+            <edomv>0</edomv>
             <edomvd>No</edomvd>
           </edom>
         </attrdomv>
         <attrdomv>
           <edom>
-            <edomv>Y</edomv>
+            <edomv>1</edomv>
             <edomvd>Yes</edomvd>
           </edom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>PHEASANTS</attrlabl>
+        <attrlabl>pheasants</attrlabl>
         <attrdef>Hunting opportunities for pheasants/partridge.</attrdef>
         <attrdomv>
           <edom>
-            <edomv>N</edomv>
+            <edomv>0</edomv>
             <edomvd>No</edomvd>
           </edom>
         </attrdomv>
         <attrdomv>
           <edom>
-            <edomv>Y</edomv>
+            <edomv>1</edomv>
             <edomvd>Yes</edomvd>
           </edom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>WATERFOWL</attrlabl>
+        <attrlabl>waterfowl</attrlabl>
         <attrdef>Hunting opportunities for waterfowl.</attrdef>
         <attrdomv>
           <edom>
-            <edomv>N</edomv>
+            <edomv>0</edomv>
             <edomvd>No</edomvd>
           </edom>
         </attrdomv>
         <attrdomv>
           <edom>
-            <edomv>Y</edomv>
+            <edomv>1</edomv>
             <edomvd>Yes</edomvd>
           </edom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>TURKEY</attrlabl>
+        <attrlabl>turkey</attrlabl>
         <attrdef>Hunting opportunities for turkey.</attrdef>
         <attrdomv>
           <edom>
-            <edomv>N</edomv>
+            <edomv>0</edomv>
             <edomvd>No</edomvd>
           </edom>
         </attrdomv>
         <attrdomv>
           <edom>
-            <edomv>Y</edomv>
+            <edomv>1</edomv>
             <edomvd>Yes</edomvd>
           </edom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>WETNONGAME</attrlabl>
+        <attrlabl>wetland_non_game</attrlabl>
         <attrdef>Viewing opportunities for wetland non game.</attrdef>
         <attrdomv>
           <edom>
-            <edomv>N</edomv>
+            <edomv>0</edomv>
             <edomvd>No</edomvd>
           </edom>
         </attrdomv>
         <attrdomv>
           <edom>
-            <edomv>Y</edomv>
+            <edomv>1</edomv>
             <edomvd>Yes</edomvd>
           </edom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>FORNONGAME</attrlabl>
+        <attrlabl>forest_non_game</attrlabl>
         <attrdef>Viewing opportunities for forest non game.</attrdef>
         <attrdomv>
           <edom>
-            <edomv>N</edomv>
+            <edomv>0</edomv>
             <edomvd>No</edomvd>
           </edom>
         </attrdomv>
         <attrdomv>
           <edom>
-            <edomv>Y</edomv>
+            <edomv>1</edomv>
             <edomvd>Yes</edomvd>
           </edom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>PRANONGAME</attrlabl>
+        <attrlabl>prairie_non_game</attrlabl>
         <attrdef>Viewing opportunities for prairie non game.</attrdef>
         <attrdomv>
           <edom>
-            <edomv>N</edomv>
+            <edomv>0</edomv>
             <edomvd>No</edomvd>
           </edom>
         </attrdomv>
         <attrdomv>
           <edom>
-            <edomv>Y</edomv>
+            <edomv>1</edomv>
             <edomvd>Yes</edomvd>
           </edom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>SPECOPPS</attrlabl>
+        <attrlabl>doves</attrlabl>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>wolves</attrlabl>
+        <attrdef>Hunting opportunities for wolves.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>special_rec_opportunities</attrlabl>
         <attrdef>Special recreational opportunities</attrdef>
       </attr>
       <attr>
-        <attrlabl>HANDICAP</attrlabl>
+        <attrlabl>ada_accessibility_notes</attrlabl>
         <attrdef>Handicap opportunities</attrdef>
       </attr>
       <attr>
-        <attrlabl>HEADER</attrlabl>
+        <attrlabl>header</attrlabl>
         <attrdef>Description of WMA</attrdef>
       </attr>
       <attr>
-        <attrlabl>COMMENTS</attrlabl>
+        <attrlabl>comments</attrlabl>
         <attrdef>Special comments from manager</attrdef>
       </attr>
       <attr>
-        <attrlabl>WEBREADY</attrlabl>
+        <attrlabl>web_ready</attrlabl>
         <attrdef>Ready for detailed web application.</attrdef>
         <attrdomv>
           <edom>
-            <edomv>N</edomv>
+            <edomv>0</edomv>
             <edomvd>No</edomvd>
           </edom>
         </attrdomv>
         <attrdomv>
           <edom>
-            <edomv>Y</edomv>
+            <edomv>1</edomv>
             <edomvd>Yes</edomvd>
           </edom>
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>PHOTO</attrlabl>
-        <attrdef>Photo exists for web application.</attrdef>
-      </attr>
-      <attr>
-        <attrlabl>FORMAT</attrlabl>
-        <attrdef>Panoramic photo format</attrdef>
-        <attrdomv>
-          <edom>
-            <edomv>L</edomv>
-            <edomvd>Landscape photo format</edomvd>
-          </edom>
-        </attrdomv>
-        <attrdomv>
-          <edom>
-            <edomv>P</edomv>
-            <edomvd>Portrait Photo Format</edomvd>
-          </edom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>SUBUNITNUM</attrlabl>
+        <attrlabl>subunit_nbr</attrlabl>
         <attrdef>Subunit number</attrdef>
       </attr>
       <attr>
-        <attrlabl>UNIQUEID</attrlabl>
+        <attrlabl>uniqueid</attrlabl>
         <attrdef>Prm_prj + SubUnitNum.AsString</attrdef>
       </attr>
       <attr>
-        <attrlabl>ACCESSIBLE</attrlabl>
-        <attrdef>Indicates if a WMA has an accessible facility on it. For example, if a wheelchair accessible hunting blind exists on a WMA it would have a ?Y? in this field.</attrdef>
+        <attrlabl>wheelchair_accessible</attrlabl>
+        <attrdef>Indicates if a WMA has an accessible facility on it. For example, if a wheelchair accessible hunting blind exists on a WMA it would have a 'Yes' in this field.</attrdef>
         <attrdomv>
           <edom>
-            <edomv>Y</edomv>
+            <edomv>1</edomv>
             <edomvd>Yes</edomvd>
           </edom>
         </attrdomv>
         <attrdomv>
           <edom>
-            <edomv>N</edomv>
+            <edomv>0</edomv>
             <edomvd>No</edomvd>
           </edom>
         </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>has_writeup</attrlabl>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>writeup_location</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>writeup_pdf_name</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>data_mgmt_notes</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>general_access_notes</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ada_accessibility_pdf_name</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>date_last_edited</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>managing_admin_office</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>is_wildlife_sanctuary</attrlabl>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>federal_aid_acquisition</attrlabl>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>federal_aid_acquisition_program</attrlabl>
       </attr>
     </detailed>
     <overview>
@@ -989,8 +1065,7 @@
   </eainfo>
   <distinfo>
     <resdesc>bdry_dnr_wildlife_mgmt_areas_pub</resdesc>
-    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: www.dnr.state.mn.us/sitetools/data_software_license.html
-</distliab>
+    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: http://www.dnr.state.mn.us/sitetools/data_software_license.html</distliab>
     <stdorder>
       <digform>
         <digtinfo>
@@ -1021,7 +1096,7 @@
     </distrib>
   </distinfo>
   <metainfo>
-    <metd>2014-09-25 00:10:26</metd>
+    <metd>20160114</metd>
     <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
     <metstdv>1.2</metstdv>
     <metextns>

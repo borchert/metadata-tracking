@@ -3,7 +3,7 @@
   <baseName>plan_regonal_parcels_2012</baseName>
   <descriptiveName>MetroGIS Regional Parcel Dataset - 2012</descriptiveName>
   <publisherID>us_mn_state_metrogis</publisherID>
-  <currentAsofDate>2015-09-04</currentAsofDate>
+  <currentAsofDate>2016-02-08</currentAsofDate>
   <topicCategories>
     <topicCategory type="ISO 19115">planningCadastre</topicCategory>
   </topicCategories>
@@ -12,13 +12,11 @@
   </resourceIdentifiers>
   <dataSubResources>
     <dataSubResource>
-      <subResourceType>external</subResourceType>
+      <subResourceType>fgdb</subResourceType>
       <subResourceIdentifiers>
-        <subResourceGUID>{054e99b3-ba86-4b0b-aef1-c88dcb5d9d20}</subResourceGUID>
+        <subResourceGUID>{c9ed7692-44ca-41f8-951b-804341324d6a}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess>
-        <subResourceURL type="HTML" description="License Instructions" name="License Instructions">http://metrogis.org/how-do-i-get/parcel-data.aspx</subResourceURL>
-      </subResourceAccess>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

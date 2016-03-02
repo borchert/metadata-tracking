@@ -1,12 +1,10 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>biota_wma_landcover_pub</baseName>
     <descriptiveName>DNR Wildlife Management Area Land Cover - Publicly Accessible</descriptiveName>
-    <publisher>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</publisher>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-06-11</currentAsofDate>
-    <resourceType>ESRI File Geodatabase</resourceType>
+    <currentAsofDate>2016-01-15</currentAsofDate>
     <topicCategories>
         <topicCategory type="ISO 19115">biota</topicCategory>
     </topicCategories>

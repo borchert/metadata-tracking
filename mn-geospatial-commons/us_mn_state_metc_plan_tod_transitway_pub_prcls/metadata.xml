@@ -1,0 +1,65 @@
+<?xml version="1.0"?><metadata><idinfo><citation><citeinfo><title>Metropolitan Council Transitways; Publicly Owned Parcels (Pilot Project)</title><origin>Counties of Anoka, Dakota, Hennepin and Ramsey</origin><pubinfo><publish>Metropolitan Council</publish></pubinfo><pubdate>20160111</pubdate><onlink>https://gisdata.mn.gov/dataset/us-mn-state-metc-plan-tod-transitway-pub-prcls</onlink></citeinfo></citation><descript><abstract>This dataset was derived from the MetroGIS Regional Parcel dataset (see link below) and is the result of a pilot project conducted by Metro Transit's Transit Oriented Development Office (TOD) to identify publicly owned parcels within a 1/2 mile distance of select existing and planned transit stations. Additional publicly owned parcel data will be added to this dataset as the transit network expands and data becomes available. The purpose of this pilot project is to increase awareness of publicly owned parcel locations relative to transitway station areas and facilitate transit oriented development analyses.
+ 
+This dataset is a compilation of publicly owned parcel polygons assembled into a common coordinate system from Twin Cities, Minnesota metropolitan area counties. No attempt has been made to edgematch or rubbersheet between counties. A standard set of attribute fields is included for each county plus one additional field for ownership level. (See section 5 of the metadata). Not all attributes are populated for all counties. Summary attribute information is in the Attributes Overview section. Detailed attribute information can be found in the METROGIS Regional Parcels 
+
+MetroGIS Regional Parcel Dataset
+https://gisdata.mn.gov/dataset/us-mn-state-metrogis-plan-regonal-prcls-open
+
+Attributes document. ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metrogis/plan_regonal_prcls_open/metadata/MetroGIS_Regional_Parcels_Attributes.pdf
+</abstract><purpose>To view, analyze and display publicly owned parcel data within a 1/2 mile distance of selected existing and planned transitway stations.</purpose><supplinf>Select subset of counties within the Twin Cities Metropolitan Area.  This dataset includes the counties of Anoka, Dakota, Hennepin and Ramsey in Minnesota.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>20160111</caldate></sngdate></timeinfo><current>See time period of content date above</current></timeperd><status><progress>Complete</progress><update>None Planned</update></status><spdom><bounding><westbc>-94.012</westbc><eastbc>-92.732</eastbc><northbc>45.415</northbc><southbc>44.471</southbc></bounding></spdom><keywords><place><placekey>Twin Cities, Anoka County, Dakota County, Hennepin County, Ramsey County</placekey></place><theme><themekey>public parcels, regional parcel data, cadastre, land ownership, transitways, transit station</themekey><themekt>None</themekt></theme></keywords><accconst>None</accconst><useconst>None</useconst><browse><browsed>Sample map showing the Metropolitan Council Public Parcel Data.</browsed></browse><crossref><citeinfo><title>Metro GIS Regional Parcel Dataset
+Transitway Stations
+Transitway Alignments
+</title></citeinfo></crossref><native>See metadata for individual counties.</native><ptcontac><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Amy Geilser</cntper></cntperp><cntpos>Sr Project Manager, Transit Oriented Development</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>560 6th Ave N</address><city>Minneapolis</city><state>MN</state><postal>55411</postal></cntaddr><cntvoice>612.349.7692</cntvoice><cntemail>amy.Geisler@metrotransit.org</cntemail></cntinfo></ptcontac></idinfo><dataqual><complete>This data set was derived from the MetroGIS Regional Parcel dataset. 
+
+For parcel attributes, see Section 5 of this metadata.
+
+For parcel geography, see metadata links below for individual counties</complete><posacc><horizpa><horizpar>See the Data Quality section of the metadata for individual counties at the following links: 
+
+Anoka = http://www.anokacounty.us/315/GIS
+
+Dakota = http://www.co.dakota.mn.us/homeproperty/propertymaps/pages/default.aspx
+
+Hennepin: http://www.hennepin.us/gisopendata
+
+Ramsey = http://www.co.ramsey.mn.us/is/gisdata.htm
+
+
+
+</horizpar></horizpa></posacc><lineage><procstep><procdesc>This dataset was created by buffering transitway alignments by 1/2 mile, querying publicly owned land from the MetroGIS regional parcel dataset and merging the polygons into a single layer.  Text using to identify a public parcel is non consistent within or between counties so a best attempt was made to identify public parcels by searching and selecting records identified as being owned by a public entity.  Because of inconsistent nature of ownership identification, there could be some publically owned parcels excluded from this dataset.  Over time this dataset will be updated and query methods will be analyzed to continually improve the quality of this derived layer.
+
+If a suspected error in the data is discovered, the user is encouraged to report it to the Metropolitan Council TOD Office. Over time, the data quality would be expected to improve if the users continually call attention to potential errors in the data. 
+
+Please see the link below for more information about the Regional Parcel lineage.
+https://gisdata.mn.gov/dataset/us-mn-state-metrogis-plan-regonal-prcls-open
+</procdesc></procstep><srcinfo><srcscale></srcscale></srcinfo></lineage></dataqual><spdoinfo><indspref>None</indspref><direct>Vector</direct><mgmg3obj>polygon shapes</mgmg3obj><mgmg3til>Polygons: One shape file for each of the seven counties.    Points: One shape file for entire region.</mgmg3til></spdoinfo><eainfo><overview><eaover>A standard set of attribute fields is included for each county. Not all attributes fields are populated by each county. 
+
+A list of the attribute names is shown below. Detailed information about the attributes can be found 
+https://gisdata.mn.gov/dataset/us-mn-state-metrogis-plan-regonal-prcls-open
+
+Field Name: Brief Description 
+------------- -------------------- 
+COUNTY_ID: Unique County ID 
+
+PIN: Unique Parcel ID 
+
+CITY: City (actual) 
+
+USE1_DESC: Use Type 1 
+USE2_DESC: Use Type 2 
+USE3_DESC: Use Type 3 
+USE4_DESC: Use Type 4 
+
+OWNER_NAME: Owner Name 
+
+OWN_ADD_L1: Owner Address Line 1 
+OWN_ADD_L2: Owner Address Line 2 
+OWN_ADD_L3 Owner Address Line 3 
+
+TAX_NAME: Taxpayer Name 
+
+TAX_EXEMPT: Tax Exempt Status 
+
+XUSE1_DESC: Exempt Use 1 
+
+OWNER_LVL: Ownership level aggregation by public entity type generated by the TOD office
+</eaover></overview></eainfo><distinfo><resdesc>Metropolitan Council Public Parcel dataset</resdesc><distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab><stdorder><digform><digtinfo><formname>Shapefile</formname><formvern>ArcGIS: 10x</formvern><transize>Varies by county</transize></digtinfo></digform><ordering>See Online Linkage Below</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Amy Geilser</cntper></cntperp><cntpos>Sr Project Manager, Transit Oriented Development</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>560 6th Ave N</address><city>Minneapolis</city><state>MN</state><postal>55411</postal></cntaddr><cntvoice>612.349.7692</cntvoice><cntemail>amy.Geisler@metrotransit.org</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20160111</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Metropolitan Council</cntorg><cntper>Amy Geilser</cntper></cntperp><cntpos>Sr Project Manager, Transit Oriented Development</cntpos><cntaddr><addrtype>mailing and physical</addrtype><address>560 6th Ave N</address><city>Minneapolis</city><state>MN</state><postal>55411</postal></cntaddr><cntvoice>612.349.7692</cntvoice><cntemail>amy.Geisler@metrotransit.org</cntemail></cntinfo></metc></metainfo><Esri><ModDate>20120109</ModDate><ModTime>13372900</ModTime></Esri><mdDateSt Sync="TRUE">20120109</mdDateSt><spref><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref></metadata>

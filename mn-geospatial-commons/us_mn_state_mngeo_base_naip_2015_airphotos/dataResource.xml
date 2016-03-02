@@ -1,0 +1,25 @@
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
+<dataResource>
+    <baseName>base_naip_2015_airphotos</baseName>
+    <descriptiveName>National Agricultural Imagery Program (NAIP), Minnesota, 2015</descriptiveName>
+    <publisherID>us_mn_state_mngeo</publisherID>
+    <currentAsofDate>2016-01-25</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">imageryBaseMapsEarthCover</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{fe6bc186-2ff9-4909-a98a-c5869a45cc4f}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>external</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{975a5965-cd5b-4802-812d-308c7c65b504}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="HTML" description="" name="NRCS Data Gateway - Download">http://datagateway.nrcs.usda.gov</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

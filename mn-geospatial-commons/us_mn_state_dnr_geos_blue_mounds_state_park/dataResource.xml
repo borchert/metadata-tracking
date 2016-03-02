@@ -1,0 +1,24 @@
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
+<dataResource>
+    <baseName>geos_blue_mounds_state_park</baseName>
+    <descriptiveName>Geology of Blue Mounds State Park</descriptiveName>
+    <publisherID>us_mn_state_dnr</publisherID>
+    <currentAsofDate>2015-10-20</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">geoscientificInformation</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{874d7972-45b3-4b0e-8ccf-f6bd4d06c3e5}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{bf76e9d4-af31-4e86-b3e5-2bbcb6a3eca8}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
+</dataResource>

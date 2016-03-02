@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataResource>
+  <baseName>plan_tod_transitway_pub_prcls</baseName>
+  <descriptiveName>Metropolitan Council Transitways; Publicly Owned Parcels (Pilot Project)</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2016-02-08</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{5d200f6e-b8db-4cad-8aad-e4137cd70ad8}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{ba80813d-bcd7-4ecb-b2f6-2771e966037f}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess />
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

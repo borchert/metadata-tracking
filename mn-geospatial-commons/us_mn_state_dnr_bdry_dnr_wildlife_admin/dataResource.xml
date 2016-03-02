@@ -5,7 +5,7 @@
     <descriptiveName>DNR Division of Wildlife Administrative Areas</descriptiveName>
     <publisher>Minnesota DNR - MIS Bureau</publisher>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-04-30</currentAsofDate>
+    <currentAsofDate>2016-02-25</currentAsofDate>
     <resourceType>ESRI File Geodatabase</resourceType>
     <topicCategories>
         <topicCategory type="ISO 19115">boundaries</topicCategory>

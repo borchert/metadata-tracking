@@ -3,7 +3,7 @@
     <citation>
       <citeinfo>
         <origin>Dakota County GIS, Dakota County GIS, Staff</origin>
-        <pubdate>20151224</pubdate>
+        <pubdate>20160225</pubdate>
         <title>Road Centerlines, Dakota County, Minnesota</title>
         <edition>1</edition>
         <geoform>vector digital data</geoform>
@@ -21,7 +21,7 @@
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20151224</caldate>
+          <caldate>20160225</caldate>
         </sngdate>
       </timeinfo>
       <current>Dakota County</current>
@@ -75,7 +75,7 @@
     <lineage>
       <procstep>
         <procdesc>Dakota County maintains road centerline data for internal purposes.  General sources of information are plat centerlines and heads-up digitizing using aerial photography.</procdesc>
-        <procdate>20151224</procdate>
+        <procdate>20160225</procdate>
       </procstep>
     </lineage>
   </dataqual>
@@ -397,7 +397,7 @@
     <distliab>See General Constraints</distliab>
   </distinfo>
   <metainfo>
-    <metd>20151224</metd>
+    <metd>20160225</metd>
     <metc>
       <cntinfo>
         <cntperp>

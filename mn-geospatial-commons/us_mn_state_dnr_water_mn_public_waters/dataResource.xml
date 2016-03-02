@@ -4,7 +4,7 @@
     <baseName>water_mn_public_waters</baseName>
     <descriptiveName>Minnesota Public Waters</descriptiveName>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-10-08</currentAsofDate>
+    <currentAsofDate>2016-01-21</currentAsofDate>
     <topicCategories>
         <topicCategory type="ISO 19115">inlandWaters</topicCategory>
     </topicCategories>

@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>trans_better_bus_stops</baseName>
   <descriptiveName>Better Bus Stops</descriptiveName>
@@ -15,7 +16,7 @@
       <subResourceIdentifiers>
         <subResourceGUID>{5a1c5bfc-ed1e-4c79-b7bd-bf7e640a8612}</subResourceGUID>
       </subResourceIdentifiers>
-      <subResourceAccess/>
+      <subResourceAccess />
     </dataSubResource>
   </dataSubResources>
 </dataResource>

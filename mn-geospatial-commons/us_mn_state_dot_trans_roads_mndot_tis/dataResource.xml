@@ -26,7 +26,7 @@
                 <subResourceGUID>{638b2a8b-28bf-4b6d-8d43-9639c3903957}</subResourceGUID>
             </subResourceIdentifiers>
             <subResourceAccess>
-                <subResourceURL type="ServiceDescription" description="ESRI ArcGIS Server Map Service - MnDOT Roads" name="">http://gisservices.dot.state.mn.us/ArcGIS/rest/services/MNDOT_ROADS/MapServer</subResourceURL>
+                <subResourceURL type="ServiceDescription" description="ESRI ArcGIS Server Map Service - MnDOT Roads" name="">http://mndotgis.dot.state.mn.us/egis12/rest/services/MNDOT_ROADS/MapServer</subResourceURL>
             </subResourceAccess>
         </dataSubResource>
     </dataSubResources>

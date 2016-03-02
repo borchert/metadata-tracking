@@ -1,12 +1,11 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>bdry_turkey_permit_areas</baseName>
     <descriptiveName>Minnesota Turkey Permit Areas</descriptiveName>
     <publisher>Minnesota DNR - Division of Fish &amp; Wildlife - Wildlife Unit</publisher>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-04-09</currentAsofDate>
-    <resourceType>ESRI File Geodatabase</resourceType>
+    <currentAsofDate>2016-02-16</currentAsofDate>
     <topicCategories>
         <topicCategory type="ISO 19115">boundaries</topicCategory>
     </topicCategories>

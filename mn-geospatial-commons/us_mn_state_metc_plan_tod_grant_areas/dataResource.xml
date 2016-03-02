@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataResource>
+  <baseName>plan_tod_grant_areas</baseName>
+  <descriptiveName>Transit Oriented Development Grant Areas</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2016-01-14</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{c679d066-085a-4acf-9aab-b9284f6aab73}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>external</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{0eaa8ad6-6f05-4687-9a73-f7e7b9adf444}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess>
+        <subResourceURL type="HTML" description="Transit Oriented Development" name="Transit Oriented Development">http://www.metrocouncil.org/Communities/Services/Transit-Oriented-Development-(TOD).aspx</subResourceURL>
+      </subResourceAccess>
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

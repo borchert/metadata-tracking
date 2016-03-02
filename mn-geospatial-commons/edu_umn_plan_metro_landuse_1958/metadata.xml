@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Land Use, Twin Cities Metropolitan Area, 1958</title>
+                <geoform>vector digital data</geoform>
+                <origin>Chen, Wei; Levinson, David M</origin>
+                <pubdate>20131122</pubdate>
+                <pubinfo>
+                    <publish>Data Repository for the University of Minnesota (DRUM)</publish>
+                </pubinfo>
+                <onlink>http://dx.doi.org/10.13020/D6059J</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>A shapefile was generated from ArcINFO coverages, which were in turn created
+                by digitizing a 1958 paper map of land use in the Twin Cities Metropolitan Area. The
+                map was originally published by the Twin Cities Metropolitan Planning
+                Commission.</abstract>
+            <purpose>Land use data for the Twin Cities Metropolitan Area digitized from a 1958 map
+                of the Metropolitan Planning Commission.</purpose>
+            <supplinf>Twin Cities County Metropolitan Area</supplinf>
+        </descript>
+        <spdom>
+            <bounding>
+                <westbc>-93.770810</westbc>
+                <eastbc>-92.725647</eastbc>
+                <northbc>45.303848</northbc>
+                <southbc>44.468717</southbc>
+            </bounding>
+        </spdom>
+        <accconst>None</accconst>
+        <useconst>None</useconst>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
+        <timeperd>
+            <current>Date published of print map from which the data were extracted.</current>
+            <timeinfo>
+                <sngdate>
+                    <caldate>1958</caldate>
+                </sngdate>
+            </timeinfo>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>None Planned</update>
+        </status>
+        <keywords>
+            <place>
+                <placekey>Twin Cities Metropolitan Area</placekey>
+            </place>
+            <theme>
+                <themekt>ISO 19115 Topic Category</themekt>
+                <themekey>planningCadastre</themekey>
+            </theme>
+        </keywords>
+        <ptcontac>
+            <cntinfo>
+                <cntperp>
+                    <cntorg>University of Minnesota</cntorg>
+                    <cntper>David Levinson</cntper>
+                </cntperp>
+                <cntpos>Professor</cntpos>
+                <cntemail>dlevinson@umn.edu</cntemail>
+            </cntinfo>
+        </ptcontac>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>1341</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>L1958_poly</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>FID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    <udom>Coordinates defining the features.</udom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>AREA</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>PERIMETER</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>L1958_</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>L1958_ID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>LANDUSE</attrlabl>
+                <attrdef>100 = Single Family Residential. 110 = Agricultural and Vacant Land. 120 =
+                    Water. 130 = Marshland. 200 = Mixed Single and Multi-family residential. 210 =
+                    Multi-family residential. 300 = Commercial Central Business District. 310 =
+                    Other Commercial. 400 = Industrial Intensive. 410 = Industrial Extensive. 600 =
+                    Airport. 700 = Institutions. 800 = Cemeteries. 900 = Park.</attrdef>
+                <attrdefs>Researcher</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>e00_centro</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>e00_cent_1</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Leng</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Area</attrlabl>
+                <attrdef>Area of feature in internal units squared.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    <udom>Positive real numbers that are automatically generated.</udom>
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20160106</metd>
+        <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+        <metstdv>1.2</metstdv>
+        <mettc>local time</mettc>
+        <metextns>
+            <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+        </metextns>
+        <metc>
+            <cntinfo>
+                <cntperp>
+                    <cntorg>University of Minnesota</cntorg>
+                    <cntper>Kevin Dyke</cntper>
+                </cntperp>
+                <cntpos>Spatial Data Analyst/Curator</cntpos>
+                <cntaddr>
+                    <addrtype>Mailing and Physical</addrtype>
+                    <address>309 19th Ave S, S76 O Meredith Wilson Library</address>
+                    <city>Minneapolis</city>
+                    <state>MN</state>
+                    <postal>55455</postal>
+                </cntaddr>
+                <cntvoice>612-301-3932</cntvoice>
+                <cntemail>kevindyke@umn.edu</cntemail>
+            </cntinfo>
+        </metc>
+    </metainfo>
+    <distinfo>
+        <resdesc>http://dx.doi.org/10.13020/D6059J</resdesc>
+        <distrib>
+            <cntinfo>
+                <cntperp>
+                    <cntorg>University of Minnesota</cntorg>
+                    <cntper>Kevin Dyke</cntper>
+                </cntperp>
+                <cntpos>Spatial Data Analyst/Curator</cntpos>
+                <cntaddr>
+                    <addrtype>Mailing and Physical</addrtype>
+                    <address>309 19th Ave S, S76 O Meredith Wilson Library</address>
+                    <city>Minneapolis</city>
+                    <state>MN</state>
+                    <postal>55455</postal>
+                </cntaddr>
+                <cntvoice>612-301-3932</cntvoice>
+                <cntemail>kevindyke@umn.edu</cntemail>
+            </cntinfo>
+        </distrib>
+    </distinfo>
+    <dataqual>
+        <lineage>
+            <procstep>
+                <procdesc>The GIS shapefiles were exported using ArcGIS Quick Import Tool from the
+                    Data Interoperability Toolbox. The coverage files was imported into a file
+                    geodatabase then exported to a .shp file for long-term use without proprietary
+                    software. An example output of the final GIS file is include as a pdf, in
+                    addition, a scan of the original 1958 map (held in the UMN Borchert Map Library)
+                    is included as a pdf. Metadata was extracted as an xml file. Finally, all
+                    associated coverage files and original map scans were zipped into one file for
+                    download and reuse.</procdesc>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spref>
+        <horizsys>
+            <planar>
+                <gridsys>
+                    <gridsysn>Universal Transverse Mercator</gridsysn>
+                    <utm>
+                        <utmzone>15</utmzone>
+                    </utm>
+                </gridsys>
+                <planci>
+                    <plandu>meters</plandu>
+                </planci>
+            </planar>
+            <geodetic>
+                <horizdn>NAD83</horizdn>
+                <ellips>GRS80</ellips>
+            </geodetic>
+        </horizsys>
+    </spref>
+</metadata>

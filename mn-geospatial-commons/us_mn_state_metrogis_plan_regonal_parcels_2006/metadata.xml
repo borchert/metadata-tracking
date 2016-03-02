@@ -32,9 +32,9 @@ Dakota = http://www.co.dakota.mn.us/homeproperty/propertymaps/pages/default.aspx
 
 Hennepin: http://www.hennepin.us/gisopendata
 
-Ramsey = http://www.co.ramsey.mn.us/is/gisdata.htm
+Ramsey = https://www.ramseycounty.us/your-government/open-government/research-data
 
-Scott = http://www.co.scott.mn.us/PropertyGISLand/Pages/PropertyGISLand.aspx
+Scott = http://www.scottcountymn.gov/1183/GIS-Data-and-Maps
 
 Washington = http://www.co.washington.mn.us/index.aspx?NID=1606
 </abstract><purpose>To view, analyze and display parcel data anywhere in the seven county metro area.</purpose><supplinf>Twin Cities 7 County Metropolitan Area.  This includes the counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington in Minnesota.</supplinf></descript><timeperd><timeinfo><sngdate><caldate>20061231</caldate></sngdate></timeinfo><current>This dataset reflects the status of each county's parcel polygon and attribute database as of the following dates:
@@ -76,9 +76,9 @@ Dakota = http://www.co.dakota.mn.us/homeproperty/propertymaps/pages/default.aspx
 
 Hennepin: http://www.hennepin.us/gisopendata
 
-Ramsey = http://www.co.ramsey.mn.us/is/gisdata.htm
+Ramsey = https://www.ramseycounty.us/your-government/open-government/research-data
 
-Scott = http://www.co.scott.mn.us/PropertyGISLand/Pages/PropertyGISLand.aspx
+Scott = http://www.scottcountymn.gov/1183/GIS-Data-and-Maps
 
 Washington = http://www.co.washington.mn.us/index.aspx?NID=1606
 </horizpar></horizpa></posacc><lineage><srcinfo><srcscale></srcscale></srcinfo><procstep><procdesc>Each county provided parcel polygons and points with attributes in shape file format with UTM coordinates, to the Metropolitan Council.  The Metropolitan Council checked each shape file to insure it had the specified field names, types, lengths and order.  

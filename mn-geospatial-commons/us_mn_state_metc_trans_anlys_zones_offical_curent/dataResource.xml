@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataResource>
+  <baseName>trans_anlys_zones_offical_curent</baseName>
+  <descriptiveName>Transportation Analysis Zones (Official TAZ System w/3,030 Zones) with Current Forecasts</descriptiveName>
+  <publisherID>us_mn_state_metc</publisherID>
+  <currentAsofDate>2016-01-26</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">transportation</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{46ea8d72-7f27-468c-9081-4a1362d0cd5f}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{0aaab9d3-90bb-428f-8617-6e8e7aef25c9}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess />
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

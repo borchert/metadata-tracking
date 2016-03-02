@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <dataResource>
   <baseName>health_pubhealthsafe_elm</baseName>
-  <descriptiveName>Emergency Location Markers, Dakota County, Minnesota</descriptiveName>
+  <descriptiveName>Emergency Location Markers, Dakota and Ramsey County, Minnesota</descriptiveName>
   <publisherID>us_mn_co_dakota</publisherID>
-  <currentAsofDate>2015-07-28</currentAsofDate>
+  <currentAsofDate>2016-01-29</currentAsofDate>
   <topicCategories>
     <topicCategory type="ISO 19115">health</topicCategory>
   </topicCategories>
