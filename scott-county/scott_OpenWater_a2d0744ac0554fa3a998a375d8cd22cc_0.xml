@@ -1,6 +1,6 @@
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
    <gmd:fileIdentifier>
-      <gco:CharacterString>http://data.scottcounty.opendata.arcgis.com/datasets/a2d0744ac0554fa3a998a375d8cd22cc_0</gco:CharacterString>
+      <gco:CharacterString>http://opendata.gis.co.scott.mn.us/datasets/a2d0744ac0554fa3a998a375d8cd22cc_0</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -44,7 +44,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2016-01-19T09:33:25.348984</gco:DateTime>
+      <gco:DateTime>2016-03-02T09:37:30.566795</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -106,7 +106,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2016-01-18T14:55:49.023Z</gco:DateTime>
+                        <gco:DateTime>2016-02-12T21:42:26.000Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
@@ -116,7 +116,7 @@
                <gmd:identifier>
                   <gmd:MD_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://data.scottcounty.opendata.arcgis.com/datasets/a2d0744ac0554fa3a998a375d8cd22cc_0</gco:CharacterString>
+                        <gco:CharacterString>http://opendata.gis.co.scott.mn.us/datasets/a2d0744ac0554fa3a998a375d8cd22cc_0</gco:CharacterString>
                      </gmd:code>
                   </gmd:MD_Identifier>
                </gmd:identifier>
@@ -186,7 +186,7 @@
                      <gmd:date>
                         <gmd:CI_Date>
                            <gmd:date>
-                              <gco:Date>2013-03-07</gco:Date>
+                              <gco:Date>3/7/13</gco:Date>
                            </gmd:date>
                            <gmd:dateType>
                               <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
@@ -230,12 +230,15 @@
                <gmd:keyword>
                   <gco:CharacterString>Safe</gco:CharacterString>
                </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Natural</gco:CharacterString>
+               </gmd:keyword>
                </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
          <gmd:resourceConstraints>
             <gmd:MD_Constraints>
                <gmd:useLimitation>
-                  <gco:CharacterString>This information is to be used for reference purposes only.</gco:CharacterString>
+                  <gco:CharacterString>Disclaimer: This information is to be used for reference purposes only. Scott County does not guarantee accuracy of the material contained herein and is not responsible for misuse or misinterpretation. The preceding disclaimer is provided pursuant to Minnesota Statutes 466.03, Subd. 21 , and the user of this service acknowledges that Scott County shall not be liable for any damages, and expressly waives all claims, and agrees to defend, indemnify, and hold harmless Scott County from any and all claims brought by User, its employees or agents, or third parties which arise out of the user's access or use of data provided.</gco:CharacterString>
                </gmd:useLimitation>
             </gmd:MD_Constraints>
          </gmd:resourceConstraints>
@@ -279,7 +282,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimeInstant>2016-01-18T14:55:49.023Z</gml:TimeInstant>
+                        <gml:TimeInstant>
+                           <gml:timePosition>2016-02-12T21:42:26.000Z</gml:timePosition>
+                        </gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
@@ -329,7 +334,7 @@
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://data.scottcounty.opendata.arcgis.com/datasets/a2d0744ac0554fa3a998a375d8cd22cc_0.zip</gmd:URL>
+                        <gmd:URL>http://opendata.gis.co.scott.mn.us/datasets/a2d0744ac0554fa3a998a375d8cd22cc_0.zip</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -373,7 +378,7 @@
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://data.scottcounty.opendata.arcgis.com/datasets/a2d0744ac0554fa3a998a375d8cd22cc_0</gmd:URL>
+                        <gmd:URL>http://opendata.gis.co.scott.mn.us/datasets/a2d0744ac0554fa3a998a375d8cd22cc_0</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -402,7 +407,7 @@
 
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://data.scottcounty.opendata.arcgis.com/datasets/a2d0744ac0554fa3a998a375d8cd22cc_0, orignally in the Project Open Data Metadata Schema, at 2016-01-19T09:33:25.348984.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.gis.co.scott.mn.us/datasets/a2d0744ac0554fa3a998a375d8cd22cc_0, orignally in the Project Open Data Metadata Schema, at 2016-03-02T09:37:30.566795.</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
