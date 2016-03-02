@@ -268,7 +268,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimeInstant/>
+                        <gml:TimeInstant>
+                           <gml:timePosition></gml:timePosition>
+                        </gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>

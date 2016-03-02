@@ -540,16 +540,16 @@
           <!-- TODO test url for which reference to utilize -->
             <xsl:choose>
               <xsl:when test="contains(gmd:linkage/gmd:URL,'FeatureServer')">
-                <xsl:text>\"http://www.arcgis.com/rdf#FeatureLayer\":\"</xsl:text>
+                <xsl:text>\"urn:x-esri:serviceType:ArcGIS#FeatureLayer\":\"</xsl:text>
               </xsl:when>
               <xsl:when test="contains(gmd:linkage/gmd:URL,'MapServer')">
                 <!--TODO need to distinguish between tiled/dynamic. Probably need to move
                 all of this logic out of the XSL
                 <xsl:text>"http://www.arcgis.com/rdf#TiledMapLayer":"</xsl:text>-->
-                <xsl:text>\"http://www.arcgis.com/rdf#DynamicMapLayer\":\"</xsl:text>
+                <xsl:text>\"urn:x-esri:serviceType:ArcGIS#DynamicMapLayer\":\"</xsl:text>
               </xsl:when>
               <xsl:when test="contains(gmd:linkage/gmd:URL,'ImageServer')">
-                <xsl:text>\"http://www.arcgis.com/rdf#ImageMapLayer\":\"</xsl:text>
+                <xsl:text>\"urn:x-esri:serviceType:ArcGIS#ImageMapLayer\":\"</xsl:text>
               </xsl:when>
             </xsl:choose>
           <xsl:value-of select="gmd:linkage/gmd:URL"/>

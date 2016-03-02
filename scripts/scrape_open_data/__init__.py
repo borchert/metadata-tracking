@@ -202,14 +202,19 @@ def main(url, prefix, output_path, template):
         # so use Beautiful Soup to get the plain text
         if dataset["description"]:
             abstract_soup = BeautifulSoup(dataset["description"])
-            #import pdb; pdb.set_trace()
+            
             #TODO make this use a regex instead of this $%#(#@$4^%^ string of replaces :(
-            elements["abstract"][0].text = abstract_soup.get_text(" ", strip=True).replace('"','\\"').replace(u"\xa0"," ").replace("\r\n", " ").replace("  "," ")
+            ab = abstract_soup.get_text(" ", strip=True).replace(r'"',r'\"').replace(u"\xa0"," ").replace("\r\n", " ").replace("  "," ").replace("\n"," ").replace("&#13;", " ")
+            
+            elements["abstract"][0].text = ab
+
         else:
             elements["abstract"][0].text = "No description provided"
 
-        #rely on template version for this
-        #elements["useconst"][0].text = dataset_detail["license"]
+        if dataset_detail["license"]:
+            license_soup = BeautifulSoup(dataset_detail["license"])
+            license_text = license_soup.get_text(" ", strip=True).replace(r'"',r'\"').replace(u"\xa0"," ").replace("\r\n", " ").replace("  "," ").replace("\n"," ").replace("&#13;", " ")
+            elements["useconst"][0].text = license_text
 
         keywords_list = dataset["keyword"]
         keywords_element = elements["themekey"][0].getparent().getparent()
@@ -272,7 +277,7 @@ PATHS = {
     "publish"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode[@codeListValue='publisher']/../../gmd:organisationName/gco:CharacterString",
     "date_published"       : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode[@codeListValue='publication']",
     "date_revised"         : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode[@codeListValue='revision']",
-    "temporal_extent": "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimeInstant",
+    "temporal_extent": "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimeInstant/gml:timePosition",
     "westbc"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:westBoundLongitude/gco:Decimal",
     "eastbc"   : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:eastBoundLongitude/gco:Decimal",
     "northbc"  : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:northBoundLatitude/gco:Decimal",
