@@ -3,7 +3,7 @@
     <citation>
       <citeinfo>
         <origin>Dakota County GIS, Dakota County GIS, Staff</origin>
-        <pubdate>20150910</pubdate>
+        <pubdate>20160322</pubdate>
         <title>County Parks, Dakota County, Minnesota</title>
         <edition>1</edition>
         <geoform>vector digital data</geoform>
@@ -21,7 +21,7 @@
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20150910</caldate>
+          <caldate>20160322</caldate>
         </sngdate>
       </timeinfo>
       <current>Dakota County</current>
@@ -321,7 +321,7 @@
     <distliab>See General Constraints</distliab>
   </distinfo>
   <metainfo>
-    <metd>20150812</metd>
+    <metd>20160322</metd>
     <metc>
       <cntinfo>
         <cntperp>

@@ -18,7 +18,7 @@
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20160301</caldate>
+          <caldate>20160408</caldate>
         </sngdate>
       </timeinfo>
       <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset.</current>
@@ -59,18 +59,18 @@
     <ptcontac>
       <cntinfo>
         <cntperp>
-          <cntorg>Minnesota DNR - Resource Assessment</cntorg>
-          <cntper>Kristen Bergstrand</cntper>
+          <cntorg>Minnesota DNR - Division of Forestry</cntorg>
+          <cntper>Dennis Kepler</cntper>
         </cntperp>
-        <cntpos>CSA Inventory Coordinator</cntpos>
+        <cntpos>Supervisor Resource Assessment Unit</cntpos>
         <cntaddr>
           <address>483 Peterson Rd</address>
           <city>Grand Rapids</city>
           <state>MN</state>
           <postal>55744</postal>
         </cntaddr>
-        <cntvoice>218-322-2511</cntvoice>
-        <cntemail>Kristen.Bergstrand@state.mn.us</cntemail>
+        <cntvoice>218-322-2512</cntvoice>
+        <cntemail>dennis.kepler@state.mn.us</cntemail>
       </cntinfo>
     </ptcontac>
   </idinfo>
@@ -2596,7 +2596,7 @@
     </distrib>
   </distinfo>
   <metainfo>
-    <metd>20140924</metd>
+    <metd>20160329</metd>
     <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
     <metstdv>1.2</metstdv>
     <metextns>

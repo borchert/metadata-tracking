@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataResource>
+  <baseName>plan_sections</baseName>
+  <descriptiveName>PLSS Sections, Itasca County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_itasca</publisherID>
+  <currentAsofDate>2016-02-08</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{bb83088d-6ae7-4246-9e4a-ec878aaf8e6e}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{a0dd564e-12ac-47fe-8f28-cb4c61dabbd1}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess />
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataResource>
+  <baseName>plan_parcels</baseName>
+  <descriptiveName>Tax Parcels, Itasca County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_itasca</publisherID>
+  <currentAsofDate>2016-02-08</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{111f206c-0921-4d8f-a344-033d0b1b5345}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{9f6ed9ff-2756-4b66-8406-c60009e119e3}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess />
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

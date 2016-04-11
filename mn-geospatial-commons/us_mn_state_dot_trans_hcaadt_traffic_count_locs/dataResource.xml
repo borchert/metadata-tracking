@@ -4,7 +4,7 @@
     <baseName>trans_hcaadt_traffic_count_locs</baseName>
     <descriptiveName>Heavy Construction Annual Average Daily Traffic Count Locations</descriptiveName>
     <publisherID>us_mn_state_dot</publisherID>
-    <currentAsofDate>2014-12-22</currentAsofDate>
+    <currentAsofDate>2016-04-04</currentAsofDate>
     <topicCategories>
         <topicCategory type="ISO 19115">transportation</topicCategory>
     </topicCategories>

@@ -4,7 +4,7 @@
     <baseName>bdry_dnr_lrs_prk</baseName>
     <descriptiveName>DNR Parks Managed Areas</descriptiveName>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2016-02-26</currentAsofDate>
+    <currentAsofDate>2016-04-08</currentAsofDate>
     <topicCategories>
         <topicCategory type="ISO 19115">boundaries</topicCategory>
         <topicCategory type="ISO 19115">environment</topicCategory>

@@ -4,7 +4,7 @@
     <baseName>env_trout_stream_designations</baseName>
     <descriptiveName>Minnesota Trout Streams</descriptiveName>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-10-01</currentAsofDate>
+    <currentAsofDate>2016-03-31</currentAsofDate>
     <topicCategories>
         <topicCategory type="ISO 19115">environment</topicCategory>
         <topicCategory type="ISO 19115">biota</topicCategory>

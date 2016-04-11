@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataResource>
+  <baseName>plan_zoning</baseName>
+  <descriptiveName>Zoning, Itasca County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_itasca</publisherID>
+  <currentAsofDate>2016-02-08</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{a2f29965-fc90-4d9b-868a-d47bc40ec088}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{95df6bc8-3341-4cbc-a104-e57924ee52bd}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess />
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>

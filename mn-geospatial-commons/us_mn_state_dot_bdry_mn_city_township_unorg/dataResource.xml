@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE dataResource SYSTEM "dataResource.dtd">
+
+<!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
-  <baseName>bdry_mn_city_township_unorg</baseName>
-  <descriptiveName>Minnesota City, Township, and Unorganized Territory Boundaries (MNCTU)</descriptiveName>
-  <publisherID>us_mn_state_dot</publisherID>
-  <currentAsofDate>2014-06-10</currentAsofDate>
-  <topicCategories>
-    <topicCategory type="ISO 19115">boundaries</topicCategory>
-  </topicCategories>
-  <resourceIdentifiers>
-    <resourceGUID>{aceee8d4-eb8c-45d2-b85c-c8d5059108af}</resourceGUID>
-  </resourceIdentifiers>
-  <dataSubResources>
-    <dataSubResource>
-      <subResourceType>shp</subResourceType>
-      <subResourceName>bdry_mn_city_township_unorg</subResourceName>
-      <subResourceIdentifiers>
-        <subResourceGUID>{fa2ce765-a2b2-46af-b3bf-edd96e04c2d4}</subResourceGUID>
-      </subResourceIdentifiers>
-      <subResourceAccess />
-    </dataSubResource>
-  </dataSubResources>
+    <baseName>bdry_mn_city_township_unorg</baseName>
+    <descriptiveName>Minnesota City, Township, and Unorganized Territory Boundaries (MNCTU)</descriptiveName>
+    <publisherID>us_mn_state_dot</publisherID>
+    <currentAsofDate>2014-06-10</currentAsofDate>
+    <topicCategories>
+        <topicCategory type="ISO 19115">boundaries</topicCategory>
+    </topicCategories>
+    <resourceIdentifiers>
+        <resourceGUID>{aceee8d4-eb8c-45d2-b85c-c8d5059108af}</resourceGUID>
+    </resourceIdentifiers>
+    <dataSubResources>
+        <dataSubResource>
+            <subResourceType>fgdb</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{a9074e49-013e-4a97-bfb0-69f11ab61a08}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+    </dataSubResources>
 </dataResource>

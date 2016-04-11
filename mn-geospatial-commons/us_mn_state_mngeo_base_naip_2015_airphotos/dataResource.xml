@@ -13,12 +13,23 @@
     </resourceIdentifiers>
     <dataSubResources>
         <dataSubResource>
+            <subResourceType>wms</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{e48affcb-2b88-4f6a-99f5-ccf9ebf4eb6f}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+                <subResourceURL type="ServiceGetCapabilities" description="" name="">http://geoint.lmic.state.mn.us/cgi-bin/wms?VERSION=1.3.0&amp;SERVICE=WMS&amp;REQUEST=GetCapabilities</subResourceURL>
+                <subResourceURL type="ServiceSampleURL" description="" name="">http://geoint.lmic.state.mn.us/cgi-bin/wms?LAYERS=fsa2015&amp;FORMAT=image%2Fjpeg&amp;TRANSPARENT=TRUE&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap&amp;STYLES=&amp;SRS=EPSG%3A26915&amp;BBOX=566088,4897752,581388,4913766&amp;WIDTH=256&amp;HEIGHT=256</subResourceURL>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
             <subResourceType>external</subResourceType>
             <subResourceIdentifiers>
                 <subResourceGUID>{975a5965-cd5b-4802-812d-308c7c65b504}</subResourceGUID>
             </subResourceIdentifiers>
             <subResourceAccess>
-                <subResourceURL type="HTML" description="" name="NRCS Data Gateway - Download">http://datagateway.nrcs.usda.gov</subResourceURL>
+                <subResourceURL type="HTML" description="Mn Geospatial Image Service Home Page" name="Mn Geospatial Image Service Home Page">http://www.mngeo.state.mn.us/chouse/wms/geo_image_server.html</subResourceURL>
+                <subResourceURL type="HTML" description="" name="NRCS Data Download: Color only, NOT CIR">http://datagateway.nrcs.usda.gov</subResourceURL>
             </subResourceAccess>
         </dataSubResource>
     </dataSubResources>

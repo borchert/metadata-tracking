@@ -20,6 +20,14 @@
             </subResourceAccess>
         </dataSubResource>
         <dataSubResource>
+            <subResourceType>kmz</subResourceType>
+            <subResourceIdentifiers>
+                <subResourceGUID>{25f4b8e9-f273-4b9d-b8ee-d611f8a89833}</subResourceGUID>
+            </subResourceIdentifiers>
+            <subResourceAccess>
+            </subResourceAccess>
+        </dataSubResource>
+        <dataSubResource>
             <subResourceType>web_map</subResourceType>
             <subResourceIdentifiers>
                 <subResourceGUID>{d653143c-bfdf-4b51-ba9e-8bda4dc8cf4e}</subResourceGUID>

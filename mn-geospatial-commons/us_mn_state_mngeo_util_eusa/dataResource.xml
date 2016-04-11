@@ -2,7 +2,7 @@
 <!DOCTYPE dataResource SYSTEM "dataResource.dtd" >
 <dataResource>
     <baseName>util_eusa</baseName>
-    <descriptiveName>Electric Utility Service Areas, Minnesota, 2014</descriptiveName>
+    <descriptiveName>Electric Utility Service Areas, Minnesota, 2015</descriptiveName>
     <publisher>Minnesota Geospatial Information Office (MnGeo)</publisher>
     <publisherID>us_mn_state_mngeo</publisherID>
     <resourceType>ESRI File Geodatabase</resourceType>

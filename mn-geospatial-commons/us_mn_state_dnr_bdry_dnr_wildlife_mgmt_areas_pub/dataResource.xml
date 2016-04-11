@@ -4,7 +4,7 @@
     <baseName>bdry_dnr_wildlife_mgmt_areas_pub</baseName>
     <descriptiveName>State Wildlife Management Area Boundaries - Publicly Accessible</descriptiveName>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2016-01-15</currentAsofDate>
+    <currentAsofDate>2016-04-07</currentAsofDate>
     <topicCategories>
         <topicCategory type="ISO 19115">boundaries</topicCategory>
         <topicCategory type="ISO 19115">biota</topicCategory>

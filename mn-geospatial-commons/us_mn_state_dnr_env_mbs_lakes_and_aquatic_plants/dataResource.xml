@@ -5,7 +5,7 @@
     <descriptiveName>Minnesota Biological Survey Lakes and Aquatic Plant Data</descriptiveName>
     <publisher>Minnesota DNR - Division of Ecological Resources</publisher>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2014-12-04</currentAsofDate>
+    <currentAsofDate>2016-03-16</currentAsofDate>
     <resourceType>ESRI File Geodatabase</resourceType>
     <topicCategories>
         <topicCategory type="ISO 19115">environment</topicCategory>
@@ -16,7 +16,6 @@
     <dataSubResources>
         <dataSubResource>
             <subResourceType>fgdb</subResourceType>
-            <subResourceName>env_mbs_lakes_and_aquatic_plants</subResourceName>
             <subResourceIdentifiers>
                 <subResourceGUID>{bb7b327e-d520-4457-8d36-acabea577873}</subResourceGUID>
             </subResourceIdentifiers>

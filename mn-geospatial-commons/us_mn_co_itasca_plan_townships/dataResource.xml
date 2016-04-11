@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataResource>
+  <baseName>plan_townships</baseName>
+  <descriptiveName>PLSS Townships, Itasca County, Minnesota</descriptiveName>
+  <publisherID>us_mn_co_itasca</publisherID>
+  <currentAsofDate>2016-03-09</currentAsofDate>
+  <topicCategories>
+    <topicCategory type="ISO 19115">planningCadastre</topicCategory>
+  </topicCategories>
+  <resourceIdentifiers>
+    <resourceGUID>{866bb2de-0296-44a0-841b-80d06ce20802}</resourceGUID>
+  </resourceIdentifiers>
+  <dataSubResources>
+    <dataSubResource>
+      <subResourceType>fgdb</subResourceType>
+      <subResourceIdentifiers>
+        <subResourceGUID>{2fb8adf5-3342-460f-849e-7b032b64f1ef}</subResourceGUID>
+      </subResourceIdentifiers>
+      <subResourceAccess />
+    </dataSubResource>
+  </dataSubResources>
+</dataResource>
