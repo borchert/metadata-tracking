@@ -1,4 +1,3 @@
-RootService|||http://gis.mda.state.mn.us/arcgis/rest/services/MN_Agriculture_Basemap/MapServer
 MapService|||http://gis.mda.state.mn.us/arcgis/rest/services/MN_Agriculture_Basemap/MapServer/0
 MapService|||http://gis.mda.state.mn.us/arcgis/rest/services/MN_Agriculture_Basemap/MapServer/1
 MapService|||http://gis.mda.state.mn.us/arcgis/rest/services/MN_Agriculture_Basemap/MapServer/2

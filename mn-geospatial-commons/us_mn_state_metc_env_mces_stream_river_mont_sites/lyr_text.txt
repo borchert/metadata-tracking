@@ -1,2 +1,1 @@
-RootService|||http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Environmental_Monitoring_Modeling/MapServer
 MapService|||http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Environmental_Monitoring_Modeling/MapServer/0
