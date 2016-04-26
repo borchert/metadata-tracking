@@ -1,1 +1,1 @@
-RootService|||http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Demographics/MapServer
+MapService|||http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Demographics/MapServer/14
