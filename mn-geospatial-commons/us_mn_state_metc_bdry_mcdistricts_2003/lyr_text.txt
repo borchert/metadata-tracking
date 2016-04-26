@@ -1,1 +1,2 @@
+RootService|||http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Administrative_Political_Boundaries/MapServer
 MapService|||http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Administrative_Political_Boundaries/MapServer/13

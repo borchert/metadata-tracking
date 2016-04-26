@@ -1,0 +1,1 @@
+MapService|||http://geoserver.state.mn.us/arcgis/rest/services/mngeo/MN_GLO_Plats_cached/MapServer

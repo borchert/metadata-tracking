@@ -1,1 +1,5 @@
+RootService|||http://gis.mda.state.mn.us/arcgis/rest/services/MN_Agriculture_AgChem/MapServer
+MapService|||http://gis.mda.state.mn.us/arcgis/rest/services/MN_Agriculture_AgChem/MapServer/0
+MapService|||http://gis.mda.state.mn.us/arcgis/rest/services/MN_Agriculture_AgChem/MapServer/1
+MapService|||http://gis.mda.state.mn.us/arcgis/rest/services/MN_Agriculture_AgChem/MapServer/2
 MapService|||http://gis.mda.state.mn.us/arcgis/rest/services/MN_Agriculture_AgChem/MapServer/3

@@ -1,0 +1,1 @@
+MapService|||http://w20.education.state.mn.us/arcgis/rest/services/Districts/MapServer

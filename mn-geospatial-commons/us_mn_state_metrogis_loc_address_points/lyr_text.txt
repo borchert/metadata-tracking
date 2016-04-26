@@ -1,1 +1,2 @@
+RootService|||http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Facilities_Buildings_Structures/MapServer
 MapService|||http://gis2.metc.state.mn.us/arcgis/rest/services/MetroGIS/Facilities_Buildings_Structures/MapServer/0

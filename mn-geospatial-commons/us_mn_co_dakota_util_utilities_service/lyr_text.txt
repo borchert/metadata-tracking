@@ -1,1 +1,2 @@
+RootService|||http://gis2.co.dakota.mn.us/arcgis/rest/services/DCGIS_OL_Utilities/MapServer
 MapService|||http://gis2.co.dakota.mn.us/arcgis/rest/services/DCGIS_OL_Utilities/MapServer/0
