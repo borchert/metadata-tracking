@@ -4,7 +4,7 @@
     <baseName>trans_state_forest_roads_wheels</baseName>
     <descriptiveName>DNR State Forest Roads - WHEELS Database</descriptiveName>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2016-04-07</currentAsofDate>
+    <currentAsofDate>2016-04-21</currentAsofDate>
     <topicCategories>
         <topicCategory type="ISO 19115">transportation</topicCategory>
     </topicCategories>

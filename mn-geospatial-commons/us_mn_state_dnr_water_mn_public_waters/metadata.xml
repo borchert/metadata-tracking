@@ -1,198 +1,43 @@
-<metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>Minnesota Department of Natural Resources (MNDNR)</origin>
-        <pubdate>20080731</pubdate>
-        <title>Public Waters (PW) Basin Delineations</title>
-        <pubinfo>
-          <publish>MNDNR - Division of Ecological and Water Resources</publish>
-        </pubinfo>
-        <onlink>http://gisdata.mn.gov/dataset/water-mn-public-waters</onlink>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>These are provisional representations of PWI Basin delineations found on the current paper regulatory maps and lists.</abstract>
-      <purpose>These data were developed as an aid in making regulatory decisions regarding Public Waters Basins and Watercourses.</purpose>
-    </descript>
-    <timeperd>
-      <timeinfo>
-        <sngdate>
-          <caldate>20141225</caldate>
-        </sngdate>
-      </timeinfo>
-      <current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset.</current>
-    </timeperd>
-    <status>
-      <progress>In work</progress>
-      <update>Monthly</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-96.811011</westbc>
-        <eastbc>-91.023379</eastbc>
-        <northbc>49.379229</northbc>
-        <southbc>43.436166</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <theme>
-        <themekey>inlandWaters, Hydrography, Water, Public Waters, Basins, Watercourses, Regulation</themekey>
-        <themekt>ISO 19115 Category</themekt>
-      </theme>
-      <place>
-        <placekey>Minnesota, MN</placekey>
-      </place>
-    </keywords>
-    <accconst>None</accconst>
-    <useconst>These are provisional data. Users are expected to contact the appropriate Area and Regional Hydrologist before taking any actions that may affect a regulated basin or watercourse.  Use of the data are constrained only by the MNDNR GIS Data License Agreement. See the Distribution Liability section below for a link.</useconst>
-    <native>ArcView Shapefile</native>
-    <browse>
-      <browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/water_mn_public_waters/preview/preview.jpg</browsen>
-    </browse>
-    <crossref>
-      <citeinfo>
-        <title>This is one of the major feature classes in the &lt;a href="../../water_dnr_hydrography/metadata/dnr_hydrography_dataset.html" target=_blank&gt;&lt;b&gt;DNR Hydrography SDE Dataset&lt;/b&gt;&lt;/a&gt;</title>
-      </citeinfo>
-    </crossref>
-    <ptcontac>
-      <cntinfo>
-        <cntperp>
-          <cntorg>DNR-Waters</cntorg>
-          <cntper>Glenn Radde</cntper>
-        </cntperp>
-        <cntpos>Wetlands GIS Manager</cntpos>
-        <cntaddr>
-          <addrtype>Mailing and Physical</addrtype>
-          <address>500 Lafayette Road
-Central Office - Box 32</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55155</postal>
-        </cntaddr>
-        <cntvoice>651-259-5690</cntvoice>
-        <cntfax>(651) 296-0445</cntfax>
-        <cntemail>glenn.radde@state.mn.us</cntemail>
-      </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <dataqual>
-    <logic>Not Specifically Assessed</logic>
-    <complete>
-      </complete>
-    <posacc>
-      <horizpa>
-        <horizpar>
-          </horizpar>
-      </horizpa>
-      <vertacc>
-        <vertaccr>
-          </vertaccr>
-      </vertacc>
-    </posacc>
-    <lineage>
-      <procstep>
-        <procdesc>
-          </procdesc>
-      </procstep>
-    </lineage>
-    <attracc>
-      <attraccr>
-        </attraccr>
-    </attracc>
-  </dataqual>
-  <spdoinfo>
-    <direct>vector</direct>
-    <mgmg3obj>polygon</mgmg3obj>
-    <mgmg3til>state</mgmg3til>
-  </spdoinfo>
-  <spref>
-    <vertdef>
-      <altsys>
-        <altdatum>Not Applicable</altdatum>
-        <altunits>Not Applicable</altunits>
-      </altsys>
-      <depthsys>
-        <depthdn>Not Applicable</depthdn>
-        <depthdu>Not Applicable</depthdu>
-      </depthsys>
-    </vertdef>
-    <horizsys>
-      <planar>
-        <gridsys>
-          <gridsysn>Universal Transverse Mercator</gridsysn>
-          <utm>
-            <utmzone>15</utmzone>
-          </utm>
-        </gridsys>
-        <planci>
-          <plandu>meters</plandu>
-        </planci>
-      </planar>
-      <geodetic>
-        <horizdn>NAD83</horizdn>
-        <ellips>GRS80</ellips>
-      </geodetic>
-    </horizsys>
-  </spref>
-  <eainfo>
-    </eainfo>
-  <distinfo>
-    <resdesc>water_mn_public_waters</resdesc>
-    <distliab>The Minnesota Department of Natural Resources General Geographic Data License Agreement is online: www.dnr.state.mn.us/sitetools/data_software_license.html
-</distliab>
-    <stdorder>
-      <digform>
-        <digtinfo>
-          <formname>ArcView Shapefile</formname>
-          <transize>1024</transize>
-        </digtinfo>
-      </digform>
-      <ordering>Please visit the download page for this dataset on the Minnesota Geospatial Commons website using the web link below (Online Linkage).</ordering>
-    </stdorder>
-    <distrib>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Department of Natural Resources</cntorg>
-          <cntper>Zeb Thomas</cntper>
-        </cntperp>
-        <cntpos>GIS Data Systems Coordinator</cntpos>
-        <cntaddr>
-          <addrtype>Mailing and Physical</addrtype>
-          <address>500 Lafayette Rd</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55155-4011</postal>
-        </cntaddr>
-        <cntvoice>651-259-5637</cntvoice>
-        <cntemail>zeb.thomas@state.mn.us</cntemail>
-      </cntinfo>
-    </distrib>
-  </distinfo>
-  <metainfo>
-    <metd>20140725</metd>
-    <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
-    <metstdv>1.2</metstdv>
-    <metextns>
-      <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
-    </metextns>
-    <metc>
-      <cntinfo>
-        <cntperp>
-          <cntorg>Minnesota Department of Natural Resources</cntorg>
-          <cntper>Zeb Thomas</cntper>
-        </cntperp>
-        <cntpos>GIS Data Systems Coordinator</cntpos>
-        <cntaddr>
-          <addrtype>Mailing and Physical</addrtype>
-          <address>500 Lafayette Rd</address>
-          <city>St. Paul</city>
-          <state>MN</state>
-          <postal>55155-4011</postal>
-        </cntaddr>
-        <cntvoice>651-259-5637</cntvoice>
-        <cntemail>zeb.thomas@state.mn.us</cntemail>
-      </cntinfo>
-    </metc>
-  </metainfo>
-</metadata>
+<metadata><idinfo><citation><citeinfo><origin>Minnesota Department of Natural Resources (MNDNR)</origin><pubdate>20080731</pubdate><title>Public Waters (PW) Basin and Watercourse Delineations</title><pubinfo><publish>MNDNR - Division of Ecological and Water Resources</publish></pubinfo><onlink>http://gisdata.mn.gov/dataset/water-mn-public-waters</onlink></citeinfo></citation><descript><abstract>These are provisional representations of Public Waters Basins (lakes, wetlands) and Watercourses (streams, altered channels) as depicted on the scanned paper regulatory maps and lists known as Public Waters Inventory (PWI). Public Waters (formerly called Protected Waters) are defined in MN Rule and are protected by specific permitting requirements.
+
+Permits for Water Appropriation, Public Waters Work and Dam Safety are available from the &lt;b&gt;MNDNR Permitting and Reporting System (MPARS)&lt;/b&gt;:  http://www.dnr.state.mn.us/mpars/index.html
+
+-------------------------------------------------------------------------------------------------------------------------------------
+&lt;b&gt;Minnesota Administrative Rules - Chapter 6115 Public Water Resources&lt;/b&gt;
+http://www.revisor.mn.gov/rules/?id=6115
+
+&lt;b&gt;Public Waters Inventory&lt;/b&gt;
+http://www.revisor.mn.gov/statutes/?id=103G.201
+
+&lt;b&gt;Definitions&lt;/b&gt;  http://www.revisor.mn.gov/rules/?id=6120.3000
+
+ &lt;i&gt;Subd. 15 Public waters. &lt;/i&gt;(a) "Public waters" means:
+ 
+&lt;ul&gt;(1) water basins assigned a &lt;b&gt;shoreland management classification&lt;/b&gt; by the commissioner under sections 103F.201 to 103F.221;&lt;b&gt; see&lt;/b&gt; http://www.revisor.mn.gov/rules/?id=6120.3000 
+
+(2) waters of the state that have been finally determined to be public waters or navigable waters by a court of competent jurisdiction;
+
+(3) meandered lakes, excluding lakes that have been legally drained;
+
+(4) water basins previously designated by the commissioner for management for a specific purpose such as trout lakes and game lakes pursuant to applicable laws;
+
+(5) water basins designated as scientific and natural areas under section 84.033;
+
+(6) water basins located within and totally surrounded by publicly owned lands;
+
+(7) water basins where the state of Minnesota or the federal government holds title to any of the beds or shores, unless the owner declares that the water is not necessary for the purposes of the public ownership;
+
+(8) water basins where there is a publicly owned and controlled access that is intended to provide for public access to the water basin;
+
+(9) natural and altered watercourses with a total drainage area greater than two square miles;
+
+(10) natural and altered watercourses designated by the commissioner as trout streams; and
+
+(11) public waters wetlands, unless the statute expressly states otherwise.
+
+(b) Public waters are not determined exclusively by the proprietorship of the underlying, overlying, or surrounding land or by whether it is a body or stream of water that was navigable in fact or susceptible of being used as a highway for commerce at the time this state was admitted to the union.&lt;/ul&gt;</abstract><purpose>These data were developed as an aid in making regulatory decisions regarding Public Waters Basins and Watercourses.</purpose></descript><timeperd><timeinfo><sngdate><caldate>20140902</caldate></sngdate></timeinfo><current>Time Period of Content date indicates the date which the user can be confident of accuracy and completeness of the dataset.</current></timeperd><status><progress>Complete</progress><update>As needed</update></status><spdom><bounding><westbc>-96.811011</westbc><eastbc>-91.023379</eastbc><northbc>49.379229</northbc><southbc>43.436166</southbc></bounding></spdom><keywords><theme><themekey>inlandWaters, Hydrography, Water, Public Waters, Basins, Watercourses, Regulation</themekey><themekt>ISO 19115 Category</themekt></theme><place><placekey>Minnesota, MN</placekey></place></keywords><accconst>None</accconst><useconst>These are provisional data. Users are expected to &lt;b&gt;contact the appropriate Area and Regional Hydrologist before taking any actions&lt;/b&gt; that may affect a regulated basin or watercourse. 
+&lt;b&gt;Area Hydrologist&lt;/b&gt; phone numbers can be found at:  http://www.dnr.state.mn.us/contact/locator.html
+See the &lt;b&gt;MNDNR Permitting and Reporting System (MPARS)&lt;/b&gt;:  http://www.dnr.state.mn.us/mpars/index.html to file a Public Waters Work permit.
+
+Use of the data are constrained only by the MNDNR GIS Data License Agreement. See the Distribution Liability section below for a link.</useconst><native>ArcView Shapefile</native><browse><browsen>ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/water_mn_public_waters/preview/preview.jpg</browsen></browse><crossref><citeinfo><title>This is one of the major feature classes in the &lt;a href="../../water_dnr_hydrography/metadata/dnr_hydrography_dataset.html" target=_blank&gt;&lt;b&gt;DNR Hydrography SDE Dataset&lt;/b&gt;&lt;/a&gt;</title></citeinfo></crossref><ptcontac><cntinfo><cntperp><cntorg>DNR-Waters</cntorg><cntper>Glenn Radde</cntper></cntperp><cntpos>Wetlands GIS Manager</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>500 Lafayette Road
+Central Office - Box 32</address><city>St. Paul</city><state>MN</state><postal>55155</postal></cntaddr><cntvoice>651-259-5690</cntvoice><cntfax>(651) 296-0445</cntfax><cntemail>glenn.radde@state.mn.us</cntemail></cntinfo></ptcontac></idinfo><dataqual><logic>Not Specifically Assessed</logic><lineage><procstep><procdesc>Waterbodies and watercourses were identified from scanned paper Public Waters Inventory (PWI) maps and digitized from current aerial photography.</procdesc></procstep></lineage></dataqual><spdoinfo><direct>vector</direct><mgmg3obj>polygon</mgmg3obj><mgmg3til>state</mgmg3til></spdoinfo><spref><vertdef><altsys><altdatum>Not Applicable</altdatum><altunits>Not Applicable</altunits></altsys><depthsys><depthdn>Not Applicable</depthdn><depthdu>Not Applicable</depthdu></depthsys></vertdef><horizsys><planar><gridsys><gridsysn>Universal Transverse Mercator</gridsysn><utm><utmzone>15</utmzone></utm></gridsys><planci><plandu>meters</plandu></planci></planar><geodetic><horizdn>NAD83</horizdn><ellips>GRS80</ellips></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>public_waters_watercourses_delineations</enttypl><enttypd>Public Waters Watercourses</enttypd></enttyp><attr><attrlabl>DNR_HYDRO_ID</attrlabl><attrdef>Unique GIS record number for each stream route feature in DNR Hydrography SDE - Stream Route Centerlines   (GIS-calculated.)</attrdef><attrdefs>DNR Fisheries</attrdefs><attrdomv><rdom><rdommin>95000</rdommin><rdommax>300000</rdommax></rdom></attrdomv></attr><attr><attrlabl>FW_ID</attrlabl><attrdef>Unique Fisheries Watercourse ID for joining/linking stream routes to DNR Fisheries Stream Survey Oracle DB. FW_IDs are assigned based on how the watercourse is managed by DNR Fisheries (an FW_ID may correspond to an entire stream or portion of a stream.)  Dummy (invalid) Kittle Numbers have FW_ID = 0.</attrdef><attrdefs>DNR Fisheries Stream Survey DB</attrdefs><attrdomv><rdom><rdommin>0, 100000</rdommin><rdommax>300000</rdommax></rdom></attrdomv></attr><attr><attrlabl>KITTLE_NBR</attrlabl><attrdef>Watercourse ID per DNR Fisheries Stream Survey database.  A valid KITTLE_NBR has a drainage-branching format 'X-000-000-000...' (See VALID = Y, below).  A dummy KITTLE_NBR has the format 'MAJXXXX-xxxxx' (See VALID = N, below).</attrdef><attrdefs>DNR Fisheries Stream Survey DB</attrdefs></attr><attr><attrlabl>KITTLE_NAME</attrlabl><attrdef>Stream Name per DNR Fisheries Stream Survey database</attrdef><attrdefs>DNR Fisheries Stream Survey DB</attrdefs></attr><attr><attrlabl>ROUTE_MI</attrlabl><attrdef>Length of entire stream route in miles.  (GIS-calculated.)</attrdef><attrdefs>DNR Fisheries</attrdefs></attr><attr><attrlabl>FROM_MEAS</attrlabl><attrdef>Mile measure for starting (downstream) location of linear feature.  (GIS-calculated.)</attrdef><attrdefs>DNR Fisheries</attrdefs></attr><attr><attrlabl>TO_MEAS</attrlabl><attrdef>Mile measure for ending (upstream) location of linear feature.  (GIS-calculated.)</attrdef><attrdefs>DNR Fisheries</attrdefs></attr><attr><attrlabl>LENGTH_MI</attrlabl><attrdef>Length of linear feature in miles.  (GIS-calculated.)</attrdef><attrdefs>DNR Fisheries</attrdefs></attr><attr><attrlabl>ENTIRE</attrlabl><attrdef>Flag denoting whether entire watercourse route is a Public Waters watercourse.</attrdef><attrdefs>DNR Fisheries</attrdefs><attrdomv><edom><edomv>Y</edomv><edomvd>Yes</edomvd></edom></attrdomv><attrdomv><edom><edomv>N</edomv><edomvd>No</edomvd></edom></attrdomv></attr><attr><attrlabl>VALID</attrlabl><attrdef>Flag to identify validity of assigned Kittle Numbers</attrdef><attrdefs>DNR Fisheries Stream Survey DB</attrdefs><attrdomv><edom><edomv>N</edomv><edomvd>Dummy (invalid) Kittle Number assigned by DNR Fisheries; has the format 'MAJXXXX-xxxxx' where MAJXXXX represents the 4-digit code for the HUC04 drainage and -xxxxx is a unique, sequential number.  Dummy Kittle Numbers usually pertain to small unmanaged streams and streams outside of MN.</edomvd><edomvds>DNR Fisheries</edomvds></edom></attrdomv><attrdomv><edom><edomv>Y</edomv><edomvd>Valid Kittle Number assigned by DNR Fisheries; has a valid drainage-branching format 'X-000-000-000...' where X identifies the major drainage (H-Hudson Bay, I-Iowa/Cedar River, M-Mississippi River, S-Lake Superior) and '-000-000-000...' is  a branching identifier that lengthens as you move upstream.  Valid Kittle Numbers usually pertain to major streams and/or streams that have had some type of DNR management.</edomvd><edomvds>DNR Fisheries</edomvds></edom></attrdomv></attr><attr><attrlabl>LABEL</attrlabl><attrdef>A concatenation of Kittle Name + (Kittle Number) for labeling purposes</attrdef><attrdefs>DNR Fisheries</attrdefs></attr><attr><attrlabl>EVENT_TYPE</attrlabl><attrdomv><edom><edomv>PW</edomv><edomvd>Public Water Watercourse</edomvd></edom></attrdomv></attr><attr><attrlabl>PUBLISH_DATE</attrlabl><attrdef>Date the GIS layer was published or updated and re-published.</attrdef><attrdefs>DNR Fisheries</attrdefs></attr><attr><attrlabl>PWI_ID</attrlabl><attrdef>A county-based code denoting a specific segment of a Public Waters watercourse.</attrdef><attrdefs>DNR EWR</attrdefs></attr><attr><attrlabl>PWI_FLAG</attrlabl><attrdef>A code denoting the type of Public Watercourse</attrdef><attrdefs>DNR EWR</attrdefs><attrdomv><edom><edomv>1</edomv><edomvd>Public Water Natural Watercourse</edomvd></edom></attrdomv><attrdomv><edom><edomv>2</edomv><edomvd>Public Water Altered Natural Watercourse (includes ditches)</edomvd></edom></attrdomv></attr><attr><attrlabl>PWI_LABEL</attrlabl><attrdef>Text description of PWI_FLAG</attrdef></attr><attr><attrlabl>SQMI2_DRAIN</attrlabl><attrdef>Flag denoting whether watercourse has a drainage area &gt; two square miles at its mouth</attrdef></attr><attr><attrlabl>SQMI5_DRAIN</attrlabl><attrdef>Flag denoting whether watercourse has a drainage area &gt; five square miles at its mouth</attrdef></attr><attr><attrlabl>UPSUM_SQMI</attrlabl><attrdef>The sum total of drainage area upstream ofat its mouth</attrdef></attr><attr><attrlabl>CATCH_ID</attrlabl><attrdef>Catchment ID (DNR Level 09 Autocatchments) that contains the mouth of the Public Waters watercourse. The total upstream drainage area (UPSUM_SQMI) is calculated from (and includes) this catchment.</attrdef></attr><attr><attrlabl>CONTENT_DATE</attrlabl></attr></detailed><detailed><enttyp><enttypl>public_waters_basin_delineations</enttypl></enttyp><attr><attrlabl>DNR_HYDRO_ID</attrlabl><attrdef>Unique GIS record number of waterbody features in DNR Hydrography SDE - Public Water Basin Features</attrdef></attr><attr><attrlabl>LKSDB_BASIN_ID</attrlabl><attrdef>Unique ID in DNR EWR LakesDB master database</attrdef></attr><attr><attrlabl>DOWLKNUM</attrlabl><attrdef>Waterbody ID per DNR Ecological and Water Resources (EWR) Division's LAKESDB database; the DOWLKNUM may end in"00" (entire basin) or "01","02", etc. (sub-basin</attrdef><attrdefs>DNR EWR LAKESDB</attrdefs></attr><attr><attrlabl>PW_BASIN_NAME</attrlabl><attrdef>Public Waters Basin name per DNR Ecological and Water Resources Division's LAKESDB database</attrdef></attr><attr><attrlabl>PW_PARENT_NAME</attrlabl><attrdef>Public Waters Basin parent name (corresponding to DOWLKNUMs ending in '00') per DNR Ecological and Water Resources Division's LAKESDB database</attrdef><attrdefs>DNR EWR LAKESDB</attrdefs></attr><attr><attrlabl>PW_SUB_NAME</attrlabl><attrdef>Public Waters Basin sub-basin name (corresponding to DOWLKNUMs not ending in '00') per DNR Ecological and Water Resources Division's LAKESDB database</attrdef><attrdefs>DNR EWR LAKESDB</attrdefs></attr><attr><attrlabl>SUB_FLAG</attrlabl><attrdef>Flag denoting whether the delineation represents an entire basin '00' or sub-basin '01','02', etc.</attrdef><attrdefs>DNR EWR LAKESDB</attrdefs></attr><attr><attrlabl>WETTYPE</attrlabl><attrdef>Wetland Type per EWR LAKESDB database</attrdef><attrdefs>DNR EWR LAKESDB</attrdefs></attr><attr><attrlabl>PWI_CLASS</attrlabl><attrdef>Public Waters class per EWR LAKESDB database</attrdef><attrdefs>DNR EWR LAKESDB</attrdefs><attrdomv><edom><edomv>E</edomv><edomvd>Exempt from Public Waters designation</edomvd></edom></attrdomv><attrdomv><edom><edomv>N</edomv><edomvd>Not a Public Waters basin</edomvd></edom></attrdomv><attrdomv><edom><edomv>O</edomv></edom></attrdomv><attrdomv><edom><edomv>P</edomv><edomvd>Public Waters basin (lake, pond)</edomvd></edom></attrdomv><attrdomv><edom><edomv>W</edomv><edomvd>Public Waters Wetland</edomvd></edom></attrdomv></attr><attr><attrlabl>PWI_LABEL</attrlabl><attrdef>Text description of PWI_CLASS</attrdef><attrdefs>DNR EWR LAKESDB</attrdefs></attr><attr><attrlabl>ACRES</attrlabl><attrdef>Surface water acreage of Public Waters basin (corresponding to the OHW-Ordinary HIgh Water Level). This acreage is often greater than the open water as seen on aerail photography</attrdef><attrdefs>DNR EWR LAKESDB</attrdefs></attr><attr><attrlabl>SHORE_MI</attrlabl><attrdef>Shoreline length in miles, corresponding to OHW delineation.  Includes shoreline around islands.</attrdef><attrdefs>DNR EWR LAKESDB</attrdefs></attr><attr><attrlabl>UTM_CENTER_X</attrlabl></attr><attr><attrlabl>UTM_CENTER_Y</attrlabl></attr><attr><attrlabl>DELINEATED_BY</attrlabl></attr><attr><attrlabl>DELINEATION_DATE</attrlabl></attr><attr><attrlabl>DELINEATION_SRC</attrlabl></attr><attr><attrlabl>DELINEATION_NOTES</attrlabl></attr><attr><attrlabl>PUBLISH_DATE</attrlabl></attr><attr><attrlabl>HAS_FLAG</attrlabl></attr><attr><attrlabl>FLAG_TYPE</attrlabl></attr></detailed></eainfo><distinfo><resdesc>water_mn_public_waters.gdb</resdesc><distliab>Please read accompanying document: Minnesota DNR Data and Software License Agreement.pdf</distliab><stdorder><digform><digtinfo><formname>ArcView Shapefile</formname><transize>1024</transize></digtinfo></digform><ordering>Visit the web site noted in the online linkage section, or send an email to the Distribution Contact listed in this metadata record</ordering></stdorder><distrib><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>500 Lafayette Rd</address><city>St. Paul</city><state>MN</state><postal>55155-4011</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></distrib></distinfo><metainfo><metd>20160222</metd><metstdn>Minnesota Geographic Metadata Guidelines</metstdn><metstdv>1.2</metstdv><metextns><onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink></metextns><metc><cntinfo><cntperp><cntorg>Minnesota Department of Natural Resources</cntorg><cntper>Zeb Thomas</cntper></cntperp><cntpos>GIS Data Systems Coordinator</cntpos><cntaddr><addrtype>Mailing and Physical</addrtype><address>500 Lafayette Rd</address><city>St. Paul</city><state>MN</state><postal>55155-4011</postal></cntaddr><cntvoice>651-259-5637</cntvoice><cntemail>zeb.thomas@state.mn.us</cntemail></cntinfo></metc></metainfo></metadata>

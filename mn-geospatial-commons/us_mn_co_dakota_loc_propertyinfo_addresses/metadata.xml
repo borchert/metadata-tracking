@@ -3,7 +3,7 @@
     <citation>
       <citeinfo>
         <origin>Dakota County GIS, Dakota County GIS, Staff</origin>
-        <pubdate>20160405</pubdate>
+        <pubdate>20160419</pubdate>
         <title>Address Points, Dakota County, Minnesota</title>
         <geoform>vector digital data</geoform>
         <pubinfo>
@@ -19,7 +19,7 @@
     <timeperd>
       <timeinfo>
         <sngdate>
-          <caldate>20160405</caldate>
+          <caldate>20160419</caldate>
         </sngdate>
       </timeinfo>
       <current>Unknown</current>
@@ -461,7 +461,7 @@ Dakota County works with the city and township address authorities to create and
     </stdorder>
   </distinfo>
   <metainfo>
-    <metd>20160405</metd>
+    <metd>20160419</metd>
     <metc>
       <cntinfo>
         <cntperp>

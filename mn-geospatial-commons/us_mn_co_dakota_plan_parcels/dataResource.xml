@@ -3,7 +3,7 @@
   <baseName>plan_parcels</baseName>
   <descriptiveName>Tax Parcels - Points and Polygons, Dakota County, Minnesota</descriptiveName>
   <publisherID>us_mn_co_dakota</publisherID>
-  <currentAsofDate>2016-04-07</currentAsofDate>
+  <currentAsofDate>2016-04-21</currentAsofDate>
   <topicCategories>
     <topicCategory type="ISO 19115">planningCadastre</topicCategory>
   </topicCategories>

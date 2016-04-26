@@ -5,7 +5,7 @@
     <descriptiveName>Minnesota Snowmobile Trails</descriptiveName>
     <publisher>Minnesota DNR - Division of Trails and Waterways</publisher>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2016-03-24</currentAsofDate>
+    <currentAsofDate>2016-04-21</currentAsofDate>
     <resourceType>ESRI File Geodatabase</resourceType>
     <topicCategories>
         <topicCategory type="ISO 19115">transportation</topicCategory>

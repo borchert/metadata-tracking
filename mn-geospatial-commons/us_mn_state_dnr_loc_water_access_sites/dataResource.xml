@@ -4,7 +4,7 @@
     <baseName>loc_water_access_sites</baseName>
     <descriptiveName>Water Access Sites in Minnesota</descriptiveName>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2015-08-27</currentAsofDate>
+    <currentAsofDate>2016-04-21</currentAsofDate>
     <topicCategories>
         <topicCategory type="ISO 19115">location</topicCategory>
         <topicCategory type="ISO 19115">structure</topicCategory>

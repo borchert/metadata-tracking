@@ -4,7 +4,7 @@
     <baseName>bdry_scientific_and_nat_areas</baseName>
     <descriptiveName>Scientific and Natural Areas</descriptiveName>
     <publisherID>us_mn_state_dnr</publisherID>
-    <currentAsofDate>2016-04-08</currentAsofDate>
+    <currentAsofDate>2016-04-22</currentAsofDate>
     <topicCategories>
         <topicCategory type="ISO 19115">boundaries</topicCategory>
         <topicCategory type="ISO 19115">environment</topicCategory>
