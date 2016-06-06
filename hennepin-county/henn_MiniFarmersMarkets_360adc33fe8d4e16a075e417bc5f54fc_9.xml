@@ -44,7 +44,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2016-03-02T09:35:04.890918</gco:DateTime>
+      <gco:DateTime>2016-06-06T08:52:14.179431</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -63,7 +63,7 @@
                   <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
                </gmd:geometricObjectType>
                <gmd:geometricObjectCount>
-                  <gco:Integer>17</gco:Integer>
+                  <gco:Integer>13</gco:Integer>
                </gmd:geometricObjectCount>
             </gmd:MD_GeometricObjects>
          </gmd:geometricObjects>
@@ -106,7 +106,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2016-01-21T22:54:22.685Z</gco:DateTime>
+                        <gco:DateTime>2016-05-27T17:24:58.000Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
@@ -168,7 +168,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Mini farmers' markets for Hennepin County, updated by the GIS Office 5/22/2014. Base data was assembled by HSPHD and originally published 11/2009. Most locations supplied by the Minneapolis Health Department, with additional sites directly from websites. Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/Mini%20Farmers%20Markets.pdf Data updated: 04/01/2014 Use Limitations: This data (i) is furnished \"AS IS\" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. General questions about this data set, including errors, omissions, corrections and/or updates should be directed to the Hennepin County GIS Office at 612-596-9484.</gco:CharacterString>
+            <gco:CharacterString>This dataset contains mini-farmer's market locations in Hennepin County based on data collected and confirmed April/May 2016. The mini-farmer's market refers to a smaller farmer's market with fewer vendors and fewer non-produce items available. This designation was taken from previous GIS layer designations and may not match those used by the City of Minneapolis. Data is based on information assembled by HSPHD and originally published in November 2009. Additional sources include MFMA, and individual websites. Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/Mini%20Farmers%20Markets.pdf Data updated: May 2016 Use Limitations: This data (i) is furnished \"AS IS\" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. General questions about this data set, including errors, omissions, corrections and/or updates should be directed to the Hennepin County GIS Office at 612-596-9484.</gco:CharacterString>
          </gmd:abstract>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
@@ -268,7 +268,7 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimeInstant>
-                           <gml:timePosition>2016-01-21T22:54:22.685Z</gml:timePosition>
+                           <gml:timePosition>2016-05-27T17:24:58.000Z</gml:timePosition>
                         </gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -392,7 +392,7 @@
 
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.hennepin.opendata.arcgis.com/datasets/360adc33fe8d4e16a075e417bc5f54fc_9, orignally in the Project Open Data Metadata Schema, at 2016-03-02T09:35:04.890918.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.hennepin.opendata.arcgis.com/datasets/360adc33fe8d4e16a075e417bc5f54fc_9, orignally in the Project Open Data Metadata Schema, at 2016-06-06T08:52:14.179431.</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

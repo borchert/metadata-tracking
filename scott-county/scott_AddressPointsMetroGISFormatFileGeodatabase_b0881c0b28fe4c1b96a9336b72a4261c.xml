@@ -1,6 +1,6 @@
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
    <gmd:fileIdentifier>
-      <gco:CharacterString>http://gis.hennepin.opendata.arcgis.com/datasets/d345065393054a02b9d15a283b8b3f4a_6</gco:CharacterString>
+      <gco:CharacterString>http://opendata.gis.co.scott.mn.us/datasets/b0881c0b28fe4c1b96a9336b72a4261c</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -44,7 +44,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2016-03-02T09:35:04.244466</gco:DateTime>
+      <gco:DateTime>2016-06-06T08:52:35.628475</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -60,10 +60,10 @@
          <gmd:geometricObjects>
             <gmd:MD_GeometricObjects>
                <gmd:geometricObjectType>
-                  <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
+                  <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="undefined" codeSpace="ISOTC211/19115"/>
                </gmd:geometricObjectType>
                <gmd:geometricObjectCount>
-                  <gco:Integer>34</gco:Integer>
+                  <gco:Integer>-1</gco:Integer>
                </gmd:geometricObjectCount>
             </gmd:MD_GeometricObjects>
          </gmd:geometricObjects>
@@ -91,12 +91,12 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Farmers Markets</gco:CharacterString>
+                  <gco:CharacterString>Address Points - MetroGIS Format - File Geodatabase</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2015-09-14T18:41:44.000Z</gco:DateTime>
+                        <gco:DateTime>2016-05-12T20:46:23.000Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
@@ -106,7 +106,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2016-02-10T00:15:19.365Z</gco:DateTime>
+                        <gco:DateTime>2016-05-12T20:47:37.000Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
@@ -116,21 +116,21 @@
                <gmd:identifier>
                   <gmd:MD_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://gis.hennepin.opendata.arcgis.com/datasets/d345065393054a02b9d15a283b8b3f4a_6</gco:CharacterString>
+                        <gco:CharacterString>http://opendata.gis.co.scott.mn.us/datasets/b0881c0b28fe4c1b96a9336b72a4261c</gco:CharacterString>
                      </gmd:code>
                   </gmd:MD_Identifier>
                </gmd:identifier>
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Hennepin County</gco:CharacterString>
+                        <gco:CharacterString>Scott County Minnesota</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>gis.info@hennepin.us</gco:CharacterString>
+                                    <gco:CharacterString>gis@co.scott.mn.us</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
@@ -144,14 +144,14 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Hennepin County</gco:CharacterString>
+                        <gco:CharacterString>Scott County Minnesota</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>gis.info@hennepin.us</gco:CharacterString>
+                                    <gco:CharacterString>gis@co.scott.mn.us</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
@@ -168,12 +168,12 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Farmers' markets for Hennepin County, updated by the GIS Office 5/22/2014. Based data was assembled by HSPHD and originally published 11/2009. Additional sources include MFMA, and individual websites. Link to Attribute Table Information: http://gis.hennepin.us/OpenData/Metadata/Farmers%20Markets.pdf Data updated: 05/22/2014 Use Limitations: This data (i) is furnished \"AS IS\" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data. General questions about this data set, including errors, omissions, corrections and/or updates should be directed to the Hennepin County GIS Office at 612-596-9484.</gco:CharacterString>
+            <gco:CharacterString>This dataset contains the address points within Scott County, in MetroGIS format. The attributes of the data allow for accurate geocoding.</gco:CharacterString>
          </gmd:abstract>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>Hennepin County</gco:CharacterString>
+                  <gco:CharacterString>Scott County</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
@@ -196,7 +196,7 @@
                      <gmd:identifier>
                         <gmd:MD_Identifier>
                            <gmd:code>
-                              <gco:CharacterString>http://sws.geonames.org/5029877/about.rdf</gco:CharacterString>
+                              <gco:CharacterString>http://sws.geonames.org/5046749/about.rdf</gco:CharacterString>
                            </gmd:code>
                         </gmd:MD_Identifier>
                      </gmd:identifier>
@@ -207,23 +207,23 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>open data</gco:CharacterString>
+                  <gco:CharacterString>Scott County Minnesota</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </gmd:type>
             <gmd:keyword>
-                  <gco:CharacterString>places</gco:CharacterString>
+                  <gco:CharacterString>Property</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>health</gco:CharacterString>
+                  <gco:CharacterString>Address Points</gco:CharacterString>
                </gmd:keyword>
                </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
          <gmd:resourceConstraints>
             <gmd:MD_Constraints>
                <gmd:useLimitation>
-                  <gco:CharacterString>This data (i) is furnished \"AS IS\" with no representation as to completeness or accuracy; (ii) is furnished with no warranty of any kind; and (iii) is not suitable for legal, engineering or surveying purposes. Hennepin County shall not be liable for any damage, injury or loss resulting from this data.</gco:CharacterString>
+                  <gco:CharacterString>Disclaimer: This information is to be used for reference purposes only. Scott County does not guarantee accuracy of the material contained herein and is not responsible for misuse or misinterpretation. The preceding disclaimer is provided pursuant to Minnesota Statutes 466.03, Subd. 21 , and the user of this service acknowledges that Scott County shall not be liable for any damages, and expressly waives all claims, and agrees to defend, indemnify, and hold harmless Scott County from any and all claims brought by User, its employees or agents, or third parties which arise out of the user's access or use of data provided.</gco:CharacterString>
                </gmd:useLimitation>
             </gmd:MD_Constraints>
          </gmd:resourceConstraints>
@@ -244,23 +244,23 @@
             <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
          </gmd:characterSet>
          <gmd:topicCategory>
-            <gmd:MD_TopicCategoryCode>health</gmd:MD_TopicCategoryCode>
+            <gmd:MD_TopicCategoryCode/>
          </gmd:topicCategory>
          <gmd:extent>
             <gmd:EX_Extent>
                <gmd:geographicElement>
                   <gmd:EX_GeographicBoundingBox>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-93.7451</gco:Decimal>
+                        <gco:Decimal>-93.91463871</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-93.2017</gco:Decimal>
+                        <gco:Decimal>-93.27761643</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>44.8234</gco:Decimal>
+                        <gco:Decimal>44.54197857</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>45.1882</gco:Decimal>
+                        <gco:Decimal>44.81327565</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
@@ -268,7 +268,7 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimeInstant>
-                           <gml:timePosition>2016-02-10T00:15:19.365Z</gml:timePosition>
+                           <gml:timePosition>2016-05-12T20:47:37.000Z</gml:timePosition>
                         </gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -284,14 +284,14 @@
                <gmd:distributorContact>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Hennepin County GIS</gco:CharacterString>
+                        <gco:CharacterString>Scott County GIS</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>gis.info@hennepin.us</gco:CharacterString>
+                                    <gco:CharacterString>gis@co.scott.mn.us</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
@@ -319,7 +319,7 @@
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://gis.hennepin.opendata.arcgis.com/datasets/d345065393054a02b9d15a283b8b3f4a_6.zip</gmd:URL>
+                        <gmd:URL/>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -328,7 +328,7 @@
                         <gco:CharacterString/>
                      </gmd:name>
                      <gmd:description>
-                        <gco:CharacterString>Shapefile</gco:CharacterString>
+                        <gco:CharacterString/>
                      </gmd:description>
                      <gmd:function>
                         <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
@@ -343,7 +343,7 @@
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://gis.hennepin.us/arcgis/rest/services/HennepinData/PLACES/MapServer/6</gmd:URL>
+                        <gmd:URL/>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
@@ -352,7 +352,7 @@
                         <gco:CharacterString/>
                      </gmd:name>
                      <gmd:description>
-                        <gco:CharacterString>Esri REST Service</gco:CharacterString>
+                        <gco:CharacterString/>
                      </gmd:description>
                   </gmd:CI_OnlineResource>
                </gmd:onLine>
@@ -363,7 +363,7 @@
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://gis.hennepin.opendata.arcgis.com/datasets/d345065393054a02b9d15a283b8b3f4a_6</gmd:URL>
+                        <gmd:URL/>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -372,7 +372,7 @@
                         <gco:CharacterString/>
                      </gmd:name>
                      <gmd:description>
-                        <gco:CharacterString>Information</gco:CharacterString>
+                        <gco:CharacterString/>
                      </gmd:description>
                      <gmd:function>
                         <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
@@ -392,7 +392,7 @@
 
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://gis.hennepin.opendata.arcgis.com/datasets/d345065393054a02b9d15a283b8b3f4a_6, orignally in the Project Open Data Metadata Schema, at 2016-03-02T09:35:04.244466.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.gis.co.scott.mn.us/datasets/b0881c0b28fe4c1b96a9336b72a4261c, orignally in the Project Open Data Metadata Schema, at 2016-06-06T08:52:35.628475.</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

@@ -96,6 +96,7 @@
 		20131205 (KM) corrected schema location in 
 -->
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vmf="http://www.altova.com/MapForce/UDF/vmf" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:grp="http://www.altova.com/Mapforce/grouping" exclude-result-prefixes="fn grp vmf xs xsi xsl">
+	<xsl:strip-space elements="*"/>
 	<xsl:template name="vmf:vmf1_inputtoresult">
 		<xsl:param name="input" select="()"/>
 		<xsl:choose>
@@ -1635,7 +1636,10 @@
 													<xsl:sequence select="xs:string(xs:string($var164_result_vmf5_inputtoresult))"/>
 												</xsl:attribute>
 											</xsl:if>
-											<xsl:sequence select="xs:string(xs:double(longres))"/>
+											<xsl:if test="longres != ''">
+												<xsl:sequence select="xs:string(xs:double(longres))"/>
+											</xsl:if>
+											
 										</gco:Scale>
 									</gmd:resolution>
 								</gmd:MD_Dimension>
@@ -1670,7 +1674,9 @@
 													<xsl:sequence select="xs:string(xs:string($var165_result_vmf5_inputtoresult))"/>
 												</xsl:attribute>
 											</xsl:if>
-											<xsl:sequence select="xs:string(xs:double(latres))"/>
+											<xsl:if test="latres != ''">
+												<xsl:sequence select="xs:string(xs:double(latres))"/>
+											</xsl:if>
 										</gco:Scale>
 									</gmd:resolution>
 								</gmd:MD_Dimension>
@@ -6464,7 +6470,7 @@
 													</gco:CharacterString>
 												</gmd:description>
 												<gmd:dateTime>
-													<xsl:if test="(fn:contains(fn:lower-case(fn:normalize-space(fn:string(procdate))), 'unknown') or fn:contains(fn:lower-case(fn:normalize-space(fn:string(procdate))), 'unpublished'))">
+													<xsl:if test="(fn:contains(fn:lower-case(fn:normalize-space(fn:string())), 'unknown') or fn:contains(fn:lower-case(fn:normalize-space(fn:string(procdate))), 'unpublished'))">
 														<xsl:attribute name="gco:nilReason">
 															<xsl:sequence select="xs:string(xs:string(fn:lower-case(fn:normalize-space(fn:string(procdate)))))"/>
 														</xsl:attribute>

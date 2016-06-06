@@ -1,0 +1,563 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="metadata">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:any processContents="lax"/>
+				<xs:element name="idinfo">
+					<xs:complexType>
+						<xs:all>
+							<xs:element name="native" type="xs:string" minOccurs="0"/>
+							<xs:element name="citation">
+								<xs:complexType>
+									<xs:all>
+										<xs:element name="citeinfo">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="origin" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+													<xs:element name="title" type="xs:string" minOccurs="1" maxOccurs="1"/>
+													<xs:element name="pubinfo">
+														<xs:complexType>
+															<xs:all>
+																<xs:element name="publish" type="xs:string"/>
+															</xs:all>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="pubdate" type="xs:string" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="onlink" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:all>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="descript">
+								<xs:complexType>
+									<xs:all>
+										<xs:element name="supplinf" type="xs:string" minOccurs="0" maxOccurs="1"/>
+										<xs:element name="abstract" type="xs:string" minOccurs="1" maxOccurs="1"/>
+										<xs:element name="purpose" type="xs:string" minOccurs="1" maxOccurs="1"/>
+									</xs:all>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="status">
+								<xs:complexType>
+									<xs:all>
+										<xs:element name="progress" type="progressType" minOccurs="0"/>
+										<xs:element name="update" type="updateType" minOccurs="0"/>
+									</xs:all>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="spdom">
+								<xs:complexType>
+									<xs:all>
+										<xs:element name="lboundng" minOccurs="0">
+											<xs:complexType>
+												<xs:all>
+													<xs:element name="leftbc">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:float">
+																	<xs:attribute name="Sync" type="xs:string"/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="rightbc">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:float">
+																	<xs:attribute name="Sync" type="xs:string"/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="bottombc">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:float">
+																	<xs:attribute name="Sync" type="xs:string"/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="topbc">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:float">
+																	<xs:attribute name="Sync" type="xs:string"/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:all>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="bounding">
+											<xs:complexType>
+												<xs:all>
+													<xs:element name="westbc" type="xs:float"/>
+													<xs:element name="eastbc" type="xs:float"/>
+													<xs:element name="northbc" type="xs:float"/>
+													<xs:element name="southbc" type="xs:float"/>
+												</xs:all>
+											</xs:complexType>
+										</xs:element>
+									</xs:all>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="accconst" type="xs:string" minOccurs="0"/>
+							<xs:element name="useconst" type="xs:string" minOccurs="0"/>
+							<xs:element name="browse" minOccurs="0">
+								<xs:complexType>
+									<xs:all>
+										<xs:element name="browsen" type="xs:anyURI" minOccurs="0"/>
+										<xs:element name="browsed" type="xs:string" minOccurs="0"/>
+										<xs:element name="browset" type="xs:string" minOccurs="0"/>
+									</xs:all>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="keywords">
+								<xs:complexType>
+									<xs:all>
+										<xs:element name="theme" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element  name="themekt" type="xs:string" minOccurs="0"/>
+													<xs:element  name="themekey" type="xs:string" minOccurs="0"  maxOccurs="unbounded"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="place" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="placekey" type="xs:string" minOccurs="0"  maxOccurs="unbounded"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:all>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="timeperd">
+								<xs:complexType>
+									<xs:all>
+										<xs:element name="current" type="xs:string" minOccurs="0"/>
+										<xs:element name="timeinfo">
+											<xs:complexType>
+												<xs:all>
+													<xs:element name="sngdate">
+														<xs:complexType>
+															<xs:all>
+																<xs:element name="caldate" type="xs:string"/>
+															</xs:all>
+														</xs:complexType>
+													</xs:element>
+												</xs:all>
+											</xs:complexType>
+										</xs:element>
+									</xs:all>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="ptcontac">
+								<xs:complexType>
+									<xs:all>
+										<xs:element name="cntinfo" type="contactType" minOccurs="1" maxOccurs="1"/>
+									</xs:all>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="crossref" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="citeinfo" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="title" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:all>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dataqual">
+					<xs:complexType>
+						<xs:all>
+							<xs:element name="logic" type="xs:string" minOccurs="0"/>
+							<xs:element name="complete" type="xs:string" minOccurs="0"/>
+							<xs:element name="posacc" minOccurs="0">
+								<xs:complexType>
+									<xs:all>
+										<xs:element name="horizpa" minOccurs="0">
+											<xs:complexType>
+												<xs:all>
+													<xs:element name="horizpar" type="xs:string"/>
+												</xs:all>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="vertacc" minOccurs="0">
+											<xs:complexType>
+												<xs:all>
+													<xs:element name="vertaccr" type="xs:string"/>
+												</xs:all>
+											</xs:complexType>
+										</xs:element>
+									</xs:all>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="lineage" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="srcinfo" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="srcscale" type="xs:string" minOccurs="0"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="procstep" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="procdesc" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="attracc" minOccurs="0">
+								<xs:complexType>
+									<xs:all>
+										<xs:element name="attraccr" type="xs:string"/>
+									</xs:all>
+								</xs:complexType>
+							</xs:element>
+						</xs:all>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="spdoinfo" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="indspref" type="xs:string" minOccurs="0"/>
+							<xs:element name="direct" type="directType" minOccurs="0"/>
+							<xs:element name="mgmg3obj" type="xs:string" minOccurs="0"/>
+							<xs:element name="mgmg3til" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="spref">
+					<xs:complexType>
+						<xs:all>
+							<xs:element name="horizsys">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="planar">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="gridsys">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="gridsysn" type="xs:string"/>
+																<xs:element name="utm">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="utmzone" type="xs:string"/>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="spcs" minOccurs="0">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="spcszone" type="xs:string" minOccurs="0"/>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="mgmg4coz" type="xs:string" minOccurs="0"/>
+																<xs:element name="mgmg4adj" type="xs:string" minOccurs="0"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="mapproj" minOccurs="0">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="mapprojn" type="xs:string" minOccurs="0"/>
+																<xs:element name="mgmg4par" type="xs:string" minOccurs="0"/>
+																<xs:element name="otherprj" type="xs:string" minOccurs="0"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="planci" minOccurs="0">
+														<xs:complexType>
+															<xs:all>
+																<xs:element name="coordrep" minOccurs="0">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="absres" type="xs:string" minOccurs="0"/>
+																			<xs:element name="ordres" type="xs:string" minOccurs="0"/>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="distbrep" minOccurs="0">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="distres" type="xs:string" minOccurs="0"/>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="plandu" type="xs:string"/>
+															</xs:all>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="geograph" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="latres" type="xs:string" minOccurs="0"/>
+													<xs:element name="longres" type="xs:string" minOccurs="0"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="geodetic">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="horizdn" type="xs:string"/>
+													<xs:element name="ellips" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="vertdef" minOccurs="0">
+								<xs:complexType>
+									<xs:all>
+										<xs:element name="altenc" minOccurs="0"/>
+										<xs:element name="altres" minOccurs="0"/>
+										<xs:element name="altsys" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="altdatum" type="xs:string" minOccurs="0"/>
+													<xs:element name="altunits" type="xs:string" minOccurs="0"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="depthsys" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="depthdn" type="xs:string" minOccurs="0"/>
+													<xs:element name="depthdu" type="xs:string" minOccurs="0"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:all>
+								</xs:complexType>
+							</xs:element>
+						</xs:all>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="eainfo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="detailed" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="enttyp" minOccurs="0">
+											<xs:complexType>
+												<xs:all>
+													<xs:element type="xs:string" name="enttypl"/>
+													<xs:element type="xs:string" name="enttypd" minOccurs="0"/>
+													<xs:element type="xs:string" name="enttypds" minOccurs="0"/>
+												</xs:all>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="attr" maxOccurs="unbounded" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="attrlabl" type="xs:string"/>
+													<xs:element name="attrdef" type="xs:string" minOccurs="0"/>
+													<xs:element name="attrdefs" type="xs:string" minOccurs="0"/>
+													<xs:element name="attrdomv" maxOccurs="unbounded" minOccurs="0">
+														<xs:complexType>
+															<xs:all>
+																<xs:element name="udom" type="xs:string" minOccurs="0"/>
+																<xs:element name="rdom" minOccurs="0">
+																	<xs:complexType>
+																		<xs:all>
+																			<xs:element name="rdommin" type="xs:string" minOccurs="0"/>
+																			<xs:element name="rdommax " type="xs:string" minOccurs="0"/>
+																			<xs:element name="attrunit" type="xs:string" minOccurs="0"/>
+																			<xs:element name="attrmres" type="xs:string" minOccurs="0"/>
+																			<xs:element name="attr" type="xs:string" minOccurs="0"/>
+																		</xs:all>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="edom" minOccurs="0">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="edomv" type="xs:string" minOccurs="0"/>
+																			<xs:element name="edomvd" type="xs:string" minOccurs="0"/>
+																			<xs:element name="edomvds" type="xs:string" minOccurs="0"/>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="codesetd" minOccurs="0">
+																	<xs:complexType>
+																		<xs:all>
+																			<xs:element name="codesetn" type="xs:string" minOccurs="0"/>
+																			<xs:element name="codesets" type="xs:string" minOccurs="0"/>
+																		</xs:all>
+																	</xs:complexType>
+																</xs:element>
+															</xs:all>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="overview" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="eaover" type="xs:string"/>
+										<xs:element name="eadetcit" type="xs:string" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="distinfo">
+					<xs:complexType>
+						<xs:all>
+							<xs:element name="resdesc" type="xs:string"/>
+							<xs:element name="stdorder" minOccurs="0" maxOccurs="1">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="ordering" type="xs:string"/>
+										<!---> The above element is out of order due to the MME it should be deeper as shown below</!-->
+										<xs:element name="digform" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="digtinfo" minOccurs="0">
+														<xs:complexType>
+															<xs:all>
+																<xs:element name="formname"  type="xs:string" minOccurs="0"/>
+																<xs:element name="formvern" type="xs:string" minOccurs="0"/>
+																<xs:element name="transize"  type="xs:string" minOccurs="0"/>
+															</xs:all>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="ordering" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="distliab" type="xs:string"/>
+							<xs:element name="distrib">
+								<xs:complexType>
+									<xs:all>
+										<xs:element name="cntinfo" type="contactType" minOccurs="1" maxOccurs="1"/>
+									</xs:all>
+								</xs:complexType>
+							</xs:element>
+						</xs:all>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="metainfo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="metd" type="xs:string"/>
+							<xs:element name="metstdn" type="xs:string" minOccurs="0"/>
+							<xs:element name="metstdv" type="xs:float" minOccurs="0"/>
+							<xs:element name="metextns" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:all>
+										<xs:element name="onlink" type="xs:anyURI"/>
+									</xs:all>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="metc">
+								<xs:complexType>
+									<xs:all>
+										<xs:element name="cntinfo" type="contactType" minOccurs="1" maxOccurs="1"/>
+									</xs:all>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+<xs:simpleType name="progressType">
+	<xs:restriction base="xs:token">
+		<xs:pattern value="Complete|In Work|Planned|complete|in work|planned| In work"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="srcscaleType">
+	<xs:restriction base="xs:token">
+		<xs:pattern value="[0-9]+|NA|Unknown|unknown|na"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="updateType">
+	<xs:restriction base="xs:token">
+		<xs:pattern value="Continually|Daily|Weekly|Monthly|Annually|Unknown|As needed|Irregular|None planned|continually|daily|weekly|monthly|annually|unknown|as needed|irregular|none planned|None Planned| As Needed"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="currentType">
+	<xs:restriction base="xs:token">
+		<xs:pattern value="ground condition|publication date|\D|Ground condition|Publication date|Ground Condition|Publication Date"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="directType">
+	<xs:restriction base="xs:token">
+		<xs:pattern value="Point|Vector|Raster|point|vector|raster"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="contactType">
+	<xs:sequence>
+		<xs:element name="cntperp" minOccurs="1" maxOccurs="1">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="cntorg" type="xs:string" minOccurs="0" maxOccurs="1"/>
+					<xs:element name="cntper" type="xs:string" minOccurs="1" maxOccurs="1"/>
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+		<xs:element name="cntpos" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		<xs:element name="cntaddr" minOccurs="1" maxOccurs="unbounded">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="addrtype" type="addressType" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="address" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="city" type="xs:string" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="state" type="xs:string" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="postal" type="xs:int" minOccurs="1" maxOccurs="1"/>
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+		<xs:element name="cntvoice" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+		<xs:element name="cntfax" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		<xs:element name="cntemail" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:simpleType name="addressType">
+	<xs:restriction base="xs:token">
+		<xs:pattern value="mailing|mailing and physical|physical|Mailing|Physical|Mailing and Physical|physical and mailing|Physical and Mailing"/>
+	</xs:restriction>
+</xs:simpleType>
+</xs:schema>
