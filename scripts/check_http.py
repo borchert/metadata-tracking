@@ -77,10 +77,12 @@ def main():
             #for now don't check zips, as I think it may generate all of them and will
             #probably annihilate servers
             try:
-                if link is not None and link.text is not None and ".zip" not in link.text:
+               # if link is not None and link.text is not None and ".zip" not in link.text:
+                if link is not None and link.text is not None:
                     check_url(link.text)
             except TypeError as e:
-                import pdb; pdb.set_trace()
+                print e
+                
 
 
 if __name__ == "__main__":

@@ -11,6 +11,7 @@ import pdb
 import re
 import datetime
 from operator import itemgetter
+import time
 
 
 """
@@ -24,7 +25,7 @@ def get_list_of_datasets(root_data_json):
 def request_data_json(url):
     try:
         print "requesting data.json..."
-        j = requests.get(url).json()
+        j = requests.get(url, timeout=15).json()
         print "data.json received..."
     except requests.exceptions.HTTPError as e:
         sys.exit(e.message)
@@ -62,6 +63,7 @@ def get_bbox(dataset):
 def get_dataset_json(dataset_id):
     try:
         r = requests.get(dataset_id + ".json")
+        time.sleep(1)
     except requests.exceptions.HTTPError as e:
         sys.exit(e.message)
     else:
@@ -202,10 +204,10 @@ def main(url, prefix, output_path, template):
         # so use Beautiful Soup to get the plain text
         if dataset["description"]:
             abstract_soup = BeautifulSoup(dataset["description"])
-            
+
             #TODO make this use a regex instead of this $%#(#@$4^%^ string of replaces :(
             ab = abstract_soup.get_text(" ", strip=True).replace(r'"',r'\"').replace(u"\xa0"," ").replace("\r\n", " ").replace("  "," ").replace("\n"," ").replace("&#13;", " ")
-            
+
             elements["abstract"][0].text = ab
 
         else:
@@ -287,7 +289,7 @@ PATHS = {
     "abstract" : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract/gco:CharacterString",
     "accconst" : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:otherConstraints/gco:CharacterString",
     "useconst" : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString",
-    "id"       : "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+    "id"       : "gmd:dataSetURI/gco:CharacterString",
     "datatype" : "gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectType/gmd:MD_GeometricObjectTypeCode",
     "metadata_source": "gmd:metadataMaintenance/gmd:MD_MaintenanceInformation/gmd:maintenanceNote/gco:CharacterString",
     "metadata_timestamp":"gmd:dateStamp/gco:DateTime",
