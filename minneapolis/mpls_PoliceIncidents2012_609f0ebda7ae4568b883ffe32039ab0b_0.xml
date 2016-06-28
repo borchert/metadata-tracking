@@ -1,6 +1,6 @@
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
    <gmd:fileIdentifier>
-      <gco:CharacterString>http://opendata.gis.co.scott.mn.us/datasets/41cdfa51ed1a406aa03749686fc325bb_0</gco:CharacterString>
+      <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/609f0ebda7ae4568b883ffe32039ab0b_0</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -16,11 +16,8 @@
    </gmd:hierarchyLevelName>
    <gmd:contact>
       <gmd:CI_ResponsibleParty>
-         <gmd:individualName>
-            <gco:CharacterString>Kevin Dyke</gco:CharacterString>
-         </gmd:individualName>
          <gmd:organisationName>
-            <gco:CharacterString>University of Minnesota Libraries</gco:CharacterString>
+            <gco:CharacterString>John R. Borchert Map Library, University of Minnesota Libraries</gco:CharacterString>
          </gmd:organisationName>
          <gmd:positionName>
             <gco:CharacterString>Spatial Data Analyst/Curator</gco:CharacterString>
@@ -30,9 +27,7 @@
                <gmd:address>
                   <gmd:CI_Address>
                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>
-                          dykex005@umn.edu
-                       </gco:CharacterString>
+                        <gco:CharacterString>mapref@umn.edu</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
@@ -44,7 +39,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2016-06-06T08:52:35.932745</gco:DateTime>
+      <gco:DateTime>2016-06-28T11:08:10.640894</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -52,6 +47,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>2007</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/609f0ebda7ae4568b883ffe32039ab0b_0</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:spatialRepresentationInfo>
       <gmd:MD_VectorSpatialRepresentation>
          <gmd:topologyLevel>
@@ -63,7 +61,7 @@
                   <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
                </gmd:geometricObjectType>
                <gmd:geometricObjectCount>
-                  <gco:Integer>4583</gco:Integer>
+                  <gco:Integer>21930</gco:Integer>
                </gmd:geometricObjectCount>
             </gmd:MD_GeometricObjects>
          </gmd:geometricObjects>
@@ -91,12 +89,12 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Snow Plow Data</gco:CharacterString>
+                  <gco:CharacterString>Police Incidents 2012</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2016-03-04T21:38:41.000Z</gco:DateTime>
+                        <gco:DateTime>2016-06-15T15:32:52.000Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
@@ -106,31 +104,24 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2016-03-04T21:43:56.000Z</gco:DateTime>
+                        <gco:DateTime>2016-06-15T15:40:07.678Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
-               <gmd:identifier>
-                  <gmd:MD_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>http://opendata.gis.co.scott.mn.us/datasets/41cdfa51ed1a406aa03749686fc325bb_0</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:MD_Identifier>
-               </gmd:identifier>
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Scott County Minnesota</gco:CharacterString>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>gis@co.scott.mn.us</gco:CharacterString>
+                                    <gco:CharacterString>gis@minneapolismn.gov</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
@@ -144,14 +135,14 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Scott County Minnesota</gco:CharacterString>
+                        <gco:CharacterString>MapIT Minneapolis</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>gis@co.scott.mn.us</gco:CharacterString>
+                                    <gco:CharacterString>gis@minneapolismn.gov</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
@@ -168,12 +159,12 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This dataset contains GPS points collected from a single trip from a Scott County snow plow.</gco:CharacterString>
+            <gco:CharacterString>For questions about this data please contact PoliceOpenData@minneapolismn.gov Police Incidents for 2012</gco:CharacterString>
          </gmd:abstract>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>Scott County</gco:CharacterString>
+                  <gco:CharacterString>City of Minneapolis, Minnesota</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
@@ -186,20 +177,13 @@
                      <gmd:date>
                         <gmd:CI_Date>
                            <gmd:date>
-                              <gco:Date>3/7/13</gco:Date>
+                              <gco:Date>1/15/06</gco:Date>
                            </gmd:date>
                            <gmd:dateType>
                               <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
                            </gmd:dateType>
                         </gmd:CI_Date>
                      </gmd:date>
-                     <gmd:identifier>
-                        <gmd:MD_Identifier>
-                           <gmd:code>
-                              <gco:CharacterString>http://sws.geonames.org/5046749/about.rdf</gco:CharacterString>
-                           </gmd:code>
-                        </gmd:MD_Identifier>
-                     </gmd:identifier>
                   </gmd:CI_Citation>
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
@@ -207,23 +191,23 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>Scott County Minnesota</gco:CharacterString>
+                  <gco:CharacterString>Minneapolis</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </gmd:type>
             <gmd:keyword>
-                  <gco:CharacterString>Snow Plow</gco:CharacterString>
+                  <gco:CharacterString>Open Data</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>Transportation</gco:CharacterString>
+                  <gco:CharacterString>Police</gco:CharacterString>
                </gmd:keyword>
                </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
          <gmd:resourceConstraints>
             <gmd:MD_Constraints>
                <gmd:useLimitation>
-                  <gco:CharacterString>Disclaimer: This information is to be used for reference purposes only. Scott County does not guarantee accuracy of the material contained herein and is not responsible for misuse or misinterpretation. The preceding disclaimer is provided pursuant to Minnesota Statutes 466.03, Subd. 21 , and the user of this service acknowledges that Scott County shall not be liable for any damages, and expressly waives all claims, and agrees to defend, indemnify, and hold harmless Scott County from any and all claims brought by User, its employees or agents, or third parties which arise out of the user's access or use of data provided.</gco:CharacterString>
+                  <gco:CharacterString>The maps provided by the City of Minneapolis are compilations of records, information and data from various sources, and they are to be used for reference purposes only. The City of Minneapolis does not warrant or guarantee that the Geographic Information Systems (GIS) data or maps are complete, current, or accurate. The City of Minneapolis does not represent that the GIS data can be used for navigational, tracking, legal, engineering, surveying, or any other purpose requiring exacting measurement of distance or direction or precision in the depiction of geographic features. Pursuant to Minnesota Statutes, Section 466.03, Subdivision 21, the City of Minneapolis disclaims any liability for claims based on alleged or actual inaccuracies in the GIS data or maps. This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.</gco:CharacterString>
                </gmd:useLimitation>
             </gmd:MD_Constraints>
          </gmd:resourceConstraints>
@@ -244,26 +228,23 @@
             <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
          </gmd:characterSet>
          <gmd:topicCategory>
-            <gmd:MD_TopicCategoryCode>intelligenceMilitary</gmd:MD_TopicCategoryCode>
-         </gmd:topicCategory>
-         <gmd:topicCategory>
-            <gmd:MD_TopicCategoryCode>transportation</gmd:MD_TopicCategoryCode>
+            <gmd:MD_TopicCategoryCode/>
          </gmd:topicCategory>
          <gmd:extent>
             <gmd:EX_Extent>
                <gmd:geographicElement>
                   <gmd:EX_GeographicBoundingBox>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-93.91463871</gco:Decimal>
+                        <gco:Decimal>-93.32893071983604</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-93.27761643</gco:Decimal>
+                        <gco:Decimal>-93.19852663927583</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>44.54197857</gco:Decimal>
+                        <gco:Decimal>44.8906715123617</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>44.81327565</gco:Decimal>
+                        <gco:Decimal>45.0525491128304</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
@@ -271,7 +252,7 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimeInstant>
-                           <gml:timePosition>2016-03-04T21:43:56.000Z</gml:timePosition>
+                           <gml:timePosition>2016-06-15T15:40:07.678Z</gml:timePosition>
                         </gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -287,14 +268,14 @@
                <gmd:distributorContact>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Scott County GIS</gco:CharacterString>
+                        <gco:CharacterString>Minneapolis GIS</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>gis@co.scott.mn.us</gco:CharacterString>
+                                    <gco:CharacterString>gis@minneapolismn.gov</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
@@ -322,7 +303,7 @@
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL/>
+                        <gmd:URL>http://opendata.minneapolismn.gov/datasets/609f0ebda7ae4568b883ffe32039ab0b_0.zip</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -331,7 +312,7 @@
                         <gco:CharacterString/>
                      </gmd:name>
                      <gmd:description>
-                        <gco:CharacterString/>
+                        <gco:CharacterString>Shapefile</gco:CharacterString>
                      </gmd:description>
                      <gmd:function>
                         <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
@@ -346,7 +327,7 @@
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>https://services.arcgis.com/DqIh9WAsIZcPlBEF/arcgis/rest/services/Snow_Plow_Data/FeatureServer/0</gmd:URL>
+                        <gmd:URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Public_Police_2012/FeatureServer/0</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
@@ -366,7 +347,7 @@
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://opendata.gis.co.scott.mn.us/datasets/41cdfa51ed1a406aa03749686fc325bb_0</gmd:URL>
+                        <gmd:URL>http://opendata.minneapolismn.gov/datasets/609f0ebda7ae4568b883ffe32039ab0b_0</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -395,7 +376,7 @@
 
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.gis.co.scott.mn.us/datasets/41cdfa51ed1a406aa03749686fc325bb_0, orignally in the Project Open Data Metadata Schema, at 2016-06-06T08:52:35.932745.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/609f0ebda7ae4568b883ffe32039ab0b_0, orignally in the Project Open Data Metadata Schema, at 2016-06-28T11:08:10.640894.</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

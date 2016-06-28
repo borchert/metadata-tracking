@@ -1,6 +1,6 @@
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
    <gmd:fileIdentifier>
-      <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/cac8a24f084d4e118d00adae13ad968f_0</gco:CharacterString>
+      <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/02ab4e12be434fee9d266531f563a6e8_0</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO639-2"/>
@@ -16,11 +16,8 @@
    </gmd:hierarchyLevelName>
    <gmd:contact>
       <gmd:CI_ResponsibleParty>
-         <gmd:individualName>
-            <gco:CharacterString>Kevin Dyke</gco:CharacterString>
-         </gmd:individualName>
          <gmd:organisationName>
-            <gco:CharacterString>University of Minnesota Libraries</gco:CharacterString>
+            <gco:CharacterString>John R. Borchert Map Library, University of Minnesota Libraries</gco:CharacterString>
          </gmd:organisationName>
          <gmd:positionName>
             <gco:CharacterString>Spatial Data Analyst/Curator</gco:CharacterString>
@@ -30,9 +27,7 @@
                <gmd:address>
                   <gmd:CI_Address>
                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>
-                          dykex005@umn.edu
-                       </gco:CharacterString>
+                        <gco:CharacterString>mapref@umn.edu</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
@@ -44,7 +39,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2016-06-06T08:52:24.042765</gco:DateTime>
+      <gco:DateTime>2016-06-28T11:08:19.642617</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -52,6 +47,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>2007</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/02ab4e12be434fee9d266531f563a6e8_0</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:spatialRepresentationInfo>
       <gmd:MD_VectorSpatialRepresentation>
          <gmd:topologyLevel>
@@ -60,10 +58,10 @@
          <gmd:geometricObjects>
             <gmd:MD_GeometricObjects>
                <gmd:geometricObjectType>
-                  <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115"/>
+                  <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115"/>
                </gmd:geometricObjectType>
                <gmd:geometricObjectCount>
-                  <gco:Integer>21631</gco:Integer>
+                  <gco:Integer>5</gco:Integer>
                </gmd:geometricObjectCount>
             </gmd:MD_GeometricObjects>
          </gmd:geometricObjects>
@@ -91,12 +89,12 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Police Incidents 2011</gco:CharacterString>
+                  <gco:CharacterString>Minneapolis Police Precincts</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2014-12-11T20:37:00.000Z</gco:DateTime>
+                        <gco:DateTime>2016-06-08T14:13:32.000Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
@@ -106,20 +104,13 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2015-12-02T21:35:42.000Z</gco:DateTime>
+                        <gco:DateTime>2016-06-08T14:21:01.008Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
-               <gmd:identifier>
-                  <gmd:MD_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>http://opendata.minneapolismn.gov/datasets/cac8a24f084d4e118d00adae13ad968f_0</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:MD_Identifier>
-               </gmd:identifier>
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
@@ -168,12 +159,12 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>For questions about this data please contact PoliceOpenData@minneapolismn.gov Police Incidents for 2011</gco:CharacterString>
+            <gco:CharacterString>The City of Minneapolis Police Department Precincts . For questions about this data please contact PoliceOpenData@minneapolismn.gov</gco:CharacterString>
          </gmd:abstract>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>Minneapolis, City of</gco:CharacterString>
+                  <gco:CharacterString>City of Minneapolis, Minnesota</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
@@ -193,13 +184,6 @@
                            </gmd:dateType>
                         </gmd:CI_Date>
                      </gmd:date>
-                     <gmd:identifier>
-                        <gmd:MD_Identifier>
-                           <gmd:code>
-                              <gco:CharacterString>http://sws.geonames.org/5037657/about.rdf</gco:CharacterString>
-                           </gmd:code>
-                        </gmd:MD_Identifier>
-                     </gmd:identifier>
                   </gmd:CI_Citation>
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
@@ -213,10 +197,10 @@
                   <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115"/>
                </gmd:type>
             <gmd:keyword>
-                  <gco:CharacterString>Open Data</gco:CharacterString>
+                  <gco:CharacterString>Police Precincts</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>Police</gco:CharacterString>
+                  <gco:CharacterString>MPD</gco:CharacterString>
                </gmd:keyword>
                </gmd:MD_Keywords>
          </gmd:descriptiveKeywords>
@@ -251,16 +235,16 @@
                <gmd:geographicElement>
                   <gmd:EX_GeographicBoundingBox>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-93.54013061501706</gco:Decimal>
+                        <gco:Decimal>-93.32913577</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-93.19837951708355</gco:Decimal>
+                        <gco:Decimal>-93.1938489</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>44.87675857430105</gco:Decimal>
+                        <gco:Decimal>44.89047145</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>45.05112075693572</gco:Decimal>
+                        <gco:Decimal>45.05125116</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
@@ -268,7 +252,7 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimeInstant>
-                           <gml:timePosition>2015-12-02T21:35:42.000Z</gml:timePosition>
+                           <gml:timePosition>2016-06-08T14:21:01.008Z</gml:timePosition>
                         </gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -319,7 +303,7 @@
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://opendata.minneapolismn.gov/datasets/cac8a24f084d4e118d00adae13ad968f_0.zip</gmd:URL>
+                        <gmd:URL>http://opendata.minneapolismn.gov/datasets/02ab4e12be434fee9d266531f563a6e8_0.zip</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>download</gco:CharacterString>
@@ -343,7 +327,7 @@
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Police_Incidents_2011/FeatureServer/0</gmd:URL>
+                        <gmd:URL>https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Police_Precincts/FeatureServer/0</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>ESRI:ArcGIS</gco:CharacterString>
@@ -363,7 +347,7 @@
                <gmd:onLine>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://opendata.minneapolismn.gov/datasets/cac8a24f084d4e118d00adae13ad968f_0</gmd:URL>
+                        <gmd:URL>http://opendata.minneapolismn.gov/datasets/02ab4e12be434fee9d266531f563a6e8_0</gmd:URL>
                      </gmd:linkage>
                      <gmd:protocol>
                         <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -392,7 +376,7 @@
 
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/cac8a24f084d4e118d00adae13ad968f_0, orignally in the Project Open Data Metadata Schema, at 2016-06-06T08:52:24.042765.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://opendata.minneapolismn.gov/datasets/02ab4e12be434fee9d266531f563a6e8_0, orignally in the Project Open Data Metadata Schema, at 2016-06-28T11:08:19.642617.</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>

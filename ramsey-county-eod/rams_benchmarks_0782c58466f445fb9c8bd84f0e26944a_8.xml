@@ -16,11 +16,8 @@
    </gmd:hierarchyLevelName>
    <gmd:contact>
       <gmd:CI_ResponsibleParty>
-         <gmd:individualName>
-            <gco:CharacterString>Kevin Dyke</gco:CharacterString>
-         </gmd:individualName>
          <gmd:organisationName>
-            <gco:CharacterString>University of Minnesota Libraries</gco:CharacterString>
+            <gco:CharacterString>John R. Borchert Map Library, University of Minnesota Libraries</gco:CharacterString>
          </gmd:organisationName>
          <gmd:positionName>
             <gco:CharacterString>Spatial Data Analyst/Curator</gco:CharacterString>
@@ -30,9 +27,7 @@
                <gmd:address>
                   <gmd:CI_Address>
                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>
-                          dykex005@umn.edu
-                       </gco:CharacterString>
+                        <gco:CharacterString>mapref@umn.edu</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
@@ -44,7 +39,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2016-06-06T08:52:28.857195</gco:DateTime>
+      <gco:DateTime>2016-06-28T11:09:55.367359</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -52,6 +47,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>2007</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://openramsey.ramseygis.opendata.arcgis.com/datasets/0782c58466f445fb9c8bd84f0e26944a_8</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:spatialRepresentationInfo>
       <gmd:MD_VectorSpatialRepresentation>
          <gmd:topologyLevel>
@@ -106,20 +104,13 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2016-04-06T01:27:51.047Z</gco:DateTime>
+                        <gco:DateTime>2014-12-04T17:20:04.000Z</gco:DateTime>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
-               <gmd:identifier>
-                  <gmd:MD_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>http://openramsey.ramseygis.opendata.arcgis.com/datasets/0782c58466f445fb9c8bd84f0e26944a_8</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:MD_Identifier>
-               </gmd:identifier>
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
@@ -173,7 +164,7 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>Ramsey County</gco:CharacterString>
+                  <gco:CharacterString>Ramsey County, Minnesota</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115"/>
@@ -193,13 +184,6 @@
                            </gmd:dateType>
                         </gmd:CI_Date>
                      </gmd:date>
-                     <gmd:identifier>
-                        <gmd:MD_Identifier>
-                           <gmd:code>
-                              <gco:CharacterString>http://sws.geonames.org/5042563/about.rdf</gco:CharacterString>
-                           </gmd:code>
-                        </gmd:MD_Identifier>
-                     </gmd:identifier>
                   </gmd:CI_Citation>
                </gmd:thesaurusName>
             </gmd:MD_Keywords>
@@ -268,7 +252,7 @@
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
                         <gml:TimeInstant>
-                           <gml:timePosition>2016-04-06T01:27:51.047Z</gml:timePosition>
+                           <gml:timePosition>2014-12-04T17:20:04.000Z</gml:timePosition>
                         </gml:TimeInstant>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -392,7 +376,7 @@
 
          </gmd:maintenanceAndUpdateFrequency>
          <gmd:maintenanceNote>
-            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://openramsey.ramseygis.opendata.arcgis.com/datasets/0782c58466f445fb9c8bd84f0e26944a_8, orignally in the Project Open Data Metadata Schema, at 2016-06-06T08:52:28.857195.</gco:CharacterString>
+            <gco:CharacterString>This metadata was generated from the Esri Open Data item from http://openramsey.ramseygis.opendata.arcgis.com/datasets/0782c58466f445fb9c8bd84f0e26944a_8, orignally in the Project Open Data Metadata Schema, at 2016-06-28T11:09:55.367359.</gco:CharacterString>
          </gmd:maintenanceNote>
       </gmd:MD_MaintenanceInformation>
    </gmd:metadataMaintenance>
