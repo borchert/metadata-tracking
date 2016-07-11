@@ -5,7 +5,7 @@ from lxml import etree
 import requests
 from bs4 import BeautifulSoup
 from copy import deepcopy
-import os, os.path
+import os
 import json
 import pdb
 import re
@@ -14,9 +14,8 @@ from operator import itemgetter
 import time
 
 
-"""
-Script for writing ISO 19139 metadata for Esri Open Data datasets. Work in progress...
-"""
+# Script for writing ISO 19139 metadata for Esri Open Data datasets.
+# Work in progress...
 
 def get_list_of_datasets(root_data_json):
     return [i["identifier"] for i in root_data_json]
@@ -40,21 +39,25 @@ def get_data_json(url):
 def get_elements_for_open_data(tree):
     field_map = {}
     for field in FIELDS:
-        field_map[field] = tree.findall(PATHS[field],NSMAP)
+        field_map[field] = tree.findall(PATHS[field], NSMAP)
     return field_map
 
 
-def parse_template_into_tree(template_name="scrape_open_data/opendata_iso_template_gmd_gone.xml"):
+def parse_template_into_tree(
+        template_name="scrape_open_data/opendata_iso_template_gmd_gone.xml"):
     return etree.parse(template_name)
 
 
 def get_bbox(dataset):
     """
-    Function that reads a dataset record from data.json and if the key 'spatial' exists, splits
-    it into a list and returns it. If 'spatial' is null or equivalent to a global scale, returns False
+    Function that reads a dataset record from data.json and if the key
+    'spatial' exists, splits it into a list and returns it. If 'spatial'
+    is null or equivalent to a global scale, returns False
     """
-    # we don't want null bboxes or "global" datasets, which are most likely just incorrect bboxes
-    if not dataset["spatial"] or dataset["spatial"] == "-180.0,-90.0,180.0,90.0":
+    # we don't want null bboxes or "global" datasets,
+    # which are most likely just incorrect bboxes
+    if (not dataset["spatial"] or
+            dataset["spatial"] == "-180.0,-90.0,180.0,90.0"):
         return False
     else:
         return dataset["spatial"].split(",")
@@ -69,29 +72,33 @@ def get_dataset_json(dataset_id):
     else:
 
         if "json" in r.headers["content-type"]:
-            json = r.json()
-            if json.has_key("data") is False:
+            j = r.json()
+            if "data" not in j:
                 return False
-            return json["data"]
+            return j["data"]
 
 
 def parse_datatype(dataset_detail):
     try:
         geometryType = dataset_detail["geometry_type"]
-    except (KeyError,TypeError) as e:
-        print "couldn't get geometry type for {title}".format(title=dataset_detail["item_name"])
+    except (KeyError, TypeError) as e:
+        print "couldn't get geometry type for {title}".format(
+            title=dataset_detail["item_name"])
         return "undefined"
 
-    if geometryType == "esriGeometryPoint" or geometryType == "esriGeometryMultipoint":
+    if (geometryType == "esriGeometryPoint" or
+            geometryType == "esriGeometryMultipoint"):
         return "point"
 
     elif geometryType == "esriGeometryPolyline":
         return "curve"
 
-    elif geometryType == "esriGeometryPolygon" or geometryType == "esriGeometryEnvelope":
+    elif (geometryType == "esriGeometryPolygon" or
+            geometryType == "esriGeometryEnvelope"):
         return "surface"
     else:
         return "nonspatial"
+
 
 def get_date_tag_from_code_tag(code_tag):
     for element in code_tag.getparent().getparent().getchildren():
@@ -106,19 +113,28 @@ def guess_iso_topic_categories(keywords_list):
         kw = keyword.lower()
         for topic in ISO_TOPIC_CATEGORIES:
             if kw in topic or kw in ISO_TOPIC_CATEGORIES[topic]:
-                if categories_dict.has_key(topic):
+                if topic in categories_dict:
                     categories_dict[topic] = categories_dict[topic] + 1
                 else:
                     categories_dict[topic] = 1
     categories_list = categories_dict.items()
+
     if len(categories_list) == 0:
         return False
-    sorted_categories = sorted(categories_list, key=itemgetter(1), reverse=True)
+
+    sorted_categories = sorted(
+        categories_list,
+        key=itemgetter(1),
+        reverse=True
+    )
     top_category = sorted_categories[0]
     top_category_val = top_category[1]
+
     for i in sorted_categories:
+
         if i[1] == top_category_val:
             final_categories.append(i)
+
     return [i[0] for i in final_categories]
 
 
@@ -142,10 +158,13 @@ def main(url, prefix, output_path, template):
         if dataset["webService"].endswith(".pdf"):
             print "skipping {d} cuz it's a PDF!".format(d=dataset['title'])
             continue
-        #print dataset
+
         dataset_detail = get_dataset_json(dataset["identifier"])
+
         if not dataset_detail:
-            print "There's a problem with {id}.".format(id=dataset["identifier"])
+            print("There's a problem with {id}.".format(
+                id=dataset["identifier"]
+            ))
             continue
         print "Now on:", dataset_detail["name"]
 
@@ -215,7 +234,9 @@ def main(url, prefix, output_path, template):
 
         if dataset_detail["license"]:
             license_soup = BeautifulSoup(dataset_detail["license"])
-            license_text = license_soup.get_text(" ", strip=True).replace(r'"',r'\"').replace(u"\xa0"," ").replace("\r\n", " ").replace("  "," ").replace("\n"," ").replace("&#13;", " ")
+            license_text = license_soup.get_text(" ", strip=True).replace(
+                r'"', r'\"').replace(u"\xa0", " ").replace("\r\n", " ").replace(
+                "  ", " ").replace("\n", " ").replace("&#13;", " ")
             elements["useconst"][0].text = license_text
 
         keywords_list = dataset["keyword"]
@@ -223,7 +244,8 @@ def main(url, prefix, output_path, template):
         keyword_element = keywords_element.find("gmd:keyword", NSMAP)
 
         for index, keyword in enumerate(keywords_list):
-            keywords_element.findall("gmd:keyword", NSMAP)[index].find("gco:CharacterString", NSMAP).text = keyword
+            keywords_element.findall("gmd:keyword", NSMAP)[index].find(
+                "gco:CharacterString", NSMAP).text = keyword
 
             if index != len(keywords_list) - 1:
                 keywords_element.append(deepcopy(keyword_element))
@@ -231,7 +253,9 @@ def main(url, prefix, output_path, template):
         topic_categories = guess_iso_topic_categories(keywords_list)
         if topic_categories:
             if len(topic_categories) == 1:
-                elements["topic_categories"][0].find("gmd:MD_TopicCategoryCode", NSMAP).text = topic_categories[0]
+                elements["topic_categories"][0].find(
+                    "gmd:MD_TopicCategoryCode",
+                    NSMAP).text = topic_categories[0]
             else:
                 for ind, topic in enumerate(topic_categories):
                     parent = elements["topic_categories"][0].getparent()
@@ -245,7 +269,8 @@ def main(url, prefix, output_path, template):
                         parent.findall("gmd:topicCategory/gmd:MD_TopicCategoryCode", NSMAP)[-1].text = topic
 
         timestamp = datetime.datetime.now().isoformat()
-        elements["metadata_source"][0].text = elements["metadata_source"][0].text.format(url=dataset["identifier"],
+        elements["metadata_source"][0].text = elements["metadata_source"][0].text.format(
+            url=dataset["identifier"],
             datetime=timestamp
         )
         elements["metadata_timestamp"][0].text = timestamp
